@@ -1,5 +1,5 @@
 // Cache only this app's public static files. Learning data stays in localStorage.
-const CACHE="frog-mobile-14bf1d0813a3";
+const CACHE="frog-mobile-ea151c9f6bd8";
 const ROOT=new URL('./',self.location.href);
 const FILES=['index.html','manifest.webmanifest','icon-192.png','icon-512.png','apple-touch-icon.png'];
 self.addEventListener('install',event=>event.waitUntil(

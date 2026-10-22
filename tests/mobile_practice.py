@@ -3,8 +3,14 @@
 Run with a local static server on port 8000: python3 tests/mobile_practice.py
 """
 from pathlib import Path
+from functools import partial
+from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 import json
 import re
+import shutil
+import tempfile
+import threading
+import time
 from playwright.sync_api import sync_playwright
 
 BASE = 'http://127.0.0.1:8000/'
@@ -196,6 +202,52 @@ with sync_playwright() as p:
     assert dp.locator('.practice-back .close-glyph').is_visible()
     assert dp.locator('#practice-mobile-menu').is_hidden()
     passed('Desktop shortcut layout remains available')
+    desktop.close()
+
+    # Exercise an existing installation upgrading, where serviceWorker.ready already
+    # resolves for the old worker while the new offline files are still downloading.
+    class QuietHandler(SimpleHTTPRequestHandler):
+        def log_message(self,*args):
+            pass
+
+        def do_GET(self):
+            if self.path=='/index.html':
+                time.sleep(.3)
+            super().do_GET()
+
+    with tempfile.TemporaryDirectory(prefix='practice-upgrade-') as directory:
+        fixture=Path(directory)
+        (fixture/'index.html').write_text('<!doctype html><title>Previous version</title><script>navigator.serviceWorker.register("./sw.js")</script>')
+        (fixture/'sw.js').write_text('''
+          self.addEventListener('install',e=>e.waitUntil(caches.open('previous-practice').then(c=>c.addAll(['./index.html'])).then(()=>self.skipWaiting())));
+          self.addEventListener('activate',e=>e.waitUntil(self.clients.claim()));
+          self.addEventListener('fetch',e=>{if(e.request.mode==='navigate')e.respondWith(fetch(e.request).catch(()=>caches.match('./index.html')));});
+        ''')
+        server=ThreadingHTTPServer(('127.0.0.1',0),partial(QuietHandler,directory=directory))
+        thread=threading.Thread(target=server.serve_forever,daemon=True)
+        thread.start()
+        upgrade=browser.new_context(viewport={'width':390,'height':844},is_mobile=True,has_touch=True)
+        try:
+            up=upgrade.new_page()
+            origin=f'http://127.0.0.1:{server.server_port}/'
+            up.goto(origin)
+            up.wait_for_function('!!navigator.serviceWorker.controller')
+            up.evaluate("localStorage.setItem('unrelated-study-record','preserve-me')")
+            root=Path(__file__).resolve().parents[1]
+            for name in ('index.html','sw.js','manifest.webmanifest','icon-192.png','icon-512.png','apple-touch-icon.png'):
+                shutil.copyfile(root/name,fixture/name)
+            up.goto(origin+'?upgrade=phone-practice#settings')
+            up.wait_for_function("document.querySelector('[data-mobile-status]')?.textContent.startsWith('已保存离线内容')",timeout=20000)
+            assert up.evaluate("localStorage.getItem('unrelated-study-record')")=='preserve-me'
+            upgrade.set_offline(True)
+            up.reload()
+            assert up.locator('#content h1').inner_text()=='设置与备份'
+            assert up.evaluate("localStorage.getItem('unrelated-study-record')")=='preserve-me'
+            passed('Existing installations wait for the new offline cache and preserve stored records on upgrade')
+        finally:
+            upgrade.close()
+            server.shutdown()
+            server.server_close()
     browser.close()
 
 Path('/tmp/mobile-practice-results.json').write_text(json.dumps({'passed':RESULTS,'browser':'Chromium phone profiles and desktop; synthetic soft-keyboard edit sequences'},ensure_ascii=False,indent=2))

@@ -438,7 +438,7 @@ window.LOCAL_AUDIO_BANK={"voice":"Cori · 英式女声","locale":"en-GB","mime":
 <script>
 (() => {
   'use strict';
-  window.FROG_OFFLINE_CACHE="frog-mobile-14bf1d0813a3";
+  window.FROG_OFFLINE_CACHE="frog-mobile-ea151c9f6bd8";
   let installPrompt=null;
   let offlineReady=false;
   let registrationFailed=false;
@@ -500,7 +500,17 @@ window.LOCAL_AUDIO_BANK={"voice":"Cori · 英式女声","locale":"en-GB","mime":
     new MutationObserver(refresh).observe(document.getElementById('content'),{childList:true});
     if(location.protocol==='file:'||!isSecureContext)return;
     if(!('serviceWorker' in navigator)){registrationFailed=true;refresh();return;}
-    navigator.serviceWorker.register('./sw.js').then(()=>navigator.serviceWorker.ready).then(async()=>{
+    navigator.serviceWorker.register('./sw.js',{updateViaCache:'none'}).then(async registration=>{
+      const worker=registration.installing||registration.waiting;
+      if(worker&&worker.state!=='activated')await new Promise((resolve,reject)=>{
+        const changed=()=>{
+          if(!['activated','redundant'].includes(worker.state))return;
+          worker.removeEventListener('statechange',changed);
+          if(worker.state==='redundant')reject(new Error('Offline update failed'));else resolve();
+        };
+        worker.addEventListener('statechange',changed);changed();
+      });
+      await navigator.serviceWorker.ready;
       const cache=await caches.open(window.FROG_OFFLINE_CACHE);
       offlineReady=Boolean(await cache.match(new URL('./index.html',location.href).href));
       if(!offlineReady)registrationFailed=true;
