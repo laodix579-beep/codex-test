@@ -1,9 +1,9 @@
 // Cache only this app's public static files. Learning data stays in localStorage.
-const CACHE="frog-mobile-3abc1e3b9609";
+const CACHE="frog-mobile-14bf1d0813a3";
 const ROOT=new URL('./',self.location.href);
 const FILES=['index.html','manifest.webmanifest','icon-192.png','icon-512.png','apple-touch-icon.png'];
 self.addEventListener('install',event=>event.waitUntil(
-  caches.open(CACHE).then(cache=>cache.addAll(FILES.map(file=>new URL(file,ROOT).href)))
+  caches.open(CACHE).then(cache=>cache.addAll(FILES.map(file=>new Request(new URL(file,ROOT).href,{cache:'reload'})))).then(()=>self.skipWaiting())
 ));
 self.addEventListener('activate',event=>event.waitUntil((async()=>{
   // Old versions may still be serving open tabs, so retain them until the next upgrade.
