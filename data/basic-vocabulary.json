@@ -3,7 +3,7 @@
   "category_id": "C01",
   "category_name": "基础入门",
   "language_pair": "英语—简体中文",
-  "pronunciation": "以通用美式英语 IPA 为参考，部分发音标注为学习辅助；正式上线前建议抽查校对。",
+  "pronunciation": "书面音标采用英式 DJ 音标作为学习参考；实际示范音频采用清晰美式英语。两者在部分元音和 r 音上有所区别。",
   "purpose": "小蛙自习室独立英语词库分类。此文件仅包含第一类“基础入门”，不包含其他七大类。",
   "subcategories": [
     {
@@ -13,7 +13,7 @@
       "items": [
         {
           "english": "hello",
-          "ipa": "/həˈloʊ/",
+          "ipa": "/həˈləʊ/",
           "chinese": "你好；喂",
           "item_type": "word",
           "level": 1,
@@ -39,7 +39,7 @@
         },
         {
           "english": "good morning",
-          "ipa": "/ɡʊd ˈmɔrnɪŋ/",
+          "ipa": "/ɡʊd ˈmɔːnɪŋ/",
           "chinese": "早上好",
           "item_type": "phrase",
           "level": 1,
@@ -52,7 +52,7 @@
         },
         {
           "english": "good afternoon",
-          "ipa": "/ɡʊd ˌæftərˈnuːn/",
+          "ipa": "/ɡʊd ˌɑːftəˈnuːn/",
           "chinese": "下午好",
           "item_type": "phrase",
           "level": 1,
@@ -130,7 +130,7 @@
         },
         {
           "english": "see you later",
-          "ipa": "/siː juː ˈleɪtər/",
+          "ipa": "/siː juː ˈleɪtə/",
           "chinese": "待会儿见",
           "item_type": "phrase",
           "level": 1,
@@ -182,7 +182,7 @@
         },
         {
           "english": "you're welcome",
-          "ipa": "/jʊr ˈwɛlkəm/",
+          "ipa": "/jɔː ˈwelkəm/",
           "chinese": "不客气",
           "item_type": "phrase",
           "level": 1,
@@ -195,7 +195,7 @@
         },
         {
           "english": "sorry",
-          "ipa": "/ˈsɑːri/",
+          "ipa": "/ˈsɒri/",
           "chinese": "对不起；抱歉",
           "item_type": "word",
           "level": 1,
@@ -234,7 +234,7 @@
         },
         {
           "english": "no",
-          "ipa": "/noʊ/",
+          "ipa": "/nəʊ/",
           "chinese": "不；不是",
           "item_type": "word",
           "level": 1,
@@ -247,7 +247,7 @@
         },
         {
           "english": "how are you?",
-          "ipa": "/haʊ ɑːr juː/",
+          "ipa": "/haʊ ɑː juː/",
           "chinese": "你好吗？",
           "item_type": "phrase",
           "level": 1,
@@ -286,7 +286,7 @@
         },
         {
           "english": "welcome",
-          "ipa": "/ˈwɛlkəm/",
+          "ipa": "/ˈwelkəm/",
           "chinese": "欢迎",
           "item_type": "word",
           "level": 1,
@@ -306,7 +306,7 @@
       "items": [
         {
           "english": "zero",
-          "ipa": "/ˈzɪroʊ/",
+          "ipa": "/ˈzɪərəʊ/",
           "chinese": "零",
           "item_type": "word",
           "level": 1,
@@ -358,7 +358,7 @@
         },
         {
           "english": "four",
-          "ipa": "/fɔːr/",
+          "ipa": "/fɔː/",
           "chinese": "四",
           "item_type": "word",
           "level": 1,
@@ -397,7 +397,7 @@
         },
         {
           "english": "seven",
-          "ipa": "/ˈsevən/",
+          "ipa": "/ˈsevn/",
           "chinese": "七",
           "item_type": "word",
           "level": 1,
@@ -449,7 +449,7 @@
         },
         {
           "english": "eleven",
-          "ipa": "/ɪˈlevən/",
+          "ipa": "/ɪˈlevn/",
           "chinese": "十一",
           "item_type": "word",
           "level": 1,
@@ -475,7 +475,7 @@
         },
         {
           "english": "thirteen",
-          "ipa": "/ˌθɜːrˈtiːn/",
+          "ipa": "/ˌθɜːˈtiːn/",
           "chinese": "十三",
           "item_type": "word",
           "level": 1,
@@ -488,7 +488,7 @@
         },
         {
           "english": "fourteen",
-          "ipa": "/ˌfɔːrˈtiːn/",
+          "ipa": "/ˌfɔːˈtiːn/",
           "chinese": "十四",
           "item_type": "word",
           "level": 1,
@@ -527,7 +527,7 @@
         },
         {
           "english": "seventeen",
-          "ipa": "/ˌsevənˈtiːn/",
+          "ipa": "/ˌsevnˈtiːn/",
           "chinese": "十七",
           "item_type": "word",
           "level": 1,
@@ -618,7 +618,7 @@
         },
         {
           "english": "twenty-four",
-          "ipa": "/ˌtwenti ˈfɔːr/",
+          "ipa": "/ˌtwenti ˈfɔː/",
           "chinese": "二十四",
           "item_type": "word",
           "level": 1,
@@ -657,7 +657,7 @@
         },
         {
           "english": "twenty-seven",
-          "ipa": "/ˌtwenti ˈsevən/",
+          "ipa": "/ˌtwenti ˈˈsevn/",
           "chinese": "二十七",
           "item_type": "word",
           "level": 1,
@@ -696,7 +696,7 @@
         },
         {
           "english": "thirty",
-          "ipa": "/ˈθɜːrti/",
+          "ipa": "/ˈθɜːti/",
           "chinese": "三十",
           "item_type": "word",
           "level": 1,
@@ -709,7 +709,7 @@
         },
         {
           "english": "forty",
-          "ipa": "/ˈfɔːrti/",
+          "ipa": "/ˈfɔːti/",
           "chinese": "四十",
           "item_type": "word",
           "level": 1,
@@ -748,7 +748,7 @@
         },
         {
           "english": "seventy",
-          "ipa": "/ˈsevənti/",
+          "ipa": "/ˈsevnti/",
           "chinese": "七十",
           "item_type": "word",
           "level": 1,
@@ -800,7 +800,7 @@
         },
         {
           "english": "number",
-          "ipa": "/ˈnʌmbər/",
+          "ipa": "/ˈnʌmbə/",
           "chinese": "数字；数量",
           "item_type": "word",
           "level": 1,
@@ -878,7 +878,7 @@
         },
         {
           "english": "more",
-          "ipa": "/mɔːr/",
+          "ipa": "/mɔː/",
           "chinese": "更多；更多的",
           "item_type": "word",
           "level": 1,
@@ -943,7 +943,7 @@
         },
         {
           "english": "half",
-          "ipa": "/hæf/",
+          "ipa": "/hɑːf/",
           "chinese": "一半",
           "item_type": "word",
           "level": 1,
@@ -956,7 +956,7 @@
         },
         {
           "english": "first",
-          "ipa": "/fɜːrst/",
+          "ipa": "/fɜːst/",
           "chinese": "第一；首先",
           "item_type": "word",
           "level": 1,
@@ -982,7 +982,7 @@
         },
         {
           "english": "third",
-          "ipa": "/θɜːrd/",
+          "ipa": "/θɜːd/",
           "chinese": "第三",
           "item_type": "word",
           "level": 1,
@@ -1021,7 +1021,7 @@
         },
         {
           "english": "a lot of",
-          "ipa": "/ə ˈlɑːt əv/",
+          "ipa": "/ə ˈlɒt əv/",
           "chinese": "许多；大量",
           "item_type": "phrase",
           "level": 1,
@@ -1060,7 +1060,7 @@
         },
         {
           "english": "little",
-          "ipa": "/ˈlɪtəl/",
+          "ipa": "/ˈlɪtl/",
           "chinese": "少量的；少的（不可数名词）",
           "item_type": "word",
           "level": 1,
@@ -1073,7 +1073,7 @@
         },
         {
           "english": "a little",
-          "ipa": "/ə ˈlɪtəl/",
+          "ipa": "/ə ˈlɪtl/",
           "chinese": "一点儿；少量",
           "item_type": "phrase",
           "level": 1,
@@ -1099,7 +1099,7 @@
         },
         {
           "english": "total",
-          "ipa": "/ˈtoʊtəl/",
+          "ipa": "/ˈtəʊtl/",
           "chinese": "总数；总计",
           "item_type": "word",
           "level": 1,
@@ -1145,7 +1145,7 @@
         },
         {
           "english": "yellow",
-          "ipa": "/ˈjeloʊ/",
+          "ipa": "/ˈjeləʊ/",
           "chinese": "黄色；黄色的",
           "item_type": "word",
           "level": 1,
@@ -1171,7 +1171,7 @@
         },
         {
           "english": "orange",
-          "ipa": "/ˈɔːrɪndʒ/",
+          "ipa": "/ˈɒrɪndʒ/",
           "chinese": "橙色；橙色的",
           "item_type": "word",
           "level": 1,
@@ -1184,7 +1184,7 @@
         },
         {
           "english": "purple",
-          "ipa": "/ˈpɜːrpəl/",
+          "ipa": "/ˈpɜːpl/",
           "chinese": "紫色；紫色的",
           "item_type": "word",
           "level": 1,
@@ -1262,7 +1262,7 @@
         },
         {
           "english": "gold",
-          "ipa": "/ɡoʊld/",
+          "ipa": "/ɡəʊld/",
           "chinese": "金色；金色的",
           "item_type": "word",
           "level": 1,
@@ -1275,7 +1275,7 @@
         },
         {
           "english": "silver",
-          "ipa": "/ˈsɪlvər/",
+          "ipa": "/ˈsɪlvə/",
           "chinese": "银色；银色的",
           "item_type": "word",
           "level": 1,
@@ -1301,7 +1301,7 @@
         },
         {
           "english": "dark blue",
-          "ipa": "/dɑːrk bluː/",
+          "ipa": "/dɑːk bluː/",
           "chinese": "深蓝色；深蓝色的",
           "item_type": "word",
           "level": 1,
@@ -1327,7 +1327,7 @@
         },
         {
           "english": "dark green",
-          "ipa": "/dɑːrk ɡriːn/",
+          "ipa": "/dɑːk ɡriːn/",
           "chinese": "深绿色；深绿色的",
           "item_type": "word",
           "level": 1,
@@ -1386,7 +1386,7 @@
         },
         {
           "english": "circle",
-          "ipa": "/ˈsɜːrkəl/",
+          "ipa": "/ˈsɜːkl/",
           "chinese": "圆形",
           "item_type": "word",
           "level": 1,
@@ -1399,7 +1399,7 @@
         },
         {
           "english": "square",
-          "ipa": "/skwer/",
+          "ipa": "/skweə/",
           "chinese": "正方形",
           "item_type": "word",
           "level": 1,
@@ -1412,7 +1412,7 @@
         },
         {
           "english": "triangle",
-          "ipa": "/ˈtraɪˌæŋɡəl/",
+          "ipa": "/ˈtraɪæŋɡl/",
           "chinese": "三角形",
           "item_type": "word",
           "level": 1,
@@ -1425,7 +1425,7 @@
         },
         {
           "english": "rectangle",
-          "ipa": "/ˈrekˌtæŋɡəl/",
+          "ipa": "/ˈrektæŋɡl/",
           "chinese": "长方形",
           "item_type": "word",
           "level": 1,
@@ -1438,7 +1438,7 @@
         },
         {
           "english": "star",
-          "ipa": "/stɑːr/",
+          "ipa": "/stɑː/",
           "chinese": "星形；星星",
           "item_type": "word",
           "level": 1,
@@ -1451,7 +1451,7 @@
         },
         {
           "english": "heart",
-          "ipa": "/hɑːrt/",
+          "ipa": "/hɑːt/",
           "chinese": "心形；心脏",
           "item_type": "word",
           "level": 1,
@@ -1464,7 +1464,7 @@
         },
         {
           "english": "oval",
-          "ipa": "/ˈoʊvəl/",
+          "ipa": "/ˈəʊvl/",
           "chinese": "椭圆形",
           "item_type": "word",
           "level": 1,
@@ -1503,7 +1503,7 @@
         },
         {
           "english": "dot",
-          "ipa": "/dɑːt/",
+          "ipa": "/dɒt/",
           "chinese": "点；小圆点",
           "item_type": "word",
           "level": 1,
@@ -1516,7 +1516,7 @@
         },
         {
           "english": "corner",
-          "ipa": "/ˈkɔːrnər/",
+          "ipa": "/ˈkɔːnə/",
           "chinese": "角；拐角",
           "item_type": "word",
           "level": 1,
@@ -1568,7 +1568,7 @@
         },
         {
           "english": "curved",
-          "ipa": "/kɜːrvd/",
+          "ipa": "/kɜːvd/",
           "chinese": "弯曲的",
           "item_type": "word",
           "level": 1,
@@ -1607,7 +1607,7 @@
         },
         {
           "english": "large",
-          "ipa": "/lɑːrdʒ/",
+          "ipa": "/lɑːdʒ/",
           "chinese": "大的；大型的",
           "item_type": "word",
           "level": 1,
@@ -1620,7 +1620,7 @@
         },
         {
           "english": "long",
-          "ipa": "/lɔːŋ/",
+          "ipa": "/lɒŋ/",
           "chinese": "长的",
           "item_type": "word",
           "level": 1,
@@ -1633,7 +1633,7 @@
         },
         {
           "english": "short",
-          "ipa": "/ʃɔːrt/",
+          "ipa": "/ʃɔːt/",
           "chinese": "短的；矮的",
           "item_type": "word",
           "level": 1,
@@ -1672,7 +1672,7 @@
         },
         {
           "english": "low",
-          "ipa": "/loʊ/",
+          "ipa": "/ləʊ/",
           "chinese": "低的；低处的",
           "item_type": "word",
           "level": 1,
@@ -1698,7 +1698,7 @@
         },
         {
           "english": "narrow",
-          "ipa": "/ˈnæroʊ/",
+          "ipa": "/ˈnærəʊ/",
           "chinese": "窄的",
           "item_type": "word",
           "level": 1,
@@ -1776,7 +1776,7 @@
         },
         {
           "english": "shallow",
-          "ipa": "/ˈʃæloʊ/",
+          "ipa": "/ˈʃæləʊ/",
           "chinese": "浅的",
           "item_type": "word",
           "level": 1,
@@ -1807,5 +1807,7 @@
     "subcategory_count": 4,
     "vocabulary_item_count": 136,
     "item_type_note": "word 表示单词，phrase 表示常用短语或表达。"
-  }
+  },
+  "ipa_system": "DJ",
+  "audio_locale": "en-US"
 }

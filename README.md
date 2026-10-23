@@ -14,7 +14,7 @@
 
 旧版浏览器首次打开新版时，替换原有单词仓库并重置单词学习状态，课程、课程进度、手账及其他资料保留。替换前的原始资料在同一浏览器本地存储的 `:before-basic-us-v1` 键下保留一次恢复副本；该副本不会上传。
 
-词条、例句及原有课件均内置美式英语音频，离线可播放；音标说明也改为美式参考。后来手动添加的新词优先使用浏览器的 `en-US` 语音包。音频来源和可选重新生成方式见 [AUDIO_CREDITS.md](AUDIO_CREDITS.md)。
+词条、例句及原有课件均内置美式英语音频，离线可播放。书面音标采用英式 DJ 体系，配音采用美式英语，部分元音和 r 音有所区别。内置录音通过英语发音词典和全精度模型生成；单词卡中的单词、例句按标准速度试听，练习时仍可自行调节语速。后来手动添加的新词优先使用浏览器的 `en-US` 语音包。音频来源和可选重新生成方式见 [AUDIO_CREDITS.md](AUDIO_CREDITS.md)。
 
 学习进度保存在当前浏览器。首次联网完成缓存后可以离线使用；跨设备通过“设置与备份”导出、导入学习记录。
 
@@ -31,6 +31,7 @@ python3 tests/mobile_practice.py
 python3 tests/space_shortcuts.py
 python3 tests/word_catalog.py
 python3 tests/word_spelling.py
+python3 tests/speech_reference.py
 ```
 
 检查覆盖手机输入事件的单次音效、音效静音、触屏答题、键盘弹出布局、离线重开及桌面快捷键。
