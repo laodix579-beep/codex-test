@@ -1,0 +1,86 @@
+{
+  "speechRevision": "pep-ga-v7",
+  "method": "Praat autocorrelation, 90–450 Hz; median last voiced 130 ms compared with 230–400 ms before voice end. Representative terminal-contour check, not certification of every phoneme.",
+  "cases": [
+    {
+      "audioKey": "please sit down",
+      "displayedText": "Please sit down.",
+      "recognizedText": "Please sit down.",
+      "audioSha256": "76de1b04c6cb01b787abf8d45839f8542f539a1065ebab94f7641e86c76d70f9",
+      "target": "fall",
+      "earlierHz": 161.5,
+      "terminalHz": 144.97,
+      "ratio": 0.898
+    },
+    {
+      "audioKey": "raise your hand please",
+      "displayedText": "Raise your hand, please.",
+      "recognizedText": "Raise your hand please.",
+      "audioSha256": "e1c0e75d376bce0214a87dd9efdb87535795209b8b60ee119042827a2fb2760d",
+      "target": "fall",
+      "earlierHz": 171.36,
+      "terminalHz": 152.86,
+      "ratio": 0.892
+    },
+    {
+      "audioKey": "can you help me please",
+      "displayedText": "Can you help me, please?",
+      "recognizedText": "Can you help me please?",
+      "audioSha256": "128bd22f78e26646a199c7649650b73d83a4d85ff2480288aa9c4ad87b4f823d",
+      "target": "rise",
+      "earlierHz": 193.16,
+      "terminalHz": 216.22,
+      "ratio": 1.119
+    },
+    {
+      "audioKey": "close your book",
+      "displayedText": "Close your book.",
+      "recognizedText": "Close your book.",
+      "audioSha256": "c4c625e0f482bf91c57b124ba4ca6ef4fabd87ce01a7ddb7b8ddd4ddfbc19cd9",
+      "target": "fall",
+      "earlierHz": 228.34,
+      "terminalHz": 209.0,
+      "ratio": 0.915
+    },
+    {
+      "audioKey": "we are close friends",
+      "displayedText": "We are close friends.",
+      "recognizedText": "We are close friends.",
+      "audioSha256": "c055bcad2f7482bcc123ff8bcbd72b01bedc3ada02bb536b34f2b823676ba927",
+      "target": "fall",
+      "earlierHz": 193.7,
+      "terminalHz": 178.64,
+      "ratio": 0.922
+    },
+    {
+      "audioKey": "are these your books",
+      "displayedText": "Are these your books?",
+      "recognizedText": "Are these your books?",
+      "audioSha256": "c777d7a9aa40963f388ff49d32a7f1f6e2601ffeb5974b9e599182e5e12524e1",
+      "target": "rise",
+      "earlierHz": 270.59,
+      "terminalHz": 299.94,
+      "ratio": 1.108
+    },
+    {
+      "audioKey": "is this a robot",
+      "displayedText": "Is this a robot?",
+      "recognizedText": "Is this a robot?",
+      "audioSha256": "e4a7cc7646386f963254cbe2defb5d7703156179ef74d247e65b2660d2cc33de",
+      "target": "rise",
+      "earlierHz": 190.25,
+      "terminalHz": 210.01,
+      "ratio": 1.104
+    },
+    {
+      "audioKey": "i am very pleased",
+      "displayedText": "I am very pleased.",
+      "recognizedText": "I am very pleased.",
+      "audioSha256": "3e91e36a86b0862b5bd01e50c2beeb172d6960a4ea28007724bc5c77afd79475",
+      "target": "fall",
+      "earlierHz": 186.36,
+      "terminalHz": 169.52,
+      "ratio": 0.91
+    }
+  ]
+}

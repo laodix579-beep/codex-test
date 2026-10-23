@@ -28,7 +28,7 @@ for key,phones in {'hello':'həlˈO','half':'hˈæf','four':'fˈɔɹ',
 assert bank['voiceLocale']=='en-US'  # Retain the original voice's timbre.
 assert bank['pronunciation']=='GA'
 assert bank['styles']['please']=='word' and bank['styles']['please sit down']=='sentence'
-assert bank['profiles']['word']['speed']<bank['profiles']['sentence']['speed']==1
+assert bank['profiles']['word']['speed']==.92 and bank['profiles']['sentence']['speed']==.9
 
 with sync_playwright() as p:
     browser=p.chromium.launch(executable_path='/usr/bin/chromium',headless=True,args=['--no-sandbox'])
@@ -41,7 +41,7 @@ with sync_playwright() as p:
         revision:LOCAL_AUDIO_BANK.revision,hello:FROG_WORD_CATALOG.words.find(w=>w.word==='hello').ipa,
         please:FROG_WORD_CATALOG.words.find(w=>w.word==='please').ipa})''')
     assert info=={'ipa':'DJ','ipaLocale':'en-GB','voice':'en-US','bank':'en-US',
-        'revision':'ga-natural-v6','hello':'/həˈləʊ/','please':'/pliːz/'}
+        'revision':'pep-ga-v7','hello':'/həˈləʊ/','please':'/pliːz/'}
     assert 'DJ /pliːz/' in page.locator('.word-card').filter(has=page.locator('[data-action="speak-word"][data-id="C01-S01-011"]')).inner_text()
     print('PASS: DJ written references remain British while recordings and system fallback use GA',flush=True)
 
@@ -99,7 +99,7 @@ with sync_playwright() as p:
     card.locator('[data-action="speak-word"]').click();card.locator('.word-example-speak').click()
     calls=page.evaluate('fallbackCalls')
     assert calls==[{'text':'please','lang':'en-US','rate':.92,'voice':'us'},
-        {'text':'Please sit down.','lang':'en-US','rate':1,'voice':'us'}],calls
+        {'text':'Please sit down.','lang':'en-US','rate':.9,'voice':'us'}],calls
     assert not errors,errors
     print('PASS: system fallback uses a US voice, clear word delivery and whole-sentence natural delivery',flush=True)
     browser.close()

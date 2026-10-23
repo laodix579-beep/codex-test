@@ -1,0 +1,213 @@
+{
+  "revision": "pep-ga-v7",
+  "ipaSystem": "DJ",
+  "ipaLocale": "en-GB",
+  "audioLocale": "en-US",
+  "pronunciation": "GA",
+  "words": [
+    {
+      "word": "please",
+      "dj": "/pliːz/",
+      "gaPhonemes": "plˈiz",
+      "meaning": "请",
+      "group": "z",
+      "hint": "结尾 /z/ 保持浊音，声带振动，不加额外元音。",
+      "audioKey": "please",
+      "variant": ""
+    },
+    {
+      "word": "pleased",
+      "dj": "/pliːzd/",
+      "gaPhonemes": "plˈizd",
+      "meaning": "高兴的",
+      "group": "z",
+      "hint": "结尾保留 /zd/，与 please 的 /z/ 区分。",
+      "audioKey": "pleased",
+      "variant": ""
+    },
+    {
+      "word": "is",
+      "dj": "/ɪz/",
+      "gaPhonemes": "ɪz",
+      "meaning": "是",
+      "group": "z",
+      "hint": "结尾 /z/ 是浊辅音，不读 /s/，不加“子”的元音。",
+      "audioKey": "is",
+      "variant": ""
+    },
+    {
+      "word": "has",
+      "dj": "/hæz/",
+      "gaPhonemes": "hˈæz",
+      "meaning": "有",
+      "group": "z",
+      "hint": "结尾 /z/ 保持声带振动。",
+      "audioKey": "has",
+      "variant": ""
+    },
+    {
+      "word": "these",
+      "dj": "/ðiːz/",
+      "gaPhonemes": "ðˈiz",
+      "meaning": "这些",
+      "group": "th",
+      "hint": "开头 /ð/ 舌尖轻触上下齿之间，结尾保留浊音 /z/。",
+      "audioKey": "these",
+      "variant": ""
+    },
+    {
+      "word": "three",
+      "dj": "/θriː/",
+      "gaPhonemes": "θɹˈi",
+      "meaning": "三",
+      "group": "th",
+      "hint": "舌尖轻触齿间送气，/θ/ 不读成 /s/。",
+      "audioKey": "three",
+      "variant": ""
+    },
+    {
+      "word": "this",
+      "dj": "/ðɪs/",
+      "gaPhonemes": "ðˈɪs",
+      "meaning": "这；这个",
+      "group": "th",
+      "hint": "开头 /ð/ 舌尖轻触齿间并振动声带，不读成 /z/。",
+      "audioKey": "this",
+      "variant": ""
+    },
+    {
+      "word": "five",
+      "dj": "/faɪv/",
+      "gaPhonemes": "fˈIv",
+      "meaning": "五",
+      "group": "v",
+      "hint": "末尾 /v/ 上齿轻触下唇并振动声带，不读 /w/。",
+      "audioKey": "five",
+      "variant": ""
+    },
+    {
+      "word": "very",
+      "dj": "/ˈveri/",
+      "gaPhonemes": "vˈɛɹi",
+      "meaning": "非常",
+      "group": "v",
+      "hint": "开头 /v/ 上齿轻触下唇，不用双唇读 /w/。",
+      "audioKey": "very",
+      "variant": ""
+    },
+    {
+      "word": "class",
+      "dj": "/klɑːs/",
+      "gaPhonemes": "klˈæs",
+      "meaning": "班级；课",
+      "group": "ga",
+      "hint": "书写用 DJ 英式音标，录音使用 GA 美式的前元音。",
+      "audioKey": "class",
+      "variant": ""
+    },
+    {
+      "word": "dog",
+      "dj": "/dɒɡ/",
+      "gaPhonemes": "dˈɑɡ",
+      "meaning": "狗",
+      "group": "ga",
+      "hint": "书写保留 DJ /ɒ/，录音采用 GA 美式合流口音的后元音。",
+      "audioKey": "dog",
+      "variant": ""
+    },
+    {
+      "word": "hot",
+      "dj": "/hɒt/",
+      "gaPhonemes": "hˈɑt",
+      "meaning": "热的",
+      "group": "ga",
+      "hint": "书写保留 DJ /ɒ/，录音采用 GA 美式元音。",
+      "audioKey": "hot",
+      "variant": ""
+    },
+    {
+      "word": "robot",
+      "dj": "/ˈrəʊbɒt/",
+      "gaPhonemes": "ɹˈObˌɑt",
+      "meaning": "机器人",
+      "group": "ga",
+      "hint": "录音使用 GA 美式元音，第一音节重读。",
+      "audioKey": "robot",
+      "variant": ""
+    },
+    {
+      "word": "thirteen",
+      "dj": "/ˌθɜːˈtiːn/",
+      "gaPhonemes": "θˌɜɹtˈin",
+      "meaning": "十三",
+      "group": "stress",
+      "hint": "重音在后面的 teen；开头 /θ/ 不读成 /s/。",
+      "audioKey": "thirteen",
+      "variant": ""
+    },
+    {
+      "word": "thirty",
+      "dj": "/ˈθɜːti/",
+      "gaPhonemes": "θˈɜɹTi",
+      "meaning": "三十",
+      "group": "stress",
+      "hint": "重音在第一个音节，与 thirteen 区分。",
+      "audioKey": "thirty",
+      "variant": ""
+    },
+    {
+      "word": "close",
+      "dj": "/kləʊz/",
+      "gaPhonemes": "klˈOz",
+      "meaning": "关闭",
+      "group": "close",
+      "hint": "动词“关闭”：结尾 /z/，保持浊音。",
+      "audioKey": "close::verb",
+      "variant": "verb"
+    },
+    {
+      "word": "close",
+      "dj": "/kləʊs/",
+      "gaPhonemes": "klˈOs",
+      "meaning": "近的；亲密的",
+      "group": "close",
+      "hint": "形容词“近的、亲密的”：结尾 /s/，是清音。",
+      "audioKey": "close::adjective",
+      "variant": "adjective"
+    }
+  ],
+  "sentences": [
+    {
+      "english": "Close your book.",
+      "chinese": "合上你的书。"
+    },
+    {
+      "english": "We are close friends.",
+      "chinese": "我们是亲密的朋友。"
+    },
+    {
+      "english": "Raise your hand, please.",
+      "chinese": "请举手。"
+    },
+    {
+      "english": "Can you help me, please?",
+      "chinese": "你能帮帮我吗？"
+    },
+    {
+      "english": "I am very pleased.",
+      "chinese": "我非常高兴。"
+    },
+    {
+      "english": "Are these your books?",
+      "chinese": "这些是你的书吗？"
+    },
+    {
+      "english": "This is a hot dog.",
+      "chinese": "这是一个热狗。"
+    },
+    {
+      "english": "Is this a robot?",
+      "chinese": "这是一个机器人吗？"
+    }
+  ]
+}

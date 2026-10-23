@@ -1,18 +1,70 @@
 {
-  "speechRevision": "ga-natural-v6",
-  "method": "Automatic transcription with Whisper base.en full precision, checked against the displayed English. This is a content check, not human pronunciation certification.",
+  "speechRevision": "pep-ga-v7",
+  "method": "Whisper base.en full precision content check against displayed English; not human pronunciation certification.",
   "cases": [
     {
       "audioKey": "please",
       "displayedText": "please",
       "recognizedText": "Please.",
-      "audioSha256": "b5c43deb9429e61dcdc0598ae0e738137c365b5a771f23d1b25bc8418c50cdad"
+      "audioSha256": "bba8ed2002d5b805930dd3dcec39c7fbffab789ac66ea22e1a5d82aeadb72299"
     },
     {
       "audioKey": "please sit down",
       "displayedText": "Please sit down.",
       "recognizedText": "Please sit down.",
-      "audioSha256": "ee679a0a105dcbe1dcc8b28366d63de2a1d8020b26aed3f316a44366bea330cd"
+      "audioSha256": "76de1b04c6cb01b787abf8d45839f8542f539a1065ebab94f7641e86c76d70f9"
+    },
+    {
+      "audioKey": "raise your hand please",
+      "displayedText": "Raise your hand, please.",
+      "recognizedText": "Raise your hand please.",
+      "audioSha256": "e1c0e75d376bce0214a87dd9efdb87535795209b8b60ee119042827a2fb2760d"
+    },
+    {
+      "audioKey": "can you help me please",
+      "displayedText": "Can you help me, please?",
+      "recognizedText": "Can you help me please?",
+      "audioSha256": "128bd22f78e26646a199c7649650b73d83a4d85ff2480288aa9c4ad87b4f823d"
+    },
+    {
+      "audioKey": "close your book",
+      "displayedText": "Close your book.",
+      "recognizedText": "Close your book.",
+      "audioSha256": "c4c625e0f482bf91c57b124ba4ca6ef4fabd87ce01a7ddb7b8ddd4ddfbc19cd9"
+    },
+    {
+      "audioKey": "we are close friends",
+      "displayedText": "We are close friends.",
+      "recognizedText": "We are close friends.",
+      "audioSha256": "c055bcad2f7482bcc123ff8bcbd72b01bedc3ada02bb536b34f2b823676ba927"
+    },
+    {
+      "audioKey": "are these your books",
+      "displayedText": "Are these your books?",
+      "recognizedText": "Are these your books?",
+      "audioSha256": "c777d7a9aa40963f388ff49d32a7f1f6e2601ffeb5974b9e599182e5e12524e1"
+    },
+    {
+      "audioKey": "is this a robot",
+      "displayedText": "Is this a robot?",
+      "recognizedText": "Is this a robot?",
+      "audioSha256": "e4a7cc7646386f963254cbe2defb5d7703156179ef74d247e65b2660d2cc33de"
+    },
+    {
+      "audioKey": "i am very pleased",
+      "displayedText": "I am very pleased.",
+      "recognizedText": "I am very pleased.",
+      "audioSha256": "3e91e36a86b0862b5bd01e50c2beeb172d6960a4ea28007724bc5c77afd79475"
+    }
+  ],
+  "limitations": [
+    {
+      "audioKey": "pleased",
+      "displayedText": "pleased",
+      "recognizedText": "Please",
+      "plannedGaPhonemes": "plˈizd",
+      "audioSha256": "135431d712c54da9c5e001abf9c85bf07603b7e09cb03f2f669300dcb9702011",
+      "note": "Whisper base.en confuses this isolated word with please; do not treat isolated ASR as phoneme certification. The complete sentence I am very pleased. is recognized correctly. Independent listening review is still needed for the isolated final /d/."
     }
   ]
 }

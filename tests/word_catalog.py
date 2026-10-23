@@ -21,6 +21,12 @@ with sync_playwright() as p:
     browser = p.chromium.launch(executable_path='/usr/bin/chromium', headless=True, args=['--no-sandbox'])
     context = browser.new_context(viewport={'width':1440,'height':1000})
     page = context.new_page()
+    # Apply upgrade fixtures after the old document's pagehide time flush.
+    # Writing storage immediately before reload races with that legitimate save.
+    page.add_init_script('''{
+      const pending=sessionStorage.getItem('catalog-next-state');
+      if(pending){const {key,state}=JSON.parse(pending);sessionStorage.removeItem('catalog-next-state');localStorage.setItem(key,state);}
+    }''')
     errors = []
     page.on('pageerror', lambda error: errors.append(str(error)))
     page.goto(BASE+'#words')
@@ -53,7 +59,7 @@ with sync_playwright() as p:
       const key=document.body.dataset.storageKey,s=JSON.parse(localStorage.getItem(key));
       s.words[0].categoryId='';s.words[0].subcategoryId='';
       s.words[1].categoryId='C02';s.words[1].subcategoryId='C01-S02';
-      s.wordStatus[s.words[0].id]='mastered';localStorage.setItem(key,JSON.stringify(s));
+      s.wordStatus[s.words[0].id]='mastered';sessionStorage.setItem('catalog-next-state',JSON.stringify({key,state:JSON.stringify(s)}));
     }''')
     page.reload()
     repaired=stored(page)
@@ -61,7 +67,7 @@ with sync_playwright() as p:
     assert repaired['words'][1]['categoryId']=='C01'
     assert repaired['wordStatus'][repaired['words'][0]['id']]=='mastered'
     assert len(repaired['words'])==136
-    page.evaluate('(s)=>localStorage.setItem(document.body.dataset.storageKey,JSON.stringify(s))',initial)
+    page.evaluate("(s)=>sessionStorage.setItem('catalog-next-state',JSON.stringify({key:document.body.dataset.storageKey,state:JSON.stringify(s)}))",initial)
     page.reload()
     print('PASS: existing saved classification is repaired without losing entries or learning progress',flush=True)
 
@@ -106,7 +112,7 @@ with sync_playwright() as p:
     legacy['favorites']=['word-old',sentence_id]
     legacy['settings']['voice']='old-UK-voice'
     legacy['notes']=[{'id':'note-keep','title':'保留手账','body':'内容不能丢失','createdAt':'2026-01-01T00:00:00Z','updatedAt':'2026-01-01T00:00:00Z'}]
-    page.evaluate('(s)=>localStorage.setItem(document.body.dataset.storageKey,JSON.stringify(s))',legacy)
+    page.evaluate("(s)=>sessionStorage.setItem('catalog-next-state',JSON.stringify({key:document.body.dataset.storageKey,state:JSON.stringify(s)}))",legacy)
     page.reload()
     migrated=stored(page)
     assert len(migrated['words'])==136 and migrated['wordStatus']=={}
