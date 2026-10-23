@@ -1,4 +1,4 @@
-"""Build DJ-aligned teaching audio, retaining the existing Bella voice timbre.
+"""Build GA audio: clear isolated words and natural connected sentences.
 
 Optional authoring dependencies: kokoro-onnx==0.6.0, misaki-fork[en]==0.9.6,
 en_core_web_sm==3.8.0 and ffmpeg. Model/voice release: AUDIO_CREDITS.md.
@@ -50,22 +50,21 @@ def make_plan(root,bank):
     for row in source['LOCAL_SAMPLES']['phonetics']:
         prompts[normalize(row[2])]=row[2]
     Tokenizer()  # Configure the verified bundled eSpeak library for name fallback.
-    g2p=en.G2P(british=True,fallback=espeak.EspeakFallback(british=True))
+    g2p=en.G2P(british=False,fallback=espeak.EspeakFallback(british=False))
     plan=[]
     for key,text in prompts.items():
         text=re.sub(r'\bi\b','I',text)
         # Keep isolated words free of extra punctuation; sentences retain their original marks.
         synthesis=text
         phonemes,_=g2p(synthesis)
-        # Traditional DJ SQUARE is a glide, whereas the modern GB dictionary uses /ɛː/.
-        # Keep the displayed reference's vowel and syllable choices, using model symbols.
-        phonemes=phonemes.replace('ɛː','ɛə').replace('ɐ','ə')
-        phonemes=phonemes.replace('ˈɛvəɹi','ˈɛvɹi').replace('vˈIəlɪt','vˈIələt')
-        if key=='a lot of':phonemes='ə lˈɒt əv'
+        # The written DJ reference never controls GA synthesis. Process a full
+        # sentence in one pass so its stress, reductions and linking retain context.
+        words=re.findall(r"[A-Za-z]+(?:['’\-][A-Za-z]+)*",text)
+        style='word' if len(words)==1 else 'sentence'
         if '❓' in phonemes or not phonemes.strip():
             raise ValueError(f'Unresolved pronunciation: {text}')
         assert normalize(text)==key
-        plan.append({'key':key,'text':text,'phonemes':phonemes})
+        plan.append({'key':key,'text':text,'phonemes':phonemes,'style':style})
     return plan
 
 
@@ -75,32 +74,37 @@ def main():
     parser.add_argument('--voices',type=Path,required=True)
     parser.add_argument('--cache',type=Path,required=True)
     parser.add_argument('--reuse-cache',type=Path,help='Previous cache; reuse only identical phonemes and synthesis settings')
+    parser.add_argument('--reuse-manifest',type=Path,help='Generation manifest belonging to the previous cache')
     args=parser.parse_args()
     root=Path(__file__).resolve().parents[1]
     source=(root/'index.html').read_text()
     bank=json.loads(re.search(r'window.LOCAL_AUDIO_BANK=(.*?);\s*</script>',source,re.S).group(1))
     plan=make_plan(root,bank)
-    config={'revision':'dj-reading-v5','engine':'Kokoro-82M v1.0 FP32',
-        'voice':'af_bella','voiceLocale':'en-US','locale':'en-GB','phonemizer':'Misaki-fork en-GB 0.9.6',
+    config={'revision':'ga-natural-v6','engine':'Kokoro-82M v1.0 FP32',
+        'voice':'af_bella','voiceLocale':'en-US','locale':'en-US','pronunciation':'GA','phonemizer':'Misaki-fork en-US 0.9.6',
         'speed':1.0,'sampleRate':24000,'bitrate':'96k','trim':True,
+        'profiles':{'word':{'speed':0.92,'delivery':'clear isolated word'},
+            'sentence':{'speed':1.0,'delivery':'full utterance with contextual stress and linking'}},
         'leadingPaddingSeconds':0.12,'trailingPaddingSeconds':0.18,
         'sourceRelease':'https://github.com/thewh1teagle/kokoro-onnx/releases/tag/model-files-v1.1',
         'files':{args.model.name:digest(args.model),args.voices.name:digest(args.voices)}}
     signature=hashlib.sha256(json.dumps(config,sort_keys=True).encode()).hexdigest()
     reusable={}
     if args.reuse_cache:
-        previous=json.loads((root/'data/audio-generation.json').read_text())
+        previous=json.loads((args.reuse_manifest or root/'data/audio-generation.json').read_text())
         physical=('engine','voice','speed','sampleRate','bitrate','trim',
             'leadingPaddingSeconds','trailingPaddingSeconds','files')
         if any(previous.get(k)!=config[k] for k in physical):
             raise ValueError('Previous cache uses different synthesis or encoding settings')
         for row in json.loads((args.reuse_cache/'plan.json').read_text()):
-            identity=json.dumps(row,sort_keys=True)
-            old_hash=hashlib.sha256((previous['generationSignature']+identity).encode()).hexdigest()
+            old_hash=hashlib.sha256((previous['generationSignature']+json.dumps(row,sort_keys=True)).encode()).hexdigest()
             cached=args.reuse_cache/(old_hash+'.mp3')
-            if cached.exists():reusable[identity]=cached
+            identity=json.dumps({k:row[k] for k in ('key','text','phonemes')},sort_keys=True)
+            old_speed=previous.get('profiles',{}).get(row.get('style'),{}).get('speed',previous['speed'])
+            if cached.exists():reusable[(identity,old_speed)]=cached
     args.cache.mkdir(parents=True,exist_ok=True)
     (args.cache/'plan.json').write_text(json.dumps(plan,ensure_ascii=False,indent=2)+'\n')
+    (args.cache/'manifest.json').write_text(json.dumps({**config,'generationSignature':signature},indent=2)+'\n')
     options=ort.SessionOptions();options.intra_op_num_threads=3;options.inter_op_num_threads=1
     session=ort.InferenceSession(str(args.model),sess_options=options,providers=['CPUExecutionProvider'])
     voice=Kokoro.from_session(session,str(args.voices))
@@ -109,10 +113,13 @@ def main():
         # Include text, phonemes AND model/voice/encoding settings in cache identity.
         fingerprint=hashlib.sha256((signature+json.dumps(row,sort_keys=True)).encode()).hexdigest()
         target=args.cache/(fingerprint+'.mp3')
-        if not target.exists() and json.dumps(row,sort_keys=True) in reusable:
-            target.write_bytes(reusable[json.dumps(row,sort_keys=True)].read_bytes());reused+=1
+        speed=config['profiles'][row['style']]['speed']
+        reuse_identity=json.dumps({k:row[k] for k in ('key','text','phonemes')},sort_keys=True)
+        previous_clip=reusable.get((reuse_identity,speed))
+        if not target.exists() and previous_clip:
+            target.write_bytes(previous_clip.read_bytes());reused+=1
         if not target.exists():
-            samples,rate=voice.create(row['phonemes'],voice=config['voice'],speed=1.0,is_phonemes=True,trim=True)
+            samples,rate=voice.create(row['phonemes'],voice=config['voice'],speed=speed,is_phonemes=True,trim=True)
             assert rate==24000 and len(samples)>rate*.08 and np.isfinite(samples).all(),row['text']
             peak=float(np.abs(samples).max());assert peak>.01,row['text']
             samples=np.pad(samples,(int(rate*.12),int(rate*.18)))
@@ -125,16 +132,17 @@ def main():
                 '-codec:a','libmp3lame','-b:a','96k',str(target)],check=True)
         clips[row['key']]=base64.b64encode(target.read_bytes()).decode()
         texts[row['key']]=row['text']
-        if number%25==0:print(f'{number}/{len(plan)} DJ recordings; {reused} unchanged clips reused ({time.time()-start:.0f}s)',flush=True)
-    result={'voice':'Bella · DJ 读音示范','voiceLocale':'en-US','locale':'en-GB','revision':config['revision'],
+        if number%25==0:print(f'{number}/{len(plan)} GA recordings; {reused} identical clips reused ({time.time()-start:.0f}s)',flush=True)
+    result={'voice':'Bella · GA 美式英语','voiceLocale':'en-US','locale':'en-US','pronunciation':'GA','revision':config['revision'],
         'mime':'audio/mpeg','engine':config['engine'],'texts':texts,
+        'profiles':config['profiles'],'styles':{row['key']:row['style'] for row in plan},
         'phonemes':{row['key']:row['phonemes'] for row in plan},'clips':clips}
-    replacement='<script data-embedded-audio="">\n/* British DJ pronunciation with the retained Bella voice timbre. See AUDIO_CREDITS.md. */\nwindow.LOCAL_AUDIO_BANK='+json.dumps(result,ensure_ascii=False,separators=(',',':'))+';\n</script>'
+    replacement='<script data-embedded-audio="">\n/* GA audio; written DJ references are maintained separately. See AUDIO_CREDITS.md. */\nwindow.LOCAL_AUDIO_BANK='+json.dumps(result,ensure_ascii=False,separators=(',',':'))+';\n</script>'
     source=(root/'index.html').read_text()
     source=re.sub(r'<script data-embedded-audio="">.*?</script>',lambda _:replacement,source,count=1,flags=re.S)
     (root/'index.html').write_text(source)
     (root/'data/audio-generation.json').write_text(json.dumps({**config,'clipCount':len(plan),'generationSignature':signature},ensure_ascii=False,indent=2)+'\n')
-    print(f'COMPLETE: {len(clips)} DJ recordings; {reused} unchanged clips reused; {time.time()-start:.0f}s',flush=True)
+    print(f'COMPLETE: {len(clips)} GA recordings; {reused} identical clips reused; {time.time()-start:.0f}s',flush=True)
 
 
 if __name__=='__main__':

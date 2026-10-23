@@ -3,7 +3,7 @@
   "category_id": "C01",
   "category_name": "基础入门",
   "language_pair": "英语—简体中文",
-  "pronunciation": "书面标注采用英式 DJ 音标，示范读音按对应英式音值调整，保留原有 Bella 音色。",
+  "pronunciation": "书面音标只使用 DJ 英式符号；朗读采用 GA 美式发音。单词独立清晰朗读，例句按完整语句自然连读。",
   "purpose": "小蛙自习室独立英语词库分类。此文件仅包含第一类“基础入门”，不包含其他七大类。",
   "subcategories": [
     {
@@ -1809,5 +1809,5 @@
     "item_type_note": "word 表示单词，phrase 表示常用短语或表达。"
   },
   "ipa_system": "DJ",
-  "audio_locale": "en-GB"
+  "audio_locale": "en-US"
 }
