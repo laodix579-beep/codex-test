@@ -1,5 +1,5 @@
 // Cache only this app's public static files. Learning data stays in localStorage.
-const CACHE="frog-pep-ga-v7";
+const CACHE="frog-direct-word-practice-v8";
 const ROOT=new URL('./',self.location.href);
 const FILES=['index.html','manifest.webmanifest','icon-192.png','icon-512.png','apple-touch-icon.png'];
 self.addEventListener('install',event=>event.waitUntil(

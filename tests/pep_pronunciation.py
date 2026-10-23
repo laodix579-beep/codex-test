@@ -50,7 +50,7 @@ with sync_playwright() as p:
   s.wordStatus[s.words[0].id]='mastered';
   for(const [id,meaning]of [['close-v','关闭'],['close-adj','亲密的']])s.words.push({id,word:'close',meaning,ipa:'/kloʊs/',example:'',categoryId:'C01',subcategoryId:'C01-S01'});
   localStorage.setItem(key,JSON.stringify(s));}''')
- page.goto('http://127.0.0.1:8000/#words/C01/C01-S01');page.reload()
+ page.goto('http://127.0.0.1:8000/#words/manage/C01/C01-S01');page.reload()
  for id,suffix,ipa in [('close-v','verb','/kləʊz/'),('close-adj','adjective','/kləʊs/')]:
   card=page.locator('.word-card').filter(has=page.locator(f'[data-action="speak-word"][data-id="{id}"]'))
   assert card.locator('.ipa').inner_text()=='DJ '+ipa

@@ -40,7 +40,7 @@ with sync_playwright() as p:
     assert [sum(w['subcategoryId']==f'C01-S{i:02}' for w in initial['words']) for i in range(1,5)] == [22,62,19,33]
     print('PASS: eight themes, 32 category entrances and exactly 136 imported entries', flush=True)
 
-    page.goto(BASE+'#words/C01')
+    page.goto(BASE+'#words/manage/C01')
     groups=page.locator('.word-subcategory-group')
     assert groups.count()==4
     assert [groups.nth(i).locator('.word-card').count() for i in range(4)]==[22,62,19,33]
@@ -72,7 +72,7 @@ with sync_playwright() as p:
     print('PASS: existing saved classification is repaired without losing entries or learning progress',flush=True)
 
     for i, count in enumerate([22,62,19,33],1):
-        page.goto(BASE+f'#words/C01/C01-S{i:02}')
+        page.goto(BASE+f'#words/manage/C01/C01-S{i:02}')
         page.wait_for_function('(n)=>document.querySelectorAll(".word-card").length===n', arg=count)
         assert page.locator('.word-example-speak').count() == count
     page.goto(BASE+'#words/C02/C02-S01')
@@ -80,7 +80,7 @@ with sync_playwright() as p:
     assert page.get_by_role('button', name='开始背词').is_disabled()
     print('PASS: all four populated lists and empty category entrances work', flush=True)
 
-    page.goto(BASE+'#words/C01/C01-S03')
+    page.goto(BASE+'#words/manage/C01/C01-S03')
     page.get_by_role('button',name='开始背词').click()
     assert page.locator('#lesson-dialog').get_attribute('open') is not None
     assert '1 / 10' in page.locator('.lesson-progress').inner_text()
@@ -149,7 +149,7 @@ with sync_playwright() as p:
       }
       await ac.close();return total;
     }''')
-    page.goto(BASE+'#words/C01/C01-S01')
+    page.goto(BASE+'#words/manage/C01/C01-S01')
     page.locator('[data-action="speak-word"]').first.click()
     page.wait_for_function('document.getElementById("question-audio").currentTime>0')
     assert page.locator('#question-audio').get_attribute('data-prompt')=='hello'
@@ -176,7 +176,7 @@ with sync_playwright() as p:
         local_context=browser.new_context()
         try:
             local=local_context.new_page()
-            local.goto(f'http://127.0.0.1:{server.server_port}/#words/C01/C01-S01')
+            local.goto(f'http://127.0.0.1:{server.server_port}/#words/manage/C01/C01-S01')
             assert local.locator('.word-card').count()==22
             assert len(stored(local)['words'])==136 and stored(local)['notes']==legacy['notes']
             local_context.set_offline(True)
@@ -191,7 +191,7 @@ with sync_playwright() as p:
     page.goto(BASE+'#settings')
     page.wait_for_function("document.querySelector('[data-mobile-status]')?.textContent.startsWith('已保存离线内容')")
     context.set_offline(True)
-    page.goto(BASE+'#words/C01/C01-S01')
+    page.goto(BASE+'#words/manage/C01/C01-S01')
     page.reload()
     page.locator('[data-action="speak-word"]').first.click()
     page.wait_for_function('document.getElementById("question-audio").currentTime>0')

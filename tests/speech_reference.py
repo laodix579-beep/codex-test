@@ -35,7 +35,7 @@ with sync_playwright() as p:
     context=browser.new_context(viewport={'width':1440,'height':900})
     page=context.new_page();errors=[]
     page.on('pageerror',lambda e:errors.append(str(e)))
-    page.goto(BASE+'#words/C01/C01-S01')
+    page.goto(BASE+'#words/manage/C01/C01-S01')
     info=page.evaluate('''()=>({ipa:FROG_WORD_CATALOG.ipaSystem,ipaLocale:FROG_WORD_CATALOG.ipaLocale,
         voice:FrogPractice.speechProfile.locale,bank:LOCAL_AUDIO_BANK.locale,
         revision:LOCAL_AUDIO_BANK.revision,hello:FROG_WORD_CATALOG.words.find(w=>w.word==='hello').ipa,
@@ -86,7 +86,7 @@ with sync_playwright() as p:
     assert not errors,errors
     print('PASS: practice retains the selected rate; phonetic lessons show DJ references and explain GA example audio and accent differences',flush=True)
     # New content follows the same delivery rules through the US system fallback.
-    page.goto(BASE+'#words/C01/C01-S01')
+    page.goto(BASE+'#words/manage/C01/C01-S01')
     page.evaluate("""()=>{
         window.fallbackCalls=[];
         window.SpeechSynthesisUtterance=class{constructor(text){this.text=text;}};

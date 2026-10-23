@@ -41,7 +41,8 @@ with sync_playwright() as p:
     assert '你好' in page.locator('.translation-chinese').inner_text()
     assert page.locator('.translation-blank').input_value()==''
     assert page.locator('.translation-answer').count()==0
-    assert page.locator('.translation-picture').count()==0
+    assert page.locator('.translation-picture').count()==1
+    assert page.locator('[data-session-setting="showPicture"]').first.is_checked()
     field=page.locator('.translation-blank')
     page.evaluate('keySounds=[]')
     field.press_sequentially('hellx')
@@ -94,7 +95,6 @@ with sync_playwright() as p:
     page.locator('#lesson-dialog [data-close]').click()
 
     page.goto(BASE+'#words/C01/C01-S03')
-    page.get_by_role('button',name='开始背词').click()
     page.locator('.translation-blank').first.wait_for()
     page.locator('#lesson-dialog .translation-shortcuts [data-action="translation-answer"]').click()
     answer=page.locator('.translation-answer strong').inner_text()
