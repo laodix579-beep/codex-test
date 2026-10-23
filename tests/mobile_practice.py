@@ -6,6 +6,7 @@ from pathlib import Path
 from functools import partial
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 import json
+import os
 import re
 import shutil
 import tempfile
@@ -223,6 +224,11 @@ with sync_playwright() as p:
           self.addEventListener('activate',e=>e.waitUntil(self.clients.claim()));
           self.addEventListener('fetch',e=>{if(e.request.mode==='navigate')e.respondWith(fetch(e.request).catch(()=>caches.match('./index.html')));});
         ''')
+        # Model an older deployment. SimpleHTTPRequestHandler compares HTTP
+        # timestamps at one-second precision; writing both versions in the same
+        # second can falsely return 304 for a changed service-worker script.
+        previous_mtime=time.time()-60
+        os.utime(fixture/'sw.js',(previous_mtime,previous_mtime))
         server=ThreadingHTTPServer(('127.0.0.1',0),partial(QuietHandler,directory=directory))
         thread=threading.Thread(target=server.serve_forever,daemon=True)
         thread.start()
