@@ -32,9 +32,10 @@ with sync_playwright() as p:
   assert page.locator('.translation-picture').count()==1
   page.locator('#lesson-dialog [data-close]').click()
   page.locator('.vocab-category-heading[data-route="words/C02"]').click()
-  assert page.get_by_role('heading',name='这个分类正在准备中').is_visible()
+  page.get_by_role('heading',name='这个分类正在准备中').wait_for(state='visible')
   assert not page.locator('#lesson-dialog').evaluate('d=>d.open')
   page.goto(BASE+'#words/all')
+  page.locator('.word-card').first.wait_for()
   assert page.locator('.word-card').count()==136
   assert not errors,errors
   print(f'PASS: {"phone" if mobile else "desktop"} theme=136, greeting=22, no list detour, picture defaults on, empty and management entries work',flush=True)

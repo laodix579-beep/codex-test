@@ -11,7 +11,7 @@ def open_word(page,word_id):
     page.goto(BASE+'#words/all')
     page.locator(f'[data-action="learn-word"][data-id="{word_id}"]').click()
     page.locator('.translation-blank').first.wait_for()
-    assert page.locator('.given-word').count()==0
+    assert page.locator('.given-word').count()>0
 
 
 def state(page):
@@ -86,7 +86,8 @@ with sync_playwright() as p:
     page.locator('#lesson-dialog [data-close]').click()
     open_word(page,'C01-S01-020')
     assert page.locator('.translation-blank').count()==2
-    assert page.locator('.translation-slots').inner_text().strip()=='.'
+    assert 'thank' in page.locator('.translation-slots').inner_text()
+    assert "I'm" not in page.locator('.given-word').all_text_contents()
     page.locator('.translation-blank').first.press_sequentially("I'm")
     page.locator('.translation-blank').nth(1).press_sequentially('fine')
     page.locator('#translation-submit').click()
@@ -98,7 +99,7 @@ with sync_playwright() as p:
     page.locator('.translation-blank').first.wait_for()
     page.locator('#lesson-dialog .translation-shortcuts [data-action="translation-answer"]').click()
     answer=page.locator('.translation-answer strong').inner_text()
-    colors=page.evaluate('FROG_WORD_CATALOG.words.filter(w=>w.subcategoryId==="C01-S03").map(w=>w.word)')
+    colors=page.evaluate('FROG_WORD_CATALOG.words.filter(w=>w.subcategoryId==="C01-S03").map(w=>w.example)')
     assert answer in colors
     page.locator('.translation-blank').first.press_sequentially('x')
     assert page.locator('.translation-answer').count()==0
