@@ -34,6 +34,37 @@ with sync_playwright() as p:
     assert [sum(w['subcategoryId']==f'C01-S{i:02}' for w in initial['words']) for i in range(1,5)] == [22,62,19,33]
     print('PASS: eight themes, 32 category entrances and exactly 136 imported entries', flush=True)
 
+    page.goto(BASE+'#words/C01')
+    groups=page.locator('.word-subcategory-group')
+    assert groups.count()==4
+    assert [groups.nth(i).locator('.word-card').count() for i in range(4)]==[22,62,19,33]
+    for i in range(4):
+        expected={w['id'] for w in initial['words'] if w['subcategoryId']==f'C01-S{i+1:02}'}
+        actual=set(groups.nth(i).locator('[data-action="learn-word"]').evaluate_all('(buttons)=>buttons.map(b=>b.dataset.id)'))
+        assert actual==expected
+    groups.first.locator('[data-action="learn-word-group"]').click()
+    assert '1 / 22' in page.locator('.lesson-progress').inner_text()
+    assert page.locator('#practice-jump option').count()==22
+    assert page.locator('#practice-jump option').all_text_contents()==[f'{i+1}. {w["word"]}' for i,w in enumerate(initial['words'][:22])]
+    page.locator('#lesson-dialog [data-close]').click()
+    print('PASS: all entries appear in their matching groups; greeting group practice contains all 22 entries in order',flush=True)
+
+    page.evaluate('''()=>{
+      const key=document.body.dataset.storageKey,s=JSON.parse(localStorage.getItem(key));
+      s.words[0].categoryId='';s.words[0].subcategoryId='';
+      s.words[1].categoryId='C02';s.words[1].subcategoryId='C01-S02';
+      s.wordStatus[s.words[0].id]='mastered';localStorage.setItem(key,JSON.stringify(s));
+    }''')
+    page.reload()
+    repaired=stored(page)
+    assert repaired['words'][0]['subcategoryId']=='C01-S01' and repaired['words'][1]['subcategoryId']=='C01-S01'
+    assert repaired['words'][1]['categoryId']=='C01'
+    assert repaired['wordStatus'][repaired['words'][0]['id']]=='mastered'
+    assert len(repaired['words'])==136
+    page.evaluate('(s)=>localStorage.setItem(document.body.dataset.storageKey,JSON.stringify(s))',initial)
+    page.reload()
+    print('PASS: existing saved classification is repaired without losing entries or learning progress',flush=True)
+
     for i, count in enumerate([22,62,19,33],1):
         page.goto(BASE+f'#words/C01/C01-S{i:02}')
         page.wait_for_function('(n)=>document.querySelectorAll(".word-card").length===n', arg=count)
@@ -164,11 +195,11 @@ with sync_playwright() as p:
 
     for width in [320,390,768,1440,1894]:
         page.set_viewport_size({'width':width,'height':900})
-        for route in ['words','words/C01/C01-S01']:
+        for route in ['words','words/all','words/C01','words/C01/C01-S01']:
             page.goto(BASE+'#'+route)
             assert page.evaluate('document.documentElement.scrollWidth<=innerWidth'),(width,route)
     assert not errors,errors
     print('PASS: catalog and word lists fit phone/tablet/desktop widths without JavaScript errors', flush=True)
     browser.close()
 
-print('COMPLETE: 8 word catalog regression groups passed', flush=True)
+print('COMPLETE: 10 word catalog regression groups passed', flush=True)

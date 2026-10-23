@@ -37,6 +37,8 @@
 
 
 .word-spelling-hint{color:var(--muted);font-size:13px;text-align:center;margin:0 0 20px}.word-practice-example{text-align:center;padding:14px 18px;border:1px solid var(--line);border-radius:12px;margin:12px auto;max-width:620px}.word-practice-example p{margin:4px 0}.word-practice-example .button{margin-top:8px}@media(max-width:600px){.word-spelling-hint{font-size:11px;margin:4px 12px 12px}.word-practice-example{padding:10px 12px}.word-practice-example p{font-size:13px}}
+
+.word-subcategory-group{margin:0 0 32px;padding-top:12px}.word-group-heading{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:15px 0;margin-bottom:14px;border-bottom:1px solid var(--line)}.word-group-heading h3{margin:0;font-size:21px}.word-group-heading>div:first-child{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}.word-group-actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap}@media(max-width:600px){.word-group-heading{align-items:flex-start;flex-direction:column;gap:10px}.word-group-heading h3{font-size:18px}.word-toolbar{flex-wrap:wrap;gap:10px}.word-group-actions .button{font-size:12px}}
 </style>
 
 
@@ -448,7 +450,7 @@ window.LOCAL_AUDIO_BANK={"voice":"Kokoro Heart · 美式英语","locale":"en-US"
 <script>
 (() => {
   'use strict';
-  window.FROG_OFFLINE_CACHE="frog-us-word-spelling-v2";
+  window.FROG_OFFLINE_CACHE="frog-us-word-groups-v3";
   let installPrompt=null;
   let offlineReady=false;
   let registrationFailed=false;
@@ -716,6 +718,26 @@ window.LOCAL_AUDIO_BANK={"voice":"Kokoro Heart · 美式英语","locale":"en-US"
     const {category,subcategoryId}=wordSelection();
     return state.words.filter(w=>(!category||w.categoryId===category.id)&&(!subcategoryId||w.subcategoryId===subcategoryId)&&(wordFilter==='all'||(wordFilter==='new'?!state.wordStatus[w.id]:state.wordStatus[w.id]===wordFilter))&&(!query||`${w.word} ${w.meaning} ${w.example}`.toLowerCase().includes(query.toLowerCase())));
   }
+  function wordClassification(word) {
+    // Repair saved built-in entries by their stable ID without resetting progress.
+    const builtin=wordCatalog.words.find(item=>item.id===word.id);
+    const subcategoryId=builtin?.subcategoryId||word.subcategoryId||'';
+    const category=wordCatalog.categories.find(c=>c.subcategories.some(sub=>sub.id===subcategoryId));
+    return {categoryId:category?.id||'',subcategoryId:category?subcategoryId:''};
+  }
+  function renderWordGroups(list) {
+    const {category}=wordSelection();
+    const section=(title,items,subcategoryId='')=>`<section class="word-subcategory-group" data-subcategory-id="${esc(subcategoryId)}"><div class="word-group-heading"><div><h3>${esc(title)}</h3><span class="muted">${items.length} 个词条</span></div>${subcategoryId?`<div class="word-group-actions"><button class="button small" data-route="words/${subcategoryId.split('-')[0]}/${subcategoryId}">查看分类</button><button class="button small primary" data-action="learn-word-group" data-subcategory-id="${subcategoryId}">整组练习 · ${items.length} 词</button></div>`:''}</div><div class="word-grid">${items.map(wordCard).join('')}</div></section>`;
+    const groups=wordCatalog.categories.map(c=>{
+      const sections=c.subcategories.map(sub=>{
+        const items=list.filter(w=>w.subcategoryId===sub.id);
+        return items.length?section(sub.name,items,sub.id):'';
+      }).join('');
+      return sections?`<section class="word-category-group" data-category-id="${c.id}">${category?'':`<h2 class="section-title">${esc(c.name)}</h2>`}${sections}</section>`:'';
+    }).join('');
+    const unclassified=list.filter(w=>!w.subcategoryId);
+    return groups+(unclassified.length?section('未分类',unclassified):'');
+  }
   function renderWords() {
     const {category,subcategoryId,showAll}=wordSelection(),list=selectedWords();
     const intro=header('单词仓库','从认识一个词开始，慢慢读懂更大的世界。',`<button class="button primary" data-action="learn-words" ${list.length?'':'disabled'}>${icon('word')}开始背词</button>`);
@@ -723,7 +745,7 @@ window.LOCAL_AUDIO_BANK={"voice":"Kokoro Heart · 美式英语","locale":"en-US"
     const tabs=`<div class="filters" aria-label="学习状态">${[['all','全部单词'],['new','未学习'],['unfamiliar','不熟悉'],['wrong','错题本'],['mastered','已掌握']].map(([id,t])=>`<button class="chip ${wordFilter===id?'active':''}" data-word-filter="${id}" aria-pressed="${wordFilter===id}">${t}</button>`).join('')}</div>`;
     if(!category&&!showAll&&!query&&wordFilter==='all')return intro+stats+tabs+`<div class="section-heading"><h2>按主题探索</h2><button class="text-button" data-route="words/all">查看全部词条 →</button></div><div class="vocab-catalog">${wordCatalog.categories.map((c,i)=>{const count=state.words.filter(w=>w.categoryId===c.id).length;return `<article class="vocab-category ${count?'available':''}"><button class="vocab-category-heading" data-route="words/${c.id}"><span class="vocab-emoji" aria-hidden="true">${c.emoji}</span><span><small>0${i+1} / ${count?`${count} 个词条`:'待添加内容'}</small><h3>${esc(c.name)}</h3><p>${esc(c.description)}</p></span><span aria-hidden="true">↗</span></button><div class="vocab-subcategories">${c.subcategories.map(sub=>{const size=state.words.filter(w=>w.subcategoryId===sub.id).length;return `<button data-route="words/${c.id}/${sub.id}"><span>${esc(sub.name)}</span><small>${size?`${size} 词`:'待添加'}</small></button>`;}).join('')}</div></article>`;}).join('')}</div><p class="hint">先从基础入门开始；其他主题已保留分类入口，后续逐步添加。</p>`;
     const sub=category?.subcategories.find(c=>c.id===subcategoryId);
-    return intro+`<nav class="vocab-breadcrumb" aria-label="单词分类"><button class="text-button" data-route="words">全部分类</button><span>/</span>${category?`<button class="text-button" data-route="words/${category.id}">${esc(category.name)}</button>`:'全部词条'}${sub?`<span>/</span><strong>${esc(sub.name)}</strong>`:''}</nav>`+(category?`<div class="vocab-detail-title"><span class="vocab-emoji" aria-hidden="true">${category.emoji}</span><div><h2>${esc(sub?.name||category.name)}</h2><p class="muted">${esc(category.description)}</p></div><span class="tag">美式发音 · en-US</span></div><div class="filters">${[{id:'',name:'本类全部'},...category.subcategories].map(c=>`<button class="chip ${subcategoryId===c.id?'active':''}" data-route="words/${category.id}${c.id?'/'+c.id:''}">${esc(c.name)}</button>`).join('')}</div>`:'')+tabs+`<div class="word-toolbar"><div class="result-count">共 ${list.length} 个词条${query?` · 搜索“${esc(query)}” <button class="text-button" data-action="clear-search">清除</button>`:''}</div><button class="button small" data-action="add-word">+ 添加单词</button></div>${list.length?`<div class="word-grid">${list.map(wordCard).join('')}</div>`:empty('这个分类正在准备中','分类入口已就绪，可以添加自己的单词，或稍后再来看看。','<button class="button primary" data-action="add-word">添加第一个单词</button>')}`;
+    return intro+`<nav class="vocab-breadcrumb" aria-label="单词分类"><button class="text-button" data-route="words">全部分类</button><span>/</span>${category?`<button class="text-button" data-route="words/${category.id}">${esc(category.name)}</button>`:'全部词条'}${sub?`<span>/</span><strong>${esc(sub.name)}</strong>`:''}</nav>`+(category?`<div class="vocab-detail-title"><span class="vocab-emoji" aria-hidden="true">${category.emoji}</span><div><h2>${esc(sub?.name||category.name)}</h2><p class="muted">${esc(category.description)}</p></div><span class="tag">美式发音 · en-US</span></div><div class="filters">${[{id:'',name:'本类全部'},...category.subcategories].map(c=>`<button class="chip ${subcategoryId===c.id?'active':''}" data-route="words/${category.id}${c.id?'/'+c.id:''}">${esc(c.name)}</button>`).join('')}</div>`:'')+tabs+`<div class="word-toolbar"><div class="result-count">共 ${list.length} 个词条${query?` · 搜索“${esc(query)}” <button class="text-button" data-action="clear-search">清除</button>`:''}</div><div class="word-group-actions">${sub&&list.length?`<button class="button small primary" data-action="learn-word-group" data-subcategory-id="${sub.id}">整组练习 · ${list.length} 词</button>`:''}<button class="button small" data-action="add-word">+ 添加单词</button></div></div>${list.length?(sub?`<div class="word-grid">${list.map(wordCard).join('')}</div>`:renderWordGroups(list)):empty('这个分类正在准备中','分类入口已就绪，可以添加自己的单词，或稍后再来看看。','<button class="button primary" data-action="add-word">添加第一个单词</button>')}`;
   }
   function renderPhonetics() {
     const list=LOCAL_SAMPLES.phonetics.filter(p=>phoneticFilter==='all'||(phoneticFilter==='vowels'?(p[1].includes('元音')||p[1]==='R 音组合'):!(p[1].includes('元音')||p[1]==='R 音组合')));
@@ -1179,7 +1201,7 @@ ollama pull gemma3:1b</pre><p class="hint">这个设置允许本地网页连接�
       return {id:id(c.id),title:textValue(c.title,100,'课程标题'),description:textValue(c.description||'',1000,'课程说明',true),category:Object.hasOwn(categories,c.category)&&c.category!=='all'?c.category:'daily',level:textValue(c.level||'自定',20,'课程级别'),color:['purple','blue','mint'].includes(c.color)?c.color:'purple',createdAt:date(c.createdAt),sample:c.sample===true&&LOCAL_SAMPLES.courses.some(sample=>sample.id===c.id),sentences:c.sentences.map(s=>({id:id(s.id),english:textValue(s.english,2000,'英文'),chinese:textValue(s.chinese,2000,'中文'),section:textValue(s.section||'',100,'小课编号',true),...(s.givenWords!==undefined?{givenWords:validateGivenWords(s.givenWords)}:{})}))};
     }).map(repairTextbookSections);
     unique(courses.map(c=>c.id));
-    const words=raw.words.map(w=>({id:id(w.id),word:textValue(w.word,100,'单词'),meaning:textValue(w.meaning,300,'释义'),ipa:textValue(w.ipa||'',100,'音标',true),example:textValue(w.example||'',2000,'例句',true),exampleZh:textValue(w.exampleZh||'',2000,'例句翻译',true),categoryId:wordCatalog.categories.some(c=>c.id===w.categoryId)?w.categoryId:'',subcategoryId:wordCatalog.categories.flatMap(c=>c.subcategories).some(c=>c.id===w.subcategoryId)?w.subcategoryId:'',itemType:w.itemType==='phrase'?'phrase':'word',level:[1,2,3].includes(w.level)?w.level:1,notes:textValue(w.notes||'',2000,'备注',true)}));
+    const words=raw.words.map(w=>({id:id(w.id),word:textValue(w.word,100,'单词'),meaning:textValue(w.meaning,300,'释义'),ipa:textValue(w.ipa||'',100,'音标',true),example:textValue(w.example||'',2000,'例句',true),exampleZh:textValue(w.exampleZh||'',2000,'例句翻译',true),...wordClassification(w),itemType:w.itemType==='phrase'?'phrase':'word',level:[1,2,3].includes(w.level)?w.level:1,notes:textValue(w.notes||'',2000,'备注',true)}));
     const sentenceIds=courses.flatMap(c=>c.sentences.map(s=>s.id)),wordIds=words.map(w=>w.id);unique([...sentenceIds,...wordIds]);
     const validStatuses=(map,pool)=>{if(!map||typeof map!=='object'||Array.isArray(map))throw new Error('学习状态不正确');const result={};Object.entries(map).forEach(([key,value])=>{if(pool.includes(key)&&['wrong','unfamiliar','mastered'].includes(value))result[key]=value;});return result;};
     const selection=(list,pool)=>{if(!Array.isArray(list)||list.some(x=>typeof x!=='string'))throw new Error('收藏或计划格式不正确');return [...new Set(list.filter(x=>pool.includes(x)))];};
@@ -1372,6 +1394,7 @@ ollama pull gemma3:1b</pre><p class="hint">这个设置允许本地网页连接�
         case 'learn-sentence':{const s=getSentence(id);if(s)openLesson('sentence',[s]);break;}
         case 'learn-word':{const w=getWord(id);if(w)openLesson('word',[w]);break;}
         case 'learn-words':{const list=selectedWords();openLesson('word',shuffle(list).slice(0,state.plan.words));break;}
+        case 'learn-word-group':{const list=selectedWords().filter(w=>w.subcategoryId===button.dataset.subcategoryId);openLesson('word',list);break;}
         case 'favorite':toggleFavorite(id);break;
         case 'lesson-favorite':toggleFavorite(lesson.items[lesson.index].id);break;
         case 'favorite-course':change(s=>s.courseFavorites=s.courseFavorites.includes(id)?s.courseFavorites.filter(x=>x!==id):[...s.courseFavorites,id]);break;
