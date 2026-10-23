@@ -1,9 +1,10 @@
 {
-  "revision": "clear-us-dj-v4",
+  "revision": "dj-reading-v5",
   "engine": "Kokoro-82M v1.0 FP32",
   "voice": "af_bella",
-  "locale": "en-US",
-  "phonemizer": "Misaki-fork en-US 0.9.6",
+  "voiceLocale": "en-US",
+  "locale": "en-GB",
+  "phonemizer": "Misaki-fork en-GB 0.9.6",
   "speed": 1.0,
   "sampleRate": 24000,
   "bitrate": "96k",
@@ -16,5 +17,5 @@
     "voices-v11.bin": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d"
   },
   "clipCount": 598,
-  "generationSignature": "34e17de4f115d9d0538dd3db7e772d021f57171246618d1dee77ddf041a2e4f2"
+  "generationSignature": "e4aa692a3c7b10b67b25095e1f72c09f196693cea521fe48f4fec2c9c6195e6a"
 }

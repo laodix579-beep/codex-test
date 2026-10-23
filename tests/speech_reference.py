@@ -1,4 +1,4 @@
-"""DJ display references and US word/example playback regression checks.
+"""DJ display references and matching word/example playback regression checks.
 
 Requires the development server on port 8000, Playwright and Chromium.
 """
@@ -20,6 +20,13 @@ for case in review['cases']:
     assert bank['texts'][case['audioKey']]==case['displayedText']
     assert hashlib.sha256(base64.b64decode(bank['clips'][case['audioKey']])).hexdigest()==case['audioSha256']
 
+# Check the actual synthesis inputs for sounds that differ between US and DJ readings.
+# Kokoro uses Q for /əʊ/ and ɛə for traditional DJ /eə/.
+for key,phones in {'hello':'həlˈQ','half':'hˈɑːf','four':'fˈɔː',
+        'bird':'bˈɜːd','hot':'hˈɒt','hair':'hˈɛə','square':'skwˈɛə'}.items():
+    assert bank['phonemes'][key]==phones,(key,bank['phonemes'][key])
+assert bank['voiceLocale']=='en-US'  # Retain the original voice's timbre.
+
 with sync_playwright() as p:
     browser=p.chromium.launch(executable_path='/usr/bin/chromium',headless=True,args=['--no-sandbox'])
     context=browser.new_context(viewport={'width':1440,'height':900})
@@ -30,10 +37,10 @@ with sync_playwright() as p:
         voice:FrogPractice.speechProfile.locale,bank:LOCAL_AUDIO_BANK.locale,
         revision:LOCAL_AUDIO_BANK.revision,hello:FROG_WORD_CATALOG.words.find(w=>w.word==='hello').ipa,
         please:FROG_WORD_CATALOG.words.find(w=>w.word==='please').ipa})''')
-    assert info=={'ipa':'DJ','ipaLocale':'en-GB','voice':'en-US','bank':'en-US',
-        'revision':'clear-us-dj-v4','hello':'/həˈləʊ/','please':'/pliːz/'}
+    assert info=={'ipa':'DJ','ipaLocale':'en-GB','voice':'en-GB','bank':'en-GB',
+        'revision':'dj-reading-v5','hello':'/həˈləʊ/','please':'/pliːz/'}
     assert 'DJ /pliːz/' in page.locator('.word-card').filter(has=page.locator('[data-action="speak-word"][data-id="C01-S01-011"]')).inner_text()
-    print('PASS: DJ written references are separate from US recordings and US system-voice selection',flush=True)
+    print('PASS: DJ written references and recorded/system pronunciation use British phonology',flush=True)
 
     page.evaluate('''()=>{
         const key=document.body.dataset.storageKey,s=JSON.parse(localStorage.getItem(key));
@@ -68,10 +75,10 @@ with sync_playwright() as p:
     assert page.locator('#question-audio').evaluate('a=>a.playbackRate')==.65
     page.locator('#lesson-dialog [data-close]').click()
     page.goto(BASE+'#phonetics')
-    assert 'DJ' in page.locator('#content').inner_text() and '美式' in page.locator('#content').inner_text()
+    assert 'DJ' in page.locator('#content').inner_text() and '按英式' in page.locator('#content').inner_text()
     assert page.locator('.phonetic-card').filter(has_text='near').locator('.symbol').inner_text()=='/ɪə/'
     assert not errors,errors
-    print('PASS: practice retains the selected rate; phonetic lessons show DJ references and explain the US example audio',flush=True)
+    print('PASS: practice retains the selected rate; phonetic lessons show DJ references and explain the matching example audio',flush=True)
     browser.close()
 
 print('COMPLETE: 4 speech reference regression groups passed',flush=True)

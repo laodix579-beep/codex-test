@@ -1,4 +1,4 @@
-"""Word catalog, upgrade, backup and US audio regression checks.
+"""Word catalog, upgrade, backup and DJ audio regression checks.
 
 Run with the local server on port 8000: python3 tests/word_catalog.py
 """
@@ -122,10 +122,10 @@ with sync_playwright() as p:
     voice_selection=page.evaluate('''()=>{
       const uk={lang:'en-GB',name:'British',voiceURI:'uk',localService:true};
       const us={lang:'en-US',name:'Samantha',voiceURI:'us',localService:true};
-      return {locale:FrogPractice.speechProfile.locale,selected:FrogPractice.selectPracticeVoice([uk,us],'uk')?.voiceURI,
-        ukOnly:FrogPractice.selectPracticeVoice([uk]),bank:LOCAL_AUDIO_BANK.locale};
+      return {locale:FrogPractice.speechProfile.locale,selected:FrogPractice.selectPracticeVoice([uk,us],'us')?.voiceURI,
+        usOnly:FrogPractice.selectPracticeVoice([us]),bank:LOCAL_AUDIO_BANK.locale};
     }''')
-    assert voice_selection=={'locale':'en-US','selected':'us','ukOnly':None,'bank':'en-US'}
+    assert voice_selection=={'locale':'en-GB','selected':'uk','usOnly':None,'bank':'en-GB'}
     decoded=page.evaluate('''async()=>{
       const ac=new AudioContext(),bank=LOCAL_AUDIO_BANK;
       const texts=FROG_WORD_CATALOG.words.flatMap(w=>[w.word,w.example]);
@@ -135,7 +135,7 @@ with sync_playwright() as p:
       let total=0;
       for(const text of new Set(texts)){
         const key=FrogPractice.normalize(text),payload=bank.clips[key];
-        if(!payload)throw new Error('Missing US audio: '+text);
+        if(!payload)throw new Error('Missing DJ audio: '+text);
         const bytes=Uint8Array.from(atob(payload),c=>c.charCodeAt(0));
         const buffer=await ac.decodeAudioData(bytes.buffer);
         if(buffer.duration<=.08||!buffer.getChannelData(0).some(n=>Math.abs(n)>.001))throw new Error('Silent audio: '+text);
@@ -150,7 +150,7 @@ with sync_playwright() as p:
     page.locator('.word-example-speak').first.click()
     page.wait_for_function('document.getElementById("question-audio").currentTime>0')
     assert page.locator('#question-audio').get_attribute('data-prompt')=='hello anna'
-    print(f'PASS: US-only voice selection; {decoded} word, example, course and phonetic recordings decode; word/example buttons play', flush=True)
+    print(f'PASS: DJ-aligned GB voice selection; {decoded} word, example, course and phonetic recordings decode; word/example buttons play', flush=True)
 
     page.locator('[data-action="save-app"]').click()
     with page.expect_download() as event:
@@ -180,7 +180,7 @@ with sync_playwright() as p:
             local_context.close()
             server.shutdown()
             server.server_close()
-    print('PASS: exported single HTML retains categories, progress and playable US audio without checkout assets',flush=True)
+    print('PASS: exported single HTML retains categories, progress and playable DJ audio without checkout assets',flush=True)
 
     page.goto(BASE+'#settings')
     page.wait_for_function("document.querySelector('[data-mobile-status]')?.textContent.startsWith('已保存离线内容')")
@@ -191,7 +191,7 @@ with sync_playwright() as p:
     page.wait_for_function('document.getElementById("question-audio").currentTime>0')
     assert page.locator('.word-card').count()==22
     context.set_offline(False)
-    print('PASS: offline reload keeps the category and playable new US word audio', flush=True)
+    print('PASS: offline reload keeps the category and playable new DJ word audio', flush=True)
 
     for width in [320,390,768,1440,1894]:
         page.set_viewport_size({'width':width,'height':900})

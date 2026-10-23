@@ -1,18 +1,18 @@
 {
-  "speechRevision": "clear-us-dj-v4",
+  "speechRevision": "dj-reading-v5",
   "method": "Automatic transcription with Whisper base.en full precision, checked against the displayed English. This is a content check, not human pronunciation certification.",
   "cases": [
     {
       "audioKey": "please",
       "displayedText": "please",
       "recognizedText": "Please.",
-      "audioSha256": "d47472575abe155c0d9b3f15abe3ccc4ccd31404edf54a490d321e7b22f93db2"
+      "audioSha256": "ecbeedbb46ebd2a08d1658b460e8075ddd23d0e91387b80d4597a575a8483869"
     },
     {
       "audioKey": "please sit down",
       "displayedText": "Please sit down.",
       "recognizedText": "Please sit down.",
-      "audioSha256": "ee679a0a105dcbe1dcc8b28366d63de2a1d8020b26aed3f316a44366bea330cd"
+      "audioSha256": "59b99d942f3c8139e34a83f74259798caabc6b37fca4fbbe03a05ac945044a34"
     }
   ]
 }
