@@ -498,7 +498,7 @@ window.LOCAL_AUDIO_BANK={"voice":"Bella · GA 美式英语","voiceLocale":"en-US
 <script>
 (() => {
   'use strict';
-  window.FROG_OFFLINE_CACHE="frog-navigation-result-audio-v11";
+  window.FROG_OFFLINE_CACHE="frog-navigation-result-audio-v12";
   let installPrompt=null;
   let offlineReady=false;
   let registrationFailed=false;
@@ -561,12 +561,28 @@ window.LOCAL_AUDIO_BANK={"voice":"Bella · GA 美式英语","voiceLocale":"en-US
     if(location.protocol==='file:'||!isSecureContext)return;
     if(!('serviceWorker' in navigator)){registrationFailed=true;refresh();return;}
     navigator.serviceWorker.register('./sw.js',{updateViaCache:'none'}).then(async registration=>{
+      const controllerVersion=worker=>new Promise(resolve=>{
+        if(!worker){resolve(null);return;}
+        const channel=new MessageChannel();
+        const finish=version=>{clearTimeout(timer);channel.port1.close();resolve(version);};
+        const timer=setTimeout(()=>finish(null),1500);
+        channel.port1.onmessage=event=>finish(event.data?.cache);
+        try{worker.postMessage({type:'FROG_CACHE_VERSION'},[channel.port2]);}catch{finish(null);}
+      });
       const checkCache=async()=>{
+        const controller=navigator.serviceWorker.controller;
         const cache=await caches.open(window.FROG_OFFLINE_CACHE);
-        offlineReady=offlineReady||Boolean(await cache.match(new URL('./index.html',location.href).href));
+        const cached=await cache.match(new URL('./index.html',location.href).href);
+        const version=await controllerVersion(controller);
+        // Cached files can arrive before the new worker takes control.
+        if(controller!==navigator.serviceWorker.controller)return;
+        offlineReady=Boolean(cached&&version===window.FROG_OFFLINE_CACHE);
         if(offlineReady)registrationFailed=false;
         refresh();
       };
+      navigator.serviceWorker.addEventListener('controllerchange',()=>{
+        checkCache().catch(()=>{registrationFailed=true;refresh();});
+      });
       const watched=new WeakSet();
       const watch=worker=>{
         if(!worker||watched.has(worker))return;watched.add(worker);

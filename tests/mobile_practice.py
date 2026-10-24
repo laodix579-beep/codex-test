@@ -223,7 +223,7 @@ with sync_playwright() as p:
         (fixture/'sw.js').write_text('''
           self.addEventListener('install',e=>e.waitUntil(caches.open('previous-practice').then(c=>c.addAll(['./index.html'])).then(()=>self.skipWaiting())));
           self.addEventListener('activate',e=>e.waitUntil(self.clients.claim()));
-          self.addEventListener('fetch',e=>{if(e.request.mode==='navigate')e.respondWith(fetch(e.request).catch(()=>caches.match('./index.html')));});
+          self.addEventListener('fetch',e=>{if(e.request.mode==='navigate')e.respondWith(fetch(e.request).catch(()=>caches.open('previous-practice').then(c=>c.match('./index.html'))));});
         ''')
         # Model an older deployment. SimpleHTTPRequestHandler compares HTTP
         # timestamps at one-second precision; writing both versions in the same
@@ -243,11 +243,19 @@ with sync_playwright() as p:
             root=Path(__file__).resolve().parents[1]
             for name in ('index.html','sw.js','manifest.webmanifest','icon-192.png','icon-512.png','apple-touch-icon.png'):
                 shutil.copyfile(root/name,fixture/name)
+            # Keep the old controller active briefly after the new files arrive.
+            # A cache entry alone must not announce offline readiness.
+            worker=(fixture/'sw.js').read_text().replace('.then(()=>self.skipWaiting())', '.then(()=>new Promise(resolve=>setTimeout(resolve,2500))).then(()=>self.skipWaiting())')
+            (fixture/'sw.js').write_text(worker)
             up.goto(origin+'?upgrade=phone-practice#settings')
+            up.wait_for_function('caches.open(FROG_OFFLINE_CACHE).then(c=>c.match(new URL("./index.html",location.href).href)).then(Boolean)',timeout=20000)
+            assert not up.locator('[data-mobile-status]').first.inner_text().startswith('已保存离线内容')
             up.wait_for_function("document.querySelector('[data-mobile-status]')?.textContent.startsWith('已保存离线内容')",timeout=20000)
             assert up.evaluate("localStorage.getItem('unrelated-study-record')")=='preserve-me'
+            expected_version=up.evaluate('FROG_OFFLINE_CACHE')
             upgrade.set_offline(True)
             up.reload()
+            assert up.evaluate('FROG_OFFLINE_CACHE')==expected_version
             assert up.locator('#content h1').inner_text()=='设置与备份'
             assert up.evaluate("localStorage.getItem('unrelated-study-record')")=='preserve-me'
             passed('Existing installations wait for the new offline cache and preserve stored records on upgrade')

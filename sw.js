@@ -1,10 +1,18 @@
 // Cache only this app's public static files. Learning data stays in localStorage.
-const CACHE="frog-navigation-result-audio-v11";
+const CACHE="frog-navigation-result-audio-v12";
 const ROOT=new URL('./',self.location.href);
 const FILES=['index.html','manifest.webmanifest','icon-192.png','icon-512.png','apple-touch-icon.png'];
 self.addEventListener('install',event=>event.waitUntil(
-  caches.open(CACHE).then(cache=>cache.addAll(FILES.map(file=>new Request(new URL(file,ROOT).href,{cache:'reload'})))).then(()=>self.skipWaiting())
+  caches.open(CACHE).then(async cache=>{
+    await cache.addAll(FILES.map(file=>new Request(new URL(file,ROOT).href,{cache:'reload'})));
+    const page=await cache.match(new URL('index.html',ROOT).href);
+    if(!page||!(await page.text()).includes('window.FROG_OFFLINE_CACHE="'+CACHE+'"'))
+      throw new Error('The offline page does not match this update.');
+  }).then(()=>self.skipWaiting())
 ));
+self.addEventListener('message',event=>{
+  if(event.data?.type==='FROG_CACHE_VERSION')event.ports[0]?.postMessage({cache:CACHE});
+});
 self.addEventListener('activate',event=>event.waitUntil((async()=>{
   // Old versions may still be serving open tabs, so retain them until the next upgrade.
   await self.clients.claim();
