@@ -23,6 +23,14 @@ with sync_playwright() as p:
  assert page.locator('.word-context-meaning').inner_text()=='词义：你好；喂'
  assert page.locator('.given-word').all_text_contents()==['Anna']
  assert page.locator('.translation-blank').count()==1
+ page.wait_for_function('document.querySelector("#question-audio").dataset.prompt==="hello anna"')
+ assert page.locator('#question-audio').get_attribute('data-source-text')=='Hello, Anna.'
+ assert page.locator('#question-audio').get_attribute('data-delivery')=='sentence'
+ page.locator('#translation-form [data-action="speak-lesson"]').click()
+ page.wait_for_function('document.querySelector("#question-audio").currentTime>0')
+ assert page.locator('#question-audio').get_attribute('data-source-text')=='Hello, Anna.'
+ assert page.locator('.word-context-meaning').evaluate('(el)=>!!el.previousElementSibling.matches(".translation-slots")')
+ assert page.locator('.word-context-meaning').bounding_box()['y']>=page.locator('.translation-slots').bounding_box()['y']+page.locator('.translation-slots').bounding_box()['height']
  assert 'Hello' not in page.locator('.translation-slots').inner_text()
  page.screenshot(path='/tmp/frog-word-cloze-desktop.png')
  page.locator('.translation-blank').fill('hello');page.locator('#translation-submit').click()

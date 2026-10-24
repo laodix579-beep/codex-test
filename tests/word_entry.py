@@ -1,4 +1,4 @@
-"""Direct theme/category practice, full-group counts and default pictures."""
+"""Theme dialogs, category practice, full-group counts and default pictures."""
 from playwright.sync_api import sync_playwright
 BASE='http://127.0.0.1:8000/'
 with sync_playwright() as p:
@@ -7,10 +7,19 @@ with sync_playwright() as p:
   context=browser.new_context(viewport={'width':390 if mobile else 1440,'height':844 if mobile else 1000},is_mobile=mobile,has_touch=mobile)
   page=context.new_page();errors=[];page.on('pageerror',lambda e:errors.append(str(e)))
   page.goto(BASE+'#words')
-  page.locator('.vocab-category-heading[data-route="words/C01"]').click()
+  for i in range(1,9):
+   page.locator(f'.vocab-category-heading[data-category-id="C{i:02}"]').click()
+   assert page.locator('#word-category-dialog').is_visible()
+   assert page.locator('#word-category-dialog .word-category-choices button').count()==4
+   assert not page.locator('#lesson-dialog').evaluate('d=>d.open')
+   page.keyboard.press('Escape')
+  page.locator('.vocab-category-heading[data-category-id="C01"]').click()
+  assert '22 个词条' in page.locator('#word-category-dialog button[data-subcategory-id="C01-S01"]').inner_text()
+  page.locator('#word-category-dialog button[data-subcategory-id="C01-S01"]').click()
+  assert not page.locator('#word-category-dialog').is_visible()
   page.locator('.translation-blank').first.wait_for()
-  assert '1 / 136' in page.locator('.lesson-progress').inner_text()
-  assert page.locator('#practice-jump option').count()==136
+  assert '1 / 22' in page.locator('.lesson-progress').inner_text()
+  assert page.locator('#practice-jump option').count()==22
   assert page.locator('#content .word-card').count()==0
   assert page.locator('[data-session-setting="showPicture"]').first.is_checked()
   page.wait_for_function('document.querySelector(".translation-picture img")?.naturalWidth>0')
@@ -31,14 +40,15 @@ with sync_playwright() as p:
   assert page.locator('[data-session-setting="showPicture"]').first.is_checked()
   assert page.locator('.translation-picture').count()==1
   page.locator('#lesson-dialog [data-close]').click()
-  page.locator('.vocab-category-heading[data-route="words/C02"]').click()
+  page.locator('.vocab-category-heading[data-category-id="C02"]').click()
+  page.locator('#word-category-dialog button[data-subcategory-id="C02-S01"]').click()
   page.get_by_role('heading',name='这个分类正在准备中').wait_for(state='visible')
   assert not page.locator('#lesson-dialog').evaluate('d=>d.open')
   page.goto(BASE+'#words/all')
   page.locator('.word-card').first.wait_for()
   assert page.locator('.word-card').count()==136
   assert not errors,errors
-  print(f'PASS: {"phone" if mobile else "desktop"} theme=136, greeting=22, no list detour, picture defaults on, empty and management entries work',flush=True)
+  print(f'PASS: {"phone" if mobile else "desktop"} eight theme dialogs, greeting=22, no list detour, picture defaults on, empty and management entries work',flush=True)
   context.close()
  browser.close()
 print('COMPLETE: direct word entry checks passed',flush=True)
