@@ -22,6 +22,8 @@
 
 各个弹窗均提供带文字的“返回”按钮，普通页面也可返回上一级；退出练习会停止播放并保留已保存的学习进度。
 
+兼容缺少 `structuredClone`、`Object.hasOwn` 和 `Array.at` 的手机内置浏览器。启动期间会显示加载提示；初始化失败会显示重新加载入口，无需清空学习记录。
+
 学习进度保存在当前浏览器。手机更新后需联网刷新，并等待“已保存离线内容”再断网；该提示会核对当前控制页面的缓存版本，避免离线退回旧版。首次联网完成缓存后可以离线使用；跨设备通过“设置与备份”导出、导入学习记录。
 
 在仓库目录启动开发服务器：
@@ -42,6 +44,7 @@ python3 tests/word_cloze.py
 python3 tests/speech_reference.py
 python3 tests/pep_pronunciation.py
 python3 tests/navigation_audio.py
+python3 tests/mobile_startup.py
 ```
 
 检查覆盖手机输入事件的单次音效、音效静音、触屏答题、键盘弹出布局、离线重开及桌面快捷键。
