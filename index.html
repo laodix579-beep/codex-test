@@ -212,6 +212,11 @@ button,a,input,select,textarea,summary{touch-action:manipulation}
 .touch-practice .desktop-space-hint{display:none}
 
 </style>
+<style id="return-controls">
+/* Explicit return controls stay visible in desktop and phone windows. */
+.dialog-heading>.dialog-back{order:-1;display:inline-flex;align-items:center;justify-content:center;gap:5px;flex-shrink:0;min-width:72px;min-height:40px;padding:8px 12px;white-space:nowrap}.dialog-heading>h2{flex:1}.dialog-back.practice-back .back-glyph{display:block}.dialog-back svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2}.page-back{flex-shrink:0;white-space:nowrap}.page-back[hidden]{display:none}
+@media(max-width:760px){.translation-practice .dialog-back.practice-back{display:inline-flex;width:auto;height:36px;min-width:64px;min-height:36px;padding:6px 9px;border-radius:8px;background:#7865ef}.translation-practice .dialog-back.practice-back .back-glyph{display:block;width:18px;height:18px}.page-back{font-size:12px;min-height:36px;padding:6px 9px}.dialog-heading>.dialog-back{min-width:64px;padding:6px 9px}.dialog-heading>h2{font-size:18px}}
+</style>
 </head>
 <body data-offline-single-file="true">
   <svg class="svg-defs" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs>
@@ -245,15 +250,15 @@ button,a,input,select,textarea,summary{touch-action:manipulation}
   </aside>
   <button id="scrim" class="scrim" aria-label="关闭导航" hidden></button>
   <div class="app-main">
-    <header class="topbar"><button class="icon-button mobile-menu" id="menu-button" aria-label="打开导航" aria-expanded="false"><svg><use href="#menu"/></svg></button><span class="page-breadcrumb"><span class="breadcrumb-dot"></span><strong id="page-name">首页</strong></span><form class="global-search" id="search-form"><svg><use href="#search"/></svg><input id="global-search" type="search" placeholder="搜索课程、单词…" aria-label="搜索课程和单词"><kbd>Enter</kbd></form><div class="top-actions"><button class="button primary" data-action="save-app" title="保存完整网页到电脑"><svg><use href="#download"/></svg><span>保存完整网页</span></button><button class="button subtle" data-action="import"><svg><use href="#upload"/></svg><span>导入课程</span></button><button class="button subtle" data-action="backup"><svg><use href="#download"/></svg><span>备份</span></button><span class="local-badge"><span class="dot"></span>本地自用</span><span class="avatar">我</span></div></header>
+    <header class="topbar"><button class="icon-button mobile-menu" id="menu-button" aria-label="打开导航" aria-expanded="false"><svg><use href="#menu"/></svg></button><button type="button" class="button page-back" data-action="navigate-back" aria-label="返回上一级" hidden>← 返回</button><span class="page-breadcrumb"><span class="breadcrumb-dot"></span><strong id="page-name">首页</strong></span><form class="global-search" id="search-form"><svg><use href="#search"/></svg><input id="global-search" type="search" placeholder="搜索课程、单词…" aria-label="搜索课程和单词"><kbd>Enter</kbd></form><div class="top-actions"><button class="button primary" data-action="save-app" title="保存完整网页到电脑"><svg><use href="#download"/></svg><span>保存完整网页</span></button><button class="button subtle" data-action="import"><svg><use href="#upload"/></svg><span>导入课程</span></button><button class="button subtle" data-action="backup"><svg><use href="#download"/></svg><span>备份</span></button><span class="local-badge"><span class="dot"></span>本地自用</span><span class="avatar">我</span></div></header>
     <main id="content" tabindex="-1"></main>
     <footer>小蛙自习室 <span>·</span> 每天一点点，英语更进一步。<span class="footer-right">无需账号 · 无订阅费用</span></footer>
   </div>
-  <dialog id="lesson-dialog" class="lesson-dialog"><div class="dialog-heading"><div class="practice-title"><span id="lesson-course" class="muted"></span><span id="lesson-subtitle" class="lesson-subtitle"></span></div><button class="icon-button practice-back" data-close aria-label="返回课程"><svg class="close-glyph"><use href="#close"/></svg><svg class="back-glyph" viewBox="0 0 24 24"><path d="m13 5-7 7 7 7M6 12h14"/></svg></button><details id="practice-mobile-menu" class="phone-practice-menu"></details></div><div id="question-audio-player" class="question-audio-player" hidden><span>GA 美式发音 · 离线音频</span><audio id="question-audio" controls preload="auto" aria-label="当前题目英语朗读"></audio><button class="button small" data-action="speak-lesson">重听</button></div><div id="lesson-content"></div></dialog>
-  <dialog id="mode-dialog"><div class="dialog-heading"><h2>选择练习模式</h2><button class="icon-button" data-close aria-label="关闭模式选择"><svg><use href="#close"/></svg></button></div><div class="practice-mode-grid"><button class="practice-mode active" data-start-mode="translate"><small>新手推荐</small><strong>中译英模式</strong><span>看中文，输入英文；可逐步提示。</span></button><button class="practice-mode" data-start-mode="listen"><small>泛听练习</small><strong>听力模式</strong><span>原文开关、慢速朗读、重复和连播。</span></button><button class="practice-mode" data-start-mode="typing"><small>输入强化</small><strong>打字练习</strong><span>逐字高亮、准确率、速度和键盘音。</span></button><button class="practice-mode" data-start-mode="oral"><small>口语练习</small><strong>口语练习</strong><span>麦克风检测、录音回放和可选识别。</span></button></div><div class="dialog-actions"><button class="button" data-close>取消</button><button class="button primary" data-action="start-selected-mode">开始练习</button></div></dialog>
-  <dialog id="import-dialog"><div class="dialog-heading"><h2>导入自己的课程</h2><button class="icon-button" data-close aria-label="关闭"><svg><use href="#close"/></svg></button></div><p class="muted">导入你已有的双语资料，自动变成可练习的课程。文件仅在本机读取。</p><label class="form-label" for="import-title">课程名称</label><input id="import-title" class="field" maxlength="100" placeholder="例如：我的日常英语"><label class="form-label" for="import-kind">资料分类</label><select id="import-kind" class="field"><option value="daily">日常英语</option><option value="textbook">教材同步</option><option value="work">职场英语</option><option value="travel">旅行英语</option></select><label class="form-label" for="import-file">选择文件</label><input id="import-file" class="field" type="file" accept=".json,.csv,.txt"><p class="hint">支持 JSON 模板，以及 UTF-8 的 CSV / TXT。每行格式：英文句子[TAB 或 |]中文翻译。CSV 首行需为 english,chinese。单个文件不超过 2 MB。</p><button class="text-button" id="download-template">下载 JSON 示例模板</button><details><summary>也可以直接粘贴双语内容</summary><textarea id="import-text" class="field" rows="6" placeholder="Hello, nice to meet you.|你好，很高兴认识你。"></textarea></details><div class="dialog-actions"><button class="button" data-close>取消</button><button class="button primary" id="confirm-import">导入课程</button></div></dialog>
-  <dialog id="note-dialog"><form id="note-form"><div class="dialog-heading"><h2 id="note-form-title">写一篇手账</h2><button class="icon-button" type="button" data-close aria-label="关闭"><svg><use href="#close"/></svg></button></div><input id="note-id" type="hidden"><label class="form-label" for="note-title">标题</label><input id="note-title" class="field" maxlength="120" required><label class="form-label" for="note-body">学习记录</label><textarea id="note-body" class="field" rows="10" required maxlength="100000" placeholder="今天学到了什么？记录一个新表达，或写下你的学习心得。"></textarea><div class="dialog-actions"><button type="button" class="button" data-close>取消</button><button class="button primary" type="submit">保存手账</button></div></form></dialog>
-  <dialog id="confirm-dialog"><form method="dialog"><h2 id="confirm-title">请确认</h2><p id="confirm-text" class="muted"></p><div class="dialog-actions"><button class="button" value="cancel" autofocus>取消</button><button class="button danger" value="yes">确认</button></div></form></dialog>
+  <dialog id="lesson-dialog" class="lesson-dialog"><div class="dialog-heading"><div class="practice-title"><span id="lesson-course" class="muted"></span><span id="lesson-subtitle" class="lesson-subtitle"></span></div><button type="button" class="button dialog-back practice-back" data-close aria-label="返回上一页"><svg class="back-glyph" viewBox="0 0 24 24" aria-hidden="true"><path d="m13 5-7 7 7 7M6 12h14"/></svg><span>返回</span></button><details id="practice-mobile-menu" class="phone-practice-menu"></details></div><div id="question-audio-player" class="question-audio-player" hidden><span>GA 美式发音 · 离线音频</span><audio id="question-audio" controls preload="auto" aria-label="当前题目英语朗读"></audio><button class="button small" data-action="speak-lesson">重听</button></div><div id="lesson-content"></div></dialog>
+  <dialog id="mode-dialog"><div class="dialog-heading"><h2>选择练习模式</h2><button type="button" class="button dialog-back" data-close aria-label="返回上一页"><svg class="back-glyph" viewBox="0 0 24 24" aria-hidden="true"><path d="m13 5-7 7 7 7M6 12h14"/></svg><span>返回</span></button></div><div class="practice-mode-grid"><button class="practice-mode active" data-start-mode="translate"><small>新手推荐</small><strong>中译英模式</strong><span>看中文，输入英文；可逐步提示。</span></button><button class="practice-mode" data-start-mode="listen"><small>泛听练习</small><strong>听力模式</strong><span>原文开关、慢速朗读、重复和连播。</span></button><button class="practice-mode" data-start-mode="typing"><small>输入强化</small><strong>打字练习</strong><span>逐字高亮、准确率、速度和键盘音。</span></button><button class="practice-mode" data-start-mode="oral"><small>口语练习</small><strong>口语练习</strong><span>麦克风检测、录音回放和可选识别。</span></button></div><div class="dialog-actions"><button class="button" data-close>取消</button><button class="button primary" data-action="start-selected-mode">开始练习</button></div></dialog>
+  <dialog id="import-dialog"><div class="dialog-heading"><h2>导入自己的课程</h2><button type="button" class="button dialog-back" data-close aria-label="返回上一页"><svg class="back-glyph" viewBox="0 0 24 24" aria-hidden="true"><path d="m13 5-7 7 7 7M6 12h14"/></svg><span>返回</span></button></div><p class="muted">导入你已有的双语资料，自动变成可练习的课程。文件仅在本机读取。</p><label class="form-label" for="import-title">课程名称</label><input id="import-title" class="field" maxlength="100" placeholder="例如：我的日常英语"><label class="form-label" for="import-kind">资料分类</label><select id="import-kind" class="field"><option value="daily">日常英语</option><option value="textbook">教材同步</option><option value="work">职场英语</option><option value="travel">旅行英语</option></select><label class="form-label" for="import-file">选择文件</label><input id="import-file" class="field" type="file" accept=".json,.csv,.txt"><p class="hint">支持 JSON 模板，以及 UTF-8 的 CSV / TXT。每行格式：英文句子[TAB 或 |]中文翻译。CSV 首行需为 english,chinese。单个文件不超过 2 MB。</p><button class="text-button" id="download-template">下载 JSON 示例模板</button><details><summary>也可以直接粘贴双语内容</summary><textarea id="import-text" class="field" rows="6" placeholder="Hello, nice to meet you.|你好，很高兴认识你。"></textarea></details><div class="dialog-actions"><button class="button" data-close>取消</button><button class="button primary" id="confirm-import">导入课程</button></div></dialog>
+  <dialog id="note-dialog"><form id="note-form"><div class="dialog-heading"><h2 id="note-form-title">写一篇手账</h2><button type="button" class="button dialog-back" data-close aria-label="返回上一页"><svg class="back-glyph" viewBox="0 0 24 24" aria-hidden="true"><path d="m13 5-7 7 7 7M6 12h14"/></svg><span>返回</span></button></div><input id="note-id" type="hidden"><label class="form-label" for="note-title">标题</label><input id="note-title" class="field" maxlength="120" required><label class="form-label" for="note-body">学习记录</label><textarea id="note-body" class="field" rows="10" required maxlength="100000" placeholder="今天学到了什么？记录一个新表达，或写下你的学习心得。"></textarea><div class="dialog-actions"><button type="button" class="button" data-close>取消</button><button class="button primary" type="submit">保存手账</button></div></form></dialog>
+  <dialog id="confirm-dialog"><form method="dialog"><div class="dialog-heading"><button type="button" class="button dialog-back" data-close aria-label="返回上一页">← 返回</button><h2 id="confirm-title">请确认</h2></div><p id="confirm-text" class="muted"></p><div class="dialog-actions"><button class="button" value="cancel" autofocus>取消</button><button class="button danger" value="yes">确认</button></div></form></dialog>
   <input type="file" id="restore-file" accept=".json" hidden>
   <div id="toast" role="status" class="toast" hidden></div>
   <noscript><p>请在浏览器中启用 JavaScript 后使用此本地学习站。</p></noscript>
@@ -493,7 +498,7 @@ window.LOCAL_AUDIO_BANK={"voice":"Bella · GA 美式英语","voiceLocale":"en-US
 <script>
 (() => {
   'use strict';
-  window.FROG_OFFLINE_CACHE="frog-word-category-sentence-v10";
+  window.FROG_OFFLINE_CACHE="frog-navigation-result-audio-v11";
   let installPrompt=null;
   let offlineReady=false;
   let registrationFailed=false;
@@ -532,7 +537,7 @@ window.LOCAL_AUDIO_BANK={"voice":"Bella · GA 美式英语","voiceLocale":"en-US
     let dialog=document.getElementById('mobile-help-dialog');
     if(!dialog){
       dialog=document.createElement('dialog');dialog.id='mobile-help-dialog';
-      dialog.innerHTML='<div class="dialog-heading"><h2>添加到主屏幕</h2><button class="icon-button" type="button" data-close aria-label="关闭">×</button></div><p>苹果：请用 Safari 打开 HTTPS 网页，点击分享按钮，再选“添加到主屏幕”。</p><p>安卓：请用 Chrome 打开 HTTPS 网页，从浏览器菜单选择“安装应用”或“添加到主屏幕”。</p><p>如果在聊天软件内打开，请先选择“在浏览器中打开”。</p><p class="mobile-status" data-mobile-status></p>';
+      dialog.innerHTML='<div class="dialog-heading"><h2>添加到主屏幕</h2><button type="button" class="button dialog-back" data-close aria-label="返回上一页"><svg class="back-glyph" viewBox="0 0 24 24" aria-hidden="true"><path d="m13 5-7 7 7 7M6 12h14"/></svg><span>返回</span></button></div><p>苹果：请用 Safari 打开 HTTPS 网页，点击分享按钮，再选“添加到主屏幕”。</p><p>安卓：请用 Chrome 打开 HTTPS 网页，从浏览器菜单选择“安装应用”或“添加到主屏幕”。</p><p>如果在聊天软件内打开，请先选择“在浏览器中打开”。</p><p class="mobile-status" data-mobile-status></p>';
       document.body.append(dialog);
     }
     dialog.showModal();refresh();
@@ -696,6 +701,11 @@ window.LOCAL_AUDIO_BANK={"voice":"Bella · GA 美式英语","voiceLocale":"en-US
   function empty(title,description,button='') {
     return `<div class="empty-state">${icon('course')}<h3>${esc(title)}</h3><p>${esc(description)}</p>${button}</div>`;
   }
+  function navigateBack() {
+    const path=(location.hash.slice(1)||'home').split('/');
+    if(path[0]==='course'){navigate(path[1]===LOCAL_TEXTBOOK.id?'textbooks':'courses');return;}
+    navigate(path.length>1?path.slice(0,-1).join('/'):'home');
+  }
   function navigate(next) {
     closeSidebar();
     if(location.hash.slice(1)===next)render();else location.hash=next;
@@ -704,6 +714,7 @@ window.LOCAL_AUDIO_BANK={"voice":"Bella · GA 美式英语","voiceLocale":"en-US
     let hash;
     try{hash=decodeURIComponent(location.hash.slice(1)||'home');}catch{hash='home';}
     route=hash.split('/')[0];
+    $('.page-back').hidden=route==='home';
     // A theme or subcategory is a direct entry to its full practice group.
     const [,categoryId,subcategoryId]=hash.split('/');
     const practiceCategory=route==='words'&&wordCatalog.categories.find(c=>c.id===categoryId);
@@ -796,7 +807,7 @@ window.LOCAL_AUDIO_BANK={"voice":"Bella · GA 美式英语","voiceLocale":"en-US
     let dialog=$('#word-category-dialog');
     if(!dialog){dialog=document.createElement('dialog');dialog.id='word-category-dialog';dialog.className='word-category-dialog';document.body.append(dialog);}
     dialog.setAttribute('aria-labelledby','word-category-title');
-    dialog.innerHTML=`<div class="dialog-heading"><h2 id="word-category-title">${esc(category.name)}</h2><button class="icon-button" data-close aria-label="关闭分类窗口">${icon('close')}</button></div><p class="muted">选择一个分类，练习其中的词汇。</p><div class="word-category-choices">${category.subcategories.map(sub=>{const count=state.words.filter(w=>w.subcategoryId===sub.id).length;return `<button data-action="choose-word-subcategory" data-category-id="${category.id}" data-subcategory-id="${sub.id}"><strong>${esc(sub.name)}</strong><span>${count?`${count} 个词条 · 开始练习`:'暂无词条 · 查看分类'}</span></button>`;}).join('')}</div>`;
+    dialog.innerHTML=`<div class="dialog-heading"><h2 id="word-category-title">${esc(category.name)}</h2><button type="button" class="button dialog-back" data-close aria-label="返回上一页"><svg class="back-glyph" viewBox="0 0 24 24" aria-hidden="true"><path d="m13 5-7 7 7 7M6 12h14"/></svg><span>返回</span></button></div><p class="muted">选择一个分类，练习其中的词汇。</p><div class="word-category-choices">${category.subcategories.map(sub=>{const count=state.words.filter(w=>w.subcategoryId===sub.id).length;return `<button data-action="choose-word-subcategory" data-category-id="${category.id}" data-subcategory-id="${sub.id}"><strong>${esc(sub.name)}</strong><span>${count?`${count} 个词条 · 开始练习`:'暂无词条 · 查看分类'}</span></button>`;}).join('')}</div>`;
     dialog.showModal();
   }
   function renderWords() {
@@ -982,7 +993,7 @@ window.LOCAL_AUDIO_BANK={"voice":"Bella · GA 美式英语","voiceLocale":"en-US
     if(blanks.every(t=>normalize(round.values[t.index]||'')===normalize(t.text))){
       round.solved=true;round.message='';round.seen=false;resetPracticeMedia();
       if(item.phase==='whole')recordResult(lesson.type,item.id,'mastered');
-      practiceSound('correct');renderTranslation();focusTranslationComplete();
+      practiceSound('correct');renderTranslation();focusTranslationComplete();playLesson();
     }else{
       const next=blanks.find(t=>t.index>current.index&&!round.accepted.includes(t.index))||blanks.find(t=>!round.accepted.includes(t.index));
       round.message='✓ 这个词正确，继续下一个词。';updateTranslationFeedback(round);focusTranslation(next?.index);
@@ -1020,7 +1031,7 @@ window.LOCAL_AUDIO_BANK={"voice":"Bella · GA 美式英语","voiceLocale":"en-US
   function markTranslation(status) {
     if(lesson.paused||lesson.finished)return;
     const round=translationRound();recordResult(lesson.type,lesson.items[lesson.index].id,status);
-    round.marked=true;practiceSound(status==='mastered'?'correct':'key');renderTranslation();focusTranslationComplete();
+    round.marked=true;resetPracticeMedia();practiceSound(status==='mastered'?'correct':'key');renderTranslation();focusTranslationComplete();playLesson();
   }
   function switchTranslationSplit(split) {
     const baseIndex=lesson.items[lesson.index].baseIndex;
@@ -1095,7 +1106,9 @@ window.LOCAL_AUDIO_BANK={"voice":"Bella · GA 美式英语","voiceLocale":"en-US
     if(!lesson||lesson.paused||lesson.finished)return;clearTimeout(listenTimer);
     const active=lesson,generation=++mediaGeneration;let remaining=active.mode==='listen'?(active.repeat||1):1;
     const play=()=>{if(lesson!==active||generation!==mediaGeneration)return;const item=active.items[active.index];active.playing=true;
-      const utterance=speak(active.type==='word'?(active.mode==='translate'&&item.cloze?item.cloze.english:item.word):item.english,()=>{
+      const round=active.mode==='translate'?translationRound():null;
+      const text=active.type==='word'?(item.cloze&&round&&!round.solved&&!round.marked?item.cloze.english:item.word):item.english;
+      const utterance=speak(text,()=>{
         if(lesson!==active||generation!==mediaGeneration)return;
         active.playing=false;if(active.mode!=='listen')return;
         active.listened=(active.listened||0)+1;const status=(active.type==='word'?state.wordStatus:state.sentenceStatus)[item.id]||'unfamiliar';recordResult(active.type,item.id,status);
@@ -1331,7 +1344,7 @@ ollama pull gemma3:1b</pre><p class="hint">这个设置允许本地网页连接�
     let dialog=$('#save-app-dialog');
     if(!dialog){
       dialog=document.createElement('dialog');dialog.id='save-app-dialog';
-      dialog.innerHTML=`<div class="dialog-heading"><h2>保存完整网页到自己的设备</h2><button class="icon-button" data-close aria-label="关闭保存窗口">${icon('close')}</button></div><p class="muted">将完整程序、GA 美式发音音频、当前题库、章节、学习进度与设置一起保存为 HTML。此 HTML 适合在电脑或支持本地网页的安卓浏览器中保存使用。苹果手机请使用 HTTPS 网页版并添加到主屏幕；迁移进度请导出完整备份。</p><button class="button primary" data-action="download-app-file">${icon('download')}下载完整 HTML（含题库与进度）</button><p class="hint">此文件包含你当前的个人学习数据；换电脑首次打开也能继续使用。之后的新进度保存在打开它的浏览器中，需要带走时再次保存网页。</p><details id="source-fallback"><summary>下载仍失败？复制源码手动保存</summary><p class="muted">点击下方“选中完整源码”，按 Ctrl + C。打开 Windows 记事本粘贴，另存为 <strong>local-english.html</strong>；保存类型选择“所有文件”，编码选择 UTF-8，再用 Chrome 打开。</p><button class="button" data-action="select-html-source">选中完整源码</button><label class="form-label" for="offline-html-source">完整网页源码（含当前题库）</label><textarea class="field" id="offline-html-source" rows="7" readonly spellcheck="false"></textarea></details>`;
+      dialog.innerHTML=`<div class="dialog-heading"><h2>保存完整网页到自己的设备</h2><button type="button" class="button dialog-back" data-close aria-label="返回上一页"><svg class="back-glyph" viewBox="0 0 24 24" aria-hidden="true"><path d="m13 5-7 7 7 7M6 12h14"/></svg><span>返回</span></button></div><p class="muted">将完整程序、GA 美式发音音频、当前题库、章节、学习进度与设置一起保存为 HTML。此 HTML 适合在电脑或支持本地网页的安卓浏览器中保存使用。苹果手机请使用 HTTPS 网页版并添加到主屏幕；迁移进度请导出完整备份。</p><button class="button primary" data-action="download-app-file">${icon('download')}下载完整 HTML（含题库与进度）</button><p class="hint">此文件包含你当前的个人学习数据；换电脑首次打开也能继续使用。之后的新进度保存在打开它的浏览器中，需要带走时再次保存网页。</p><details id="source-fallback"><summary>下载仍失败？复制源码手动保存</summary><p class="muted">点击下方“选中完整源码”，按 Ctrl + C。打开 Windows 记事本粘贴，另存为 <strong>local-english.html</strong>；保存类型选择“所有文件”，编码选择 UTF-8，再用 Chrome 打开。</p><button class="button" data-action="select-html-source">选中完整源码</button><label class="form-label" for="offline-html-source">完整网页源码（含当前题库）</label><textarea class="field" id="offline-html-source" rows="7" readonly spellcheck="false"></textarea></details>`;
       document.body.append(dialog);
     }
     $('#offline-html-source').value=html;dialog.showModal();
@@ -1402,7 +1415,7 @@ ollama pull gemma3:1b</pre><p class="hint">这个设置允许本地网页连接�
   async function addWord() {
     // Reuse the import dialog with a dedicated form, rather than browser prompts.
     let dialog=$('#word-dialog');
-    if(!dialog){dialog=document.createElement('dialog');dialog.id='word-dialog';dialog.innerHTML=`<form id="word-form"><div class="dialog-heading"><h2>添加自己的单词</h2><button class="icon-button" type="button" data-close aria-label="关闭">${icon('close')}</button></div><label class="form-label" for="new-word">英文单词</label><input class="field" id="new-word" maxlength="100" required><label class="form-label" for="new-meaning">中文释义</label><input class="field" id="new-meaning" maxlength="300" required><label class="form-label" for="new-ipa">DJ 音标（选填）</label><input class="field" id="new-ipa" maxlength="100"><label class="form-label" for="new-subcategory">单词分类</label><select class="field" id="new-subcategory">${wordCatalog.categories.map(c=>`<optgroup label="${esc(c.name)}">${c.subcategories.map(sub=>`<option value="${sub.id}">${esc(sub.name)}</option>`).join('')}</optgroup>`).join('')}</select><label class="form-label" for="new-example">例句（选填）</label><input class="field" id="new-example" maxlength="2000"><div class="dialog-actions"><button class="button primary" type="submit">保存单词</button></div></form>`;document.body.append(dialog);}
+    if(!dialog){dialog=document.createElement('dialog');dialog.id='word-dialog';dialog.innerHTML=`<form id="word-form"><div class="dialog-heading"><h2>添加自己的单词</h2><button type="button" class="button dialog-back" data-close aria-label="返回上一页"><svg class="back-glyph" viewBox="0 0 24 24" aria-hidden="true"><path d="m13 5-7 7 7 7M6 12h14"/></svg><span>返回</span></button></div><label class="form-label" for="new-word">英文单词</label><input class="field" id="new-word" maxlength="100" required><label class="form-label" for="new-meaning">中文释义</label><input class="field" id="new-meaning" maxlength="300" required><label class="form-label" for="new-ipa">DJ 音标（选填）</label><input class="field" id="new-ipa" maxlength="100"><label class="form-label" for="new-subcategory">单词分类</label><select class="field" id="new-subcategory">${wordCatalog.categories.map(c=>`<optgroup label="${esc(c.name)}">${c.subcategories.map(sub=>`<option value="${sub.id}">${esc(sub.name)}</option>`).join('')}</optgroup>`).join('')}</select><label class="form-label" for="new-example">例句（选填）</label><input class="field" id="new-example" maxlength="2000"><div class="dialog-actions"><button class="button primary" type="submit">保存单词</button></div></form>`;document.body.append(dialog);}
     $('#word-form').reset();const selection=wordSelection();$('#new-subcategory').value=selection.subcategoryId||selection.category?.subcategories[0].id||'C01-S01';dialog.showModal();
   }
 
@@ -1433,6 +1446,7 @@ ollama pull gemma3:1b</pre><p class="hint">这个设置允许本地网页连接�
       }
       const id=button.dataset.id;
       switch(button.dataset.action){
+        case 'navigate-back':navigateBack();break;
         case 'open-textbook':ensureTextbook();navigate(`course/${LOCAL_TEXTBOOK.id}`);break;
         case 'book-all':{ensureTextbook();chooseMode(allSentences().filter(s=>s.courseId===LOCAL_TEXTBOOK.id));break;}
         case 'book-lesson':{ensureTextbook();chooseMode(allSentences().filter(s=>s.courseId===LOCAL_TEXTBOOK.id&&s.section===id));break;}

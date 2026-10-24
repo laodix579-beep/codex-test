@@ -200,7 +200,8 @@ with sync_playwright() as p:
     open_practice(dp)
     assert dp.locator('.mobile-controls').is_hidden()
     assert dp.locator('.translation-shortcuts').is_visible()
-    assert dp.locator('.practice-back .close-glyph').is_visible()
+    assert dp.locator('.practice-back').is_visible()
+    assert dp.locator('.practice-back').inner_text()=='返回'
     assert dp.locator('#practice-mobile-menu').is_hidden()
     passed('Desktop shortcut layout remains available')
     desktop.close()
