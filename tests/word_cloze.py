@@ -29,8 +29,9 @@ with sync_playwright() as p:
  page.locator('#translation-form [data-action="speak-lesson"]').click()
  page.wait_for_function('document.querySelector("#question-audio").currentTime>0')
  assert page.locator('#question-audio').get_attribute('data-source-text')=='Hello, Anna.'
- assert page.locator('.word-context-meaning').evaluate('(el)=>!!el.previousElementSibling.matches(".translation-slots")')
- assert page.locator('.word-context-meaning').bounding_box()['y']>=page.locator('.translation-slots').bounding_box()['y']+page.locator('.translation-slots').bounding_box()['height']
+ assert page.locator('.word-context-meaning').evaluate('(el)=>!!el.previousElementSibling.matches(".word-example-prompt")')
+ assert page.locator('.word-context-meaning').bounding_box()['y']+page.locator('.word-context-meaning').bounding_box()['height']<=page.locator('.translation-slots').bounding_box()['y']
+ assert page.locator('.word-spelling-hint').count()==0
  assert 'Hello' not in page.locator('.translation-slots').inner_text()
  page.screenshot(path='/tmp/frog-word-cloze-desktop.png')
  page.locator('.translation-blank').fill('hello');page.locator('#translation-submit').click()
