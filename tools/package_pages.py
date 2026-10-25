@@ -16,7 +16,7 @@ assert len(list((ROOT/'audio').rglob('*.mp3')))==610
 (ROOT/'小蛙自习室.html').write_bytes((ROOT/'index.html').read_bytes())
 names=['.nojekyll','index.html','小蛙自习室.html','sw.js','audio-files.js','audio-manifest.json','vocabulary-audio-map.csv','pronunciation-test-words.csv','audio-source-report.csv','CODEX_只接入录音.md','README.md','DEPLOY_WINDOWS.md','AUDIO_CREDITS.md','manifest.webmanifest','supabase-config.js','icon-192.png','icon-512.png','apple-touch-icon.png']
 files=[ROOT/n for n in names]
-for directory in ['audio','data','licenses','reports']:
+for directory in ['assets','audio','data','licenses','reports']:
  files.extend(p for p in (ROOT/directory).rglob('*') if p.is_file())
 files.extend((ROOT/'tests').glob('*.py'));files.append(Path(__file__).resolve())
 assert len(files)==len(set(files)) and all(f.is_file() for f in files)

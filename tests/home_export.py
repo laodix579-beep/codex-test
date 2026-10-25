@@ -1,0 +1,51 @@
+"""The home user-menu export carries its new illustration and original MP3s."""
+import threading
+from functools import partial
+from http.server import SimpleHTTPRequestHandler,ThreadingHTTPServer
+from pathlib import Path
+from tempfile import TemporaryDirectory
+from playwright.sync_api import sync_playwright
+
+class Quiet(SimpleHTTPRequestHandler):
+ def log_message(self,*args):pass
+
+with sync_playwright() as p:
+ browser=p.chromium.launch(executable_path='/usr/bin/chromium',headless=True,args=['--no-sandbox'])
+ context=browser.new_context(viewport={'width':1440,'height':960},accept_downloads=True)
+ context.add_init_script("Object.defineProperty(window,'speechSynthesis',{get(){throw new Error('TTS forbidden')}})")
+ page=context.new_page();errors=[];page.on('pageerror',lambda e:errors.append(str(e)))
+ page.goto('http://127.0.0.1:8000/#home')
+ page.evaluate('''()=>{const key=document.body.dataset.storageKey,s=JSON.parse(localStorage.getItem(key));s.wordStatus['C01-S01-001']='mastered';s.settings.userName='导出学习者';s.notes=[{id:'export-home-note',title:'原有手账',body:'需要保留的记录',createdAt:'2026-10-01T00:00:00Z',updatedAt:'2026-10-01T00:00:00Z'}];localStorage.setItem(key,JSON.stringify(s));}''')
+ page.reload();page.locator('#home-user-menu>summary').click()
+ page.locator('#home-user-menu [data-action="save-app"]').click()
+ page.locator('#save-app-dialog [data-action="download-app-file"]').wait_for(timeout=90000)
+ html=page.locator('#offline-html-source').input_value()
+ assert 'id="home-art-snapshot"' in html and 'window.FROG_HOME_ART="data:image/png;base64,' in html
+ with TemporaryDirectory(prefix='home-export-') as directory:
+  with page.expect_download() as dl:page.locator('#save-app-dialog [data-action="download-app-file"]').click()
+  dl.value.save_as(Path(directory)/'index.html')
+  server=ThreadingHTTPServer(('127.0.0.1',0),partial(Quiet,directory=directory))
+  threading.Thread(target=server.serve_forever,daemon=True).start()
+  isolated=browser.new_context(viewport={'width':1440,'height':960},service_workers='block')
+  isolated.add_init_script("Object.defineProperty(window,'speechSynthesis',{get(){throw new Error('TTS forbidden')}})")
+  try:
+   exported=isolated.new_page();exported.on('pageerror',lambda e:errors.append(str(e)))
+   exported.goto(f'http://127.0.0.1:{server.server_port}/#home',timeout=90000)
+   exported.wait_for_function('document.querySelector(".home-hero-illustration img")?.naturalWidth>0')
+   assert exported.locator('.home-hero-illustration img').get_attribute('src').startswith('data:image/png;base64,')
+   assert '导出学习者' in exported.locator('#home-user-menu>summary').inner_text()
+   stored=exported.evaluate('JSON.parse(localStorage.getItem(document.body.dataset.storageKey))')
+   assert stored['wordStatus']['C01-S01-001']=='mastered' and stored['notes'][0]['body']=='需要保留的记录'
+   assert exported.locator('.startup-screen').is_hidden()
+   isolated.set_offline(True)
+   exported.locator('.home-resume-card [data-action="resume-desktop"]').click()
+   exported.locator('.translation-blank').first.wait_for()
+   assert '2/22' in exported.locator('#lesson-course').inner_text()
+   exported.locator('.translation-blank').first.fill('hi');exported.locator('#translation-submit').click()
+   exported.wait_for_function('document.querySelector("#question-audio").dataset.sourceText==="hi"&&document.querySelector("#question-audio").currentTime>0')
+   assert not errors,errors
+   print('PASS: home menu exports one HTML with the new hero, saved name/notes/progress and MP3 playback without original assets',flush=True)
+  finally:
+   isolated.close();server.shutdown();server.server_close()
+ context.close();browser.close()
+print('COMPLETE: home illustration and personal single-file export passed',flush=True)

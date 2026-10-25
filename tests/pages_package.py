@@ -18,6 +18,7 @@ with TemporaryDirectory(prefix='mvp-pages-') as directory:
  with zipfile.ZipFile(ROOT/'downloads/frog-study-offline.zip') as archive:
   assert archive.testzip() is None
   assert archive.read('index.html')==archive.read('小蛙自习室.html')==(ROOT/'index.html').read_bytes()
+  assert archive.read('assets/home-hero.png')==(ROOT/'assets/home-hero.png').read_bytes()
   audit=json.loads(archive.read('reports/source-audio-sha256.json'))
   assert len(audit)==610
   for path,row in audit.items():assert hashlib.sha256(archive.read(path)).hexdigest()==row['sha256']
@@ -38,6 +39,11 @@ with TemporaryDirectory(prefix='mvp-pages-') as directory:
     page.goto(base+'#settings')
     page.wait_for_function('document.querySelector("[data-mobile-status]").textContent.startsWith("已保存离线内容")',timeout=90000)
     context.set_offline(True)
+    if not mobile:
+     page.goto(base+'#home');page.reload()
+     page.wait_for_function('document.querySelector(".home-hero-illustration img")?.naturalWidth>0')
+     assert page.locator('.home-category-tile').count()==8
+     assert page.locator('#home-user-menu>summary').is_visible()
     page.goto(base+'#words');page.reload()
     assert page.locator('.vocab-category').count()==(1 if mobile else 8)
     page.goto(base+'#words/C01/C01-S01');page.locator('.translation-blank').wait_for()

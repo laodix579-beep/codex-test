@@ -534,6 +534,124 @@ body.desktop-mvp,html.desktop-mvp body{--bg:#f6f7ff;--panel:#fff;--raised:#f0eff
  .desktop-mvp .mvp-solved .translation-picture{height:140px;width:260px;margin-bottom:10px}.desktop-mvp .mvp-solved .mvp-complete-sentence{font-size:28px;margin:0 0 7px}.desktop-mvp .mvp-correct-feedback{padding:15px;margin-top:10px}.desktop-mvp .mvp-solved-actions{margin-top:12px}.desktop-mvp .mvp-solved-tools{margin-top:8px}.desktop-mvp .mvp-solved>.translation-chinese{margin-bottom:10px}.desktop-mvp .mvp-solved-actions .button{min-height:44px}.desktop-mvp .mvp-solved .practice-speech-status{margin-top:5px}.desktop-mvp .mvp-solved .grammar-card{padding:0 8px}.desktop-mvp .translation-question.mvp-solved{padding-top:0}
 }
 </style>
+<style id="homepage-v22-style">
+/* Screenshot-based desktop home; the existing learning engine stays in place. */
+.home-user-menu{display:none}
+.desktop-mvp.home-page .topbar{height:72px;background:#ffffff8c;border-color:#f0eef9;gap:20px}
+.desktop-mvp.home-page .page-breadcrumb{font-size:15px;color:#777b99;min-width:70px}
+.desktop-mvp.home-page .global-search{margin:0 auto;width:min(48vw,610px);max-width:610px;border-radius:25px;background:#fcfbffbb;border-color:#efedf8;height:40px}
+.desktop-mvp.home-page .global-search input{font-size:13px}
+.desktop-mvp.home-page .global-search .button{padding:5px 13px;color:#797796}
+.desktop-mvp.home-page .top-actions{display:none}
+.desktop-mvp.home-page .home-user-menu{display:block;position:relative;flex-shrink:0;margin:0;color:#19234c;z-index:25}
+.home-user-menu>summary{list-style:none;display:flex;gap:10px;align-items:center;cursor:pointer;font-size:13px;font-weight:600;padding:6px 0}
+.home-user-menu>summary::-webkit-details-marker{display:none}
+.home-user-avatar{position:relative;display:block;width:32px;height:32px;border-radius:50%;background:#e3e2d7;overflow:hidden}
+.home-user-avatar img{position:absolute;max-width:none;width:100px;height:auto;left:-34px;top:-2px}
+.home-user-menu>summary>span:nth-child(2){max-width:160px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.home-user-chevron{font-size:17px;font-weight:400;color:#a197d1;margin-left:2px}
+.home-user-options{position:absolute;right:0;top:49px;width:210px;border:1px solid #e9e4fa;border-radius:15px;background:#fff;padding:9px;box-shadow:0 12px 40px #6a5a9c24}
+.home-user-options button{display:flex;align-items:center;gap:10px;width:100%;padding:10px 11px;background:transparent;border-radius:8px;color:#6d658b;font-size:12px;text-align:left}
+.home-user-options button:hover{background:#f3efff;color:#7c61de}
+.home-user-options svg{width:17px;height:17px;color:#9b85e3}
+.home-user-options hr{border:0;border-top:1px solid #f0edf8;margin:6px 4px}
+.desktop-mvp.home-page #content{max-width:none;padding:0 28px;min-height:calc(100vh - 120px)}
+.desktop-mvp.home-page footer{max-width:none;padding:22px 28px;font-size:10px}
+.desktop-mvp.home-page .mvp-home{max-width:1680px;margin:0 auto}
+.desktop-mvp.home-page .home-hero{position:relative;isolation:isolate;overflow:hidden;height:282px;min-height:0;border-radius:18px;padding:34px 44px;margin:0;background:#fff5e8;border:1px solid #f6eddc;box-shadow:0 5px 16px #cfbdd90a}
+.home-hero-illustration{position:absolute;z-index:-2;right:0;top:0;width:76%;height:100%;overflow:hidden}
+.home-hero-illustration img{display:block;width:100%;height:100%;object-fit:cover;object-position:right 24%}
+.desktop-mvp.home-page .home-hero:after{content:'';position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,#fff6e9 0%,#fff6e9ee 23%,#fff6e9b0 36%,#fff6e900 55%);pointer-events:none}
+.desktop-mvp.home-page .home-hero .mvp-welcome-copy{max-width:57%;position:relative;z-index:1}
+.desktop-mvp.home-page .home-hero h1{font-size:clamp(28px,2.45vw,44px);line-height:1.5;margin:15px 0 14px;color:#172e5b;letter-spacing:-1px;font-weight:750}
+.desktop-mvp.home-page .home-hero h1 span{position:relative;white-space:nowrap}
+.desktop-mvp.home-page .home-hero h1 span:after{content:'';position:absolute;height:3px;border-radius:2px;background:linear-gradient(90deg,#c7b9f8a0,#ede4fa80,transparent);left:0;bottom:-8px;right:18%}
+.desktop-mvp.home-page .home-hero p{font-size:14px;color:#8c8b98;margin:0}
+.home-hero-spark{position:absolute;left:-22px;top:-2px;color:#ffc247;font-size:34px;transform:rotate(-14deg)}
+.home-overview{display:grid;grid-template-columns:1.08fr 1fr;gap:18px;margin:18px 0 0}
+.home-card{min-width:0;padding:18px 20px 17px;border:1px solid #ede9f9;border-radius:17px;background:#ffffffed;box-shadow:0 4px 18px #a79dc60c}
+.home-card-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:17px}
+.home-card-heading h2{display:flex;align-items:center;gap:9px;font-size:20px;font-weight:700;color:#243259;margin:0;line-height:1.5}
+.home-card-heading h2 svg{width:24px;height:24px;color:#8c6bff;stroke-width:2}
+.home-card-heading .text-button{font-size:12px;color:#a28be6;text-decoration:none;white-space:nowrap}
+.home-card-heading .text-button:hover{text-decoration:underline;text-underline-offset:3px}
+.desktop-mvp.home-page .mvp-resume{grid-template-columns:110px minmax(0,1fr) auto;gap:20px;position:static;margin:0;padding:0;border:0;background:transparent;border-radius:0;box-shadow:none;align-items:center}
+.desktop-mvp.home-page .mvp-block-art{width:110px;height:112px;border-radius:15px;background:linear-gradient(135deg,#f7f3ff,#f5f4fc);box-shadow:none}
+.desktop-mvp.home-page .mvp-block-art .mvp-abc-art{transform:scale(1.05)}
+.desktop-mvp.home-page .mvp-resume-name{font-size:22px;line-height:1.4;font-weight:700;margin:0 0 7px;color:#213052;letter-spacing:-.5px}
+.desktop-mvp.home-page .mvp-resume-title{font-size:12px;line-height:1.6;color:#8d8b9e;margin:0 0 12px}
+.desktop-mvp.home-page .mvp-resume .progress-track{height:10px;margin:0 0 9px;background:#eeebfc}
+.desktop-mvp.home-page .mvp-resume-progress-count{font-size:12px;color:#9692a7;line-height:1.6}
+.desktop-mvp.home-page .mvp-resume-action{grid-column:auto;align-self:end;text-align:right;padding-bottom:2px}
+.desktop-mvp.home-page .mvp-resume-action .button{padding:11px 20px;min-height:42px;margin:0;min-width:126px;font-size:13px;box-shadow:0 5px 13px #8c6af327}
+.desktop-mvp.home-page .mvp-preview{margin:10px 0 -2px 130px;gap:2px 13px}
+.desktop-mvp.home-page .mvp-preview button{font-size:10px;color:#9b95ad;padding:2px;gap:4px}
+.desktop-mvp.home-page .mvp-preview svg{width:12px;height:12px}
+.home-checkin-card{background:linear-gradient(115deg,#fff,#faf8ff)}
+.home-goals{display:flex;flex-direction:column;gap:13px;padding:3px 0 13px}
+.home-goal-row{display:grid;grid-template-columns:110px minmax(0,1fr) 94px;gap:12px;align-items:center}
+.home-goal-row>span{display:flex;align-items:center;gap:10px;font-size:14px;font-weight:600;white-space:nowrap;color:#2d3b5e}
+.home-goal-row>span svg{color:#ae8aff;width:22px;height:22px}
+.home-goal-row:nth-child(2)>span svg{color:#d587d9}
+.home-goal-row .progress-track{height:10px;background:#ece8fd}
+.home-goal-row>strong{font-size:12px;font-weight:400;color:#8c8aa1;text-align:right;white-space:nowrap}
+.home-checkin-bottom{display:flex;align-items:center;gap:10px;background:#f1edffb0;border-radius:13px;padding:12px 13px;margin-top:4px;min-height:68px}
+.home-bulb{font-size:23px;line-height:1;flex-shrink:0}
+.home-checkin-bottom>div{flex:1;min-width:0}
+.home-checkin-bottom strong{font-size:12px;color:#4e4b6e;font-weight:600}
+.home-checkin-bottom p{font-size:10px;line-height:1.6;margin:2px 0 0;color:#a19aae}
+.home-checkin-bottom .button{flex-shrink:0;min-width:155px;min-height:41px;border-radius:25px;font-size:13px;padding:10px 17px;box-shadow:0 5px 15px #9a74f923}
+.home-checkin-bottom.checked{background:#eff9f2}
+.home-checkin-bottom.checked .button{background:#e1f3e8;color:#58a179;box-shadow:none;opacity:1}
+.home-categories{margin-top:28px}
+.home-section-heading{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;gap:20px}
+.home-section-heading h2{font-size:21px;font-weight:700;color:#273658;margin:0}
+.home-section-heading .text-button{font-size:12px;color:#9591ae;text-decoration:none}
+.home-category-grid{display:grid;grid-template-columns:repeat(8,minmax(0,1fr));gap:15px}
+.home-category-tile{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;min-width:0;min-height:154px;padding:15px 9px 14px;border:1px solid #f3e5eb;background:linear-gradient(135deg,#fff1f2,#fff8f9);border-radius:17px;color:#253555;box-shadow:0 4px 14px #a69cbb08;transition:transform .15s,box-shadow .15s}
+.home-category-tile:hover{transform:translateY(-3px);box-shadow:0 8px 18px #a393d025}
+.home-category-tile:nth-child(2){background:linear-gradient(135deg,#fff9e7,#fffdf0);border-color:#f7efd9}
+.home-category-tile:nth-child(3),.home-category-tile:nth-child(7){background:linear-gradient(135deg,#e8f4ff,#eff8ff);border-color:#deedfc}
+.home-category-tile:nth-child(4){background:linear-gradient(135deg,#eefbed,#f7fff4);border-color:#e4f2df}
+.home-category-tile:nth-child(5){background:linear-gradient(135deg,#fff3e9,#fff9f2);border-color:#f8e9dc}
+.home-category-tile:nth-child(6){background:linear-gradient(135deg,#eeeaff,#f9f7ff);border-color:#e7e1fb}
+.home-category-art{display:flex;align-items:center;justify-content:center;width:78px;height:77px;font-size:49px;line-height:1;filter:drop-shadow(0 3px 1px #8883a319)}
+.home-category-art .mvp-abc-art{transform:scale(.82)}
+.home-category-tile>strong{font-size:13px;font-weight:650;line-height:1.5;text-align:center;min-height:20px;color:#293557;letter-spacing:-.4px}
+.home-category-tile>small{font-size:11px;font-weight:400;color:#9b96a8}
+.desktop-mvp.home-page .mvp-old-dashboard{margin:24px 0 0;color:#a09aaa}
+.desktop-mvp.home-page .mvp-old-dashboard>summary{font-size:11px;color:#a09aaa}
+.desktop-mvp.home-page .mvp-old-dashboard .checkin-card,.desktop-mvp.home-page .mvp-old-dashboard .welcome-strip{display:none}
+.desktop-mvp.home-page .mvp-old-dashboard .dashboard-grid{grid-template-columns:minmax(0,1fr) minmax(250px,.65fr);gap:20px;align-items:start}
+.desktop-mvp.home-page .mvp-old-dashboard .dashboard-left{grid-column:1;grid-row:1;display:flex;flex-direction:column;gap:20px}
+.desktop-mvp.home-page .mvp-old-dashboard .calendar-panel{grid-column:2;grid-row:1;padding:22px}
+.home-detail-dialog .dialog-actions{flex-wrap:wrap}
+.home-detail-dialog{width:min(680px,calc(100vw - 48px));max-height:85dvh;overflow:auto}
+.resume-details-summary{background:#f7f4ff;border-radius:13px;padding:17px 19px;margin:18px 0;color:#71628e}
+.resume-details-summary>strong{font-size:19px;color:#4b4265}
+.resume-details-summary p{margin:4px 0 0;font-size:12px;color:#a092b1}
+.resume-details-list{display:flex;flex-direction:column;gap:5px}
+.resume-detail-row{display:flex;align-items:center;gap:13px;padding:12px 8px;border-bottom:1px solid #f0ecf7}
+.resume-word-number{font-size:11px;color:#b4a9c4;min-width:22px}
+.resume-detail-row>div{flex:1;min-width:0}
+.resume-detail-row strong{font-size:15px;color:#53496c;overflow-wrap:anywhere}
+.resume-detail-row p{font-size:11px;color:#9f92ad;margin:3px 0 0;overflow-wrap:anywhere}
+.resume-word-status{font-size:10px;color:#ac9bbe;min-width:55px;text-align:center}
+.resume-word-status.done{color:#46a46a}
+.checkin-rule-intro{color:var(--muted)}
+.checkin-rule-item{display:flex;gap:14px;padding:18px 0;border-bottom:1px solid var(--line)}
+.checkin-rule-item>svg{color:#b39adb;flex-shrink:0;width:24px;height:24px;margin-top:3px}
+.checkin-rule-item strong{font-size:15px;color:var(--ink)}
+.checkin-rule-item p{margin:5px 0 0;color:var(--muted);font-size:12px;line-height:1.8}
+.checkin-rule-status{background:var(--raised);border-radius:10px;padding:12px 15px;color:var(--purple);font-size:12px}
+@media(min-width:1000px) and (max-width:1499px){
+ .desktop-mvp.home-page .home-hero{padding:32px 34px}.home-card{padding:17px 17px 15px}.home-card-heading h2{font-size:18px}.desktop-mvp.home-page .mvp-resume{grid-template-columns:88px minmax(0,1fr);gap:15px}.desktop-mvp.home-page .mvp-block-art{width:88px;height:100px;grid-row:1 / span 2}.desktop-mvp.home-page .mvp-block-art .mvp-abc-art{transform:scale(.86)}.desktop-mvp.home-page .mvp-resume-action{grid-column:2;grid-row:2;margin-top:-3px;justify-self:end}.desktop-mvp.home-page .mvp-resume-name{font-size:20px}.desktop-mvp.home-page .mvp-resume-title{font-size:11px;margin-bottom:9px}.desktop-mvp.home-page .mvp-resume-action .button{min-width:120px;min-height:36px;padding:8px 16px;font-size:12px}.desktop-mvp.home-page .mvp-preview{margin-left:103px;font-size:10px}.home-goal-row{grid-template-columns:86px minmax(0,1fr) 81px;gap:8px}.home-goal-row>span{font-size:12px;gap:7px}.home-goal-row>strong{font-size:11px}.home-checkin-bottom{flex-wrap:wrap;padding:10px 11px;gap:7px}.home-checkin-bottom .button{min-width:140px;min-height:36px;font-size:12px;margin-left:auto}.home-checkin-bottom p{font-size:10px}.home-category-grid{gap:11px}.home-category-tile{padding:13px 6px;min-height:146px}.home-category-tile>strong{font-size:12px}.home-category-art{font-size:44px;height:72px}
+}
+@media(min-width:1000px) and (max-width:1299px){
+ .desktop-mvp.home-page .home-hero{height:265px;padding:28px}.desktop-mvp.home-page .home-hero h1{font-size:29px;letter-spacing:-1px}.desktop-mvp.home-page .home-hero .mvp-welcome-copy{max-width:61%}.desktop-mvp.home-page .home-hero p{font-size:12px}.home-overview{grid-template-columns:1fr}.home-card{padding:19px 22px}.desktop-mvp.home-page .mvp-resume{grid-template-columns:100px minmax(0,1fr) auto}.desktop-mvp.home-page .mvp-block-art{width:100px;height:105px;grid-row:auto}.desktop-mvp.home-page .mvp-resume-action{grid-column:3;grid-row:1;margin:0}.desktop-mvp.home-page .mvp-preview{margin-left:115px}.home-goal-row{grid-template-columns:110px minmax(0,1fr) 96px}.home-checkin-bottom{flex-wrap:nowrap}.home-category-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:15px}.home-category-tile>strong{font-size:13px}.home-category-art{font-size:48px}.desktop-mvp.home-page .mvp-old-dashboard .dashboard-grid{grid-template-columns:1fr}.desktop-mvp.home-page .mvp-old-dashboard .calendar-panel{grid-column:1;grid-row:2}.home-user-menu>summary{font-size:12px}.desktop-mvp.home-page .global-search{width:40vw}
+}
+@media(prefers-reduced-motion:reduce){.home-category-tile{transition:none}}
+</style>
 </head>
 <body data-offline-single-file="true">
 <script id="body-layout">window.FrogStartup.layout();</script>
@@ -817,7 +935,7 @@ window.LOCAL_AUDIO_BANK={"voice":"Bella · GA 美式英语","voiceLocale":"en-US
 <script>
 (() => {
   'use strict';
-  window.FROG_OFFLINE_CACHE="frog-first-paint-v21";
+  window.FROG_OFFLINE_CACHE="frog-home-dashboard-v22";
   let installPrompt=null;
   let offlineReady=false;
   let registrationFailed=false;
@@ -1015,12 +1133,54 @@ window.LOCAL_AUDIO_BANK={"voice":"Bella · GA 美式英语","voiceLocale":"en-US
     const wordId=lesson.items[lesson.index]?.id;
     change(s=>s.practiceResume={ids:lesson.baseItems.map(w=>w.id),wordId},false);
   }
-  function renderDesktopHome() {
-    const resume=desktopResume(),old=renderLegacyHome(),d=today();
-    const total=resume.items.length,percent=total?resume.done/total*100:0,complete=total>0&&resume.done===total;
-    const actionLabel=complete?'复习本组':resume.done||state.practiceResume?'继续学习':'开始学习';
-    return `<section class="mvp-home"><div class="mvp-welcome"><div class="mvp-welcome-copy"><p class="mvp-date">${new Date().toLocaleDateString('zh-CN',{month:'long',day:'numeric',weekday:'long'})}</p><h1>你好，${esc(state.settings.userName)}。<br>今天一起学习英语吧</h1><p>每天进步一点点，积累更好的自己！</p></div><div class="mvp-welcome-art" aria-hidden="true"><img src="${studyImage()}" alt=""></div></div><section class="mvp-resume" aria-label="继续上次学习"><div class="mvp-block-art" aria-hidden="true">${abcArt()}</div><div class="mvp-resume-info"><h2><span class="mvp-resume-name">${esc(resume.sub?.name||'我的词条')} · 单词中译英</span><span class="tag">${esc(resume.category?.name||'单词仓库')}</span></h2><p class="mvp-resume-title">上次学习进度</p><div class="progress-track" role="progressbar" aria-label="上次学习进度" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${Math.round(percent)}" aria-valuetext="${total?`已掌握 ${resume.done} / ${total} 个词条`:'暂无词条'}"><div class="progress-fill" style="width:${percent}%"></div></div><small class="mvp-resume-progress-count">已掌握 ${resume.done} / ${total} 个词条</small><div class="mvp-preview" role="group" aria-label="本组词条练习">${resume.items.slice(0,3).map(w=>{const status=state.wordStatus[w.id],done=status==='mastered';return `<button type="button" class="${done?'done':status||'new'}" data-action="resume-word" data-id="${esc(w.id)}" title="${esc(statusLabel(status))} · 练习 ${esc(w.word)} 的用法" aria-label="练习 ${esc(w.word)} 的用法">${icon(done?'check':'clock')}<span>${esc(w.word)} 的用法</span></button>`;}).join('')}</div></div><div class="mvp-resume-action"><button class="button primary" data-action="resume-desktop" ${resume.items.length?'':'disabled'}>${actionLabel} ${icon('arrow')}</button><small>每天 ${state.plan.minutes} 分钟 · ${state.plan.words} 个词条</small></div></section><div class="mvp-home-secondary"><button class="mvp-start-category" data-route="words"><span><h3>选择一个分类，慢慢积累</h3><p>8 大主题 · 从生活中的表达开始</p></span>${icon('arrow')}</button><button class="mvp-start-category" data-route="records"><span><h3>每一步进步，都看得见</h3><p>今天已练习 ${d.words.length} 个词条 · 查看学习记录</p></span>${icon('chart')}</button></div><details class="mvp-old-dashboard"><summary>学习统计、日历与打卡</summary>${old}</details></section>`;
+  const homeHeroImage=()=>window.FROG_HOME_ART||new URL('./assets/home-hero.png',document.baseURI).href;
+  function dailyGoalProgress() {
+    const day=today(),minutes=state.plan.minutes,words=state.plan.words;
+    const remainingMinutes=Math.max(0,Math.ceil((minutes*60-day.seconds)/60));
+    const remainingWords=Math.max(0,words-day.words.length);
+    return {day,minutes,words,remainingMinutes,remainingWords,ready:day.seconds>=minutes*60&&day.words.length>=words,
+      timePercent:Math.min(100,day.seconds/(minutes*60)*100),wordPercent:Math.min(100,day.words.length/words*100)};
   }
+  function dailyGoalHint(goal) {
+    if(goal.day.checked)return '已保存今天的打卡，明天继续加油！';
+    if(goal.ready)return '两项目标已完成，可以记录今天的打卡啦！';
+    return [goal.remainingMinutes?`还需学习 ${goal.remainingMinutes} 分钟`:'',goal.remainingWords?`再练习 ${goal.remainingWords} 个单词`:''].filter(Boolean).join(' · ');
+  }
+  function renderHomeUserMenu() {
+    const home=desktopMVP()&&route==='home';document.body.classList.toggle('home-page',home);
+    let menu=$('#home-user-menu');
+    if(!menu){menu=document.createElement('details');menu.id='home-user-menu';menu.className='home-user-menu';$('.topbar').append(menu);}
+    menu.hidden=!home;
+    if(!home){menu.replaceChildren();return;}
+    menu.innerHTML=`<summary><span class="home-user-avatar" aria-hidden="true"><img src="${studyImage()}" alt=""></span><span>你好，${esc(state.settings.userName)}</span><span class="home-user-chevron" aria-hidden="true">⌄</span></summary><div class="home-user-options"><button data-route="settings">${icon('settings')}个人设置</button><button data-route="plan">${icon('plan')}每日学习目标</button><button data-route="records">${icon('chart')}学习与打卡记录</button><hr><button data-action="save-app">${icon('download')}保存完整网页</button><button data-action="backup">${icon('download')}导出学习备份</button><button data-action="restore">${icon('upload')}导入学习备份</button></div>`;
+  }
+  function resumeDetails() {
+    const resume=desktopResume();let dialog=$('#resume-details-dialog');
+    if(!dialog){dialog=document.createElement('dialog');dialog.id='resume-details-dialog';dialog.className='home-detail-dialog';dialog.setAttribute('data-close-on-route','');dialog.setAttribute('aria-labelledby','resume-details-title');document.body.append(dialog);}
+    dialog.innerHTML=`<div class="dialog-heading"><h2 id="resume-details-title">上次学习详情</h2><button class="button dialog-back" type="button" data-close>← 返回</button></div><div class="resume-details-summary"><strong>${esc(resume.sub?.name||'我的词条')}</strong><p>已掌握 ${resume.done} / ${resume.items.length} 个词条 · 下次从第 ${resume.items.length?resume.index+1:0} 词开始</p></div><div class="resume-details-list">${resume.items.map((w,i)=>`<div class="resume-detail-row"><span class="resume-word-number">${i+1}</span><div><strong>${esc(w.word)}</strong><p>${esc(w.meaning)}</p></div><span class="resume-word-status ${state.wordStatus[w.id]==='mastered'?'done':''}">${statusLabel(state.wordStatus[w.id])}</span><button type="button" class="button small" data-action="resume-word" data-id="${esc(w.id)}" aria-label="练习 ${esc(w.word)}">练习</button></div>`).join('')||'<p class="muted">还没有可练习的词条，可以先到分类学习中添加。</p>'}</div><div class="dialog-actions"><button class="button" data-route="words">查看分类</button><button class="button primary" data-action="resume-desktop" ${resume.items.length?'':'disabled'}>${resume.done===resume.items.length&&resume.items.length?'复习本组':'继续学习'} ${icon('arrow')}</button></div>`;
+    dialog.showModal();
+  }
+  function showCheckinRules() {
+    const goal=dailyGoalProgress();let dialog=$('#checkin-rules-dialog');
+    if(!dialog){dialog=document.createElement('dialog');dialog.id='checkin-rules-dialog';dialog.className='home-detail-dialog';dialog.setAttribute('data-close-on-route','');dialog.setAttribute('aria-labelledby','checkin-rules-title');document.body.append(dialog);}
+    dialog.innerHTML=`<div class="dialog-heading"><h2 id="checkin-rules-title">今日打卡规则</h2><button class="button dialog-back" type="button" data-close>← 返回</button></div><p class="checkin-rule-intro">完成下列两项目标，即可记录今天的学习打卡。</p><div class="checkin-rule-item">${icon('clock')}<div><strong>学习时长达到 ${goal.minutes} 分钟</strong><p>今天已学习 ${duration(goal.day.seconds)}。仅统计前台练习和答题时间，暂停及后台停留不计入。</p></div></div><div class="checkin-rule-item">${icon('word')}<div><strong>练习 ${goal.words} 个不同单词</strong><p>今天已练习 ${goal.day.words.length} 个。答题和原有练习模式均按记录计数；同一词条重复练习不重复计数。</p></div></div><p class="checkin-rule-status" role="status">${dailyGoalHint(goal)}</p><p class="hint">目标沿用“学习计划”中的设置。调整目标不会清除学习进度；已记录的打卡继续保留。</p><div class="dialog-actions"><button class="button" data-route="plan">调整每日目标</button><button class="button" data-route="records">查看打卡记录</button><button class="button primary" ${goal.ready&&!goal.day.checked?'data-action="checkin"':'data-route="words"'}>${goal.ready&&!goal.day.checked?'完成今日打卡':'去学习'} ${icon('arrow')}</button></div>`;
+    if(!dialog.open)dialog.showModal();
+  }
+  function completeTodayCheckin() {
+    flushTime();const goal=dailyGoalProgress();
+    if(goal.day.checked){toast('今天已经打卡，继续保持！');return;}
+    if(!goal.ready){showCheckinRules();return;}
+    $('#checkin-rules-dialog')?.close();
+    change(s=>ensureDay(s).checked=true);toast('今日打卡成功！');
+  }
+  function renderDesktopHome() {
+    const resume=desktopResume(),goal=dailyGoalProgress(),total=resume.items.length;
+    const percent=total?resume.done/total*100:0,complete=total>0&&resume.done===total;
+    const actionLabel=complete?'复习本组':resume.done||state.practiceResume?'继续学习':'开始学习';
+    const art=['','☀️','🎒','🏠','🍔','🦁','🚌','🏃'];
+    return `<section class="mvp-home home-dashboard"><section class="mvp-welcome home-hero"><div class="home-hero-illustration" aria-hidden="true"><img src="${homeHeroImage()}" alt=""></div><div class="mvp-welcome-copy"><span class="home-hero-spark" aria-hidden="true">✦</span><h1>你好，<br><span>今天一起来学习英语吧！</span></h1><p>每天进步一点点，积累更好的自己！</p></div></section><div class="home-overview"><section class="home-card home-resume-card" aria-label="继续上次学习"><div class="home-card-heading"><h2>${icon('course')}上次学习到哪里</h2><button class="text-button" data-action="resume-details" aria-haspopup="dialog" aria-controls="resume-details-dialog">查看详情 ›</button></div><div class="mvp-resume"><div class="mvp-block-art" aria-hidden="true">${abcArt()}</div><div class="mvp-resume-info"><h3 class="mvp-resume-name">${esc(resume.sub?.name||'我的词条')}</h3><p class="mvp-resume-title">${total?`第 ${resume.index+1} / ${total} 词 · `:''}${esc(resume.category?.name||'单词仓库')} · 单词中译英</p><div class="progress-track" role="progressbar" aria-label="上次学习进度" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${Math.round(percent)}" aria-valuetext="已掌握 ${resume.done} / ${total} 个单词"><div class="progress-fill" style="width:${percent}%"></div></div><small class="mvp-resume-progress-count">已掌握 ${resume.done} / ${total} 个单词</small></div><div class="mvp-resume-action"><button class="button primary" data-action="resume-desktop" ${total?'':'disabled'}>${actionLabel} ${icon('arrow')}</button></div></div><div class="mvp-preview" role="group" aria-label="本组词条练习">${resume.items.slice(0,3).map(w=>{const status=state.wordStatus[w.id];return `<button type="button" class="${status==='mastered'?'done':status||'new'}" data-action="resume-word" data-id="${esc(w.id)}" aria-label="练习 ${esc(w.word)} 的用法">${icon(status==='mastered'?'check':'clock')}<span>${esc(w.word)} 的用法</span></button>`;}).join('')}</div></section><section class="home-card home-checkin-card" aria-label="今日学习打卡"><div class="home-card-heading"><h2>${icon('plan')}今日学习打卡</h2><button class="text-button" data-action="checkin-rules" aria-haspopup="dialog" aria-controls="checkin-rules-dialog">打卡规则 ›</button></div><div class="home-goals"><div class="home-goal-row"><span>${icon('clock')}学习时长</span><div class="progress-track" role="progressbar" aria-label="今日学习时长" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${Math.floor(goal.timePercent)}"><div class="progress-fill" style="width:${goal.timePercent}%"></div></div><strong data-daily-time title="${duration(goal.day.seconds)}">${Math.floor(goal.day.seconds/60)} / ${goal.minutes} 分钟</strong></div><div class="home-goal-row"><span>${icon('word')}单词练习</span><div class="progress-track" role="progressbar" aria-label="今日单词练习" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${Math.floor(goal.wordPercent)}"><div class="progress-fill" style="width:${goal.wordPercent}%"></div></div><strong data-daily-words>${goal.day.words.length} / ${goal.words} 个</strong></div></div><div class="home-checkin-bottom ${goal.day.checked?'checked':''}"><span class="home-bulb" aria-hidden="true">💡</span><div><strong>${goal.day.checked?'今天已完成打卡':'完成两项目标即可打卡'}</strong><p id="home-checkin-hint">${dailyGoalHint(goal)}</p></div><button class="button primary" data-action="checkin" aria-describedby="home-checkin-hint" ${goal.day.checked?'disabled':''}>${goal.day.checked?'✓ 今日已打卡':'完成今日打卡'} ${icon('arrow')}</button></div></section></div><section class="home-categories"><div class="home-section-heading"><h2>选择一个分类，开始学习</h2><button class="text-button" data-route="words">查看全部 ›</button></div><div class="home-category-grid">${wordCatalog.categories.map((c,i)=>{const count=state.words.filter(w=>w.categoryId===c.id).length;return `<button class="home-category-tile" data-action="open-word-category" data-category-id="${c.id}" aria-label="${esc(c.name)}，${count} 个单词"><span class="home-category-art" aria-hidden="true">${i===0?abcArt():art[i]}</span><strong>${esc(c.name)}</strong><small>${count} 个单词</small></button>`;}).join('')}</div></section><details class="mvp-old-dashboard"><summary>学习统计、日历与打卡记录</summary>${renderLegacyHome()}</details></section>`;
+  }
+
   const abcArt=()=>'<span class="mvp-abc-art" aria-hidden="true"><i>A</i><i>B</i><i>C</i></span>';
   const categoryArt=['🔠','⏰','📚','🏡','🍎','🐘','🚌','🏃'];
   function renderDesktopCategories(category) {
@@ -1163,7 +1323,7 @@ window.LOCAL_AUDIO_BANK={"voice":"Bella · GA 美式英语","voiceLocale":"en-US
     navigate(path.length>1?path.slice(0,-1).join('/'):'home');
   }
   function navigate(next) {
-    if(desktopMVP()&&next==='words'){query='';wordFilter='all';}
+    if(desktopMVP()&&(next==='words'||/^words\/C\d+(?:\/C\d+-S\d+)?$/.test(next))){query='';wordFilter='all';}
     closeSidebar();
     if(location.hash.slice(1)===next)render();else location.hash=next;
   }
@@ -1176,9 +1336,10 @@ window.LOCAL_AUDIO_BANK={"voice":"Bella · GA 美式英语","voiceLocale":"en-US
       hash='words';route='words';query='';history.replaceState(null,'','#words');
     }
     if(route==='search')query=hash.startsWith('search/')?hash.slice(7):'';
+    if(desktopMVP()&&route==='words'&&/^words\/C\d+(?:\/C\d+-S\d+)?$/.test(hash)){query='';wordFilter='all';}
     $('#global-search').value=query;$('#clear-global-search').hidden=!query;
     $('.page-back').hidden=route==='home';
-    window.FrogStartup.layout();
+    window.FrogStartup.layout();renderHomeUserMenu();
     if(route==='words'&&!desktopMVP()){
       const selection=wordSelection();
       if(selection.category&&!state.words.some(w=>w.categoryId===selection.category.id&&(!selection.subcategoryId||w.subcategoryId===selection.subcategoryId))){
@@ -1212,20 +1373,20 @@ window.LOCAL_AUDIO_BANK={"voice":"Bella · GA 美式英语","voiceLocale":"en-US
   function renderHome() {return desktopMVP()?renderDesktopHome():renderLegacyHome();}
   function renderLegacyHome() {
     const days=periodDays(),sentences=days.reduce((n,d)=>n+d.sentences.length,0),words=days.reduce((n,d)=>n+d.words.length,0);
-    const d=today(),s=streaks(),minutes=Math.floor(d.seconds/60),month=dayKey().slice(0,7);
+    const d=today(),s=streaks(),minutes=Math.floor(d.seconds/60),month=dayKey().slice(0,7),goal=dailyGoalProgress();
     const monthSeconds=Object.entries(state.days).filter(([k])=>k.startsWith(month)).reduce((sum,[,d])=>sum+d.seconds,0);
-    const percent=Math.min(100,d.seconds/1200*100);
+    const percent=goal.timePercent;
     return `<div class="dashboard-header"><div><h1>你好，${esc(state.settings.userName)} <span style="font-size:16px">✦</span></h1><p>把今天的一点努力，变成明天的进步。</p></div><span class="today-label">${icon('clock')}${new Date().toLocaleDateString('zh-CN',{month:'long',day:'numeric',weekday:'long'})}</span></div>
     <div class="dashboard-grid"><div class="dashboard-left"><section class="panel stat-panel"><div class="tabs" role="group" aria-label="统计周期">${[['total','总计'],['today','今天'],['yesterday','昨天'],['week','本周'],['month','本月']].map(([id,t])=>`<button class="tab ${homePeriod===id?'active':''}" data-period="${id}" aria-pressed="${homePeriod===id}">${t}</button>`).join('')}</div><div class="count-grid"><div class="big-stat"><div><span class="label">完成句子数量</span><strong>${sentences}<small>句</small></strong></div><span class="stat-bubble">${icon('course')}</span></div><div class="big-stat"><div><span class="label">完成单词数量</span><strong>${words}<small>词</small></strong></div><span class="stat-bubble">A</span></div></div><div class="mini-stats">${[['word','wrong','单词错题本'],['word','unfamiliar','不熟悉单词'],['word','mastered','已掌握单词']].map(([type,status,label])=>`<button class="mini-stat" data-route="review/${type}/${status}">${label}<strong>${statusCount(type,status)}</strong></button>`).join('')}</div></section>
     <section class="panel stat-panel"><h2 class="panel-label">${icon('clock')}学习时长</h2><div class="time-grid"><div><span>累计</span><strong>${duration(totalSeconds())}</strong></div><div><span>今日</span><strong id="today-duration">${duration(d.seconds)}</strong></div><div><span>本月</span><strong>${duration(monthSeconds)}</strong></div></div><h2 class="panel-label">${icon('plan')}打卡统计</h2><div class="time-grid"><div><span>当前连续</span><strong>${s.current} 天</strong></div><div><span>最高连续</span><strong>${s.highest} 天</strong></div><div><span>累计打卡</span><strong>${s.total} 天</strong></div></div></section></div>
-    <section class="checkin-card" aria-label="学习打卡"><strong class="date-day">${new Date().getDate()}</strong><span class="date-month">${new Date().toLocaleDateString('zh-CN',{month:'long',weekday:'long'})}</span><span class="local-tag">MY DAILY MOMENT</span><div class="checkin-bottom"><p>今天已学习 <strong>${minutes}</strong> / 20 分钟</p><div class="progress-track"><div class="progress-fill" style="width:${percent}%"></div></div><button class="button" data-action="checkin" ${d.seconds<1200||d.checked?'disabled':''}>${d.checked?'✓ 今天已打卡':d.seconds>=1200?'完成今日打卡':'完成 20 分钟学习即可打卡'}</button><p class="checkin-hint">只记录前台练习与答题时间</p></div></section>
+    <section class="checkin-card" aria-label="学习打卡"><strong class="date-day">${new Date().getDate()}</strong><span class="date-month">${new Date().toLocaleDateString('zh-CN',{month:'long',weekday:'long'})}</span><span class="local-tag">MY DAILY MOMENT</span><div class="checkin-bottom"><p>今天已学习 <strong>${minutes}</strong> / ${goal.minutes} 分钟</p><div class="progress-track"><div class="progress-fill" style="width:${percent}%"></div></div><button class="button" data-action="checkin" ${d.checked?'disabled':''}>${d.checked?'✓ 今天已打卡':'完成今日打卡'}</button><p class="checkin-hint">${dailyGoalHint(goal)}</p></div></section>
     <aside class="panel glory-panel"><h2 class="glory-title">今日荣耀榜</h2><p class="glory-sub">和昨天的自己，来一场小小的比赛。</p><div class="glory-visual"><div class="glory-orb" aria-hidden="true"><span class="letter">a</span><span class="letter b">b</span><span class="frog">🐸</span><span class="letter c">c</span></div><div><h3>${d.sentences.length+d.words.length?'每一步，都算数。':'今天的第一步，从这里开始。'}</h3><p>${d.sentences.length+d.words.length?`你今天已完成 ${d.sentences.length+d.words.length} 项练习。<br>继续保持自己的节奏。`:'不必一口气学很多，<br>先从一个单词开始。'}</p><button class="button" data-route="words">去学习 ${icon('arrow')}</button></div></div><div class="personal-record"><span>个人挑战最高分</span><strong>${Math.max(0,...state.challenges.map(c=>c.score))} 分</strong></div></aside>
     <section class="panel calendar-panel">${calendar()}</section></div>
     <div class="welcome-strip">${icon('word')}<div><h3>从已有单词开始。</h3><p>单词仓库共有 ${state.words.length} 个词条，按分类练习并保留学习进度。</p></div><button class="button" data-route="words">进入单词仓库 ${icon('arrow')}</button></div>`;
   }
   function calendar() {
     const year=calendarDate.getFullYear(),month=calendarDate.getMonth(),first=(new Date(year,month,1).getDay()+6)%7,last=new Date(year,month+1,0).getDate();
-    return `<div class="calendar-header"><h3>${icon('plan')}${year} 年 ${month+1} 月</h3><div class="calendar-controls"><button class="icon-button" data-calendar="-1" aria-label="上个月">‹</button><button class="icon-button" data-calendar="1" aria-label="下个月">›</button></div></div><div class="calendar-grid">${['一','二','三','四','五','六','日'].map(t=>`<span class="calendar-week">${t}</span>`).join('')}${'<span></span>'.repeat(first)}${Array.from({length:last},(_,i)=>{const key=dayKey(new Date(year,month,i+1)),d=state.days[key];return `<span class="calendar-day ${key===dayKey()?'today':''} ${d?.seconds>0?'studied':''} ${d?.checked?'checked':''}" title="${key}：学习 ${duration(d?.seconds||0)}${d?.checked?'，已打卡':''}">${i+1}${d?.checked?' ✓':''}</span>`;}).join('')}</div><p class="calendar-legend"><i class="dot"></i> 有学习记录 <span>完成 20 分钟后可手动打卡</span></p>`;
+    return `<div class="calendar-header"><h3>${icon('plan')}${year} 年 ${month+1} 月</h3><div class="calendar-controls"><button class="icon-button" data-calendar="-1" aria-label="上个月">‹</button><button class="icon-button" data-calendar="1" aria-label="下个月">›</button></div></div><div class="calendar-grid">${['一','二','三','四','五','六','日'].map(t=>`<span class="calendar-week">${t}</span>`).join('')}${'<span></span>'.repeat(first)}${Array.from({length:last},(_,i)=>{const key=dayKey(new Date(year,month,i+1)),d=state.days[key];return `<span class="calendar-day ${key===dayKey()?'today':''} ${d?.seconds>0?'studied':''} ${d?.checked?'checked':''}" title="${key}：学习 ${duration(d?.seconds||0)}${d?.checked?'，已打卡':''}">${i+1}${d?.checked?' ✓':''}</span>`;}).join('')}</div><p class="calendar-legend"><i class="dot"></i> 有学习记录 <span>完成每日时长和单词目标后可打卡</span></p>`;
   }
   function courseCard(c) {
     const done=progress(c),favorite=state.courseFavorites.includes(c.id),inPlan=state.plan.courseIds.includes(c.id);
@@ -1804,6 +1965,16 @@ ollama pull gemma3:1b</pre><p class="hint">这个设置允许本地网页连接�
     const url=URL.createObjectURL(new Blob([typeof data==='string'?data:JSON.stringify(data,null,2)],{type}));
     const anchor=document.createElement('a');anchor.href=url;anchor.download=name;document.body.append(anchor);anchor.click();anchor.remove();setTimeout(()=>URL.revokeObjectURL(url),15000);
   }
+  let exportHomeArtwork='';
+  async function prepareExportArtwork() {
+    if(exportHomeArtwork)return;
+    if(window.FROG_HOME_ART){exportHomeArtwork=window.FROG_HOME_ART;return;}
+    const response=await fetch(homeHeroImage());
+    if(!response.ok)throw new Error('首页插画未下载完整，请联网重试保存网页。');
+    const bytes=new Uint8Array(await response.arrayBuffer());let binary='';
+    for(let i=0;i<bytes.length;i+=8192)binary+=String.fromCharCode(...bytes.subarray(i,i+8192));
+    exportHomeArtwork='data:image/png;base64,'+btoa(binary);
+  }
   let exportAudioBank=null;
   async function prepareExportAudio() {
     if(window.LOCAL_AUDIO_BANK.storage!=='files'||exportAudioBank)return;
@@ -1829,7 +2000,7 @@ ollama pull gemma3:1b</pre><p class="hint">这个设置允许本地网页连接�
     if(exportAudioBank)copy.querySelector('script[data-embedded-audio]').textContent='window.LOCAL_AUDIO_BANK='+JSON.stringify(exportAudioBank).replace(/</g,'\\u003c')+';';
     // Start from clean application markup; add a validated snapshot separately.
     ['#content','#navigation','#lesson-content','#lesson-course','#toast','#confirm-text'].forEach(selector=>copy.querySelector(selector)?.replaceChildren());
-    ['#save-app-dialog','#word-dialog','#practice-answer-dialog','.mvp-practice-nav','#local-learning-snapshot','script[data-download-payload]'].forEach(selector=>copy.querySelectorAll(selector).forEach(el=>el.remove()));
+    ['#save-app-dialog','#word-dialog','#practice-answer-dialog','#resume-details-dialog','#checkin-rules-dialog','.mvp-practice-nav','#home-art-snapshot','#local-learning-snapshot','script[data-download-payload]'].forEach(selector=>copy.querySelectorAll(selector).forEach(el=>el.remove()));
     copy.querySelector('body')?.removeAttribute('data-storage-key');
     copy.querySelector('#content')?.removeAttribute('data-app-ready');
     copy.querySelector('#question-audio')?.removeAttribute('src');
@@ -1841,6 +2012,8 @@ ollama pull gemma3:1b</pre><p class="hint">这个设置允许本地网页连接�
     copy.querySelector('#sidebar')?.classList.remove('open');
     copy.querySelector('#scrim')?.setAttribute('hidden','');
     copy.querySelector('#toast')?.setAttribute('hidden','');
+    copy.querySelector('#home-user-menu')?.removeAttribute('open');
+    if(exportHomeArtwork){const art=document.createElement('script');art.id='home-art-snapshot';art.textContent='window.FROG_HOME_ART='+JSON.stringify(exportHomeArtwork)+';';copy.querySelector('head').append(art);}
     return '<!doctype html>\n'+copy.outerHTML;
   }
   function offlineHTML() {
@@ -1851,10 +2024,10 @@ ollama pull gemma3:1b</pre><p class="hint">这个设置允许本地网页连接�
     const tag='<script id="local-learning-snapshot" type="application/json">'+data+'<'+'/script>';
     return offlineProgramHTML().replace('</head>',tag+'\n</head>');
   }
-  async function showSaveApp() {
-    const trigger=$('[data-action="save-app"]');trigger.disabled=true;
+  async function showSaveApp(trigger=$('[data-action="save-app"]')) {
+    trigger.disabled=true;
     let html;
-    try{toast('正在整理已有录音与学习记录，请稍候…',false,30000);await prepareExportAudio();html=offlineHTML();}
+    try{toast('正在整理已有录音与学习记录，请稍候…',false,30000);await Promise.all([prepareExportAudio(),prepareExportArtwork()]);html=offlineHTML();}
     finally{trigger.disabled=false;}
 
     let dialog=$('#save-app-dialog');
@@ -1939,7 +2112,8 @@ ollama pull gemma3:1b</pre><p class="hint">这个设置允许本地网页连接�
     const button=event.target.closest('button,a[data-route]');if(!button||button.disabled)return;
     try {
       if(button.hasAttribute('data-close')){const dialog=button.closest('dialog');if(dialog.id==='lesson-dialog')resetPracticeMedia();dialog.close();return;}
-      if(button.dataset.route){navigate(button.dataset.route);return;}
+      if(button.closest('#home-user-menu .home-user-options'))$('#home-user-menu').open=false;
+      if(button.dataset.route){button.closest('dialog[data-close-on-route]')?.close();navigate(button.dataset.route);return;}
       if(button.dataset.period){homePeriod=button.dataset.period;render();return;}
       if(button.dataset.calendar){calendarDate=new Date(calendarDate.getFullYear(),calendarDate.getMonth()+Number(button.dataset.calendar),1);render();return;}
       if(button.dataset.filter){filter=button.dataset.filter;render();return;}
@@ -1962,9 +2136,11 @@ ollama pull gemma3:1b</pre><p class="hint">这个设置允许本地网页连接�
       }
       const id=button.dataset.id;
       switch(button.dataset.action){
-        case 'resume-desktop':{const resume=desktopResume();openLesson('word',resume.items,resume.index);break;}
-        case 'resume-word':{const resume=desktopResume(),index=resume.items.findIndex(w=>w.id===id);if(index>=0)openLesson('word',resume.items,index);break;}
+        case 'resume-desktop':{button.closest('dialog')?.close();const resume=desktopResume();openLesson('word',resume.items,resume.index);break;}
+        case 'resume-word':{button.closest('dialog')?.close();const resume=desktopResume(),index=resume.items.findIndex(w=>w.id===id);if(index>=0)openLesson('word',resume.items,index);break;}
         case 'practice-navigate':resetPracticeMedia();$('#lesson-dialog').close();navigate(button.dataset.destination);break;
+        case 'resume-details':resumeDetails();break;
+        case 'checkin-rules':showCheckinRules();break;
         case 'navigate-back':navigateBack();break;
         case 'open-textbook':ensureTextbook();navigate(`course/${LOCAL_TEXTBOOK.id}`);break;
         case 'book-all':{ensureTextbook();chooseMode(allSentences().filter(s=>s.courseId===LOCAL_TEXTBOOK.id));break;}
@@ -1988,7 +2164,7 @@ ollama pull gemma3:1b</pre><p class="hint">这个设置允许本地网页连接�
         case 'test-key-sound':FrogPractice.sound('key',state.settings.volume??.25);break;
         case 'toggle-original':lesson.hideOriginal=!lesson.hideOriginal;renderLesson();break;
         case 'pause-listening':mediaGeneration++;clearTimeout(listenTimer);cancelSpeech();lesson.playing=false;renderLesson();break;
-        case 'save-app':await showSaveApp();break;
+        case 'save-app':await showSaveApp(button);break;
         case 'download-app-file':download('local-english.html',$('#offline-html-source')?.value||offlineHTML(),'text/html;charset=utf-8');toast('已请求浏览器保存含题库与进度的完整网页。若仍失败，可展开“复制源码手动保存”。',false,7000);break;
         case 'select-html-source':{const field=$('#offline-html-source');field.focus();field.select();toast('已选中完整源码，请按 Ctrl + C 复制到记事本。',false,7000);break;}
         case 'import':showImport();break;
@@ -2016,7 +2192,7 @@ ollama pull gemma3:1b</pre><p class="hint">这个设置允许本地网页连接�
         case 'edit-note':openNote(id);break;
         case 'delete-note':if(await confirmAction('删除这篇手账？','删除后无法撤销，请确认已经保存需要的内容。'))change(s=>s.notes=s.notes.filter(n=>n.id!==id));break;
         case 'add-word':await addWord();break;
-        case 'checkin':if(today().seconds>=1200&&!today().checked){change(s=>ensureDay(s).checked=true);toast('今日打卡成功！');}break;
+        case 'checkin':completeTodayCheckin();break;
         case 'export-course':{const c=courseFor(id);if(c)download(`课程-${c.title.replace(/[<>:"/\\|?*]/g,'_')}.json`,{title:c.title,description:c.description,sentences:c.sentences.map(({english,chinese})=>({english,chinese}))});break;}
         case 'delete-course':{
           const c=courseFor(id);if(!c||c.sample)break;
@@ -2285,6 +2461,8 @@ ollama pull gemma3:1b</pre><p class="hint">这个设置允许本地网页连接�
     if(event.key!==STORAGE_KEY||!event.newValue)return;
     try{state=validateState(JSON.parse(event.newValue));storageAvailable=true;render();toast('已同步另一个页面保存的数据');}catch{toast('另一个页面写入了无法识别的数据，请导出备份后检查。',true);}
   });
+  document.addEventListener('click',event=>{const menu=$('#home-user-menu');if(menu?.open&&!menu.contains(event.target))menu.open=false;});
+  document.addEventListener('keydown',event=>{const menu=$('#home-user-menu');if(event.key==='Escape'&&menu?.open&&!document.querySelector('dialog[open]')){event.preventDefault();menu.open=false;menu.querySelector('summary').focus();}});
   // Mouse clicks on the lesson's non-editing areas keep the current answer
   // ready for real keyboard input, without interfering with other controls.
   let desktopAnswerCaret=null,desktopTabTraversal=false,desktopAudioFocusTimer=null;

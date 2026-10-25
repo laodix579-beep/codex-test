@@ -25,7 +25,7 @@ with sync_playwright() as p:
   s.days['2026-10-01']={seconds:1500,sentences:['existing-sentence'],words:['C01-S03-001'],mistakes:1,checked:true};
   localStorage.setItem(key,JSON.stringify(s));}''')
  page.reload();baseline=saved()
- assert '原有用户' in page.locator('.mvp-welcome h1').inner_text()
+ assert '原有用户' in page.locator('#home-user-menu>summary').inner_text()
  page.screenshot(path='/tmp/mvp-home-final.png')
  # All prior non-curriculum functions remain reachable in the existing navigation.
  page.locator('.nav-extras>summary').click()

@@ -14,13 +14,13 @@ with sync_playwright() as p:
   page.locator('.practice-back').click();page.wait_for_function('!document.querySelector("#lesson-dialog").open')
   page.locator('.mvp-resume').wait_for()
  page.goto(BASE+'#home');page.locator('.mvp-resume').wait_for()
- assert page.locator('.mvp-resume-name').inner_text()=='问候与礼貌用语 · 单词中译英'
- assert page.locator('.mvp-resume-title').inner_text()=='上次学习进度'
- assert '上次学习到哪里' not in page.locator('.mvp-resume').inner_text()
- assert page.locator('.mvp-resume h2').bounding_box()['y']<page.locator('.mvp-resume-title').bounding_box()['y']
+ assert page.locator('.mvp-resume-name').inner_text()=='问候与礼貌用语'
+ assert '单词中译英' in page.locator('.mvp-resume-title').inner_text()
+ assert '上次学习到哪里' in page.locator('.home-resume-card .home-card-heading').inner_text()
+ assert page.locator('.mvp-resume-name').bounding_box()['y']<page.locator('.mvp-resume-title').bounding_box()['y']
  assert page.locator('.mvp-resume-name').evaluate('e=>parseFloat(getComputedStyle(e).fontSize)')>page.locator('.mvp-resume-title').evaluate('e=>parseFloat(getComputedStyle(e).fontSize)')
  assert page.get_by_role('progressbar',name='上次学习进度').get_attribute('aria-valuenow')=='0'
- expect(page.locator('.mvp-resume-progress-count')).to_have_text('已掌握 0 / 22 个词条')
+ expect(page.locator('.mvp-resume-progress-count')).to_have_text('已掌握 0 / 22 个单词')
  assert page.locator('.mvp-preview .done').count()==0
  assert page.locator('[data-action="resume-desktop"]').inner_text().strip()=='开始学习'
  # Clicking a usage label opens that word inside its original 22-word group.
@@ -31,10 +31,10 @@ with sync_playwright() as p:
  assert saved()['wordStatus']=={}
  for field,answer in zip(page.locator('.translation-blank').all(),['good','morning']):field.fill(answer)
  page.locator('#translation-submit').click();close_practice()
- expect(page.locator('.mvp-resume-progress-count')).to_have_text('已掌握 1 / 22 个词条')
+ expect(page.locator('.mvp-resume-progress-count')).to_have_text('已掌握 1 / 22 个单词')
  assert page.locator('.mvp-preview .done').count()==1
  assert page.locator('.mvp-preview .done').inner_text()=='good morning 的用法'
- page.reload();expect(page.locator('.mvp-resume-progress-count')).to_have_text('已掌握 1 / 22 个词条')
+ page.reload();expect(page.locator('.mvp-resume-progress-count')).to_have_text('已掌握 1 / 22 个单词')
  page.locator('[data-action="resume-desktop"]').click();page.locator('.translation-blank').first.wait_for()
  assert '4/22' in page.locator('#lesson-course').inner_text()
  close_practice()
@@ -45,7 +45,7 @@ with sync_playwright() as p:
   s.notes=[{id:'keep-home-note',title:'保留记录',body:'原有内容',createdAt:'2026-10-01T00:00:00Z',updatedAt:'2026-10-01T00:00:00Z'}];s.settings.volume=.35;s.plan.words=15;
   localStorage.setItem(key,JSON.stringify(s));}''')
  page.reload();baseline=saved()
- expect(page.locator('.mvp-resume-progress-count')).to_have_text('已掌握 2 / 22 个词条')
+ expect(page.locator('.mvp-resume-progress-count')).to_have_text('已掌握 2 / 22 个单词')
  assert page.get_by_role('progressbar',name='上次学习进度').get_attribute('aria-valuenow')=='9'
  assert page.locator('.mvp-preview .wrong').inner_text()=='hi 的用法'
  page.locator('[data-action="resume-desktop"]').click();page.locator('.translation-blank').first.wait_for()
@@ -54,20 +54,20 @@ with sync_playwright() as p:
  page.evaluate('''()=>{const key=document.body.dataset.storageKey,s=JSON.parse(localStorage.getItem(key));s.practiceResume.ids.forEach(id=>s.wordStatus[id]='mastered');localStorage.setItem(key,JSON.stringify(s));}''')
  page.reload()
  assert page.locator('[data-action="resume-desktop"]').inner_text().strip()=='复习本组'
- expect(page.locator('.mvp-resume-progress-count')).to_have_text('已掌握 22 / 22 个词条')
+ expect(page.locator('.mvp-resume-progress-count')).to_have_text('已掌握 22 / 22 个单词')
  assert page.get_by_role('progressbar',name='上次学习进度').get_attribute('aria-valuenow')=='100'
  page.screenshot(path='/tmp/home-progress-complete.png')
  page.locator('[data-action="resume-desktop"]').click();page.locator('.translation-blank').first.wait_for()
  assert '1/22' in page.locator('#lesson-course').inner_text()
  assert all(saved()['wordStatus'][id]=='mastered' for id in saved()['practiceResume']['ids'])
- close_practice();page.reload();expect(page.locator('.mvp-resume-progress-count')).to_have_text('已掌握 22 / 22 个词条')
+ close_practice();page.reload();expect(page.locator('.mvp-resume-progress-count')).to_have_text('已掌握 22 / 22 个单词')
  print('PASS: real partial/full counts, status icons, correct continuation and full-group review without resetting mastery',flush=True)
  # The heading, progress and links must follow the actual latest category.
  page.goto(BASE+'#words/C01/C01-S03');page.locator('.translation-blank').first.wait_for()
  page.locator('.practice-back').click();page.wait_for_function('!document.querySelector("#lesson-dialog").open')
  page.goto(BASE+'#home')
- assert page.locator('.mvp-resume-name').inner_text()=='颜色 · 单词中译英'
- expect(page.locator('.mvp-resume-progress-count')).to_have_text('已掌握 0 / 19 个词条')
+ assert page.locator('.mvp-resume-name').inner_text()=='颜色'
+ expect(page.locator('.mvp-resume-progress-count')).to_have_text('已掌握 0 / 19 个单词')
  blue=page.evaluate('FROG_WORD_CATALOG.words.filter(w=>w.subcategoryId==="C01-S03")[1]')
  page.locator(f'.mvp-preview [data-id="{blue["id"]}"]').click();page.locator('.translation-blank').first.wait_for()
  assert '2/19' in page.locator('#lesson-course').inner_text()
@@ -75,7 +75,8 @@ with sync_playwright() as p:
  page.locator('.practice-back').click();page.wait_for_function('!document.querySelector("#lesson-dialog").open')
  assert saved()['notes']==baseline['notes'] and saved()['settings']==baseline['settings'] and saved()['plan']==baseline['plan']
  page.goto(BASE+'#home')
- with page.expect_download() as dl:page.locator('.top-actions [data-action="backup"]').click()
+ page.locator('#home-user-menu>summary').click()
+ with page.expect_download() as dl:page.locator('#home-user-menu [data-action="backup"]').click()
  backup_path=Path('/tmp/home-progress-backup.json');dl.value.save_as(backup_path);backup=json.loads(backup_path.read_text())
  assert backup['practiceResume']['wordId']==blue['id'] and len(backup['practiceResume']['ids'])==19
  assert backup['notes']==baseline['notes'] and backup['settings']==baseline['settings'] and backup['plan']==baseline['plan']
