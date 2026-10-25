@@ -98,7 +98,7 @@ with sync_playwright() as p:
  assert current_day()['checked']
  page.locator('.mvp-old-dashboard>summary').click();assert page.locator('.calendar-day.today.checked').is_visible()
  page.locator('.mvp-old-dashboard>summary').click()
- menu();page.locator('#home-user-menu [data-route="records"]').click();assert '✓ 已完成' in page.locator('#content').inner_text();home()
+ menu();page.locator('#home-user-menu [data-route="records"]').click();expect(page.locator('#content')).to_contain_text('✓ 已完成');home()
  assert saved()['days'][history['key']]==history['day']
  print('PASS: dual-goal guard, real progress, missing-time/missing-word cases, persistent check-in, goal changes and calendar/history',flush=True)
  for width in (1024,1280,1440,1824,1920):

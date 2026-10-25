@@ -15,7 +15,7 @@ with sync_playwright() as p:
  context.add_init_script("Object.defineProperty(window,'speechSynthesis',{get(){throw new Error('TTS forbidden')}})")
  page=context.new_page();errors=[];page.on('pageerror',lambda e:errors.append(str(e)))
  page.goto('http://127.0.0.1:8000/#home')
- page.evaluate('''()=>{const key=document.body.dataset.storageKey,s=JSON.parse(localStorage.getItem(key));s.wordStatus['C01-S01-001']='mastered';s.settings.userName='导出学习者';s.notes=[{id:'export-home-note',title:'原有手账',body:'需要保留的记录',createdAt:'2026-10-01T00:00:00Z',updatedAt:'2026-10-01T00:00:00Z'}];localStorage.setItem(key,JSON.stringify(s));}''')
+ page.evaluate('''()=>{const key=document.body.dataset.storageKey,s=JSON.parse(localStorage.getItem(key)),ids=FROG_WORD_CATALOG.words.filter(w=>w.subcategoryId==='C01-S01').map(w=>w.id);ids.forEach(id=>s.wordStatus[id]='mastered');s.practiceResume={ids,wordId:ids[2],answered:true,finished:false};s.settings.userName='导出学习者';s.notes=[{id:'export-home-note',title:'原有手账',body:'需要保留的记录',createdAt:'2026-10-01T00:00:00Z',updatedAt:'2026-10-01T00:00:00Z'}];localStorage.setItem(key,JSON.stringify(s));}''')
  page.reload();page.locator('#home-user-menu>summary').click()
  page.locator('#home-user-menu [data-action="save-app"]').click()
  page.locator('#save-app-dialog [data-action="download-app-file"]').wait_for(timeout=90000)
@@ -36,13 +36,15 @@ with sync_playwright() as p:
    assert '导出学习者' in exported.locator('#home-user-menu>summary').inner_text()
    stored=exported.evaluate('JSON.parse(localStorage.getItem(document.body.dataset.storageKey))')
    assert stored['wordStatus']['C01-S01-001']=='mastered' and stored['notes'][0]['body']=='需要保留的记录'
+   assert stored['practiceResume']['answered'] is True
    assert exported.locator('.startup-screen').is_hidden()
    isolated.set_offline(True)
    exported.locator('.home-resume-card [data-action="resume-desktop"]').click()
    exported.locator('.translation-blank').first.wait_for()
-   assert '2/22' in exported.locator('#lesson-course').inner_text()
-   exported.locator('.translation-blank').first.fill('hi');exported.locator('#translation-submit').click()
-   exported.wait_for_function('document.querySelector("#question-audio").dataset.sourceText==="hi"&&document.querySelector("#question-audio").currentTime>0')
+   assert '4/22' in exported.locator('#lesson-course').inner_text()
+   for field,value in zip(exported.locator('.translation-blank').all(),['good','afternoon']):field.fill(value)
+   exported.locator('#translation-submit').click()
+   exported.wait_for_function('document.querySelector("#question-audio").dataset.sourceText==="good afternoon"&&document.querySelector("#question-audio").currentTime>0')
    assert not errors,errors
    print('PASS: home menu exports one HTML with the new hero, saved name/notes/progress and MP3 playback without original assets',flush=True)
   finally:

@@ -63,7 +63,15 @@ with TemporaryDirectory(prefix='mvp-pages-') as directory:
     assert '/codex-test/audio/' in page.locator('#question-audio').get_attribute('src')
     ranged=page.evaluate('''async()=>{const r=await fetch(new URL(LOCAL_AUDIO_BANK.clips.hello,document.baseURI),{headers:{Range:'bytes=10-40'}});return {status:r.status,bytes:(await r.arrayBuffer()).byteLength,range:r.headers.get('Content-Range')}}''')
     assert ranged['status']==206 and ranged['bytes']==31 and ranged['range'].startswith('bytes 10-40/')
-    page.locator('.practice-back').click();page.goto(base+'小蛙自习室.html#words');page.wait_for_selector('.vocab-category')
+    page.locator('.practice-back').click();page.wait_for_function('!document.querySelector("#lesson-dialog").open')
+    if not mobile:
+     page.evaluate('''()=>{const key=document.body.dataset.storageKey,s=JSON.parse(localStorage.getItem(key)),ids=FROG_WORD_CATALOG.words.filter(w=>w.subcategoryId==='C01-S01').map(w=>w.id);ids.forEach(id=>s.wordStatus[id]='mastered');s.practiceResume={ids,wordId:ids[3],answered:false,finished:false};localStorage.setItem(key,JSON.stringify(s));}''')
+     page.goto(base+'#home');page.reload()
+     page.wait_for_function('document.querySelector(".mvp-resume-title")?.textContent.includes("第 4 / 22 词")')
+     page.locator('.home-resume-card [data-action="resume-desktop"]').click()
+     assert '4/22' in page.locator('#lesson-course').inner_text()
+     page.locator('.practice-back').click();page.wait_for_function('!document.querySelector("#lesson-dialog").open')
+    page.goto(base+'小蛙自习室.html#words');page.wait_for_selector('.vocab-category')
     assert page.locator('.vocab-category').count()==(1 if mobile else 8)
     assert not errors,errors
     print(f'PASS: extracted ZIP {"phone" if mobile else "desktop"}, subdirectory routes, offline UI, original MP3, byte range, compatibility entry and key repeats',flush=True)

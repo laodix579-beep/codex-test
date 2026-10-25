@@ -935,7 +935,7 @@ window.LOCAL_AUDIO_BANK={"voice":"Bella · GA 美式英语","voiceLocale":"en-US
 <script>
 (() => {
   'use strict';
-  window.FROG_OFFLINE_CACHE="frog-home-dashboard-v22";
+  window.FROG_OFFLINE_CACHE="frog-resume-position-v23";
   let installPrompt=null;
   let offlineReady=false;
   let registrationFailed=false;
@@ -1120,18 +1120,24 @@ window.LOCAL_AUDIO_BANK={"voice":"Bella · GA 美式英语","voiceLocale":"en-US
     const saved=state.practiceResume;
     let items=saved?.ids.map(getWord).filter(Boolean)||[];
     if(!items.length){const sub=warehouseCategories()[0]?.subcategories[0];items=sub?state.words.filter(w=>w.subcategoryId===sub.id):state.words;}
-    let index=Math.max(0,items.findIndex(w=>w.id===saved?.wordId));
-    if(state.wordStatus[items[index]?.id]==='mastered'){
-      const next=items.findIndex((w,i)=>i>=index&&state.wordStatus[w.id]!=='mastered');
-      index=next>=0?next:Math.max(0,items.findIndex(w=>state.wordStatus[w.id]!=='mastered'));
-    }
+    // Lifetime mastery does not say whether this question was done in this pass.
+    const savedIndex=items.findIndex(w=>w.id===saved?.wordId);
+    const finished=savedIndex>=0&&(saved.finished===true||(saved.answered===true&&savedIndex===items.length-1));
+    const index=savedIndex>=0?(finished?0:savedIndex+(saved.answered===true?1:0)):Math.max(0,items.findIndex(w=>state.wordStatus[w.id]!=='mastered'));
     const item=items[index],category=wordCatalog.categories.find(c=>c.id===item?.categoryId),sub=category?.subcategories.find(c=>c.id===item?.subcategoryId);
-    return {items,index,category,sub,done:items.filter(w=>state.wordStatus[w.id]==='mastered').length};
+    return {items,index,category,sub,finished,continuing:savedIndex>=0&&!finished,done:items.filter(w=>state.wordStatus[w.id]==='mastered').length};
+  }
+  function resumeActionLabel(resume) {
+    if(resume.continuing)return resume.done===resume.items.length?'继续复习':'继续学习';
+    if(resume.items.length&&resume.done===resume.items.length)return '复习本组';
+    return resume.finished?'再练本组':resume.done?'继续学习':'开始学习';
   }
   function rememberDesktopPractice() {
     if(!desktopMVP()||!lesson||lesson.type!=='word')return;
-    const wordId=lesson.items[lesson.index]?.id;
-    change(s=>s.practiceResume={ids:lesson.baseItems.map(w=>w.id),wordId},false);
+    const item=lesson.items[lesson.index],round=lesson.rounds[item?.roundId];
+    const resume={ids:lesson.baseItems.map(w=>w.id),wordId:item?.id,
+      answered:lesson.mode==='translate'?!!(round?.solved||round?.marked):lesson.feedback?.correct===true,finished:lesson.finished===true};
+    if(JSON.stringify(state.practiceResume)!==JSON.stringify(resume))change(s=>s.practiceResume=resume,false);
   }
   const homeHeroImage=()=>window.FROG_HOME_ART||new URL('./assets/home-hero.png',document.baseURI).href;
   function dailyGoalProgress() {
@@ -1157,7 +1163,7 @@ window.LOCAL_AUDIO_BANK={"voice":"Bella · GA 美式英语","voiceLocale":"en-US
   function resumeDetails() {
     const resume=desktopResume();let dialog=$('#resume-details-dialog');
     if(!dialog){dialog=document.createElement('dialog');dialog.id='resume-details-dialog';dialog.className='home-detail-dialog';dialog.setAttribute('data-close-on-route','');dialog.setAttribute('aria-labelledby','resume-details-title');document.body.append(dialog);}
-    dialog.innerHTML=`<div class="dialog-heading"><h2 id="resume-details-title">上次学习详情</h2><button class="button dialog-back" type="button" data-close>← 返回</button></div><div class="resume-details-summary"><strong>${esc(resume.sub?.name||'我的词条')}</strong><p>已掌握 ${resume.done} / ${resume.items.length} 个词条 · 下次从第 ${resume.items.length?resume.index+1:0} 词开始</p></div><div class="resume-details-list">${resume.items.map((w,i)=>`<div class="resume-detail-row"><span class="resume-word-number">${i+1}</span><div><strong>${esc(w.word)}</strong><p>${esc(w.meaning)}</p></div><span class="resume-word-status ${state.wordStatus[w.id]==='mastered'?'done':''}">${statusLabel(state.wordStatus[w.id])}</span><button type="button" class="button small" data-action="resume-word" data-id="${esc(w.id)}" aria-label="练习 ${esc(w.word)}">练习</button></div>`).join('')||'<p class="muted">还没有可练习的词条，可以先到分类学习中添加。</p>'}</div><div class="dialog-actions"><button class="button" data-route="words">查看分类</button><button class="button primary" data-action="resume-desktop" ${resume.items.length?'':'disabled'}>${resume.done===resume.items.length&&resume.items.length?'复习本组':'继续学习'} ${icon('arrow')}</button></div>`;
+    dialog.innerHTML=`<div class="dialog-heading"><h2 id="resume-details-title">上次学习详情</h2><button class="button dialog-back" type="button" data-close>← 返回</button></div><div class="resume-details-summary"><strong>${esc(resume.sub?.name||'我的词条')}</strong><p>已掌握 ${resume.done} / ${resume.items.length} 个词条 · 下次从第 ${resume.items.length?resume.index+1:0} 词开始</p></div><div class="resume-details-list">${resume.items.map((w,i)=>`<div class="resume-detail-row"><span class="resume-word-number">${i+1}</span><div><strong>${esc(w.word)}</strong><p>${esc(w.meaning)}</p></div><span class="resume-word-status ${state.wordStatus[w.id]==='mastered'?'done':''}">${statusLabel(state.wordStatus[w.id])}</span><button type="button" class="button small" data-action="resume-word" data-id="${esc(w.id)}" aria-label="练习 ${esc(w.word)}">练习</button></div>`).join('')||'<p class="muted">还没有可练习的词条，可以先到分类学习中添加。</p>'}</div><div class="dialog-actions"><button class="button" data-route="words">查看分类</button><button class="button primary" data-action="resume-desktop" ${resume.items.length?'':'disabled'}>${resumeActionLabel(resume)} ${icon('arrow')}</button></div>`;
     dialog.showModal();
   }
   function showCheckinRules() {
@@ -1175,8 +1181,8 @@ window.LOCAL_AUDIO_BANK={"voice":"Bella · GA 美式英语","voiceLocale":"en-US
   }
   function renderDesktopHome() {
     const resume=desktopResume(),goal=dailyGoalProgress(),total=resume.items.length;
-    const percent=total?resume.done/total*100:0,complete=total>0&&resume.done===total;
-    const actionLabel=complete?'复习本组':resume.done||state.practiceResume?'继续学习':'开始学习';
+    const percent=total?resume.done/total*100:0;
+    const actionLabel=resumeActionLabel(resume);
     const art=['','☀️','🎒','🏠','🍔','🦁','🚌','🏃'];
     return `<section class="mvp-home home-dashboard"><section class="mvp-welcome home-hero"><div class="home-hero-illustration" aria-hidden="true"><img src="${homeHeroImage()}" alt=""></div><div class="mvp-welcome-copy"><span class="home-hero-spark" aria-hidden="true">✦</span><h1>你好，<br><span>今天一起来学习英语吧！</span></h1><p>每天进步一点点，积累更好的自己！</p></div></section><div class="home-overview"><section class="home-card home-resume-card" aria-label="继续上次学习"><div class="home-card-heading"><h2>${icon('course')}上次学习到哪里</h2><button class="text-button" data-action="resume-details" aria-haspopup="dialog" aria-controls="resume-details-dialog">查看详情 ›</button></div><div class="mvp-resume"><div class="mvp-block-art" aria-hidden="true">${abcArt()}</div><div class="mvp-resume-info"><h3 class="mvp-resume-name">${esc(resume.sub?.name||'我的词条')}</h3><p class="mvp-resume-title">${total?`第 ${resume.index+1} / ${total} 词 · `:''}${esc(resume.category?.name||'单词仓库')} · 单词中译英</p><div class="progress-track" role="progressbar" aria-label="上次学习进度" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${Math.round(percent)}" aria-valuetext="已掌握 ${resume.done} / ${total} 个单词"><div class="progress-fill" style="width:${percent}%"></div></div><small class="mvp-resume-progress-count">已掌握 ${resume.done} / ${total} 个单词</small></div><div class="mvp-resume-action"><button class="button primary" data-action="resume-desktop" ${total?'':'disabled'}>${actionLabel} ${icon('arrow')}</button></div></div><div class="mvp-preview" role="group" aria-label="本组词条练习">${resume.items.slice(0,3).map(w=>{const status=state.wordStatus[w.id];return `<button type="button" class="${status==='mastered'?'done':status||'new'}" data-action="resume-word" data-id="${esc(w.id)}" aria-label="练习 ${esc(w.word)} 的用法">${icon(status==='mastered'?'check':'clock')}<span>${esc(w.word)} 的用法</span></button>`;}).join('')}</div></section><section class="home-card home-checkin-card" aria-label="今日学习打卡"><div class="home-card-heading"><h2>${icon('plan')}今日学习打卡</h2><button class="text-button" data-action="checkin-rules" aria-haspopup="dialog" aria-controls="checkin-rules-dialog">打卡规则 ›</button></div><div class="home-goals"><div class="home-goal-row"><span>${icon('clock')}学习时长</span><div class="progress-track" role="progressbar" aria-label="今日学习时长" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${Math.floor(goal.timePercent)}"><div class="progress-fill" style="width:${goal.timePercent}%"></div></div><strong data-daily-time title="${duration(goal.day.seconds)}">${Math.floor(goal.day.seconds/60)} / ${goal.minutes} 分钟</strong></div><div class="home-goal-row"><span>${icon('word')}单词练习</span><div class="progress-track" role="progressbar" aria-label="今日单词练习" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${Math.floor(goal.wordPercent)}"><div class="progress-fill" style="width:${goal.wordPercent}%"></div></div><strong data-daily-words>${goal.day.words.length} / ${goal.words} 个</strong></div></div><div class="home-checkin-bottom ${goal.day.checked?'checked':''}"><span class="home-bulb" aria-hidden="true">💡</span><div><strong>${goal.day.checked?'今天已完成打卡':'完成两项目标即可打卡'}</strong><p id="home-checkin-hint">${dailyGoalHint(goal)}</p></div><button class="button primary" data-action="checkin" aria-describedby="home-checkin-hint" ${goal.day.checked?'disabled':''}>${goal.day.checked?'✓ 今日已打卡':'完成今日打卡'} ${icon('arrow')}</button></div></section></div><section class="home-categories"><div class="home-section-heading"><h2>选择一个分类，开始学习</h2><button class="text-button" data-route="words">查看全部 ›</button></div><div class="home-category-grid">${wordCatalog.categories.map((c,i)=>{const count=state.words.filter(w=>w.categoryId===c.id).length;return `<button class="home-category-tile" data-action="open-word-category" data-category-id="${c.id}" aria-label="${esc(c.name)}，${count} 个单词"><span class="home-category-art" aria-hidden="true">${i===0?abcArt():art[i]}</span><strong>${esc(c.name)}</strong><small>${count} 个单词</small></button>`;}).join('')}</div></section><details class="mvp-old-dashboard"><summary>学习统计、日历与打卡记录</summary>${renderLegacyHome()}</details></section>`;
   }
@@ -1536,7 +1542,7 @@ window.LOCAL_AUDIO_BANK={"voice":"Bella · GA 美式英语","voiceLocale":"en-US
     if(!items.length){toast('没有可练习的内容');return;}
     closeDesktopAnswer();resetPracticeMedia();
     lesson={type,baseItems:items,items:mode==='translate'?FrogPractice.translationPlan(items,splitWords):items,index,mode,splitWords,showPicture:mode==='translate',rounds:{},sessionStarted:performance.now(),pausedTotal:0,revealed:false,feedback:null,completed:false,started:performance.now(),speechMessage:'',voiceMessage:'尚未录音',voiceURL:'',transcript:'',voiceResult:null,listened:0,repeat:1,autoNext:false};
-    rememberDesktopPractice();$('#lesson-dialog').showModal();lastActivity=performance.now();renderLesson();if(mode==='translate'){focusTranslation();playLesson();}
+    $('#lesson-dialog').showModal();lastActivity=performance.now();renderLesson();if(mode==='translate'){focusTranslation();playLesson();}
   }
   let capture=null,recognition=null,recognitionTimer=null,listenTimer=null,mediaGeneration=0;
   function resetPracticeMedia() {
@@ -1610,6 +1616,7 @@ window.LOCAL_AUDIO_BANK={"voice":"Bella · GA 美式英语","voiceLocale":"en-US
     $('#lesson-dialog').classList.add('translation-practice');
     $('#lesson-dialog').classList.toggle('touch-practice',window.FrogMobile.isMobile());
     const item=lesson.items[lesson.index],round=translationRound(),blanks=translationBlanks(round),word=lesson.type==='word';
+    rememberDesktopPractice();
     $('#lesson-dialog').classList.toggle('word-cloze-active',word&&!!item.cloze&&!round.solved&&!round.marked&&!lesson.finished);
     const elapsed=()=>Math.floor(((lesson.paused?lesson.pausedAt:performance.now())-lesson.sessionStarted-lesson.pausedTotal)/1000);
     const chapter=LOCAL_TEXTBOOK.sections.find(section=>section.id===item.section);
@@ -1704,6 +1711,7 @@ window.LOCAL_AUDIO_BANK={"voice":"Bella · GA 美式英语","voiceLocale":"en-US
   function renderLesson() {
     if(!lesson)return;
     if(lesson.mode==='translate'){renderTranslation();return;}
+    rememberDesktopPractice();
     $('#lesson-dialog').classList.remove('translation-practice','word-cloze-active','desktop-translation');
     $('#lesson-dialog>.mvp-practice-nav')?.remove();
     const item=lesson.items[lesson.index],word=lesson.type==='word',text=word?item.word:item.english,translation=word?item.meaning:item.chinese;
@@ -1795,9 +1803,9 @@ window.LOCAL_AUDIO_BANK={"voice":"Bella · GA 美式英语","voiceLocale":"en-US
   function moveLesson(delta) {
     if(!lesson)return;
     closeDesktopAnswer();
-    if(lesson.index+delta>=lesson.items.length){if(lesson.mode==='translate'){resetPracticeMedia();lesson.finishedSeconds=Math.floor((performance.now()-lesson.sessionStarted-lesson.pausedTotal)/1000);lesson.finished=true;flushTime();renderTranslation();}else{$('#lesson-dialog').close();toast('本轮练习结束，结果已保存在本机');}return;}
+    if(lesson.index+delta>=lesson.items.length){lesson.finished=true;rememberDesktopPractice();if(lesson.mode==='translate'){resetPracticeMedia();lesson.finishedSeconds=Math.floor((performance.now()-lesson.sessionStarted-lesson.pausedTotal)/1000);flushTime();renderTranslation();}else{$('#lesson-dialog').close();toast('本轮练习结束，结果已保存在本机');}return;}
     resetPracticeMedia();lesson.index=Math.max(0,lesson.index+delta);lesson.revealed=false;lesson.feedback=null;lesson.started=performance.now();lesson.voiceURL='';lesson.voiceMessage='尚未录音';lesson.transcript='';lesson.voiceResult=null;lesson.recognizing=false;lesson.listened=0;lesson.playing=false;
-    rememberDesktopPractice();lesson.speechMessage='';lastActivity=performance.now();renderLesson();if(lesson.mode==='translate'){focusTranslation();playLesson();}
+    lesson.speechMessage='';lastActivity=performance.now();renderLesson();if(lesson.mode==='translate'){focusTranslation();playLesson();}
   }
   let speechGeneration=0;
   function speechMessage(message) {
@@ -1956,7 +1964,7 @@ ollama pull gemma3:1b</pre><p class="hint">这个设置允许本地网页连接�
     const challenges=raw.challenges.map(c=>({id:id(c.id),createdAt:date(c.createdAt),correct:number(c.correct,0,10,'答对数量'),answered:number(c.answered,0,10,'答题数量'),score:number(c.score,0,100,'挑战得分')}));
     if(challenges.some(c=>c.correct>c.answered||c.score!==c.correct*10))throw new Error('挑战成绩不一致');
     if(!raw.plan||!raw.settings||!Array.isArray(raw.chat)||raw.chat.length>10000)throw new Error('设置格式不正确');
-    return {...(raw.practiceResume&&Array.isArray(raw.practiceResume.ids)?{practiceResume:{ids:raw.practiceResume.ids.filter(x=>wordIds.includes(x)),wordId:wordIds.includes(raw.practiceResume.wordId)?raw.practiceResume.wordId:''}}:{}),version:1,vocabularyVersion:raw.vocabularyVersion===wordCatalog.version?wordCatalog.version:'',courses,words,sentenceStatus:validStatuses(raw.sentenceStatus,sentenceIds),wordStatus:validStatuses(raw.wordStatus,wordIds),favorites:selection(raw.favorites,[...sentenceIds,...wordIds]),courseFavorites:selection(raw.courseFavorites,courses.map(c=>c.id)),days,notes,challenges,
+    return {...(raw.practiceResume&&Array.isArray(raw.practiceResume.ids)?{practiceResume:{ids:raw.practiceResume.ids.filter(x=>wordIds.includes(x)),wordId:wordIds.includes(raw.practiceResume.wordId)?raw.practiceResume.wordId:'',answered:raw.practiceResume.answered===true,finished:raw.practiceResume.finished===true}}:{}),version:1,vocabularyVersion:raw.vocabularyVersion===wordCatalog.version?wordCatalog.version:'',courses,words,sentenceStatus:validStatuses(raw.sentenceStatus,sentenceIds),wordStatus:validStatuses(raw.wordStatus,wordIds),favorites:selection(raw.favorites,[...sentenceIds,...wordIds]),courseFavorites:selection(raw.courseFavorites,courses.map(c=>c.id)),days,notes,challenges,
       plan:{minutes:number(raw.plan.minutes,1,240,'学习时长目标'),sentences:number(raw.plan.sentences,1,500,'句子目标'),words:number(raw.plan.words,1,500,'单词目标'),courseIds:selection(raw.plan.courseIds,courses.map(c=>c.id))},
       settings:{rate:number(raw.settings.rate,0.5,2,'朗读速度'),voice:textValue(raw.settings.voice||'',500,'声音名称',true),model:textValue(raw.settings.model||'',150,'模型名称',true),userName:textValue(raw.settings.userName,30,'称呼'),keySounds:raw.settings.keySounds!==false,effects:raw.settings.effects!==false,volume:raw.settings.volume===undefined?.25:number(raw.settings.volume,0,1,'音效音量')},
       chat:raw.chat.map(m=>{if(!['user','assistant'].includes(m.role))throw new Error('对话角色不正确');return {role:m.role,content:textValue(m.content,30000,'对话内容')};})};

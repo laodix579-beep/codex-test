@@ -39,7 +39,7 @@ with sync_playwright() as p:
  assert '4/22' in page.locator('#lesson-course').inner_text()
  close_practice()
  print('PASS: large category title, small progress label, live progress, clickable usage labels and resume after reload',flush=True)
- # A previously mastered cursor advances to the next word needing practice.
+ # Legacy saved positions are honoured independently of lifetime mastery.
  page.evaluate('''()=>{const key=document.body.dataset.storageKey,s=JSON.parse(localStorage.getItem(key)),ids=FROG_WORD_CATALOG.words.filter(w=>w.subcategoryId==='C01-S01').map(w=>w.id);
   s.wordStatus[ids[0]]='mastered';s.wordStatus[ids[1]]='wrong';s.practiceResume={ids,wordId:ids[0]};
   s.notes=[{id:'keep-home-note',title:'保留记录',body:'原有内容',createdAt:'2026-10-01T00:00:00Z',updatedAt:'2026-10-01T00:00:00Z'}];s.settings.volume=.35;s.plan.words=15;
@@ -49,11 +49,11 @@ with sync_playwright() as p:
  assert page.get_by_role('progressbar',name='上次学习进度').get_attribute('aria-valuenow')=='9'
  assert page.locator('.mvp-preview .wrong').inner_text()=='hi 的用法'
  page.locator('[data-action="resume-desktop"]').click();page.locator('.translation-blank').first.wait_for()
- assert '2/22' in page.locator('#lesson-course').inner_text();close_practice()
- # A finished group is explicitly offered as review; starting it keeps mastery.
+ assert '1/22' in page.locator('#lesson-course').inner_text();close_practice()
+ # A mastered group still continues the current pass without resetting mastery.
  page.evaluate('''()=>{const key=document.body.dataset.storageKey,s=JSON.parse(localStorage.getItem(key));s.practiceResume.ids.forEach(id=>s.wordStatus[id]='mastered');localStorage.setItem(key,JSON.stringify(s));}''')
  page.reload()
- assert page.locator('[data-action="resume-desktop"]').inner_text().strip()=='复习本组'
+ assert page.locator('[data-action="resume-desktop"]').inner_text().strip()=='继续复习'
  expect(page.locator('.mvp-resume-progress-count')).to_have_text('已掌握 22 / 22 个单词')
  assert page.get_by_role('progressbar',name='上次学习进度').get_attribute('aria-valuenow')=='100'
  page.screenshot(path='/tmp/home-progress-complete.png')
@@ -61,7 +61,7 @@ with sync_playwright() as p:
  assert '1/22' in page.locator('#lesson-course').inner_text()
  assert all(saved()['wordStatus'][id]=='mastered' for id in saved()['practiceResume']['ids'])
  close_practice();page.reload();expect(page.locator('.mvp-resume-progress-count')).to_have_text('已掌握 22 / 22 个单词')
- print('PASS: real partial/full counts, status icons, correct continuation and full-group review without resetting mastery',flush=True)
+ print('PASS: real partial/full counts, status icons and saved review position without resetting mastery',flush=True)
  # The heading, progress and links must follow the actual latest category.
  page.goto(BASE+'#words/C01/C01-S03');page.locator('.translation-blank').first.wait_for()
  page.locator('.practice-back').click();page.wait_for_function('!document.querySelector("#lesson-dialog").open')
