@@ -21,6 +21,7 @@ with TemporaryDirectory(prefix='mvp-pages-') as directory:
   assert archive.read('assets/home-hero.png')==(ROOT/'assets/home-hero.png').read_bytes()
   scenes=json.loads(archive.read('data/scene-catalog.json'))
   assert len(scenes['scenes'])==136 and len(scenes['sheets'])==18
+  assert len(json.loads(archive.read('data/meaning-catalog.json'))['entries'])==136
   for sheet in scenes['sheets']:assert hashlib.sha256(archive.read(sheet['path'])).hexdigest()==sheet['sha256']
   audit=json.loads(archive.read('reports/source-audio-sha256.json'))
   assert len(audit)==610
@@ -100,6 +101,17 @@ with TemporaryDirectory(prefix='mvp-pages-') as directory:
      page.locator('.progress-records [data-route="records/history"]').click()
      page.locator('.progress-history').wait_for()
      assert page.locator('.progress-record-table tbody tr').count()==1
+    page.goto(base+'#words/C01/C01-S02');page.locator('.translation-blank').first.wait_for()
+    page.locator('#practice-jump').evaluate('e=>{e.value="49";e.dispatchEvent(new Event("change",{bubbles:true}))}')
+    assert page.locator('.word-example-prompt [data-meaning-target="chinese"]').inner_text()=='半个'
+    page.locator('.mobile-controls [data-action="translation-answer"]' if mobile else '#translation-form [data-action="translation-answer"]').click()
+    assert page.locator('.translation-answer [data-meaning-target="english"]' if mobile else '#practice-answer-dialog [data-meaning-target="english"]').inner_text()=='half'
+    if not mobile:page.locator('#practice-answer-dialog [data-answer-close]').click()
+    page.locator('#practice-jump').evaluate('e=>{e.value="47";e.dispatchEvent(new Event("change",{bubbles:true}))}')
+    assert '中文通常不单独翻译' in page.locator('.word-context-meaning').inner_text()
+    assert page.locator('.word-example-prompt [data-meaning-target]').count()==0
+    cached_meanings=page.evaluate('async()=>{const r=await fetch("data/meaning-catalog.json");return (await r.json()).entries.length}')
+    assert cached_meanings==136
     page.goto(base+'小蛙自习室.html#words');page.wait_for_selector('.vocab-category')
     assert page.locator('.vocab-category').count()==(1 if mobile else 8)
     assert not errors,errors

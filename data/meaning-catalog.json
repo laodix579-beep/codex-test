@@ -1,0 +1,2304 @@
+{
+  "version": "meaning-v28",
+  "entries": [
+    {
+      "id": "C01-S01-001",
+      "word": "hello",
+      "meaning": "你好；喂",
+      "english": "Hello, Anna.",
+      "chinese": "你好，安娜。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "你好"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S01-002",
+      "word": "hi",
+      "meaning": "嗨；你好",
+      "english": "Hi, Tom!",
+      "chinese": "嗨，汤姆！",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 1,
+          "text": "嗨"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S01-003",
+      "word": "good morning",
+      "meaning": "早上好",
+      "english": "Good morning, Mom.",
+      "chinese": "妈妈，早上好。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 6,
+          "text": "早上好"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S01-004",
+      "word": "good afternoon",
+      "meaning": "下午好",
+      "english": "Good afternoon, Mr. Lee.",
+      "chinese": "李先生，下午好。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 7,
+          "text": "下午好"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S01-005",
+      "word": "good evening",
+      "meaning": "晚上好（见面问候）",
+      "english": "Good evening, Dad.",
+      "chinese": "爸爸，晚上好。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 6,
+          "text": "晚上好"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S01-006",
+      "word": "good night",
+      "meaning": "晚安（睡前或告别）",
+      "english": "Good night, Mom.",
+      "chinese": "妈妈，晚安。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "晚安"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S01-007",
+      "word": "goodbye",
+      "meaning": "再见",
+      "english": "Goodbye, everyone.",
+      "chinese": "大家再见。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "再见"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S01-008",
+      "word": "bye",
+      "meaning": "再见",
+      "english": "Bye! See you tomorrow.",
+      "chinese": "再见！明天见。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "再见"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S01-009",
+      "word": "see you",
+      "meaning": "回头见；再见",
+      "english": "See you tomorrow.",
+      "chinese": "明天见。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 3,
+          "text": "见"
+        }
+      ],
+      "usage": "",
+      "note": "本句与表示“明天”的词搭配，告别时说“明天见”；“明天”不是当前作答短语的词义。"
+    },
+    {
+      "id": "C01-S01-010",
+      "word": "see you later",
+      "meaning": "待会儿见",
+      "english": "See you later!",
+      "chinese": "待会儿见！",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 4,
+          "text": "待会儿见"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S01-011",
+      "word": "please",
+      "meaning": "请",
+      "english": "Please sit down.",
+      "chinese": "请坐下。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 1,
+          "text": "请"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S01-012",
+      "word": "thank you",
+      "meaning": "谢谢你；谢谢",
+      "english": "Thank you for your help.",
+      "chinese": "谢谢你的帮助。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "谢谢"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S01-013",
+      "word": "thanks",
+      "meaning": "谢谢",
+      "english": "Thanks, Dad.",
+      "chinese": "谢谢爸爸。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "谢谢"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S01-014",
+      "word": "you're welcome",
+      "meaning": "不客气",
+      "english": "You're welcome.",
+      "chinese": "不客气。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "不客气"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S01-015",
+      "word": "sorry",
+      "meaning": "对不起；抱歉",
+      "english": "Sorry, I'm late.",
+      "chinese": "对不起，我迟到了。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "对不起"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S01-016",
+      "word": "excuse me",
+      "meaning": "不好意思；劳驾",
+      "english": "Excuse me, where is the library?",
+      "chinese": "不好意思，请问图书馆在哪里？",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 4,
+          "text": "不好意思"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S01-017",
+      "word": "yes",
+      "meaning": "是；是的；好的",
+      "english": "Yes, I can.",
+      "chinese": "是的，我会。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "是的"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S01-018",
+      "word": "no",
+      "meaning": "不；不是",
+      "english": "No, thank you.",
+      "chinese": "不用了，谢谢。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "不用了"
+        }
+      ],
+      "usage": "",
+      "note": "本句用“不用了”委婉拒绝，整句表示“不用了，谢谢”。"
+    },
+    {
+      "id": "C01-S01-019",
+      "word": "how are you?",
+      "meaning": "你好吗？",
+      "english": "How are you today?",
+      "chinese": "你今天好吗？",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 1,
+          "text": "你"
+        },
+        {
+          "start": 3,
+          "end": 5,
+          "text": "好吗"
+        }
+      ],
+      "usage": "",
+      "note": "对应中文“你……好吗”，中间的“今天”是额外的时间信息。"
+    },
+    {
+      "id": "C01-S01-020",
+      "word": "I'm fine.",
+      "meaning": "我很好。",
+      "english": "I'm fine, thank you.",
+      "chinese": "我很好，谢谢。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "我很好"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S01-021",
+      "word": "nice to meet you",
+      "meaning": "很高兴认识你",
+      "english": "Nice to meet you, Lily.",
+      "chinese": "很高兴认识你，莉莉。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 6,
+          "text": "很高兴认识你"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S01-022",
+      "word": "welcome",
+      "meaning": "欢迎",
+      "english": "Welcome to our school.",
+      "chinese": "欢迎来到我们学校。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "欢迎"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S02-001",
+      "word": "zero",
+      "meaning": "零",
+      "english": "I have zero cookies.",
+      "chinese": "我没有饼干。",
+      "mode": "usage",
+      "spans": [],
+      "usage": "表示数量为零；本句中文用“没有饼干”表达，通常不单独写出“零”。",
+      "note": ""
+    },
+    {
+      "id": "C01-S02-002",
+      "word": "one",
+      "meaning": "一",
+      "english": "I have one pen.",
+      "chinese": "我有一支钢笔。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 3,
+          "text": "一"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S02-003",
+      "word": "two",
+      "meaning": "二",
+      "english": "I see two birds.",
+      "chinese": "我看见两只鸟。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 4,
+          "text": "两"
+        }
+      ],
+      "usage": "",
+      "note": "这里的数量是二，中文在量词“只”前自然说“两只鸟”。"
+    },
+    {
+      "id": "C01-S02-004",
+      "word": "three",
+      "meaning": "三",
+      "english": "I have three books.",
+      "chinese": "我有三本书。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 3,
+          "text": "三"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S02-005",
+      "word": "four",
+      "meaning": "四",
+      "english": "Four cats are here.",
+      "chinese": "这里有四只猫。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 4,
+          "text": "四"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S02-006",
+      "word": "five",
+      "meaning": "五",
+      "english": "I have five apples.",
+      "chinese": "我有五个苹果。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 3,
+          "text": "五"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S02-007",
+      "word": "six",
+      "meaning": "六",
+      "english": "Six ducks can swim.",
+      "chinese": "六只鸭子会游泳。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 1,
+          "text": "六"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S02-008",
+      "word": "seven",
+      "meaning": "七",
+      "english": "I see seven stars.",
+      "chinese": "我看见七颗星星。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 4,
+          "text": "七"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S02-009",
+      "word": "eight",
+      "meaning": "八",
+      "english": "I have eight crayons.",
+      "chinese": "我有八支蜡笔。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 3,
+          "text": "八"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S02-010",
+      "word": "nine",
+      "meaning": "九",
+      "english": "I see nine flowers.",
+      "chinese": "我看见九朵花。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 4,
+          "text": "九"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S02-011",
+      "word": "ten",
+      "meaning": "十",
+      "english": "I have ten fingers.",
+      "chinese": "我有十根手指。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 3,
+          "text": "十"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S02-012",
+      "word": "eleven",
+      "meaning": "十一",
+      "english": "I have eleven cards.",
+      "chinese": "我有十一张卡片。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "十一"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S02-013",
+      "word": "twelve",
+      "meaning": "十二",
+      "english": "There are twelve eggs.",
+      "chinese": "这里有十二个鸡蛋。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "十二"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S02-014",
+      "word": "thirteen",
+      "meaning": "十三",
+      "english": "I can count to thirteen.",
+      "chinese": "我能数到十三。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "十三"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S02-015",
+      "word": "fourteen",
+      "meaning": "十四",
+      "english": "Fourteen birds are outside.",
+      "chinese": "外面有十四只鸟。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "十四"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S02-016",
+      "word": "fifteen",
+      "meaning": "十五",
+      "english": "Fifteen students are here.",
+      "chinese": "这里有十五名学生。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "十五"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S02-017",
+      "word": "sixteen",
+      "meaning": "十六",
+      "english": "I have sixteen stickers.",
+      "chinese": "我有十六张贴纸。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "十六"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S02-018",
+      "word": "seventeen",
+      "meaning": "十七",
+      "english": "I see seventeen stars.",
+      "chinese": "我看见十七颗星星。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "十七"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S02-019",
+      "word": "eighteen",
+      "meaning": "十八",
+      "english": "There are eighteen pencils.",
+      "chinese": "这里有十八支铅笔。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "十八"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S02-020",
+      "word": "nineteen",
+      "meaning": "十九",
+      "english": "I have nineteen blocks.",
+      "chinese": "我有十九块积木。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "十九"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S02-021",
+      "word": "twenty",
+      "meaning": "二十",
+      "english": "I have twenty blocks.",
+      "chinese": "我有二十块积木。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "二十"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S02-022",
+      "word": "twenty-one",
+      "meaning": "二十一",
+      "english": "I have twenty-one stickers.",
+      "chinese": "我有二十一张贴纸。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 5,
+          "text": "二十一"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S02-023",
+      "word": "twenty-two",
+      "meaning": "二十二",
+      "english": "I see twenty-two birds.",
+      "chinese": "我看见二十二只鸟。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 6,
+          "text": "二十二"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S02-024",
+      "word": "twenty-three",
+      "meaning": "二十三",
+      "english": "There are twenty-three books.",
+      "chinese": "这里有二十三本书。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 6,
+          "text": "二十三"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S02-025",
+      "word": "twenty-four",
+      "meaning": "二十四",
+      "english": "I have twenty-four cards.",
+      "chinese": "我有二十四张卡片。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 5,
+          "text": "二十四"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S02-026",
+      "word": "twenty-five",
+      "meaning": "二十五",
+      "english": "There are twenty-five students.",
+      "chinese": "这里有二十五名学生。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 6,
+          "text": "二十五"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S02-027",
+      "word": "twenty-six",
+      "meaning": "二十六",
+      "english": "I have twenty-six crayons.",
+      "chinese": "我有二十六支蜡笔。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 5,
+          "text": "二十六"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S02-028",
+      "word": "twenty-seven",
+      "meaning": "二十七",
+      "english": "I see twenty-seven stars.",
+      "chinese": "我看见二十七颗星星。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 6,
+          "text": "二十七"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S02-029",
+      "word": "twenty-eight",
+      "meaning": "二十八",
+      "english": "There are twenty-eight days in February in a common year.",
+      "chinese": "平年二月有二十八天。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 8,
+          "text": "二十八"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S02-030",
+      "word": "twenty-nine",
+      "meaning": "二十九",
+      "english": "I have twenty-nine marbles.",
+      "chinese": "我有二十九颗弹珠。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 5,
+          "text": "二十九"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S02-031",
+      "word": "thirty",
+      "meaning": "三十",
+      "english": "I have thirty stickers.",
+      "chinese": "我有三十张贴纸。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "三十"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S02-032",
+      "word": "forty",
+      "meaning": "四十",
+      "english": "Forty books are on the shelf.",
+      "chinese": "架子上有四十本书。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "四十"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S02-033",
+      "word": "fifty",
+      "meaning": "五十",
+      "english": "The chart has fifty stars.",
+      "chinese": "这张图表上有五十颗星星。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 8,
+          "text": "五十"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S02-034",
+      "word": "sixty",
+      "meaning": "六十",
+      "english": "Sixty seconds make a minute.",
+      "chinese": "六十秒是一分钟。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "六十"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S02-035",
+      "word": "seventy",
+      "meaning": "七十",
+      "english": "Seventy is more than sixty.",
+      "chinese": "七十比六十大。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "七十"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S02-036",
+      "word": "eighty",
+      "meaning": "八十",
+      "english": "Eighty is a number.",
+      "chinese": "八十是一个数字。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "八十"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S02-037",
+      "word": "ninety",
+      "meaning": "九十",
+      "english": "Ninety is ten less than one hundred.",
+      "chinese": "九十比一百少十。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "九十"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S02-038",
+      "word": "one hundred",
+      "meaning": "一百",
+      "english": "I can count to one hundred.",
+      "chinese": "我能数到一百。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "一百"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S02-039",
+      "word": "number",
+      "meaning": "数字；数量",
+      "english": "What is your number?",
+      "chinese": "你的号码是多少？",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "号码"
+        }
+      ],
+      "usage": "",
+      "note": "这里指号码或编号，中文说“号码”，不是在问数量。"
+    },
+    {
+      "id": "C01-S02-040",
+      "word": "count",
+      "meaning": "数数；计数",
+      "english": "Count from one to ten.",
+      "chinese": "从一数到十。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 3,
+          "text": "数"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S02-041",
+      "word": "how many",
+      "meaning": "多少（用于可数名词）",
+      "english": "How many books do you have?",
+      "chinese": "你有多少本书？",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "多少"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S02-042",
+      "word": "how much",
+      "meaning": "多少（用于不可数名词或询问价格）",
+      "english": "How much water do you want?",
+      "chinese": "你想要多少水？",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "多少"
+        }
+      ],
+      "usage": "",
+      "note": "这里询问水的数量，用于不可数名词，没有询问价格。"
+    },
+    {
+      "id": "C01-S02-043",
+      "word": "many",
+      "meaning": "许多（用于可数名词）",
+      "english": "I have many toys.",
+      "chinese": "我有很多玩具。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "很多"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S02-044",
+      "word": "much",
+      "meaning": "许多（常用于不可数名词）",
+      "english": "We don't have much time.",
+      "chinese": "我们没有太多时间。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "太多"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S02-045",
+      "word": "more",
+      "meaning": "更多；更多的",
+      "english": "I want more milk.",
+      "chinese": "我还想要更多牛奶。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "更多"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S02-046",
+      "word": "less",
+      "meaning": "更少；较少的",
+      "english": "This box has less water.",
+      "chinese": "这个盒子里的水更少。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 9,
+          "text": "更少"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S02-047",
+      "word": "some",
+      "meaning": "一些",
+      "english": "I have some pencils.",
+      "chinese": "我有一些铅笔。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "一些"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S02-048",
+      "word": "any",
+      "meaning": "一些；任何（依语境）",
+      "english": "Do you have any questions?",
+      "chinese": "你有问题吗？",
+      "mode": "usage",
+      "spans": [],
+      "usage": "用于疑问句，询问是否有问题；中文通常不单独翻译，不需要补上“一些”或“任何”。",
+      "note": ""
+    },
+    {
+      "id": "C01-S02-049",
+      "word": "all",
+      "meaning": "全部；所有",
+      "english": "All the children are here.",
+      "chinese": "所有孩子都在这里。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "所有"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S02-050",
+      "word": "half",
+      "meaning": "一半",
+      "english": "I ate half an apple.",
+      "chinese": "我吃了半个苹果。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "半个"
+        }
+      ],
+      "usage": "",
+      "note": "这里表示一个苹果的一半，中文说“半个苹果”。"
+    },
+    {
+      "id": "C01-S02-051",
+      "word": "first",
+      "meaning": "第一；首先",
+      "english": "This is my first book.",
+      "chinese": "这是我的第一本书。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "第一"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S02-052",
+      "word": "second",
+      "meaning": "第二",
+      "english": "The second answer is right.",
+      "chinese": "第二个答案是对的。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "第二"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S02-053",
+      "word": "third",
+      "meaning": "第三",
+      "english": "The third box is blue.",
+      "chinese": "第三个盒子是蓝色的。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "第三"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S02-054",
+      "word": "each",
+      "meaning": "每个；各自",
+      "english": "Each child has a book.",
+      "chinese": "每个孩子都有一本书。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "每个"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S02-055",
+      "word": "every",
+      "meaning": "每个；每一",
+      "english": "I read every day.",
+      "chinese": "我每天阅读。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 2,
+          "text": "每"
+        }
+      ],
+      "usage": "",
+      "note": "本句与表示“天”的词搭配，中文合起来说“每天”。"
+    },
+    {
+      "id": "C01-S02-056",
+      "word": "a lot of",
+      "meaning": "许多；大量",
+      "english": "I have a lot of books.",
+      "chinese": "我有很多书。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "很多"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S02-057",
+      "word": "few",
+      "meaning": "很少；少数（可数名词）",
+      "english": "Few people are here.",
+      "chinese": "这里几乎没有人。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 6,
+          "text": "几乎没有"
+        }
+      ],
+      "usage": "",
+      "note": "强调人数非常少，中文整句用“几乎没有人”表达，区别于“有几个”。"
+    },
+    {
+      "id": "C01-S02-058",
+      "word": "a few",
+      "meaning": "几个；一些（可数名词）",
+      "english": "I have a few toys.",
+      "chinese": "我有几个玩具。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "几个"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S02-059",
+      "word": "little",
+      "meaning": "少量的；少的（不可数名词）",
+      "english": "There is little milk left.",
+      "chinese": "剩下的牛奶很少。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "很少"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S02-060",
+      "word": "a little",
+      "meaning": "一点儿；少量",
+      "english": "I want a little water.",
+      "chinese": "我想要一点水。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "一点"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S02-061",
+      "word": "enough",
+      "meaning": "足够；足够的",
+      "english": "We have enough chairs.",
+      "chinese": "我们的椅子够了。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 6,
+          "text": "够"
+        }
+      ],
+      "usage": "",
+      "note": "这里表示数量足够，中文说“椅子够了”。"
+    },
+    {
+      "id": "C01-S02-062",
+      "word": "total",
+      "meaning": "总数；总计",
+      "english": "The total is ten.",
+      "chinese": "总数是十。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "总数"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S03-001",
+      "word": "red",
+      "meaning": "红色；红色的",
+      "english": "The apple is red.",
+      "chinese": "这个苹果是红色的。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 8,
+          "text": "红色的"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S03-002",
+      "word": "blue",
+      "meaning": "蓝色；蓝色的",
+      "english": "The sky is blue.",
+      "chinese": "天空是蓝色的。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 6,
+          "text": "蓝色的"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S03-003",
+      "word": "yellow",
+      "meaning": "黄色；黄色的",
+      "english": "The sun is yellow.",
+      "chinese": "太阳是黄色的。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 6,
+          "text": "黄色的"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S03-004",
+      "word": "green",
+      "meaning": "绿色；绿色的",
+      "english": "The leaf is green.",
+      "chinese": "这片叶子是绿色的。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 8,
+          "text": "绿色的"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S03-005",
+      "word": "orange",
+      "meaning": "橙色；橙色的",
+      "english": "My bag is orange.",
+      "chinese": "我的书包是橙色的。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 8,
+          "text": "橙色的"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S03-006",
+      "word": "purple",
+      "meaning": "紫色；紫色的",
+      "english": "The flower is purple.",
+      "chinese": "这朵花是紫色的。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 7,
+          "text": "紫色的"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S03-007",
+      "word": "pink",
+      "meaning": "粉色；粉色的",
+      "english": "The cup is pink.",
+      "chinese": "这个杯子是粉色的。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 8,
+          "text": "粉色的"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S03-008",
+      "word": "black",
+      "meaning": "黑色；黑色的",
+      "english": "The cat is black.",
+      "chinese": "这只猫是黑色的。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 7,
+          "text": "黑色的"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S03-009",
+      "word": "white",
+      "meaning": "白色；白色的",
+      "english": "The snow is white.",
+      "chinese": "雪是白色的。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 5,
+          "text": "白色的"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S03-010",
+      "word": "brown",
+      "meaning": "棕色；棕色的",
+      "english": "The bear is brown.",
+      "chinese": "这只熊是棕色的。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 7,
+          "text": "棕色的"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S03-011",
+      "word": "gray",
+      "meaning": "灰色；灰色的",
+      "english": "The mouse is gray.",
+      "chinese": "这只老鼠是灰色的。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 8,
+          "text": "灰色的"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S03-012",
+      "word": "gold",
+      "meaning": "金色；金色的",
+      "english": "The star is gold.",
+      "chinese": "这颗星星是金色的。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 8,
+          "text": "金色的"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S03-013",
+      "word": "silver",
+      "meaning": "银色；银色的",
+      "english": "The spoon is silver.",
+      "chinese": "这把勺子是银色的。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 8,
+          "text": "银色的"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S03-014",
+      "word": "light blue",
+      "meaning": "浅蓝色；浅蓝色的",
+      "english": "My shirt is light blue.",
+      "chinese": "我的衬衫是浅蓝色的。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 9,
+          "text": "浅蓝色的"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S03-015",
+      "word": "dark blue",
+      "meaning": "深蓝色；深蓝色的",
+      "english": "The bag is dark blue.",
+      "chinese": "这个包是深蓝色的。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 8,
+          "text": "深蓝色的"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S03-016",
+      "word": "light green",
+      "meaning": "浅绿色；浅绿色的",
+      "english": "The wall is light green.",
+      "chinese": "这面墙是浅绿色的。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 8,
+          "text": "浅绿色的"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S03-017",
+      "word": "dark green",
+      "meaning": "深绿色；深绿色的",
+      "english": "The tree is dark green.",
+      "chinese": "这棵树是深绿色的。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 8,
+          "text": "深绿色的"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S03-018",
+      "word": "beige",
+      "meaning": "米色；米色的",
+      "english": "The hat is beige.",
+      "chinese": "这顶帽子是米色的。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 8,
+          "text": "米色的"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S03-019",
+      "word": "violet",
+      "meaning": "紫罗兰色；紫罗兰色的",
+      "english": "The ribbon is violet.",
+      "chinese": "这条丝带是紫罗兰色的。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 10,
+          "text": "紫罗兰色的"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S04-001",
+      "word": "shape",
+      "meaning": "形状",
+      "english": "What shape is it?",
+      "chinese": "它是什么形状？",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "形状"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S04-002",
+      "word": "circle",
+      "meaning": "圆形",
+      "english": "It is a circle.",
+      "chinese": "它是一个圆形。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "圆形"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S04-003",
+      "word": "square",
+      "meaning": "正方形",
+      "english": "Draw a square.",
+      "chinese": "画一个正方形。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 6,
+          "text": "正方形"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S04-004",
+      "word": "triangle",
+      "meaning": "三角形",
+      "english": "The sign is a triangle.",
+      "chinese": "这个标志是三角形。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 8,
+          "text": "三角形"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S04-005",
+      "word": "rectangle",
+      "meaning": "长方形",
+      "english": "The book is a rectangle.",
+      "chinese": "这本书是长方形。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 7,
+          "text": "长方形"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S04-006",
+      "word": "star",
+      "meaning": "星形；星星",
+      "english": "Draw a star.",
+      "chinese": "画一颗星星。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "星星"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S04-007",
+      "word": "heart",
+      "meaning": "心形；心脏",
+      "english": "The card has a heart.",
+      "chinese": "这张卡片上有一个心形。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 8,
+          "end": 10,
+          "text": "心形"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S04-008",
+      "word": "oval",
+      "meaning": "椭圆形",
+      "english": "The egg is an oval shape.",
+      "chinese": "鸡蛋是椭圆形的。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 6,
+          "text": "椭圆形"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S04-009",
+      "word": "diamond",
+      "meaning": "菱形",
+      "english": "The tile is a diamond.",
+      "chinese": "这块瓷砖是菱形。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "菱形"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S04-010",
+      "word": "line",
+      "meaning": "线；线条",
+      "english": "Draw a straight line.",
+      "chinese": "画一条直线。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 5,
+          "text": "线"
+        }
+      ],
+      "usage": "",
+      "note": "当前作答词对应“线”；“直”表示例句中已经给出的形状特征。"
+    },
+    {
+      "id": "C01-S04-011",
+      "word": "dot",
+      "meaning": "点；小圆点",
+      "english": "Put a dot here.",
+      "chinese": "在这里点一个点。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 7,
+          "text": "点"
+        }
+      ],
+      "usage": "",
+      "note": "当前作答词是名词，对应句末的“点”，不是前面表示动作的“点”。"
+    },
+    {
+      "id": "C01-S04-012",
+      "word": "corner",
+      "meaning": "角；拐角",
+      "english": "The paper has four corners.",
+      "chinese": "这张纸有四个角。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 7,
+          "text": "角"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S04-013",
+      "word": "side",
+      "meaning": "边；侧面",
+      "english": "A square has four sides.",
+      "chinese": "正方形有四条边。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 7,
+          "text": "边"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S04-014",
+      "word": "round",
+      "meaning": "圆的；圆形的",
+      "english": "The ball is round.",
+      "chinese": "这个球是圆的。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "圆的"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S04-015",
+      "word": "straight",
+      "meaning": "直的",
+      "english": "The line is straight.",
+      "chinese": "这条线是直的。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "直的"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S04-016",
+      "word": "curved",
+      "meaning": "弯曲的",
+      "english": "The road is curved.",
+      "chinese": "这条路是弯曲的。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 7,
+          "text": "弯曲的"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S04-017",
+      "word": "big",
+      "meaning": "大的",
+      "english": "The box is big.",
+      "chinese": "这个箱子很大。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 6,
+          "text": "大"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S04-018",
+      "word": "small",
+      "meaning": "小的",
+      "english": "The mouse is small.",
+      "chinese": "这只老鼠很小。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 6,
+          "text": "小"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S04-019",
+      "word": "large",
+      "meaning": "大的；大型的",
+      "english": "This is a large ball.",
+      "chinese": "这是一个大球。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 5,
+          "text": "大"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S04-020",
+      "word": "long",
+      "meaning": "长的",
+      "english": "The ruler is long.",
+      "chinese": "这把尺子很长。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 6,
+          "text": "长"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S04-021",
+      "word": "short",
+      "meaning": "短的；矮的",
+      "english": "The pencil is short.",
+      "chinese": "这支铅笔很短。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 6,
+          "text": "短"
+        }
+      ],
+      "usage": "",
+      "note": "本句描述铅笔的长度，取“短”的意思，不是“矮”。"
+    },
+    {
+      "id": "C01-S04-022",
+      "word": "tall",
+      "meaning": "高的（常指人或竖立的物体）",
+      "english": "The tree is tall.",
+      "chinese": "这棵树很高。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 5,
+          "text": "高"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S04-023",
+      "word": "high",
+      "meaning": "高的；高处的",
+      "english": "The kite is high in the sky.",
+      "chinese": "风筝在天空中飞得很高。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 9,
+          "end": 10,
+          "text": "高"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S04-024",
+      "word": "low",
+      "meaning": "低的；低处的",
+      "english": "The table is low.",
+      "chinese": "这张桌子很低。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 6,
+          "text": "低"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S04-025",
+      "word": "wide",
+      "meaning": "宽的",
+      "english": "The river is wide.",
+      "chinese": "这条河很宽。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 5,
+          "text": "宽"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S04-026",
+      "word": "narrow",
+      "meaning": "窄的",
+      "english": "This street is narrow.",
+      "chinese": "这条街很窄。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 5,
+          "text": "窄"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S04-027",
+      "word": "thick",
+      "meaning": "厚的；粗的",
+      "english": "This book is thick.",
+      "chinese": "这本书很厚。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 5,
+          "text": "厚"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S04-028",
+      "word": "thin",
+      "meaning": "薄的；细的",
+      "english": "The paper is thin.",
+      "chinese": "这张纸很薄。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 5,
+          "text": "薄"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S04-029",
+      "word": "heavy",
+      "meaning": "重的",
+      "english": "The bag is heavy.",
+      "chinese": "这个包很重。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 5,
+          "text": "重"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S04-030",
+      "word": "light",
+      "meaning": "轻的",
+      "english": "The box is light.",
+      "chinese": "这个箱子很轻。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 6,
+          "text": "轻"
+        }
+      ],
+      "usage": "",
+      "note": "本句描述箱子的重量，取“轻”的意思，不是表示颜色浅。"
+    },
+    {
+      "id": "C01-S04-031",
+      "word": "deep",
+      "meaning": "深的",
+      "english": "The pool is deep.",
+      "chinese": "这个水池很深。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 6,
+          "text": "深"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S04-032",
+      "word": "shallow",
+      "meaning": "浅的",
+      "english": "The water is shallow.",
+      "chinese": "这片水很浅。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 5,
+          "text": "浅"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C01-S04-033",
+      "word": "size",
+      "meaning": "尺寸；大小",
+      "english": "What size is the box?",
+      "chinese": "这个箱子有多大？",
+      "mode": "usage",
+      "spans": [],
+      "usage": "用于询问尺寸或大小；本句中文整体说“有多大”，不与其中某一个字单独对应。",
+      "note": ""
+    }
+  ]
+}

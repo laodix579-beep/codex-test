@@ -66,6 +66,19 @@ with sync_playwright() as p:
    art=exported.locator('.translation-picture img').get_attribute('src')
    assert art.startswith('data:image/png;base64,')
    assert hashlib.sha256(base64.b64decode(art.split(',',1)[1])).digest()==hashlib.sha256((Path(__file__).resolve().parents[1]/'assets/scenes/see-you-tomorrow.png').read_bytes()).digest()
+   assert exported.evaluate('FROG_MEANING_LIBRARY.entries.length')==136
+   exported.evaluate("window.meaningClosed=false;document.querySelector('#lesson-dialog').addEventListener('close',()=>window.meaningClosed=true,{once:true})")
+   exported.locator('.practice-back').click();exported.wait_for_function('meaningClosed')
+   exported.goto(f'http://127.0.0.1:{server.server_port}/#words/C01/C01-S02')
+   exported.locator('.translation-blank').first.wait_for()
+   exported.locator('#practice-jump').evaluate('e=>{e.value="49";e.dispatchEvent(new Event("change",{bubbles:true}))}')
+   assert exported.locator('.word-example-prompt [data-meaning-target="chinese"]').inner_text()=='半个'
+   exported.locator('#translation-form [data-action="translation-answer"]').click()
+   assert exported.locator('#practice-answer-dialog [data-meaning-target="english"]').inner_text()=='half'
+   exported.locator('#practice-answer-dialog [data-answer-close]').click()
+   exported.locator('#practice-jump').evaluate('e=>{e.value="47";e.dispatchEvent(new Event("change",{bubbles:true}))}')
+   assert '中文通常不单独翻译' in exported.locator('.word-context-meaning').inner_text()
+   assert exported.locator('.word-example-prompt [data-meaning-target]').count()==0
    assert not errors,errors
    print('PASS: home menu exports one HTML with the new hero, saved name/notes/progress and MP3 playback without original assets',flush=True)
   finally:

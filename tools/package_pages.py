@@ -1,6 +1,7 @@
 """Package static Pages files and supplied MP3 bytes; never generate audio."""
 import hashlib
 import json
+import re
 import shutil
 import sys
 import zipfile
@@ -17,12 +18,15 @@ scenes=json.loads((ROOT/'data/scene-catalog.json').read_text())
 assert len(scenes['scenes'])==136 and len(scenes['sheets'])==18
 for sheet in scenes['sheets']:
  assert hashlib.sha256((ROOT/sheet['path']).read_bytes()).hexdigest()==sheet['sha256']
+meanings=json.loads((ROOT/'data/meaning-catalog.json').read_text())
+embedded=re.search(r'window.FROG_MEANING_LIBRARY=(.*?);\s*</script>',(ROOT/'index.html').read_text(),re.S)
+assert len(meanings['entries'])==136 and embedded and json.loads(embedded[1])==meanings
 (ROOT/'小蛙自习室.html').write_bytes((ROOT/'index.html').read_bytes())
 names=['.nojekyll','index.html','小蛙自习室.html','sw.js','audio-files.js','audio-manifest.json','vocabulary-audio-map.csv','pronunciation-test-words.csv','audio-source-report.csv','CODEX_只接入录音.md','README.md','DEPLOY_WINDOWS.md','AUDIO_CREDITS.md','manifest.webmanifest','supabase-config.js','icon-192.png','icon-512.png','apple-touch-icon.png']
 files=[ROOT/n for n in names]
 for directory in ['assets','audio','data','licenses','reports']:
  files.extend(p for p in (ROOT/directory).rglob('*') if p.is_file())
-files.extend((ROOT/'tests').glob('*.py'));files.extend([Path(__file__).resolve(),ROOT/'tools/build_scene_assets.py',ROOT/'tools/scene-runtime.js'])
+files.extend((ROOT/'tests').glob('*.py'));files.extend([Path(__file__).resolve(),ROOT/'tools/build_scene_assets.py',ROOT/'tools/scene-runtime.js',ROOT/'tools/build_meaning_assets.py'])
 assert len(files)==len(set(files)) and all(f.is_file() for f in files)
 out.parent.mkdir(parents=True,exist_ok=True)
 with zipfile.ZipFile(out,'w',zipfile.ZIP_DEFLATED) as z:

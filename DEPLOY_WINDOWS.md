@@ -13,7 +13,7 @@
 | `audio/en-us/word/`、`audio/en-us/sentence/` | 全部 610 个原样 MP3，必须完整上传 |
 | `audio-manifest.json`、`audio-files.js` | 播放映射及离线缓存清单，必须上传 |
 | `assets/` | 首页插画及 `assets/scenes/` 的 17 张合集图和 1 张独立修正图，整个目录必须上传 |
-| `data/` | 原有资料与独立试听词数据，整个目录上传 |
+| `data/` | 原有资料、场景及 `meaning-catalog.json` 中的词义对应资料，整个目录上传 |
 | `sw.js`、`manifest.webmanifest` | 手机安装及离线缓存支持 |
 | `icon-192.png`、`icon-512.png`、`apple-touch-icon.png` | 网站及手机图标 |
 | `.nojekyll` | 直接发布静态文件 |
