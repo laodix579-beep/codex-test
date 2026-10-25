@@ -1,0 +1,6102 @@
+[
+  {
+    "path": "audio/en-us/sentence/hello-nice-to-meet-you.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 70272,
+    "peak": 0.797677,
+    "rms": 0.097077,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/my-name-is-alex.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 59904,
+    "peak": 0.798972,
+    "rms": 0.095868,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/how-is-your-day-going.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 62208,
+    "peak": 0.796065,
+    "rms": 0.10833,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/could-you-say-that-again.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 61632,
+    "peak": 0.794094,
+    "rms": 0.06876,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/i-am-learning-english-every-day.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 76032,
+    "peak": 0.79968,
+    "rms": 0.153554,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/thank-you-for-your-help.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 60480,
+    "peak": 0.79334,
+    "rms": 0.109857,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/see-you-tomorrow.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 56448,
+    "peak": 0.798761,
+    "rms": 0.0943,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/practice-makes-progress.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 66240,
+    "peak": 0.799703,
+    "rms": 0.098553,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/where-is-the-nearest-station.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 67392,
+    "peak": 0.798628,
+    "rms": 0.087077,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/i-would-like-a-cup-of-coffee.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 70848,
+    "peak": 0.798628,
+    "rms": 0.094133,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/how-much-does-this-cost.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 64512,
+    "peak": 0.791705,
+    "rms": 0.103054,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/can-i-pay-by-card.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 62208,
+    "peak": 0.797323,
+    "rms": 0.102177,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/i-have-a-reservation.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 64512,
+    "peak": 0.788904,
+    "rms": 0.084456,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/could-you-recommend-a-local-dish.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 74880,
+    "peak": 0.800395,
+    "rms": 0.121104,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/which-platform-should-i-go-to.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 72576,
+    "peak": 0.799565,
+    "rms": 0.132815,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/is-breakfast-included.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 65664,
+    "peak": 0.787798,
+    "rms": 0.08332,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/could-we-schedule-a-meeting.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 63936,
+    "peak": 0.780745,
+    "rms": 0.076335,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/let-me-share-my-screen.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 63360,
+    "peak": 0.781044,
+    "rms": 0.081431,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/i-will-send-you-the-details.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 69696,
+    "peak": 0.795159,
+    "rms": 0.074059,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/what-is-the-deadline-for-this-task.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 78336,
+    "peak": 0.80016,
+    "rms": 0.121215,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/thank-you-for-your-feedback.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 66240,
+    "peak": 0.790843,
+    "rms": 0.100831,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/let-us-review-the-next-steps.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 71424,
+    "peak": 0.798782,
+    "rms": 0.087805,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/hello-i-am-sam.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 62784,
+    "peak": 0.79198,
+    "rms": 0.07331,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/hi-my-name-is-lily.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 62784,
+    "peak": 0.745022,
+    "rms": 0.108448,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/nice-to-meet-you-sam.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 64512,
+    "peak": 0.767396,
+    "rms": 0.099715,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/good-morning-lily.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 60480,
+    "peak": 0.799164,
+    "rms": 0.093936,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/good-afternoon-sam.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 65664,
+    "peak": 0.795614,
+    "rms": 0.07254,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/goodbye-my-friends.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 62208,
+    "peak": 0.774487,
+    "rms": 0.072011,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/hello-i-m-li-dong.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 63936,
+    "peak": 0.777057,
+    "rms": 0.08674,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/hi-i-m-binbin.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 57600,
+    "peak": 0.798059,
+    "rms": 0.113876,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/hello-i-m-chen-jie.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 66240,
+    "peak": 0.79484,
+    "rms": 0.097362,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/hi-i-m-sarah.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 58752,
+    "peak": 0.797466,
+    "rms": 0.101686,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/hello-little-frog.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 61632,
+    "peak": 0.759301,
+    "rms": 0.101383,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/wave-your-hand.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 55296,
+    "peak": 0.796255,
+    "rms": 0.064074,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/say-hello-to-a-friend.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 62208,
+    "peak": 0.795022,
+    "rms": 0.105987,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/i-am-in-my-classroom.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 63936,
+    "peak": 0.800605,
+    "rms": 0.089082,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/this-is-our-teacher.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 59904,
+    "peak": 0.789205,
+    "rms": 0.074015,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/we-are-ready-to-learn.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 59904,
+    "peak": 0.795173,
+    "rms": 0.104588,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/please-sit-down.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 59328,
+    "peak": 0.798575,
+    "rms": 0.107044,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/please-stand-up.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 56448,
+    "peak": 0.798853,
+    "rms": 0.110354,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/look-at-the-board.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 53568,
+    "peak": 0.772825,
+    "rms": 0.079457,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/good-morning-teacher.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 63360,
+    "peak": 0.785259,
+    "rms": 0.08436,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/may-i-come-in.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 52992,
+    "peak": 0.797972,
+    "rms": 0.095656,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/yes-please-come-in.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 65088,
+    "peak": 0.788474,
+    "rms": 0.101499,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/raise-your-hand-please.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 65664,
+    "peak": 0.799811,
+    "rms": 0.065183,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/open-your-book.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 54720,
+    "peak": 0.789248,
+    "rms": 0.097536,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/close-your-book.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 53568,
+    "peak": 0.778337,
+    "rms": 0.096968,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/one-two-three-look-at-me.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 72576,
+    "peak": 0.799641,
+    "rms": 0.133072,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/let-us-play-together.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 61632,
+    "peak": 0.785522,
+    "rms": 0.083313,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/thank-you-teacher.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 59904,
+    "peak": 0.801535,
+    "rms": 0.08438,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/listen-with-your-ears.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 62784,
+    "peak": 0.796785,
+    "rms": 0.098545,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/look-with-your-eyes.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 58176,
+    "peak": 0.798004,
+    "rms": 0.080206,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/speak-in-a-clear-voice.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 62784,
+    "peak": 0.787279,
+    "rms": 0.092125,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/point-to-the-picture.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 58176,
+    "peak": 0.799979,
+    "rms": 0.082221,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/read-after-me.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 58176,
+    "peak": 0.773857,
+    "rms": 0.081282,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/clap-your-hands.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 56448,
+    "peak": 0.773164,
+    "rms": 0.091363,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/let-us-work-together.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 62784,
+    "peak": 0.795581,
+    "rms": 0.093097,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/give-me-a-high-five.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 61632,
+    "peak": 0.797735,
+    "rms": 0.094845,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/well-done-my-friend.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 62208,
+    "peak": 0.799553,
+    "rms": 0.062951,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/can-you-draw-a-star.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 62208,
+    "peak": 0.797328,
+    "rms": 0.108264,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/i-can-sing-a-song.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 60480,
+    "peak": 0.801066,
+    "rms": 0.074585,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/let-us-try-again.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 59328,
+    "peak": 0.798082,
+    "rms": 0.089042,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/my-bag-is-ready.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 61632,
+    "peak": 0.798189,
+    "rms": 0.089653,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/my-books-are-in-my-bag.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 65088,
+    "peak": 0.796469,
+    "rms": 0.089492,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/let-us-go-to-school.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 62208,
+    "peak": 0.799305,
+    "rms": 0.087858,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/take-out-your-pencil.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 59328,
+    "peak": 0.798957,
+    "rms": 0.109811,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/put-away-your-ruler.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 58752,
+    "peak": 0.794957,
+    "rms": 0.091103,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/show-me-your-book.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 54720,
+    "peak": 0.674803,
+    "rms": 0.110666,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/is-this-your-pencil.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 60480,
+    "peak": 0.796476,
+    "rms": 0.080812,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/yes-it-is-my-pencil.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 72576,
+    "peak": 0.802098,
+    "rms": 0.135573,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/here-is-your-eraser.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 61632,
+    "peak": 0.795327,
+    "rms": 0.0976,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/i-have-a-blue-bag.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 60480,
+    "peak": 0.793959,
+    "rms": 0.091897,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/i-have-two-pencils.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 63936,
+    "peak": 0.786769,
+    "rms": 0.091074,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/this-is-my-new-ruler.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 63360,
+    "peak": 0.789184,
+    "rms": 0.071484,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/find-a-red-pencil.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 61632,
+    "peak": 0.799239,
+    "rms": 0.083321,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/put-the-book-on-the-desk.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 61056,
+    "peak": 0.795198,
+    "rms": 0.092482,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/my-school-things-are-ready.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 66816,
+    "peak": 0.799388,
+    "rms": 0.089962,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/this-is-my-family.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 62208,
+    "peak": 0.782844,
+    "rms": 0.066045,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/i-love-my-mother.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 59328,
+    "peak": 0.794245,
+    "rms": 0.091985,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/i-love-my-father.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 60480,
+    "peak": 0.797147,
+    "rms": 0.097699,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/this-is-my-grandma.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 63936,
+    "peak": 0.779552,
+    "rms": 0.067146,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/this-is-my-grandpa.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 65664,
+    "peak": 0.792689,
+    "rms": 0.067218,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/we-are-a-happy-family.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 66240,
+    "peak": 0.797606,
+    "rms": 0.095715,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/who-is-in-the-photo.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 61056,
+    "peak": 0.789214,
+    "rms": 0.104569,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/this-is-my-sister.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 61056,
+    "peak": 0.798333,
+    "rms": 0.066437,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/this-is-my-little-brother.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 72576,
+    "peak": 0.79994,
+    "rms": 0.132155,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/this-is-my-good-friend.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 65664,
+    "peak": 0.798856,
+    "rms": 0.070914,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/she-is-my-teacher.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 59904,
+    "peak": 0.79878,
+    "rms": 0.101006,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/he-is-my-neighbour.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 59904,
+    "peak": 0.798893,
+    "rms": 0.089114,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/let-us-say-thank-you.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 59328,
+    "peak": 0.799019,
+    "rms": 0.08697,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/you-help-me-every-day.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 63936,
+    "peak": 0.779578,
+    "rms": 0.098973,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/i-am-happy-with-you.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 59328,
+    "peak": 0.786673,
+    "rms": 0.090635,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/hello-i-am-a-robot.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 66816,
+    "peak": 0.795428,
+    "rms": 0.117983,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/i-can-wave-my-hand.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 63936,
+    "peak": 0.776067,
+    "rms": 0.078501,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/i-can-say-my-name.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 62208,
+    "peak": 0.798419,
+    "rms": 0.076478,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/robot-please-stand-up.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 71424,
+    "peak": 0.791965,
+    "rms": 0.084333,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/robot-open-your-bag.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 72000,
+    "peak": 0.800561,
+    "rms": 0.121242,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/please-show-me-your-pencil.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 66240,
+    "peak": 0.794895,
+    "rms": 0.119339,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/look-at-my-robot.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 56448,
+    "peak": 0.799226,
+    "rms": 0.099076,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/it-has-two-big-eyes.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 62784,
+    "peak": 0.796259,
+    "rms": 0.088095,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/it-is-my-little-friend.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 63936,
+    "peak": 0.799224,
+    "rms": 0.095172,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/i-spy-a-yellow-book.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 63360,
+    "peak": 0.792888,
+    "rms": 0.095731,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/i-spy-a-little-star.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 63360,
+    "peak": 0.78761,
+    "rms": 0.104587,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/can-you-find-the-robot.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 65088,
+    "peak": 0.795993,
+    "rms": 0.114023,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/i-am-making-progress.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 65088,
+    "peak": 0.770084,
+    "rms": 0.106493,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/i-learn-something-new-every-day.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 78912,
+    "peak": 0.801731,
+    "rms": 0.12907,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/i-would-like-some-coffee.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 63360,
+    "peak": 0.799624,
+    "rms": 0.094141,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/can-you-recommend-a-good-book.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 67392,
+    "peak": 0.797905,
+    "rms": 0.105635,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/enjoy-your-journey.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 59328,
+    "peak": 0.792896,
+    "rms": 0.103937,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/the-meeting-starts-at-nine.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 65664,
+    "peak": 0.779035,
+    "rms": 0.081446,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/let-us-check-the-schedule.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 62784,
+    "peak": 0.797774,
+    "rms": 0.088093,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/the-deadline-is-friday.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 65664,
+    "peak": 0.798428,
+    "rms": 0.052956,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/let-us-review-the-lesson.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 63936,
+    "peak": 0.790993,
+    "rms": 0.088043,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/please-check-the-details.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 66816,
+    "peak": 0.793682,
+    "rms": 0.106417,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/this-is-my-name-card.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 63360,
+    "peak": 0.795773,
+    "rms": 0.071331,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/my-name-is-ben.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 59904,
+    "peak": 0.799302,
+    "rms": 0.092261,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/what-is-your-name.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 52416,
+    "peak": 0.798558,
+    "rms": 0.077979,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/hello-let-us-practice-english-together.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 82368,
+    "peak": 0.799636,
+    "rms": 0.134754,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/hello.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 45840,
+    "peak": 0.760146,
+    "rms": 0.077751,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/i-m-li-dong.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 53568,
+    "peak": 0.787936,
+    "rms": 0.100505,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/hi.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 40440,
+    "peak": 0.770863,
+    "rms": 0.110437,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/i-m-binbin.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 52416,
+    "peak": 0.797204,
+    "rms": 0.084868,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/i-m-chen-jie.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 55872,
+    "peak": 0.78582,
+    "rms": 0.103907,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/i-m-sarah.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 51264,
+    "peak": 0.797654,
+    "rms": 0.086297,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/practice.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 48240,
+    "peak": 0.780987,
+    "rms": 0.099204,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/progress.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 45840,
+    "peak": 0.788584,
+    "rms": 0.085359,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/learn.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 43440,
+    "peak": 0.793537,
+    "rms": 0.101572,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/tomorrow.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44640,
+    "peak": 0.797652,
+    "rms": 0.101918,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/help.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 38640,
+    "peak": 0.778116,
+    "rms": 0.109198,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/station.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 48240,
+    "peak": 0.792177,
+    "rms": 0.070544,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/coffee.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 48240,
+    "peak": 0.797207,
+    "rms": 0.108056,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/reservation.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 54840,
+    "peak": 0.799095,
+    "rms": 0.067863,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/recommend.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 48240,
+    "peak": 0.798632,
+    "rms": 0.071922,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/journey.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44040,
+    "peak": 0.789821,
+    "rms": 0.112293,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/breakfast.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 47040,
+    "peak": 0.799443,
+    "rms": 0.081542,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/meeting.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44640,
+    "peak": 0.798767,
+    "rms": 0.106458,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/schedule.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 45240,
+    "peak": 0.768925,
+    "rms": 0.093425,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/deadline.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 46440,
+    "peak": 0.786614,
+    "rms": 0.084527,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/feedback.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 47640,
+    "peak": 0.798285,
+    "rms": 0.08103,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/review.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 45840,
+    "peak": 0.78734,
+    "rms": 0.07834,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/detail.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 46440,
+    "peak": 0.795858,
+    "rms": 0.080115,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/see.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 42240,
+    "peak": 0.799254,
+    "rms": 0.096867,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/sit.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 40440,
+    "peak": 0.777792,
+    "rms": 0.105266,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/bed.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 30840,
+    "peak": 0.790958,
+    "rms": 0.06531,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/cat.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 39840,
+    "peak": 0.763772,
+    "rms": 0.112172,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/car.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 41040,
+    "peak": 0.728939,
+    "rms": 0.110538,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/hot.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 40440,
+    "peak": 0.792398,
+    "rms": 0.113904,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/law.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 43440,
+    "peak": 0.781942,
+    "rms": 0.082744,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/book.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 39840,
+    "peak": 0.800138,
+    "rms": 0.081735,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/food.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44040,
+    "peak": 0.798533,
+    "rms": 0.08597,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/cup.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 40440,
+    "peak": 0.798835,
+    "rms": 0.086617,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/bird.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 42240,
+    "peak": 0.796013,
+    "rms": 0.072562,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/about.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44040,
+    "peak": 0.797354,
+    "rms": 0.099133,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/day.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 42840,
+    "peak": 0.79192,
+    "rms": 0.078942,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/time.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44640,
+    "peak": 0.64872,
+    "rms": 0.1118,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/boy.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 42240,
+    "peak": 0.788414,
+    "rms": 0.067088,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/go.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 40440,
+    "peak": 0.755219,
+    "rms": 0.073155,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/now.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 40440,
+    "peak": 0.738754,
+    "rms": 0.110048,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/near.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 40440,
+    "peak": 0.786651,
+    "rms": 0.110054,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/hair.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 42240,
+    "peak": 0.768556,
+    "rms": 0.110157,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/tour.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 42840,
+    "peak": 0.799613,
+    "rms": 0.102247,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/pen.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 43440,
+    "peak": 0.660112,
+    "rms": 0.108009,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/bag.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 42840,
+    "peak": 0.797883,
+    "rms": 0.065664,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/tea.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 42840,
+    "peak": 0.799158,
+    "rms": 0.104959,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/dog.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44640,
+    "peak": 0.796442,
+    "rms": 0.070202,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/key.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 41640,
+    "peak": 0.79474,
+    "rms": 0.080209,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/game.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44640,
+    "peak": 0.798028,
+    "rms": 0.069184,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/fish.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44040,
+    "peak": 0.793763,
+    "rms": 0.086577,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/very.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 45240,
+    "peak": 0.790627,
+    "rms": 0.070722,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/think.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 42240,
+    "peak": 0.779662,
+    "rms": 0.106077,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/this.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 40440,
+    "peak": 0.799272,
+    "rms": 0.081725,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/sun.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44640,
+    "peak": 0.797871,
+    "rms": 0.09195,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/zoo.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 42840,
+    "peak": 0.777224,
+    "rms": 0.096355,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/she.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 39840,
+    "peak": 0.796769,
+    "rms": 0.092015,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/vision.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 45840,
+    "peak": 0.790436,
+    "rms": 0.073202,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/hat.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 39240,
+    "peak": 0.757819,
+    "rms": 0.112614,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/chair.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 41040,
+    "peak": 0.762206,
+    "rms": 0.115024,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/job.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 41040,
+    "peak": 0.789517,
+    "rms": 0.071763,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/moon.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44040,
+    "peak": 0.795038,
+    "rms": 0.102575,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/name.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44640,
+    "peak": 0.789461,
+    "rms": 0.108061,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/sing.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44640,
+    "peak": 0.724627,
+    "rms": 0.10882,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/light.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 41640,
+    "peak": 0.798272,
+    "rms": 0.101419,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/red.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 39840,
+    "peak": 0.79198,
+    "rms": 0.092019,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/yes.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 43440,
+    "peak": 0.798398,
+    "rms": 0.0868,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/we.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 39840,
+    "peak": 0.795026,
+    "rms": 0.084657,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/nice.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 43440,
+    "peak": 0.796552,
+    "rms": 0.111226,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/to.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 41040,
+    "peak": 0.765605,
+    "rms": 0.094507,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/meet.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 40440,
+    "peak": 0.721092,
+    "rms": 0.108608,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/you.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 40440,
+    "peak": 0.801156,
+    "rms": 0.073322,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/my.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 42240,
+    "peak": 0.796733,
+    "rms": 0.087724,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/is.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 39240,
+    "peak": 0.782496,
+    "rms": 0.09511,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/alex.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 42840,
+    "peak": 0.792915,
+    "rms": 0.114791,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/how.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 39240,
+    "peak": 0.797825,
+    "rms": 0.104642,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/your.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 40440,
+    "peak": 0.779349,
+    "rms": 0.110163,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/going.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 45840,
+    "peak": 0.786607,
+    "rms": 0.077726,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/could.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 42840,
+    "peak": 0.799392,
+    "rms": 0.116709,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/say.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 42840,
+    "peak": 0.791351,
+    "rms": 0.091513,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/that.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 39240,
+    "peak": 0.784401,
+    "rms": 0.091428,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/again.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 45840,
+    "peak": 0.79662,
+    "rms": 0.0702,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/i.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 29040,
+    "peak": 0.795863,
+    "rms": 0.110872,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/am.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 37440,
+    "peak": 0.794109,
+    "rms": 0.096817,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/learning.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 45840,
+    "peak": 0.740013,
+    "rms": 0.113651,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/english.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 45840,
+    "peak": 0.768413,
+    "rms": 0.110102,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/every.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44640,
+    "peak": 0.799769,
+    "rms": 0.082291,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/thank.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 42240,
+    "peak": 0.769426,
+    "rms": 0.105219,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/for.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 39840,
+    "peak": 0.798259,
+    "rms": 0.067023,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/makes.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 41640,
+    "peak": 0.79893,
+    "rms": 0.102367,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/where.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 39240,
+    "peak": 0.796018,
+    "rms": 0.074354,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/the.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 35640,
+    "peak": 0.798013,
+    "rms": 0.077989,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/nearest.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 45240,
+    "peak": 0.799191,
+    "rms": 0.112855,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/would.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 42240,
+    "peak": 0.798559,
+    "rms": 0.093499,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/like.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 41040,
+    "peak": 0.794757,
+    "rms": 0.104316,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/a.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 27840,
+    "peak": 0.781366,
+    "rms": 0.067715,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/of.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 38063,
+    "peak": 0.79633,
+    "rms": 0.102083,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/much.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 41640,
+    "peak": 0.798966,
+    "rms": 0.105836,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/does.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44640,
+    "peak": 0.788098,
+    "rms": 0.07237,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/cost.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44640,
+    "peak": 0.792178,
+    "rms": 0.111884,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/can.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44040,
+    "peak": 0.721703,
+    "rms": 0.104017,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/pay.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 42240,
+    "peak": 0.778554,
+    "rms": 0.11995,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/by.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 42240,
+    "peak": 0.79513,
+    "rms": 0.04737,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/card.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 41040,
+    "peak": 0.706274,
+    "rms": 0.110415,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/have.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 43440,
+    "peak": 0.773878,
+    "rms": 0.107963,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/local.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 45240,
+    "peak": 0.78031,
+    "rms": 0.085477,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/dish.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 42240,
+    "peak": 0.785454,
+    "rms": 0.083397,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/which.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 39840,
+    "peak": 0.799603,
+    "rms": 0.08,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/platform.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 47040,
+    "peak": 0.799041,
+    "rms": 0.095252,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/should.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 40440,
+    "peak": 0.796115,
+    "rms": 0.095443,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/included.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 48240,
+    "peak": 0.784944,
+    "rms": 0.106109,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/let.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 41040,
+    "peak": 0.797076,
+    "rms": 0.103271,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/me.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 41040,
+    "peak": 0.78129,
+    "rms": 0.110579,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/share.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 42240,
+    "peak": 0.793853,
+    "rms": 0.089585,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/screen.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 47040,
+    "peak": 0.79361,
+    "rms": 0.111971,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/will.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 43440,
+    "peak": 0.790021,
+    "rms": 0.088723,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/send.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 42840,
+    "peak": 0.759779,
+    "rms": 0.110086,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/details.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 47640,
+    "peak": 0.797443,
+    "rms": 0.07731,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/what.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 38063,
+    "peak": 0.797822,
+    "rms": 0.086873,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/task.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 43440,
+    "peak": 0.790141,
+    "rms": 0.112803,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/us.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 41040,
+    "peak": 0.795424,
+    "rms": 0.091448,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/next.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 42840,
+    "peak": 0.794114,
+    "rms": 0.110355,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/steps.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 42840,
+    "peak": 0.794467,
+    "rms": 0.089854,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/sam.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44640,
+    "peak": 0.798526,
+    "rms": 0.106762,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/lily.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44640,
+    "peak": 0.758192,
+    "rms": 0.115234,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/good.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 41040,
+    "peak": 0.787122,
+    "rms": 0.096777,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/morning.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 45240,
+    "peak": 0.799628,
+    "rms": 0.096873,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/afternoon.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 51240,
+    "peak": 0.800984,
+    "rms": 0.092491,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/goodbye.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 48840,
+    "peak": 0.777478,
+    "rms": 0.080292,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/friends.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 46440,
+    "peak": 0.793023,
+    "rms": 0.083001,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/i-m.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 42240,
+    "peak": 0.791237,
+    "rms": 0.08154,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/li.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 41640,
+    "peak": 0.797798,
+    "rms": 0.106912,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/dong.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44040,
+    "peak": 0.797333,
+    "rms": 0.075331,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/binbin.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 46440,
+    "peak": 0.762087,
+    "rms": 0.073029,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/chen.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 42240,
+    "peak": 0.679206,
+    "rms": 0.113584,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/jie.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 41040,
+    "peak": 0.796162,
+    "rms": 0.087707,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/sarah.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44040,
+    "peak": 0.7956,
+    "rms": 0.09912,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/little.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44040,
+    "peak": 0.790578,
+    "rms": 0.111084,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/frog.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 36240,
+    "peak": 0.796841,
+    "rms": 0.068879,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/wave.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 42840,
+    "peak": 0.798907,
+    "rms": 0.077596,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/hand.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44040,
+    "peak": 0.70617,
+    "rms": 0.113841,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/friend.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 45240,
+    "peak": 0.798065,
+    "rms": 0.089285,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/in.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 41640,
+    "peak": 0.779173,
+    "rms": 0.111852,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/classroom.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 48240,
+    "peak": 0.793337,
+    "rms": 0.089712,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/our.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 41040,
+    "peak": 0.778213,
+    "rms": 0.084842,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/teacher.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 45840,
+    "peak": 0.796995,
+    "rms": 0.097979,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/are.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 38640,
+    "peak": 0.786454,
+    "rms": 0.080685,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/ready.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44040,
+    "peak": 0.791805,
+    "rms": 0.075301,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/please.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 46440,
+    "peak": 0.795128,
+    "rms": 0.104665,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/down.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44040,
+    "peak": 0.782821,
+    "rms": 0.071784,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/stand.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 45840,
+    "peak": 0.794999,
+    "rms": 0.094463,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/up.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 38640,
+    "peak": 0.715887,
+    "rms": 0.10318,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/look.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 39840,
+    "peak": 0.769773,
+    "rms": 0.110351,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/at.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 33840,
+    "peak": 0.779229,
+    "rms": 0.105532,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/board.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 36840,
+    "peak": 0.79998,
+    "rms": 0.067862,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/may.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 42240,
+    "peak": 0.798722,
+    "rms": 0.101123,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/come.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 43440,
+    "peak": 0.706428,
+    "rms": 0.106906,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/raise.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 45840,
+    "peak": 0.796516,
+    "rms": 0.074474,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/open.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 45240,
+    "peak": 0.802141,
+    "rms": 0.073258,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/close.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 43440,
+    "peak": 0.795577,
+    "rms": 0.102209,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/one.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 42840,
+    "peak": 0.791399,
+    "rms": 0.088353,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/two.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 43440,
+    "peak": 0.798998,
+    "rms": 0.099839,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/three.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 43440,
+    "peak": 0.802252,
+    "rms": 0.099583,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/play.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 45240,
+    "peak": 0.776614,
+    "rms": 0.107089,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/together.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44640,
+    "peak": 0.795225,
+    "rms": 0.07751,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/listen.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 45840,
+    "peak": 0.79793,
+    "rms": 0.093986,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/with.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 42240,
+    "peak": 0.791606,
+    "rms": 0.109051,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/ears.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 45240,
+    "peak": 0.785525,
+    "rms": 0.095622,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/eyes.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44040,
+    "peak": 0.798864,
+    "rms": 0.102888,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/speak.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44040,
+    "peak": 0.798571,
+    "rms": 0.098002,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/clear.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44040,
+    "peak": 0.782152,
+    "rms": 0.106262,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/voice.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 43440,
+    "peak": 0.797835,
+    "rms": 0.07069,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/point.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 43440,
+    "peak": 0.755225,
+    "rms": 0.11197,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/picture.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 45240,
+    "peak": 0.785615,
+    "rms": 0.084895,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/read.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 43440,
+    "peak": 0.796566,
+    "rms": 0.091452,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/after.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 47040,
+    "peak": 0.788472,
+    "rms": 0.102328,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/clap.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 41640,
+    "peak": 0.793043,
+    "rms": 0.105257,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/hands.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44640,
+    "peak": 0.684772,
+    "rms": 0.110512,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/work.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 42240,
+    "peak": 0.793711,
+    "rms": 0.096787,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/give.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 29640,
+    "peak": 0.768209,
+    "rms": 0.071995,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/high.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 40440,
+    "peak": 0.781028,
+    "rms": 0.110689,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/five.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44640,
+    "peak": 0.794229,
+    "rms": 0.058923,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/well.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 41640,
+    "peak": 0.783417,
+    "rms": 0.078877,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/done.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 42840,
+    "peak": 0.802067,
+    "rms": 0.080491,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/draw.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 43440,
+    "peak": 0.786789,
+    "rms": 0.083242,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/star.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44040,
+    "peak": 0.790257,
+    "rms": 0.084038,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/song.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 45240,
+    "peak": 0.799585,
+    "rms": 0.090437,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/try.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44640,
+    "peak": 0.797415,
+    "rms": 0.081057,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/books.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 39840,
+    "peak": 0.795108,
+    "rms": 0.076788,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/school.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44640,
+    "peak": 0.794168,
+    "rms": 0.091082,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/take.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 41640,
+    "peak": 0.734292,
+    "rms": 0.106715,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/out.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 40440,
+    "peak": 0.748562,
+    "rms": 0.117489,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/pencil.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 45240,
+    "peak": 0.726533,
+    "rms": 0.107307,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/put.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 40440,
+    "peak": 0.796146,
+    "rms": 0.098034,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/away.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44640,
+    "peak": 0.793065,
+    "rms": 0.071095,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/ruler.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44640,
+    "peak": 0.794596,
+    "rms": 0.093419,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/show.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 43440,
+    "peak": 0.774322,
+    "rms": 0.089191,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/it.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 33840,
+    "peak": 0.79353,
+    "rms": 0.103576,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/here.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 41640,
+    "peak": 0.794057,
+    "rms": 0.090063,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/eraser.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 49440,
+    "peak": 0.797908,
+    "rms": 0.081689,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/blue.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 43440,
+    "peak": 0.786504,
+    "rms": 0.101131,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/pencils.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 48240,
+    "peak": 0.775538,
+    "rms": 0.112969,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/new.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 42240,
+    "peak": 0.77669,
+    "rms": 0.108238,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/find.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44040,
+    "peak": 0.799694,
+    "rms": 0.053126,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/on.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 42840,
+    "peak": 0.778508,
+    "rms": 0.070745,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/desk.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 43440,
+    "peak": 0.792321,
+    "rms": 0.076581,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/things.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 45240,
+    "peak": 0.793118,
+    "rms": 0.094066,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/family.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 45840,
+    "peak": 0.791923,
+    "rms": 0.087671,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/love.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 42840,
+    "peak": 0.790017,
+    "rms": 0.086369,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/mother.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 42240,
+    "peak": 0.778277,
+    "rms": 0.106017,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/father.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44040,
+    "peak": 0.79953,
+    "rms": 0.06031,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/grandma.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 47640,
+    "peak": 0.796651,
+    "rms": 0.088335,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/grandpa.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 50040,
+    "peak": 0.787369,
+    "rms": 0.083345,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/happy.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 45240,
+    "peak": 0.796281,
+    "rms": 0.107672,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/who.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 41640,
+    "peak": 0.767097,
+    "rms": 0.093688,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/photo.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44640,
+    "peak": 0.782574,
+    "rms": 0.081355,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/sister.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 46440,
+    "peak": 0.799418,
+    "rms": 0.074243,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/brother.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 36840,
+    "peak": 0.799793,
+    "rms": 0.082588,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/he.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 41040,
+    "peak": 0.783967,
+    "rms": 0.086354,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/neighbour.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 45240,
+    "peak": 0.76363,
+    "rms": 0.104124,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/robot.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 45240,
+    "peak": 0.793544,
+    "rms": 0.078892,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/has.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44640,
+    "peak": 0.782486,
+    "rms": 0.10641,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/big.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 41640,
+    "peak": 0.800205,
+    "rms": 0.079189,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/spy.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 45240,
+    "peak": 0.797031,
+    "rms": 0.06549,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/yellow.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 45840,
+    "peak": 0.771394,
+    "rms": 0.097093,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/making.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 47040,
+    "peak": 0.797386,
+    "rms": 0.089125,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/something.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 46440,
+    "peak": 0.7984,
+    "rms": 0.086512,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/some.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 41640,
+    "peak": 0.791972,
+    "rms": 0.102792,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/enjoy.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 48240,
+    "peak": 0.769732,
+    "rms": 0.10512,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/starts.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 45840,
+    "peak": 0.791921,
+    "rms": 0.101075,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/nine.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 48240,
+    "peak": 0.793293,
+    "rms": 0.095124,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/check.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 38640,
+    "peak": 0.78918,
+    "rms": 0.104826,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/friday.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 45240,
+    "peak": 0.80027,
+    "rms": 0.077189,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/lesson.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 45840,
+    "peak": 0.798792,
+    "rms": 0.075645,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/ben.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 42840,
+    "peak": 0.781569,
+    "rms": 0.067166,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/hello-anna.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 54720,
+    "peak": 0.801571,
+    "rms": 0.089541,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/hi-tom.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 52416,
+    "peak": 0.791156,
+    "rms": 0.103699,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/good-morning.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 52416,
+    "peak": 0.777561,
+    "rms": 0.094788,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/good-morning-mom.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 62208,
+    "peak": 0.775717,
+    "rms": 0.088769,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/good-afternoon.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 57600,
+    "peak": 0.797399,
+    "rms": 0.087054,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/good-afternoon-mr-lee.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 73152,
+    "peak": 0.79936,
+    "rms": 0.125479,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/good-evening.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 51840,
+    "peak": 0.782214,
+    "rms": 0.080705,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/good-evening-dad.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 61056,
+    "peak": 0.796373,
+    "rms": 0.079401,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/good-night.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 50112,
+    "peak": 0.787763,
+    "rms": 0.094475,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/good-night-mom.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 58176,
+    "peak": 0.779353,
+    "rms": 0.087818,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/goodbye-everyone.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 62784,
+    "peak": 0.770245,
+    "rms": 0.076106,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/bye.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 42240,
+    "peak": 0.798033,
+    "rms": 0.047221,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/bye-see-you-tomorrow.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 67392,
+    "peak": 0.801139,
+    "rms": 0.063987,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/see-you.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 48384,
+    "peak": 0.796707,
+    "rms": 0.087806,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/see-you-later.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 53568,
+    "peak": 0.788028,
+    "rms": 0.094132,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/thank-you.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 50688,
+    "peak": 0.764684,
+    "rms": 0.111365,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/thanks.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 42840,
+    "peak": 0.772402,
+    "rms": 0.088923,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/thanks-dad.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 55296,
+    "peak": 0.79503,
+    "rms": 0.091281,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/you-re-welcome.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 52416,
+    "peak": 0.791344,
+    "rms": 0.086681,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/sorry.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44040,
+    "peak": 0.785176,
+    "rms": 0.090265,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/sorry-i-m-late.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 55872,
+    "peak": 0.784774,
+    "rms": 0.106686,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/excuse-me.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 53568,
+    "peak": 0.785271,
+    "rms": 0.061863,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/excuse-me-where-is-the-library.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 86976,
+    "peak": 0.800434,
+    "rms": 0.11915,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/yes-i-can.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 56448,
+    "peak": 0.79894,
+    "rms": 0.081204,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/no.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 40440,
+    "peak": 0.725529,
+    "rms": 0.110309,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/no-thank-you.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 56448,
+    "peak": 0.798446,
+    "rms": 0.102108,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/how-are-you.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 50112,
+    "peak": 0.796861,
+    "rms": 0.099413,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/how-are-you-today.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 57600,
+    "peak": 0.796114,
+    "rms": 0.103195,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/i-m-fine.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 52416,
+    "peak": 0.799566,
+    "rms": 0.10676,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/i-m-fine-thank-you.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 63936,
+    "peak": 0.797051,
+    "rms": 0.086459,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/nice-to-meet-you.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 58752,
+    "peak": 0.710419,
+    "rms": 0.105237,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/nice-to-meet-you-lily.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 63360,
+    "peak": 0.798651,
+    "rms": 0.105294,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/welcome.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 47040,
+    "peak": 0.798559,
+    "rms": 0.063007,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/welcome-to-our-school.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 63360,
+    "peak": 0.792795,
+    "rms": 0.06113,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/zero.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 46440,
+    "peak": 0.793673,
+    "rms": 0.090354,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/i-have-zero-cookies.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 64512,
+    "peak": 0.793147,
+    "rms": 0.090355,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/i-have-one-pen.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 59328,
+    "peak": 0.79824,
+    "rms": 0.069415,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/i-see-two-birds.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 59904,
+    "peak": 0.791989,
+    "rms": 0.080807,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/i-have-three-books.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 58752,
+    "peak": 0.795203,
+    "rms": 0.094689,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/four.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 43440,
+    "peak": 0.799522,
+    "rms": 0.062299,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/four-cats-are-here.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 59328,
+    "peak": 0.799425,
+    "rms": 0.086275,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/i-have-five-apples.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 62784,
+    "peak": 0.794671,
+    "rms": 0.096326,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/six.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 41040,
+    "peak": 0.788046,
+    "rms": 0.100839,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/six-ducks-can-swim.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 66240,
+    "peak": 0.797113,
+    "rms": 0.077262,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/seven.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 45240,
+    "peak": 0.797162,
+    "rms": 0.087447,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/i-see-seven-stars.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 66240,
+    "peak": 0.793704,
+    "rms": 0.076266,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/eight.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 40440,
+    "peak": 0.726859,
+    "rms": 0.117806,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/i-have-eight-crayons.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 63360,
+    "peak": 0.799284,
+    "rms": 0.092393,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/i-see-nine-flowers.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 61632,
+    "peak": 0.796832,
+    "rms": 0.088719,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/ten.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 43440,
+    "peak": 0.687702,
+    "rms": 0.113496,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/i-have-ten-fingers.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 63360,
+    "peak": 0.78373,
+    "rms": 0.088409,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/eleven.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 45840,
+    "peak": 0.798133,
+    "rms": 0.072544,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/i-have-eleven-cards.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 64512,
+    "peak": 0.795933,
+    "rms": 0.097399,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/twelve.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44040,
+    "peak": 0.795967,
+    "rms": 0.077123,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/there-are-twelve-eggs.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 58752,
+    "peak": 0.798483,
+    "rms": 0.083727,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/thirteen.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 49440,
+    "peak": 0.783903,
+    "rms": 0.076586,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/i-can-count-to-thirteen.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 66240,
+    "peak": 0.794023,
+    "rms": 0.095356,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/fourteen.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 50040,
+    "peak": 0.796543,
+    "rms": 0.074068,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/fourteen-birds-are-outside.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 73152,
+    "peak": 0.800779,
+    "rms": 0.136327,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/fifteen.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 48840,
+    "peak": 0.792333,
+    "rms": 0.067952,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/fifteen-students-are-here.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 70272,
+    "peak": 0.782051,
+    "rms": 0.082193,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/sixteen.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 50040,
+    "peak": 0.797338,
+    "rms": 0.087295,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/i-have-sixteen-stickers.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 67392,
+    "peak": 0.795724,
+    "rms": 0.101523,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/seventeen.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 51240,
+    "peak": 0.794528,
+    "rms": 0.0992,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/i-see-seventeen-stars.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 69696,
+    "peak": 0.796371,
+    "rms": 0.081024,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/eighteen.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 49440,
+    "peak": 0.79984,
+    "rms": 0.079618,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/there-are-eighteen-pencils.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 66816,
+    "peak": 0.797521,
+    "rms": 0.088646,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/nineteen.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 50640,
+    "peak": 0.780434,
+    "rms": 0.102972,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/i-have-nineteen-blocks.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 65664,
+    "peak": 0.799641,
+    "rms": 0.101382,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/twenty.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 48240,
+    "peak": 0.795425,
+    "rms": 0.092477,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/i-have-twenty-blocks.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 62208,
+    "peak": 0.800518,
+    "rms": 0.098593,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/twentyone.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 48840,
+    "peak": 0.795845,
+    "rms": 0.09376,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/i-have-twentyone-stickers.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 69120,
+    "peak": 0.784077,
+    "rms": 0.090238,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/twentytwo.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 49440,
+    "peak": 0.798876,
+    "rms": 0.077619,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/i-see-twentytwo-birds.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 67392,
+    "peak": 0.801523,
+    "rms": 0.085568,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/twentythree.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 48240,
+    "peak": 0.793903,
+    "rms": 0.093443,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/there-are-twentythree-books.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 63936,
+    "peak": 0.802912,
+    "rms": 0.093004,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/twentyfour.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 48240,
+    "peak": 0.794208,
+    "rms": 0.112967,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/i-have-twentyfour-cards.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 67968,
+    "peak": 0.799631,
+    "rms": 0.088426,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/twentyfive.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 50040,
+    "peak": 0.796887,
+    "rms": 0.094701,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/there-are-twentyfive-students.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 66240,
+    "peak": 0.793577,
+    "rms": 0.093457,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/twentysix.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 50040,
+    "peak": 0.794791,
+    "rms": 0.100474,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/i-have-twentysix-crayons.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 72000,
+    "peak": 0.800524,
+    "rms": 0.125823,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/twentyseven.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 50040,
+    "peak": 0.798206,
+    "rms": 0.087748,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/i-see-twentyseven-stars.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 70848,
+    "peak": 0.800081,
+    "rms": 0.068121,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/twentyeight.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 45840,
+    "peak": 0.785992,
+    "rms": 0.10844,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/there-are-twentyeight-days-in-february-in-a-common-year.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 105984,
+    "peak": 0.800936,
+    "rms": 0.133425,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/twentynine.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 48240,
+    "peak": 0.796823,
+    "rms": 0.083433,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/i-have-twentynine-marbles.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 67392,
+    "peak": 0.799692,
+    "rms": 0.091955,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/thirty.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 45240,
+    "peak": 0.781469,
+    "rms": 0.090115,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/i-have-thirty-stickers.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 64512,
+    "peak": 0.792351,
+    "rms": 0.09707,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/forty.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 45840,
+    "peak": 0.797964,
+    "rms": 0.077687,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/forty-books-are-on-the-shelf.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 66816,
+    "peak": 0.799625,
+    "rms": 0.083567,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/fifty.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 47040,
+    "peak": 0.79603,
+    "rms": 0.067539,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/the-chart-has-fifty-stars.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 70272,
+    "peak": 0.7961,
+    "rms": 0.059123,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/sixty.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 48240,
+    "peak": 0.795071,
+    "rms": 0.0803,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/sixty-seconds-make-a-minute.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 72576,
+    "peak": 0.800319,
+    "rms": 0.131369,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/seventy.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 49440,
+    "peak": 0.795015,
+    "rms": 0.100732,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/seventy-is-more-than-sixty.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 77760,
+    "peak": 0.799946,
+    "rms": 0.120578,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/eighty.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 45840,
+    "peak": 0.79908,
+    "rms": 0.111887,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/eighty-is-a-number.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 59904,
+    "peak": 0.793071,
+    "rms": 0.09191,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/ninety.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 46440,
+    "peak": 0.782596,
+    "rms": 0.105597,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/ninety-is-ten-less-than-one-hundred.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 87552,
+    "peak": 0.803148,
+    "rms": 0.140567,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/one-hundred.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 52992,
+    "peak": 0.797187,
+    "rms": 0.089539,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/i-can-count-to-one-hundred.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 69120,
+    "peak": 0.799601,
+    "rms": 0.100513,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/number.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 43440,
+    "peak": 0.785746,
+    "rms": 0.113686,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/what-is-your-number.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 57024,
+    "peak": 0.798755,
+    "rms": 0.08781,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/count.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 41640,
+    "peak": 0.799105,
+    "rms": 0.112507,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/count-from-one-to-ten.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 63360,
+    "peak": 0.793894,
+    "rms": 0.092763,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/how-many.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 50112,
+    "peak": 0.789883,
+    "rms": 0.104453,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/how-many-books-do-you-have.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 64512,
+    "peak": 0.793907,
+    "rms": 0.113147,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/how-much.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 47808,
+    "peak": 0.79939,
+    "rms": 0.105454,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/how-much-water-do-you-want.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 64512,
+    "peak": 0.798049,
+    "rms": 0.115745,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/many.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 45840,
+    "peak": 0.797801,
+    "rms": 0.108171,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/i-have-many-toys.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 61056,
+    "peak": 0.798835,
+    "rms": 0.094341,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/we-don-t-have-much-time.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 62208,
+    "peak": 0.790947,
+    "rms": 0.099779,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/more.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 41040,
+    "peak": 0.796695,
+    "rms": 0.100662,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/i-want-more-milk.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 56448,
+    "peak": 0.795309,
+    "rms": 0.11596,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/less.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 42240,
+    "peak": 0.798334,
+    "rms": 0.100921,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/this-box-has-less-water.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 69696,
+    "peak": 0.799977,
+    "rms": 0.065579,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/i-have-some-pencils.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 62784,
+    "peak": 0.796807,
+    "rms": 0.091255,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/any.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44040,
+    "peak": 0.674497,
+    "rms": 0.108004,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/do-you-have-any-questions.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 64512,
+    "peak": 0.796395,
+    "rms": 0.097967,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/all.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 42240,
+    "peak": 0.786493,
+    "rms": 0.11275,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/all-the-children-are-here.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 65664,
+    "peak": 0.795416,
+    "rms": 0.080794,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/half.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 39840,
+    "peak": 0.694712,
+    "rms": 0.103582,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/i-ate-half-an-apple.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 61632,
+    "peak": 0.795309,
+    "rms": 0.09935,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/first.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 43440,
+    "peak": 0.797351,
+    "rms": 0.077726,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/this-is-my-first-book.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 64512,
+    "peak": 0.798076,
+    "rms": 0.072372,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/second.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 45240,
+    "peak": 0.793636,
+    "rms": 0.081725,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/the-second-answer-is-right.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 69120,
+    "peak": 0.783747,
+    "rms": 0.06206,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/third.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44040,
+    "peak": 0.774931,
+    "rms": 0.079978,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/the-third-box-is-blue.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 66816,
+    "peak": 0.788618,
+    "rms": 0.076578,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/each.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 41040,
+    "peak": 0.775958,
+    "rms": 0.125488,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/each-child-has-a-book.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 63360,
+    "peak": 0.798129,
+    "rms": 0.099885,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/i-read-every-day.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 61632,
+    "peak": 0.779602,
+    "rms": 0.100663,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/a-lot-of.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 48384,
+    "peak": 0.797612,
+    "rms": 0.094316,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/i-have-a-lot-of-books.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 60480,
+    "peak": 0.80212,
+    "rms": 0.114989,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/few.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44040,
+    "peak": 0.750353,
+    "rms": 0.10541,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/few-people-are-here.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 60480,
+    "peak": 0.788279,
+    "rms": 0.101153,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/a-few.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 51840,
+    "peak": 0.793747,
+    "rms": 0.068697,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/i-have-a-few-toys.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 61056,
+    "peak": 0.798311,
+    "rms": 0.090302,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/there-is-little-milk-left.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 63360,
+    "peak": 0.785392,
+    "rms": 0.084854,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/a-little.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 48960,
+    "peak": 0.772074,
+    "rms": 0.072324,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/i-want-a-little-water.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 60480,
+    "peak": 0.789538,
+    "rms": 0.097183,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/enough.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 41640,
+    "peak": 0.78364,
+    "rms": 0.099934,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/we-have-enough-chairs.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 61632,
+    "peak": 0.799242,
+    "rms": 0.108275,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/total.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44040,
+    "peak": 0.797689,
+    "rms": 0.093734,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/the-total-is-ten.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 59904,
+    "peak": 0.787583,
+    "rms": 0.056863,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/the-apple-is-red.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 60480,
+    "peak": 0.80044,
+    "rms": 0.073621,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/the-sky-is-blue.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 58752,
+    "peak": 0.803115,
+    "rms": 0.063152,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/the-sun-is-yellow.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 58752,
+    "peak": 0.794562,
+    "rms": 0.063091,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/green.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 45240,
+    "peak": 0.783291,
+    "rms": 0.110317,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/the-leaf-is-green.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 59328,
+    "peak": 0.790205,
+    "rms": 0.064733,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/orange.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 45240,
+    "peak": 0.789132,
+    "rms": 0.103856,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/my-bag-is-orange.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 64512,
+    "peak": 0.795646,
+    "rms": 0.087299,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/purple.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 45240,
+    "peak": 0.79638,
+    "rms": 0.090923,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/the-flower-is-purple.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 63360,
+    "peak": 0.793552,
+    "rms": 0.064242,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/pink.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 42240,
+    "peak": 0.689867,
+    "rms": 0.107834,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/the-cup-is-pink.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 57024,
+    "peak": 0.797114,
+    "rms": 0.073653,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/black.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 40440,
+    "peak": 0.792328,
+    "rms": 0.097234,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/the-cat-is-black.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 57600,
+    "peak": 0.786077,
+    "rms": 0.058091,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/white.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 42240,
+    "peak": 0.796885,
+    "rms": 0.095141,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/the-snow-is-white.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 59328,
+    "peak": 0.80105,
+    "rms": 0.06994,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/brown.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 45240,
+    "peak": 0.794273,
+    "rms": 0.077732,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/the-bear-is-brown.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 58176,
+    "peak": 0.798,
+    "rms": 0.052665,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/gray.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44040,
+    "peak": 0.798629,
+    "rms": 0.094724,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/the-mouse-is-gray.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 59328,
+    "peak": 0.797291,
+    "rms": 0.077229,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/gold.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44040,
+    "peak": 0.792828,
+    "rms": 0.073646,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/the-star-is-gold.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 59904,
+    "peak": 0.800174,
+    "rms": 0.064195,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/silver.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 45840,
+    "peak": 0.799318,
+    "rms": 0.092509,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/the-spoon-is-silver.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 62208,
+    "peak": 0.788049,
+    "rms": 0.06904,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/light-blue.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 51264,
+    "peak": 0.797836,
+    "rms": 0.081128,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/my-shirt-is-light-blue.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 66240,
+    "peak": 0.798911,
+    "rms": 0.090631,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/dark-blue.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 51264,
+    "peak": 0.793196,
+    "rms": 0.085691,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/the-bag-is-dark-blue.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 63360,
+    "peak": 0.798438,
+    "rms": 0.067072,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/light-green.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 52992,
+    "peak": 0.798439,
+    "rms": 0.080219,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/the-wall-is-light-green.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 63936,
+    "peak": 0.792168,
+    "rms": 0.068881,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/dark-green.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 52992,
+    "peak": 0.790685,
+    "rms": 0.079818,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/the-tree-is-dark-green.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 66816,
+    "peak": 0.783572,
+    "rms": 0.057325,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/beige.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 45840,
+    "peak": 0.797221,
+    "rms": 0.065832,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/the-hat-is-beige.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 58752,
+    "peak": 0.782173,
+    "rms": 0.059535,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/violet.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44640,
+    "peak": 0.794516,
+    "rms": 0.059889,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/the-ribbon-is-violet.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 62208,
+    "peak": 0.797456,
+    "rms": 0.075386,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/shape.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 42240,
+    "peak": 0.797073,
+    "rms": 0.093949,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/what-shape-is-it.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 57600,
+    "peak": 0.799184,
+    "rms": 0.072233,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/circle.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 45240,
+    "peak": 0.793943,
+    "rms": 0.084439,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/it-is-a-circle.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 56448,
+    "peak": 0.784169,
+    "rms": 0.085565,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/square.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44040,
+    "peak": 0.798059,
+    "rms": 0.075789,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/draw-a-square.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 55296,
+    "peak": 0.794674,
+    "rms": 0.082159,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/triangle.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 47040,
+    "peak": 0.796188,
+    "rms": 0.112999,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/the-sign-is-a-triangle.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 67968,
+    "peak": 0.78213,
+    "rms": 0.0532,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/rectangle.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 50040,
+    "peak": 0.785483,
+    "rms": 0.069511,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/the-book-is-a-rectangle.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 69696,
+    "peak": 0.791975,
+    "rms": 0.064857,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/draw-a-star.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 55872,
+    "peak": 0.795899,
+    "rms": 0.069491,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/heart.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 41040,
+    "peak": 0.773956,
+    "rms": 0.123619,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/the-card-has-a-heart.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 59328,
+    "peak": 0.789754,
+    "rms": 0.053295,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/oval.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 41640,
+    "peak": 0.774787,
+    "rms": 0.08914,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/the-egg-is-an-oval-shape.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 71424,
+    "peak": 0.790308,
+    "rms": 0.084952,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/diamond.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 45840,
+    "peak": 0.792547,
+    "rms": 0.082499,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/the-tile-is-a-diamond.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 66240,
+    "peak": 0.782774,
+    "rms": 0.05111,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/line.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44040,
+    "peak": 0.797031,
+    "rms": 0.097471,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/draw-a-straight-line.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 60480,
+    "peak": 0.798774,
+    "rms": 0.080923,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/dot.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 40440,
+    "peak": 0.796617,
+    "rms": 0.070039,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/put-a-dot-here.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 52992,
+    "peak": 0.798137,
+    "rms": 0.083238,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/corner.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 43440,
+    "peak": 0.795303,
+    "rms": 0.096213,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/the-paper-has-four-corners.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 70272,
+    "peak": 0.785103,
+    "rms": 0.057099,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/side.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 42840,
+    "peak": 0.795796,
+    "rms": 0.08211,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/a-square-has-four-sides.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 67968,
+    "peak": 0.782275,
+    "rms": 0.071017,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/round.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44640,
+    "peak": 0.798185,
+    "rms": 0.076615,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/the-ball-is-round.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 59328,
+    "peak": 0.801398,
+    "rms": 0.053381,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/straight.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44040,
+    "peak": 0.79555,
+    "rms": 0.09843,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/the-line-is-straight.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 59904,
+    "peak": 0.767094,
+    "rms": 0.075046,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/curved.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 43440,
+    "peak": 0.745871,
+    "rms": 0.114862,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/the-road-is-curved.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 57600,
+    "peak": 0.78984,
+    "rms": 0.082468,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/the-box-is-big.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 59328,
+    "peak": 0.797363,
+    "rms": 0.063592,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/small.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44640,
+    "peak": 0.797988,
+    "rms": 0.083193,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/the-mouse-is-small.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 59328,
+    "peak": 0.799541,
+    "rms": 0.077546,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/large.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44040,
+    "peak": 0.798087,
+    "rms": 0.088012,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/this-is-a-large-ball.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 64512,
+    "peak": 0.798569,
+    "rms": 0.069672,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/long.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44040,
+    "peak": 0.789351,
+    "rms": 0.086897,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/the-ruler-is-long.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 59904,
+    "peak": 0.793693,
+    "rms": 0.069215,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/short.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 41040,
+    "peak": 0.800588,
+    "rms": 0.094638,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/the-pencil-is-short.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 61632,
+    "peak": 0.796888,
+    "rms": 0.071227,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/tall.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 41640,
+    "peak": 0.705857,
+    "rms": 0.104869,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/the-tree-is-tall.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 57024,
+    "peak": 0.796441,
+    "rms": 0.050953,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/the-kite-is-high-in-the-sky.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 67968,
+    "peak": 0.774648,
+    "rms": 0.05457,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/low.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 42840,
+    "peak": 0.793366,
+    "rms": 0.100474,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/the-table-is-low.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 59328,
+    "peak": 0.794151,
+    "rms": 0.056523,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/wide.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 42240,
+    "peak": 0.798625,
+    "rms": 0.079711,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/the-river-is-wide.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 60480,
+    "peak": 0.788179,
+    "rms": 0.068057,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/narrow.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 43440,
+    "peak": 0.772172,
+    "rms": 0.105935,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/this-street-is-narrow.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 61632,
+    "peak": 0.797427,
+    "rms": 0.07011,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/thick.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 41040,
+    "peak": 0.79834,
+    "rms": 0.09711,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/this-book-is-thick.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 57600,
+    "peak": 0.795533,
+    "rms": 0.075304,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/thin.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44040,
+    "peak": 0.796886,
+    "rms": 0.088248,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/the-paper-is-thin.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 61056,
+    "peak": 0.789829,
+    "rms": 0.058178,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/heavy.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 41640,
+    "peak": 0.792374,
+    "rms": 0.09149,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/the-bag-is-heavy.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 58176,
+    "peak": 0.789857,
+    "rms": 0.061198,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/the-box-is-light.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 58752,
+    "peak": 0.785352,
+    "rms": 0.060248,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/deep.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 41640,
+    "peak": 0.799106,
+    "rms": 0.095944,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/the-pool-is-deep.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 57024,
+    "peak": 0.790445,
+    "rms": 0.067258,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/shallow.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 47040,
+    "peak": 0.78053,
+    "rms": 0.09786,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/the-water-is-shallow.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 60480,
+    "peak": 0.7987,
+    "rms": 0.062165,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/size.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 45840,
+    "peak": 0.793467,
+    "rms": 0.078385,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/what-size-is-the-box.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 63360,
+    "peak": 0.798136,
+    "rms": 0.074895,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/pleased.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 46440,
+    "peak": 0.790072,
+    "rms": 0.105892,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/these.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 45840,
+    "peak": 0.796884,
+    "rms": 0.082364,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/class.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 44640,
+    "peak": 0.799513,
+    "rms": 0.094292,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/close-verb.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 45240,
+    "peak": 0.796805,
+    "rms": 0.089333,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/close-adjective.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 43440,
+    "peak": 0.796698,
+    "rms": 0.105898,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/we-are-close-friends.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 60480,
+    "peak": 0.792739,
+    "rms": 0.096407,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/can-you-help-me-please.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 61056,
+    "peak": 0.797606,
+    "rms": 0.112191,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/i-am-very-pleased.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 59904,
+    "peak": 0.785278,
+    "rms": 0.087091,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/are-these-your-books.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 57024,
+    "peak": 0.801151,
+    "rms": 0.08736,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/this-is-a-hot-dog.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 61632,
+    "peak": 0.797657,
+    "rms": 0.070654,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/sentence/is-this-a-robot.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 59328,
+    "peak": 0.792924,
+    "rms": 0.077399,
+    "clippedSamples": 0,
+    "errors": ""
+  },
+  {
+    "path": "audio/en-us/word/apple.mp3",
+    "hashMatches": true,
+    "decoded": true,
+    "samples": 21701,
+    "peak": 0.799427,
+    "rms": 0.140247,
+    "clippedSamples": 0,
+    "errors": ""
+  }
+]

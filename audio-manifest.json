@@ -1,5 +1,5 @@
 {
-  "title": "小蛙自习室英语音频清单",
+  "title": "老K学英语音频清单",
   "voice": "Bella · GA 美式英语",
   "voice_locale": "en-US",
   "pronunciation": "GA",
@@ -21,4263 +21,4872 @@
       "text": "Hello, nice to meet you.",
       "style": "sentence",
       "path": "audio/en-us/sentence/hello-nice-to-meet-you.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "a6581adeb17d05e64f694852dff18e462199823acae9940c4c7e63ab8c5ae6f2"
     },
     {
       "audio_key": "my name is alex",
       "text": "My name is Alex.",
       "style": "sentence",
       "path": "audio/en-us/sentence/my-name-is-alex.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "966f5edac8a09654509f7470adaebe294d247892fbe29094cba4af3dd093649e"
     },
     {
       "audio_key": "how is your day going",
       "text": "How is your day going?",
       "style": "sentence",
       "path": "audio/en-us/sentence/how-is-your-day-going.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "80f484aaf1add1b53b1f52ae715a993901b5c20ffabdbae30e339a7d2cd34dff"
     },
     {
       "audio_key": "could you say that again",
       "text": "Could you say that again?",
       "style": "sentence",
       "path": "audio/en-us/sentence/could-you-say-that-again.mp3",
-      "intonation": "rise"
+      "intonation": "rise",
+      "sha256": "dd7e1f88350e0aaab996a63e05c78ebe89321839bd32b736b8d7d56e1da02828"
     },
     {
       "audio_key": "i am learning english every day",
       "text": "I am learning English every day.",
       "style": "sentence",
       "path": "audio/en-us/sentence/i-am-learning-english-every-day.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "27b6703a3ab25655a6df3e974b3b748eb9dbb1ba6a1b23cf899fb4bfe559c042"
     },
     {
       "audio_key": "thank you for your help",
       "text": "Thank you for your help.",
       "style": "sentence",
       "path": "audio/en-us/sentence/thank-you-for-your-help.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "165e600d50180d50945140a54075ffafe897c34fbbf0197a707936b768f8fa99"
     },
     {
       "audio_key": "see you tomorrow",
       "text": "See you tomorrow.",
       "style": "sentence",
       "path": "audio/en-us/sentence/see-you-tomorrow.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "97b7f82658fd157a3d974dbb08eb1250ee7966f64cfb3dc2fcab32676b00617d"
     },
     {
       "audio_key": "practice makes progress",
       "text": "Practice makes progress.",
       "style": "sentence",
       "path": "audio/en-us/sentence/practice-makes-progress.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "e046ec6fe25490b9fa23981587ef8c71eb099f26b9063b71446b717e99137fff"
     },
     {
       "audio_key": "where is the nearest station",
       "text": "Where is the nearest station?",
       "style": "sentence",
       "path": "audio/en-us/sentence/where-is-the-nearest-station.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "988c3ad64da94ebb41d873caf8b87edd5d1dac688df2e9dc22d5e2bf3f76ae1a"
     },
     {
       "audio_key": "i would like a cup of coffee",
       "text": "I would like a cup of coffee.",
       "style": "sentence",
       "path": "audio/en-us/sentence/i-would-like-a-cup-of-coffee.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "83b9e598e34e52fb061b69d5e731f00857303b198da491cdb703d33c25a7785c"
     },
     {
       "audio_key": "how much does this cost",
       "text": "How much does this cost?",
       "style": "sentence",
       "path": "audio/en-us/sentence/how-much-does-this-cost.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "2fed513c13111c76d688995902018f62b4145f775635c3d0d880216a2a398ab3"
     },
     {
       "audio_key": "can i pay by card",
       "text": "Can I pay by card?",
       "style": "sentence",
       "path": "audio/en-us/sentence/can-i-pay-by-card.mp3",
-      "intonation": "rise"
+      "intonation": "rise",
+      "sha256": "b6bd77ec490c2ba131284a59711c528df55386d1544345930150f50c9fb19c39"
     },
     {
       "audio_key": "i have a reservation",
       "text": "I have a reservation.",
       "style": "sentence",
       "path": "audio/en-us/sentence/i-have-a-reservation.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "0f52aedf6fa0a5f927099b97a99a1c47dfcd2d559d8feafa306d5bea6a0361b6"
     },
     {
       "audio_key": "could you recommend a local dish",
       "text": "Could you recommend a local dish?",
       "style": "sentence",
       "path": "audio/en-us/sentence/could-you-recommend-a-local-dish.mp3",
-      "intonation": "rise"
+      "intonation": "rise",
+      "sha256": "c0e7664c827290c9969e8ebd75a39379d66865c3bbdc00c3a8a8f11e8b837d58"
     },
     {
       "audio_key": "which platform should i go to",
       "text": "Which platform should I go to?",
       "style": "sentence",
       "path": "audio/en-us/sentence/which-platform-should-i-go-to.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "295a9865bae14c6f5db7e9aa35a163095ccc51fa23138d3dd379bdd6cdc1d3a8"
     },
     {
       "audio_key": "is breakfast included",
       "text": "Is breakfast included?",
       "style": "sentence",
       "path": "audio/en-us/sentence/is-breakfast-included.mp3",
-      "intonation": "rise"
+      "intonation": "rise",
+      "sha256": "b5dedc9be17ead9b02a2191eaabee5b065fe8d7fe874d752aa474e90d924d03b"
     },
     {
       "audio_key": "could we schedule a meeting",
       "text": "Could we schedule a meeting?",
       "style": "sentence",
       "path": "audio/en-us/sentence/could-we-schedule-a-meeting.mp3",
-      "intonation": "rise"
+      "intonation": "rise",
+      "sha256": "6f3ae7c967911f0fe29d9912d5284a6dd7b13de4480d4e929c354dbe39629d10"
     },
     {
       "audio_key": "let me share my screen",
       "text": "Let me share my screen.",
       "style": "sentence",
       "path": "audio/en-us/sentence/let-me-share-my-screen.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "41f2bddf0db3f09a529760932ef04ba75f974e3545ebb85b43c72d2fbc79b6d3"
     },
     {
       "audio_key": "i will send you the details",
       "text": "I will send you the details.",
       "style": "sentence",
       "path": "audio/en-us/sentence/i-will-send-you-the-details.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "68045d971d35c7ae6c868bb030429ad0c6afc77ec952d2378fb3c72f3beb81d0"
     },
     {
       "audio_key": "what is the deadline for this task",
       "text": "What is the deadline for this task?",
       "style": "sentence",
       "path": "audio/en-us/sentence/what-is-the-deadline-for-this-task.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "555e6e2f171e74b2b308009ba7b7d690125e02ac1f06f03fe63b32ac546e1a31"
     },
     {
       "audio_key": "thank you for your feedback",
       "text": "Thank you for your feedback.",
       "style": "sentence",
       "path": "audio/en-us/sentence/thank-you-for-your-feedback.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "3091854ac84b6ed4422906e7d55682dbeb276e6b6f9ae2e63e554f34a3e52f88"
     },
     {
       "audio_key": "let us review the next steps",
       "text": "Let us review the next steps.",
       "style": "sentence",
       "path": "audio/en-us/sentence/let-us-review-the-next-steps.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "b2168a206ddf129f01a4ad2110eae294ed62830ed2e8f4b55677e1823aa645d5"
     },
     {
       "audio_key": "hello i am sam",
       "text": "Hello, I am Sam.",
       "style": "sentence",
       "path": "audio/en-us/sentence/hello-i-am-sam.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "2431980c6ac46aee22aa0d8cdd7fb58a61c59eeee12679f80082b1f1331b42af"
     },
     {
       "audio_key": "hi my name is lily",
       "text": "Hi, my name is Lily.",
       "style": "sentence",
       "path": "audio/en-us/sentence/hi-my-name-is-lily.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "e5e54a5612087de0a5701c45ea8ca751f5455c7997eb7db8ee1bc8dabb44f932"
     },
     {
       "audio_key": "nice to meet you sam",
       "text": "Nice to meet you, Sam.",
       "style": "sentence",
       "path": "audio/en-us/sentence/nice-to-meet-you-sam.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "a664135861100d67634fa4e479b0db1511be9087da50f10022ac66c760021730"
     },
     {
       "audio_key": "good morning lily",
       "text": "Good morning, Lily.",
       "style": "sentence",
       "path": "audio/en-us/sentence/good-morning-lily.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "2c95bf3aea0209cdc6a8e9799c0778afb76e895a132351e5464ea3a5d0c1f4c2"
     },
     {
       "audio_key": "good afternoon sam",
       "text": "Good afternoon, Sam.",
       "style": "sentence",
       "path": "audio/en-us/sentence/good-afternoon-sam.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "9fdea7b2c5b5cbf16e51339528679ac5c247b0e99550e86e24827135f4133a24"
     },
     {
       "audio_key": "goodbye my friends",
       "text": "Goodbye, my friends.",
       "style": "sentence",
       "path": "audio/en-us/sentence/goodbye-my-friends.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "5edead94d2b355830cae5e3582b59321a027dfc9e0786052babc7b8c8705e0aa"
     },
     {
       "audio_key": "hello i'm li dong",
       "text": "Hello! I'm Li Dong.",
       "style": "sentence",
       "path": "audio/en-us/sentence/hello-i-m-li-dong.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "b78e749f1c89745569711912be7d27a1a31ebbe02fe76888d920e98558d9b2f3"
     },
     {
       "audio_key": "hi i'm binbin",
       "text": "Hi! I'm Binbin.",
       "style": "sentence",
       "path": "audio/en-us/sentence/hi-i-m-binbin.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "359b70da5bb5f28ac8b466bb262ac6fa533653004200b435763e8940146fc005"
     },
     {
       "audio_key": "hello i'm chen jie",
       "text": "Hello! I'm Chen Jie.",
       "style": "sentence",
       "path": "audio/en-us/sentence/hello-i-m-chen-jie.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "f96e7326b743eac27e1e45af326eb39a1859c69138ab885b16083399dcf2c3a3"
     },
     {
       "audio_key": "hi i'm sarah",
       "text": "Hi! I'm Sarah.",
       "style": "sentence",
       "path": "audio/en-us/sentence/hi-i-m-sarah.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "2ea152bd4414fb5e7ce9b951632e70620c2415f54a36f0758adee8c0c6d3bfbb"
     },
     {
       "audio_key": "hello little frog",
       "text": "Hello, little frog.",
       "style": "sentence",
       "path": "audio/en-us/sentence/hello-little-frog.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "9fd8378a497807658cd86c0cc0d4c8b57f2e7ce81d0ef5562f3cc4dc2072caac"
     },
     {
       "audio_key": "wave your hand",
       "text": "Wave your hand.",
       "style": "sentence",
       "path": "audio/en-us/sentence/wave-your-hand.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "818dc6826ff77dfabe9fc8639817b5220b8cb5f48a002667eaa55442ec66f9b8"
     },
     {
       "audio_key": "say hello to a friend",
       "text": "Say hello to a friend.",
       "style": "sentence",
       "path": "audio/en-us/sentence/say-hello-to-a-friend.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "60f4e7ee309e80da3df0f251b3719aec13c6d8a8bc5a8a44e683319b3070b5a2"
     },
     {
       "audio_key": "i am in my classroom",
       "text": "I am in my classroom.",
       "style": "sentence",
       "path": "audio/en-us/sentence/i-am-in-my-classroom.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "bb1279271dbe964d134057afefdea254144591b54622575392c303a6adee185e"
     },
     {
       "audio_key": "this is our teacher",
       "text": "This is our teacher.",
       "style": "sentence",
       "path": "audio/en-us/sentence/this-is-our-teacher.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "541079304269ced96e01b9584dfaf42d8aa61f57ade87f25deeb562947fb1eaa"
     },
     {
       "audio_key": "we are ready to learn",
       "text": "We are ready to learn.",
       "style": "sentence",
       "path": "audio/en-us/sentence/we-are-ready-to-learn.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "06a25392306f1d68d2ae7fd48788873c86f62e1413f2df50563fb3b99e180d0b"
     },
     {
       "audio_key": "please sit down",
       "text": "Please sit down.",
       "style": "sentence",
       "path": "audio/en-us/sentence/please-sit-down.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "fd40c9773960cbd4fdeef9334a2397b12a14cc4a2697b5bf22b0750552d43fe5"
     },
     {
       "audio_key": "please stand up",
       "text": "Please stand up.",
       "style": "sentence",
       "path": "audio/en-us/sentence/please-stand-up.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "571c05df830c912dae2df1d368af354b48eca74868f7ae000316561792872f29"
     },
     {
       "audio_key": "look at the board",
       "text": "Look at the board.",
       "style": "sentence",
       "path": "audio/en-us/sentence/look-at-the-board.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "284646795cd0200105ab5b4fbef27d1b657382fb01e1ace7c18b097faacabcb0"
     },
     {
       "audio_key": "good morning teacher",
       "text": "Good morning, teacher.",
       "style": "sentence",
       "path": "audio/en-us/sentence/good-morning-teacher.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "927bf17aaa8ce247eebc834f8f14550214f33816f44d07a083c1307ade383d10"
     },
     {
       "audio_key": "may i come in",
       "text": "May I come in?",
       "style": "sentence",
       "path": "audio/en-us/sentence/may-i-come-in.mp3",
-      "intonation": "rise"
+      "intonation": "rise",
+      "sha256": "ab7bc143b36a0016ac0970bc68fc2424dd5a7e9b9ca4459e440baf963a41445f"
     },
     {
       "audio_key": "yes please come in",
       "text": "Yes, please come in.",
       "style": "sentence",
       "path": "audio/en-us/sentence/yes-please-come-in.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "d57f8628fac0e1686ee465d7cc6ce15113acdf1e06625ffb21c6c1360039ce0f"
     },
     {
       "audio_key": "raise your hand please",
       "text": "Raise your hand, please.",
       "style": "sentence",
       "path": "audio/en-us/sentence/raise-your-hand-please.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "e7421f0ebaa46d1ceeb638be727b98bd4519ec484c0b1eb247ebe0fe86438ca1"
     },
     {
       "audio_key": "open your book",
       "text": "Open your book.",
       "style": "sentence",
       "path": "audio/en-us/sentence/open-your-book.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "43e379ea41ad940c4c2fd17e4f318d0bfa8d1b7a778d4d915a2e83e6872dfec1"
     },
     {
       "audio_key": "close your book",
       "text": "Close your book.",
       "style": "sentence",
       "path": "audio/en-us/sentence/close-your-book.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "fe737d20897c80cf2dd9e44df85fa3c64dec140e1317ec5244326113a30fa709"
     },
     {
       "audio_key": "one two three look at me",
       "text": "One, two, three, look at me.",
       "style": "sentence",
       "path": "audio/en-us/sentence/one-two-three-look-at-me.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "78d82426e55cd9af14ef06bdd21d9f9a86fa052e8162998ca8b13463a3a97a20"
     },
     {
       "audio_key": "let us play together",
       "text": "Let us play together.",
       "style": "sentence",
       "path": "audio/en-us/sentence/let-us-play-together.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "5078143a97e6ed8d84cc06a3ef8adf6f3ce0298afa2fbd796205622ba4f79d6a"
     },
     {
       "audio_key": "thank you teacher",
       "text": "Thank you, teacher.",
       "style": "sentence",
       "path": "audio/en-us/sentence/thank-you-teacher.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "0cf2c7f122e0a373566080eb9678b196702c94809b04348ef4f4010adf3850b5"
     },
     {
       "audio_key": "listen with your ears",
       "text": "Listen with your ears.",
       "style": "sentence",
       "path": "audio/en-us/sentence/listen-with-your-ears.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "4a24bf18de63ddcee255be7dffa31616abd82d57d9ece7f01fdaae9b3f88f18e"
     },
     {
       "audio_key": "look with your eyes",
       "text": "Look with your eyes.",
       "style": "sentence",
       "path": "audio/en-us/sentence/look-with-your-eyes.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "ea179b054465a72ef740284412a2081f996bd49c7cd57e751df6147d284b9fd3"
     },
     {
       "audio_key": "speak in a clear voice",
       "text": "Speak in a clear voice.",
       "style": "sentence",
       "path": "audio/en-us/sentence/speak-in-a-clear-voice.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "b8166a7a9410fdfc0a08a5e455bf4490f367fc718401f76f9207956c543b8f2a"
     },
     {
       "audio_key": "point to the picture",
       "text": "Point to the picture.",
       "style": "sentence",
       "path": "audio/en-us/sentence/point-to-the-picture.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "c0a8e91cba5e5a47bdc4bf03198580e658b2e0c83ef34c44d0021a3ed5916a33"
     },
     {
       "audio_key": "read after me",
       "text": "Read after me.",
       "style": "sentence",
       "path": "audio/en-us/sentence/read-after-me.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "13734ea6b3f363d672a1785e7bfd4fe9f1ff34afba3a04d93da21cbcebb64549"
     },
     {
       "audio_key": "clap your hands",
       "text": "Clap your hands.",
       "style": "sentence",
       "path": "audio/en-us/sentence/clap-your-hands.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "dc74f6e5df1dca7ef3a953addb35f6b19ddf241c99e610b44433336cc5df6acc"
     },
     {
       "audio_key": "let us work together",
       "text": "Let us work together.",
       "style": "sentence",
       "path": "audio/en-us/sentence/let-us-work-together.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "9b0134a4c1a34c763f9d04ba91ad79781d7e1968095519be3c014a4f92571716"
     },
     {
       "audio_key": "give me a high five",
       "text": "Give me a high five.",
       "style": "sentence",
       "path": "audio/en-us/sentence/give-me-a-high-five.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "7b6b45557592dc2606b4d26405269238bcd9f49a7585bf7ad9bf4cffcc2de679"
     },
     {
       "audio_key": "well done my friend",
       "text": "Well done, my friend.",
       "style": "sentence",
       "path": "audio/en-us/sentence/well-done-my-friend.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "866665a1a0255ec1fa24bf6d1be814590d2bda703d9976b82573f9520b9bda7e"
     },
     {
       "audio_key": "can you draw a star",
       "text": "Can you draw a star?",
       "style": "sentence",
       "path": "audio/en-us/sentence/can-you-draw-a-star.mp3",
-      "intonation": "rise"
+      "intonation": "rise",
+      "sha256": "09fe77ab812a10a92fdffe84664fe24b3fbdc504316862608ec433befd3d87a6"
     },
     {
       "audio_key": "i can sing a song",
       "text": "I can sing a song.",
       "style": "sentence",
       "path": "audio/en-us/sentence/i-can-sing-a-song.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "6e8c0520c65f5660ff9e9e590e942b1585faf959d6ff348bfa17400230129693"
     },
     {
       "audio_key": "let us try again",
       "text": "Let us try again.",
       "style": "sentence",
       "path": "audio/en-us/sentence/let-us-try-again.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "f25f00dc146dd6c06a8c932b66dd8495916c253495cd7f26c00a207061bbad04"
     },
     {
       "audio_key": "my bag is ready",
       "text": "My bag is ready.",
       "style": "sentence",
       "path": "audio/en-us/sentence/my-bag-is-ready.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "382d0fff5726cb10ef5364f61a68c5cd41040af5253d1cfbb5d9e9a66e798cac"
     },
     {
       "audio_key": "my books are in my bag",
       "text": "My books are in my bag.",
       "style": "sentence",
       "path": "audio/en-us/sentence/my-books-are-in-my-bag.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "18e94a7d7c5d27ee56406a14be42ac79e71ce0ef04738ea393c226697e2f625c"
     },
     {
       "audio_key": "let us go to school",
       "text": "Let us go to school.",
       "style": "sentence",
       "path": "audio/en-us/sentence/let-us-go-to-school.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "1affbc10d1c91b7017610af7c708e72e77dbd997cb79ae9bf668528d6f1f40bd"
     },
     {
       "audio_key": "take out your pencil",
       "text": "Take out your pencil.",
       "style": "sentence",
       "path": "audio/en-us/sentence/take-out-your-pencil.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "7663a7e339a8c7be873fde7df28f5bc1297d756ee7589e7de9a4c6e942128f4a"
     },
     {
       "audio_key": "put away your ruler",
       "text": "Put away your ruler.",
       "style": "sentence",
       "path": "audio/en-us/sentence/put-away-your-ruler.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "0fad9f23b15367f15b128da88aa94d13817e61ff25411b8e7fe57860c7242c46"
     },
     {
       "audio_key": "show me your book",
       "text": "Show me your book.",
       "style": "sentence",
       "path": "audio/en-us/sentence/show-me-your-book.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "89fddd143fc2870e7dbcd280c7b7799395262fda7a718c1cd173d8b7c9255c87"
     },
     {
       "audio_key": "is this your pencil",
       "text": "Is this your pencil?",
       "style": "sentence",
       "path": "audio/en-us/sentence/is-this-your-pencil.mp3",
-      "intonation": "rise"
+      "intonation": "rise",
+      "sha256": "bf8bd3d68d575d73509d6f722b37fc67afbd0fc7dd084abd7406b0359df5ffbf"
     },
     {
       "audio_key": "yes it is my pencil",
       "text": "Yes, it is my pencil.",
       "style": "sentence",
       "path": "audio/en-us/sentence/yes-it-is-my-pencil.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "c36c9ff14a3c49f63073f0143f8bad99739c2cae5aca34de1046a17280c34365"
     },
     {
       "audio_key": "here is your eraser",
       "text": "Here is your eraser.",
       "style": "sentence",
       "path": "audio/en-us/sentence/here-is-your-eraser.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "0cfed4b6a41fb41d4123922f3ccf33cdb1a189f0722b7b773d9dd82e88481bae"
     },
     {
       "audio_key": "i have a blue bag",
       "text": "I have a blue bag.",
       "style": "sentence",
       "path": "audio/en-us/sentence/i-have-a-blue-bag.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "bd7d966314d1cfbc774fd3e47126c9bc00796394271cf5aa70fca730a1da9ccd"
     },
     {
       "audio_key": "i have two pencils",
       "text": "I have two pencils.",
       "style": "sentence",
       "path": "audio/en-us/sentence/i-have-two-pencils.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "2668182f9128526e6dc8fe9119155af06fe05f87305d1a25e4a1ea1af30a12a8"
     },
     {
       "audio_key": "this is my new ruler",
       "text": "This is my new ruler.",
       "style": "sentence",
       "path": "audio/en-us/sentence/this-is-my-new-ruler.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "b702f13fb1c0048d4a0c2dae7cbdbc1b77e34d4051fbbe33e0a2de3361695b21"
     },
     {
       "audio_key": "find a red pencil",
       "text": "Find a red pencil.",
       "style": "sentence",
       "path": "audio/en-us/sentence/find-a-red-pencil.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "592cde7362d62f19cb476da9cc31a1718171a2990f4fbd6b728a5595231ea5be"
     },
     {
       "audio_key": "put the book on the desk",
       "text": "Put the book on the desk.",
       "style": "sentence",
       "path": "audio/en-us/sentence/put-the-book-on-the-desk.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "402625438598041742dfbbc8387ca3cdc8624c6119107f71f9d127fc08083394"
     },
     {
       "audio_key": "my school things are ready",
       "text": "My school things are ready.",
       "style": "sentence",
       "path": "audio/en-us/sentence/my-school-things-are-ready.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "0d9a8f9d82d5cfe3c34a24b9b3b66041fdff8d195f446c94b96e439aa7cc91b5"
     },
     {
       "audio_key": "this is my family",
       "text": "This is my family.",
       "style": "sentence",
       "path": "audio/en-us/sentence/this-is-my-family.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "cd855c438c220bae18dc40af385a1751390bd2d59648cd05dbf5a4e39f6db1c6"
     },
     {
       "audio_key": "i love my mother",
       "text": "I love my mother.",
       "style": "sentence",
       "path": "audio/en-us/sentence/i-love-my-mother.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "84fe80453b5c35fa32b5414194d48f1394ab326864b2795121f5f6bc5e6be54c"
     },
     {
       "audio_key": "i love my father",
       "text": "I love my father.",
       "style": "sentence",
       "path": "audio/en-us/sentence/i-love-my-father.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "b3cbec59d9e9f3ecb856539efdb65cb7f6c6a8b6f641446c7204bf83b8b57059"
     },
     {
       "audio_key": "this is my grandma",
       "text": "This is my grandma.",
       "style": "sentence",
       "path": "audio/en-us/sentence/this-is-my-grandma.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "a6d1083e014c23c64527efa3b7d87f457121a4e746e3aaf666709ee7e304a78c"
     },
     {
       "audio_key": "this is my grandpa",
       "text": "This is my grandpa.",
       "style": "sentence",
       "path": "audio/en-us/sentence/this-is-my-grandpa.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "8407893a9f1d00ab8f6288ced251dd60b76c521787f4f1111158c1bc82ff42a2"
     },
     {
       "audio_key": "we are a happy family",
       "text": "We are a happy family.",
       "style": "sentence",
       "path": "audio/en-us/sentence/we-are-a-happy-family.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "1973f1ffaa91c0ce263ecd22638b1a19690a1b95b5aff8ca83fe31f1890e3ef2"
     },
     {
       "audio_key": "who is in the photo",
       "text": "Who is in the photo?",
       "style": "sentence",
       "path": "audio/en-us/sentence/who-is-in-the-photo.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "b465b65e2ed6a9045d9f4093ab5009a3e5ac1200b8ce3377524daa03c415ae89"
     },
     {
       "audio_key": "this is my sister",
       "text": "This is my sister.",
       "style": "sentence",
       "path": "audio/en-us/sentence/this-is-my-sister.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "2d9f2adced62c3322675f8d0f53da449f1008d3ae5eabc7485f47a2ad578ab5e"
     },
     {
       "audio_key": "this is my little brother",
       "text": "This is my little brother.",
       "style": "sentence",
       "path": "audio/en-us/sentence/this-is-my-little-brother.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "69fc2b680e194ddce801cebc0062e07c5c1a2e715b3994f716fe163fb25382f4"
     },
     {
       "audio_key": "this is my good friend",
       "text": "This is my good friend.",
       "style": "sentence",
       "path": "audio/en-us/sentence/this-is-my-good-friend.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "7bd4a70dd3af107de0f041e12f32a19f2c1d322d1940b612c77abcdfe8bc300d"
     },
     {
       "audio_key": "she is my teacher",
       "text": "She is my teacher.",
       "style": "sentence",
       "path": "audio/en-us/sentence/she-is-my-teacher.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "96dbc7c1405a0e207ba4e5c14a58de5c7bf73d9e93e6c57abfc95bf0fb3404ed"
     },
     {
       "audio_key": "he is my neighbour",
       "text": "He is my neighbour.",
       "style": "sentence",
       "path": "audio/en-us/sentence/he-is-my-neighbour.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "ec9e983f36898671b2f1211fbed84bba28af12da6912a421b4e27b11222a0ae9"
     },
     {
       "audio_key": "let us say thank you",
       "text": "Let us say thank you.",
       "style": "sentence",
       "path": "audio/en-us/sentence/let-us-say-thank-you.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "5416d24f5c895f97e54d4122ade1a98a2e9974afa1d4319b048878d7343ea671"
     },
     {
       "audio_key": "you help me every day",
       "text": "You help me every day.",
       "style": "sentence",
       "path": "audio/en-us/sentence/you-help-me-every-day.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "356326b4d4ef635adff559d772bc6a2469753e2f91506878ffe02081c7a3a549"
     },
     {
       "audio_key": "i am happy with you",
       "text": "I am happy with you.",
       "style": "sentence",
       "path": "audio/en-us/sentence/i-am-happy-with-you.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "56e7e76bccc8f0e0169d186acb68f78edafa22c887eb3693331fcf6362041d48"
     },
     {
       "audio_key": "hello i am a robot",
       "text": "Hello, I am a robot.",
       "style": "sentence",
       "path": "audio/en-us/sentence/hello-i-am-a-robot.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "b7c621609626740ddf90721f7bdbf461e145bf6bdfc08ad1365e3817382fef75"
     },
     {
       "audio_key": "i can wave my hand",
       "text": "I can wave my hand.",
       "style": "sentence",
       "path": "audio/en-us/sentence/i-can-wave-my-hand.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "6f707a15ba901b14a45b8e97335d7ded2c9d13212f5e658204dd03286a81f7f6"
     },
     {
       "audio_key": "i can say my name",
       "text": "I can say my name.",
       "style": "sentence",
       "path": "audio/en-us/sentence/i-can-say-my-name.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "73ded70fd2de001882f4f10d32c4878c953844a96b1a8d14e684de96ae9b4649"
     },
     {
       "audio_key": "robot please stand up",
       "text": "Robot, please stand up.",
       "style": "sentence",
       "path": "audio/en-us/sentence/robot-please-stand-up.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "36aaa62367ef43ed0feb80c7218e698370abceca142d00792fca1901aa134335"
     },
     {
       "audio_key": "robot open your bag",
       "text": "Robot, open your bag.",
       "style": "sentence",
       "path": "audio/en-us/sentence/robot-open-your-bag.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "4f8fa14c17b287d5004878e9646919d8444734e63ce3542dbf18357d6faf845a"
     },
     {
       "audio_key": "please show me your pencil",
       "text": "Please show me your pencil.",
       "style": "sentence",
       "path": "audio/en-us/sentence/please-show-me-your-pencil.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "38a2396a4ff3641a4ac9d258b6223290d73776f7353c8c6ddbfe0b67a728feab"
     },
     {
       "audio_key": "look at my robot",
       "text": "Look at my robot.",
       "style": "sentence",
       "path": "audio/en-us/sentence/look-at-my-robot.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "4ef6f42ae6f07530a8736b45e9258691fd47763d4c895ca8c587995e299922f0"
     },
     {
       "audio_key": "it has two big eyes",
       "text": "It has two big eyes.",
       "style": "sentence",
       "path": "audio/en-us/sentence/it-has-two-big-eyes.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "0d04031803a4cfd19b587496ecfa7a8965e47ec8dd4bf5d76f5d11880235b0cf"
     },
     {
       "audio_key": "it is my little friend",
       "text": "It is my little friend.",
       "style": "sentence",
       "path": "audio/en-us/sentence/it-is-my-little-friend.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "95b24f190256d09745a2ae0b5e1147ac0820327f2cb98fddd8fb49600782c6c4"
     },
     {
       "audio_key": "i spy a yellow book",
       "text": "I spy a yellow book.",
       "style": "sentence",
       "path": "audio/en-us/sentence/i-spy-a-yellow-book.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "a0d5caeff31f633e77602e98fb2f844e5afd0d7d7a1d7c6064a5251adb6e2f4c"
     },
     {
       "audio_key": "i spy a little star",
       "text": "I spy a little star.",
       "style": "sentence",
       "path": "audio/en-us/sentence/i-spy-a-little-star.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "f3e8d415564b1684844ededac0b209de0126d631b3540b14af2d30b38037b28a"
     },
     {
       "audio_key": "can you find the robot",
       "text": "Can you find the robot?",
       "style": "sentence",
       "path": "audio/en-us/sentence/can-you-find-the-robot.mp3",
-      "intonation": "rise"
+      "intonation": "rise",
+      "sha256": "d0731d2a667b7b2c861f678a4778aeacdfcc1ecb04aba7c8f42ddabb666f3d70"
     },
     {
       "audio_key": "i am making progress",
       "text": "I am making progress",
       "style": "sentence",
       "path": "audio/en-us/sentence/i-am-making-progress.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "fbf9458a08dd9cf3f47830697239b760d113ee25a364a4856f293f6647c59850"
     },
     {
       "audio_key": "i learn something new every day",
       "text": "I learn something new every day",
       "style": "sentence",
       "path": "audio/en-us/sentence/i-learn-something-new-every-day.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "a880dd3e65567923084bc4cbc84b9e9d16efb932689eb69403d750d68e83bc28"
     },
     {
       "audio_key": "i would like some coffee",
       "text": "I would like some coffee",
       "style": "sentence",
       "path": "audio/en-us/sentence/i-would-like-some-coffee.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "c5731c6dbef288e44dbd77758a6af1c64f0ba0271ba53835ea610623b8d58cd6"
     },
     {
       "audio_key": "can you recommend a good book",
       "text": "can you recommend a good book",
       "style": "sentence",
       "path": "audio/en-us/sentence/can-you-recommend-a-good-book.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "b86d6b207b9deee11731bf1db259717bdd523cab687586e2e179c04186de6d49"
     },
     {
       "audio_key": "enjoy your journey",
       "text": "enjoy your journey",
       "style": "sentence",
       "path": "audio/en-us/sentence/enjoy-your-journey.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "36952db77f3eba68125ffb07bcc3b69db398aba19d12a165fddc27616482fe72"
     },
     {
       "audio_key": "the meeting starts at nine",
       "text": "the meeting starts at nine",
       "style": "sentence",
       "path": "audio/en-us/sentence/the-meeting-starts-at-nine.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "6de9de041bcb056d0e942eab61d4f131948c03196d7a31b3c27147361832668d"
     },
     {
       "audio_key": "let us check the schedule",
       "text": "let us check the schedule",
       "style": "sentence",
       "path": "audio/en-us/sentence/let-us-check-the-schedule.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "885645470f79e2f044c36dd85d0fadb7ca6ea6a363584bdee1b80367ee26eba8"
     },
     {
       "audio_key": "the deadline is friday",
       "text": "the deadline is friday",
       "style": "sentence",
       "path": "audio/en-us/sentence/the-deadline-is-friday.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "2bacc7208b64fb23de4fb6404df3e6b645ec9dbbfedadcc642aaa50cd74e972b"
     },
     {
       "audio_key": "let us review the lesson",
       "text": "let us review the lesson",
       "style": "sentence",
       "path": "audio/en-us/sentence/let-us-review-the-lesson.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "22297cb261de3b7eab1b9011366a01ad8a04becc2d18543686d268e3878af038"
     },
     {
       "audio_key": "please check the details",
       "text": "please check the details",
       "style": "sentence",
       "path": "audio/en-us/sentence/please-check-the-details.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "d242068fe579c902aea9682ed6da586ce57325043fb1e74582e6a3c7a74ce464"
     },
     {
       "audio_key": "this is my name card",
       "text": "this is my name card",
       "style": "sentence",
       "path": "audio/en-us/sentence/this-is-my-name-card.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "a5add021a03c53b368e36d3dcc7d6c724f2a6dab6e2a20fac48971adcc613f4f"
     },
     {
       "audio_key": "my name is ben",
       "text": "my name is ben",
       "style": "sentence",
       "path": "audio/en-us/sentence/my-name-is-ben.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "69be66f541e81c0162bf3641b5e9fa3334209fb05d12209d0ff4a1114e547a16"
     },
     {
       "audio_key": "what is your name",
       "text": "what is your name",
       "style": "sentence",
       "path": "audio/en-us/sentence/what-is-your-name.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "0a8cb226d89236593269e2df403cde95998f2903bf83905844bf20af3af10cc4"
     },
     {
       "audio_key": "hello let us practice english together",
       "text": "hello let us practice english together",
       "style": "sentence",
       "path": "audio/en-us/sentence/hello-let-us-practice-english-together.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "7bc46a7c0c0b3773e8087566ad2e339086245e1debd5f0934b48a68da27584da"
     },
     {
       "audio_key": "hello",
       "text": "hello",
       "style": "word",
       "path": "audio/en-us/word/hello.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "b870023d56171d6481882c35374641dd0ce0a922a2d0a23ed33db4fea72f4bdb"
     },
     {
       "audio_key": "i'm li dong",
       "text": "I'm li dong",
       "style": "sentence",
       "path": "audio/en-us/sentence/i-m-li-dong.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "d19ea48d9dc478fbff9ad6dae6c6d43c36e313cbf791a0da36f75fd498f9f68a"
     },
     {
       "audio_key": "hi",
       "text": "hi",
       "style": "word",
       "path": "audio/en-us/word/hi.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "4d3821740ac84780573be7aadeed13f23609095a73d665297612bffc8105e766"
     },
     {
       "audio_key": "i'm binbin",
       "text": "I'm binbin",
       "style": "sentence",
       "path": "audio/en-us/sentence/i-m-binbin.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "1674aac029308bb550e140803b6c68c3a24f087b9763c2a11c9afeebc91daca1"
     },
     {
       "audio_key": "i'm chen jie",
       "text": "I'm chen jie",
       "style": "sentence",
       "path": "audio/en-us/sentence/i-m-chen-jie.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "dda2edef8fc3b3b25a36a51f987aeb8c841ed99a47b8f20d3868c03fd6af3fa5"
     },
     {
       "audio_key": "i'm sarah",
       "text": "I'm sarah",
       "style": "sentence",
       "path": "audio/en-us/sentence/i-m-sarah.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "38d3e5d4020815783a4bcad500476ade3698e75c5b91ac0fd3096f714d444b91"
     },
     {
       "audio_key": "practice",
       "text": "practice",
       "style": "word",
       "path": "audio/en-us/word/practice.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "dd8fe0091fe75e38489bc417e55210ad29c63a9e55e7bfe50fda01effc02dc63"
     },
     {
       "audio_key": "progress",
       "text": "progress",
       "style": "word",
       "path": "audio/en-us/word/progress.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "8471f54d448331899d6956d2a48fdef12119ee3dea41a1a87d1480c17b2cdcc2"
     },
     {
       "audio_key": "learn",
       "text": "learn",
       "style": "word",
       "path": "audio/en-us/word/learn.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "fb2f491f8e73184cc60589883d9f9a3c1623a3d3a2d4d4a0db3a676014c5eebb"
     },
     {
       "audio_key": "tomorrow",
       "text": "tomorrow",
       "style": "word",
       "path": "audio/en-us/word/tomorrow.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "694f4274c9cf1a6ce7f29ae2e3145c2aba2e49242daa021e45d25cd0de067732"
     },
     {
       "audio_key": "help",
       "text": "help",
       "style": "word",
       "path": "audio/en-us/word/help.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "11d515a60e49acc00a1f600c97ee13e5abfdfe3904102a0810e1bb8a69e91984"
     },
     {
       "audio_key": "station",
       "text": "station",
       "style": "word",
       "path": "audio/en-us/word/station.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "a9b30c4bfe8f1724efaef962be2bfced92646a8592b25e934df1d130c0afa3eb"
     },
     {
       "audio_key": "coffee",
       "text": "coffee",
       "style": "word",
       "path": "audio/en-us/word/coffee.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "1cc70d02443bb1674621e66510cd25711c77d04bc3a73d8ba1e85edf3ed37d74"
     },
     {
       "audio_key": "reservation",
       "text": "reservation",
       "style": "word",
       "path": "audio/en-us/word/reservation.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "43b1ff0d0d2a4569cdf1ef358788e47ae41ee36af38986e282f32768c1f25836"
     },
     {
       "audio_key": "recommend",
       "text": "recommend",
       "style": "word",
       "path": "audio/en-us/word/recommend.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "4d3f730c4778ce322e765b5772e5a5dafcd9c488e9a77858b8d2e80d1911a058"
     },
     {
       "audio_key": "journey",
       "text": "journey",
       "style": "word",
       "path": "audio/en-us/word/journey.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "d3b8cf1127e1824b1f111a9c6752f10634aaf42d03b53db8bd211171724781bc"
     },
     {
       "audio_key": "breakfast",
       "text": "breakfast",
       "style": "word",
       "path": "audio/en-us/word/breakfast.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "b13b39fe9e11e699792be5744f05c6424038dfe69ee69f1c8865d58e22f403f0"
     },
     {
       "audio_key": "meeting",
       "text": "meeting",
       "style": "word",
       "path": "audio/en-us/word/meeting.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "54d97b1fef9152ff7d4f3a73aa5ac825f7eae92f6d29e21926ec99af8c45e065"
     },
     {
       "audio_key": "schedule",
       "text": "schedule",
       "style": "word",
       "path": "audio/en-us/word/schedule.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "51cc508b457cb67944b41cd4009e48bcdc193b861ce4fc0761e088359962b741"
     },
     {
       "audio_key": "deadline",
       "text": "deadline",
       "style": "word",
       "path": "audio/en-us/word/deadline.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "7fbb8dce41464afd5881de06be8f5dfe9fc8ec2b66d7e8841bb4616375813483"
     },
     {
       "audio_key": "feedback",
       "text": "feedback",
       "style": "word",
       "path": "audio/en-us/word/feedback.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "7dd88d26149156d4b423a39cf4a307ce39ee6f36db6707e260b9faebb2ee6ddb"
     },
     {
       "audio_key": "review",
       "text": "review",
       "style": "word",
       "path": "audio/en-us/word/review.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "8119b863e416d2afd306221cbe7f78b14419b9c45aaff59e1e1bd3b933aff486"
     },
     {
       "audio_key": "detail",
       "text": "detail",
       "style": "word",
       "path": "audio/en-us/word/detail.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "4648a8e630e29fae31817d749d64ccda3ece96434b47b5a7e665b5fed41c17b6"
     },
     {
       "audio_key": "see",
       "text": "see",
       "style": "word",
       "path": "audio/en-us/word/see.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "2e768deab673d6f26b7b7a3501bab0674f6c4a0d3ce1d953414f69fa0c6136af"
     },
     {
       "audio_key": "sit",
       "text": "sit",
       "style": "word",
       "path": "audio/en-us/word/sit.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "5dc7bc8b2ca00900fe1ebdb3b8cd1eeb4087f4b27103a1c5b8e0055a15f5d1d8"
     },
     {
       "audio_key": "bed",
       "text": "bed",
       "style": "word",
       "path": "audio/en-us/word/bed.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "fc314cc79aea0dfe05c44dc22b0f5462a23dfcb933528e115ad7b1598f6d5d9e"
     },
     {
       "audio_key": "cat",
       "text": "cat",
       "style": "word",
       "path": "audio/en-us/word/cat.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "10c942e817804bca14564f56db9fcc96cf77cc01fde9d494449592a893faf906"
     },
     {
       "audio_key": "car",
       "text": "car",
       "style": "word",
       "path": "audio/en-us/word/car.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "e960eb3e07d3b6912f06dddff81b8cbedea344f20bf87087f71b2e8440810f78"
     },
     {
       "audio_key": "hot",
       "text": "hot",
       "style": "word",
       "path": "audio/en-us/word/hot.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "dd14e46dcb36661d333294a735085540379b264b811d6353788c7d2b5ef92a9a"
     },
     {
       "audio_key": "law",
       "text": "law",
       "style": "word",
       "path": "audio/en-us/word/law.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "95ca8fe3567fa8c891a120714bbbd4498870a9dcfb44835ecc26c046f4c218b4"
     },
     {
       "audio_key": "book",
       "text": "book",
       "style": "word",
       "path": "audio/en-us/word/book.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "b576e951ede16db839c4da7cde008e2e333de7729a2992b03187f74e4a97a70e"
     },
     {
       "audio_key": "food",
       "text": "food",
       "style": "word",
       "path": "audio/en-us/word/food.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "75e388e48f00cd9180ec77447fee2991cb77cd189e657a8c70788493fdefbbda"
     },
     {
       "audio_key": "cup",
       "text": "cup",
       "style": "word",
       "path": "audio/en-us/word/cup.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "11da4731964783b88d52afd4d2ae132e2b73ebcf5f37f1f476652832454af312"
     },
     {
       "audio_key": "bird",
       "text": "bird",
       "style": "word",
       "path": "audio/en-us/word/bird.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "687c8168c7da246aecdbf6860560091ac5dceb41386766f27f2be69eb60f50b8"
     },
     {
       "audio_key": "about",
       "text": "about",
       "style": "word",
       "path": "audio/en-us/word/about.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "c3e505b7c8763f3938abbd0307b3a0b165ca532f55fb9a5581843c87cf0333c2"
     },
     {
       "audio_key": "day",
       "text": "day",
       "style": "word",
       "path": "audio/en-us/word/day.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "53a069792617163ebc3f8787508162b1d33212d47dd239c01e195b55d0a5c95e"
     },
     {
       "audio_key": "time",
       "text": "time",
       "style": "word",
       "path": "audio/en-us/word/time.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "3de5ba1fe0e12689cd5be09f0f1883f465c9fb668ee33e59666a8d05e453ceb5"
     },
     {
       "audio_key": "boy",
       "text": "boy",
       "style": "word",
       "path": "audio/en-us/word/boy.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "6aace979cec0b59fb5d3177c84aecccbca5d1678769f4b235c058eb37c48185a"
     },
     {
       "audio_key": "go",
       "text": "go",
       "style": "word",
       "path": "audio/en-us/word/go.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "0b8f4e45be1ed8f69b6fc310bb712f01b6d2019bd41ff5ee7201ce312ca99422"
     },
     {
       "audio_key": "now",
       "text": "now",
       "style": "word",
       "path": "audio/en-us/word/now.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "c356b8c6d784230d25fff62c5557411e6e706c05a93f36e2913003f97e295952"
     },
     {
       "audio_key": "near",
       "text": "near",
       "style": "word",
       "path": "audio/en-us/word/near.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "652577b3c0220a0240cb3896a76f84d4457f292c3b6c135dd19355a2bf920ee8"
     },
     {
       "audio_key": "hair",
       "text": "hair",
       "style": "word",
       "path": "audio/en-us/word/hair.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "0c4074c8d643c0ade9d4ac9aa6ec04bf1903fcaf406782a9a08e040afd149d00"
     },
     {
       "audio_key": "tour",
       "text": "tour",
       "style": "word",
       "path": "audio/en-us/word/tour.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "6a9fd99fd8f8b35c3d066edb03e97012031ed6fcc66cb2e5332c362354eec82d"
     },
     {
       "audio_key": "pen",
       "text": "pen",
       "style": "word",
       "path": "audio/en-us/word/pen.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "bc69720ca3167480a21d1f19360d7f1f936606a700b69292103390e640cfffef"
     },
     {
       "audio_key": "bag",
       "text": "bag",
       "style": "word",
       "path": "audio/en-us/word/bag.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "dafb0a695907de7672c410b914315ff814e36f8772800418adb9d395533a92c4"
     },
     {
       "audio_key": "tea",
       "text": "tea",
       "style": "word",
       "path": "audio/en-us/word/tea.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "00bd50152352962f505772e8e4d2d5fcb696367550f1c0d88fe11143e089e98b"
     },
     {
       "audio_key": "dog",
       "text": "dog",
       "style": "word",
       "path": "audio/en-us/word/dog.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "04ede3ef7f6e3737478b46caef7637bc2cd1f7ffd2852d1186654aa61bcce07a"
     },
     {
       "audio_key": "key",
       "text": "key",
       "style": "word",
       "path": "audio/en-us/word/key.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "bc9f4352e2136f646ad5d8adb375912923ac4a0ea0fa20ba19b1d32af0b24c7e"
     },
     {
       "audio_key": "game",
       "text": "game",
       "style": "word",
       "path": "audio/en-us/word/game.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "c120f2b646dd79169acd9055f994070a170f074f2d2abbd9ee4e61de7395fa12"
     },
     {
       "audio_key": "fish",
       "text": "fish",
       "style": "word",
       "path": "audio/en-us/word/fish.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "ab5662b086f9bd887a500bed3ec199f84cb85724244932d4edb3a21b26c2e2c1"
     },
     {
       "audio_key": "very",
       "text": "very",
       "style": "word",
       "path": "audio/en-us/word/very.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "ef3b752330a50198af7cc08a86c9e72e55bfd7d55ea17223f9d6e105903f920c"
     },
     {
       "audio_key": "think",
       "text": "think",
       "style": "word",
       "path": "audio/en-us/word/think.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "85e293bd46b23cc1902f25a1c4ea85fac544b32d86fe8ae182a181660253b153"
     },
     {
       "audio_key": "this",
       "text": "this",
       "style": "word",
       "path": "audio/en-us/word/this.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "1d8aa5e6d06fa8b010a545ec10bfa1d46668a1e72fbed401f268c1c1ef79e70c"
     },
     {
       "audio_key": "sun",
       "text": "sun",
       "style": "word",
       "path": "audio/en-us/word/sun.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "d1311b37fcf7ac0a7ad49be850f6f4cdfa37a788e867df06b960593f5c254e94"
     },
     {
       "audio_key": "zoo",
       "text": "zoo",
       "style": "word",
       "path": "audio/en-us/word/zoo.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "1336fafdddaa62b264e4a1925c0fa4fbf43fda50db07ca4718a54586ed449344"
     },
     {
       "audio_key": "she",
       "text": "she",
       "style": "word",
       "path": "audio/en-us/word/she.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "5db24ac4942ea6267ac614ffd6b39316392dc47c33aa96814b368b8e7da4f6fc"
     },
     {
       "audio_key": "vision",
       "text": "vision",
       "style": "word",
       "path": "audio/en-us/word/vision.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "f085e4af7bcc91e2d36e58971e5d1fd4a15e934a6d1dcf84f9ce3c9b80c15563"
     },
     {
       "audio_key": "hat",
       "text": "hat",
       "style": "word",
       "path": "audio/en-us/word/hat.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "1f8a7338c493f76fb3f2a89febeb4c1270872a88f4da72fd54df56231eb5112d"
     },
     {
       "audio_key": "chair",
       "text": "chair",
       "style": "word",
       "path": "audio/en-us/word/chair.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "83ac99f413c77c06500ba94e76f2e2aaa77d9276d9cb208e4663040acfb47984"
     },
     {
       "audio_key": "job",
       "text": "job",
       "style": "word",
       "path": "audio/en-us/word/job.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "12de1d080e47b948d74b0313b85986919b86e2de9063d7c6a3d3a0487fe83b20"
     },
     {
       "audio_key": "moon",
       "text": "moon",
       "style": "word",
       "path": "audio/en-us/word/moon.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "9923717d7e4abfd78e74b39a805eb2e1751e6a333406b50c732641a81e68e7a4"
     },
     {
       "audio_key": "name",
       "text": "name",
       "style": "word",
       "path": "audio/en-us/word/name.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "59b1adc0836a97f94a50ba685d4bc237a18c7333abab6a9cb43ee8987d3c2631"
     },
     {
       "audio_key": "sing",
       "text": "sing",
       "style": "word",
       "path": "audio/en-us/word/sing.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "a047c98fe0be4c3adcfa10cae0eb0a3857b24433faa6a4244b5515c989efde0f"
     },
     {
       "audio_key": "light",
       "text": "light",
       "style": "word",
       "path": "audio/en-us/word/light.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "d2c90d740085b944ec8de168a8affffdd824eb21d1f05b40fb801622a6abee39"
     },
     {
       "audio_key": "red",
       "text": "red",
       "style": "word",
       "path": "audio/en-us/word/red.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "c8a6ea430b9e01c748eac4cb1a9e864e0ebafa2aef7c87b2c7c348ff8b18d745"
     },
     {
       "audio_key": "yes",
       "text": "yes",
       "style": "word",
       "path": "audio/en-us/word/yes.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "3ae12978f5d45d96685cf6c72ee0dd5fc846f2df8934fcec67efa52b2ca34026"
     },
     {
       "audio_key": "we",
       "text": "we",
       "style": "word",
       "path": "audio/en-us/word/we.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "85d0728033c41c23198c433192488f138dd5545be718145844f8f0c897147bae"
     },
     {
       "audio_key": "nice",
       "text": "nice",
       "style": "word",
       "path": "audio/en-us/word/nice.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "06051bbd189df5db70765710c91ef3529079fbc1fe074f8a26ddfc2ef960ff43"
     },
     {
       "audio_key": "to",
       "text": "to",
       "style": "word",
       "path": "audio/en-us/word/to.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "aed3385e167c299eb65d6df1569bd5e725f17a46213d88b66dc220a1877ee547"
     },
     {
       "audio_key": "meet",
       "text": "meet",
       "style": "word",
       "path": "audio/en-us/word/meet.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "05bdc9db607c6e64c37cccf59087c251daa8ea4312edbc3bef04f6a775b7ddd6"
     },
     {
       "audio_key": "you",
       "text": "you",
       "style": "word",
       "path": "audio/en-us/word/you.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "eb81c483c06e201bf821a851eaa09013ebeb07fe92d9037957811be07271494b"
     },
     {
       "audio_key": "my",
       "text": "my",
       "style": "word",
       "path": "audio/en-us/word/my.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "187d3467b303a31e265987fd315a87142395b7a76f72165dd10dab416fa529d6"
     },
     {
       "audio_key": "is",
       "text": "is",
       "style": "word",
       "path": "audio/en-us/word/is.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "fda75465286788925aa54b864c09e012e578b225f0bd895d72cfa86829f557ad"
     },
     {
       "audio_key": "alex",
       "text": "alex",
       "style": "word",
       "path": "audio/en-us/word/alex.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "d33f22c6a87c43f0e4a46b2d5d49bf65c1c93de77710aa35ab040488fb03f87d"
     },
     {
       "audio_key": "how",
       "text": "how",
       "style": "word",
       "path": "audio/en-us/word/how.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "956d2e18052b460054a1cf5aa38d5aa6c5d7911ee5470aec4d38f8eb0a045417"
     },
     {
       "audio_key": "your",
       "text": "your",
       "style": "word",
       "path": "audio/en-us/word/your.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "ca2d22a906f00dadbd397a6ad352c59a2b20400514f07528da1da14e0b4dc212"
     },
     {
       "audio_key": "going",
       "text": "going",
       "style": "word",
       "path": "audio/en-us/word/going.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "4837990041d604c69a6105233bdc79cea203b29a944c5c3bf4f9d405aae42ee8"
     },
     {
       "audio_key": "could",
       "text": "could",
       "style": "word",
       "path": "audio/en-us/word/could.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "7e4cdd6200bcbf99f29aa5e930775e772b63eed45761f0cac49610f6e71f4909"
     },
     {
       "audio_key": "say",
       "text": "say",
       "style": "word",
       "path": "audio/en-us/word/say.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "e04544fd34250d74aeb6ebdaedfe192607856bb2e138533f79154a826a84e4c4"
     },
     {
       "audio_key": "that",
       "text": "that",
       "style": "word",
       "path": "audio/en-us/word/that.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "fa22fc7c828d4ef33ce8a52d6b6a3ad61bbecd9297b94562072d4a630c4281fa"
     },
     {
       "audio_key": "again",
       "text": "again",
       "style": "word",
       "path": "audio/en-us/word/again.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "42f00c5530163a46184c87f62db6936c746a43d7b11b26cba0376b4081a52690"
     },
     {
       "audio_key": "i",
       "text": "I",
       "style": "word",
       "path": "audio/en-us/word/i.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "ad9dd8e572d9197ea82ea33b36e184ee14bd6cb728b485464b58a8cb1f1d9f6e"
     },
     {
       "audio_key": "am",
       "text": "am",
       "style": "word",
       "path": "audio/en-us/word/am.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "cfaa0b9c362aa4cf68fe062b6f0b3abf174af6b1fdf91984a5c0c34b8d843781"
     },
     {
       "audio_key": "learning",
       "text": "learning",
       "style": "word",
       "path": "audio/en-us/word/learning.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "38bdaf63ceed7327ba9ce14beb70c599595e9863a71f6bfaba78a40b0b210362"
     },
     {
       "audio_key": "english",
       "text": "english",
       "style": "word",
       "path": "audio/en-us/word/english.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "601b8fa1d05fbb73a2c0a1703aee89dfc375072e21bc96d95a06df25168585c3"
     },
     {
       "audio_key": "every",
       "text": "every",
       "style": "word",
       "path": "audio/en-us/word/every.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "2c23d7850064dfa5c972ec3ec7dd562060a14a474d5843ef459716548f104871"
     },
     {
       "audio_key": "thank",
       "text": "thank",
       "style": "word",
       "path": "audio/en-us/word/thank.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "be159827f08e83c90f3f3d1087d5c934e867a4a0798f7e95d32c08e25284ba0e"
     },
     {
       "audio_key": "for",
       "text": "for",
       "style": "word",
       "path": "audio/en-us/word/for.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "0a6789895959de0bf40eeefad4d7be17427bd6643f1722b6edd9d6082e2634ae"
     },
     {
       "audio_key": "makes",
       "text": "makes",
       "style": "word",
       "path": "audio/en-us/word/makes.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "651ac8a20180fe3549343e7bff57a8878efb02e61e062c7ba9ca2cd61efddfcc"
     },
     {
       "audio_key": "where",
       "text": "where",
       "style": "word",
       "path": "audio/en-us/word/where.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "8a5f799613c92f5edb6d00ec3825ef15185fbb7b6c35029ac1bc22a5027d6142"
     },
     {
       "audio_key": "the",
       "text": "the",
       "style": "word",
       "path": "audio/en-us/word/the.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "1d84590d0610c9ca8849e3e2fea2417edd992555a6b32a8a9d5731e07363b5ab"
     },
     {
       "audio_key": "nearest",
       "text": "nearest",
       "style": "word",
       "path": "audio/en-us/word/nearest.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "3bf1019397742c4c580b255b1aa524a5e8ee05b3adfe9dbc78cfe2eb92b28d0a"
     },
     {
       "audio_key": "would",
       "text": "would",
       "style": "word",
       "path": "audio/en-us/word/would.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "4b675b63cc5678dbdcd3688741f10cb96f38dd05d86a027d3f28b99aa56202c6"
     },
     {
       "audio_key": "like",
       "text": "like",
       "style": "word",
       "path": "audio/en-us/word/like.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "d36346f13aa8c46d421c8565cd6bfa244fe97663a934b3bcb76d85d86392fce3"
     },
     {
       "audio_key": "a",
       "text": "a",
       "style": "word",
       "path": "audio/en-us/word/a.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "a01f2839da2bc7c4bc0924c870d5547c73b58f2b3fe134d5f9af2074ae49d70f"
     },
     {
       "audio_key": "of",
       "text": "of",
       "style": "word",
       "path": "audio/en-us/word/of.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "e4cd5472ab5ff42520cfc6fa02aedf4150b048d3585aa15f2d05eb3be14e4a11"
     },
     {
       "audio_key": "much",
       "text": "much",
       "style": "word",
       "path": "audio/en-us/word/much.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "c3a35794d24576dbc67d099be37180f77ae17d1f006d4b0816597ddedbe43f5d"
     },
     {
       "audio_key": "does",
       "text": "does",
       "style": "word",
       "path": "audio/en-us/word/does.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "b53510468b4698322c4e6ed51ca7587ba9f0b4390eb527a2857e899789aa8a75"
     },
     {
       "audio_key": "cost",
       "text": "cost",
       "style": "word",
       "path": "audio/en-us/word/cost.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "cab4e784472902248f86369f936aa86b3d1f8fbe01a34349a7b8f77316e3da6d"
     },
     {
       "audio_key": "can",
       "text": "can",
       "style": "word",
       "path": "audio/en-us/word/can.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "832b7c77ae30165ae8e5d724eb271d61cdc88423a30dc0d96be8cd75a28a7675"
     },
     {
       "audio_key": "pay",
       "text": "pay",
       "style": "word",
       "path": "audio/en-us/word/pay.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "e46c793c17dd09811b4fc291d535a082e282688ba7a47d0fc2911a5acfe551ce"
     },
     {
       "audio_key": "by",
       "text": "by",
       "style": "word",
       "path": "audio/en-us/word/by.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "db639c75e32d52a8b441c6d6d8a7db7dffc6460f67f0a2039b5dc6bdeb12d5ea"
     },
     {
       "audio_key": "card",
       "text": "card",
       "style": "word",
       "path": "audio/en-us/word/card.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "099abb3003aaf155f3db434a74743c05ebb9b1bd6a966b0c60cebfd485728409"
     },
     {
       "audio_key": "have",
       "text": "have",
       "style": "word",
       "path": "audio/en-us/word/have.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "41f6094ce57864c830f87ec22b5227f91d066fe161e5ad99cc7be5ceb5fe3348"
     },
     {
       "audio_key": "local",
       "text": "local",
       "style": "word",
       "path": "audio/en-us/word/local.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "5888b0bbba9679556e9ce032263461a52c92c1c8131221f781caddcf7078106e"
     },
     {
       "audio_key": "dish",
       "text": "dish",
       "style": "word",
       "path": "audio/en-us/word/dish.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "23d50b833a4d36aa3bd8d3467157c44de079625f8d676c52abb70adbd8c96893"
     },
     {
       "audio_key": "which",
       "text": "which",
       "style": "word",
       "path": "audio/en-us/word/which.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "bdbe5250994855bff12e63105b92a126014d3009943983f44a95dd3cd48d6338"
     },
     {
       "audio_key": "platform",
       "text": "platform",
       "style": "word",
       "path": "audio/en-us/word/platform.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "ae14bfd1d9c47c7d57abb78de37069e8f56d322388e58ebbdaa551bed83f49c4"
     },
     {
       "audio_key": "should",
       "text": "should",
       "style": "word",
       "path": "audio/en-us/word/should.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "1e6fba0c570f25f6aab225b18c27beec6e223e6242630b97ffa72118c555efd1"
     },
     {
       "audio_key": "included",
       "text": "included",
       "style": "word",
       "path": "audio/en-us/word/included.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "bf996b86c9ef0a7d1528e9a6b57058cb4197aecc9eeb38c288fc80a8d5632190"
     },
     {
       "audio_key": "let",
       "text": "let",
       "style": "word",
       "path": "audio/en-us/word/let.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "b02b114423718c62d22269a7c403ef94faa1348e00c6f64d566271d2656a7cd7"
     },
     {
       "audio_key": "me",
       "text": "me",
       "style": "word",
       "path": "audio/en-us/word/me.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "2be7daed57a424306237a8554c4a37493922dced93111184f0082bfe353a9f7d"
     },
     {
       "audio_key": "share",
       "text": "share",
       "style": "word",
       "path": "audio/en-us/word/share.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "8715de9ae1540eb3d8c479910d42124f11953f37b49e88392e8db0cf5a5e2276"
     },
     {
       "audio_key": "screen",
       "text": "screen",
       "style": "word",
       "path": "audio/en-us/word/screen.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "3c5fec7818a6412ebe8a59d2422ef10218979e713ec952ad3d1f1c108464024d"
     },
     {
       "audio_key": "will",
       "text": "will",
       "style": "word",
       "path": "audio/en-us/word/will.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "221dd6c9aec7dd7679d18189369d73ba5e438a8847c68a0ffc7b9f69ca28a307"
     },
     {
       "audio_key": "send",
       "text": "send",
       "style": "word",
       "path": "audio/en-us/word/send.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "e6fc1edc6f5ec6905f6db4305c87dd131f55dc96daf1db97e1f6cb1fc8be6fdb"
     },
     {
       "audio_key": "details",
       "text": "details",
       "style": "word",
       "path": "audio/en-us/word/details.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "3f6668988ce4646ae223497489a0f9b6657cd5bef7d4176ab7943da91562f3e4"
     },
     {
       "audio_key": "what",
       "text": "what",
       "style": "word",
       "path": "audio/en-us/word/what.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "602e83beda73e79689ec9aea845fe7b23c7f351b397bb706900b12efb8f9cdd4"
     },
     {
       "audio_key": "task",
       "text": "task",
       "style": "word",
       "path": "audio/en-us/word/task.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "e3008b07b248ab915f17b3e0bc635fd093b47b8482f64c5c1d86c6249bd346f5"
     },
     {
       "audio_key": "us",
       "text": "us",
       "style": "word",
       "path": "audio/en-us/word/us.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "a4dd1b8d49b9c54cf7bcb569a4eb6add2358081c8ed8a21575f23f54fcb56407"
     },
     {
       "audio_key": "next",
       "text": "next",
       "style": "word",
       "path": "audio/en-us/word/next.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "eafd75c5d8df9458775a468a6e31d7b19dffe3a78cc0b7bcb542994853c5c6b6"
     },
     {
       "audio_key": "steps",
       "text": "steps",
       "style": "word",
       "path": "audio/en-us/word/steps.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "aa26c0cea097513c6fd16b26d7c53b4d3c5da2a037c75c23ceeb724796fdf243"
     },
     {
       "audio_key": "sam",
       "text": "sam",
       "style": "word",
       "path": "audio/en-us/word/sam.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "a2d5f2f83b9a03e4e78b3ccb99f05b851cd35b48ac508d1f683d559e869cc65a"
     },
     {
       "audio_key": "lily",
       "text": "lily",
       "style": "word",
       "path": "audio/en-us/word/lily.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "672f61f2288eb84b8b0735724b338757f366c967c415b0df966d5bce3f3942ef"
     },
     {
       "audio_key": "good",
       "text": "good",
       "style": "word",
       "path": "audio/en-us/word/good.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "0e0038a60135da4980b676a9bc28500debe333ba07e0c53e5af4804d0aa54647"
     },
     {
       "audio_key": "morning",
       "text": "morning",
       "style": "word",
       "path": "audio/en-us/word/morning.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "4ae72e461844b653bcaec46db7e1fd4d7b44737d3b787173fdfe3c4f6e9c89b0"
     },
     {
       "audio_key": "afternoon",
       "text": "afternoon",
       "style": "word",
       "path": "audio/en-us/word/afternoon.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "519ecba256546ef1862bff0cbb2e6f78a45917824a55dafb3e6d857568e30424"
     },
     {
       "audio_key": "goodbye",
       "text": "goodbye",
       "style": "word",
       "path": "audio/en-us/word/goodbye.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "000a236ff6270b62cb436eaf2d6b8c560c4bfa94b52b491e4381e7c94901851b"
     },
     {
       "audio_key": "friends",
       "text": "friends",
       "style": "word",
       "path": "audio/en-us/word/friends.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "e71164ee8a892de3296b82e5e126f5fa521bc96129424052d9532e4746ff85d1"
     },
     {
       "audio_key": "i'm",
       "text": "I'm",
       "style": "word",
       "path": "audio/en-us/word/i-m.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "3f8de6830da1a9f2df8d31848fc8dc17b170f4808202f4135ece22804b6e98ca"
     },
     {
       "audio_key": "li",
       "text": "li",
       "style": "word",
       "path": "audio/en-us/word/li.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "8210bfc35b64e392403744232da9fa7445606048e6db3d3ff77e219e3c0b0481"
     },
     {
       "audio_key": "dong",
       "text": "dong",
       "style": "word",
       "path": "audio/en-us/word/dong.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "baccab76807530a3696ee6db87b3e21b355991b05baf5a9f4524817d678b5ca3"
     },
     {
       "audio_key": "binbin",
       "text": "binbin",
       "style": "word",
       "path": "audio/en-us/word/binbin.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "ed4571a439efb2743541e148668c2e649ace42ce3b24257743caca4c333a23f7"
     },
     {
       "audio_key": "chen",
       "text": "chen",
       "style": "word",
       "path": "audio/en-us/word/chen.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "fc0c08595f2ff42b46f24c9df290693ffef391980a8b79a40d6aef336f48d7c8"
     },
     {
       "audio_key": "jie",
       "text": "jie",
       "style": "word",
       "path": "audio/en-us/word/jie.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "0094fc40b3b5fbc059d6d241e822df732932c81ba9e2b7f2050f6df2557ef7c6"
     },
     {
       "audio_key": "sarah",
       "text": "sarah",
       "style": "word",
       "path": "audio/en-us/word/sarah.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "f0bd856457fe09551501bceb5d50d2ce1536ce36b37b174e198e1bc469e72eb3"
     },
     {
       "audio_key": "little",
       "text": "little",
       "style": "word",
       "path": "audio/en-us/word/little.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "e49d34997f2886be4c4b66d5702f95553d869e16b454d7545b48ccd9c5460c68"
     },
     {
       "audio_key": "frog",
       "text": "frog",
       "style": "word",
       "path": "audio/en-us/word/frog.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "3249b26840341ba7a1663b1bbfdfacad431016746c89ce9820f430e219f6dd3c"
     },
     {
       "audio_key": "wave",
       "text": "wave",
       "style": "word",
       "path": "audio/en-us/word/wave.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "5ba76750a03fbed57a20ddcc93ddfaa09f2bd5c6b7f20c10f662307731fef5ac"
     },
     {
       "audio_key": "hand",
       "text": "hand",
       "style": "word",
       "path": "audio/en-us/word/hand.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "dba514ad1a0c92ade079c6b61b98fa2527f897ce79d835ec9b7515eb184847c6"
     },
     {
       "audio_key": "friend",
       "text": "friend",
       "style": "word",
       "path": "audio/en-us/word/friend.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "4e6a5f074e75c34beb0b6b04d9bc0bfe2d0b831639ed70a643903ab601b34ad0"
     },
     {
       "audio_key": "in",
       "text": "in",
       "style": "word",
       "path": "audio/en-us/word/in.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "8f9eee42da1e0a31743189c8824b8d302a9cd5bcf07d6dd9f805504e645fafbd"
     },
     {
       "audio_key": "classroom",
       "text": "classroom",
       "style": "word",
       "path": "audio/en-us/word/classroom.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "985b2d7b0527a1fcb611e1ee300cb3356855589360203da2c4891eb993fb0ffb"
     },
     {
       "audio_key": "our",
       "text": "our",
       "style": "word",
       "path": "audio/en-us/word/our.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "61ff0dbc90c3ca4fa137c6894d372ed6ae69a0be42179f486e85de21276fbc2a"
     },
     {
       "audio_key": "teacher",
       "text": "teacher",
       "style": "word",
       "path": "audio/en-us/word/teacher.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "32c73f16d446af3c099a825c2c8fe0f1df246db8976e34d97317d1c9211b934c"
     },
     {
       "audio_key": "are",
       "text": "are",
       "style": "word",
       "path": "audio/en-us/word/are.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "ea653c12053aeccbf93cafbbade7c514c91b8cc782c244f2deae31e7ce039b19"
     },
     {
       "audio_key": "ready",
       "text": "ready",
       "style": "word",
       "path": "audio/en-us/word/ready.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "5b480ab3549b99632187234a222d7227fa7c447adaf4a40449d15dd34d7e838d"
     },
     {
       "audio_key": "please",
       "text": "please",
       "style": "word",
       "path": "audio/en-us/word/please.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "61cef4dcbaf507fbeb3423c531703932a1b2e24d2d318a4e4409918f83c1d2ca"
     },
     {
       "audio_key": "down",
       "text": "down",
       "style": "word",
       "path": "audio/en-us/word/down.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "6ecabe928ad2b78a61125957ff049d0a2056e24f513705766b250d6ead9b41b0"
     },
     {
       "audio_key": "stand",
       "text": "stand",
       "style": "word",
       "path": "audio/en-us/word/stand.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "82544bac02113c08ef2da47ad66a40f5641a7da5352411a115e1a963a07d5af9"
     },
     {
       "audio_key": "up",
       "text": "up",
       "style": "word",
       "path": "audio/en-us/word/up.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "da1f0b6828e0b2e66f6c904d7c222c1bc6207a9a42a6de9561987a8ecbf253e1"
     },
     {
       "audio_key": "look",
       "text": "look",
       "style": "word",
       "path": "audio/en-us/word/look.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "dbcdcf840c4fa900ae30bd49a8049f673039a992b4df8bf7851cda8a9026ddb5"
     },
     {
       "audio_key": "at",
       "text": "at",
       "style": "word",
       "path": "audio/en-us/word/at.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "3a840bfb74fea3a312280126f235b7254c3b565550662dd91105a82be3f661cf"
     },
     {
       "audio_key": "board",
       "text": "board",
       "style": "word",
       "path": "audio/en-us/word/board.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "b8ad5f0ae446dd1918a1c91306d250d60fb069172a0c782824916124258ece26"
     },
     {
       "audio_key": "may",
       "text": "may",
       "style": "word",
       "path": "audio/en-us/word/may.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "6f8933424c7e16a0d86ffe65fba3e7a113b64996384c3bba69434293b8bd9a6d"
     },
     {
       "audio_key": "come",
       "text": "come",
       "style": "word",
       "path": "audio/en-us/word/come.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "f349f9c50d2b0b3e587032b1ef2786079838eac38a8f2cec8d47bbe68ed09efc"
     },
     {
       "audio_key": "raise",
       "text": "raise",
       "style": "word",
       "path": "audio/en-us/word/raise.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "95c390d24764b590b90b543b4f8b6a89f24feac0e54fe099c43fc9533791b046"
     },
     {
       "audio_key": "open",
       "text": "open",
       "style": "word",
       "path": "audio/en-us/word/open.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "98c165561b917907b34a32d4552f0f867b78495e5b1e24dd0e1bcf4e2800aa72"
     },
     {
       "audio_key": "close",
       "text": "close",
       "style": "word",
       "path": "audio/en-us/word/close.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "76e134b8e02068cf53e9be600fc4a628af9de30e2e2f751037fee6b9f4fa7eb5"
     },
     {
       "audio_key": "one",
       "text": "one",
       "style": "word",
       "path": "audio/en-us/word/one.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "e5aaffd4fcc7ba718b26472dcfdfc17f13dd45d5cce262e4d07b2b5a594033c2"
     },
     {
       "audio_key": "two",
       "text": "two",
       "style": "word",
       "path": "audio/en-us/word/two.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "5a63025b29a6fe574611c594f61825987e805e5136e1d18d0d610634e3f87728"
     },
     {
       "audio_key": "three",
       "text": "three",
       "style": "word",
       "path": "audio/en-us/word/three.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "4d68e6fc533f4e9e094fe3a957282725800adc0df898cf4d75e314d7c023ee63"
     },
     {
       "audio_key": "play",
       "text": "play",
       "style": "word",
       "path": "audio/en-us/word/play.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "d49348e1bb3714719910215b5dba3828e4f8280edfded6df7525020fc231ebd7"
     },
     {
       "audio_key": "together",
       "text": "together",
       "style": "word",
       "path": "audio/en-us/word/together.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "8890b21fa916fdbaea411c14e28cae5539736307617bb4d0f6ec53da015ed4f5"
     },
     {
       "audio_key": "listen",
       "text": "listen",
       "style": "word",
       "path": "audio/en-us/word/listen.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "3e2ca1a3f9b9c529ded992ec97ccd3db04d6b69f6db98b2dc1dd65ef30dbf406"
     },
     {
       "audio_key": "with",
       "text": "with",
       "style": "word",
       "path": "audio/en-us/word/with.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "c285213cf1eae2ecbc0378bf25421e61fa514e48ed27d6a6585402aa0f8c2856"
     },
     {
       "audio_key": "ears",
       "text": "ears",
       "style": "word",
       "path": "audio/en-us/word/ears.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "d4660484c072b88815456cb8ac5df55b8f035671f10d8f5f6a3a51c1fce22033"
     },
     {
       "audio_key": "eyes",
       "text": "eyes",
       "style": "word",
       "path": "audio/en-us/word/eyes.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "f9831e44b71f3bfd1a54b4cf06666893355d880410ee53cfc7877847e6f75f60"
     },
     {
       "audio_key": "speak",
       "text": "speak",
       "style": "word",
       "path": "audio/en-us/word/speak.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "cce4814ea4a4d7dfe06a6ca56802bfcbae48feb1d7cbde5a1cba77b0b338dad3"
     },
     {
       "audio_key": "clear",
       "text": "clear",
       "style": "word",
       "path": "audio/en-us/word/clear.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "ff14b8449c272ec37b979e666174efb1a606b3ab9a22961835df04e4d18c5a7a"
     },
     {
       "audio_key": "voice",
       "text": "voice",
       "style": "word",
       "path": "audio/en-us/word/voice.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "aa7c124d8cd5c704d78a3b31120a4fe62dcf33948946dc2b76f6b414bf5f6165"
     },
     {
       "audio_key": "point",
       "text": "point",
       "style": "word",
       "path": "audio/en-us/word/point.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "d8cca801a41e25a94228d6fa4d58275cb8aa35894a15aa7c81d34368daf09e80"
     },
     {
       "audio_key": "picture",
       "text": "picture",
       "style": "word",
       "path": "audio/en-us/word/picture.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "29f1e6e58da8af3000b4efc3210fa488aa7a323670d8c62f41d6de1d2117c90c"
     },
     {
       "audio_key": "read",
       "text": "read",
       "style": "word",
       "path": "audio/en-us/word/read.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "f1e2b1667471a8ece37eb40f490e79f20131404ac3ac92946ea089be211805b6"
     },
     {
       "audio_key": "after",
       "text": "after",
       "style": "word",
       "path": "audio/en-us/word/after.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "27e690103718cd6eb43d19a66c34a22eb44955bf96d0c7c104db2bab68241f6e"
     },
     {
       "audio_key": "clap",
       "text": "clap",
       "style": "word",
       "path": "audio/en-us/word/clap.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "971f2514b0501cd109e02bb23570aabb5ed89c29f9b981082bf5f92b797dd318"
     },
     {
       "audio_key": "hands",
       "text": "hands",
       "style": "word",
       "path": "audio/en-us/word/hands.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "fde3bfccecd041e5d5d8fe7154349b022633ef21b4e046cd124b6f94a23c28ac"
     },
     {
       "audio_key": "work",
       "text": "work",
       "style": "word",
       "path": "audio/en-us/word/work.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "9b393b87e10d1595ce7b3fd820f46527a784f442a4b1455385379b192f7ae6a0"
     },
     {
       "audio_key": "give",
       "text": "give",
       "style": "word",
       "path": "audio/en-us/word/give.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "a1d0a8d0086508a041e8feaf3732a07628c010b2321522c127230c9cc22dcc7e"
     },
     {
       "audio_key": "high",
       "text": "high",
       "style": "word",
       "path": "audio/en-us/word/high.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "463f59cad80a94017b618a0095ef6f15fabebe17364a572fc2d48a4b4d5d4478"
     },
     {
       "audio_key": "five",
       "text": "five",
       "style": "word",
       "path": "audio/en-us/word/five.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "724a7243d75176c146508917f1aa17eb29fb7a68426183be5008d10ca22a03d4"
     },
     {
       "audio_key": "well",
       "text": "well",
       "style": "word",
       "path": "audio/en-us/word/well.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "21df5c98c1af003ab2b339811cd532c4b8eb4e88dbce0455c645a43fd003f6b8"
     },
     {
       "audio_key": "done",
       "text": "done",
       "style": "word",
       "path": "audio/en-us/word/done.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "93835521b7cd3854f2f7e2dbffff7c748da765113ca10b57321b6032b3c8950f"
     },
     {
       "audio_key": "draw",
       "text": "draw",
       "style": "word",
       "path": "audio/en-us/word/draw.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "f1180a9fe9b60a9d9c6d2186ed92885ce88b19b21d56f4fd20965eb9ec0cb98c"
     },
     {
       "audio_key": "star",
       "text": "star",
       "style": "word",
       "path": "audio/en-us/word/star.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "19af8d130a1ab5928640168d7190b32212bda9396b210e230ef05dc7724d25a6"
     },
     {
       "audio_key": "song",
       "text": "song",
       "style": "word",
       "path": "audio/en-us/word/song.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "1af1ddd65d335894e2d4175cb5b2792af639f46a98cb04085163d6bb931225a0"
     },
     {
       "audio_key": "try",
       "text": "try",
       "style": "word",
       "path": "audio/en-us/word/try.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "4499594763ca2bd581c7ff4be7e4ffdbd2ffedbd33af0b7bbd46136675dce442"
     },
     {
       "audio_key": "books",
       "text": "books",
       "style": "word",
       "path": "audio/en-us/word/books.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "b893879527b5cc2604a829d6c9ac6916bbf821f408742c2a60bf736ecc0d3769"
     },
     {
       "audio_key": "school",
       "text": "school",
       "style": "word",
       "path": "audio/en-us/word/school.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "ca267bb8c056758dcff71cd35d1043650667896e5596f20a4b774dd711e2e91a"
     },
     {
       "audio_key": "take",
       "text": "take",
       "style": "word",
       "path": "audio/en-us/word/take.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "6fa8963df3c0eb41653cc1ee34bd73c487d9cedfb415c70e41f357734c98d130"
     },
     {
       "audio_key": "out",
       "text": "out",
       "style": "word",
       "path": "audio/en-us/word/out.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "e967715c1bd0c16b641225d56ae0f3bb6d89abaf1571632d861369cb7897cb21"
     },
     {
       "audio_key": "pencil",
       "text": "pencil",
       "style": "word",
       "path": "audio/en-us/word/pencil.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "78120280cf28036dc510bfedab348d02be981bdcd7fd2406e39577c594fcd781"
     },
     {
       "audio_key": "put",
       "text": "put",
       "style": "word",
       "path": "audio/en-us/word/put.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "e3f670ebb74ecc0e485936df6467bd9e431c42644d03bcb58de66228e4082846"
     },
     {
       "audio_key": "away",
       "text": "away",
       "style": "word",
       "path": "audio/en-us/word/away.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "0edf7a46496ab7669039666273c7beb557bd65b831377a41659f26d7606c6a02"
     },
     {
       "audio_key": "ruler",
       "text": "ruler",
       "style": "word",
       "path": "audio/en-us/word/ruler.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "f51f4716c22dda5636262e6db7c21cd82a7e6986d7fcfc9b9b9e986bb298fe4e"
     },
     {
       "audio_key": "show",
       "text": "show",
       "style": "word",
       "path": "audio/en-us/word/show.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "20740befcee52b44271ca74ad1c113d4579fab01f1feeea55a461d19fec77971"
     },
     {
       "audio_key": "it",
       "text": "it",
       "style": "word",
       "path": "audio/en-us/word/it.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "e966297fd2289f2b4adfc937559fd35768974de2b3e938122f019e26d1f1e7eb"
     },
     {
       "audio_key": "here",
       "text": "here",
       "style": "word",
       "path": "audio/en-us/word/here.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "3c978eee5f77ffdd73491ed115cf447562f543eaf72a21f4e443a1a790bf428a"
     },
     {
       "audio_key": "eraser",
       "text": "eraser",
       "style": "word",
       "path": "audio/en-us/word/eraser.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "5d676b12de3d5e0a95df558f4405ddfe32d3f25acb03cecce150f1e287ffbc2f"
     },
     {
       "audio_key": "blue",
       "text": "blue",
       "style": "word",
       "path": "audio/en-us/word/blue.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "131a5c8dc6024c5d51ea84ec79ed3ec0196735facb729a4ac0ff6f6ecd4dc0a6"
     },
     {
       "audio_key": "pencils",
       "text": "pencils",
       "style": "word",
       "path": "audio/en-us/word/pencils.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "b3892001f698b8fb06e837b174496e95b2b8908261e8d5cbb30faedb50aaae2f"
     },
     {
       "audio_key": "new",
       "text": "new",
       "style": "word",
       "path": "audio/en-us/word/new.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "b056e10fb716a5d6ac30a99cf39bb4b320216049c099d86caf240ec00a40cc56"
     },
     {
       "audio_key": "find",
       "text": "find",
       "style": "word",
       "path": "audio/en-us/word/find.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "565d167b1f6be1b879ed5b1f6586d78661ecbfa7060e9a7d17bf5bef3ba4c630"
     },
     {
       "audio_key": "on",
       "text": "on",
       "style": "word",
       "path": "audio/en-us/word/on.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "b47c5212a2b096d9a373f07d3f57f684abf550eb97fe98c258ad949913c73681"
     },
     {
       "audio_key": "desk",
       "text": "desk",
       "style": "word",
       "path": "audio/en-us/word/desk.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "73ce07ae83254793df4a224956d9c4315b68622f189d03fa2baf807672bb8367"
     },
     {
       "audio_key": "things",
       "text": "things",
       "style": "word",
       "path": "audio/en-us/word/things.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "e031fa609c36a3728f5efe796a056313a13c98be5abf319416a381b60c30790d"
     },
     {
       "audio_key": "family",
       "text": "family",
       "style": "word",
       "path": "audio/en-us/word/family.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "1183614ed73059667a7e89637d9a1e8d96a2b8d552e1e7bfd96242ab6a964f0d"
     },
     {
       "audio_key": "love",
       "text": "love",
       "style": "word",
       "path": "audio/en-us/word/love.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "a2aea7a86be9c7218637d8c2c1f9b65c310d27a1029232bbce63d1025a0930a5"
     },
     {
       "audio_key": "mother",
       "text": "mother",
       "style": "word",
       "path": "audio/en-us/word/mother.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "3fd8469e33d8fedeafec9f1d8b2a6850ba7e481395bda9f580215baa8326f9f1"
     },
     {
       "audio_key": "father",
       "text": "father",
       "style": "word",
       "path": "audio/en-us/word/father.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "5bf37be56c54383ff6d4f52b7c3edd0e1d0d25724c0b08d32831fd6f5ba7e676"
     },
     {
       "audio_key": "grandma",
       "text": "grandma",
       "style": "word",
       "path": "audio/en-us/word/grandma.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "afa2653ce3f8f376482e4682b26cabc7078ede43ad6038d3e01febc8038b9de9"
     },
     {
       "audio_key": "grandpa",
       "text": "grandpa",
       "style": "word",
       "path": "audio/en-us/word/grandpa.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "0dd92c4509dbab3d216fdae528cd53c27c006bf4335b8adbff73683bf71bd0cd"
     },
     {
       "audio_key": "happy",
       "text": "happy",
       "style": "word",
       "path": "audio/en-us/word/happy.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "d07b62b1b22e94ae80c7d8fd7dbbb68c05a0001665b2e70576cf4821057f0f33"
     },
     {
       "audio_key": "who",
       "text": "who",
       "style": "word",
       "path": "audio/en-us/word/who.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "20885bc1b7eea99dcbdbf5cbd8dca14664531dd4d6e7882783eb889f8b3766db"
     },
     {
       "audio_key": "photo",
       "text": "photo",
       "style": "word",
       "path": "audio/en-us/word/photo.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "6d1e964da3c58dc21dbc26e1f9f42050e79bf9f4a154efb36784d380e7f6c556"
     },
     {
       "audio_key": "sister",
       "text": "sister",
       "style": "word",
       "path": "audio/en-us/word/sister.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "3134ea6387ebad74ef2f3ba7f2f106c89c414e968144b023fd70893c5d784ac5"
     },
     {
       "audio_key": "brother",
       "text": "brother",
       "style": "word",
       "path": "audio/en-us/word/brother.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "c104540ccae6e98806026e4f95d042ab010a1edd14e8a285d8f644e19dc5dcc0"
     },
     {
       "audio_key": "he",
       "text": "he",
       "style": "word",
       "path": "audio/en-us/word/he.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "53c092557a20a1786c5609dc75b258f2fee08f48e575431ab5d69d84df1bd870"
     },
     {
       "audio_key": "neighbour",
       "text": "neighbour",
       "style": "word",
       "path": "audio/en-us/word/neighbour.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "a4cfccf35eedeee4a1450de130079f1ed7f0d8763a145a5e1233d1eef408433f"
     },
     {
       "audio_key": "robot",
       "text": "robot",
       "style": "word",
       "path": "audio/en-us/word/robot.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "f1fcff6fc444940108cac90c7d3b0cb56fbe6f689110d9d88dd890919faf3e4f"
     },
     {
       "audio_key": "has",
       "text": "has",
       "style": "word",
       "path": "audio/en-us/word/has.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "829868028b95fa13e689997e78e53a3521e1580897d7d7a02d0e4fcef8a50763"
     },
     {
       "audio_key": "big",
       "text": "big",
       "style": "word",
       "path": "audio/en-us/word/big.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "68915423f40e552e964e69004e37b9dc2d7364c2d4d89fe613b6126d1c6ab546"
     },
     {
       "audio_key": "spy",
       "text": "spy",
       "style": "word",
       "path": "audio/en-us/word/spy.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "ed761cd28345c2cade1948c699dde5e828bed7be1d2b25382213881623f1cce1"
     },
     {
       "audio_key": "yellow",
       "text": "yellow",
       "style": "word",
       "path": "audio/en-us/word/yellow.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "fd53a7b88aa3d22fac2e434b623a1153d2fa3e136f5c37493b206ce816ce6caf"
     },
     {
       "audio_key": "making",
       "text": "making",
       "style": "word",
       "path": "audio/en-us/word/making.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "218ca513b5d35ebf43e2327cbfe52aac18da81474dccd0d2174769790ec7e6fc"
     },
     {
       "audio_key": "something",
       "text": "something",
       "style": "word",
       "path": "audio/en-us/word/something.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "664bfaff94850d86ee3fdc8f88fda0842f7217fd5ab68d348a71455e020a44c3"
     },
     {
       "audio_key": "some",
       "text": "some",
       "style": "word",
       "path": "audio/en-us/word/some.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "4f9ef23ea5218af424936d8c72ec66d9cd2f5000db2a027540b943ec8d15bcd1"
     },
     {
       "audio_key": "enjoy",
       "text": "enjoy",
       "style": "word",
       "path": "audio/en-us/word/enjoy.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "bda7b7876edf7d7040bd6bef71c5b23cd196778e91f41208320b96236865e09a"
     },
     {
       "audio_key": "starts",
       "text": "starts",
       "style": "word",
       "path": "audio/en-us/word/starts.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "ac5bd1dc5bce9d56357640d7a0892562a039f4e664a5a3cf5b7a551a540dabcd"
     },
     {
       "audio_key": "nine",
       "text": "nine",
       "style": "word",
       "path": "audio/en-us/word/nine.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "6feabc0a0d33ac4d5177df6cd1989ba34db9aa3e26bc2cd05b196ab36aba1b4c"
     },
     {
       "audio_key": "check",
       "text": "check",
       "style": "word",
       "path": "audio/en-us/word/check.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "80902ddfb57f4a9f1c22b4cce055db9d3d578c026283a5ba92e91388430508c1"
     },
     {
       "audio_key": "friday",
       "text": "friday",
       "style": "word",
       "path": "audio/en-us/word/friday.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "596f9672e25351472ecf7ebae42b682afdf297abd9ff017c6648a93078fc953f"
     },
     {
       "audio_key": "lesson",
       "text": "lesson",
       "style": "word",
       "path": "audio/en-us/word/lesson.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "e4fb97e1f4a57564eccb6dd3321eea60d14c20b4c541ef6ac93a11fc4fa6746d"
     },
     {
       "audio_key": "ben",
       "text": "ben",
       "style": "word",
       "path": "audio/en-us/word/ben.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "5065d06e502bbc5279af8ed7f92bc3709685d85dfad80b4e9148cdd735c3bdec"
     },
     {
       "audio_key": "hello anna",
       "text": "Hello, Anna.",
       "style": "sentence",
       "path": "audio/en-us/sentence/hello-anna.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "2fbda50d0a5c7f060c6bb80848383a13852b452332b14c7ac38802cbfe0468aa"
     },
     {
       "audio_key": "hi tom",
       "text": "Hi, Tom!",
       "style": "sentence",
       "path": "audio/en-us/sentence/hi-tom.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "04d55a609f19fa336eb27bf1b9fbf4a76ac9a614b20e47f2b8bffd3c87ac1a68"
     },
     {
       "audio_key": "good morning",
       "text": "good morning",
       "style": "sentence",
       "path": "audio/en-us/sentence/good-morning.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "2095036e9f3bdd03919ea8ea50310dfa881da652112cf02609f83692d2c59cfc"
     },
     {
       "audio_key": "good morning mom",
       "text": "Good morning, Mom.",
       "style": "sentence",
       "path": "audio/en-us/sentence/good-morning-mom.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "ab45c6152a23b892679a56e2c744a7a6658db4dacfa43f61c97b99d175dd75bb"
     },
     {
       "audio_key": "good afternoon",
       "text": "good afternoon",
       "style": "sentence",
       "path": "audio/en-us/sentence/good-afternoon.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "3b72bd22db153ad0084635985b83076d0cf0bb94cf17f370d2b80f5124bbc430"
     },
     {
       "audio_key": "good afternoon mr lee",
       "text": "Good afternoon, Mr. Lee.",
       "style": "sentence",
       "path": "audio/en-us/sentence/good-afternoon-mr-lee.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "000b967d572c9a1723b2d45e65c3c05348998c66964d878f38fb467a542c23af"
     },
     {
       "audio_key": "good evening",
       "text": "good evening",
       "style": "sentence",
       "path": "audio/en-us/sentence/good-evening.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "0ade069ba09d111a34705c0bb6c336694864582d29af42ae7d18f8ed99ef93c8"
     },
     {
       "audio_key": "good evening dad",
       "text": "Good evening, Dad.",
       "style": "sentence",
       "path": "audio/en-us/sentence/good-evening-dad.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "90e95c35bda06b5b784c5186308498fa9a0d773d47f2b28feabc10fac2d47178"
     },
     {
       "audio_key": "good night",
       "text": "good night",
       "style": "sentence",
       "path": "audio/en-us/sentence/good-night.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "7c20cf0544f972fa80ce7017bbb7da4b46cc1e0d9bed5545eadb95afca240e51"
     },
     {
       "audio_key": "good night mom",
       "text": "Good night, Mom.",
       "style": "sentence",
       "path": "audio/en-us/sentence/good-night-mom.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "74eff6117b0dfa48b3574d663eaba8927c651efa6be4d678c66b1e64e7092585"
     },
     {
       "audio_key": "goodbye everyone",
       "text": "Goodbye, everyone.",
       "style": "sentence",
       "path": "audio/en-us/sentence/goodbye-everyone.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "e95a0d1c012d08c4de38b444cdf957082aa8e7b760eeff587f40946ec1fae89b"
     },
     {
       "audio_key": "bye",
       "text": "bye",
       "style": "word",
       "path": "audio/en-us/word/bye.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "35d4f790a21418d4932a66d5d89819f4479a06dc4e11cbd5f8657d0bcaf3a8a3"
     },
     {
       "audio_key": "bye see you tomorrow",
       "text": "Bye! See you tomorrow.",
       "style": "sentence",
       "path": "audio/en-us/sentence/bye-see-you-tomorrow.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "c255e287954b252d8cbe3a0091f3334567b7219ef244336098d5ca84e1a01293"
     },
     {
       "audio_key": "see you",
       "text": "see you",
       "style": "sentence",
       "path": "audio/en-us/sentence/see-you.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "9a59070ecb0349487b4a18c8c3bfdaf70f6b5ab101e6f4ae0bd305807b9bb718"
     },
     {
       "audio_key": "see you later",
       "text": "See you later!",
       "style": "sentence",
       "path": "audio/en-us/sentence/see-you-later.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "99c38abf47f9b4420f4ccb0d9627fcf3fcb1828067e607e6d3f0b865bcad9d15"
     },
     {
       "audio_key": "thank you",
       "text": "thank you",
       "style": "sentence",
       "path": "audio/en-us/sentence/thank-you.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "91e1b37d3c6dd67130fbbdfbac15fc043bba97fbedb30acf1a6fa3de988aff14"
     },
     {
       "audio_key": "thanks",
       "text": "thanks",
       "style": "word",
       "path": "audio/en-us/word/thanks.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "403b9ee430f75991cf556ffd7a8eee86c91059e4c174f9758dad1b0aa31fd336"
     },
     {
       "audio_key": "thanks dad",
       "text": "Thanks, Dad.",
       "style": "sentence",
       "path": "audio/en-us/sentence/thanks-dad.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "bec64071ff6594effe345291e6ce5f577d577d362f7aa83e3b742830483db497"
     },
     {
       "audio_key": "you're welcome",
       "text": "You're welcome.",
       "style": "sentence",
       "path": "audio/en-us/sentence/you-re-welcome.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "57d04e0bac6257c4b208b6febf9ff3b1fd2c21d96700d83a47954e2563b9ff85"
     },
     {
       "audio_key": "sorry",
       "text": "sorry",
       "style": "word",
       "path": "audio/en-us/word/sorry.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "99143edd55ee277a092f7e8fe6c8251cee9a9f4b7324fd63f02570d75caf7143"
     },
     {
       "audio_key": "sorry i'm late",
       "text": "Sorry, I'm late.",
       "style": "sentence",
       "path": "audio/en-us/sentence/sorry-i-m-late.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "e728d2389db38e3a428eb6ad6775f03708d060a432e0d6c0e7896192f95c65c0"
     },
     {
       "audio_key": "excuse me",
       "text": "excuse me",
       "style": "sentence",
       "path": "audio/en-us/sentence/excuse-me.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "4d7fa91dee686e618684e5a0c99d875163efe2fb803946f9c62d6a6573bff367"
     },
     {
       "audio_key": "excuse me where is the library",
       "text": "Excuse me, where is the library?",
       "style": "sentence",
       "path": "audio/en-us/sentence/excuse-me-where-is-the-library.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "fb2e71fa000b25eb55270a0322a5f65aa9ef695010605cf946325f27022448d2"
     },
     {
       "audio_key": "yes i can",
       "text": "Yes, I can.",
       "style": "sentence",
       "path": "audio/en-us/sentence/yes-i-can.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "d72985e5770c341d20a1b819db35a855447182564a19ce7522e3f3581a09b402"
     },
     {
       "audio_key": "no",
       "text": "no",
       "style": "word",
       "path": "audio/en-us/word/no.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "a67e819c1d089ebc19eb5395e680cd47bfd40df31173c81eca11a4ba71dc4300"
     },
     {
       "audio_key": "no thank you",
       "text": "No, thank you.",
       "style": "sentence",
       "path": "audio/en-us/sentence/no-thank-you.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "273e6210c0464bde8ace441fafdcc3ad315b51f71b33c80f7830c50810adf916"
     },
     {
       "audio_key": "how are you",
       "text": "how are you?",
       "style": "sentence",
       "path": "audio/en-us/sentence/how-are-you.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "0ff02a283edaa652b3d84695207b2805dcca237852ed21f8571afcafa97ec544"
     },
     {
       "audio_key": "how are you today",
       "text": "How are you today?",
       "style": "sentence",
       "path": "audio/en-us/sentence/how-are-you-today.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "737c5c01515ffe4eeb6ebee4ec514d6f43020693126afc14d606716d401bfc63"
     },
     {
       "audio_key": "i'm fine",
       "text": "I'm fine.",
       "style": "sentence",
       "path": "audio/en-us/sentence/i-m-fine.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "c83e814633300e7e8f3a5ddf19e9b87de5bac33a3b8b05f2f60e7e08073f4540"
     },
     {
       "audio_key": "i'm fine thank you",
       "text": "I'm fine, thank you.",
       "style": "sentence",
       "path": "audio/en-us/sentence/i-m-fine-thank-you.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "c652f3dc2406385d5f820dd3252a50087228bfd33bc59bed8be6835677b87401"
     },
     {
       "audio_key": "nice to meet you",
       "text": "nice to meet you",
       "style": "sentence",
       "path": "audio/en-us/sentence/nice-to-meet-you.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "9b97925a1f02124b4bb3dd5ea11cef37bcf82f45dbdbf6358a73f4e16c2468f1"
     },
     {
       "audio_key": "nice to meet you lily",
       "text": "Nice to meet you, Lily.",
       "style": "sentence",
       "path": "audio/en-us/sentence/nice-to-meet-you-lily.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "e0bf6406c8f3302a2009e867f200c66b19eee204d8c60b590285f1742508b517"
     },
     {
       "audio_key": "welcome",
       "text": "welcome",
       "style": "word",
       "path": "audio/en-us/word/welcome.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "f5bc8734815a07c4bbccfe556fdfec6fa99814d0567234fc6eae570008bc0bb8"
     },
     {
       "audio_key": "welcome to our school",
       "text": "Welcome to our school.",
       "style": "sentence",
       "path": "audio/en-us/sentence/welcome-to-our-school.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "4f26f1d61abd4b70deabfd42a81c32474cd416cfe7ddaa8a5650e7b4d1c5ead4"
     },
     {
       "audio_key": "zero",
       "text": "zero",
       "style": "word",
       "path": "audio/en-us/word/zero.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "4f400faba9f99f55fe7a3fda1e3e5ee68378ef00e36d9464d5d80e8b77b3dc3f"
     },
     {
       "audio_key": "i have zero cookies",
       "text": "I have zero cookies.",
       "style": "sentence",
       "path": "audio/en-us/sentence/i-have-zero-cookies.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "f70fde9cfce1794a8ad8d8e620aab03653baea001be083a307bc19eca65af925"
     },
     {
       "audio_key": "i have one pen",
       "text": "I have one pen.",
       "style": "sentence",
       "path": "audio/en-us/sentence/i-have-one-pen.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "34ad3ddb3cb8d8f0851d3380f8e4f8e6a56717b09a5a64d57b0fcec8c98928c4"
     },
     {
       "audio_key": "i see two birds",
       "text": "I see two birds.",
       "style": "sentence",
       "path": "audio/en-us/sentence/i-see-two-birds.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "7d1f69a25c184416c72078c89cc229172766140bbef35f0175c1fd347cc3bced"
     },
     {
       "audio_key": "i have three books",
       "text": "I have three books.",
       "style": "sentence",
       "path": "audio/en-us/sentence/i-have-three-books.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "b8602723c2166fca15e0f910be1f58ea2f4872622e5c83db973fcd34bc55f07f"
     },
     {
       "audio_key": "four",
       "text": "four",
       "style": "word",
       "path": "audio/en-us/word/four.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "10a9bf626ae743cff3491981c78dea193ab4a4e65631aa12b3b0f4d8cdbb4c5b"
     },
     {
       "audio_key": "four cats are here",
       "text": "Four cats are here.",
       "style": "sentence",
       "path": "audio/en-us/sentence/four-cats-are-here.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "5489880ebb1c33c4dc9f559d537541e1af2924251d02aa65f4cbe84a98055e0b"
     },
     {
       "audio_key": "i have five apples",
       "text": "I have five apples.",
       "style": "sentence",
       "path": "audio/en-us/sentence/i-have-five-apples.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "9fc857c7ab01b21731605d65fbdc6ceea0ff308a5d400a08fb2bbb5d3a8b1be2"
     },
     {
       "audio_key": "six",
       "text": "six",
       "style": "word",
       "path": "audio/en-us/word/six.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "0debcd6ae55ce789b48857fdf20ecefd711073636e6df36403557d8e756a42b0"
     },
     {
       "audio_key": "six ducks can swim",
       "text": "Six ducks can swim.",
       "style": "sentence",
       "path": "audio/en-us/sentence/six-ducks-can-swim.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "6817536094fb6e94487dc93e402f14da54e1995b6938a64ed1d22ec30ed22e82"
     },
     {
       "audio_key": "seven",
       "text": "seven",
       "style": "word",
       "path": "audio/en-us/word/seven.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "f6ded427eedaafb00dff39553e5c1112ecc69376c8d829a74bbba5c77c1c3c41"
     },
     {
       "audio_key": "i see seven stars",
       "text": "I see seven stars.",
       "style": "sentence",
       "path": "audio/en-us/sentence/i-see-seven-stars.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "c657228a965907086a3bc770c954edf367708fae2023ff92d39752631d995f89"
     },
     {
       "audio_key": "eight",
       "text": "eight",
       "style": "word",
       "path": "audio/en-us/word/eight.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "62643d8407448379ccda3a536b01fbc410a35846a27803ef49db5b1835c7d262"
     },
     {
       "audio_key": "i have eight crayons",
       "text": "I have eight crayons.",
       "style": "sentence",
       "path": "audio/en-us/sentence/i-have-eight-crayons.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "91c62010ae949243b1ad67e465411397840a733b0be98140bf4b72269797e2ee"
     },
     {
       "audio_key": "i see nine flowers",
       "text": "I see nine flowers.",
       "style": "sentence",
       "path": "audio/en-us/sentence/i-see-nine-flowers.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "e7c6b8f4ccb6aa46ad33208f251eaf4c4021a5d17140f04519a98e506fbfe540"
     },
     {
       "audio_key": "ten",
       "text": "ten",
       "style": "word",
       "path": "audio/en-us/word/ten.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "3e033b8dfa385126366893389e9c9d5692f0fc6f69a0e96e8388ee4f7d83b74f"
     },
     {
       "audio_key": "i have ten fingers",
       "text": "I have ten fingers.",
       "style": "sentence",
       "path": "audio/en-us/sentence/i-have-ten-fingers.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "dae0e7a32a87b58c1c84c39419b48d31d805d7c59b810603e03b0c34e8c6e9ef"
     },
     {
       "audio_key": "eleven",
       "text": "eleven",
       "style": "word",
       "path": "audio/en-us/word/eleven.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "5685e7b373d093d2bcdfd864ef70cc56d5c635a6dcc65e214abfcc86eec9d7d1"
     },
     {
       "audio_key": "i have eleven cards",
       "text": "I have eleven cards.",
       "style": "sentence",
       "path": "audio/en-us/sentence/i-have-eleven-cards.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "30465f217df4a69266d9bf1eb16225e7cec777dec4668b11bd97e7c9cbf4b1e3"
     },
     {
       "audio_key": "twelve",
       "text": "twelve",
       "style": "word",
       "path": "audio/en-us/word/twelve.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "9540518716a9b4be05a2319e844a87dd39aaf70b3bce780585f065619bcfdf84"
     },
     {
       "audio_key": "there are twelve eggs",
       "text": "There are twelve eggs.",
       "style": "sentence",
       "path": "audio/en-us/sentence/there-are-twelve-eggs.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "f613c33256cb6dc0f8c5e20078c15aa738790c6990ab22c79432421700bc5d67"
     },
     {
       "audio_key": "thirteen",
       "text": "thirteen",
       "style": "word",
       "path": "audio/en-us/word/thirteen.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "981cd53f1b47bec1acdaaf974b2b3104f1aa1ec0b01f290b0655a548422e18b2"
     },
     {
       "audio_key": "i can count to thirteen",
       "text": "I can count to thirteen.",
       "style": "sentence",
       "path": "audio/en-us/sentence/i-can-count-to-thirteen.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "7203db85dd00c109f18191cb5b5402cff7b661240b7bff6d6c944b7b45144500"
     },
     {
       "audio_key": "fourteen",
       "text": "fourteen",
       "style": "word",
       "path": "audio/en-us/word/fourteen.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "a2f667708fcd97c54a06ac42adf7d7f8ba01442e6db95f8c124f3e3ed7059343"
     },
     {
       "audio_key": "fourteen birds are outside",
       "text": "Fourteen birds are outside.",
       "style": "sentence",
       "path": "audio/en-us/sentence/fourteen-birds-are-outside.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "8aa5ecf9c27b34df31bf4d1fcd7554dfdcaf94562241c8ec998405921099a575"
     },
     {
       "audio_key": "fifteen",
       "text": "fifteen",
       "style": "word",
       "path": "audio/en-us/word/fifteen.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "2e94f2561ab7731d76283d5446060d7372b7d8048133a8f28d1147b800275b63"
     },
     {
       "audio_key": "fifteen students are here",
       "text": "Fifteen students are here.",
       "style": "sentence",
       "path": "audio/en-us/sentence/fifteen-students-are-here.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "bc6ed68e34901761b64cff54cbf83eecba1228c491de00e2f019442aa4080473"
     },
     {
       "audio_key": "sixteen",
       "text": "sixteen",
       "style": "word",
       "path": "audio/en-us/word/sixteen.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "b09015b41a0390f6cb1f580d11ca1fd736d91362b6f385d2e3b63b93f5894c32"
     },
     {
       "audio_key": "i have sixteen stickers",
       "text": "I have sixteen stickers.",
       "style": "sentence",
       "path": "audio/en-us/sentence/i-have-sixteen-stickers.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "bbf1c56b53f291989e96139afeb802dd7201540b26a93f3b8720a22ab6615f59"
     },
     {
       "audio_key": "seventeen",
       "text": "seventeen",
       "style": "word",
       "path": "audio/en-us/word/seventeen.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "f0e14264e726e18f077c2cb87fa24f25401bb01789fd510147e5c803c7c4458e"
     },
     {
       "audio_key": "i see seventeen stars",
       "text": "I see seventeen stars.",
       "style": "sentence",
       "path": "audio/en-us/sentence/i-see-seventeen-stars.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "f473a5483d5c55b91709684d823f26ff197fbb54fc98d845f3d654ad1624a012"
     },
     {
       "audio_key": "eighteen",
       "text": "eighteen",
       "style": "word",
       "path": "audio/en-us/word/eighteen.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "10e442a3a768b894b85cdd8ebd17e1349eb79a742a0890327535142da44ba676"
     },
     {
       "audio_key": "there are eighteen pencils",
       "text": "There are eighteen pencils.",
       "style": "sentence",
       "path": "audio/en-us/sentence/there-are-eighteen-pencils.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "406e569e0b2fb64796eedc85bdcc27e32f6603a43e7d8420527a699155c8dd05"
     },
     {
       "audio_key": "nineteen",
       "text": "nineteen",
       "style": "word",
       "path": "audio/en-us/word/nineteen.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "95659c50b0305f674efa7f8259311097a1846899c4bcfb036a4c3e331d3931ae"
     },
     {
       "audio_key": "i have nineteen blocks",
       "text": "I have nineteen blocks.",
       "style": "sentence",
       "path": "audio/en-us/sentence/i-have-nineteen-blocks.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "6c8215e6c67931a8a765ac544af49afda9a2f13a4eb1445e1165773ae5a61712"
     },
     {
       "audio_key": "twenty",
       "text": "twenty",
       "style": "word",
       "path": "audio/en-us/word/twenty.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "5389fff29a70ee146fbe8e47ddab26c5ba9a374b6f6b3c726b4f26882f03654d"
     },
     {
       "audio_key": "i have twenty blocks",
       "text": "I have twenty blocks.",
       "style": "sentence",
       "path": "audio/en-us/sentence/i-have-twenty-blocks.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "ca1ba89b3191b1b22b4f970b04bd6d822487fd83b555c351d2deca4a79fd339b"
     },
     {
       "audio_key": "twentyone",
       "text": "twenty-one",
       "style": "word",
       "path": "audio/en-us/word/twentyone.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "724eea57b10ab2dde3d61dc46c239e1db7207f41b0f444f7ed9a88a981207240"
     },
     {
       "audio_key": "i have twentyone stickers",
       "text": "I have twenty-one stickers.",
       "style": "sentence",
       "path": "audio/en-us/sentence/i-have-twentyone-stickers.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "7c70351a95b836bd97591f68f6f2bb5d9ac9af6073270bb58aa134294be9702c"
     },
     {
       "audio_key": "twentytwo",
       "text": "twenty-two",
       "style": "word",
       "path": "audio/en-us/word/twentytwo.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "406833307a131f80af78be5f808a53ff9445f5838aeb6ffdcfef7c357c2709de"
     },
     {
       "audio_key": "i see twentytwo birds",
       "text": "I see twenty-two birds.",
       "style": "sentence",
       "path": "audio/en-us/sentence/i-see-twentytwo-birds.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "5d1c7b486dc39f6f9ac5ea39914b11c3583df4c3710c2036c5db52726ef63e14"
     },
     {
       "audio_key": "twentythree",
       "text": "twenty-three",
       "style": "word",
       "path": "audio/en-us/word/twentythree.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "61c641fd5f15ca9440316f3d7b79d24b7825160475507214100c44546e8d0c95"
     },
     {
       "audio_key": "there are twentythree books",
       "text": "There are twenty-three books.",
       "style": "sentence",
       "path": "audio/en-us/sentence/there-are-twentythree-books.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "90e3187ff45b8a7173068293a412afa1af84cc1d70255653880d7d66846e0a9f"
     },
     {
       "audio_key": "twentyfour",
       "text": "twenty-four",
       "style": "word",
       "path": "audio/en-us/word/twentyfour.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "b07513376919bff722916356ec006d37c843a471709b3ebab3c6b4679260f336"
     },
     {
       "audio_key": "i have twentyfour cards",
       "text": "I have twenty-four cards.",
       "style": "sentence",
       "path": "audio/en-us/sentence/i-have-twentyfour-cards.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "21420f905d7c83ffcac774825e401fccdae167b8f1d980267cd9fe4807c2ad6e"
     },
     {
       "audio_key": "twentyfive",
       "text": "twenty-five",
       "style": "word",
       "path": "audio/en-us/word/twentyfive.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "fda6540973762eed477856a22d727c6a85d7ebb4f01e51de19cd8227210ce1a1"
     },
     {
       "audio_key": "there are twentyfive students",
       "text": "There are twenty-five students.",
       "style": "sentence",
       "path": "audio/en-us/sentence/there-are-twentyfive-students.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "731f6c759ba80ae5d5b57bda08915b0bc671cd09393339079fc611e75df7bf7a"
     },
     {
       "audio_key": "twentysix",
       "text": "twenty-six",
       "style": "word",
       "path": "audio/en-us/word/twentysix.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "3fa1038cf7b3edb8cf9176c399b722c590ab0f5b729c54b5c0f8e42e6d7471b3"
     },
     {
       "audio_key": "i have twentysix crayons",
       "text": "I have twenty-six crayons.",
       "style": "sentence",
       "path": "audio/en-us/sentence/i-have-twentysix-crayons.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "d9a55f6976b83871587eff38372544ba1702a789ff9beca6fda3cc387cf66802"
     },
     {
       "audio_key": "twentyseven",
       "text": "twenty-seven",
       "style": "word",
       "path": "audio/en-us/word/twentyseven.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "13a59eec82391cfb0066a3c962aff85ae61b06fbe1458c8b82e3b67b72d4400a"
     },
     {
       "audio_key": "i see twentyseven stars",
       "text": "I see twenty-seven stars.",
       "style": "sentence",
       "path": "audio/en-us/sentence/i-see-twentyseven-stars.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "8f42c15d6eacfdf4c63e8d1378cea904debc0036c0484afb2d22183242cecbd7"
     },
     {
       "audio_key": "twentyeight",
       "text": "twenty-eight",
       "style": "word",
       "path": "audio/en-us/word/twentyeight.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "62c95262e00ee2fc160e4b4e0c32ed6e2d30eeff70a84ba23ad787c19f8d587e"
     },
     {
       "audio_key": "there are twentyeight days in february in a common year",
       "text": "There are twenty-eight days in February in a common year.",
       "style": "sentence",
       "path": "audio/en-us/sentence/there-are-twentyeight-days-in-february-in-a-common-year.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "52302ee265afbb7ee810523ce6d2364627f1305d461a5eff10ffc249e21c3ccc"
     },
     {
       "audio_key": "twentynine",
       "text": "twenty-nine",
       "style": "word",
       "path": "audio/en-us/word/twentynine.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "3410ff3dc5fb9e30cdba22bc9ddd56a9222154d3398cf81bb18e3ba06e003568"
     },
     {
       "audio_key": "i have twentynine marbles",
       "text": "I have twenty-nine marbles.",
       "style": "sentence",
       "path": "audio/en-us/sentence/i-have-twentynine-marbles.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "055d41436fbcdf8750d60a7a4bf1f97b013697c4af08bf264094592c7dd61327"
     },
     {
       "audio_key": "thirty",
       "text": "thirty",
       "style": "word",
       "path": "audio/en-us/word/thirty.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "0562ec4750e0dc7149d8e2ff931b70587da5904c6573f1a7c1e88d1cecc1ca0c"
     },
     {
       "audio_key": "i have thirty stickers",
       "text": "I have thirty stickers.",
       "style": "sentence",
       "path": "audio/en-us/sentence/i-have-thirty-stickers.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "7561b7b15340318f6fc4d84bede94ea86beffda6dcfb000bacbb554c25abd523"
     },
     {
       "audio_key": "forty",
       "text": "forty",
       "style": "word",
       "path": "audio/en-us/word/forty.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "09363bfa3be808ad42c5419720751f735cdd56919cab996804ba9145c9f9a335"
     },
     {
       "audio_key": "forty books are on the shelf",
       "text": "Forty books are on the shelf.",
       "style": "sentence",
       "path": "audio/en-us/sentence/forty-books-are-on-the-shelf.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "905a00915e4020f17849a00134cbea59a2ca28f06e18afe138bda023840a8080"
     },
     {
       "audio_key": "fifty",
       "text": "fifty",
       "style": "word",
       "path": "audio/en-us/word/fifty.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "ea5a644da3531a7ae5a348fc0e08ee7b680d296c73fa7a2913ac61f76d08a77d"
     },
     {
       "audio_key": "the chart has fifty stars",
       "text": "The chart has fifty stars.",
       "style": "sentence",
       "path": "audio/en-us/sentence/the-chart-has-fifty-stars.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "a48530f6a74e3a76aff2236992a8370de7ea7c93359c1277fed7b5b44e1d4ec3"
     },
     {
       "audio_key": "sixty",
       "text": "sixty",
       "style": "word",
       "path": "audio/en-us/word/sixty.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "e9d56882003f7c34c1a2cdf3fd5b40f140b8361e4d250140590d59401773a4fe"
     },
     {
       "audio_key": "sixty seconds make a minute",
       "text": "Sixty seconds make a minute.",
       "style": "sentence",
       "path": "audio/en-us/sentence/sixty-seconds-make-a-minute.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "fdfdfde24f194d527645d3da55b30daf082c07e318a5845d0808fb34fa2d5a50"
     },
     {
       "audio_key": "seventy",
       "text": "seventy",
       "style": "word",
       "path": "audio/en-us/word/seventy.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "72fbdeb51b933be3dd51b6a96a3181bfe8f92ea9f8048f463bb54b233cf3bbe9"
     },
     {
       "audio_key": "seventy is more than sixty",
       "text": "Seventy is more than sixty.",
       "style": "sentence",
       "path": "audio/en-us/sentence/seventy-is-more-than-sixty.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "5bab3492d45f5ea1da8aad57838b4783ce926bc7d3566a6ef7125f29f4b2a271"
     },
     {
       "audio_key": "eighty",
       "text": "eighty",
       "style": "word",
       "path": "audio/en-us/word/eighty.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "6e150f5215ed33fc0d184a31eb36feb89a111aaa4e03dcb87a093dc41bd0394c"
     },
     {
       "audio_key": "eighty is a number",
       "text": "Eighty is a number.",
       "style": "sentence",
       "path": "audio/en-us/sentence/eighty-is-a-number.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "39e7efc90490a39d78bb7e3018484665628eef0c66ebe7a004879954f6125c93"
     },
     {
       "audio_key": "ninety",
       "text": "ninety",
       "style": "word",
       "path": "audio/en-us/word/ninety.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "787160355bb5862fada3f39fa7d7bd3d3582a2d07a8e3175f12dd4695a649baa"
     },
     {
       "audio_key": "ninety is ten less than one hundred",
       "text": "Ninety is ten less than one hundred.",
       "style": "sentence",
       "path": "audio/en-us/sentence/ninety-is-ten-less-than-one-hundred.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "6a66984f730b651c0f4b61e9a5fb6c40804b5656bc0ac7e53a37a48305c3bbcc"
     },
     {
       "audio_key": "one hundred",
       "text": "one hundred",
       "style": "sentence",
       "path": "audio/en-us/sentence/one-hundred.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "ba93b55ef0779ff354437e10241ace254625dcc327535c71080321bf38ddb978"
     },
     {
       "audio_key": "i can count to one hundred",
       "text": "I can count to one hundred.",
       "style": "sentence",
       "path": "audio/en-us/sentence/i-can-count-to-one-hundred.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "9cc713bb8304ece85a8f84128c6978d0afed6b4fa3b51a9d1ce4d1c4d02b9b1a"
     },
     {
       "audio_key": "number",
       "text": "number",
       "style": "word",
       "path": "audio/en-us/word/number.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "4e5469d8cb56cc4c81b9d452d069c27ea1ddab0cb8b12f74fdef3825ef733bf9"
     },
     {
       "audio_key": "what is your number",
       "text": "What is your number?",
       "style": "sentence",
       "path": "audio/en-us/sentence/what-is-your-number.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "536804f67e828f72eca2255f38bdabdbe272ef9f1dfdec3fbe46e6b7f1502b2d"
     },
     {
       "audio_key": "count",
       "text": "count",
       "style": "word",
       "path": "audio/en-us/word/count.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "2e41ee9cdb4b756195c99eb23b6a4fe130ea935251b1c8cae76bd7865a53af48"
     },
     {
       "audio_key": "count from one to ten",
       "text": "Count from one to ten.",
       "style": "sentence",
       "path": "audio/en-us/sentence/count-from-one-to-ten.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "59311640f11bd20619817e72790332a8f8ee5a8e116d7cd2941230a26a8585d3"
     },
     {
       "audio_key": "how many",
       "text": "how many",
       "style": "sentence",
       "path": "audio/en-us/sentence/how-many.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "1071484717f6afb14e008a33231cf08a7ae671ebad7c7d9a24a1636f26323eb0"
     },
     {
       "audio_key": "how many books do you have",
       "text": "How many books do you have?",
       "style": "sentence",
       "path": "audio/en-us/sentence/how-many-books-do-you-have.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "07f4b8f56081e18783c90c563a97fece035bb1d23963a58fba5e71554019946d"
     },
     {
       "audio_key": "how much",
       "text": "how much",
       "style": "sentence",
       "path": "audio/en-us/sentence/how-much.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "b8aa9e4535bb93f287dfc5677e3f17a548301b5e29ee8c9d9e2550809addfd5e"
     },
     {
       "audio_key": "how much water do you want",
       "text": "How much water do you want?",
       "style": "sentence",
       "path": "audio/en-us/sentence/how-much-water-do-you-want.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "79118774eb285a85f843765ce8a2a9d39f0e19f12c044d6b4fae727e2e3c0536"
     },
     {
       "audio_key": "many",
       "text": "many",
       "style": "word",
       "path": "audio/en-us/word/many.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "997234e74925a1360a8b5552493540f1fdca0df431b5538a1d3e99f83dc1823c"
     },
     {
       "audio_key": "i have many toys",
       "text": "I have many toys.",
       "style": "sentence",
       "path": "audio/en-us/sentence/i-have-many-toys.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "bcd256a54c037d6cb553f3fc8aca6ce618ea5e8d60d9403f4a5ce1bb72d9195c"
     },
     {
       "audio_key": "we don't have much time",
       "text": "We don't have much time.",
       "style": "sentence",
       "path": "audio/en-us/sentence/we-don-t-have-much-time.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "3b30cbc951ef3011b7a92f38162a6205c1fe77322f0ea6592290f62bcda59643"
     },
     {
       "audio_key": "more",
       "text": "more",
       "style": "word",
       "path": "audio/en-us/word/more.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "873b168ece9dc19b9ee705f4f73659dda03fa852fee2710474ef6123e947a73d"
     },
     {
       "audio_key": "i want more milk",
       "text": "I want more milk.",
       "style": "sentence",
       "path": "audio/en-us/sentence/i-want-more-milk.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "79bbe42e84a3f8fab539c0faf79d5606a7261bd8a17af0b116cd146b31f1e829"
     },
     {
       "audio_key": "less",
       "text": "less",
       "style": "word",
       "path": "audio/en-us/word/less.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "450e654890dac788cd023d64942b10276525a372451b3479e5f637baa71d0fcb"
     },
     {
       "audio_key": "this box has less water",
       "text": "This box has less water.",
       "style": "sentence",
       "path": "audio/en-us/sentence/this-box-has-less-water.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "877528ed2bde613fbc67654da73cc9e5318c4a2ad102660687126d7c88929197"
     },
     {
       "audio_key": "i have some pencils",
       "text": "I have some pencils.",
       "style": "sentence",
       "path": "audio/en-us/sentence/i-have-some-pencils.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "da1d49a1a37b167862d8cac27d1e80ec1ef730a4cb71a486e7b04e7e23897c50"
     },
     {
       "audio_key": "any",
       "text": "any",
       "style": "word",
       "path": "audio/en-us/word/any.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "234117579c7894d823a50c2dff4f64c888aa4e707f906522c81f562de7afddcb"
     },
     {
       "audio_key": "do you have any questions",
       "text": "Do you have any questions?",
       "style": "sentence",
       "path": "audio/en-us/sentence/do-you-have-any-questions.mp3",
-      "intonation": "rise"
+      "intonation": "rise",
+      "sha256": "5434b91512e686c3f16a3896a9eb3f09c7688fc2a1b8648f908da1b162500bd1"
     },
     {
       "audio_key": "all",
       "text": "all",
       "style": "word",
       "path": "audio/en-us/word/all.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "53568bb37e92e51c4cf39882836b272309e43af60d169fee22ee71f8d683b364"
     },
     {
       "audio_key": "all the children are here",
       "text": "All the children are here.",
       "style": "sentence",
       "path": "audio/en-us/sentence/all-the-children-are-here.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "7c63c035264cdd59d0201c52365c7254d5fc75b21a5a32b088c62fd26f9297b2"
     },
     {
       "audio_key": "half",
       "text": "half",
       "style": "word",
       "path": "audio/en-us/word/half.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "e2ac7414b3bbcd9ddb99acc785a13fe9d55b2b1554555d3d7f2ead2cd2740185"
     },
     {
       "audio_key": "i ate half an apple",
       "text": "I ate half an apple.",
       "style": "sentence",
       "path": "audio/en-us/sentence/i-ate-half-an-apple.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "b3ee2724538e98a9d863e3a03dcdb979164f47a6521b1cb7dde588b2459bcbf7"
     },
     {
       "audio_key": "first",
       "text": "first",
       "style": "word",
       "path": "audio/en-us/word/first.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "1bc6bbda3ac5ce325b534a67cac33291399275dd710e1a456c3c12ba6af35282"
     },
     {
       "audio_key": "this is my first book",
       "text": "This is my first book.",
       "style": "sentence",
       "path": "audio/en-us/sentence/this-is-my-first-book.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "e5e778120ac7664de2b3eac938237d36d7648d07ed3bfd6b61e482b09d55a972"
     },
     {
       "audio_key": "second",
       "text": "second",
       "style": "word",
       "path": "audio/en-us/word/second.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "b60799b91abd7d4d4965bdb3c7c938413720829f3e00f486e8119eec2a1f4088"
     },
     {
       "audio_key": "the second answer is right",
       "text": "The second answer is right.",
       "style": "sentence",
       "path": "audio/en-us/sentence/the-second-answer-is-right.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "243a014f4dccba84870af69a791e5c9e7b7703599d0867b42c0a65b6eefba484"
     },
     {
       "audio_key": "third",
       "text": "third",
       "style": "word",
       "path": "audio/en-us/word/third.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "8f4e8c08d261b4e6f834ca9014e5258121a41e4e4edeb69d06614907440be321"
     },
     {
       "audio_key": "the third box is blue",
       "text": "The third box is blue.",
       "style": "sentence",
       "path": "audio/en-us/sentence/the-third-box-is-blue.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "686cf56d05f20303d54e3bf5850fa7a3d34a4e66ce31c6565f7d687ff51111e9"
     },
     {
       "audio_key": "each",
       "text": "each",
       "style": "word",
       "path": "audio/en-us/word/each.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "8bfa2336028def6e63a967110a4006aee4271d5aefa8268880bb66d86dcbbadb"
     },
     {
       "audio_key": "each child has a book",
       "text": "Each child has a book.",
       "style": "sentence",
       "path": "audio/en-us/sentence/each-child-has-a-book.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "4561a925c4c119ee4b18f55eaafdffea3b3999c33bdef0e18e60777c27078e7a"
     },
     {
       "audio_key": "i read every day",
       "text": "I read every day.",
       "style": "sentence",
       "path": "audio/en-us/sentence/i-read-every-day.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "e775fb09bc22f2839bd40c825d78f3d996278a93c4f9ac0df3c406ad85719e88"
     },
     {
       "audio_key": "a lot of",
       "text": "a lot of",
       "style": "sentence",
       "path": "audio/en-us/sentence/a-lot-of.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "99a7e6c8a1c5f6e7fdc2ab9dcc1c3c2dc7b7d4ff485a2de03b6c16683b4cf1e7"
     },
     {
       "audio_key": "i have a lot of books",
       "text": "I have a lot of books.",
       "style": "sentence",
       "path": "audio/en-us/sentence/i-have-a-lot-of-books.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "84f19d307d0686e8460d184dbcc1014cb500763d4fff90339358cb045580bfd8"
     },
     {
       "audio_key": "few",
       "text": "few",
       "style": "word",
       "path": "audio/en-us/word/few.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "ac6cf5f520a7286d82cc89671c0e265b4b1053857e19d0252ccdff336b1dbcc0"
     },
     {
       "audio_key": "few people are here",
       "text": "Few people are here.",
       "style": "sentence",
       "path": "audio/en-us/sentence/few-people-are-here.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "55a095332d6c9092e14300050bcc2b3970eeb04f8abb664b340b5ebbc16ffc58"
     },
     {
       "audio_key": "a few",
       "text": "a few",
       "style": "sentence",
       "path": "audio/en-us/sentence/a-few.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "58d6036daeb27f1ce01cf627fe86e076eb0669c5d154a3e2d06000469f7a242a"
     },
     {
       "audio_key": "i have a few toys",
       "text": "I have a few toys.",
       "style": "sentence",
       "path": "audio/en-us/sentence/i-have-a-few-toys.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "7542140260081024e9c82b1b3aa8f14a6a4ac5a1263ada124a7f5b7fe2477d96"
     },
     {
       "audio_key": "there is little milk left",
       "text": "There is little milk left.",
       "style": "sentence",
       "path": "audio/en-us/sentence/there-is-little-milk-left.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "16ddb239efa44b2e841b8db3a6aeabb70f9a18f939bca10259577f37f3a48e5f"
     },
     {
       "audio_key": "a little",
       "text": "a little",
       "style": "sentence",
       "path": "audio/en-us/sentence/a-little.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "fb00830a550001d50c684480b5f6fa09548dd75229908f62640c066cdef2cd69"
     },
     {
       "audio_key": "i want a little water",
       "text": "I want a little water.",
       "style": "sentence",
       "path": "audio/en-us/sentence/i-want-a-little-water.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "df177b836a8114399866fc1331faae1f36b78629ee46b647caa300f2d3460914"
     },
     {
       "audio_key": "enough",
       "text": "enough",
       "style": "word",
       "path": "audio/en-us/word/enough.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "bb3bab9c8a17d32e024617f188eccd7f3413f524cc456d069f8ad7f0a6715a8b"
     },
     {
       "audio_key": "we have enough chairs",
       "text": "We have enough chairs.",
       "style": "sentence",
       "path": "audio/en-us/sentence/we-have-enough-chairs.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "1f44a50c1b157354d6e4fac3fa95ce977e57c5b2d790179681cf1445a3fd8b1b"
     },
     {
       "audio_key": "total",
       "text": "total",
       "style": "word",
       "path": "audio/en-us/word/total.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "e631e3bd52c782a6927d8a519ae0da91955637e5618b2c5a6871e0c79faf786d"
     },
     {
       "audio_key": "the total is ten",
       "text": "The total is ten.",
       "style": "sentence",
       "path": "audio/en-us/sentence/the-total-is-ten.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "560317cd01d99b8430d71e9ad3ff1996a7735b2c2e77de473b83639fa1fdf71b"
     },
     {
       "audio_key": "the apple is red",
       "text": "The apple is red.",
       "style": "sentence",
       "path": "audio/en-us/sentence/the-apple-is-red.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "f3c15ba89088e69331035652b73ec071d2efcdb5ea7ed1e0da1d66d3e6ccfbb5"
     },
     {
       "audio_key": "the sky is blue",
       "text": "The sky is blue.",
       "style": "sentence",
       "path": "audio/en-us/sentence/the-sky-is-blue.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "02e1fb0c494abb8374ed5ced5a6e3f01a91309a46824337a5f8778946a638850"
     },
     {
       "audio_key": "the sun is yellow",
       "text": "The sun is yellow.",
       "style": "sentence",
       "path": "audio/en-us/sentence/the-sun-is-yellow.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "14b565e3c06819736b85634f729235de3881e694d5052c89f17bbd4e1f08cd1a"
     },
     {
       "audio_key": "green",
       "text": "green",
       "style": "word",
       "path": "audio/en-us/word/green.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "bdb862434b35260bc18cd2f87fefd94f38db5e94894202c0d90de21145020c4f"
     },
     {
       "audio_key": "the leaf is green",
       "text": "The leaf is green.",
       "style": "sentence",
       "path": "audio/en-us/sentence/the-leaf-is-green.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "929435dc988525504ba65b23d17167044a87bf9501ec4ad63b3e39bc495f6c76"
     },
     {
       "audio_key": "orange",
       "text": "orange",
       "style": "word",
       "path": "audio/en-us/word/orange.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "5efe9534a30bf6d45fc0831eccb28c85f1941c5b316702c29e0d2180cef841ea"
     },
     {
       "audio_key": "my bag is orange",
       "text": "My bag is orange.",
       "style": "sentence",
       "path": "audio/en-us/sentence/my-bag-is-orange.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "4a23df0b6dd6fe0ca2ab4cf3cd93fb2fff492e4370b698cfdfa7edcf289078c5"
     },
     {
       "audio_key": "purple",
       "text": "purple",
       "style": "word",
       "path": "audio/en-us/word/purple.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "c0336f3f03bd560db4b56bcc3e1deea442a079ff0f0eaadb4c8a74ca75599864"
     },
     {
       "audio_key": "the flower is purple",
       "text": "The flower is purple.",
       "style": "sentence",
       "path": "audio/en-us/sentence/the-flower-is-purple.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "cc953c468cb78dd84ce4f42d8c5ae2f7a222a9befe5dc884013f226ca7a38865"
     },
     {
       "audio_key": "pink",
       "text": "pink",
       "style": "word",
       "path": "audio/en-us/word/pink.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "6378d7549b4f1022664b492c5ba23609c40d6a484071f75ab8e33bccccfc5350"
     },
     {
       "audio_key": "the cup is pink",
       "text": "The cup is pink.",
       "style": "sentence",
       "path": "audio/en-us/sentence/the-cup-is-pink.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "dfba479a9734a4015497d1f1714df02db618617e80380c7ca22981bb3834fd66"
     },
     {
       "audio_key": "black",
       "text": "black",
       "style": "word",
       "path": "audio/en-us/word/black.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "62211839e8e396f8fe3030dffe9871362df2a5e05555da59003bc309dad4e1e1"
     },
     {
       "audio_key": "the cat is black",
       "text": "The cat is black.",
       "style": "sentence",
       "path": "audio/en-us/sentence/the-cat-is-black.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "8211d5b6189b5aca3368bc1447ffa58ee2a776a1d0901c99911f787d62a19450"
     },
     {
       "audio_key": "white",
       "text": "white",
       "style": "word",
       "path": "audio/en-us/word/white.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "4cb326774d683b08b53dce5862264d4c1c389667353d60ec0d8d7eea96a5ee69"
     },
     {
       "audio_key": "the snow is white",
       "text": "The snow is white.",
       "style": "sentence",
       "path": "audio/en-us/sentence/the-snow-is-white.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "4212c48c7d9e2863518d790bf5bae2d7d39cbadc91fe6cddebdd85443f9dbbed"
     },
     {
       "audio_key": "brown",
       "text": "brown",
       "style": "word",
       "path": "audio/en-us/word/brown.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "102cae9ab59d328104c0697bac4c055c0b0c2b6b30588a5635d347f0c2d2c9d3"
     },
     {
       "audio_key": "the bear is brown",
       "text": "The bear is brown.",
       "style": "sentence",
       "path": "audio/en-us/sentence/the-bear-is-brown.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "d7e1cf78de132b3f8b93cd3ea84ce66f03079891a21fc30f1b90b10744a789e2"
     },
     {
       "audio_key": "gray",
       "text": "gray",
       "style": "word",
       "path": "audio/en-us/word/gray.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "5df3d95709034a2d339f66ed0ab5214b2ba3abadf879858298b9864959e2d0aa"
     },
     {
       "audio_key": "the mouse is gray",
       "text": "The mouse is gray.",
       "style": "sentence",
       "path": "audio/en-us/sentence/the-mouse-is-gray.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "8cf408d8f660ec40ea478ef75977ea4a34213f1a8551cdf57e9b7691f7b85f44"
     },
     {
       "audio_key": "gold",
       "text": "gold",
       "style": "word",
       "path": "audio/en-us/word/gold.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "98910f1dedad2929e671d94ba209f3c69c764d37845535995b4b3d019f9499b3"
     },
     {
       "audio_key": "the star is gold",
       "text": "The star is gold.",
       "style": "sentence",
       "path": "audio/en-us/sentence/the-star-is-gold.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "b91dff12206e103dcd6ad9ed241beb24141f2972c7cdc6d5ff5aa5f833b926a5"
     },
     {
       "audio_key": "silver",
       "text": "silver",
       "style": "word",
       "path": "audio/en-us/word/silver.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "0ad6db9160beb384b9c1fef48aee259c005e02995ec9eb5c578266d82a959d5f"
     },
     {
       "audio_key": "the spoon is silver",
       "text": "The spoon is silver.",
       "style": "sentence",
       "path": "audio/en-us/sentence/the-spoon-is-silver.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "46974987d992453a3c034384f1eab45292c582c5dc795ae2d81cae09e1535326"
     },
     {
       "audio_key": "light blue",
       "text": "light blue",
       "style": "sentence",
       "path": "audio/en-us/sentence/light-blue.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "0975e6d6ca77fe806db43501bd9399b10f86f9068edcb71ae0a245ebd14d467f"
     },
     {
       "audio_key": "my shirt is light blue",
       "text": "My shirt is light blue.",
       "style": "sentence",
       "path": "audio/en-us/sentence/my-shirt-is-light-blue.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "a2deac664b52c43a25029f7fe650412725476f4b9bf5dd664c2e7b01943a04ca"
     },
     {
       "audio_key": "dark blue",
       "text": "dark blue",
       "style": "sentence",
       "path": "audio/en-us/sentence/dark-blue.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "f7fb48b92289ab7a914167045ee35fcd41ead130652452074e56c735de493941"
     },
     {
       "audio_key": "the bag is dark blue",
       "text": "The bag is dark blue.",
       "style": "sentence",
       "path": "audio/en-us/sentence/the-bag-is-dark-blue.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "5028e2ed6ac7b5e247ee93a80bde04c39da41293f402f5cf3e24f93253fd86f6"
     },
     {
       "audio_key": "light green",
       "text": "light green",
       "style": "sentence",
       "path": "audio/en-us/sentence/light-green.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "868addd9ad9312132196f50d7976f2c79c3add4a079bb8456a9ddb01c9c68f13"
     },
     {
       "audio_key": "the wall is light green",
       "text": "The wall is light green.",
       "style": "sentence",
       "path": "audio/en-us/sentence/the-wall-is-light-green.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "269452ddf83d3ffc6c69fb83a2a8e98fb45a782450abb82725a48d97ebab2a28"
     },
     {
       "audio_key": "dark green",
       "text": "dark green",
       "style": "sentence",
       "path": "audio/en-us/sentence/dark-green.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "31010f261a94e35c61fddd696bbaeb14611aa62d5a57417326d870775cdec763"
     },
     {
       "audio_key": "the tree is dark green",
       "text": "The tree is dark green.",
       "style": "sentence",
       "path": "audio/en-us/sentence/the-tree-is-dark-green.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "b83e498114a2fa448d56eb9f33106302ea88a1a78446105547ff21e960a5a8f8"
     },
     {
       "audio_key": "beige",
       "text": "beige",
       "style": "word",
       "path": "audio/en-us/word/beige.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "ffb8832b804629fc2b417afef0f170c3662da14e6f1256997e0d34df8046c654"
     },
     {
       "audio_key": "the hat is beige",
       "text": "The hat is beige.",
       "style": "sentence",
       "path": "audio/en-us/sentence/the-hat-is-beige.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "25758eae20cfd46686f3c07b527845d6dae6f3a25df8ab47a6665bd810fb2942"
     },
     {
       "audio_key": "violet",
       "text": "violet",
       "style": "word",
       "path": "audio/en-us/word/violet.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "22fceeb70ca1570788c70b83fbef09ccebb7216443c973235010215fac976a81"
     },
     {
       "audio_key": "the ribbon is violet",
       "text": "The ribbon is violet.",
       "style": "sentence",
       "path": "audio/en-us/sentence/the-ribbon-is-violet.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "9187b530209f254cbc53ff5c3184f275f44b8f8fa3e751616faa585722eb5e28"
     },
     {
       "audio_key": "shape",
       "text": "shape",
       "style": "word",
       "path": "audio/en-us/word/shape.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "df91df6005690b094429e268f726aff53627d5d160d34a1a35c945df8c5aff35"
     },
     {
       "audio_key": "what shape is it",
       "text": "What shape is it?",
       "style": "sentence",
       "path": "audio/en-us/sentence/what-shape-is-it.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "3d7ca5d25f1b170cba0fe0443f5effb3e6b2cc06233e4008d1a6f50b691d6d7a"
     },
     {
       "audio_key": "circle",
       "text": "circle",
       "style": "word",
       "path": "audio/en-us/word/circle.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "9e94a4177817555f1fa092e4507b370940a371ada86ebb33238f996c307068a4"
     },
     {
       "audio_key": "it is a circle",
       "text": "It is a circle.",
       "style": "sentence",
       "path": "audio/en-us/sentence/it-is-a-circle.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "8096c1ce60114a7631c5c38cd87f35df181b62ac28c433342974f18599b7dd0c"
     },
     {
       "audio_key": "square",
       "text": "square",
       "style": "word",
       "path": "audio/en-us/word/square.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "3ec02331d5fa29affff07daf1fb0caaf29a8b05ecff1b183fa3540f3a1a841a8"
     },
     {
       "audio_key": "draw a square",
       "text": "Draw a square.",
       "style": "sentence",
       "path": "audio/en-us/sentence/draw-a-square.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "5091b6b717117698ecef316d94d41523a8d9d032f81f041e390d5aaa783f7aca"
     },
     {
       "audio_key": "triangle",
       "text": "triangle",
       "style": "word",
       "path": "audio/en-us/word/triangle.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "0d0d0ef32d7927cdd02f7832fcd3b3cce42509663339819999c8d6a11a0fd341"
     },
     {
       "audio_key": "the sign is a triangle",
       "text": "The sign is a triangle.",
       "style": "sentence",
       "path": "audio/en-us/sentence/the-sign-is-a-triangle.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "f64473666c1b23b9ccc01e5193cc0cdd3ae014288c5c7976db16fb2660fe363b"
     },
     {
       "audio_key": "rectangle",
       "text": "rectangle",
       "style": "word",
       "path": "audio/en-us/word/rectangle.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "49ac67c187d31dbaeab4b954ed311e1647dfdf291939c47297335842400ae18a"
     },
     {
       "audio_key": "the book is a rectangle",
       "text": "The book is a rectangle.",
       "style": "sentence",
       "path": "audio/en-us/sentence/the-book-is-a-rectangle.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "4ae365fa81427114119bff8c31f3102c25aae4642debfdae99ad8457ad73ad89"
     },
     {
       "audio_key": "draw a star",
       "text": "Draw a star.",
       "style": "sentence",
       "path": "audio/en-us/sentence/draw-a-star.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "0d0647a76a0a24ebea1b6392b4d0af25646e24be028976c8573284375b87c50b"
     },
     {
       "audio_key": "heart",
       "text": "heart",
       "style": "word",
       "path": "audio/en-us/word/heart.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "7e8dead483bbbb423f00c5a4aaa4877132dd638bc629b79b63d24fb294acedf2"
     },
     {
       "audio_key": "the card has a heart",
       "text": "The card has a heart.",
       "style": "sentence",
       "path": "audio/en-us/sentence/the-card-has-a-heart.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "64759edf8333b2717c41d9b621800667d82e1ba762d5f561613dcbb7f4b7e64f"
     },
     {
       "audio_key": "oval",
       "text": "oval",
       "style": "word",
       "path": "audio/en-us/word/oval.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "adc2bb251459db8ba2668b8e8900c99c2547b0b3f80ed7bac3ee70fbffce5a54"
     },
     {
       "audio_key": "the egg is an oval shape",
       "text": "The egg is an oval shape.",
       "style": "sentence",
       "path": "audio/en-us/sentence/the-egg-is-an-oval-shape.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "7b12841ed7a84326a4e22e406c70073361389992b3f118f30d2cf7753c140ea4"
     },
     {
       "audio_key": "diamond",
       "text": "diamond",
       "style": "word",
       "path": "audio/en-us/word/diamond.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "216c933fadddf1347af6b079b0e506c203b2e6ee4e9466edc44979f560f8cd30"
     },
     {
       "audio_key": "the tile is a diamond",
       "text": "The tile is a diamond.",
       "style": "sentence",
       "path": "audio/en-us/sentence/the-tile-is-a-diamond.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "bcfa5872bf5e7fbec7244a0636c42551d01d696d34873667ba535d7fc07a5892"
     },
     {
       "audio_key": "line",
       "text": "line",
       "style": "word",
       "path": "audio/en-us/word/line.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "9febcaf36894ae203be1bca849ad63efdc97dfba8bf5cc97f10548a0b82b0af7"
     },
     {
       "audio_key": "draw a straight line",
       "text": "Draw a straight line.",
       "style": "sentence",
       "path": "audio/en-us/sentence/draw-a-straight-line.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "fceda1b2cb65a3fec6b0439f1a48f8d59989d88b84808056ec8fe3dcb80b5166"
     },
     {
       "audio_key": "dot",
       "text": "dot",
       "style": "word",
       "path": "audio/en-us/word/dot.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "481158de521a1ceef0afc518f147660f1b92ffe99d0598b3e0601826b7214537"
     },
     {
       "audio_key": "put a dot here",
       "text": "Put a dot here.",
       "style": "sentence",
       "path": "audio/en-us/sentence/put-a-dot-here.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "bff8dfdf4a6a1e61ae0366a82533d0c5dd3683093d7691d85575bc3410e8791e"
     },
     {
       "audio_key": "corner",
       "text": "corner",
       "style": "word",
       "path": "audio/en-us/word/corner.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "42d28da38919eff06fe45c6336d8332f8175841b39e6f775f42a0ebbf4b13777"
     },
     {
       "audio_key": "the paper has four corners",
       "text": "The paper has four corners.",
       "style": "sentence",
       "path": "audio/en-us/sentence/the-paper-has-four-corners.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "fc35eebf8d5cd6d4a04aa4fc93c402566b1ed6e77b879e1b214a91c59567008c"
     },
     {
       "audio_key": "side",
       "text": "side",
       "style": "word",
       "path": "audio/en-us/word/side.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "39f32d5bc0c90364994fc259c48074583b11a4ca7e02fd67dceeba0dbcba9251"
     },
     {
       "audio_key": "a square has four sides",
       "text": "A square has four sides.",
       "style": "sentence",
       "path": "audio/en-us/sentence/a-square-has-four-sides.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "52388a9b7aa932b6e1fdbb5c2d1bd265ce05f0f4d54cf69476ad003aa0a76af3"
     },
     {
       "audio_key": "round",
       "text": "round",
       "style": "word",
       "path": "audio/en-us/word/round.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "77103605898032fd93a85b4130f9e8473e6dfa8b0c65d0549ec96775b48a7725"
     },
     {
       "audio_key": "the ball is round",
       "text": "The ball is round.",
       "style": "sentence",
       "path": "audio/en-us/sentence/the-ball-is-round.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "3dc2818d2be80801a83c84e26a23776feccb9c3f3fdd0b96ded783c634b63fa7"
     },
     {
       "audio_key": "straight",
       "text": "straight",
       "style": "word",
       "path": "audio/en-us/word/straight.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "48b672aef98a56e52beb4e2f7891a51a506ffd3d8b2777c863500579c58348e1"
     },
     {
       "audio_key": "the line is straight",
       "text": "The line is straight.",
       "style": "sentence",
       "path": "audio/en-us/sentence/the-line-is-straight.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "8542b045b712d83874516d9076a3f16f364bee98f892fb3320554a0223e8eca9"
     },
     {
       "audio_key": "curved",
       "text": "curved",
       "style": "word",
       "path": "audio/en-us/word/curved.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "f0cba8e69e5753a382935dc9616a4e4f2f902387a5705ccdb0ccef934434ce64"
     },
     {
       "audio_key": "the road is curved",
       "text": "The road is curved.",
       "style": "sentence",
       "path": "audio/en-us/sentence/the-road-is-curved.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "b76b6a880e4224c38ae55955561e66c232cacf940d38a37f71675a564dfd1ef3"
     },
     {
       "audio_key": "the box is big",
       "text": "The box is big.",
       "style": "sentence",
       "path": "audio/en-us/sentence/the-box-is-big.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "601a1c9fc4646af565bd16f358b031dd6848636e2b1bf573adcc262c1f4ac6c5"
     },
     {
       "audio_key": "small",
       "text": "small",
       "style": "word",
       "path": "audio/en-us/word/small.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "13097025dcf7bd9f1b1e89a69610b1d524a72d516795907a76252e113c81c3e2"
     },
     {
       "audio_key": "the mouse is small",
       "text": "The mouse is small.",
       "style": "sentence",
       "path": "audio/en-us/sentence/the-mouse-is-small.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "feb7280c0af1c8d85d34df269121f57e4da9194fd185c811512710c4f61675c5"
     },
     {
       "audio_key": "large",
       "text": "large",
       "style": "word",
       "path": "audio/en-us/word/large.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "fef84017d926ecac87ce11644bbef6f805c10af3642646bc0aed3f538e95a7d5"
     },
     {
       "audio_key": "this is a large ball",
       "text": "This is a large ball.",
       "style": "sentence",
       "path": "audio/en-us/sentence/this-is-a-large-ball.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "e87ce986beff2151502f1825fcd7b2b2a14617ed133b8107bc83a643298bbfa0"
     },
     {
       "audio_key": "long",
       "text": "long",
       "style": "word",
       "path": "audio/en-us/word/long.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "c7be91138367bb8ade96216d19c3908c07d0c0b72d98acb06b8f22f1ab795dab"
     },
     {
       "audio_key": "the ruler is long",
       "text": "The ruler is long.",
       "style": "sentence",
       "path": "audio/en-us/sentence/the-ruler-is-long.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "32b8c257402ff596445a3334e507da77c42bcb632e766e595868fa65e54ee792"
     },
     {
       "audio_key": "short",
       "text": "short",
       "style": "word",
       "path": "audio/en-us/word/short.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "9f41b40f5a7c5b08ce16d2a49a41d4a1c414558cdb8556398e767502297d4979"
     },
     {
       "audio_key": "the pencil is short",
       "text": "The pencil is short.",
       "style": "sentence",
       "path": "audio/en-us/sentence/the-pencil-is-short.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "f9b75d57207001bfa8395f398bad3487649284a38c0a8769c0962d5f0ee1640e"
     },
     {
       "audio_key": "tall",
       "text": "tall",
       "style": "word",
       "path": "audio/en-us/word/tall.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "1494d30a5dad7cae7f4713500fcc0c04c093bec8a62ae00f698667a7a2ba05b4"
     },
     {
       "audio_key": "the tree is tall",
       "text": "The tree is tall.",
       "style": "sentence",
       "path": "audio/en-us/sentence/the-tree-is-tall.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "d42c24386ac2d3d7f41e2f9da107986f67258e25d84e495d39a6aed424a84dc2"
     },
     {
       "audio_key": "the kite is high in the sky",
       "text": "The kite is high in the sky.",
       "style": "sentence",
       "path": "audio/en-us/sentence/the-kite-is-high-in-the-sky.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "b6f910ed5f9087906a79d310982b6e5b332c656259bbf2a40c94c770a0c61c88"
     },
     {
       "audio_key": "low",
       "text": "low",
       "style": "word",
       "path": "audio/en-us/word/low.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "5262af7c32b3797b9832739f8363f2371d7dc3298913512af7d7c8b3f9fed702"
     },
     {
       "audio_key": "the table is low",
       "text": "The table is low.",
       "style": "sentence",
       "path": "audio/en-us/sentence/the-table-is-low.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "fedf6c7a84f0cf35be3497f3dec37681fe42410ba1f19cae6bebda563872f97f"
     },
     {
       "audio_key": "wide",
       "text": "wide",
       "style": "word",
       "path": "audio/en-us/word/wide.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "6595dd986094abad47fb1ca8c8ced3ef59870b32980a4df2c42c3e3b6d19f0ce"
     },
     {
       "audio_key": "the river is wide",
       "text": "The river is wide.",
       "style": "sentence",
       "path": "audio/en-us/sentence/the-river-is-wide.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "6a638959491a7ec9628123960f35ad2017dcc0e0d5659b779c3730d5392ae53a"
     },
     {
       "audio_key": "narrow",
       "text": "narrow",
       "style": "word",
       "path": "audio/en-us/word/narrow.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "b89214460dd182772053f1d70e3c0c997e2dafb76314f397af984ad72ef26c4d"
     },
     {
       "audio_key": "this street is narrow",
       "text": "This street is narrow.",
       "style": "sentence",
       "path": "audio/en-us/sentence/this-street-is-narrow.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "3d3e9b063dea4e273796ef5ddd4b421bd75c1539dc01d96cc93d4d5aecf4f75c"
     },
     {
       "audio_key": "thick",
       "text": "thick",
       "style": "word",
       "path": "audio/en-us/word/thick.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "515ab630b7df0a3044109b3ef702125632ebd70747c64e69f369a46f2a9eb815"
     },
     {
       "audio_key": "this book is thick",
       "text": "This book is thick.",
       "style": "sentence",
       "path": "audio/en-us/sentence/this-book-is-thick.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "e1a7435c7c3afc542cc3b3010195d9bce01563fb0fb2e79ae4a0a3b1583bc80c"
     },
     {
       "audio_key": "thin",
       "text": "thin",
       "style": "word",
       "path": "audio/en-us/word/thin.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "a6dfebf1ea2350d5b5e68987a7f20ab6dbe61bb58284a2119a34b16e46a6e384"
     },
     {
       "audio_key": "the paper is thin",
       "text": "The paper is thin.",
       "style": "sentence",
       "path": "audio/en-us/sentence/the-paper-is-thin.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "b0a9114c2dddad89918f87c56720803409aac048966ddc6ae378be0dfd7ce5b6"
     },
     {
       "audio_key": "heavy",
       "text": "heavy",
       "style": "word",
       "path": "audio/en-us/word/heavy.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "e61098e2732ba72da3551aa17c3beea899680731b28e2c52840c957badfab1cc"
     },
     {
       "audio_key": "the bag is heavy",
       "text": "The bag is heavy.",
       "style": "sentence",
       "path": "audio/en-us/sentence/the-bag-is-heavy.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "1be8117e2cfa8986afc76b2a451f51b871f1695faf48a53a9fbee1c609bf0337"
     },
     {
       "audio_key": "the box is light",
       "text": "The box is light.",
       "style": "sentence",
       "path": "audio/en-us/sentence/the-box-is-light.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "01d83063c6207f3a90b13afe74427b2b2378f1234655a1f4718a0e6b1a0262e8"
     },
     {
       "audio_key": "deep",
       "text": "deep",
       "style": "word",
       "path": "audio/en-us/word/deep.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "1c00039cc64249986cf6b6506df3dd36413a0961318796a29dcc132e3b2ba53a"
     },
     {
       "audio_key": "the pool is deep",
       "text": "The pool is deep.",
       "style": "sentence",
       "path": "audio/en-us/sentence/the-pool-is-deep.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "f4f9c401445d3bb22104cac670dc0a7afb7a523a4e3cb548d4c66972689fd53d"
     },
     {
       "audio_key": "shallow",
       "text": "shallow",
       "style": "word",
       "path": "audio/en-us/word/shallow.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "d2858076b0aae743b4f98926ac72cd58310a88666651a2d78c0ac659fe10c7e5"
     },
     {
       "audio_key": "the water is shallow",
       "text": "The water is shallow.",
       "style": "sentence",
       "path": "audio/en-us/sentence/the-water-is-shallow.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "cc3bf9470f8be0164acd4a0f4a8a27a070d6aa17aa2d6b9d67cbe9c48ba49057"
     },
     {
       "audio_key": "size",
       "text": "size",
       "style": "word",
       "path": "audio/en-us/word/size.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "fa373501db107e19b648b3ea87105371b6170e71b17186b557e515f78266b3e3"
     },
     {
       "audio_key": "what size is the box",
       "text": "What size is the box?",
       "style": "sentence",
       "path": "audio/en-us/sentence/what-size-is-the-box.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "2f190e7187b068c10599ed4db61f269ecf11cd944c3917e4a292b40457274966"
     },
     {
       "audio_key": "pleased",
       "text": "pleased",
       "style": "word",
       "path": "audio/en-us/word/pleased.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "314d1583404977abc185218f934b738bb93b83904e0e878498b58dcdfa5a56ac"
     },
     {
       "audio_key": "these",
       "text": "these",
       "style": "word",
       "path": "audio/en-us/word/these.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "f51e83a61f57e44cf60cf423d701ca19622be9cf9495b16f8bceb353a39298bf"
     },
     {
       "audio_key": "class",
       "text": "class",
       "style": "word",
       "path": "audio/en-us/word/class.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "beaca50a95379212aa70fe22635577909d9ed9b35270ad3284e4b092c96a77bd"
     },
     {
       "audio_key": "close::verb",
       "text": "close",
       "style": "word",
       "path": "audio/en-us/word/close-verb.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "6a0d81e7e23c44b6210d5e48287032f0d5433ba45fe35ad77deb9fe90b536ba5"
     },
     {
       "audio_key": "close::adjective",
       "text": "close",
       "style": "word",
       "path": "audio/en-us/word/close-adjective.mp3",
-      "intonation": "neutral"
+      "intonation": "neutral",
+      "sha256": "a7f14fa26d3bd002422e0b065edc8987ba2c84fd9b5a3a7204cc21142d84c985"
     },
     {
       "audio_key": "we are close friends",
       "text": "We are close friends.",
       "style": "sentence",
       "path": "audio/en-us/sentence/we-are-close-friends.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "bb5b3469642885a2369a34a38f530329a7fc0661164d6e184dc06489add32e6d"
     },
     {
       "audio_key": "can you help me please",
       "text": "Can you help me, please?",
       "style": "sentence",
       "path": "audio/en-us/sentence/can-you-help-me-please.mp3",
-      "intonation": "rise"
+      "intonation": "rise",
+      "sha256": "65e42df4f1f1baefdb35fc3e8207c6ffdbb2bfaff72ea387e292a74a809a51dd"
     },
     {
       "audio_key": "i am very pleased",
       "text": "I am very pleased.",
       "style": "sentence",
       "path": "audio/en-us/sentence/i-am-very-pleased.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "3b0ce804ada2b6efdcbf1ac0aa105af8ca44aea38e80e63ed854c083bd72a9fd"
     },
     {
       "audio_key": "are these your books",
       "text": "Are these your books?",
       "style": "sentence",
       "path": "audio/en-us/sentence/are-these-your-books.mp3",
-      "intonation": "rise"
+      "intonation": "rise",
+      "sha256": "3daf85deb85b3b529a98e05522f35603f4407edb53c43577886c238c6a113bf1"
     },
     {
       "audio_key": "this is a hot dog",
       "text": "This is a hot dog.",
       "style": "sentence",
       "path": "audio/en-us/sentence/this-is-a-hot-dog.mp3",
-      "intonation": "fall"
+      "intonation": "fall",
+      "sha256": "8d5fea6b3f375982449c445fd88823851ae1596d43ab9534b3b825bc4f36410d"
     },
     {
       "audio_key": "is this a robot",
       "text": "Is this a robot?",
       "style": "sentence",
       "path": "audio/en-us/sentence/is-this-a-robot.mp3",
-      "intonation": "rise"
+      "intonation": "rise",
+      "sha256": "1d38603220c31a0e0f17f5f83e3fa3b16453c67230772ca91a16dd74a6893591"
     },
     {
       "audio_key": "apple",
@@ -4286,7 +4895,8 @@
       "path": "audio/en-us/word/apple.mp3",
       "intonation": "neutral",
       "source": "generated_offline_espeak",
-      "voice_note": "Temporary local en-US+f3 eSpeak voice; not the same voice as the original Bella/Kokoro audio bank."
+      "voice_note": "Temporary local en-US+f3 eSpeak voice; not the same voice as the original Bella/Kokoro audio bank.",
+      "sha256": "6271bd79bd45d016f9442cf5cb6efc60535b6ff4e63984eb5cc03e33afa1e5f2"
     }
   ],
   "clip_count": 610,

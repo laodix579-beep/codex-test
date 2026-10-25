@@ -26,6 +26,12 @@
 
 完整 GitHub Pages 部署步骤和上传清单见 [Windows 上传说明](DEPLOY_WINDOWS.md)。本包保留原有配置及学习记录的存储键。GitHub Pages、手机离线缓存和单文件个人备份均使用这些已提供的 MP3。
 
+网站朗读会先下载完整 MP3 并核对来源 SHA-256，再从内存播放，避免边下载边播放造成断续；同题重听复用缓冲，同时预加载本题后续录音和下一题。缓冲有数量及大小上限，不会将全部录音重复装入内存。加载期间显示提示；切题、退出或切换录音不会让旧的异步下载突然开始播放。
+
+保留正常 1× 原速、慢速及稍快设置，并在支持的浏览器保持音高；练习内调整语速立即生效。原速 1× 保留原录音音色。朗读期间降低键盘及答题音效，停止后恢复原音效设置；播放器的音量/静音选择在连续播放中保持。原示范和自己的录音回放不会同时播放。音频本身未转码、降噪或重新生成，无法增加原录音没有的细节。
+
+离线更新只复用来源哈希正确的完整录音；下载不完整或缓存损坏时联网重新获取。原有 610 个 MP3 原字节、存储键和学习记录保留。新增验证脚本 `tests/audio_quality.py` 检查全部原录音及电脑/手机播放，`tests/audio_cache_integrity.py` 检查旧缓存复用、损坏修复及离线 Range。
+
 首屏在主程序加载前就确定桌面/手机布局，初始化期间使用独立加载页，完成后直接显示当前界面，避免旧深色桌面 MVP 闪现。慢速下载和启动失败也会显示明确状态，不会一直停在遮罩。联网导航会检查服务器版本；离线仍使用已保存的当前版本，不清空学习记录。
 
 兼容缺少 `structuredClone`、`Object.hasOwn` 和 `Array.at` 的手机内置浏览器。启动期间会显示加载提示；初始化失败会显示重新加载入口，无需清空学习记录。
@@ -71,6 +77,8 @@ python3 tests/mobile_scenes.py
 python3 tests/home_export.py
 python3 tests/startup_paint.py
 python3 tests/cache_refresh.py
+python3 tests/audio_quality.py
+python3 tests/audio_cache_integrity.py
 python3 tests/practice_focus.py
 python3 tests/home_progress.py
 python3 tests/resume_position.py

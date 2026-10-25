@@ -11,7 +11,7 @@ manifest=json.loads((ROOT/'audio-manifest.json').read_text())
 audit=json.loads((ROOT/'reports/source-audio-sha256.json').read_text())
 assert len(manifest['clips'])==610==len(audit)
 for row in manifest['clips']:
- path=ROOT/row['path'];assert hashlib.sha256(path.read_bytes()).hexdigest()==audit[row['path']]['sha256']
+ path=ROOT/row['path'];assert hashlib.sha256(path.read_bytes()).hexdigest()==row['sha256']==audit[row['path']]['sha256']
 assert len(list((ROOT/'audio').rglob('*.mp3')))==610
 scenes=json.loads((ROOT/'data/scene-catalog.json').read_text())
 assert len(scenes['scenes'])==136 and len(scenes['sheets'])==18

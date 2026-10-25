@@ -1,0 +1,35 @@
+{
+  "originalMp3HashMatches": 610,
+  "profiles": [
+    {
+      "mobile": false,
+      "wordAndSentenceUiChecks": 20,
+      "fullBufferHash": true,
+      "slowNetworkCancellation": true,
+      "pitchAndLiveRate": true,
+      "quietFeedback": true,
+      "nativePauseNoRestart": true,
+      "corruptResponseRecovery": true,
+      "failedDownloadRetry": true,
+      "exclusiveVoice": true,
+      "midClipStalls": 0
+    },
+    {
+      "mobile": true,
+      "wordAndSentenceUiChecks": 20,
+      "fullBufferHash": true,
+      "slowNetworkCancellation": true,
+      "pitchAndLiveRate": true,
+      "quietFeedback": true,
+      "nativePauseNoRestart": true,
+      "corruptResponseRecovery": true,
+      "failedDownloadRetry": true,
+      "exclusiveVoice": true,
+      "midClipStalls": 0
+    }
+  ],
+  "browserDecodedOriginals": {
+    "count": 610,
+    "peak": 0.8089967966079712
+  }
+}
