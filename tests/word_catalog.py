@@ -32,13 +32,15 @@ with sync_playwright() as p:
     page.goto(BASE+'#words')
     # Reload once to use the same validated representation as an existing install.
     page.reload()
-    assert page.locator('.vocab-category').count() == 1
-    assert page.locator('.vocab-subcategories button').count() == 4
+    assert page.locator('.vocab-category').count() == 8
+    page.locator('.mvp-category-card[data-category-id="C01"]').click()
+    page.locator('.mvp-subcategory').first.wait_for()
+    assert page.locator('.mvp-subcategory').count() == 4
     initial = stored(page)
     assert len(initial['words']) == 136
     assert not any(w['id'].startswith('word-') for w in initial['words'])
     assert [sum(w['subcategoryId']==f'C01-S{i:02}' for w in initial['words']) for i in range(1,5)] == [22,62,19,33]
-    print('PASS: one populated theme, four category entrances and exactly 136 imported entries', flush=True)
+    print('PASS: eight desktop themes, four populated subcategory entrances and exactly 136 imported entries', flush=True)
 
     page.goto(BASE+'#words/manage/C01')
     groups=page.locator('.word-subcategory-group')
@@ -49,7 +51,7 @@ with sync_playwright() as p:
         actual=set(groups.nth(i).locator('[data-action="learn-word"]').evaluate_all('(buttons)=>buttons.map(b=>b.dataset.id)'))
         assert actual==expected
     groups.first.locator('[data-action="learn-word-group"]').click()
-    assert '1 / 22' in page.locator('.lesson-progress').inner_text()
+    assert '1 / 22' in page.locator('.mvp-question-heading').inner_text()
     assert page.locator('#practice-jump option').count()==22
     assert page.locator('#practice-jump option').all_text_contents()==[f'{i+1}. {w["word"]}' for i,w in enumerate(initial['words'][:22])]
     page.locator('#lesson-dialog [data-close]').click()
@@ -76,14 +78,14 @@ with sync_playwright() as p:
         page.wait_for_function('(n)=>document.querySelectorAll(".word-card").length===n', arg=count)
         assert page.locator('.word-example-speak').count() == count
     page.goto(BASE+'#words/C02/C02-S01')
-    page.wait_for_url('**/#words')
-    assert page.locator('.vocab-category').count()==1
-    print('PASS: all four populated lists and old empty category routes redirect', flush=True)
+    page.get_by_role('heading',name='这个分类正在准备中').wait_for()
+    assert page.locator('#lesson-dialog').evaluate('e=>!e.open')
+    print('PASS: all four populated lists and empty desktop categories remain explicit without adding words', flush=True)
 
     page.goto(BASE+'#words/manage/C01/C01-S03')
     page.get_by_role('button',name='开始背词').click()
     assert page.locator('#lesson-dialog').get_attribute('open') is not None
-    assert '1 / 10' in page.locator('.lesson-progress').inner_text()
+    assert '1 / 10' in page.locator('.mvp-question-heading').inner_text()
     page.locator('#lesson-dialog [data-close]').click()
     page.get_by_role('button',name='+ 添加单词').click()
     assert page.locator('#new-subcategory').input_value() == 'C01-S03'

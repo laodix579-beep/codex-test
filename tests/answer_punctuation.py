@@ -20,11 +20,13 @@ with sync_playwright() as p:
    page.locator('.translation-blank').first.wait_for()
    button='.mobile-controls [data-action="translation-answer"]' if mobile else '#translation-form [data-action="translation-answer"]'
    page.locator(button).click()
-   assert page.locator('.translation-answer strong').inner_text()==expected
-   assert page.locator('.translation-answer>span').inner_text()==row['ipa']
-   page.locator('.mobile-controls [data-action="speak-lesson"]' if mobile else '#translation-form [data-action="speak-lesson"]').click()
+   hint='.translation-answer' if mobile else '#practice-answer-dialog'
+   assert page.locator(hint+' strong').inner_text()==expected
+   assert page.locator('.translation-answer>span' if mobile else '#practice-answer-dialog .mvp-answer-line>span:not(.mvp-dj)').inner_text()==row['ipa']
+   page.locator('.mobile-controls [data-action="speak-lesson"]' if mobile else '[data-answer-audio="example"]').click()
    page.wait_for_function('(text)=>{const a=document.querySelector("#question-audio");return a.dataset.sourceText===text&&a.currentTime>0}',arg=row['example'])
    assert page.evaluate('(id)=>JSON.parse(localStorage.getItem(document.body.dataset.storageKey)).words.find(w=>w.id===id).example',row['id'])==row['example']
+   if not mobile:page.locator('[data-answer-close]').click()
    answers=page.evaluate('''w=>{const c=FrogPractice.wordCloze(w);return FrogPractice.sentenceTokens(c.english).filter(t=>t.word&&c.blankIndices.includes(t.index)).map(t=>t.text)}''',row)
    for field,answer in zip(page.locator('.translation-blank').all(),answers):field.fill(answer)
    page.locator('.mobile-controls [data-action="translation-submit"]' if mobile else '#translation-submit').click()
@@ -37,7 +39,7 @@ with sync_playwright() as p:
   page.reload();page.locator('[data-action="learn-word"][data-id="C01-S01-010"]').click()
   page.locator('.translation-blank').first.wait_for()
   page.locator('.mobile-controls [data-action="translation-answer"]' if mobile else '#translation-form [data-action="translation-answer"]').click()
-  assert page.locator('.translation-answer strong').inner_text()=='See you later'
+  assert page.locator('.translation-answer strong' if mobile else '#practice-answer-dialog strong').inner_text()=='See you later'
   assert page.evaluate('JSON.parse(localStorage.getItem(document.body.dataset.storageKey)).words.find(w=>w.word==="see you later").example')=='See you later!?!…）】★'
   assert not errors,errors
   assert page.evaluate('document.documentElement.scrollWidth<=innerWidth')

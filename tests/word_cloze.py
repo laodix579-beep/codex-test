@@ -36,7 +36,7 @@ with sync_playwright() as p:
  page.screenshot(path='/tmp/frog-word-cloze-desktop.png')
  page.locator('.translation-blank').fill('hello');page.locator('#translation-submit').click()
  assert page.locator('.grammar-card strong').inner_text()=='hello'
- assert page.locator('.translation-chinese').inner_text()=='你好；喂'
+ assert page.locator('.translation-chinese').inner_text()=='词义：你好；喂'
  assert page.locator('.word-practice-example p').all_text_contents()==['Hello, Anna.','你好，安娜。']
  assert page.locator('.word-practice-example [data-action="speak"]').get_attribute('data-text')=='Hello, Anna.'
  assert page.locator('.word-example-prompt').count()==0

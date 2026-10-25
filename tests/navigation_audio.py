@@ -30,11 +30,15 @@ with sync_playwright() as p:
         page.wait_for_url('**/#home')
         assert page.locator('.page-back').is_hidden()
         page.goto(BASE+'#words')
-        page.locator('.vocab-category-heading[data-category-id="C01"]').click()
-        category=page.locator('#word-category-dialog')
-        assert category.locator('.dialog-back').is_visible()
-        category.locator('.dialog-back').click()
-        assert category.is_hidden() and page.url.endswith('#words')
+        page.locator('.vocab-category-heading[data-category-id="C01"]' if mobile else '.mvp-category-card[data-category-id="C01"]').click()
+        if mobile:
+            category=page.locator('#word-category-dialog')
+            assert category.locator('.dialog-back').is_visible()
+            category.locator('.dialog-back').click()
+            assert category.is_hidden() and page.url.endswith('#words')
+        else:
+            page.locator('.mvp-subcategory').first.wait_for()
+            page.locator('.page-back').click();page.wait_for_url('**/#words')
         page.goto(BASE+'#words/all')
         page.locator('[data-action="add-word"]').click()
         page.locator('#word-dialog .dialog-back').click()
@@ -65,6 +69,7 @@ with sync_playwright() as p:
         # Changing result visibility re-renders without starting another playback.
         page.locator('.mobile-controls [data-action="translation-answer"]' if mobile else '.translation-shortcuts [data-action="translation-answer"]').click()
         assert page.evaluate('speechStarts')==['hello']
+        if not mobile:page.locator('[data-answer-close]').click()
         page.locator('.grammar-card').click()
         page.wait_for_function('speechStarts.length===2')
         assert page.evaluate('speechStarts')==['hello','hello']
@@ -82,7 +87,7 @@ with sync_playwright() as p:
         page.locator('.practice-back').click()
         page.wait_for_function('!document.querySelector("#lesson-dialog").open')
         assert page.locator('#question-audio').evaluate('(audio)=>audio.paused&&!audio.hasAttribute("src")')
-        assert page.url.endswith('#words')
+        assert page.url.endswith('#words' if mobile else '#words/C01')
         page.goto(BASE+'#words/all')
         phrase_id=page.evaluate('FROG_WORD_CATALOG.words.find(w=>w.word==="good afternoon").id')
         page.locator(f'[data-action="learn-word"][data-id="{phrase_id}"]').click()

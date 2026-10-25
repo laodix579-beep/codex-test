@@ -1,6 +1,6 @@
 // Public static resources only; personal study data stays in localStorage.
 importScripts('./audio-files.js');
-const CACHE="frog-answer-punctuation-v17";
+const CACHE="frog-desktop-mvp-v18";
 const ROOT=new URL('./',self.location.href);
 const FILES=['index.html','audio-files.js','audio-manifest.json','data/pronunciation-test-words.json','manifest.webmanifest','icon-192.png','icon-512.png','apple-touch-icon.png',...self.FROG_AUDIO_FILES];
 self.addEventListener('install',event=>event.waitUntil((async()=>{

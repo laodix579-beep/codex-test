@@ -1,0 +1,43 @@
+[
+  {
+    "profile": "desktop-1440x960",
+    "eightCategories": true,
+    "fourSubcategories": true,
+    "modalCentered": true,
+    "singleCloseButton": true,
+    "anyKeyConsumed": true,
+    "backdropAndContentClicksConsumed": true,
+    "speakerKeepsModalOpen": true,
+    "originalMp3sPlay": true,
+    "inputAndSelectionPreserved": true,
+    "viewingNeverGrades": true,
+    "correctFeedbackThenNext": true,
+    "oldModesAndSettingsPreserved": true,
+    "historyAndBackupPreserved": true,
+    "resumeAfterExit": true
+  },
+  {
+    "profile": "desktop-1024x768",
+    "homeAndEightCategories": true,
+    "modalCenteredAndFits": true,
+    "practiceAndFeedbackNoHorizontalOverflow": true
+  },
+  {
+    "profile": "desktop-1280x800",
+    "homeAndEightCategories": true,
+    "modalCenteredAndFits": true,
+    "practiceAndFeedbackNoHorizontalOverflow": true
+  },
+  {
+    "profile": "desktop-1366x768",
+    "homeAndEightCategories": true,
+    "modalCenteredAndFits": true,
+    "practiceAndFeedbackNoHorizontalOverflow": true
+  },
+  {
+    "profile": "desktop-1920x1080",
+    "homeAndEightCategories": true,
+    "modalCenteredAndFits": true,
+    "practiceAndFeedbackNoHorizontalOverflow": true
+  }
+]

@@ -20,14 +20,14 @@ with sync_playwright() as p:
         }''')
         page=context.new_page();errors=[];page.on('pageerror',lambda e:errors.append(str(e)))
         page.goto(BASE+'#words',wait_until='networkidle',timeout=120000)
-        page.locator('.vocab-category-heading[data-category-id="C01"]').click()
-        page.locator('#word-category-dialog button[data-subcategory-id="C01-S03"]').click()
+        page.locator('.vocab-category-heading[data-category-id="C01"]' if mobile else '.mvp-category-card[data-category-id="C01"]').click()
+        page.locator('#word-category-dialog button[data-subcategory-id="C01-S03"]' if mobile else '.mvp-subcategory[data-subcategory-id="C01-S03"]').click()
         page.locator('.translation-blank').first.wait_for()
         red=page.evaluate('FROG_WORD_CATALOG.words.find(w=>w.word==="red")')
         expected=[red['example'],'red','red']
         assert page.locator('.word-spelling-hint').count()==0
         assert page.locator('.word-context-meaning').inner_text()=='词义：'+red['meaning']
-        assert page.locator('.word-context-meaning').evaluate('(el)=>el.previousElementSibling.matches(".word-example-prompt")&&el.nextElementSibling.id==="translation-form"')
+        assert page.locator('.word-context-meaning').evaluate('(el)=>el.previousElementSibling.matches(".word-example-prompt")&&(el.nextElementSibling.id==="translation-form"||el.nextElementSibling.matches(".translation-slots"))')
         meaning=page.locator('.word-context-meaning').bounding_box();slots=page.locator('.translation-slots').bounding_box()
         assert meaning['y']+meaning['height']<=slots['y']
         page.wait_for_function('playedClips.length>=3&&document.querySelector("#question-audio").ended',timeout=30000)

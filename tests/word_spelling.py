@@ -40,7 +40,7 @@ with sync_playwright() as p:
     assert page.locator('#lesson-dialog').evaluate('e=>e.classList.contains("translation-practice")')
     assert '你好' in page.locator('.translation-chinese').inner_text()
     assert page.locator('.translation-blank').input_value()==''
-    assert page.locator('.translation-answer').count()==0
+    assert page.locator('#practice-answer-dialog[open],.translation-answer').count()==0
     assert page.locator('.translation-picture').count()==1
     assert page.locator('[data-session-setting="showPicture"]').first.is_checked()
     field=page.locator('.translation-blank')
@@ -98,11 +98,13 @@ with sync_playwright() as p:
     page.goto(BASE+'#words/C01/C01-S03')
     page.locator('.translation-blank').first.wait_for()
     page.locator('#lesson-dialog .translation-shortcuts [data-action="translation-answer"]').click()
-    answer=page.locator('.translation-answer strong').inner_text()
+    answer=page.locator('#practice-answer-dialog strong').inner_text()
     colors=page.evaluate('FROG_WORD_CATALOG.words.filter(w=>w.subcategoryId==="C01-S03").map(w=>w.example)')
     assert answer in [text.rstrip('.!?') for text in colors]
-    page.locator('.translation-blank').first.press_sequentially('x')
-    assert page.locator('.translation-answer').count()==0
+    page.keyboard.press('x')
+    assert page.locator('.translation-blank').first.input_value()==''
+    assert page.locator('#practice-answer-dialog[open],.translation-answer').count()==0
+    page.locator('.mvp-session-settings>summary').click()
     page.locator('[data-practice-setting="keySounds"]').filter(visible=True).first.uncheck()
     page.evaluate('keySounds=[]')
     page.locator('.translation-blank').first.press_sequentially('a')
