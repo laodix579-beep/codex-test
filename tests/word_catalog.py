@@ -142,8 +142,8 @@ with sync_playwright() as p:
       for(const text of new Set(texts)){
         const key=FrogPractice.normalize(text),payload=bank.clips[key];
         if(!payload)throw new Error('Missing GA audio: '+text);
-        const bytes=Uint8Array.from(atob(payload),c=>c.charCodeAt(0));
-        const buffer=await ac.decodeAudioData(bytes.buffer);
+        const bytes=bank.storage==='files'?await (await fetch(payload)).arrayBuffer():Uint8Array.from(atob(payload),c=>c.charCodeAt(0)).buffer;
+        const buffer=await ac.decodeAudioData(bytes);
         if(buffer.duration<=.08||!buffer.getChannelData(0).some(n=>Math.abs(n)>.001))throw new Error('Silent audio: '+text);
         total++;
       }

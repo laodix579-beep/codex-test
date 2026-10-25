@@ -1,0 +1,71 @@
+{
+  "audioFilesByteIdentical": 610,
+  "formalVocabularyMappings": 136,
+  "profiles": [
+    {
+      "profile": "desktop",
+      "fourTestWordSearchAndPlayback": [
+        "apple",
+        "book",
+        "orange",
+        "please"
+      ],
+      "oldWords": [
+        "hello",
+        "hi",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "good night",
+        "goodbye",
+        "bye",
+        "see you",
+        "see you later"
+      ],
+      "sentences": [
+        "Hello, Anna.",
+        "Hi, Tom!",
+        "Good morning, Mom.",
+        "Good afternoon, Mr. Lee.",
+        "Good evening, Dad.",
+        "Good night, Mom.",
+        "Goodbye, everyone.",
+        "Bye! See you tomorrow.",
+        "See you tomorrow.",
+        "See you later!"
+      ],
+      "partialSearch": true,
+      "caseInsensitive": true,
+      "chineseSearch": true,
+      "exampleSearch": true,
+      "clearAndNoResults": true,
+      "statePreserved": true,
+      "projectSubpath": true,
+      "offlinePlayback": true,
+      "offlineRange206": true,
+      "missingRecordingNoTts": true
+    },
+    {
+      "profile": "phone",
+      "fourTestWordSearchAndPlayback": [
+        "apple",
+        "book",
+        "orange",
+        "please"
+      ],
+      "oldWords": [],
+      "sentences": [],
+      "partialSearch": true,
+      "caseInsensitive": true,
+      "chineseSearch": true,
+      "exampleSearch": true,
+      "clearAndNoResults": true,
+      "statePreserved": true,
+      "projectSubpath": true,
+      "offlinePlayback": true,
+      "offlineRange206": true,
+      "missingRecordingNoTts": true
+    }
+  ],
+  "browserDecodedMp3": 610
+}

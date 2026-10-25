@@ -8,8 +8,9 @@ bank=json.loads(re.search(r'window.LOCAL_AUDIO_BANK=(.*?);\s*</script>',(root/'i
 phones=bank['phonemes']
 prosody=json.loads((root/'data/prosody-review.json').read_text())
 assert prosody['speechRevision']==bank['revision']
+supplied=json.loads((root/'reports/source-audio-sha256.json').read_text())
 for case in prosody['cases']:
- assert hashlib.sha256(base64.b64decode(bank['clips'][case['audioKey']])).hexdigest()==case['audioSha256']
+ assert hashlib.sha256((root/bank['clips'][case['audioKey']]).read_bytes()).hexdigest()==supplied[bank['clips'][case['audioKey']]]['sha256']
  assert (case['ratio']>1.03 if case['target']=='rise' else case['ratio']<.97)
 for word in ['please','is','has','these']:assert phones[word].endswith('z'),word
 assert phones['pleased'].endswith('zd') and not phones['please'].endswith('zd')

@@ -1,22 +1,40 @@
-// Cache only this app's public static files. Learning data stays in localStorage.
-const CACHE="frog-sentence-word-drill-v14";
+// Public static resources only; personal study data stays in localStorage.
+importScripts('./audio-files.js');
+const CACHE="frog-supplied-mp3-v15";
 const ROOT=new URL('./',self.location.href);
-const FILES=['index.html','manifest.webmanifest','icon-192.png','icon-512.png','apple-touch-icon.png'];
-self.addEventListener('install',event=>event.waitUntil(
-  caches.open(CACHE).then(async cache=>{
-    await cache.addAll(FILES.map(file=>new Request(new URL(file,ROOT).href,{cache:'reload'})));
-    const page=await cache.match(new URL('index.html',ROOT).href);
-    if(!page||!(await page.text()).includes('window.FROG_OFFLINE_CACHE="'+CACHE+'"'))
-      throw new Error('The offline page does not match this update.');
-  }).then(()=>self.skipWaiting())
-));
+const FILES=['index.html','audio-files.js','audio-manifest.json','data/pronunciation-test-words.json','manifest.webmanifest','icon-192.png','icon-512.png','apple-touch-icon.png',...self.FROG_AUDIO_FILES];
+self.addEventListener('install',event=>event.waitUntil((async()=>{
+  const cache=await caches.open(CACHE);let next=0;
+  await Promise.all(Array.from({length:6},async()=>{
+    while(next<FILES.length){
+      const request=new Request(new URL(FILES[next++],ROOT).href,{cache:'reload'});
+      const response=await fetch(request);
+      if(!response.ok)throw new Error('An offline resource could not be downloaded.');
+      await cache.put(request,response);
+    }
+  }));
+  const page=await cache.match(new URL('index.html',ROOT).href);
+  if(!page||!(await page.text()).includes('window.FROG_OFFLINE_CACHE="'+CACHE+'"'))
+    throw new Error('The offline page does not match this update.');
+  await self.skipWaiting();
+})()));
 self.addEventListener('message',event=>{
   if(event.data?.type==='FROG_CACHE_VERSION')event.ports[0]?.postMessage({cache:CACHE});
 });
-self.addEventListener('activate',event=>event.waitUntil((async()=>{
-  // Old versions may still be serving open tabs, so retain them until the next upgrade.
-  await self.clients.claim();
-})()));
+self.addEventListener('activate',event=>event.waitUntil(self.clients.claim()));
+async function fromCache(request){
+  const cache=await caches.open(CACHE),cached=await cache.match(request);
+  if(!cached)return fetch(request);
+  const range=request.headers.get('Range');
+  if(!range||!new URL(request.url).pathname.endsWith('.mp3'))return cached;
+  const bytes=await cached.arrayBuffer(),match=/^bytes=(\d*)-(\d*)$/.exec(range);
+  let start=match&&match[1]?Number(match[1]):0;
+  let end=match&&match[2]?Number(match[2]):bytes.byteLength-1;
+  if(match&&!match[1]&&match[2]){start=Math.max(0,bytes.byteLength-Number(match[2]));end=bytes.byteLength-1;}
+  if(!match||start>end||start>=bytes.byteLength)return new Response(null,{status:416,headers:{'Content-Range':`bytes */${bytes.byteLength}`}});
+  end=Math.min(end,bytes.byteLength-1);
+  return new Response(bytes.slice(start,end+1),{status:206,headers:{'Content-Type':'audio/mpeg','Accept-Ranges':'bytes','Content-Range':`bytes ${start}-${end}/${bytes.byteLength}`,'Content-Length':String(end-start+1)}});
+}
 self.addEventListener('fetch',event=>{
   const request=event.request,url=new URL(request.url);
   if(request.method!=='GET'||url.origin!==ROOT.origin||!url.pathname.startsWith(ROOT.pathname))return;
@@ -24,9 +42,7 @@ self.addEventListener('fetch',event=>{
     event.respondWith(fetch(request).catch(async()=>{
       const cache=await caches.open(CACHE);
       return await cache.match(new URL('index.html',ROOT).href)||Response.error();
-    }));
-    return;
+    }));return;
   }
-  if(FILES.some(file=>new URL(file,ROOT).href===url.href))
-    event.respondWith(caches.open(CACHE).then(async cache=>await cache.match(request)||fetch(request)));
+  if(FILES.some(file=>new URL(file,ROOT).href===url.href))event.respondWith(fromCache(request));
 });

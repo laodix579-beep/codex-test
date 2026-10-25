@@ -1,0 +1,46 @@
+[
+  {
+    "id": "audio-test-apple",
+    "word": "apple",
+    "meaning": "苹果",
+    "ipa": "/ˈæp.əl/",
+    "example": "The apple is red.",
+    "exampleZh": "这个苹果是红色的。",
+    "audioPath": "audio/en-us/word/apple.mp3",
+    "audioTest": true,
+    "sourceNote": "已提供的本地 eSpeak 录音，音色可能与其他录音不同。"
+  },
+  {
+    "id": "audio-test-book",
+    "word": "book",
+    "meaning": "书",
+    "ipa": "/bʊk/",
+    "example": "Open your book.",
+    "exampleZh": "打开你的书。",
+    "audioPath": "audio/en-us/word/book.mp3",
+    "audioTest": true,
+    "sourceNote": "独立录音试听词，不加入正式课程顺序。"
+  },
+  {
+    "id": "audio-test-orange",
+    "word": "orange",
+    "meaning": "橙子；橙色",
+    "ipa": "/ˈɒrɪndʒ/",
+    "example": "",
+    "exampleZh": "",
+    "audioPath": "audio/en-us/word/orange.mp3",
+    "audioTest": true,
+    "sourceNote": "独立录音试听词，不加入正式课程顺序。"
+  },
+  {
+    "id": "audio-test-please",
+    "word": "Please",
+    "meaning": "请；麻烦",
+    "ipa": "/pliːz/",
+    "example": "",
+    "exampleZh": "",
+    "audioPath": "audio/en-us/word/please.mp3",
+    "audioTest": true,
+    "sourceNote": "独立录音试听词，不加入正式课程顺序。"
+  }
+]

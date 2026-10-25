@@ -16,9 +16,10 @@ source=(root/'index.html').read_text()
 bank=json.loads(re.search(r'window.LOCAL_AUDIO_BANK=(.*?);\s*</script>',source,re.S).group(1))
 review=json.loads((root/'data/speech-review.json').read_text())
 assert review['speechRevision']==bank['revision']
+supplied=json.loads((root/'reports/source-audio-sha256.json').read_text())
 for case in review['cases']:
     assert bank['texts'][case['audioKey']]==case['displayedText']
-    assert hashlib.sha256(base64.b64decode(bank['clips'][case['audioKey']])).hexdigest()==case['audioSha256']
+    assert hashlib.sha256((root/bank['clips'][case['audioKey']]).read_bytes()).hexdigest()==supplied[bank['clips'][case['audioKey']]]['sha256']
 
 # Check GA synthesis inputs while retaining the independently maintained DJ display.
 # Kokoro uses O for GA /oʊ/; rhotic vowels must not use the British phones.
@@ -43,7 +44,7 @@ with sync_playwright() as p:
     assert info=={'ipa':'DJ','ipaLocale':'en-GB','voice':'en-US','bank':'en-US',
         'revision':'pep-ga-v7','hello':'/həˈləʊ/','please':'/pliːz/'}
     assert 'DJ /pliːz/' in page.locator('.word-card').filter(has=page.locator('[data-action="speak-word"][data-id="C01-S01-011"]')).inner_text()
-    print('PASS: DJ written references remain British while recordings and system fallback use GA',flush=True)
+    print('PASS: DJ written references remain British while supplied recording metadata uses GA',flush=True)
 
     page.evaluate('''()=>{
         const key=document.body.dataset.storageKey,s=JSON.parse(localStorage.getItem(key));
@@ -85,23 +86,20 @@ with sync_playwright() as p:
     assert page.locator('.phonetic-card').filter(has_text='near').locator('.symbol').inner_text()=='/ɪə/'
     assert not errors,errors
     print('PASS: practice retains the selected rate; phonetic lessons show DJ references and explain GA example audio and accent differences',flush=True)
-    # New content follows the same delivery rules through the US system fallback.
+    # Missing MP3s must be reported; accessing any browser TTS API fails this test.
     page.goto(BASE+'#words/manage/C01/C01-S01')
     page.evaluate("""()=>{
-        window.fallbackCalls=[];
-        window.SpeechSynthesisUtterance=class{constructor(text){this.text=text;}};
-        speechSynthesis.getVoices=()=>[{lang:'en-GB',name:'UK',voiceURI:'uk',localService:true},
-            {lang:'en-US',name:'Samantha',voiceURI:'us',localService:true}];
-        speechSynthesis.speak=u=>{fallbackCalls.push({text:u.text,lang:u.lang,rate:u.rate,voice:u.voice.voiceURI});u.onend?.();};
-        delete LOCAL_AUDIO_BANK.clips['please'];delete LOCAL_AUDIO_BANK.clips['please sit down'];
+      Object.defineProperty(window,'speechSynthesis',{get(){throw new Error('Forbidden TTS access')},configurable:true});
+      Object.defineProperty(window,'SpeechSynthesisUtterance',{get(){throw new Error('Forbidden TTS construction')},configurable:true});
+      delete LOCAL_AUDIO_BANK.clips['please'];delete LOCAL_AUDIO_BANK.clips['please sit down'];
     }""")
     card=page.locator('.word-card').filter(has=page.locator('[data-action="speak-word"][data-id="C01-S01-011"]'))
-    card.locator('[data-action="speak-word"]').click();card.locator('.word-example-speak').click()
-    calls=page.evaluate('fallbackCalls')
-    assert calls==[{'text':'please','lang':'en-US','rate':.92,'voice':'us'},
-        {'text':'Please sit down.','lang':'en-US','rate':.9,'voice':'us'}],calls
+    card.locator('[data-action="speak-word"]').click()
+    assert '暂无对应录音' in page.locator('#toast').inner_text()
+    card.locator('.word-example-speak').click()
+    assert '暂无对应录音' in page.locator('#toast').inner_text()
     assert not errors,errors
-    print('PASS: system fallback uses a US voice, clear word delivery and whole-sentence natural delivery',flush=True)
+    print('PASS: absent word and sentence recordings are reported without any TTS access',flush=True)
     browser.close()
 
 print('COMPLETE: 5 speech reference regression groups passed',flush=True)

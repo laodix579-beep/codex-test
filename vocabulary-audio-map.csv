@@ -1,0 +1,137 @@
+﻿id,word_or_phrase,chinese_meaning,DJ_IPA,example_sentence,category_id,subcategory_id,audio_key,audio_path,audio_available
+C01-S01-001,hello,你好；喂,/həˈləʊ/,"Hello, Anna.",C01,C01-S01,hello,audio/en-us/word/hello.mp3,True
+C01-S01-002,hi,嗨；你好,/haɪ/,"Hi, Tom!",C01,C01-S01,hi,audio/en-us/word/hi.mp3,True
+C01-S01-003,good morning,早上好,/ɡʊd ˈmɔːnɪŋ/,"Good morning, Mom.",C01,C01-S01,good morning,audio/en-us/sentence/good-morning.mp3,True
+C01-S01-004,good afternoon,下午好,/ɡʊd ˌɑːftəˈnuːn/,"Good afternoon, Mr. Lee.",C01,C01-S01,good afternoon,audio/en-us/sentence/good-afternoon.mp3,True
+C01-S01-005,good evening,晚上好（见面问候）,/ɡʊd ˈiːvnɪŋ/,"Good evening, Dad.",C01,C01-S01,good evening,audio/en-us/sentence/good-evening.mp3,True
+C01-S01-006,good night,晚安（睡前或告别）,/ɡʊd naɪt/,"Good night, Mom.",C01,C01-S01,good night,audio/en-us/sentence/good-night.mp3,True
+C01-S01-007,goodbye,再见,/ˌɡʊdˈbaɪ/,"Goodbye, everyone.",C01,C01-S01,goodbye,audio/en-us/word/goodbye.mp3,True
+C01-S01-008,bye,再见,/baɪ/,Bye! See you tomorrow.,C01,C01-S01,bye,audio/en-us/word/bye.mp3,True
+C01-S01-009,see you,回头见；再见,/siː juː/,See you tomorrow.,C01,C01-S01,see you,audio/en-us/sentence/see-you.mp3,True
+C01-S01-010,see you later,待会儿见,/siː juː ˈleɪtə/,See you later!,C01,C01-S01,see you later,audio/en-us/sentence/see-you-later.mp3,True
+C01-S01-011,please,请,/pliːz/,Please sit down.,C01,C01-S01,please,audio/en-us/word/please.mp3,True
+C01-S01-012,thank you,谢谢你；谢谢,/ˈθæŋk juː/,Thank you for your help.,C01,C01-S01,thank you,audio/en-us/sentence/thank-you.mp3,True
+C01-S01-013,thanks,谢谢,/θæŋks/,"Thanks, Dad.",C01,C01-S01,thanks,audio/en-us/word/thanks.mp3,True
+C01-S01-014,you're welcome,不客气,/jɔː ˈwelkəm/,You're welcome.,C01,C01-S01,you're welcome,audio/en-us/sentence/you-re-welcome.mp3,True
+C01-S01-015,sorry,对不起；抱歉,/ˈsɒri/,"Sorry, I'm late.",C01,C01-S01,sorry,audio/en-us/word/sorry.mp3,True
+C01-S01-016,excuse me,不好意思；劳驾,/ɪkˈskjuːz miː/,"Excuse me, where is the library?",C01,C01-S01,excuse me,audio/en-us/sentence/excuse-me.mp3,True
+C01-S01-017,yes,是；是的；好的,/jes/,"Yes, I can.",C01,C01-S01,yes,audio/en-us/word/yes.mp3,True
+C01-S01-018,no,不；不是,/nəʊ/,"No, thank you.",C01,C01-S01,no,audio/en-us/word/no.mp3,True
+C01-S01-019,how are you?,你好吗？,/haʊ ɑː juː/,How are you today?,C01,C01-S01,how are you,audio/en-us/sentence/how-are-you.mp3,True
+C01-S01-020,I'm fine.,我很好。,/aɪm faɪn/,"I'm fine, thank you.",C01,C01-S01,i'm fine,audio/en-us/sentence/i-m-fine.mp3,True
+C01-S01-021,nice to meet you,很高兴认识你,/naɪs tə miːt juː/,"Nice to meet you, Lily.",C01,C01-S01,nice to meet you,audio/en-us/sentence/nice-to-meet-you.mp3,True
+C01-S01-022,welcome,欢迎,/ˈwelkəm/,Welcome to our school.,C01,C01-S01,welcome,audio/en-us/word/welcome.mp3,True
+C01-S02-001,zero,零,/ˈzɪərəʊ/,I have zero cookies.,C01,C01-S02,zero,audio/en-us/word/zero.mp3,True
+C01-S02-002,one,一,/wʌn/,I have one pen.,C01,C01-S02,one,audio/en-us/word/one.mp3,True
+C01-S02-003,two,二,/tuː/,I see two birds.,C01,C01-S02,two,audio/en-us/word/two.mp3,True
+C01-S02-004,three,三,/θriː/,I have three books.,C01,C01-S02,three,audio/en-us/word/three.mp3,True
+C01-S02-005,four,四,/fɔː/,Four cats are here.,C01,C01-S02,four,audio/en-us/word/four.mp3,True
+C01-S02-006,five,五,/faɪv/,I have five apples.,C01,C01-S02,five,audio/en-us/word/five.mp3,True
+C01-S02-007,six,六,/sɪks/,Six ducks can swim.,C01,C01-S02,six,audio/en-us/word/six.mp3,True
+C01-S02-008,seven,七,/ˈsevn/,I see seven stars.,C01,C01-S02,seven,audio/en-us/word/seven.mp3,True
+C01-S02-009,eight,八,/eɪt/,I have eight crayons.,C01,C01-S02,eight,audio/en-us/word/eight.mp3,True
+C01-S02-010,nine,九,/naɪn/,I see nine flowers.,C01,C01-S02,nine,audio/en-us/word/nine.mp3,True
+C01-S02-011,ten,十,/ten/,I have ten fingers.,C01,C01-S02,ten,audio/en-us/word/ten.mp3,True
+C01-S02-012,eleven,十一,/ɪˈlevn/,I have eleven cards.,C01,C01-S02,eleven,audio/en-us/word/eleven.mp3,True
+C01-S02-013,twelve,十二,/twelv/,There are twelve eggs.,C01,C01-S02,twelve,audio/en-us/word/twelve.mp3,True
+C01-S02-014,thirteen,十三,/ˌθɜːˈtiːn/,I can count to thirteen.,C01,C01-S02,thirteen,audio/en-us/word/thirteen.mp3,True
+C01-S02-015,fourteen,十四,/ˌfɔːˈtiːn/,Fourteen birds are outside.,C01,C01-S02,fourteen,audio/en-us/word/fourteen.mp3,True
+C01-S02-016,fifteen,十五,/ˌfɪfˈtiːn/,Fifteen students are here.,C01,C01-S02,fifteen,audio/en-us/word/fifteen.mp3,True
+C01-S02-017,sixteen,十六,/ˌsɪksˈtiːn/,I have sixteen stickers.,C01,C01-S02,sixteen,audio/en-us/word/sixteen.mp3,True
+C01-S02-018,seventeen,十七,/ˌsevnˈtiːn/,I see seventeen stars.,C01,C01-S02,seventeen,audio/en-us/word/seventeen.mp3,True
+C01-S02-019,eighteen,十八,/ˌeɪˈtiːn/,There are eighteen pencils.,C01,C01-S02,eighteen,audio/en-us/word/eighteen.mp3,True
+C01-S02-020,nineteen,十九,/ˌnaɪnˈtiːn/,I have nineteen blocks.,C01,C01-S02,nineteen,audio/en-us/word/nineteen.mp3,True
+C01-S02-021,twenty,二十,/ˈtwenti/,I have twenty blocks.,C01,C01-S02,twenty,audio/en-us/word/twenty.mp3,True
+C01-S02-022,twenty-one,二十一,/ˌtwenti ˈwʌn/,I have twenty-one stickers.,C01,C01-S02,twentyone,audio/en-us/word/twentyone.mp3,True
+C01-S02-023,twenty-two,二十二,/ˌtwenti ˈtuː/,I see twenty-two birds.,C01,C01-S02,twentytwo,audio/en-us/word/twentytwo.mp3,True
+C01-S02-024,twenty-three,二十三,/ˌtwenti ˈθriː/,There are twenty-three books.,C01,C01-S02,twentythree,audio/en-us/word/twentythree.mp3,True
+C01-S02-025,twenty-four,二十四,/ˌtwenti ˈfɔː/,I have twenty-four cards.,C01,C01-S02,twentyfour,audio/en-us/word/twentyfour.mp3,True
+C01-S02-026,twenty-five,二十五,/ˌtwenti ˈfaɪv/,There are twenty-five students.,C01,C01-S02,twentyfive,audio/en-us/word/twentyfive.mp3,True
+C01-S02-027,twenty-six,二十六,/ˌtwenti ˈsɪks/,I have twenty-six crayons.,C01,C01-S02,twentysix,audio/en-us/word/twentysix.mp3,True
+C01-S02-028,twenty-seven,二十七,/ˌtwenti ˈsevn/,I see twenty-seven stars.,C01,C01-S02,twentyseven,audio/en-us/word/twentyseven.mp3,True
+C01-S02-029,twenty-eight,二十八,/ˌtwenti ˈeɪt/,There are twenty-eight days in February in a common year.,C01,C01-S02,twentyeight,audio/en-us/word/twentyeight.mp3,True
+C01-S02-030,twenty-nine,二十九,/ˌtwenti ˈnaɪn/,I have twenty-nine marbles.,C01,C01-S02,twentynine,audio/en-us/word/twentynine.mp3,True
+C01-S02-031,thirty,三十,/ˈθɜːti/,I have thirty stickers.,C01,C01-S02,thirty,audio/en-us/word/thirty.mp3,True
+C01-S02-032,forty,四十,/ˈfɔːti/,Forty books are on the shelf.,C01,C01-S02,forty,audio/en-us/word/forty.mp3,True
+C01-S02-033,fifty,五十,/ˈfɪfti/,The chart has fifty stars.,C01,C01-S02,fifty,audio/en-us/word/fifty.mp3,True
+C01-S02-034,sixty,六十,/ˈsɪksti/,Sixty seconds make a minute.,C01,C01-S02,sixty,audio/en-us/word/sixty.mp3,True
+C01-S02-035,seventy,七十,/ˈsevnti/,Seventy is more than sixty.,C01,C01-S02,seventy,audio/en-us/word/seventy.mp3,True
+C01-S02-036,eighty,八十,/ˈeɪti/,Eighty is a number.,C01,C01-S02,eighty,audio/en-us/word/eighty.mp3,True
+C01-S02-037,ninety,九十,/ˈnaɪnti/,Ninety is ten less than one hundred.,C01,C01-S02,ninety,audio/en-us/word/ninety.mp3,True
+C01-S02-038,one hundred,一百,/wʌn ˈhʌndrəd/,I can count to one hundred.,C01,C01-S02,one hundred,audio/en-us/sentence/one-hundred.mp3,True
+C01-S02-039,number,数字；数量,/ˈnʌmbə/,What is your number?,C01,C01-S02,number,audio/en-us/word/number.mp3,True
+C01-S02-040,count,数数；计数,/kaʊnt/,Count from one to ten.,C01,C01-S02,count,audio/en-us/word/count.mp3,True
+C01-S02-041,how many,多少（用于可数名词）,/haʊ ˈmeni/,How many books do you have?,C01,C01-S02,how many,audio/en-us/sentence/how-many.mp3,True
+C01-S02-042,how much,多少（用于不可数名词或询问价格）,/haʊ mʌtʃ/,How much water do you want?,C01,C01-S02,how much,audio/en-us/sentence/how-much.mp3,True
+C01-S02-043,many,许多（用于可数名词）,/ˈmeni/,I have many toys.,C01,C01-S02,many,audio/en-us/word/many.mp3,True
+C01-S02-044,much,许多（常用于不可数名词）,/mʌtʃ/,We don't have much time.,C01,C01-S02,much,audio/en-us/word/much.mp3,True
+C01-S02-045,more,更多；更多的,/mɔː/,I want more milk.,C01,C01-S02,more,audio/en-us/word/more.mp3,True
+C01-S02-046,less,更少；较少的,/les/,This box has less water.,C01,C01-S02,less,audio/en-us/word/less.mp3,True
+C01-S02-047,some,一些,/sʌm/,I have some pencils.,C01,C01-S02,some,audio/en-us/word/some.mp3,True
+C01-S02-048,any,一些；任何（依语境）,/ˈeni/,Do you have any questions?,C01,C01-S02,any,audio/en-us/word/any.mp3,True
+C01-S02-049,all,全部；所有,/ɔːl/,All the children are here.,C01,C01-S02,all,audio/en-us/word/all.mp3,True
+C01-S02-050,half,一半,/hɑːf/,I ate half an apple.,C01,C01-S02,half,audio/en-us/word/half.mp3,True
+C01-S02-051,first,第一；首先,/fɜːst/,This is my first book.,C01,C01-S02,first,audio/en-us/word/first.mp3,True
+C01-S02-052,second,第二,/ˈsekənd/,The second answer is right.,C01,C01-S02,second,audio/en-us/word/second.mp3,True
+C01-S02-053,third,第三,/θɜːd/,The third box is blue.,C01,C01-S02,third,audio/en-us/word/third.mp3,True
+C01-S02-054,each,每个；各自,/iːtʃ/,Each child has a book.,C01,C01-S02,each,audio/en-us/word/each.mp3,True
+C01-S02-055,every,每个；每一,/ˈevri/,I read every day.,C01,C01-S02,every,audio/en-us/word/every.mp3,True
+C01-S02-056,a lot of,许多；大量,/ə ˈlɒt əv/,I have a lot of books.,C01,C01-S02,a lot of,audio/en-us/sentence/a-lot-of.mp3,True
+C01-S02-057,few,很少；少数（可数名词）,/fjuː/,Few people are here.,C01,C01-S02,few,audio/en-us/word/few.mp3,True
+C01-S02-058,a few,几个；一些（可数名词）,/ə fjuː/,I have a few toys.,C01,C01-S02,a few,audio/en-us/sentence/a-few.mp3,True
+C01-S02-059,little,少量的；少的（不可数名词）,/ˈlɪtl/,There is little milk left.,C01,C01-S02,little,audio/en-us/word/little.mp3,True
+C01-S02-060,a little,一点儿；少量,/ə ˈlɪtl/,I want a little water.,C01,C01-S02,a little,audio/en-us/sentence/a-little.mp3,True
+C01-S02-061,enough,足够；足够的,/ɪˈnʌf/,We have enough chairs.,C01,C01-S02,enough,audio/en-us/word/enough.mp3,True
+C01-S02-062,total,总数；总计,/ˈtəʊtl/,The total is ten.,C01,C01-S02,total,audio/en-us/word/total.mp3,True
+C01-S03-001,red,红色；红色的,/red/,The apple is red.,C01,C01-S03,red,audio/en-us/word/red.mp3,True
+C01-S03-002,blue,蓝色；蓝色的,/bluː/,The sky is blue.,C01,C01-S03,blue,audio/en-us/word/blue.mp3,True
+C01-S03-003,yellow,黄色；黄色的,/ˈjeləʊ/,The sun is yellow.,C01,C01-S03,yellow,audio/en-us/word/yellow.mp3,True
+C01-S03-004,green,绿色；绿色的,/ɡriːn/,The leaf is green.,C01,C01-S03,green,audio/en-us/word/green.mp3,True
+C01-S03-005,orange,橙色；橙色的,/ˈɒrɪndʒ/,My bag is orange.,C01,C01-S03,orange,audio/en-us/word/orange.mp3,True
+C01-S03-006,purple,紫色；紫色的,/ˈpɜːpl/,The flower is purple.,C01,C01-S03,purple,audio/en-us/word/purple.mp3,True
+C01-S03-007,pink,粉色；粉色的,/pɪŋk/,The cup is pink.,C01,C01-S03,pink,audio/en-us/word/pink.mp3,True
+C01-S03-008,black,黑色；黑色的,/blæk/,The cat is black.,C01,C01-S03,black,audio/en-us/word/black.mp3,True
+C01-S03-009,white,白色；白色的,/waɪt/,The snow is white.,C01,C01-S03,white,audio/en-us/word/white.mp3,True
+C01-S03-010,brown,棕色；棕色的,/braʊn/,The bear is brown.,C01,C01-S03,brown,audio/en-us/word/brown.mp3,True
+C01-S03-011,gray,灰色；灰色的,/ɡreɪ/,The mouse is gray.,C01,C01-S03,gray,audio/en-us/word/gray.mp3,True
+C01-S03-012,gold,金色；金色的,/ɡəʊld/,The star is gold.,C01,C01-S03,gold,audio/en-us/word/gold.mp3,True
+C01-S03-013,silver,银色；银色的,/ˈsɪlvə/,The spoon is silver.,C01,C01-S03,silver,audio/en-us/word/silver.mp3,True
+C01-S03-014,light blue,浅蓝色；浅蓝色的,/laɪt bluː/,My shirt is light blue.,C01,C01-S03,light blue,audio/en-us/sentence/light-blue.mp3,True
+C01-S03-015,dark blue,深蓝色；深蓝色的,/dɑːk bluː/,The bag is dark blue.,C01,C01-S03,dark blue,audio/en-us/sentence/dark-blue.mp3,True
+C01-S03-016,light green,浅绿色；浅绿色的,/laɪt ɡriːn/,The wall is light green.,C01,C01-S03,light green,audio/en-us/sentence/light-green.mp3,True
+C01-S03-017,dark green,深绿色；深绿色的,/dɑːk ɡriːn/,The tree is dark green.,C01,C01-S03,dark green,audio/en-us/sentence/dark-green.mp3,True
+C01-S03-018,beige,米色；米色的,/beɪʒ/,The hat is beige.,C01,C01-S03,beige,audio/en-us/word/beige.mp3,True
+C01-S03-019,violet,紫罗兰色；紫罗兰色的,/ˈvaɪələt/,The ribbon is violet.,C01,C01-S03,violet,audio/en-us/word/violet.mp3,True
+C01-S04-001,shape,形状,/ʃeɪp/,What shape is it?,C01,C01-S04,shape,audio/en-us/word/shape.mp3,True
+C01-S04-002,circle,圆形,/ˈsɜːkl/,It is a circle.,C01,C01-S04,circle,audio/en-us/word/circle.mp3,True
+C01-S04-003,square,正方形,/skweə/,Draw a square.,C01,C01-S04,square,audio/en-us/word/square.mp3,True
+C01-S04-004,triangle,三角形,/ˈtraɪæŋɡl/,The sign is a triangle.,C01,C01-S04,triangle,audio/en-us/word/triangle.mp3,True
+C01-S04-005,rectangle,长方形,/ˈrektæŋɡl/,The book is a rectangle.,C01,C01-S04,rectangle,audio/en-us/word/rectangle.mp3,True
+C01-S04-006,star,星形；星星,/stɑː/,Draw a star.,C01,C01-S04,star,audio/en-us/word/star.mp3,True
+C01-S04-007,heart,心形；心脏,/hɑːt/,The card has a heart.,C01,C01-S04,heart,audio/en-us/word/heart.mp3,True
+C01-S04-008,oval,椭圆形,/ˈəʊvl/,The egg is an oval shape.,C01,C01-S04,oval,audio/en-us/word/oval.mp3,True
+C01-S04-009,diamond,菱形,/ˈdaɪəmənd/,The tile is a diamond.,C01,C01-S04,diamond,audio/en-us/word/diamond.mp3,True
+C01-S04-010,line,线；线条,/laɪn/,Draw a straight line.,C01,C01-S04,line,audio/en-us/word/line.mp3,True
+C01-S04-011,dot,点；小圆点,/dɒt/,Put a dot here.,C01,C01-S04,dot,audio/en-us/word/dot.mp3,True
+C01-S04-012,corner,角；拐角,/ˈkɔːnə/,The paper has four corners.,C01,C01-S04,corner,audio/en-us/word/corner.mp3,True
+C01-S04-013,side,边；侧面,/saɪd/,A square has four sides.,C01,C01-S04,side,audio/en-us/word/side.mp3,True
+C01-S04-014,round,圆的；圆形的,/raʊnd/,The ball is round.,C01,C01-S04,round,audio/en-us/word/round.mp3,True
+C01-S04-015,straight,直的,/streɪt/,The line is straight.,C01,C01-S04,straight,audio/en-us/word/straight.mp3,True
+C01-S04-016,curved,弯曲的,/kɜːvd/,The road is curved.,C01,C01-S04,curved,audio/en-us/word/curved.mp3,True
+C01-S04-017,big,大的,/bɪɡ/,The box is big.,C01,C01-S04,big,audio/en-us/word/big.mp3,True
+C01-S04-018,small,小的,/smɔːl/,The mouse is small.,C01,C01-S04,small,audio/en-us/word/small.mp3,True
+C01-S04-019,large,大的；大型的,/lɑːdʒ/,This is a large ball.,C01,C01-S04,large,audio/en-us/word/large.mp3,True
+C01-S04-020,long,长的,/lɒŋ/,The ruler is long.,C01,C01-S04,long,audio/en-us/word/long.mp3,True
+C01-S04-021,short,短的；矮的,/ʃɔːt/,The pencil is short.,C01,C01-S04,short,audio/en-us/word/short.mp3,True
+C01-S04-022,tall,高的（常指人或竖立的物体）,/tɔːl/,The tree is tall.,C01,C01-S04,tall,audio/en-us/word/tall.mp3,True
+C01-S04-023,high,高的；高处的,/haɪ/,The kite is high in the sky.,C01,C01-S04,high,audio/en-us/word/high.mp3,True
+C01-S04-024,low,低的；低处的,/ləʊ/,The table is low.,C01,C01-S04,low,audio/en-us/word/low.mp3,True
+C01-S04-025,wide,宽的,/waɪd/,The river is wide.,C01,C01-S04,wide,audio/en-us/word/wide.mp3,True
+C01-S04-026,narrow,窄的,/ˈnærəʊ/,This street is narrow.,C01,C01-S04,narrow,audio/en-us/word/narrow.mp3,True
+C01-S04-027,thick,厚的；粗的,/θɪk/,This book is thick.,C01,C01-S04,thick,audio/en-us/word/thick.mp3,True
+C01-S04-028,thin,薄的；细的,/θɪn/,The paper is thin.,C01,C01-S04,thin,audio/en-us/word/thin.mp3,True
+C01-S04-029,heavy,重的,/ˈhevi/,The bag is heavy.,C01,C01-S04,heavy,audio/en-us/word/heavy.mp3,True
+C01-S04-030,light,轻的,/laɪt/,The box is light.,C01,C01-S04,light,audio/en-us/word/light.mp3,True
+C01-S04-031,deep,深的,/diːp/,The pool is deep.,C01,C01-S04,deep,audio/en-us/word/deep.mp3,True
+C01-S04-032,shallow,浅的,/ˈʃæləʊ/,The water is shallow.,C01,C01-S04,shallow,audio/en-us/word/shallow.mp3,True
+C01-S04-033,size,尺寸；大小,/saɪz/,What size is the box?,C01,C01-S04,size,audio/en-us/word/size.mp3,True

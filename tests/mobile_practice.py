@@ -241,16 +241,18 @@ with sync_playwright() as p:
             up.wait_for_function('!!navigator.serviceWorker.controller')
             up.evaluate("localStorage.setItem('unrelated-study-record','preserve-me')")
             root=Path(__file__).resolve().parents[1]
-            for name in ('index.html','sw.js','manifest.webmanifest','icon-192.png','icon-512.png','apple-touch-icon.png'):
+            for name in ('index.html','sw.js','audio-files.js','audio-manifest.json','manifest.webmanifest','icon-192.png','icon-512.png','apple-touch-icon.png'):
                 shutil.copyfile(root/name,fixture/name)
+            shutil.copytree(root/'audio',fixture/'audio')
+            shutil.copytree(root/'data',fixture/'data')
             # Keep the old controller active briefly after the new files arrive.
             # A cache entry alone must not announce offline readiness.
-            worker=(fixture/'sw.js').read_text().replace('.then(()=>self.skipWaiting())', '.then(()=>new Promise(resolve=>setTimeout(resolve,2500))).then(()=>self.skipWaiting())')
+            worker=(fixture/'sw.js').read_text().replace('  await self.skipWaiting();','  await new Promise(resolve=>setTimeout(resolve,2500));\n  await self.skipWaiting();')
             (fixture/'sw.js').write_text(worker)
             up.goto(origin+'?upgrade=phone-practice#settings')
-            up.wait_for_function('caches.open(FROG_OFFLINE_CACHE).then(c=>c.match(new URL("./index.html",location.href).href)).then(Boolean)',timeout=20000)
+            up.wait_for_function('caches.open(FROG_OFFLINE_CACHE).then(c=>c.match(new URL("./index.html",location.href).href)).then(Boolean)',timeout=60000)
             assert not up.locator('[data-mobile-status]').first.inner_text().startswith('已保存离线内容')
-            up.wait_for_function("document.querySelector('[data-mobile-status]')?.textContent.startsWith('已保存离线内容')",timeout=20000)
+            up.wait_for_function("document.querySelector('[data-mobile-status]')?.textContent.startsWith('已保存离线内容')",timeout=60000)
             assert up.evaluate("localStorage.getItem('unrelated-study-record')")=='preserve-me'
             expected_version=up.evaluate('FROG_OFFLINE_CACHE')
             upgrade.set_offline(True)

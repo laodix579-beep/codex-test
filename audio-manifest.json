@@ -1,0 +1,4298 @@
+{
+  "title": "小蛙自习室英语音频清单",
+  "voice": "Bella · GA 美式英语",
+  "voice_locale": "en-US",
+  "pronunciation": "GA",
+  "source_engine_metadata": "Kokoro-82M v1.0 FP32",
+  "source_revision_metadata": "pep-ga-v7",
+  "audio_format": "MP3",
+  "processing": {
+    "operation": "从项目内置音频提取并统一响度",
+    "target_integrated_loudness_lufs": -16,
+    "target_true_peak_dbfs": -1.5,
+    "sample_rate_hz": 24000,
+    "channels": 1,
+    "bitrate": "128 kbps",
+    "note": "本包中的音频是对原有音频的提取与响度处理，不是新生成的语音。"
+  },
+  "clips": [
+    {
+      "audio_key": "hello nice to meet you",
+      "text": "Hello, nice to meet you.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/hello-nice-to-meet-you.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "my name is alex",
+      "text": "My name is Alex.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/my-name-is-alex.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "how is your day going",
+      "text": "How is your day going?",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/how-is-your-day-going.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "could you say that again",
+      "text": "Could you say that again?",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/could-you-say-that-again.mp3",
+      "intonation": "rise"
+    },
+    {
+      "audio_key": "i am learning english every day",
+      "text": "I am learning English every day.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/i-am-learning-english-every-day.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "thank you for your help",
+      "text": "Thank you for your help.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/thank-you-for-your-help.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "see you tomorrow",
+      "text": "See you tomorrow.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/see-you-tomorrow.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "practice makes progress",
+      "text": "Practice makes progress.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/practice-makes-progress.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "where is the nearest station",
+      "text": "Where is the nearest station?",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/where-is-the-nearest-station.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "i would like a cup of coffee",
+      "text": "I would like a cup of coffee.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/i-would-like-a-cup-of-coffee.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "how much does this cost",
+      "text": "How much does this cost?",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/how-much-does-this-cost.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "can i pay by card",
+      "text": "Can I pay by card?",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/can-i-pay-by-card.mp3",
+      "intonation": "rise"
+    },
+    {
+      "audio_key": "i have a reservation",
+      "text": "I have a reservation.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/i-have-a-reservation.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "could you recommend a local dish",
+      "text": "Could you recommend a local dish?",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/could-you-recommend-a-local-dish.mp3",
+      "intonation": "rise"
+    },
+    {
+      "audio_key": "which platform should i go to",
+      "text": "Which platform should I go to?",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/which-platform-should-i-go-to.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "is breakfast included",
+      "text": "Is breakfast included?",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/is-breakfast-included.mp3",
+      "intonation": "rise"
+    },
+    {
+      "audio_key": "could we schedule a meeting",
+      "text": "Could we schedule a meeting?",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/could-we-schedule-a-meeting.mp3",
+      "intonation": "rise"
+    },
+    {
+      "audio_key": "let me share my screen",
+      "text": "Let me share my screen.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/let-me-share-my-screen.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "i will send you the details",
+      "text": "I will send you the details.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/i-will-send-you-the-details.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "what is the deadline for this task",
+      "text": "What is the deadline for this task?",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/what-is-the-deadline-for-this-task.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "thank you for your feedback",
+      "text": "Thank you for your feedback.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/thank-you-for-your-feedback.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "let us review the next steps",
+      "text": "Let us review the next steps.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/let-us-review-the-next-steps.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "hello i am sam",
+      "text": "Hello, I am Sam.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/hello-i-am-sam.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "hi my name is lily",
+      "text": "Hi, my name is Lily.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/hi-my-name-is-lily.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "nice to meet you sam",
+      "text": "Nice to meet you, Sam.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/nice-to-meet-you-sam.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "good morning lily",
+      "text": "Good morning, Lily.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/good-morning-lily.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "good afternoon sam",
+      "text": "Good afternoon, Sam.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/good-afternoon-sam.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "goodbye my friends",
+      "text": "Goodbye, my friends.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/goodbye-my-friends.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "hello i'm li dong",
+      "text": "Hello! I'm Li Dong.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/hello-i-m-li-dong.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "hi i'm binbin",
+      "text": "Hi! I'm Binbin.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/hi-i-m-binbin.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "hello i'm chen jie",
+      "text": "Hello! I'm Chen Jie.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/hello-i-m-chen-jie.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "hi i'm sarah",
+      "text": "Hi! I'm Sarah.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/hi-i-m-sarah.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "hello little frog",
+      "text": "Hello, little frog.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/hello-little-frog.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "wave your hand",
+      "text": "Wave your hand.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/wave-your-hand.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "say hello to a friend",
+      "text": "Say hello to a friend.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/say-hello-to-a-friend.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "i am in my classroom",
+      "text": "I am in my classroom.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/i-am-in-my-classroom.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "this is our teacher",
+      "text": "This is our teacher.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/this-is-our-teacher.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "we are ready to learn",
+      "text": "We are ready to learn.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/we-are-ready-to-learn.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "please sit down",
+      "text": "Please sit down.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/please-sit-down.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "please stand up",
+      "text": "Please stand up.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/please-stand-up.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "look at the board",
+      "text": "Look at the board.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/look-at-the-board.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "good morning teacher",
+      "text": "Good morning, teacher.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/good-morning-teacher.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "may i come in",
+      "text": "May I come in?",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/may-i-come-in.mp3",
+      "intonation": "rise"
+    },
+    {
+      "audio_key": "yes please come in",
+      "text": "Yes, please come in.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/yes-please-come-in.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "raise your hand please",
+      "text": "Raise your hand, please.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/raise-your-hand-please.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "open your book",
+      "text": "Open your book.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/open-your-book.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "close your book",
+      "text": "Close your book.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/close-your-book.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "one two three look at me",
+      "text": "One, two, three, look at me.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/one-two-three-look-at-me.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "let us play together",
+      "text": "Let us play together.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/let-us-play-together.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "thank you teacher",
+      "text": "Thank you, teacher.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/thank-you-teacher.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "listen with your ears",
+      "text": "Listen with your ears.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/listen-with-your-ears.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "look with your eyes",
+      "text": "Look with your eyes.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/look-with-your-eyes.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "speak in a clear voice",
+      "text": "Speak in a clear voice.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/speak-in-a-clear-voice.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "point to the picture",
+      "text": "Point to the picture.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/point-to-the-picture.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "read after me",
+      "text": "Read after me.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/read-after-me.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "clap your hands",
+      "text": "Clap your hands.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/clap-your-hands.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "let us work together",
+      "text": "Let us work together.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/let-us-work-together.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "give me a high five",
+      "text": "Give me a high five.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/give-me-a-high-five.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "well done my friend",
+      "text": "Well done, my friend.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/well-done-my-friend.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "can you draw a star",
+      "text": "Can you draw a star?",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/can-you-draw-a-star.mp3",
+      "intonation": "rise"
+    },
+    {
+      "audio_key": "i can sing a song",
+      "text": "I can sing a song.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/i-can-sing-a-song.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "let us try again",
+      "text": "Let us try again.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/let-us-try-again.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "my bag is ready",
+      "text": "My bag is ready.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/my-bag-is-ready.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "my books are in my bag",
+      "text": "My books are in my bag.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/my-books-are-in-my-bag.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "let us go to school",
+      "text": "Let us go to school.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/let-us-go-to-school.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "take out your pencil",
+      "text": "Take out your pencil.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/take-out-your-pencil.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "put away your ruler",
+      "text": "Put away your ruler.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/put-away-your-ruler.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "show me your book",
+      "text": "Show me your book.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/show-me-your-book.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "is this your pencil",
+      "text": "Is this your pencil?",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/is-this-your-pencil.mp3",
+      "intonation": "rise"
+    },
+    {
+      "audio_key": "yes it is my pencil",
+      "text": "Yes, it is my pencil.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/yes-it-is-my-pencil.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "here is your eraser",
+      "text": "Here is your eraser.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/here-is-your-eraser.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "i have a blue bag",
+      "text": "I have a blue bag.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/i-have-a-blue-bag.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "i have two pencils",
+      "text": "I have two pencils.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/i-have-two-pencils.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "this is my new ruler",
+      "text": "This is my new ruler.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/this-is-my-new-ruler.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "find a red pencil",
+      "text": "Find a red pencil.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/find-a-red-pencil.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "put the book on the desk",
+      "text": "Put the book on the desk.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/put-the-book-on-the-desk.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "my school things are ready",
+      "text": "My school things are ready.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/my-school-things-are-ready.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "this is my family",
+      "text": "This is my family.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/this-is-my-family.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "i love my mother",
+      "text": "I love my mother.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/i-love-my-mother.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "i love my father",
+      "text": "I love my father.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/i-love-my-father.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "this is my grandma",
+      "text": "This is my grandma.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/this-is-my-grandma.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "this is my grandpa",
+      "text": "This is my grandpa.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/this-is-my-grandpa.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "we are a happy family",
+      "text": "We are a happy family.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/we-are-a-happy-family.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "who is in the photo",
+      "text": "Who is in the photo?",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/who-is-in-the-photo.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "this is my sister",
+      "text": "This is my sister.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/this-is-my-sister.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "this is my little brother",
+      "text": "This is my little brother.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/this-is-my-little-brother.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "this is my good friend",
+      "text": "This is my good friend.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/this-is-my-good-friend.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "she is my teacher",
+      "text": "She is my teacher.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/she-is-my-teacher.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "he is my neighbour",
+      "text": "He is my neighbour.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/he-is-my-neighbour.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "let us say thank you",
+      "text": "Let us say thank you.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/let-us-say-thank-you.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "you help me every day",
+      "text": "You help me every day.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/you-help-me-every-day.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "i am happy with you",
+      "text": "I am happy with you.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/i-am-happy-with-you.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "hello i am a robot",
+      "text": "Hello, I am a robot.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/hello-i-am-a-robot.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "i can wave my hand",
+      "text": "I can wave my hand.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/i-can-wave-my-hand.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "i can say my name",
+      "text": "I can say my name.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/i-can-say-my-name.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "robot please stand up",
+      "text": "Robot, please stand up.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/robot-please-stand-up.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "robot open your bag",
+      "text": "Robot, open your bag.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/robot-open-your-bag.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "please show me your pencil",
+      "text": "Please show me your pencil.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/please-show-me-your-pencil.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "look at my robot",
+      "text": "Look at my robot.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/look-at-my-robot.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "it has two big eyes",
+      "text": "It has two big eyes.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/it-has-two-big-eyes.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "it is my little friend",
+      "text": "It is my little friend.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/it-is-my-little-friend.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "i spy a yellow book",
+      "text": "I spy a yellow book.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/i-spy-a-yellow-book.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "i spy a little star",
+      "text": "I spy a little star.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/i-spy-a-little-star.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "can you find the robot",
+      "text": "Can you find the robot?",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/can-you-find-the-robot.mp3",
+      "intonation": "rise"
+    },
+    {
+      "audio_key": "i am making progress",
+      "text": "I am making progress",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/i-am-making-progress.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "i learn something new every day",
+      "text": "I learn something new every day",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/i-learn-something-new-every-day.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "i would like some coffee",
+      "text": "I would like some coffee",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/i-would-like-some-coffee.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "can you recommend a good book",
+      "text": "can you recommend a good book",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/can-you-recommend-a-good-book.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "enjoy your journey",
+      "text": "enjoy your journey",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/enjoy-your-journey.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "the meeting starts at nine",
+      "text": "the meeting starts at nine",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/the-meeting-starts-at-nine.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "let us check the schedule",
+      "text": "let us check the schedule",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/let-us-check-the-schedule.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "the deadline is friday",
+      "text": "the deadline is friday",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/the-deadline-is-friday.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "let us review the lesson",
+      "text": "let us review the lesson",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/let-us-review-the-lesson.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "please check the details",
+      "text": "please check the details",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/please-check-the-details.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "this is my name card",
+      "text": "this is my name card",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/this-is-my-name-card.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "my name is ben",
+      "text": "my name is ben",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/my-name-is-ben.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "what is your name",
+      "text": "what is your name",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/what-is-your-name.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "hello let us practice english together",
+      "text": "hello let us practice english together",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/hello-let-us-practice-english-together.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "hello",
+      "text": "hello",
+      "style": "word",
+      "path": "audio/en-us/word/hello.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "i'm li dong",
+      "text": "I'm li dong",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/i-m-li-dong.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "hi",
+      "text": "hi",
+      "style": "word",
+      "path": "audio/en-us/word/hi.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "i'm binbin",
+      "text": "I'm binbin",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/i-m-binbin.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "i'm chen jie",
+      "text": "I'm chen jie",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/i-m-chen-jie.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "i'm sarah",
+      "text": "I'm sarah",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/i-m-sarah.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "practice",
+      "text": "practice",
+      "style": "word",
+      "path": "audio/en-us/word/practice.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "progress",
+      "text": "progress",
+      "style": "word",
+      "path": "audio/en-us/word/progress.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "learn",
+      "text": "learn",
+      "style": "word",
+      "path": "audio/en-us/word/learn.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "tomorrow",
+      "text": "tomorrow",
+      "style": "word",
+      "path": "audio/en-us/word/tomorrow.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "help",
+      "text": "help",
+      "style": "word",
+      "path": "audio/en-us/word/help.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "station",
+      "text": "station",
+      "style": "word",
+      "path": "audio/en-us/word/station.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "coffee",
+      "text": "coffee",
+      "style": "word",
+      "path": "audio/en-us/word/coffee.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "reservation",
+      "text": "reservation",
+      "style": "word",
+      "path": "audio/en-us/word/reservation.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "recommend",
+      "text": "recommend",
+      "style": "word",
+      "path": "audio/en-us/word/recommend.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "journey",
+      "text": "journey",
+      "style": "word",
+      "path": "audio/en-us/word/journey.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "breakfast",
+      "text": "breakfast",
+      "style": "word",
+      "path": "audio/en-us/word/breakfast.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "meeting",
+      "text": "meeting",
+      "style": "word",
+      "path": "audio/en-us/word/meeting.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "schedule",
+      "text": "schedule",
+      "style": "word",
+      "path": "audio/en-us/word/schedule.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "deadline",
+      "text": "deadline",
+      "style": "word",
+      "path": "audio/en-us/word/deadline.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "feedback",
+      "text": "feedback",
+      "style": "word",
+      "path": "audio/en-us/word/feedback.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "review",
+      "text": "review",
+      "style": "word",
+      "path": "audio/en-us/word/review.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "detail",
+      "text": "detail",
+      "style": "word",
+      "path": "audio/en-us/word/detail.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "see",
+      "text": "see",
+      "style": "word",
+      "path": "audio/en-us/word/see.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "sit",
+      "text": "sit",
+      "style": "word",
+      "path": "audio/en-us/word/sit.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "bed",
+      "text": "bed",
+      "style": "word",
+      "path": "audio/en-us/word/bed.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "cat",
+      "text": "cat",
+      "style": "word",
+      "path": "audio/en-us/word/cat.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "car",
+      "text": "car",
+      "style": "word",
+      "path": "audio/en-us/word/car.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "hot",
+      "text": "hot",
+      "style": "word",
+      "path": "audio/en-us/word/hot.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "law",
+      "text": "law",
+      "style": "word",
+      "path": "audio/en-us/word/law.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "book",
+      "text": "book",
+      "style": "word",
+      "path": "audio/en-us/word/book.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "food",
+      "text": "food",
+      "style": "word",
+      "path": "audio/en-us/word/food.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "cup",
+      "text": "cup",
+      "style": "word",
+      "path": "audio/en-us/word/cup.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "bird",
+      "text": "bird",
+      "style": "word",
+      "path": "audio/en-us/word/bird.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "about",
+      "text": "about",
+      "style": "word",
+      "path": "audio/en-us/word/about.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "day",
+      "text": "day",
+      "style": "word",
+      "path": "audio/en-us/word/day.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "time",
+      "text": "time",
+      "style": "word",
+      "path": "audio/en-us/word/time.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "boy",
+      "text": "boy",
+      "style": "word",
+      "path": "audio/en-us/word/boy.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "go",
+      "text": "go",
+      "style": "word",
+      "path": "audio/en-us/word/go.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "now",
+      "text": "now",
+      "style": "word",
+      "path": "audio/en-us/word/now.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "near",
+      "text": "near",
+      "style": "word",
+      "path": "audio/en-us/word/near.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "hair",
+      "text": "hair",
+      "style": "word",
+      "path": "audio/en-us/word/hair.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "tour",
+      "text": "tour",
+      "style": "word",
+      "path": "audio/en-us/word/tour.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "pen",
+      "text": "pen",
+      "style": "word",
+      "path": "audio/en-us/word/pen.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "bag",
+      "text": "bag",
+      "style": "word",
+      "path": "audio/en-us/word/bag.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "tea",
+      "text": "tea",
+      "style": "word",
+      "path": "audio/en-us/word/tea.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "dog",
+      "text": "dog",
+      "style": "word",
+      "path": "audio/en-us/word/dog.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "key",
+      "text": "key",
+      "style": "word",
+      "path": "audio/en-us/word/key.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "game",
+      "text": "game",
+      "style": "word",
+      "path": "audio/en-us/word/game.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "fish",
+      "text": "fish",
+      "style": "word",
+      "path": "audio/en-us/word/fish.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "very",
+      "text": "very",
+      "style": "word",
+      "path": "audio/en-us/word/very.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "think",
+      "text": "think",
+      "style": "word",
+      "path": "audio/en-us/word/think.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "this",
+      "text": "this",
+      "style": "word",
+      "path": "audio/en-us/word/this.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "sun",
+      "text": "sun",
+      "style": "word",
+      "path": "audio/en-us/word/sun.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "zoo",
+      "text": "zoo",
+      "style": "word",
+      "path": "audio/en-us/word/zoo.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "she",
+      "text": "she",
+      "style": "word",
+      "path": "audio/en-us/word/she.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "vision",
+      "text": "vision",
+      "style": "word",
+      "path": "audio/en-us/word/vision.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "hat",
+      "text": "hat",
+      "style": "word",
+      "path": "audio/en-us/word/hat.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "chair",
+      "text": "chair",
+      "style": "word",
+      "path": "audio/en-us/word/chair.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "job",
+      "text": "job",
+      "style": "word",
+      "path": "audio/en-us/word/job.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "moon",
+      "text": "moon",
+      "style": "word",
+      "path": "audio/en-us/word/moon.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "name",
+      "text": "name",
+      "style": "word",
+      "path": "audio/en-us/word/name.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "sing",
+      "text": "sing",
+      "style": "word",
+      "path": "audio/en-us/word/sing.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "light",
+      "text": "light",
+      "style": "word",
+      "path": "audio/en-us/word/light.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "red",
+      "text": "red",
+      "style": "word",
+      "path": "audio/en-us/word/red.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "yes",
+      "text": "yes",
+      "style": "word",
+      "path": "audio/en-us/word/yes.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "we",
+      "text": "we",
+      "style": "word",
+      "path": "audio/en-us/word/we.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "nice",
+      "text": "nice",
+      "style": "word",
+      "path": "audio/en-us/word/nice.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "to",
+      "text": "to",
+      "style": "word",
+      "path": "audio/en-us/word/to.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "meet",
+      "text": "meet",
+      "style": "word",
+      "path": "audio/en-us/word/meet.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "you",
+      "text": "you",
+      "style": "word",
+      "path": "audio/en-us/word/you.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "my",
+      "text": "my",
+      "style": "word",
+      "path": "audio/en-us/word/my.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "is",
+      "text": "is",
+      "style": "word",
+      "path": "audio/en-us/word/is.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "alex",
+      "text": "alex",
+      "style": "word",
+      "path": "audio/en-us/word/alex.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "how",
+      "text": "how",
+      "style": "word",
+      "path": "audio/en-us/word/how.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "your",
+      "text": "your",
+      "style": "word",
+      "path": "audio/en-us/word/your.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "going",
+      "text": "going",
+      "style": "word",
+      "path": "audio/en-us/word/going.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "could",
+      "text": "could",
+      "style": "word",
+      "path": "audio/en-us/word/could.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "say",
+      "text": "say",
+      "style": "word",
+      "path": "audio/en-us/word/say.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "that",
+      "text": "that",
+      "style": "word",
+      "path": "audio/en-us/word/that.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "again",
+      "text": "again",
+      "style": "word",
+      "path": "audio/en-us/word/again.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "i",
+      "text": "I",
+      "style": "word",
+      "path": "audio/en-us/word/i.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "am",
+      "text": "am",
+      "style": "word",
+      "path": "audio/en-us/word/am.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "learning",
+      "text": "learning",
+      "style": "word",
+      "path": "audio/en-us/word/learning.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "english",
+      "text": "english",
+      "style": "word",
+      "path": "audio/en-us/word/english.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "every",
+      "text": "every",
+      "style": "word",
+      "path": "audio/en-us/word/every.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "thank",
+      "text": "thank",
+      "style": "word",
+      "path": "audio/en-us/word/thank.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "for",
+      "text": "for",
+      "style": "word",
+      "path": "audio/en-us/word/for.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "makes",
+      "text": "makes",
+      "style": "word",
+      "path": "audio/en-us/word/makes.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "where",
+      "text": "where",
+      "style": "word",
+      "path": "audio/en-us/word/where.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "the",
+      "text": "the",
+      "style": "word",
+      "path": "audio/en-us/word/the.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "nearest",
+      "text": "nearest",
+      "style": "word",
+      "path": "audio/en-us/word/nearest.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "would",
+      "text": "would",
+      "style": "word",
+      "path": "audio/en-us/word/would.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "like",
+      "text": "like",
+      "style": "word",
+      "path": "audio/en-us/word/like.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "a",
+      "text": "a",
+      "style": "word",
+      "path": "audio/en-us/word/a.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "of",
+      "text": "of",
+      "style": "word",
+      "path": "audio/en-us/word/of.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "much",
+      "text": "much",
+      "style": "word",
+      "path": "audio/en-us/word/much.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "does",
+      "text": "does",
+      "style": "word",
+      "path": "audio/en-us/word/does.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "cost",
+      "text": "cost",
+      "style": "word",
+      "path": "audio/en-us/word/cost.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "can",
+      "text": "can",
+      "style": "word",
+      "path": "audio/en-us/word/can.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "pay",
+      "text": "pay",
+      "style": "word",
+      "path": "audio/en-us/word/pay.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "by",
+      "text": "by",
+      "style": "word",
+      "path": "audio/en-us/word/by.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "card",
+      "text": "card",
+      "style": "word",
+      "path": "audio/en-us/word/card.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "have",
+      "text": "have",
+      "style": "word",
+      "path": "audio/en-us/word/have.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "local",
+      "text": "local",
+      "style": "word",
+      "path": "audio/en-us/word/local.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "dish",
+      "text": "dish",
+      "style": "word",
+      "path": "audio/en-us/word/dish.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "which",
+      "text": "which",
+      "style": "word",
+      "path": "audio/en-us/word/which.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "platform",
+      "text": "platform",
+      "style": "word",
+      "path": "audio/en-us/word/platform.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "should",
+      "text": "should",
+      "style": "word",
+      "path": "audio/en-us/word/should.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "included",
+      "text": "included",
+      "style": "word",
+      "path": "audio/en-us/word/included.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "let",
+      "text": "let",
+      "style": "word",
+      "path": "audio/en-us/word/let.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "me",
+      "text": "me",
+      "style": "word",
+      "path": "audio/en-us/word/me.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "share",
+      "text": "share",
+      "style": "word",
+      "path": "audio/en-us/word/share.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "screen",
+      "text": "screen",
+      "style": "word",
+      "path": "audio/en-us/word/screen.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "will",
+      "text": "will",
+      "style": "word",
+      "path": "audio/en-us/word/will.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "send",
+      "text": "send",
+      "style": "word",
+      "path": "audio/en-us/word/send.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "details",
+      "text": "details",
+      "style": "word",
+      "path": "audio/en-us/word/details.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "what",
+      "text": "what",
+      "style": "word",
+      "path": "audio/en-us/word/what.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "task",
+      "text": "task",
+      "style": "word",
+      "path": "audio/en-us/word/task.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "us",
+      "text": "us",
+      "style": "word",
+      "path": "audio/en-us/word/us.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "next",
+      "text": "next",
+      "style": "word",
+      "path": "audio/en-us/word/next.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "steps",
+      "text": "steps",
+      "style": "word",
+      "path": "audio/en-us/word/steps.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "sam",
+      "text": "sam",
+      "style": "word",
+      "path": "audio/en-us/word/sam.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "lily",
+      "text": "lily",
+      "style": "word",
+      "path": "audio/en-us/word/lily.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "good",
+      "text": "good",
+      "style": "word",
+      "path": "audio/en-us/word/good.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "morning",
+      "text": "morning",
+      "style": "word",
+      "path": "audio/en-us/word/morning.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "afternoon",
+      "text": "afternoon",
+      "style": "word",
+      "path": "audio/en-us/word/afternoon.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "goodbye",
+      "text": "goodbye",
+      "style": "word",
+      "path": "audio/en-us/word/goodbye.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "friends",
+      "text": "friends",
+      "style": "word",
+      "path": "audio/en-us/word/friends.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "i'm",
+      "text": "I'm",
+      "style": "word",
+      "path": "audio/en-us/word/i-m.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "li",
+      "text": "li",
+      "style": "word",
+      "path": "audio/en-us/word/li.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "dong",
+      "text": "dong",
+      "style": "word",
+      "path": "audio/en-us/word/dong.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "binbin",
+      "text": "binbin",
+      "style": "word",
+      "path": "audio/en-us/word/binbin.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "chen",
+      "text": "chen",
+      "style": "word",
+      "path": "audio/en-us/word/chen.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "jie",
+      "text": "jie",
+      "style": "word",
+      "path": "audio/en-us/word/jie.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "sarah",
+      "text": "sarah",
+      "style": "word",
+      "path": "audio/en-us/word/sarah.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "little",
+      "text": "little",
+      "style": "word",
+      "path": "audio/en-us/word/little.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "frog",
+      "text": "frog",
+      "style": "word",
+      "path": "audio/en-us/word/frog.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "wave",
+      "text": "wave",
+      "style": "word",
+      "path": "audio/en-us/word/wave.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "hand",
+      "text": "hand",
+      "style": "word",
+      "path": "audio/en-us/word/hand.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "friend",
+      "text": "friend",
+      "style": "word",
+      "path": "audio/en-us/word/friend.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "in",
+      "text": "in",
+      "style": "word",
+      "path": "audio/en-us/word/in.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "classroom",
+      "text": "classroom",
+      "style": "word",
+      "path": "audio/en-us/word/classroom.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "our",
+      "text": "our",
+      "style": "word",
+      "path": "audio/en-us/word/our.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "teacher",
+      "text": "teacher",
+      "style": "word",
+      "path": "audio/en-us/word/teacher.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "are",
+      "text": "are",
+      "style": "word",
+      "path": "audio/en-us/word/are.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "ready",
+      "text": "ready",
+      "style": "word",
+      "path": "audio/en-us/word/ready.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "please",
+      "text": "please",
+      "style": "word",
+      "path": "audio/en-us/word/please.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "down",
+      "text": "down",
+      "style": "word",
+      "path": "audio/en-us/word/down.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "stand",
+      "text": "stand",
+      "style": "word",
+      "path": "audio/en-us/word/stand.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "up",
+      "text": "up",
+      "style": "word",
+      "path": "audio/en-us/word/up.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "look",
+      "text": "look",
+      "style": "word",
+      "path": "audio/en-us/word/look.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "at",
+      "text": "at",
+      "style": "word",
+      "path": "audio/en-us/word/at.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "board",
+      "text": "board",
+      "style": "word",
+      "path": "audio/en-us/word/board.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "may",
+      "text": "may",
+      "style": "word",
+      "path": "audio/en-us/word/may.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "come",
+      "text": "come",
+      "style": "word",
+      "path": "audio/en-us/word/come.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "raise",
+      "text": "raise",
+      "style": "word",
+      "path": "audio/en-us/word/raise.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "open",
+      "text": "open",
+      "style": "word",
+      "path": "audio/en-us/word/open.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "close",
+      "text": "close",
+      "style": "word",
+      "path": "audio/en-us/word/close.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "one",
+      "text": "one",
+      "style": "word",
+      "path": "audio/en-us/word/one.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "two",
+      "text": "two",
+      "style": "word",
+      "path": "audio/en-us/word/two.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "three",
+      "text": "three",
+      "style": "word",
+      "path": "audio/en-us/word/three.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "play",
+      "text": "play",
+      "style": "word",
+      "path": "audio/en-us/word/play.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "together",
+      "text": "together",
+      "style": "word",
+      "path": "audio/en-us/word/together.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "listen",
+      "text": "listen",
+      "style": "word",
+      "path": "audio/en-us/word/listen.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "with",
+      "text": "with",
+      "style": "word",
+      "path": "audio/en-us/word/with.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "ears",
+      "text": "ears",
+      "style": "word",
+      "path": "audio/en-us/word/ears.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "eyes",
+      "text": "eyes",
+      "style": "word",
+      "path": "audio/en-us/word/eyes.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "speak",
+      "text": "speak",
+      "style": "word",
+      "path": "audio/en-us/word/speak.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "clear",
+      "text": "clear",
+      "style": "word",
+      "path": "audio/en-us/word/clear.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "voice",
+      "text": "voice",
+      "style": "word",
+      "path": "audio/en-us/word/voice.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "point",
+      "text": "point",
+      "style": "word",
+      "path": "audio/en-us/word/point.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "picture",
+      "text": "picture",
+      "style": "word",
+      "path": "audio/en-us/word/picture.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "read",
+      "text": "read",
+      "style": "word",
+      "path": "audio/en-us/word/read.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "after",
+      "text": "after",
+      "style": "word",
+      "path": "audio/en-us/word/after.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "clap",
+      "text": "clap",
+      "style": "word",
+      "path": "audio/en-us/word/clap.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "hands",
+      "text": "hands",
+      "style": "word",
+      "path": "audio/en-us/word/hands.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "work",
+      "text": "work",
+      "style": "word",
+      "path": "audio/en-us/word/work.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "give",
+      "text": "give",
+      "style": "word",
+      "path": "audio/en-us/word/give.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "high",
+      "text": "high",
+      "style": "word",
+      "path": "audio/en-us/word/high.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "five",
+      "text": "five",
+      "style": "word",
+      "path": "audio/en-us/word/five.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "well",
+      "text": "well",
+      "style": "word",
+      "path": "audio/en-us/word/well.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "done",
+      "text": "done",
+      "style": "word",
+      "path": "audio/en-us/word/done.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "draw",
+      "text": "draw",
+      "style": "word",
+      "path": "audio/en-us/word/draw.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "star",
+      "text": "star",
+      "style": "word",
+      "path": "audio/en-us/word/star.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "song",
+      "text": "song",
+      "style": "word",
+      "path": "audio/en-us/word/song.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "try",
+      "text": "try",
+      "style": "word",
+      "path": "audio/en-us/word/try.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "books",
+      "text": "books",
+      "style": "word",
+      "path": "audio/en-us/word/books.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "school",
+      "text": "school",
+      "style": "word",
+      "path": "audio/en-us/word/school.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "take",
+      "text": "take",
+      "style": "word",
+      "path": "audio/en-us/word/take.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "out",
+      "text": "out",
+      "style": "word",
+      "path": "audio/en-us/word/out.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "pencil",
+      "text": "pencil",
+      "style": "word",
+      "path": "audio/en-us/word/pencil.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "put",
+      "text": "put",
+      "style": "word",
+      "path": "audio/en-us/word/put.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "away",
+      "text": "away",
+      "style": "word",
+      "path": "audio/en-us/word/away.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "ruler",
+      "text": "ruler",
+      "style": "word",
+      "path": "audio/en-us/word/ruler.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "show",
+      "text": "show",
+      "style": "word",
+      "path": "audio/en-us/word/show.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "it",
+      "text": "it",
+      "style": "word",
+      "path": "audio/en-us/word/it.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "here",
+      "text": "here",
+      "style": "word",
+      "path": "audio/en-us/word/here.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "eraser",
+      "text": "eraser",
+      "style": "word",
+      "path": "audio/en-us/word/eraser.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "blue",
+      "text": "blue",
+      "style": "word",
+      "path": "audio/en-us/word/blue.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "pencils",
+      "text": "pencils",
+      "style": "word",
+      "path": "audio/en-us/word/pencils.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "new",
+      "text": "new",
+      "style": "word",
+      "path": "audio/en-us/word/new.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "find",
+      "text": "find",
+      "style": "word",
+      "path": "audio/en-us/word/find.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "on",
+      "text": "on",
+      "style": "word",
+      "path": "audio/en-us/word/on.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "desk",
+      "text": "desk",
+      "style": "word",
+      "path": "audio/en-us/word/desk.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "things",
+      "text": "things",
+      "style": "word",
+      "path": "audio/en-us/word/things.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "family",
+      "text": "family",
+      "style": "word",
+      "path": "audio/en-us/word/family.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "love",
+      "text": "love",
+      "style": "word",
+      "path": "audio/en-us/word/love.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "mother",
+      "text": "mother",
+      "style": "word",
+      "path": "audio/en-us/word/mother.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "father",
+      "text": "father",
+      "style": "word",
+      "path": "audio/en-us/word/father.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "grandma",
+      "text": "grandma",
+      "style": "word",
+      "path": "audio/en-us/word/grandma.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "grandpa",
+      "text": "grandpa",
+      "style": "word",
+      "path": "audio/en-us/word/grandpa.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "happy",
+      "text": "happy",
+      "style": "word",
+      "path": "audio/en-us/word/happy.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "who",
+      "text": "who",
+      "style": "word",
+      "path": "audio/en-us/word/who.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "photo",
+      "text": "photo",
+      "style": "word",
+      "path": "audio/en-us/word/photo.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "sister",
+      "text": "sister",
+      "style": "word",
+      "path": "audio/en-us/word/sister.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "brother",
+      "text": "brother",
+      "style": "word",
+      "path": "audio/en-us/word/brother.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "he",
+      "text": "he",
+      "style": "word",
+      "path": "audio/en-us/word/he.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "neighbour",
+      "text": "neighbour",
+      "style": "word",
+      "path": "audio/en-us/word/neighbour.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "robot",
+      "text": "robot",
+      "style": "word",
+      "path": "audio/en-us/word/robot.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "has",
+      "text": "has",
+      "style": "word",
+      "path": "audio/en-us/word/has.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "big",
+      "text": "big",
+      "style": "word",
+      "path": "audio/en-us/word/big.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "spy",
+      "text": "spy",
+      "style": "word",
+      "path": "audio/en-us/word/spy.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "yellow",
+      "text": "yellow",
+      "style": "word",
+      "path": "audio/en-us/word/yellow.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "making",
+      "text": "making",
+      "style": "word",
+      "path": "audio/en-us/word/making.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "something",
+      "text": "something",
+      "style": "word",
+      "path": "audio/en-us/word/something.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "some",
+      "text": "some",
+      "style": "word",
+      "path": "audio/en-us/word/some.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "enjoy",
+      "text": "enjoy",
+      "style": "word",
+      "path": "audio/en-us/word/enjoy.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "starts",
+      "text": "starts",
+      "style": "word",
+      "path": "audio/en-us/word/starts.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "nine",
+      "text": "nine",
+      "style": "word",
+      "path": "audio/en-us/word/nine.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "check",
+      "text": "check",
+      "style": "word",
+      "path": "audio/en-us/word/check.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "friday",
+      "text": "friday",
+      "style": "word",
+      "path": "audio/en-us/word/friday.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "lesson",
+      "text": "lesson",
+      "style": "word",
+      "path": "audio/en-us/word/lesson.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "ben",
+      "text": "ben",
+      "style": "word",
+      "path": "audio/en-us/word/ben.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "hello anna",
+      "text": "Hello, Anna.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/hello-anna.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "hi tom",
+      "text": "Hi, Tom!",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/hi-tom.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "good morning",
+      "text": "good morning",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/good-morning.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "good morning mom",
+      "text": "Good morning, Mom.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/good-morning-mom.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "good afternoon",
+      "text": "good afternoon",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/good-afternoon.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "good afternoon mr lee",
+      "text": "Good afternoon, Mr. Lee.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/good-afternoon-mr-lee.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "good evening",
+      "text": "good evening",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/good-evening.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "good evening dad",
+      "text": "Good evening, Dad.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/good-evening-dad.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "good night",
+      "text": "good night",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/good-night.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "good night mom",
+      "text": "Good night, Mom.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/good-night-mom.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "goodbye everyone",
+      "text": "Goodbye, everyone.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/goodbye-everyone.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "bye",
+      "text": "bye",
+      "style": "word",
+      "path": "audio/en-us/word/bye.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "bye see you tomorrow",
+      "text": "Bye! See you tomorrow.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/bye-see-you-tomorrow.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "see you",
+      "text": "see you",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/see-you.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "see you later",
+      "text": "See you later!",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/see-you-later.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "thank you",
+      "text": "thank you",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/thank-you.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "thanks",
+      "text": "thanks",
+      "style": "word",
+      "path": "audio/en-us/word/thanks.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "thanks dad",
+      "text": "Thanks, Dad.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/thanks-dad.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "you're welcome",
+      "text": "You're welcome.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/you-re-welcome.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "sorry",
+      "text": "sorry",
+      "style": "word",
+      "path": "audio/en-us/word/sorry.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "sorry i'm late",
+      "text": "Sorry, I'm late.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/sorry-i-m-late.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "excuse me",
+      "text": "excuse me",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/excuse-me.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "excuse me where is the library",
+      "text": "Excuse me, where is the library?",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/excuse-me-where-is-the-library.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "yes i can",
+      "text": "Yes, I can.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/yes-i-can.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "no",
+      "text": "no",
+      "style": "word",
+      "path": "audio/en-us/word/no.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "no thank you",
+      "text": "No, thank you.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/no-thank-you.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "how are you",
+      "text": "how are you?",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/how-are-you.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "how are you today",
+      "text": "How are you today?",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/how-are-you-today.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "i'm fine",
+      "text": "I'm fine.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/i-m-fine.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "i'm fine thank you",
+      "text": "I'm fine, thank you.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/i-m-fine-thank-you.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "nice to meet you",
+      "text": "nice to meet you",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/nice-to-meet-you.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "nice to meet you lily",
+      "text": "Nice to meet you, Lily.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/nice-to-meet-you-lily.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "welcome",
+      "text": "welcome",
+      "style": "word",
+      "path": "audio/en-us/word/welcome.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "welcome to our school",
+      "text": "Welcome to our school.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/welcome-to-our-school.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "zero",
+      "text": "zero",
+      "style": "word",
+      "path": "audio/en-us/word/zero.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "i have zero cookies",
+      "text": "I have zero cookies.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/i-have-zero-cookies.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "i have one pen",
+      "text": "I have one pen.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/i-have-one-pen.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "i see two birds",
+      "text": "I see two birds.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/i-see-two-birds.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "i have three books",
+      "text": "I have three books.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/i-have-three-books.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "four",
+      "text": "four",
+      "style": "word",
+      "path": "audio/en-us/word/four.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "four cats are here",
+      "text": "Four cats are here.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/four-cats-are-here.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "i have five apples",
+      "text": "I have five apples.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/i-have-five-apples.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "six",
+      "text": "six",
+      "style": "word",
+      "path": "audio/en-us/word/six.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "six ducks can swim",
+      "text": "Six ducks can swim.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/six-ducks-can-swim.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "seven",
+      "text": "seven",
+      "style": "word",
+      "path": "audio/en-us/word/seven.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "i see seven stars",
+      "text": "I see seven stars.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/i-see-seven-stars.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "eight",
+      "text": "eight",
+      "style": "word",
+      "path": "audio/en-us/word/eight.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "i have eight crayons",
+      "text": "I have eight crayons.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/i-have-eight-crayons.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "i see nine flowers",
+      "text": "I see nine flowers.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/i-see-nine-flowers.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "ten",
+      "text": "ten",
+      "style": "word",
+      "path": "audio/en-us/word/ten.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "i have ten fingers",
+      "text": "I have ten fingers.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/i-have-ten-fingers.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "eleven",
+      "text": "eleven",
+      "style": "word",
+      "path": "audio/en-us/word/eleven.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "i have eleven cards",
+      "text": "I have eleven cards.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/i-have-eleven-cards.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "twelve",
+      "text": "twelve",
+      "style": "word",
+      "path": "audio/en-us/word/twelve.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "there are twelve eggs",
+      "text": "There are twelve eggs.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/there-are-twelve-eggs.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "thirteen",
+      "text": "thirteen",
+      "style": "word",
+      "path": "audio/en-us/word/thirteen.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "i can count to thirteen",
+      "text": "I can count to thirteen.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/i-can-count-to-thirteen.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "fourteen",
+      "text": "fourteen",
+      "style": "word",
+      "path": "audio/en-us/word/fourteen.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "fourteen birds are outside",
+      "text": "Fourteen birds are outside.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/fourteen-birds-are-outside.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "fifteen",
+      "text": "fifteen",
+      "style": "word",
+      "path": "audio/en-us/word/fifteen.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "fifteen students are here",
+      "text": "Fifteen students are here.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/fifteen-students-are-here.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "sixteen",
+      "text": "sixteen",
+      "style": "word",
+      "path": "audio/en-us/word/sixteen.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "i have sixteen stickers",
+      "text": "I have sixteen stickers.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/i-have-sixteen-stickers.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "seventeen",
+      "text": "seventeen",
+      "style": "word",
+      "path": "audio/en-us/word/seventeen.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "i see seventeen stars",
+      "text": "I see seventeen stars.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/i-see-seventeen-stars.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "eighteen",
+      "text": "eighteen",
+      "style": "word",
+      "path": "audio/en-us/word/eighteen.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "there are eighteen pencils",
+      "text": "There are eighteen pencils.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/there-are-eighteen-pencils.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "nineteen",
+      "text": "nineteen",
+      "style": "word",
+      "path": "audio/en-us/word/nineteen.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "i have nineteen blocks",
+      "text": "I have nineteen blocks.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/i-have-nineteen-blocks.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "twenty",
+      "text": "twenty",
+      "style": "word",
+      "path": "audio/en-us/word/twenty.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "i have twenty blocks",
+      "text": "I have twenty blocks.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/i-have-twenty-blocks.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "twentyone",
+      "text": "twenty-one",
+      "style": "word",
+      "path": "audio/en-us/word/twentyone.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "i have twentyone stickers",
+      "text": "I have twenty-one stickers.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/i-have-twentyone-stickers.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "twentytwo",
+      "text": "twenty-two",
+      "style": "word",
+      "path": "audio/en-us/word/twentytwo.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "i see twentytwo birds",
+      "text": "I see twenty-two birds.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/i-see-twentytwo-birds.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "twentythree",
+      "text": "twenty-three",
+      "style": "word",
+      "path": "audio/en-us/word/twentythree.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "there are twentythree books",
+      "text": "There are twenty-three books.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/there-are-twentythree-books.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "twentyfour",
+      "text": "twenty-four",
+      "style": "word",
+      "path": "audio/en-us/word/twentyfour.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "i have twentyfour cards",
+      "text": "I have twenty-four cards.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/i-have-twentyfour-cards.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "twentyfive",
+      "text": "twenty-five",
+      "style": "word",
+      "path": "audio/en-us/word/twentyfive.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "there are twentyfive students",
+      "text": "There are twenty-five students.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/there-are-twentyfive-students.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "twentysix",
+      "text": "twenty-six",
+      "style": "word",
+      "path": "audio/en-us/word/twentysix.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "i have twentysix crayons",
+      "text": "I have twenty-six crayons.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/i-have-twentysix-crayons.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "twentyseven",
+      "text": "twenty-seven",
+      "style": "word",
+      "path": "audio/en-us/word/twentyseven.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "i see twentyseven stars",
+      "text": "I see twenty-seven stars.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/i-see-twentyseven-stars.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "twentyeight",
+      "text": "twenty-eight",
+      "style": "word",
+      "path": "audio/en-us/word/twentyeight.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "there are twentyeight days in february in a common year",
+      "text": "There are twenty-eight days in February in a common year.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/there-are-twentyeight-days-in-february-in-a-common-year.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "twentynine",
+      "text": "twenty-nine",
+      "style": "word",
+      "path": "audio/en-us/word/twentynine.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "i have twentynine marbles",
+      "text": "I have twenty-nine marbles.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/i-have-twentynine-marbles.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "thirty",
+      "text": "thirty",
+      "style": "word",
+      "path": "audio/en-us/word/thirty.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "i have thirty stickers",
+      "text": "I have thirty stickers.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/i-have-thirty-stickers.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "forty",
+      "text": "forty",
+      "style": "word",
+      "path": "audio/en-us/word/forty.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "forty books are on the shelf",
+      "text": "Forty books are on the shelf.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/forty-books-are-on-the-shelf.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "fifty",
+      "text": "fifty",
+      "style": "word",
+      "path": "audio/en-us/word/fifty.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "the chart has fifty stars",
+      "text": "The chart has fifty stars.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/the-chart-has-fifty-stars.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "sixty",
+      "text": "sixty",
+      "style": "word",
+      "path": "audio/en-us/word/sixty.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "sixty seconds make a minute",
+      "text": "Sixty seconds make a minute.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/sixty-seconds-make-a-minute.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "seventy",
+      "text": "seventy",
+      "style": "word",
+      "path": "audio/en-us/word/seventy.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "seventy is more than sixty",
+      "text": "Seventy is more than sixty.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/seventy-is-more-than-sixty.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "eighty",
+      "text": "eighty",
+      "style": "word",
+      "path": "audio/en-us/word/eighty.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "eighty is a number",
+      "text": "Eighty is a number.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/eighty-is-a-number.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "ninety",
+      "text": "ninety",
+      "style": "word",
+      "path": "audio/en-us/word/ninety.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "ninety is ten less than one hundred",
+      "text": "Ninety is ten less than one hundred.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/ninety-is-ten-less-than-one-hundred.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "one hundred",
+      "text": "one hundred",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/one-hundred.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "i can count to one hundred",
+      "text": "I can count to one hundred.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/i-can-count-to-one-hundred.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "number",
+      "text": "number",
+      "style": "word",
+      "path": "audio/en-us/word/number.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "what is your number",
+      "text": "What is your number?",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/what-is-your-number.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "count",
+      "text": "count",
+      "style": "word",
+      "path": "audio/en-us/word/count.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "count from one to ten",
+      "text": "Count from one to ten.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/count-from-one-to-ten.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "how many",
+      "text": "how many",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/how-many.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "how many books do you have",
+      "text": "How many books do you have?",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/how-many-books-do-you-have.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "how much",
+      "text": "how much",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/how-much.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "how much water do you want",
+      "text": "How much water do you want?",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/how-much-water-do-you-want.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "many",
+      "text": "many",
+      "style": "word",
+      "path": "audio/en-us/word/many.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "i have many toys",
+      "text": "I have many toys.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/i-have-many-toys.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "we don't have much time",
+      "text": "We don't have much time.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/we-don-t-have-much-time.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "more",
+      "text": "more",
+      "style": "word",
+      "path": "audio/en-us/word/more.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "i want more milk",
+      "text": "I want more milk.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/i-want-more-milk.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "less",
+      "text": "less",
+      "style": "word",
+      "path": "audio/en-us/word/less.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "this box has less water",
+      "text": "This box has less water.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/this-box-has-less-water.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "i have some pencils",
+      "text": "I have some pencils.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/i-have-some-pencils.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "any",
+      "text": "any",
+      "style": "word",
+      "path": "audio/en-us/word/any.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "do you have any questions",
+      "text": "Do you have any questions?",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/do-you-have-any-questions.mp3",
+      "intonation": "rise"
+    },
+    {
+      "audio_key": "all",
+      "text": "all",
+      "style": "word",
+      "path": "audio/en-us/word/all.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "all the children are here",
+      "text": "All the children are here.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/all-the-children-are-here.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "half",
+      "text": "half",
+      "style": "word",
+      "path": "audio/en-us/word/half.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "i ate half an apple",
+      "text": "I ate half an apple.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/i-ate-half-an-apple.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "first",
+      "text": "first",
+      "style": "word",
+      "path": "audio/en-us/word/first.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "this is my first book",
+      "text": "This is my first book.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/this-is-my-first-book.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "second",
+      "text": "second",
+      "style": "word",
+      "path": "audio/en-us/word/second.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "the second answer is right",
+      "text": "The second answer is right.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/the-second-answer-is-right.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "third",
+      "text": "third",
+      "style": "word",
+      "path": "audio/en-us/word/third.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "the third box is blue",
+      "text": "The third box is blue.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/the-third-box-is-blue.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "each",
+      "text": "each",
+      "style": "word",
+      "path": "audio/en-us/word/each.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "each child has a book",
+      "text": "Each child has a book.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/each-child-has-a-book.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "i read every day",
+      "text": "I read every day.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/i-read-every-day.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "a lot of",
+      "text": "a lot of",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/a-lot-of.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "i have a lot of books",
+      "text": "I have a lot of books.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/i-have-a-lot-of-books.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "few",
+      "text": "few",
+      "style": "word",
+      "path": "audio/en-us/word/few.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "few people are here",
+      "text": "Few people are here.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/few-people-are-here.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "a few",
+      "text": "a few",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/a-few.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "i have a few toys",
+      "text": "I have a few toys.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/i-have-a-few-toys.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "there is little milk left",
+      "text": "There is little milk left.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/there-is-little-milk-left.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "a little",
+      "text": "a little",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/a-little.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "i want a little water",
+      "text": "I want a little water.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/i-want-a-little-water.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "enough",
+      "text": "enough",
+      "style": "word",
+      "path": "audio/en-us/word/enough.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "we have enough chairs",
+      "text": "We have enough chairs.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/we-have-enough-chairs.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "total",
+      "text": "total",
+      "style": "word",
+      "path": "audio/en-us/word/total.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "the total is ten",
+      "text": "The total is ten.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/the-total-is-ten.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "the apple is red",
+      "text": "The apple is red.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/the-apple-is-red.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "the sky is blue",
+      "text": "The sky is blue.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/the-sky-is-blue.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "the sun is yellow",
+      "text": "The sun is yellow.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/the-sun-is-yellow.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "green",
+      "text": "green",
+      "style": "word",
+      "path": "audio/en-us/word/green.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "the leaf is green",
+      "text": "The leaf is green.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/the-leaf-is-green.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "orange",
+      "text": "orange",
+      "style": "word",
+      "path": "audio/en-us/word/orange.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "my bag is orange",
+      "text": "My bag is orange.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/my-bag-is-orange.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "purple",
+      "text": "purple",
+      "style": "word",
+      "path": "audio/en-us/word/purple.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "the flower is purple",
+      "text": "The flower is purple.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/the-flower-is-purple.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "pink",
+      "text": "pink",
+      "style": "word",
+      "path": "audio/en-us/word/pink.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "the cup is pink",
+      "text": "The cup is pink.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/the-cup-is-pink.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "black",
+      "text": "black",
+      "style": "word",
+      "path": "audio/en-us/word/black.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "the cat is black",
+      "text": "The cat is black.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/the-cat-is-black.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "white",
+      "text": "white",
+      "style": "word",
+      "path": "audio/en-us/word/white.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "the snow is white",
+      "text": "The snow is white.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/the-snow-is-white.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "brown",
+      "text": "brown",
+      "style": "word",
+      "path": "audio/en-us/word/brown.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "the bear is brown",
+      "text": "The bear is brown.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/the-bear-is-brown.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "gray",
+      "text": "gray",
+      "style": "word",
+      "path": "audio/en-us/word/gray.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "the mouse is gray",
+      "text": "The mouse is gray.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/the-mouse-is-gray.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "gold",
+      "text": "gold",
+      "style": "word",
+      "path": "audio/en-us/word/gold.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "the star is gold",
+      "text": "The star is gold.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/the-star-is-gold.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "silver",
+      "text": "silver",
+      "style": "word",
+      "path": "audio/en-us/word/silver.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "the spoon is silver",
+      "text": "The spoon is silver.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/the-spoon-is-silver.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "light blue",
+      "text": "light blue",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/light-blue.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "my shirt is light blue",
+      "text": "My shirt is light blue.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/my-shirt-is-light-blue.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "dark blue",
+      "text": "dark blue",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/dark-blue.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "the bag is dark blue",
+      "text": "The bag is dark blue.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/the-bag-is-dark-blue.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "light green",
+      "text": "light green",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/light-green.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "the wall is light green",
+      "text": "The wall is light green.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/the-wall-is-light-green.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "dark green",
+      "text": "dark green",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/dark-green.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "the tree is dark green",
+      "text": "The tree is dark green.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/the-tree-is-dark-green.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "beige",
+      "text": "beige",
+      "style": "word",
+      "path": "audio/en-us/word/beige.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "the hat is beige",
+      "text": "The hat is beige.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/the-hat-is-beige.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "violet",
+      "text": "violet",
+      "style": "word",
+      "path": "audio/en-us/word/violet.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "the ribbon is violet",
+      "text": "The ribbon is violet.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/the-ribbon-is-violet.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "shape",
+      "text": "shape",
+      "style": "word",
+      "path": "audio/en-us/word/shape.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "what shape is it",
+      "text": "What shape is it?",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/what-shape-is-it.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "circle",
+      "text": "circle",
+      "style": "word",
+      "path": "audio/en-us/word/circle.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "it is a circle",
+      "text": "It is a circle.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/it-is-a-circle.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "square",
+      "text": "square",
+      "style": "word",
+      "path": "audio/en-us/word/square.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "draw a square",
+      "text": "Draw a square.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/draw-a-square.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "triangle",
+      "text": "triangle",
+      "style": "word",
+      "path": "audio/en-us/word/triangle.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "the sign is a triangle",
+      "text": "The sign is a triangle.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/the-sign-is-a-triangle.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "rectangle",
+      "text": "rectangle",
+      "style": "word",
+      "path": "audio/en-us/word/rectangle.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "the book is a rectangle",
+      "text": "The book is a rectangle.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/the-book-is-a-rectangle.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "draw a star",
+      "text": "Draw a star.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/draw-a-star.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "heart",
+      "text": "heart",
+      "style": "word",
+      "path": "audio/en-us/word/heart.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "the card has a heart",
+      "text": "The card has a heart.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/the-card-has-a-heart.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "oval",
+      "text": "oval",
+      "style": "word",
+      "path": "audio/en-us/word/oval.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "the egg is an oval shape",
+      "text": "The egg is an oval shape.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/the-egg-is-an-oval-shape.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "diamond",
+      "text": "diamond",
+      "style": "word",
+      "path": "audio/en-us/word/diamond.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "the tile is a diamond",
+      "text": "The tile is a diamond.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/the-tile-is-a-diamond.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "line",
+      "text": "line",
+      "style": "word",
+      "path": "audio/en-us/word/line.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "draw a straight line",
+      "text": "Draw a straight line.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/draw-a-straight-line.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "dot",
+      "text": "dot",
+      "style": "word",
+      "path": "audio/en-us/word/dot.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "put a dot here",
+      "text": "Put a dot here.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/put-a-dot-here.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "corner",
+      "text": "corner",
+      "style": "word",
+      "path": "audio/en-us/word/corner.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "the paper has four corners",
+      "text": "The paper has four corners.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/the-paper-has-four-corners.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "side",
+      "text": "side",
+      "style": "word",
+      "path": "audio/en-us/word/side.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "a square has four sides",
+      "text": "A square has four sides.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/a-square-has-four-sides.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "round",
+      "text": "round",
+      "style": "word",
+      "path": "audio/en-us/word/round.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "the ball is round",
+      "text": "The ball is round.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/the-ball-is-round.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "straight",
+      "text": "straight",
+      "style": "word",
+      "path": "audio/en-us/word/straight.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "the line is straight",
+      "text": "The line is straight.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/the-line-is-straight.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "curved",
+      "text": "curved",
+      "style": "word",
+      "path": "audio/en-us/word/curved.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "the road is curved",
+      "text": "The road is curved.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/the-road-is-curved.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "the box is big",
+      "text": "The box is big.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/the-box-is-big.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "small",
+      "text": "small",
+      "style": "word",
+      "path": "audio/en-us/word/small.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "the mouse is small",
+      "text": "The mouse is small.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/the-mouse-is-small.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "large",
+      "text": "large",
+      "style": "word",
+      "path": "audio/en-us/word/large.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "this is a large ball",
+      "text": "This is a large ball.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/this-is-a-large-ball.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "long",
+      "text": "long",
+      "style": "word",
+      "path": "audio/en-us/word/long.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "the ruler is long",
+      "text": "The ruler is long.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/the-ruler-is-long.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "short",
+      "text": "short",
+      "style": "word",
+      "path": "audio/en-us/word/short.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "the pencil is short",
+      "text": "The pencil is short.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/the-pencil-is-short.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "tall",
+      "text": "tall",
+      "style": "word",
+      "path": "audio/en-us/word/tall.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "the tree is tall",
+      "text": "The tree is tall.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/the-tree-is-tall.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "the kite is high in the sky",
+      "text": "The kite is high in the sky.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/the-kite-is-high-in-the-sky.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "low",
+      "text": "low",
+      "style": "word",
+      "path": "audio/en-us/word/low.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "the table is low",
+      "text": "The table is low.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/the-table-is-low.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "wide",
+      "text": "wide",
+      "style": "word",
+      "path": "audio/en-us/word/wide.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "the river is wide",
+      "text": "The river is wide.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/the-river-is-wide.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "narrow",
+      "text": "narrow",
+      "style": "word",
+      "path": "audio/en-us/word/narrow.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "this street is narrow",
+      "text": "This street is narrow.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/this-street-is-narrow.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "thick",
+      "text": "thick",
+      "style": "word",
+      "path": "audio/en-us/word/thick.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "this book is thick",
+      "text": "This book is thick.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/this-book-is-thick.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "thin",
+      "text": "thin",
+      "style": "word",
+      "path": "audio/en-us/word/thin.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "the paper is thin",
+      "text": "The paper is thin.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/the-paper-is-thin.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "heavy",
+      "text": "heavy",
+      "style": "word",
+      "path": "audio/en-us/word/heavy.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "the bag is heavy",
+      "text": "The bag is heavy.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/the-bag-is-heavy.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "the box is light",
+      "text": "The box is light.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/the-box-is-light.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "deep",
+      "text": "deep",
+      "style": "word",
+      "path": "audio/en-us/word/deep.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "the pool is deep",
+      "text": "The pool is deep.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/the-pool-is-deep.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "shallow",
+      "text": "shallow",
+      "style": "word",
+      "path": "audio/en-us/word/shallow.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "the water is shallow",
+      "text": "The water is shallow.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/the-water-is-shallow.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "size",
+      "text": "size",
+      "style": "word",
+      "path": "audio/en-us/word/size.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "what size is the box",
+      "text": "What size is the box?",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/what-size-is-the-box.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "pleased",
+      "text": "pleased",
+      "style": "word",
+      "path": "audio/en-us/word/pleased.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "these",
+      "text": "these",
+      "style": "word",
+      "path": "audio/en-us/word/these.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "class",
+      "text": "class",
+      "style": "word",
+      "path": "audio/en-us/word/class.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "close::verb",
+      "text": "close",
+      "style": "word",
+      "path": "audio/en-us/word/close-verb.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "close::adjective",
+      "text": "close",
+      "style": "word",
+      "path": "audio/en-us/word/close-adjective.mp3",
+      "intonation": "neutral"
+    },
+    {
+      "audio_key": "we are close friends",
+      "text": "We are close friends.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/we-are-close-friends.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "can you help me please",
+      "text": "Can you help me, please?",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/can-you-help-me-please.mp3",
+      "intonation": "rise"
+    },
+    {
+      "audio_key": "i am very pleased",
+      "text": "I am very pleased.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/i-am-very-pleased.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "are these your books",
+      "text": "Are these your books?",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/are-these-your-books.mp3",
+      "intonation": "rise"
+    },
+    {
+      "audio_key": "this is a hot dog",
+      "text": "This is a hot dog.",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/this-is-a-hot-dog.mp3",
+      "intonation": "fall"
+    },
+    {
+      "audio_key": "is this a robot",
+      "text": "Is this a robot?",
+      "style": "sentence",
+      "path": "audio/en-us/sentence/is-this-a-robot.mp3",
+      "intonation": "rise"
+    },
+    {
+      "audio_key": "apple",
+      "text": "apple",
+      "style": "word",
+      "path": "audio/en-us/word/apple.mp3",
+      "intonation": "neutral",
+      "source": "generated_offline_espeak",
+      "voice_note": "Temporary local en-US+f3 eSpeak voice; not the same voice as the original Bella/Kokoro audio bank."
+    }
+  ],
+  "clip_count": 610,
+  "source_notes": {
+    "existing_clips": "609 clips extracted from the user-provided project and normalized for loudness.",
+    "new_clips": "One standalone apple.mp3 generated offline using local eSpeak because the source project had no independent apple audio.",
+    "important": "apple.mp3 is a different speech engine/voice and may sound less natural than the existing audio. It is included as a real test asset, not misrepresented as the original voice."
+  }
+}

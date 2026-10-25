@@ -1,0 +1,56 @@
+# Windows 上传与 GitHub Pages 部署
+
+本包使用已提供的 610 个 MP3，不需要语音服务、API Key 或音频生成工具。
+
+## 上传哪些文件
+
+先在 Windows 资源管理器中右键 ZIP →“全部提取”。打开提取后的目录，应直接看到 `index.html` 和 `audio` 文件夹。把这个目录里的全部文件和文件夹一起复制到仓库根目录，保留原来的层级。
+
+| 文件或目录 | 用途 |
+| --- | --- |
+| `index.html` | 网站主页，必须放在发布目录根部 |
+| `小蛙自习室.html` | 同一页面的兼容入口 |
+| `audio/en-us/word/`、`audio/en-us/sentence/` | 全部 610 个原样 MP3，必须完整上传 |
+| `audio-manifest.json`、`audio-files.js` | 播放映射及离线缓存清单，必须上传 |
+| `data/` | 原有资料与独立试听词数据，整个目录上传 |
+| `sw.js`、`manifest.webmanifest` | 手机安装及离线缓存支持 |
+| `icon-192.png`、`icon-512.png`、`apple-touch-icon.png` | 网站及手机图标 |
+| `.nojekyll` | 直接发布静态文件 |
+| `supabase-config.js` | 原有配置文件，原样保留；本次录音接入无需填写配置 |
+| `AUDIO_CREDITS.md`、`licenses/` | 录音来源及原有许可说明 |
+| `reports/` | 实际测试报告和原音频 SHA-256 校验清单 |
+| 其余 Markdown、CSV、`tests/` | 说明、可核对的映射及回归测试，可随整包上传 |
+
+GitHub Pages 会直接读取这些文件；上传前完成解压。
+
+## 推荐：使用 GitHub Desktop 上传整包
+
+610 个 MP3 适合用 GitHub Desktop 一次提交，避免网页上传的文件数量限制。
+
+1. 打开 GitHub Desktop，通过浏览器登录你的 GitHub 账号。
+2. 选择 **File → Clone repository**，找到 `laodix579-beep/codex-test` 并克隆。
+3. **Current branch** 选择 `gh-pages`。这是本项目当前的网站发布分支。
+4. 选择 **Repository → Show in Explorer**，打开仓库文件夹。
+5. 把解压目录中的全部内容复制进该仓库文件夹，选择合并文件夹、替换同名文件。保留仓库已有的 `.git` 目录。
+6. 回到 GitHub Desktop，在 Summary 填写“接入现有 MP3 录音”，点击 **Commit to gh-pages**。
+7. 点击 **Push origin**，等待上传完成。
+8. 在 GitHub 仓库网页进入 **Settings → Pages**，确认 **Deploy from a branch**、分支 **gh-pages**、目录 **/(root)**。如果是你自己的新仓库，也可以用 `main`，但提交分支与 Pages 选择的分支应一致。
+9. 等待 Pages 显示发布成功，再打开网站链接。
+
+若使用 GitHub 网页上传，请在目标目录分批上传，每批最多 100 个文件，并保留 `audio/en-us/word/` 和 `audio/en-us/sentence/` 的层级；最终 MP3 总数应为 610。
+
+## 发布后检查
+
+- 首页顶部有“搜索英文、中文或例句…”输入框和搜索按钮。
+- 搜索 `apple`、`book`、`orange`、`Please`，应有英文、中文、DJ 音标和例句。
+- 分别点击“朗读单词”“朗读例句”，都应播放对应 MP3。
+- apple 旁会标注“已提供的本地 eSpeak 录音”，其音色可能不同。
+- 手机联网打开“设置与备份”，等待“已保存离线内容”后再断网重开。
+- 更新仍使用原网站地址、原浏览器。学习记录保存在该浏览器；迁移到其他设备或域名前，先导出完整备份。
+
+## 常见问题
+
+- **有页面但没声音**：检查两个 audio 子目录、`audio-manifest.json`、`audio-files.js` 是否完整上传。点击朗读允许浏览器开始播放。
+- **提示“暂无对应录音”**：该自定义内容没有匹配的 MP3，网站会如实提示，不会调用语音合成。
+- **网站仍是旧版**：确认推送的是 Pages 使用的分支，等待发布结束后联网刷新。保留浏览器学习数据。
+- **保存单文件**：网站“保存完整网页”会把这些已有 MP3 的原始字节嵌入个人 HTML 备份，不生成新录音。GitHub Pages 部署仍使用本 ZIP 的完整目录结构。

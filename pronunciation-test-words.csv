@@ -1,0 +1,5 @@
+﻿word,meaning_zh,DJ_IPA,audio_path,source_status,note
+apple,苹果,/ˈæp.əl/,audio/en-us/word/apple.mp3,new_local_audio_provisional,Offline eSpeak; voice differs from original bank.
+book,书,/bʊk/,audio/en-us/word/book.mp3,existing_audio,Extracted from original project.
+orange,橙子；橙色,/ˈɒrɪndʒ/,audio/en-us/word/orange.mp3,existing_audio,Display DJ IPA; audio uses GA metadata from original project.
+Please,请；麻烦,/pliːz/,audio/en-us/word/please.mp3,existing_audio,Audio key is lowercase please; use case-insensitive matching.

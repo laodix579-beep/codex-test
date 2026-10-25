@@ -1,0 +1,611 @@
+﻿audio_key,path,source,status,note
+hello nice to meet you,audio/en-us/sentence/hello-nice-to-meet-you.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+my name is alex,audio/en-us/sentence/my-name-is-alex.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+how is your day going,audio/en-us/sentence/how-is-your-day-going.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+could you say that again,audio/en-us/sentence/could-you-say-that-again.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i am learning english every day,audio/en-us/sentence/i-am-learning-english-every-day.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+thank you for your help,audio/en-us/sentence/thank-you-for-your-help.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+see you tomorrow,audio/en-us/sentence/see-you-tomorrow.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+practice makes progress,audio/en-us/sentence/practice-makes-progress.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+where is the nearest station,audio/en-us/sentence/where-is-the-nearest-station.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i would like a cup of coffee,audio/en-us/sentence/i-would-like-a-cup-of-coffee.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+how much does this cost,audio/en-us/sentence/how-much-does-this-cost.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+can i pay by card,audio/en-us/sentence/can-i-pay-by-card.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i have a reservation,audio/en-us/sentence/i-have-a-reservation.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+could you recommend a local dish,audio/en-us/sentence/could-you-recommend-a-local-dish.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+which platform should i go to,audio/en-us/sentence/which-platform-should-i-go-to.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+is breakfast included,audio/en-us/sentence/is-breakfast-included.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+could we schedule a meeting,audio/en-us/sentence/could-we-schedule-a-meeting.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+let me share my screen,audio/en-us/sentence/let-me-share-my-screen.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i will send you the details,audio/en-us/sentence/i-will-send-you-the-details.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+what is the deadline for this task,audio/en-us/sentence/what-is-the-deadline-for-this-task.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+thank you for your feedback,audio/en-us/sentence/thank-you-for-your-feedback.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+let us review the next steps,audio/en-us/sentence/let-us-review-the-next-steps.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+hello i am sam,audio/en-us/sentence/hello-i-am-sam.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+hi my name is lily,audio/en-us/sentence/hi-my-name-is-lily.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+nice to meet you sam,audio/en-us/sentence/nice-to-meet-you-sam.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+good morning lily,audio/en-us/sentence/good-morning-lily.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+good afternoon sam,audio/en-us/sentence/good-afternoon-sam.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+goodbye my friends,audio/en-us/sentence/goodbye-my-friends.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+hello i'm li dong,audio/en-us/sentence/hello-i-m-li-dong.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+hi i'm binbin,audio/en-us/sentence/hi-i-m-binbin.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+hello i'm chen jie,audio/en-us/sentence/hello-i-m-chen-jie.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+hi i'm sarah,audio/en-us/sentence/hi-i-m-sarah.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+hello little frog,audio/en-us/sentence/hello-little-frog.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+wave your hand,audio/en-us/sentence/wave-your-hand.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+say hello to a friend,audio/en-us/sentence/say-hello-to-a-friend.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i am in my classroom,audio/en-us/sentence/i-am-in-my-classroom.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+this is our teacher,audio/en-us/sentence/this-is-our-teacher.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+we are ready to learn,audio/en-us/sentence/we-are-ready-to-learn.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+please sit down,audio/en-us/sentence/please-sit-down.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+please stand up,audio/en-us/sentence/please-stand-up.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+look at the board,audio/en-us/sentence/look-at-the-board.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+good morning teacher,audio/en-us/sentence/good-morning-teacher.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+may i come in,audio/en-us/sentence/may-i-come-in.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+yes please come in,audio/en-us/sentence/yes-please-come-in.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+raise your hand please,audio/en-us/sentence/raise-your-hand-please.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+open your book,audio/en-us/sentence/open-your-book.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+close your book,audio/en-us/sentence/close-your-book.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+one two three look at me,audio/en-us/sentence/one-two-three-look-at-me.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+let us play together,audio/en-us/sentence/let-us-play-together.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+thank you teacher,audio/en-us/sentence/thank-you-teacher.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+listen with your ears,audio/en-us/sentence/listen-with-your-ears.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+look with your eyes,audio/en-us/sentence/look-with-your-eyes.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+speak in a clear voice,audio/en-us/sentence/speak-in-a-clear-voice.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+point to the picture,audio/en-us/sentence/point-to-the-picture.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+read after me,audio/en-us/sentence/read-after-me.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+clap your hands,audio/en-us/sentence/clap-your-hands.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+let us work together,audio/en-us/sentence/let-us-work-together.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+give me a high five,audio/en-us/sentence/give-me-a-high-five.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+well done my friend,audio/en-us/sentence/well-done-my-friend.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+can you draw a star,audio/en-us/sentence/can-you-draw-a-star.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i can sing a song,audio/en-us/sentence/i-can-sing-a-song.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+let us try again,audio/en-us/sentence/let-us-try-again.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+my bag is ready,audio/en-us/sentence/my-bag-is-ready.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+my books are in my bag,audio/en-us/sentence/my-books-are-in-my-bag.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+let us go to school,audio/en-us/sentence/let-us-go-to-school.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+take out your pencil,audio/en-us/sentence/take-out-your-pencil.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+put away your ruler,audio/en-us/sentence/put-away-your-ruler.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+show me your book,audio/en-us/sentence/show-me-your-book.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+is this your pencil,audio/en-us/sentence/is-this-your-pencil.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+yes it is my pencil,audio/en-us/sentence/yes-it-is-my-pencil.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+here is your eraser,audio/en-us/sentence/here-is-your-eraser.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i have a blue bag,audio/en-us/sentence/i-have-a-blue-bag.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i have two pencils,audio/en-us/sentence/i-have-two-pencils.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+this is my new ruler,audio/en-us/sentence/this-is-my-new-ruler.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+find a red pencil,audio/en-us/sentence/find-a-red-pencil.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+put the book on the desk,audio/en-us/sentence/put-the-book-on-the-desk.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+my school things are ready,audio/en-us/sentence/my-school-things-are-ready.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+this is my family,audio/en-us/sentence/this-is-my-family.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i love my mother,audio/en-us/sentence/i-love-my-mother.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i love my father,audio/en-us/sentence/i-love-my-father.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+this is my grandma,audio/en-us/sentence/this-is-my-grandma.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+this is my grandpa,audio/en-us/sentence/this-is-my-grandpa.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+we are a happy family,audio/en-us/sentence/we-are-a-happy-family.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+who is in the photo,audio/en-us/sentence/who-is-in-the-photo.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+this is my sister,audio/en-us/sentence/this-is-my-sister.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+this is my little brother,audio/en-us/sentence/this-is-my-little-brother.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+this is my good friend,audio/en-us/sentence/this-is-my-good-friend.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+she is my teacher,audio/en-us/sentence/she-is-my-teacher.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+he is my neighbour,audio/en-us/sentence/he-is-my-neighbour.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+let us say thank you,audio/en-us/sentence/let-us-say-thank-you.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+you help me every day,audio/en-us/sentence/you-help-me-every-day.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i am happy with you,audio/en-us/sentence/i-am-happy-with-you.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+hello i am a robot,audio/en-us/sentence/hello-i-am-a-robot.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i can wave my hand,audio/en-us/sentence/i-can-wave-my-hand.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i can say my name,audio/en-us/sentence/i-can-say-my-name.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+robot please stand up,audio/en-us/sentence/robot-please-stand-up.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+robot open your bag,audio/en-us/sentence/robot-open-your-bag.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+please show me your pencil,audio/en-us/sentence/please-show-me-your-pencil.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+look at my robot,audio/en-us/sentence/look-at-my-robot.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+it has two big eyes,audio/en-us/sentence/it-has-two-big-eyes.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+it is my little friend,audio/en-us/sentence/it-is-my-little-friend.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i spy a yellow book,audio/en-us/sentence/i-spy-a-yellow-book.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i spy a little star,audio/en-us/sentence/i-spy-a-little-star.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+can you find the robot,audio/en-us/sentence/can-you-find-the-robot.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i am making progress,audio/en-us/sentence/i-am-making-progress.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i learn something new every day,audio/en-us/sentence/i-learn-something-new-every-day.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i would like some coffee,audio/en-us/sentence/i-would-like-some-coffee.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+can you recommend a good book,audio/en-us/sentence/can-you-recommend-a-good-book.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+enjoy your journey,audio/en-us/sentence/enjoy-your-journey.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+the meeting starts at nine,audio/en-us/sentence/the-meeting-starts-at-nine.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+let us check the schedule,audio/en-us/sentence/let-us-check-the-schedule.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+the deadline is friday,audio/en-us/sentence/the-deadline-is-friday.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+let us review the lesson,audio/en-us/sentence/let-us-review-the-lesson.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+please check the details,audio/en-us/sentence/please-check-the-details.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+this is my name card,audio/en-us/sentence/this-is-my-name-card.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+my name is ben,audio/en-us/sentence/my-name-is-ben.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+what is your name,audio/en-us/sentence/what-is-your-name.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+hello let us practice english together,audio/en-us/sentence/hello-let-us-practice-english-together.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+hello,audio/en-us/word/hello.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i'm li dong,audio/en-us/sentence/i-m-li-dong.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+hi,audio/en-us/word/hi.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i'm binbin,audio/en-us/sentence/i-m-binbin.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i'm chen jie,audio/en-us/sentence/i-m-chen-jie.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i'm sarah,audio/en-us/sentence/i-m-sarah.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+practice,audio/en-us/word/practice.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+progress,audio/en-us/word/progress.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+learn,audio/en-us/word/learn.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+tomorrow,audio/en-us/word/tomorrow.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+help,audio/en-us/word/help.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+station,audio/en-us/word/station.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+coffee,audio/en-us/word/coffee.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+reservation,audio/en-us/word/reservation.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+recommend,audio/en-us/word/recommend.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+journey,audio/en-us/word/journey.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+breakfast,audio/en-us/word/breakfast.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+meeting,audio/en-us/word/meeting.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+schedule,audio/en-us/word/schedule.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+deadline,audio/en-us/word/deadline.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+feedback,audio/en-us/word/feedback.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+review,audio/en-us/word/review.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+detail,audio/en-us/word/detail.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+see,audio/en-us/word/see.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+sit,audio/en-us/word/sit.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+bed,audio/en-us/word/bed.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+cat,audio/en-us/word/cat.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+car,audio/en-us/word/car.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+hot,audio/en-us/word/hot.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+law,audio/en-us/word/law.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+book,audio/en-us/word/book.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+food,audio/en-us/word/food.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+cup,audio/en-us/word/cup.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+bird,audio/en-us/word/bird.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+about,audio/en-us/word/about.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+day,audio/en-us/word/day.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+time,audio/en-us/word/time.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+boy,audio/en-us/word/boy.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+go,audio/en-us/word/go.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+now,audio/en-us/word/now.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+near,audio/en-us/word/near.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+hair,audio/en-us/word/hair.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+tour,audio/en-us/word/tour.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+pen,audio/en-us/word/pen.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+bag,audio/en-us/word/bag.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+tea,audio/en-us/word/tea.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+dog,audio/en-us/word/dog.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+key,audio/en-us/word/key.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+game,audio/en-us/word/game.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+fish,audio/en-us/word/fish.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+very,audio/en-us/word/very.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+think,audio/en-us/word/think.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+this,audio/en-us/word/this.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+sun,audio/en-us/word/sun.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+zoo,audio/en-us/word/zoo.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+she,audio/en-us/word/she.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+vision,audio/en-us/word/vision.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+hat,audio/en-us/word/hat.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+chair,audio/en-us/word/chair.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+job,audio/en-us/word/job.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+moon,audio/en-us/word/moon.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+name,audio/en-us/word/name.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+sing,audio/en-us/word/sing.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+light,audio/en-us/word/light.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+red,audio/en-us/word/red.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+yes,audio/en-us/word/yes.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+we,audio/en-us/word/we.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+nice,audio/en-us/word/nice.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+to,audio/en-us/word/to.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+meet,audio/en-us/word/meet.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+you,audio/en-us/word/you.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+my,audio/en-us/word/my.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+is,audio/en-us/word/is.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+alex,audio/en-us/word/alex.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+how,audio/en-us/word/how.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+your,audio/en-us/word/your.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+going,audio/en-us/word/going.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+could,audio/en-us/word/could.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+say,audio/en-us/word/say.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+that,audio/en-us/word/that.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+again,audio/en-us/word/again.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i,audio/en-us/word/i.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+am,audio/en-us/word/am.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+learning,audio/en-us/word/learning.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+english,audio/en-us/word/english.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+every,audio/en-us/word/every.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+thank,audio/en-us/word/thank.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+for,audio/en-us/word/for.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+makes,audio/en-us/word/makes.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+where,audio/en-us/word/where.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+the,audio/en-us/word/the.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+nearest,audio/en-us/word/nearest.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+would,audio/en-us/word/would.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+like,audio/en-us/word/like.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+a,audio/en-us/word/a.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+of,audio/en-us/word/of.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+much,audio/en-us/word/much.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+does,audio/en-us/word/does.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+cost,audio/en-us/word/cost.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+can,audio/en-us/word/can.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+pay,audio/en-us/word/pay.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+by,audio/en-us/word/by.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+card,audio/en-us/word/card.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+have,audio/en-us/word/have.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+local,audio/en-us/word/local.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+dish,audio/en-us/word/dish.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+which,audio/en-us/word/which.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+platform,audio/en-us/word/platform.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+should,audio/en-us/word/should.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+included,audio/en-us/word/included.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+let,audio/en-us/word/let.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+me,audio/en-us/word/me.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+share,audio/en-us/word/share.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+screen,audio/en-us/word/screen.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+will,audio/en-us/word/will.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+send,audio/en-us/word/send.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+details,audio/en-us/word/details.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+what,audio/en-us/word/what.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+task,audio/en-us/word/task.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+us,audio/en-us/word/us.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+next,audio/en-us/word/next.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+steps,audio/en-us/word/steps.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+sam,audio/en-us/word/sam.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+lily,audio/en-us/word/lily.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+good,audio/en-us/word/good.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+morning,audio/en-us/word/morning.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+afternoon,audio/en-us/word/afternoon.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+goodbye,audio/en-us/word/goodbye.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+friends,audio/en-us/word/friends.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i'm,audio/en-us/word/i-m.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+li,audio/en-us/word/li.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+dong,audio/en-us/word/dong.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+binbin,audio/en-us/word/binbin.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+chen,audio/en-us/word/chen.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+jie,audio/en-us/word/jie.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+sarah,audio/en-us/word/sarah.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+little,audio/en-us/word/little.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+frog,audio/en-us/word/frog.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+wave,audio/en-us/word/wave.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+hand,audio/en-us/word/hand.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+friend,audio/en-us/word/friend.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+in,audio/en-us/word/in.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+classroom,audio/en-us/word/classroom.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+our,audio/en-us/word/our.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+teacher,audio/en-us/word/teacher.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+are,audio/en-us/word/are.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+ready,audio/en-us/word/ready.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+please,audio/en-us/word/please.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+down,audio/en-us/word/down.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+stand,audio/en-us/word/stand.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+up,audio/en-us/word/up.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+look,audio/en-us/word/look.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+at,audio/en-us/word/at.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+board,audio/en-us/word/board.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+may,audio/en-us/word/may.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+come,audio/en-us/word/come.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+raise,audio/en-us/word/raise.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+open,audio/en-us/word/open.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+close,audio/en-us/word/close.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+one,audio/en-us/word/one.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+two,audio/en-us/word/two.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+three,audio/en-us/word/three.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+play,audio/en-us/word/play.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+together,audio/en-us/word/together.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+listen,audio/en-us/word/listen.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+with,audio/en-us/word/with.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+ears,audio/en-us/word/ears.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+eyes,audio/en-us/word/eyes.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+speak,audio/en-us/word/speak.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+clear,audio/en-us/word/clear.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+voice,audio/en-us/word/voice.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+point,audio/en-us/word/point.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+picture,audio/en-us/word/picture.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+read,audio/en-us/word/read.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+after,audio/en-us/word/after.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+clap,audio/en-us/word/clap.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+hands,audio/en-us/word/hands.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+work,audio/en-us/word/work.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+give,audio/en-us/word/give.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+high,audio/en-us/word/high.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+five,audio/en-us/word/five.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+well,audio/en-us/word/well.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+done,audio/en-us/word/done.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+draw,audio/en-us/word/draw.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+star,audio/en-us/word/star.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+song,audio/en-us/word/song.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+try,audio/en-us/word/try.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+books,audio/en-us/word/books.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+school,audio/en-us/word/school.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+take,audio/en-us/word/take.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+out,audio/en-us/word/out.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+pencil,audio/en-us/word/pencil.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+put,audio/en-us/word/put.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+away,audio/en-us/word/away.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+ruler,audio/en-us/word/ruler.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+show,audio/en-us/word/show.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+it,audio/en-us/word/it.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+here,audio/en-us/word/here.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+eraser,audio/en-us/word/eraser.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+blue,audio/en-us/word/blue.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+pencils,audio/en-us/word/pencils.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+new,audio/en-us/word/new.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+find,audio/en-us/word/find.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+on,audio/en-us/word/on.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+desk,audio/en-us/word/desk.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+things,audio/en-us/word/things.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+family,audio/en-us/word/family.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+love,audio/en-us/word/love.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+mother,audio/en-us/word/mother.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+father,audio/en-us/word/father.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+grandma,audio/en-us/word/grandma.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+grandpa,audio/en-us/word/grandpa.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+happy,audio/en-us/word/happy.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+who,audio/en-us/word/who.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+photo,audio/en-us/word/photo.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+sister,audio/en-us/word/sister.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+brother,audio/en-us/word/brother.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+he,audio/en-us/word/he.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+neighbour,audio/en-us/word/neighbour.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+robot,audio/en-us/word/robot.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+has,audio/en-us/word/has.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+big,audio/en-us/word/big.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+spy,audio/en-us/word/spy.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+yellow,audio/en-us/word/yellow.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+making,audio/en-us/word/making.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+something,audio/en-us/word/something.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+some,audio/en-us/word/some.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+enjoy,audio/en-us/word/enjoy.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+starts,audio/en-us/word/starts.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+nine,audio/en-us/word/nine.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+check,audio/en-us/word/check.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+friday,audio/en-us/word/friday.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+lesson,audio/en-us/word/lesson.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+ben,audio/en-us/word/ben.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+hello anna,audio/en-us/sentence/hello-anna.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+hi tom,audio/en-us/sentence/hi-tom.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+good morning,audio/en-us/sentence/good-morning.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+good morning mom,audio/en-us/sentence/good-morning-mom.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+good afternoon,audio/en-us/sentence/good-afternoon.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+good afternoon mr lee,audio/en-us/sentence/good-afternoon-mr-lee.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+good evening,audio/en-us/sentence/good-evening.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+good evening dad,audio/en-us/sentence/good-evening-dad.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+good night,audio/en-us/sentence/good-night.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+good night mom,audio/en-us/sentence/good-night-mom.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+goodbye everyone,audio/en-us/sentence/goodbye-everyone.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+bye,audio/en-us/word/bye.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+bye see you tomorrow,audio/en-us/sentence/bye-see-you-tomorrow.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+see you,audio/en-us/sentence/see-you.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+see you later,audio/en-us/sentence/see-you-later.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+thank you,audio/en-us/sentence/thank-you.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+thanks,audio/en-us/word/thanks.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+thanks dad,audio/en-us/sentence/thanks-dad.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+you're welcome,audio/en-us/sentence/you-re-welcome.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+sorry,audio/en-us/word/sorry.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+sorry i'm late,audio/en-us/sentence/sorry-i-m-late.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+excuse me,audio/en-us/sentence/excuse-me.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+excuse me where is the library,audio/en-us/sentence/excuse-me-where-is-the-library.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+yes i can,audio/en-us/sentence/yes-i-can.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+no,audio/en-us/word/no.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+no thank you,audio/en-us/sentence/no-thank-you.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+how are you,audio/en-us/sentence/how-are-you.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+how are you today,audio/en-us/sentence/how-are-you-today.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i'm fine,audio/en-us/sentence/i-m-fine.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i'm fine thank you,audio/en-us/sentence/i-m-fine-thank-you.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+nice to meet you,audio/en-us/sentence/nice-to-meet-you.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+nice to meet you lily,audio/en-us/sentence/nice-to-meet-you-lily.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+welcome,audio/en-us/word/welcome.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+welcome to our school,audio/en-us/sentence/welcome-to-our-school.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+zero,audio/en-us/word/zero.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i have zero cookies,audio/en-us/sentence/i-have-zero-cookies.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i have one pen,audio/en-us/sentence/i-have-one-pen.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i see two birds,audio/en-us/sentence/i-see-two-birds.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i have three books,audio/en-us/sentence/i-have-three-books.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+four,audio/en-us/word/four.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+four cats are here,audio/en-us/sentence/four-cats-are-here.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i have five apples,audio/en-us/sentence/i-have-five-apples.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+six,audio/en-us/word/six.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+six ducks can swim,audio/en-us/sentence/six-ducks-can-swim.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+seven,audio/en-us/word/seven.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i see seven stars,audio/en-us/sentence/i-see-seven-stars.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+eight,audio/en-us/word/eight.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i have eight crayons,audio/en-us/sentence/i-have-eight-crayons.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i see nine flowers,audio/en-us/sentence/i-see-nine-flowers.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+ten,audio/en-us/word/ten.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i have ten fingers,audio/en-us/sentence/i-have-ten-fingers.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+eleven,audio/en-us/word/eleven.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i have eleven cards,audio/en-us/sentence/i-have-eleven-cards.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+twelve,audio/en-us/word/twelve.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+there are twelve eggs,audio/en-us/sentence/there-are-twelve-eggs.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+thirteen,audio/en-us/word/thirteen.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i can count to thirteen,audio/en-us/sentence/i-can-count-to-thirteen.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+fourteen,audio/en-us/word/fourteen.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+fourteen birds are outside,audio/en-us/sentence/fourteen-birds-are-outside.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+fifteen,audio/en-us/word/fifteen.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+fifteen students are here,audio/en-us/sentence/fifteen-students-are-here.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+sixteen,audio/en-us/word/sixteen.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i have sixteen stickers,audio/en-us/sentence/i-have-sixteen-stickers.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+seventeen,audio/en-us/word/seventeen.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i see seventeen stars,audio/en-us/sentence/i-see-seventeen-stars.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+eighteen,audio/en-us/word/eighteen.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+there are eighteen pencils,audio/en-us/sentence/there-are-eighteen-pencils.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+nineteen,audio/en-us/word/nineteen.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i have nineteen blocks,audio/en-us/sentence/i-have-nineteen-blocks.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+twenty,audio/en-us/word/twenty.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i have twenty blocks,audio/en-us/sentence/i-have-twenty-blocks.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+twentyone,audio/en-us/word/twentyone.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i have twentyone stickers,audio/en-us/sentence/i-have-twentyone-stickers.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+twentytwo,audio/en-us/word/twentytwo.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i see twentytwo birds,audio/en-us/sentence/i-see-twentytwo-birds.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+twentythree,audio/en-us/word/twentythree.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+there are twentythree books,audio/en-us/sentence/there-are-twentythree-books.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+twentyfour,audio/en-us/word/twentyfour.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i have twentyfour cards,audio/en-us/sentence/i-have-twentyfour-cards.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+twentyfive,audio/en-us/word/twentyfive.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+there are twentyfive students,audio/en-us/sentence/there-are-twentyfive-students.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+twentysix,audio/en-us/word/twentysix.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i have twentysix crayons,audio/en-us/sentence/i-have-twentysix-crayons.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+twentyseven,audio/en-us/word/twentyseven.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i see twentyseven stars,audio/en-us/sentence/i-see-twentyseven-stars.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+twentyeight,audio/en-us/word/twentyeight.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+there are twentyeight days in february in a common year,audio/en-us/sentence/there-are-twentyeight-days-in-february-in-a-common-year.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+twentynine,audio/en-us/word/twentynine.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i have twentynine marbles,audio/en-us/sentence/i-have-twentynine-marbles.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+thirty,audio/en-us/word/thirty.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i have thirty stickers,audio/en-us/sentence/i-have-thirty-stickers.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+forty,audio/en-us/word/forty.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+forty books are on the shelf,audio/en-us/sentence/forty-books-are-on-the-shelf.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+fifty,audio/en-us/word/fifty.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+the chart has fifty stars,audio/en-us/sentence/the-chart-has-fifty-stars.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+sixty,audio/en-us/word/sixty.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+sixty seconds make a minute,audio/en-us/sentence/sixty-seconds-make-a-minute.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+seventy,audio/en-us/word/seventy.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+seventy is more than sixty,audio/en-us/sentence/seventy-is-more-than-sixty.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+eighty,audio/en-us/word/eighty.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+eighty is a number,audio/en-us/sentence/eighty-is-a-number.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+ninety,audio/en-us/word/ninety.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+ninety is ten less than one hundred,audio/en-us/sentence/ninety-is-ten-less-than-one-hundred.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+one hundred,audio/en-us/sentence/one-hundred.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i can count to one hundred,audio/en-us/sentence/i-can-count-to-one-hundred.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+number,audio/en-us/word/number.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+what is your number,audio/en-us/sentence/what-is-your-number.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+count,audio/en-us/word/count.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+count from one to ten,audio/en-us/sentence/count-from-one-to-ten.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+how many,audio/en-us/sentence/how-many.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+how many books do you have,audio/en-us/sentence/how-many-books-do-you-have.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+how much,audio/en-us/sentence/how-much.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+how much water do you want,audio/en-us/sentence/how-much-water-do-you-want.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+many,audio/en-us/word/many.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i have many toys,audio/en-us/sentence/i-have-many-toys.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+we don't have much time,audio/en-us/sentence/we-don-t-have-much-time.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+more,audio/en-us/word/more.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i want more milk,audio/en-us/sentence/i-want-more-milk.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+less,audio/en-us/word/less.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+this box has less water,audio/en-us/sentence/this-box-has-less-water.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i have some pencils,audio/en-us/sentence/i-have-some-pencils.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+any,audio/en-us/word/any.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+do you have any questions,audio/en-us/sentence/do-you-have-any-questions.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+all,audio/en-us/word/all.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+all the children are here,audio/en-us/sentence/all-the-children-are-here.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+half,audio/en-us/word/half.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i ate half an apple,audio/en-us/sentence/i-ate-half-an-apple.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+first,audio/en-us/word/first.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+this is my first book,audio/en-us/sentence/this-is-my-first-book.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+second,audio/en-us/word/second.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+the second answer is right,audio/en-us/sentence/the-second-answer-is-right.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+third,audio/en-us/word/third.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+the third box is blue,audio/en-us/sentence/the-third-box-is-blue.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+each,audio/en-us/word/each.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+each child has a book,audio/en-us/sentence/each-child-has-a-book.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i read every day,audio/en-us/sentence/i-read-every-day.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+a lot of,audio/en-us/sentence/a-lot-of.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i have a lot of books,audio/en-us/sentence/i-have-a-lot-of-books.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+few,audio/en-us/word/few.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+few people are here,audio/en-us/sentence/few-people-are-here.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+a few,audio/en-us/sentence/a-few.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i have a few toys,audio/en-us/sentence/i-have-a-few-toys.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+there is little milk left,audio/en-us/sentence/there-is-little-milk-left.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+a little,audio/en-us/sentence/a-little.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i want a little water,audio/en-us/sentence/i-want-a-little-water.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+enough,audio/en-us/word/enough.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+we have enough chairs,audio/en-us/sentence/we-have-enough-chairs.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+total,audio/en-us/word/total.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+the total is ten,audio/en-us/sentence/the-total-is-ten.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+the apple is red,audio/en-us/sentence/the-apple-is-red.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+the sky is blue,audio/en-us/sentence/the-sky-is-blue.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+the sun is yellow,audio/en-us/sentence/the-sun-is-yellow.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+green,audio/en-us/word/green.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+the leaf is green,audio/en-us/sentence/the-leaf-is-green.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+orange,audio/en-us/word/orange.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+my bag is orange,audio/en-us/sentence/my-bag-is-orange.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+purple,audio/en-us/word/purple.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+the flower is purple,audio/en-us/sentence/the-flower-is-purple.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+pink,audio/en-us/word/pink.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+the cup is pink,audio/en-us/sentence/the-cup-is-pink.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+black,audio/en-us/word/black.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+the cat is black,audio/en-us/sentence/the-cat-is-black.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+white,audio/en-us/word/white.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+the snow is white,audio/en-us/sentence/the-snow-is-white.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+brown,audio/en-us/word/brown.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+the bear is brown,audio/en-us/sentence/the-bear-is-brown.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+gray,audio/en-us/word/gray.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+the mouse is gray,audio/en-us/sentence/the-mouse-is-gray.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+gold,audio/en-us/word/gold.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+the star is gold,audio/en-us/sentence/the-star-is-gold.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+silver,audio/en-us/word/silver.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+the spoon is silver,audio/en-us/sentence/the-spoon-is-silver.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+light blue,audio/en-us/sentence/light-blue.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+my shirt is light blue,audio/en-us/sentence/my-shirt-is-light-blue.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+dark blue,audio/en-us/sentence/dark-blue.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+the bag is dark blue,audio/en-us/sentence/the-bag-is-dark-blue.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+light green,audio/en-us/sentence/light-green.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+the wall is light green,audio/en-us/sentence/the-wall-is-light-green.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+dark green,audio/en-us/sentence/dark-green.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+the tree is dark green,audio/en-us/sentence/the-tree-is-dark-green.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+beige,audio/en-us/word/beige.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+the hat is beige,audio/en-us/sentence/the-hat-is-beige.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+violet,audio/en-us/word/violet.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+the ribbon is violet,audio/en-us/sentence/the-ribbon-is-violet.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+shape,audio/en-us/word/shape.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+what shape is it,audio/en-us/sentence/what-shape-is-it.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+circle,audio/en-us/word/circle.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+it is a circle,audio/en-us/sentence/it-is-a-circle.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+square,audio/en-us/word/square.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+draw a square,audio/en-us/sentence/draw-a-square.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+triangle,audio/en-us/word/triangle.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+the sign is a triangle,audio/en-us/sentence/the-sign-is-a-triangle.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+rectangle,audio/en-us/word/rectangle.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+the book is a rectangle,audio/en-us/sentence/the-book-is-a-rectangle.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+draw a star,audio/en-us/sentence/draw-a-star.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+heart,audio/en-us/word/heart.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+the card has a heart,audio/en-us/sentence/the-card-has-a-heart.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+oval,audio/en-us/word/oval.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+the egg is an oval shape,audio/en-us/sentence/the-egg-is-an-oval-shape.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+diamond,audio/en-us/word/diamond.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+the tile is a diamond,audio/en-us/sentence/the-tile-is-a-diamond.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+line,audio/en-us/word/line.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+draw a straight line,audio/en-us/sentence/draw-a-straight-line.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+dot,audio/en-us/word/dot.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+put a dot here,audio/en-us/sentence/put-a-dot-here.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+corner,audio/en-us/word/corner.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+the paper has four corners,audio/en-us/sentence/the-paper-has-four-corners.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+side,audio/en-us/word/side.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+a square has four sides,audio/en-us/sentence/a-square-has-four-sides.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+round,audio/en-us/word/round.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+the ball is round,audio/en-us/sentence/the-ball-is-round.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+straight,audio/en-us/word/straight.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+the line is straight,audio/en-us/sentence/the-line-is-straight.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+curved,audio/en-us/word/curved.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+the road is curved,audio/en-us/sentence/the-road-is-curved.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+the box is big,audio/en-us/sentence/the-box-is-big.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+small,audio/en-us/word/small.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+the mouse is small,audio/en-us/sentence/the-mouse-is-small.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+large,audio/en-us/word/large.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+this is a large ball,audio/en-us/sentence/this-is-a-large-ball.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+long,audio/en-us/word/long.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+the ruler is long,audio/en-us/sentence/the-ruler-is-long.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+short,audio/en-us/word/short.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+the pencil is short,audio/en-us/sentence/the-pencil-is-short.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+tall,audio/en-us/word/tall.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+the tree is tall,audio/en-us/sentence/the-tree-is-tall.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+the kite is high in the sky,audio/en-us/sentence/the-kite-is-high-in-the-sky.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+low,audio/en-us/word/low.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+the table is low,audio/en-us/sentence/the-table-is-low.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+wide,audio/en-us/word/wide.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+the river is wide,audio/en-us/sentence/the-river-is-wide.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+narrow,audio/en-us/word/narrow.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+this street is narrow,audio/en-us/sentence/this-street-is-narrow.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+thick,audio/en-us/word/thick.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+this book is thick,audio/en-us/sentence/this-book-is-thick.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+thin,audio/en-us/word/thin.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+the paper is thin,audio/en-us/sentence/the-paper-is-thin.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+heavy,audio/en-us/word/heavy.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+the bag is heavy,audio/en-us/sentence/the-bag-is-heavy.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+the box is light,audio/en-us/sentence/the-box-is-light.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+deep,audio/en-us/word/deep.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+the pool is deep,audio/en-us/sentence/the-pool-is-deep.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+shallow,audio/en-us/word/shallow.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+the water is shallow,audio/en-us/sentence/the-water-is-shallow.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+size,audio/en-us/word/size.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+what size is the box,audio/en-us/sentence/what-size-is-the-box.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+pleased,audio/en-us/word/pleased.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+these,audio/en-us/word/these.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+class,audio/en-us/word/class.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+close::verb,audio/en-us/word/close-verb.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+close::adjective,audio/en-us/word/close-adjective.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+we are close friends,audio/en-us/sentence/we-are-close-friends.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+can you help me please,audio/en-us/sentence/can-you-help-me-please.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+i am very pleased,audio/en-us/sentence/i-am-very-pleased.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+are these your books,audio/en-us/sentence/are-these-your-books.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+this is a hot dog,audio/en-us/sentence/this-is-a-hot-dog.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+is this a robot,audio/en-us/sentence/is-this-a-robot.mp3,original project embedded audio,extracted_and_loudness_normalized,Not newly synthesized.
+apple,audio/en-us/word/apple.mp3,local eSpeak offline synthesis,generated_provisional,Voice differs from original bank; use for test only unless accepted.
