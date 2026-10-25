@@ -1,0 +1,34 @@
+[
+  {
+    "script": "word_catalog",
+    "exitCode": 0
+  },
+  {
+    "script": "word_entry",
+    "exitCode": 0
+  },
+  {
+    "script": "word_spelling",
+    "exitCode": 0
+  },
+  {
+    "script": "word_cloze",
+    "exitCode": 0
+  },
+  {
+    "script": "navigation_audio",
+    "exitCode": 0
+  },
+  {
+    "script": "mobile_startup",
+    "exitCode": 0
+  },
+  {
+    "script": "sentence_word_audio",
+    "exitCode": 0
+  },
+  {
+    "script": "speech_reference",
+    "exitCode": 0
+  }
+]

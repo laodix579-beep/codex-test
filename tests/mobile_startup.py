@@ -35,7 +35,7 @@ with sync_playwright() as p:
         page.reload(wait_until='networkidle')
         assert '手机保留记录' in page.locator('.note-card').inner_text()
         page.goto(BASE+'#words')
-        assert page.locator('.vocab-category').count()==8
+        assert page.locator('.vocab-category').count()==1
         page.locator('.vocab-category-heading[data-category-id="C01"]').click()
         page.locator('#word-category-dialog button[data-subcategory-id="C01-S01"]').click()
         page.locator('.translation-blank').first.fill('hello')

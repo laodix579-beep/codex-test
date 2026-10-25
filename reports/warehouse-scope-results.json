@@ -1,0 +1,22 @@
+[
+  {
+    "profile": "desktop",
+    "builtins": 136,
+    "onlyPopulatedGroups": true,
+    "retiredRoutesRedirect": true,
+    "searchOnlyWarehouse": true,
+    "historyAndBackupPreserved": true,
+    "existingCustomWordPreserved": true,
+    "offlineWordPractice": true
+  },
+  {
+    "profile": "phone",
+    "builtins": 136,
+    "onlyPopulatedGroups": true,
+    "retiredRoutesRedirect": true,
+    "searchOnlyWarehouse": true,
+    "historyAndBackupPreserved": true,
+    "existingCustomWordPreserved": true,
+    "offlineWordPractice": true
+  }
+]

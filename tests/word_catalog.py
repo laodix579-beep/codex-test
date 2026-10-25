@@ -32,13 +32,13 @@ with sync_playwright() as p:
     page.goto(BASE+'#words')
     # Reload once to use the same validated representation as an existing install.
     page.reload()
-    assert page.locator('.vocab-category').count() == 8
-    assert page.locator('.vocab-subcategories button').count() == 32
+    assert page.locator('.vocab-category').count() == 1
+    assert page.locator('.vocab-subcategories button').count() == 4
     initial = stored(page)
     assert len(initial['words']) == 136
     assert not any(w['id'].startswith('word-') for w in initial['words'])
     assert [sum(w['subcategoryId']==f'C01-S{i:02}' for w in initial['words']) for i in range(1,5)] == [22,62,19,33]
-    print('PASS: eight themes, 32 category entrances and exactly 136 imported entries', flush=True)
+    print('PASS: one populated theme, four category entrances and exactly 136 imported entries', flush=True)
 
     page.goto(BASE+'#words/manage/C01')
     groups=page.locator('.word-subcategory-group')
@@ -76,9 +76,9 @@ with sync_playwright() as p:
         page.wait_for_function('(n)=>document.querySelectorAll(".word-card").length===n', arg=count)
         assert page.locator('.word-example-speak').count() == count
     page.goto(BASE+'#words/C02/C02-S01')
-    assert page.get_by_role('heading', name='这个分类正在准备中').is_visible()
-    assert page.get_by_role('button', name='开始背词').is_disabled()
-    print('PASS: all four populated lists and empty category entrances work', flush=True)
+    page.wait_for_url('**/#words')
+    assert page.locator('.vocab-category').count()==1
+    print('PASS: all four populated lists and old empty category routes redirect', flush=True)
 
     page.goto(BASE+'#words/manage/C01/C01-S03')
     page.get_by_role('button',name='开始背词').click()
@@ -107,6 +107,7 @@ with sync_playwright() as p:
     legacy.pop('vocabularyVersion', None)
     legacy['words']=[{'id':'word-old','word':'obsolete','meaning':'旧词','ipa':'','example':''}]
     legacy['wordStatus']={'word-old':'mastered'}
+    legacy['courses']=[{'id':'archived-course','title':'历史课程','description':'保留资料','category':'daily','level':'A1','color':'purple','createdAt':'2026-01-01T00:00:00.000Z','sample':False,'sentences':[{'id':'archived-sentence','english':'Archived sentence.','chinese':'历史句子。','section':''}]}]
     sentence_id=legacy['courses'][0]['sentences'][0]['id']
     legacy['sentenceStatus']={sentence_id:'mastered'}
     legacy['favorites']=['word-old',sentence_id]

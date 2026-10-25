@@ -82,10 +82,11 @@ with sync_playwright() as p:
     assert page.locator('#question-audio').evaluate('a=>a.playbackRate')==.65
     page.locator('#lesson-dialog [data-close]').click()
     page.goto(BASE+'#phonetics')
+    page.wait_for_url('**/#words')
     assert 'DJ' in page.locator('#content').inner_text() and 'GA 美式' in page.locator('#content').inner_text()
-    assert page.locator('.phonetic-card').filter(has_text='near').locator('.symbol').inner_text()=='/ɪə/'
+    assert page.locator('#navigation [data-route="phonetics"]').count()==0
     assert not errors,errors
-    print('PASS: practice retains the selected rate; phonetic lessons show DJ references and explain GA example audio and accent differences',flush=True)
+    print('PASS: practice retains the selected rate; retired phonetic route returns to the DJ/GA warehouse',flush=True)
     # Missing MP3s must be reported; accessing any browser TTS API fails this test.
     page.goto(BASE+'#words/manage/C01/C01-S01')
     page.evaluate("""()=>{

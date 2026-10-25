@@ -46,9 +46,6 @@ with sync_playwright() as p:
         assert page.locator('#note-dialog').is_hidden()
         assert page.locator('.note-card').count()==0
         page.goto(BASE+'#settings')
-        page.locator('#content [data-action="import"]').click()
-        page.locator('#import-dialog .dialog-back').click()
-        assert page.locator('#import-dialog').is_hidden()
         before=page.evaluate('localStorage.getItem(document.body.dataset.storageKey)')
         page.locator('[data-action="reset"]').click()
         page.locator('#confirm-dialog .dialog-back').click()

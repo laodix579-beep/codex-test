@@ -1,69 +1,35 @@
-# MP3 录音接入测试报告
+# 仅保留单词仓库版本测试报告
 
-测试日期：2026-10-25（北京时间）。以现有应用 2615230 为基线接入所提供录音包。测试工具为 Python Playwright + Chromium，手机使用视口、触屏及 Android/iPhone UA/缺少新 API 的模拟配置。
+日期：2026-10-25（北京时间）。基于 9e1766c，页面缓存版本 frog-warehouse-only-v16。
 
-## 已通过的检查
+## 当前行为
 
-| 检查 | 实际结果 |
-| --- | --- |
-| 提供的 MP3 文件完整性 | 610/610 文件与输入包 SHA-256 完全一致；未生成、替换、转码或再次处理音频 |
-| 全量浏览器解码 | 610/610 可解码，时长有效并存在非静音样本 |
-| 现有词库映射 | 136/136 CSV 映射指向实际提供文件；正式词条顺序和稳定 ID 保留 |
-| 指定测试词 | apple、book、orange、Please 在桌面和手机模拟配置均可搜索并播放独立词 MP3 |
-| 旧词及例句 | 10 个旧词和 10 个对应例句按 UI 播放；核对实际 URL、录音文本和播放时间前进。具体文本见下文及 JSON 结果 |
-| 搜索行为 | 大小写不敏感、部分英文、中文、例句、Enter、可见按钮、清空及无结果提示通过 |
-| DJ/GA 分离 | 结果显示 DJ 英式音标，播放按文本键选择提供的 GA MP3，不将 IPA 传给播放器 |
-| 无 TTS | 以抛错 getter 禁止访问 speechSynthesis 和 SpeechSynthesisUtterance，完整集成检查通过；缺失 MP3 明确提示，不生成替代声音 |
-| GitHub Pages 子路径 | 静态服务器 /codex-test/ 子路径运行；捕获请求无越出项目根路径的资源 URL |
-| 离线及 Range 请求 | 桌面/手机模拟配置均能离线重开、搜索及播放；MP3 bytes=0-127 返回 206 和 128 字节 |
-| 用户记录保留 | 已有词条、自定义词、课程及导入课程、单词/句子进度、笔记、收藏、课程收藏、计划、设置、日期学习记录及对话状态核对通过 |
-| 独立试听词 | apple、book 不写入正式词库；orange、please 复用原词条。搜索不改变词条数和课程顺序 |
-| 原配置 | supabase-config.js 与基线字节完全相同，未要求提供 API Key |
-| 完整部署 ZIP | 已实际解压检查 610 个 MP3 与来源哈希一致；在 /preview/project/ 子路径用主入口和中文兼容入口搜索、播放成功 |
-| 单文件个人备份 | word_catalog 回归验证导出 HTML 包含现有 MP3 原始字节，可在无原仓库资源的独立目录播放，保留学习数据 |
+- 已移除课程广场、教材同步、音标课程导航和 PEP 试听入口；旧链接重定向到单词仓库。
+- 默认只展示基础入门：问候与礼貌用语 22、数字与数量 62、颜色 19、形状与大小 33，共 136 词；空主题及空二级分类不展示。
+- 搜索只查当前仓库词条、释义及对应例句。独立试听词 apple/book 不自动进入结果；用户原先已保存到仓库的自定义词仍保留。
+- 首页学习入口、计划、收藏和练习均使用仓库词条。新用户不再自动添加示例课程；个人网页导出也不自动补入教材。
+- 历史课程、句子进度和收藏仍在原本的 localStorage 与完整备份中。没有执行清空、删除学习记录或重置仓库操作。
+- 提供的 MP3 字节保持原样，不调用 TTS，不需要 API。未使用的录音和来源文件保留作归档，不作为额外学习词条展示。
 
-12 个回归脚本均已实际执行并通过：
+## 本次实际通过
 
-```
-python3 tests/mobile_practice.py
-python3 tests/space_shortcuts.py
-python3 tests/word_catalog.py
-python3 tests/word_spelling.py
-python3 tests/word_entry.py
-python3 tests/word_cloze.py
-python3 tests/speech_reference.py
-python3 tests/pep_pronunciation.py
-python3 tests/navigation_audio.py
-python3 tests/mobile_startup.py
-python3 tests/sentence_word_audio.py
-python3 tests/recording_integration.py
-```
+1. `tests/warehouse_scope.py`：桌面和手机模拟配置验证导航、目录、旧链接、仓库范围搜索、历史课程不外露、自定义词保留、收藏/笔记/进度/计划不变、完整备份和离线单词练习。默认 136 个内置词 ID 与顺序不变。
+2. `tests/word_catalog.py`：分类、词库迁移与恢复副本、用户添加词、个人单文件导出、录音解码及离线播放。
+3. `tests/word_entry.py`：有词条分类弹窗、整组练习数量、图片设置、空分类旧链接回退和词条管理。
+4. `tests/word_spelling.py`：拼写、错词、重试、触屏和输入音效。
+5. `tests/word_cloze.py`：136 个词条例句上下文、短语及词形、词义位置、桌面与手机答题。
+6. `tests/navigation_audio.py`：返回、取消、答题完成后的单次朗读、重听和退出停止播放。
+7. `tests/mobile_startup.py`：缺少新版浏览器 API 的安卓/iPhone UA 模拟、数据保存及异常可见提示。
+8. `tests/sentence_word_audio.py`：实际播放例句一次、目标词两次，重听、切题取消及退出取消。
+9. `tests/speech_reference.py`：仓库 DJ 显示、已有单词和例句 MP3、旧音标链接回退、缺录音提示及禁止 TTS。
 
-## 具体播放样本
+部署 ZIP 已实际解压，在 /preview/project/ 子路径验证了两个入口、仅仓库目录、旧链接回退和单词 MP3 播放；打包时再次核对了 610 个原始 MP3 哈希。
 
-旧词：hello、hi、good morning、good afternoon、good evening、good night、goodbye、bye、see you、see you later。
+结构化结果见 `warehouse-scope-results.json` 和 `warehouse-regression-results.json`。
 
-例句：
+## 范围与未执行项
 
-- Hello, Anna.
-- Hi, Tom!
-- Good morning, Mom.
-- Good afternoon, Mr. Lee.
-- Good evening, Dad.
-- Good night, Mom.
-- Goodbye, everyone.
-- Bye! See you tomorrow.
-- See you tomorrow.
-- See you later!
-
-
-## 来源与测试边界
-
-- 609 段旧 MP3 由录音包提供者从原项目提取并统一响度；本次只核验并接入这些已有文件。
-- apple.mp3 是包内已存在的本地 eSpeak 临时美式测试录音，音色可能不同；界面与文档均有标注。本次未调用 eSpeak 或其他 TTS。
-- 包内旧音素/语调 JSON 属于历史元数据；本次未生成新语音，也不将旧声学测量当作当前文件的新测量结果。
-- 未做真实 Android/iPhone 硬件或 Safari 引擎实机测试，未做人工逐条发音/音色认证。浏览器检查验证映射、文件可访问、解码、播放及功能行为。
-- 当前基线没有启用远端登录/同步服务，相关配置原样保留；未测试远端登录或同步，不把这一项标记为通过。音频接入不需要 API。
-- 输入包自带 HTML 存在 script 闭合问题；本次基于现有可运行版本接入 MP3，并生成一致的两个有效入口。
-
-原音频逐文件哈希见 source-audio-sha256.json，结构化检查结果见 recording-integration-results.json。
+- 旧教材/独立音标页面以及 v15 独立试听词场景已按要求移除，本次没有把相关旧流程列作通过。具体为 mobile_practice.py、space_shortcuts.py、pep_pronunciation.py 的旧模块场景及 recording_integration.py 的旧试听词搜索场景。
+- 没有做真实手机硬件、Safari 引擎实测或人工发音认证；手机为 Chromium 视口、触屏与旧 API/UA 模拟。
+- 未测试远端登录/同步服务；原配置文件保留。
+- v15 完整录音接入的历史结果保存在 `recordings-v15-test-report.md`；本报告不将旧结果冒充本次重新执行。
