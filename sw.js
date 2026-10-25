@@ -1,6 +1,6 @@
 // Public static resources only; personal study data stays in localStorage.
 importScripts('./audio-files.js');
-const CACHE="frog-practice-focus-v20";
+const CACHE="frog-first-paint-v21";
 const ROOT=new URL('./',self.location.href);
 const FILES=['index.html','audio-files.js','audio-manifest.json','data/pronunciation-test-words.json','manifest.webmanifest','icon-192.png','icon-512.png','apple-touch-icon.png',...self.FROG_AUDIO_FILES];
 self.addEventListener('install',event=>event.waitUntil((async()=>{
@@ -39,7 +39,7 @@ self.addEventListener('fetch',event=>{
   const request=event.request,url=new URL(request.url);
   if(request.method!=='GET'||url.origin!==ROOT.origin||!url.pathname.startsWith(ROOT.pathname))return;
   if(request.mode==='navigate'){
-    event.respondWith(fetch(request).catch(async()=>{
+    event.respondWith(fetch(request,{cache:'no-cache'}).catch(async()=>{
       const cache=await caches.open(CACHE);
       return await cache.match(new URL('index.html',ROOT).href)||Response.error();
     }));return;

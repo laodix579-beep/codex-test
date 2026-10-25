@@ -26,6 +26,8 @@
 
 完整 GitHub Pages 部署步骤和上传清单见 [Windows 上传说明](DEPLOY_WINDOWS.md)。本包保留原有配置及学习记录的存储键。GitHub Pages、手机离线缓存和单文件个人备份均使用这些已提供的 MP3。
 
+首屏在主程序加载前就确定桌面/手机布局，初始化期间使用独立加载页，完成后直接显示当前界面，避免旧深色桌面 MVP 闪现。慢速下载和启动失败也会显示明确状态，不会一直停在遮罩。联网导航会检查服务器版本；离线仍使用已保存的当前版本，不清空学习记录。
+
 兼容缺少 `structuredClone`、`Object.hasOwn` 和 `Array.at` 的手机内置浏览器。启动期间会显示加载提示；初始化失败会显示重新加载入口，无需清空学习记录。
 
 学习进度保存在当前浏览器。手机更新后需联网刷新，并等待“已保存离线内容”再断网；该提示会核对当前控制页面的缓存版本，避免离线退回旧版。首次联网完成缓存后可以离线使用；跨设备通过“设置与备份”导出、导入学习记录。
@@ -47,6 +49,8 @@ python3 -m http.server 8000 --bind 127.0.0.1
 服务器运行后执行当前版本回归检查（需要 Python Playwright 和 `/usr/bin/chromium`）：
 
 ```sh
+python3 tests/startup_paint.py
+python3 tests/cache_refresh.py
 python3 tests/practice_focus.py
 python3 tests/home_progress.py
 python3 tests/desktop_mvp.py
