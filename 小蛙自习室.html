@@ -652,6 +652,84 @@ body.desktop-mvp,html.desktop-mvp body{--bg:#f6f7ff;--panel:#fff;--raised:#f0eff
 }
 @media(prefers-reduced-motion:reduce){.home-category-tile{transition:none}}
 </style>
+<style id="learning-progress-v24-style">
+.desktop-mvp.progress-page .topbar{height:68px}
+.desktop-mvp.progress-page #content{max-width:1660px;margin:0 auto;padding:25px 46px 0}
+.desktop-mvp.progress-page footer{max-width:1660px;margin:0 auto;padding:18px 46px}
+.progress-dashboard{color:#242950}
+.progress-page-heading{margin:0 8px 20px}
+.progress-page-heading h1{font-size:28px;letter-spacing:0;margin:0 0 3px;color:#19234d;font-weight:750}
+.progress-page-heading p{font-size:12px;color:#9295b0;margin:0}
+.progress-metrics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;margin-bottom:19px}
+.progress-metric{display:grid;grid-template-columns:46px minmax(0,1fr) 66px;align-items:center;gap:14px;min-width:0;padding:18px;background:#ffffffed;border:1px solid #ece9f9;border-radius:16px;box-shadow:0 4px 15px #aaa1cf08;min-height:113px}
+.progress-metric-icon,.progress-panel-icon{display:grid;place-items:center;border-radius:14px;background:linear-gradient(135deg,#f0eaff,#faf8ff);color:#8a66ff;width:46px;height:48px}
+.progress-metric-icon svg{width:27px;height:27px;stroke-width:2}
+.progress-metric-title{display:block;color:#6b6e95;font-size:12px;font-weight:600;white-space:nowrap}
+.progress-metric-value{display:block;color:#18234b;font-size:24px;font-weight:700;line-height:1.5;white-space:nowrap}
+.progress-metric-value small{font-size:19px;font-weight:600;margin-left:4px}
+.progress-metric-note{font-size:11px;color:#989bb6;white-space:nowrap}
+.progress-ring{width:66px;height:66px;position:relative;display:grid;place-items:center;color:#8869fb}
+.progress-ring svg{position:absolute;inset:0;width:100%;height:100%;transform:rotate(-90deg);fill:none;stroke-width:5;stroke-linecap:round}
+.progress-ring .ring-track{stroke:#eae6f8}.progress-ring .ring-fill{stroke:#8b68ff}
+.progress-ring strong{font-size:12px;font-weight:650}
+.progress-metric-emblem{width:60px;height:60px;border-radius:50%;display:grid;place-items:center;background:#fff4eb;color:#ff9829;font-size:27px}
+.progress-metric-emblem.green{background:#edf9f3;color:#24b78a}.progress-metric-emblem svg{width:29px;height:29px}
+.progress-metric.orange .progress-metric-icon{background:#fff2e7;color:#ff8d28}
+.progress-main-grid{display:grid;grid-template-columns:1.25fr 1fr;gap:18px;margin-bottom:19px}
+.progress-lower-grid{display:grid;grid-template-columns:1.05fr 1fr;gap:18px}
+.progress-panel{min-width:0;border:1px solid #ece9f9;border-radius:17px;padding:20px;background:#fffffff2;box-shadow:0 4px 18px #aea3ce08}
+.progress-panel-heading{display:flex;align-items:flex-start;gap:11px;margin-bottom:16px}
+.progress-panel-icon{width:37px;height:38px;border-radius:11px;flex-shrink:0}.progress-panel-icon svg{width:23px;height:23px;stroke-width:2}
+.progress-panel-heading>div{min-width:0;flex:1}
+.progress-panel-heading h2{font-size:17px;color:#262c55;margin:0 0 2px;font-weight:700;line-height:1.5}
+.progress-panel-heading p{font-size:11px;color:#9496b0;margin:0;line-height:1.7}
+.progress-panel-heading>.text-button{white-space:nowrap;font-size:11px;color:#a58de9;text-decoration:none;margin-top:8px}
+.progress-goal{display:grid;grid-template-columns:25px minmax(0,1fr) 58px;gap:11px;align-items:center;margin:16px 0 19px}
+.progress-goal>svg{color:#9778ff;align-self:start;margin-top:3px;width:22px;height:22px}
+.progress-goal-heading{display:flex;justify-content:space-between;align-items:center;font-size:12px;margin-bottom:6px;gap:10px}
+.progress-goal-heading strong{color:#40476d;font-weight:600}.progress-goal-heading span{color:#8e93af;white-space:nowrap}
+.progress-goal>.progress-goal-percent{align-self:end;color:#8c6bfc;font-size:17px;text-align:right;line-height:1;padding-bottom:1px}
+.progress-dashboard .progress-track{height:10px;background:#eeedf8}.progress-dashboard .progress-fill{background:linear-gradient(90deg,#b19aff,#8968ff)}
+.progress-goal-footer{display:flex;gap:12px;align-items:center;margin-top:20px}
+.progress-goal-hint{flex:1;display:flex;gap:9px;align-items:center;min-height:46px;padding:10px 12px;border-radius:11px;background:#f1edff;color:#977bef;font-size:11px;line-height:1.7}
+.progress-goal-hint>svg{flex-shrink:0;width:19px;height:19px}.progress-goal-footer .button{flex-shrink:0;min-height:46px;min-width:155px;border-radius:12px;font-size:12px;padding:11px 15px}
+.progress-chart-panel .progress-panel-heading{align-items:center;margin-bottom:10px;gap:9px;flex-wrap:wrap}
+.progress-trend-switch{display:flex;border:1px solid #eae6fa;border-radius:9px;background:#f8f6ff;padding:3px;gap:2px;margin-left:auto}
+.progress-trend-switch button{padding:6px 10px;border-radius:6px;color:#9993b9;font-size:10px;background:transparent;white-space:nowrap}
+.progress-trend-switch button[aria-pressed="true"]{background:linear-gradient(120deg,#a287ff,#805cff);color:white;box-shadow:0 2px 6px #aa91f44d}
+.progress-chart{position:relative;margin:16px 6px 0 0;height:140px;padding:0 0 24px 31px}
+.progress-chart-axis{position:absolute;inset:0 0 24px 0;display:flex;flex-direction:column;justify-content:space-between;pointer-events:none}
+.progress-chart-axis>span{position:relative;color:#a1a3be;font-size:10px;line-height:1;text-align:right;padding-right:calc(100% - 24px);white-space:nowrap}
+.progress-chart-axis>span:after{content:'';position:absolute;left:32px;right:0;top:50%;border-top:1px dashed #eceaf6}
+.progress-chart-bars{position:relative;height:100%;display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:15px;align-items:end;z-index:1}
+.progress-chart-bar{position:relative;background:transparent;align-self:stretch;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;padding:0;color:#8e91af;min-width:0}
+.progress-chart-bar-fill{display:block;position:relative;background:linear-gradient(0deg,#e0d9fe,#e7e2ff);border-radius:5px 5px 0 0;width:100%;max-width:43px;height:var(--bar-height);min-height:2px}
+.progress-chart-bar.today .progress-chart-bar-fill{background:linear-gradient(0deg,#ac92ff,#835cff)}
+.progress-chart-bar:hover .progress-chart-bar-fill{filter:brightness(.96)}
+.progress-chart-bar-value{position:absolute;left:50%;transform:translateX(-50%);bottom:calc(var(--bar-height) + 7px);color:#8588a7;font-size:10px;white-space:nowrap;line-height:1.1}
+.progress-chart-bar-date{position:absolute;top:calc(100% + 7px);font-size:10px;white-space:nowrap;color:#a1a4bd}.progress-chart-bar.today .progress-chart-bar-date{color:#9172eb}
+.progress-chart-note{font-size:10px;color:#a3a0b9;line-height:1.6;margin:8px 0 0 31px}
+.progress-category-scroll{max-height:220px;overflow:auto;scrollbar-width:thin;scrollbar-color:#e0daf5 transparent;padding-right:4px}
+.progress-category-row{display:grid;grid-template-columns:23px 117px minmax(50px,1fr) 70px 40px 15px;gap:10px;align-items:center;padding:12px 0;background:transparent;width:100%;text-align:left;color:#626c91;border-radius:8px}
+.progress-category-row:hover{background:#faf8ff}.progress-category-emoji{font-size:19px;line-height:1}
+.progress-category-row>strong{font-size:12px;color:#505978;font-weight:500}.progress-category-row .progress-track{height:11px}
+.progress-category-count,.progress-category-percent{font-size:11px;text-align:right;color:#9a9eb8;white-space:nowrap}.progress-category-arrow{color:#aaa3ce;font-size:22px;line-height:1}
+.progress-record-table{border-collapse:collapse;width:100%;font-size:11px;white-space:nowrap;text-align:left;color:#9198b7}
+.progress-record-table th{font-weight:500;color:#9691bf;background:#f8f6ff;padding:10px 12px;font-size:10px}
+.progress-record-table td{padding:11px 12px;border-bottom:1px solid #efedf8;font-size:11px}.progress-record-table tr:last-child td{border:0}
+.progress-lower-grid .progress-panel{padding:18px}.progress-lower-grid .progress-panel-heading{margin-bottom:12px}.progress-lower-grid .progress-record-table th{padding:8px 12px}.progress-lower-grid .progress-record-table td{padding:9px 12px}
+.progress-record-date{padding:0;background:transparent;color:#737f9d;font-size:11px;text-align:left}.progress-record-date:hover{color:#8a69e7;text-decoration:underline;text-underline-offset:4px}
+.progress-check-state{display:inline-flex;gap:7px;align-items:center;font-size:10px;color:#aaa6ba}.progress-check-state.checked{color:#4abb9a}.progress-check-state.missed{color:#ed949e}
+.progress-check-state i{display:grid;place-items:center;border-radius:50%;width:15px;height:15px;font-size:10px;font-style:normal;background:#eeeaf7;color:white}.progress-check-state.checked i{background:#4abb9a}.progress-check-state.missed i{background:#f28c97}
+.progress-records-empty{text-align:center;padding:40px 10px 25px;color:#9c9db5;font-size:12px}.progress-records-empty .button{margin-top:13px}
+.progress-legacy{margin:19px 0;color:#a09ab3;font-size:11px}.progress-legacy>summary{padding:8px;cursor:pointer}.progress-legacy .page-header,.progress-legacy .notice{display:none}.progress-legacy .stat-row>div{background:#fff;border-color:#e8e3f7}.progress-legacy .stat-row strong{color:#8b6bcc}.progress-legacy .stat-row span{color:#9a90ae}
+.progress-history-toolbar{display:flex;align-items:center;justify-content:space-between;gap:15px;flex-wrap:wrap;margin:0 0 18px;font-size:12px;color:#8e8da9}
+.progress-pagination{display:flex;align-items:center;justify-content:flex-end;gap:14px;margin-top:20px;color:#9b93b0;font-size:11px}.progress-pagination .button{min-width:75px}
+.progress-day-summary{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:20px 0}.progress-day-summary>div{background:var(--raised);border-radius:12px;padding:15px}.progress-day-summary strong{display:block;color:var(--purple);font-size:18px}.progress-day-summary span{font-size:11px;color:var(--muted)}
+.progress-day-words{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0 20px}.progress-day-words span{padding:5px 10px;border-radius:8px;background:var(--raised);font-size:12px;color:var(--ink)}
+@media(min-width:1000px) and (max-width:1499px){.desktop-mvp.progress-page #content{padding:25px 30px 0}.progress-metric{padding:16px 13px;gap:10px;grid-template-columns:40px minmax(0,1fr) 54px}.progress-metric-icon{width:40px;height:44px}.progress-metric-title{font-size:11px}.progress-metric-value{font-size:22px}.progress-metric-value small{font-size:16px}.progress-metric-note{font-size:10px}.progress-ring{width:54px;height:54px}.progress-metric-emblem{width:51px;height:51px}.progress-panel{padding:18px}.progress-panel-heading h2{font-size:15px}.progress-panel-heading p{font-size:10px}.progress-goal-footer{flex-wrap:wrap}.progress-goal-footer .button{margin-left:auto}.progress-category-row{grid-template-columns:21px 93px minmax(45px,1fr) 61px 33px 12px;gap:7px}.progress-category-row>strong{font-size:11px}.progress-record-table th,.progress-record-table td{padding:11px 8px;font-size:10px}.progress-trend-switch button{padding:5px 8px}.progress-chart-bars{gap:12px}}
+@media(min-width:1000px) and (max-width:1299px){.progress-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}.progress-main-grid,.progress-lower-grid{grid-template-columns:1fr}.progress-goal-footer{flex-wrap:nowrap}.progress-chart{height:175px}.progress-chart-panel .progress-panel-heading{flex-wrap:nowrap}.progress-category-scroll{max-height:none}.progress-category-row{grid-template-columns:24px 120px minmax(60px,1fr) 78px 48px 18px}.progress-record-table th,.progress-record-table td{font-size:12px;padding:12px}.progress-metric-title{font-size:12px}.progress-metric-note{font-size:11px}}
+</style>
 </head>
 <body data-offline-single-file="true">
 <script id="body-layout">window.FrogStartup.layout();</script>
@@ -676,7 +754,11 @@ body.desktop-mvp,html.desktop-mvp body{--bg:#f6f7ff;--panel:#fff;--raised:#f0eff
     <symbol id="arrow" viewBox="0 0 24 24"><path d="M4 12h16m-6-6 6 6-6 6"/></symbol>
     <symbol id="close" viewBox="0 0 24 24"><path d="m5 5 14 14M5 19 19 5"/></symbol>
     <symbol id="check" viewBox="0 0 24 24"><path d="m4 12 5 5L20 6"/></symbol>
-    <symbol id="clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 6v6l4 2"/></symbol>
+    <symbol id="target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></symbol>
+<symbol id="folder" viewBox="0 0 24 24"><path d="M3 7V4h7l2 3h9v13H3zM3 10h18"/></symbol>
+<symbol id="bulb" viewBox="0 0 24 24"><path d="M9 18h6M10 21h4M8 14a6 6 0 1 1 8 0c-1 1-1 2-1 3H9c0-1 0-2-1-3ZM12 1v1M3 5l1 1M20 6l1-1M1 11h1M22 11h1"/></symbol>
+<symbol id="flame" viewBox="0 0 24 24"><path d="M13 2c1 5-3 6-3 9 0 1 1 2 2 2 2 0 3-3 2-5 4 3 6 6 5 9a7 7 0 0 1-14-1c0-4 3-6 3-9 2 1 2 2 2 3 0-3 3-5 3-8Z"/></symbol>
+<symbol id="clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 6v6l4 2"/></symbol>
     <symbol id="menu" viewBox="0 0 24 24"><path d="M3 5h18M3 12h18M3 19h18"/></symbol>
   </defs></svg>
   <aside id="sidebar" class="sidebar">
@@ -935,7 +1017,7 @@ window.LOCAL_AUDIO_BANK={"voice":"Bella · GA 美式英语","voiceLocale":"en-US
 <script>
 (() => {
   'use strict';
-  window.FROG_OFFLINE_CACHE="frog-resume-position-v23";
+  window.FROG_OFFLINE_CACHE="frog-learning-progress-v24";
   let installPrompt=null;
   let offlineReady=false;
   let registrationFailed=false;
@@ -1346,6 +1428,7 @@ window.LOCAL_AUDIO_BANK={"voice":"Bella · GA 美式英语","voiceLocale":"en-US
     $('#global-search').value=query;$('#clear-global-search').hidden=!query;
     $('.page-back').hidden=route==='home';
     window.FrogStartup.layout();renderHomeUserMenu();
+    document.body.classList.toggle('progress-page',desktopMVP()&&route==='records');
     if(route==='words'&&!desktopMVP()){
       const selection=wordSelection();
       if(selection.category&&!state.words.some(w=>w.categoryId===selection.category.id&&(!selection.subcategoryId||w.subcategoryId===selection.subcategoryId))){
@@ -1498,7 +1581,60 @@ window.LOCAL_AUDIO_BANK={"voice":"Bella · GA 美式英语","voiceLocale":"en-US
     const list=(type==='word'?state.words:allSentences()).filter(item=>(type==='word'?state.wordStatus:state.sentenceStatus)[item.id]===status);
     return header(`${type==='word'?'单词':'句子'} · ${statusLabel(status)}`,`共 ${list.length} 项。练习后更新熟悉度。`,`<button class="button" data-route="home">返回首页</button>`)+(list.length?`<div class="review-list">${list.map(s=>reviewRow(s,type)).join('')}</div>`:empty('这个复习本还是空的','学习时的判断和答题结果会自动记录在这里。'));
   }
-  function renderRecords() {
+  let progressTrend='time';
+  const progressDayHasActivity=day=>day.seconds>0||day.words.length>0||day.sentences.length>0||day.checked||day.mistakes>0;
+  const progressDays=()=>Object.entries(state.days).filter(([,day])=>progressDayHasActivity(day)).sort((a,b)=>b[0].localeCompare(a[0]));
+  const progressCheckState=(key,day)=>day.checked?'<span class="progress-check-state checked"><i>✓</i>已打卡</span>':key===dayKey()?'<span class="progress-check-state"><i>·</i>未打卡</span>':'<span class="progress-check-state missed"><i>×</i>未打卡</span>';
+  function progressRing(percent,label) {
+    const value=Math.round(percent),length=2*Math.PI*29;
+    return `<div class="progress-ring" role="progressbar" aria-label="${label}" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${value}"><svg viewBox="0 0 66 66" aria-hidden="true"><circle class="ring-track" cx="33" cy="33" r="29"/><circle class="ring-fill" cx="33" cy="33" r="29" stroke-dasharray="${length}" stroke-dashoffset="${length*(1-value/100)}"/></svg><strong>${value}%</strong></div>`;
+  }
+  function progressPanelHeading(symbol,title,description,action='') {
+    return `<div class="progress-panel-heading"><span class="progress-panel-icon" aria-hidden="true">${icon(symbol)}</span><div><h2>${title}</h2><p>${description}</p></div>${action}</div>`;
+  }
+  function progressRecentDays() {
+    return Array.from({length:7},(_,i)=>{const date=new Date();date.setDate(date.getDate()-6+i);const key=dayKey(date);return {key,day:state.days[key]||{seconds:0,words:[],sentences:[],mistakes:0,checked:false}};});
+  }
+  function renderProgressChart() {
+    const modes={time:['学习时长','分钟'],words:['练习单词','个'],checkin:['打卡情况','']},[label,unit]=modes[progressTrend];
+    const recent=progressRecentDays(),value=day=>progressTrend==='time'?day.seconds/60:progressTrend==='words'?day.words.length:Number(day.checked);
+    const max=Math.max(1,...recent.map(({day})=>value(day)));
+    const raw=max/3,magnitude=Math.pow(10,Math.floor(Math.log10(raw))),step=[1,2,5,10].map(n=>n*magnitude).find(n=>n>=raw)||10*magnitude;
+    const ceiling=progressTrend==='checkin'?1:Math.max(3,step*3),ticks=progressTrend==='checkin'?[1,0]:[ceiling,ceiling*2/3,ceiling/3,0];
+    const number=n=>Number(n.toFixed(1)).toString();
+    const weekSeconds=recent.reduce((n,{day})=>n+day.seconds,0),weekWords=new Set(recent.flatMap(({day})=>day.words)).size;
+    const note=progressTrend==='checkin'?`近 7 天已打卡 ${recent.filter(({day})=>day.checked).length} 天 · 点击柱形可查看当日记录`:`近 7 天学习 ${duration(weekSeconds)}，练习 ${weekWords} 个不同单词`;
+    return progressPanelHeading('chart','近 7 天学习趋势','每天坚持一点点，积累看得见的进步。',`<div class="progress-trend-switch" role="group" aria-label="趋势指标">${Object.entries(modes).map(([id,[name]])=>`<button type="button" data-progress-trend="${id}" aria-pressed="${progressTrend===id}">${name}</button>`).join('')}</div>`)+`<div class="progress-chart" aria-label="近七天${label}"><div class="progress-chart-axis" aria-hidden="true">${ticks.map(n=>`<span>${progressTrend==='checkin'?(n?'已打卡':'未打卡'):number(n)}</span>`).join('')}</div><div class="progress-chart-bars">${recent.map(({key,day})=>{const amount=value(day),display=progressTrend==='checkin'?(day.checked?'已打卡':'未打卡'):number(amount)+(progressTrend==='time'?'分':'个');return `<button type="button" class="progress-chart-bar ${key===dayKey()?'today':''}" data-action="progress-day" data-day="${key}" data-value="${amount}" style="--bar-height:${Math.min(100,amount/ceiling*100)}%" aria-label="${key}，${label} ${display}，查看记录" title="${key} · ${label} ${display}"><span class="progress-chart-bar-value">${display}</span><span class="progress-chart-bar-fill" aria-hidden="true"></span><span class="progress-chart-bar-date">${key.slice(5).replace('-','/')}</span></button>`;}).join('')}</div></div><p class="progress-chart-note">${note}</p>`;
+  }
+  function renderProgressRecordTable(rows,full=false) {
+    if(!rows.length)return '<div class="progress-records-empty">还没有学习记录，从第一个单词开始吧。<br><button class="button" data-route="words">开始分类学习 →</button></div>';
+    return `<table class="progress-record-table"><thead><tr><th scope="col">日期</th><th scope="col">学习时长</th><th scope="col">练习单词</th>${full?'<th scope="col">练习句子</th>':''}<th scope="col">是否打卡</th></tr></thead><tbody>${rows.map(([key,day])=>`<tr data-progress-date="${key}"><td><button type="button" class="progress-record-date" data-action="progress-day" data-day="${key}">${key}${key===dayKey()?'（今天）':''}</button></td><td title="${duration(day.seconds)}">${duration(day.seconds)}</td><td>${day.words.length} 个</td>${full?`<td>${day.sentences.length} 句</td>`:''}<td>${progressCheckState(key,day)}</td></tr>`).join('')}</tbody></table>`;
+  }
+  function renderProgressHistory() {
+    const rows=progressDays(),pages=Math.max(1,Math.ceil(rows.length/20)),requested=Number(location.hash.split('/')[2]);
+    const page=Math.min(pages,Math.max(1,Number.isInteger(requested)?requested:1));
+    return `<section class="progress-dashboard progress-history"><div class="progress-page-heading"><h1>全部学习记录</h1><p>按日期查看每一天的学习情况，点击日期可查看详情。</p></div><section class="progress-panel"><div class="progress-history-toolbar"><span>共 ${rows.length} 个学习日 · 第 ${page} / ${pages} 页</span><div><button class="button small" data-route="records">返回学习进度</button> <button class="button small" data-action="export-progress" ${rows.length?'':'disabled'}>${icon('download')}导出学习记录</button></div></div>${renderProgressRecordTable(rows.slice((page-1)*20,page*20),true)}${pages>1?`<nav class="progress-pagination" aria-label="学习记录分页"><button class="button small" data-route="records/history/${page-1}" ${page===1?'disabled':''}>上一页</button><span>${page} / ${pages}</span><button class="button small" data-route="records/history/${page+1}" ${page===pages?'disabled':''}>下一页</button></nav>`:''}</section><details class="progress-legacy"><summary>历史排行与挑战记录</summary>${renderLegacyRecords()}</details></section>`;
+  }
+  function showProgressDay(key) {
+    if(!/^\d{4}-\d{2}-\d{2}$/.test(key))return;
+    const day=state.days[key]||{seconds:0,words:[],sentences:[],mistakes:0,checked:false};
+    const words=day.words.map(getWord).filter(Boolean),missing=day.words.length-words.length;
+    let dialog=$('#progress-day-dialog');
+    if(!dialog){dialog=document.createElement('dialog');dialog.id='progress-day-dialog';dialog.className='home-detail-dialog';dialog.setAttribute('data-close-on-route','');dialog.setAttribute('aria-labelledby','progress-day-title');document.body.append(dialog);}
+    dialog.innerHTML=`<div class="dialog-heading"><h2 id="progress-day-title">${key} 学习记录</h2><button class="button dialog-back" type="button" data-close>← 返回</button></div><div class="progress-day-summary"><div><strong>${duration(day.seconds)}</strong><span>学习时长</span></div><div><strong>${day.words.length} 个</strong><span>不同单词</span></div><div><strong>${day.sentences.length} 句</strong><span>历史句子练习</span></div></div><p>${progressCheckState(key,day)} <span class="hint"> · 答错记录 ${day.mistakes} 次</span></p><h3>当天练习的单词</h3>${words.length?`<div class="progress-day-words">${words.map(w=>`<span title="${esc(w.meaning)}">${esc(w.word)}</span>`).join('')}</div>`:'<p class="muted">当天暂无可展示的单词记录。</p>'}${missing?`<p class="hint">另有 ${missing} 个历史词条已不在当前仓库中，学习记录仍保留。</p>`:''}<div class="dialog-actions"><button class="button" data-route="records/history">全部学习记录</button><button class="button primary" data-route="words">继续分类学习 →</button></div>`;
+    dialog.showModal();
+  }
+  function renderDesktopRecords() {
+    if(location.hash.split('/')[1]==='history')return renderProgressHistory();
+    const goal=dailyGoalProgress(),streak=streaks(),rows=progressDays();
+    const learned=new Set([...Object.keys(state.wordStatus),...Object.values(state.days).flatMap(day=>day.words)]).size;
+    const categoryIcons=['🌱','🍃','🎓','🏠','🍽️','🦁','🚌','🏃'];
+    const goalRow=(symbol,title,value,total,unit,percent)=>`<div class="progress-goal">${icon(symbol)}<div><div class="progress-goal-heading"><strong>${title}</strong><span>${value} / ${total} ${unit}</span></div><div class="progress-track" role="progressbar" aria-label="${title}目标完成度" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${Math.round(percent)}"><div class="progress-fill" style="width:${percent}%"></div></div></div><span class="progress-goal-percent">${Math.round(percent)}%</span></div>`;
+    const action=goal.ready&&!goal.day.checked?'checkin':'progress-continue',actionLabel=goal.day.checked?'已打卡，继续学习':goal.ready?'完成今日打卡':'继续完成目标';
+    return `<section class="progress-dashboard"><div class="progress-page-heading"><h1>学习进度</h1><p>查看今天、本周与累计学习情况。</p></div><div class="progress-metrics"><section class="progress-metric" aria-label="今日学习时长"><span class="progress-metric-icon" aria-hidden="true">${icon('clock')}</span><div><span class="progress-metric-title">今日学习时长</span><strong class="progress-metric-value" data-progress-today-time title="${duration(goal.day.seconds)}">${Math.floor(goal.day.seconds/60)}<small>分钟</small></strong><span class="progress-metric-note">目标 ${goal.minutes} 分钟</span></div>${progressRing(goal.timePercent,'今日时长完成度')}</section><section class="progress-metric" aria-label="今日练习单词"><span class="progress-metric-icon" aria-hidden="true">${icon('course')}</span><div><span class="progress-metric-title">今日练习单词</span><strong class="progress-metric-value" data-progress-today-words>${goal.day.words.length}<small>个</small></strong><span class="progress-metric-note">目标 ${goal.words} 个</span></div>${progressRing(goal.wordPercent,'今日单词完成度')}</section><section class="progress-metric orange" aria-label="连续打卡"><span class="progress-metric-icon" aria-hidden="true">${icon('plan')}</span><div><span class="progress-metric-title">连续打卡</span><strong class="progress-metric-value" data-progress-streak>${streak.current}<small>天</small></strong><span class="progress-metric-note">${streak.current?'继续加油！':'今天开始，坚持打卡！'}</span></div><span class="progress-metric-emblem" aria-hidden="true">${icon('flame')}</span></section><section class="progress-metric" aria-label="累计已学单词"><span class="progress-metric-icon" aria-hidden="true">${icon('chart')}</span><div><span class="progress-metric-title">累计已学单词</span><strong class="progress-metric-value" data-progress-total-words>${learned}<small>个</small></strong><span class="progress-metric-note" title="历史学习记录与熟悉度中的词条去重计数">不同词条累计计数</span></div><span class="progress-metric-emblem green" aria-hidden="true">${icon('chart')}</span></section></div><div class="progress-main-grid"><section class="progress-panel progress-goals">${progressPanelHeading('target','今日目标完成情况','完成每日学习目标，养成持续学习的好习惯。','<button class="text-button" data-route="plan">调整目标 ›</button>')}${goalRow('clock','学习时长',Math.floor(goal.day.seconds/60),goal.minutes,'分钟',goal.timePercent)}${goalRow('course','单词练习',goal.day.words.length,goal.words,'个',goal.wordPercent)}<div class="progress-goal-footer"><div class="progress-goal-hint">${icon('bulb')}<span>${dailyGoalHint(goal)}</span></div><button class="button primary" data-action="${action}">${actionLabel} ${icon('arrow')}</button></div></section><section class="progress-panel progress-chart-panel" aria-label="近七天学习趋势">${renderProgressChart()}</section></div><div class="progress-lower-grid"><section class="progress-panel progress-categories">${progressPanelHeading('folder','分类学习进度','各分类的已掌握词条，点击可进入对应分类继续学习。')}<div class="progress-category-scroll">${wordCatalog.categories.map((category,i)=>{const items=state.words.filter(w=>w.categoryId===category.id),done=items.filter(w=>state.wordStatus[w.id]==='mastered').length,percent=items.length?Math.round(done/items.length*100):0;return `<button type="button" class="progress-category-row" data-route="words/${category.id}" data-progress-category="${category.id}" aria-label="${esc(category.name)}，已掌握 ${done} / ${items.length} 个词条，进入分类"><span class="progress-category-emoji" aria-hidden="true">${categoryIcons[i]}</span><strong>${esc(category.name)}</strong><div class="progress-track"><div class="progress-fill" style="width:${percent}%"></div></div><span class="progress-category-count">${done} / ${items.length}</span><span class="progress-category-percent">${percent}%</span><span class="progress-category-arrow" aria-hidden="true">›</span></button>`;}).join('')}</div></section><section class="progress-panel progress-records">${progressPanelHeading('note','最近学习记录','查看最近的学习情况，保持学习节奏。','<button class="text-button" data-route="records/history">查看更多 ›</button>')}${renderProgressRecordTable(rows.slice(0,5))}</section></div><details class="progress-legacy"><summary>历史排行与挑战记录</summary>${renderLegacyRecords()}</details></section>`;
+  }
+  function renderRecords() {return desktopMVP()?renderDesktopRecords():renderLegacyRecords();}
+  function renderLegacyRecords() {
     const list=Object.entries(state.days).sort((a,b)=>b[1].seconds-a[1].seconds),s=streaks();
     return header('学习排行榜','本地个人记录：和自己的历史表现比较。')+`<div class="notice">这是单人离线版，展示你自己的学习记录；没有联网用户榜或真人匹配。</div><div class="stat-row"><div><strong>${list.length}</strong><span>有记录的学习日</span></div><div><strong>${s.highest}</strong><span>最高连续打卡</span></div><div><strong>${Math.max(0,...state.challenges.map(c=>c.score))}</strong><span>挑战最高分</span></div></div><h2 class="section-title">学习日排行 · 按时长</h2>${list.length?`<div class="panel padded"><table class="data-table"><thead><tr><th>排名</th><th>日期</th><th>学习时长</th><th>句子 / 单词</th><th>打卡</th></tr></thead><tbody>${list.slice(0,50).map(([key,d],i)=>`<tr><td>${i<3?['🥇','🥈','🥉'][i]:i+1}</td><td>${key}</td><td>${duration(d.seconds)}</td><td>${d.sentences.length} / ${d.words.length}</td><td>${d.checked?'✓ 已完成':'—'}</td></tr>`).join('')}</tbody></table></div>`:empty('记录即将开始','完成第一轮练习，你的学习记录就会出现在这里。')}<h2 class="section-title">最近挑战</h2>${state.challenges.length?`<div class="panel padded"><table class="data-table"><thead><tr><th>时间</th><th>答对 / 已答</th><th>得分</th></tr></thead><tbody>${[...state.challenges].reverse().slice(0,10).map(c=>`<tr><td>${dateLabel(c.createdAt)}</td><td>${c.correct} / ${c.answered}</td><td>${c.score}</td></tr>`).join('')}</tbody></table></div>`:'<p class="muted">还没有挑战记录。</p>'}`;
   }
@@ -2008,7 +2144,7 @@ ollama pull gemma3:1b</pre><p class="hint">这个设置允许本地网页连接�
     if(exportAudioBank)copy.querySelector('script[data-embedded-audio]').textContent='window.LOCAL_AUDIO_BANK='+JSON.stringify(exportAudioBank).replace(/</g,'\\u003c')+';';
     // Start from clean application markup; add a validated snapshot separately.
     ['#content','#navigation','#lesson-content','#lesson-course','#toast','#confirm-text'].forEach(selector=>copy.querySelector(selector)?.replaceChildren());
-    ['#save-app-dialog','#word-dialog','#practice-answer-dialog','#resume-details-dialog','#checkin-rules-dialog','.mvp-practice-nav','#home-art-snapshot','#local-learning-snapshot','script[data-download-payload]'].forEach(selector=>copy.querySelectorAll(selector).forEach(el=>el.remove()));
+    ['#save-app-dialog','#word-dialog','#practice-answer-dialog','#resume-details-dialog','#checkin-rules-dialog','#progress-day-dialog','.mvp-practice-nav','#home-art-snapshot','#local-learning-snapshot','script[data-download-payload]'].forEach(selector=>copy.querySelectorAll(selector).forEach(el=>el.remove()));
     copy.querySelector('body')?.removeAttribute('data-storage-key');
     copy.querySelector('#content')?.removeAttribute('data-app-ready');
     copy.querySelector('#question-audio')?.removeAttribute('src');
@@ -2124,6 +2260,10 @@ ollama pull gemma3:1b</pre><p class="hint">这个设置允许本地网页连接�
       if(button.dataset.route){button.closest('dialog[data-close-on-route]')?.close();navigate(button.dataset.route);return;}
       if(button.dataset.period){homePeriod=button.dataset.period;render();return;}
       if(button.dataset.calendar){calendarDate=new Date(calendarDate.getFullYear(),calendarDate.getMonth()+Number(button.dataset.calendar),1);render();return;}
+      if(button.dataset.progressTrend&&['time','words','checkin'].includes(button.dataset.progressTrend)){
+        progressTrend=button.dataset.progressTrend;$('.progress-chart-panel').innerHTML=renderProgressChart();
+        $(`[data-progress-trend="${progressTrend}"]`).focus({preventScroll:true});return;
+      }
       if(button.dataset.filter){filter=button.dataset.filter;render();return;}
       if(button.dataset.wordFilter){wordFilter=button.dataset.wordFilter;render();return;}
       if(button.dataset.phoneticFilter){phoneticFilter=button.dataset.phoneticFilter;render();return;}
@@ -2144,6 +2284,12 @@ ollama pull gemma3:1b</pre><p class="hint">这个设置允许本地网页连接�
       }
       const id=button.dataset.id;
       switch(button.dataset.action){
+        case 'progress-continue':{const resume=desktopResume();if(resume.items.length)openLesson('word',resume.items,resume.index);else navigate('words');break;}
+        case 'progress-day':showProgressDay(button.dataset.day||'');break;
+        case 'export-progress':{
+          const rows=[['日期','学习时长（秒）','练习单词（不同词条）','练习句子','是否打卡'],...progressDays().map(([key,day])=>[key,Math.floor(day.seconds),day.words.length,day.sentences.length,day.checked?'已打卡':'未打卡'])];
+          download(`学习进度-${dayKey()}.csv`,'\uFEFF'+rows.map(row=>row.join(',')).join('\r\n'),'text/csv;charset=utf-8');break;
+        }
         case 'resume-desktop':{button.closest('dialog')?.close();const resume=desktopResume();openLesson('word',resume.items,resume.index);break;}
         case 'resume-word':{button.closest('dialog')?.close();const resume=desktopResume(),index=resume.items.findIndex(w=>w.id===id);if(index>=0)openLesson('word',resume.items,index);break;}
         case 'practice-navigate':resetPracticeMedia();$('#lesson-dialog').close();navigate(button.dataset.destination);break;

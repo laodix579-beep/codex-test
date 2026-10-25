@@ -39,6 +39,12 @@ with sync_playwright() as p:
    assert stored['practiceResume']['answered'] is True
    assert exported.locator('.startup-screen').is_hidden()
    isolated.set_offline(True)
+   exported.goto(f'http://127.0.0.1:{server.server_port}/#records')
+   exported.locator('.progress-dashboard').wait_for()
+   assert exported.locator('[data-progress-total-words]').inner_text()=='22个'
+   exported.locator('[data-progress-trend="words"]').click()
+   assert exported.locator('.progress-chart-bar').count()==7
+   exported.goto(f'http://127.0.0.1:{server.server_port}/#home')
    exported.locator('.home-resume-card [data-action="resume-desktop"]').click()
    exported.locator('.translation-blank').first.wait_for()
    assert '4/22' in exported.locator('#lesson-course').inner_text()

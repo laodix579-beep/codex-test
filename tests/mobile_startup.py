@@ -51,6 +51,11 @@ with sync_playwright() as p:
         assert page.locator('#content').get_attribute('data-app-ready')=='true'
         assert not errors,errors
         assert page.evaluate('document.documentElement.scrollWidth<=innerWidth')
+        page.goto(BASE+'#records')
+        page.get_by_role('heading',name='学习排行榜',exact=True).wait_for()
+        assert page.locator('#content h1').inner_text()=='学习排行榜'
+        assert page.locator('.progress-dashboard').count()==0
+        assert '已完成' in page.locator('#content').inner_text() or '—' in page.locator('#content').inner_text()
         page.screenshot(path=f'/tmp/frog-startup-{name.split()[0].lower()}.png')
         print(f'PASS {name} profile without modern APIs: home, notes, reload, category dialog, spelling, audio and preserved progress',flush=True)
         context.close()

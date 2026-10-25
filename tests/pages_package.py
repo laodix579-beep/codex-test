@@ -71,6 +71,18 @@ with TemporaryDirectory(prefix='mvp-pages-') as directory:
      page.locator('.home-resume-card [data-action="resume-desktop"]').click()
      assert '4/22' in page.locator('#lesson-course').inner_text()
      page.locator('.practice-back').click();page.wait_for_function('!document.querySelector("#lesson-dialog").open')
+     page.goto(base+'#records');page.reload()
+     page.locator('.progress-dashboard').wait_for()
+     assert page.locator('.progress-metric').count()==4
+     assert page.locator('[data-progress-category="C01"] .progress-category-count').inner_text()=='22 / 136'
+     page.locator('[data-progress-trend="words"]').click()
+     assert page.locator('.progress-chart-bar').count()==7
+     page.locator('.progress-chart-bar.today').click()
+     assert page.locator('#progress-day-dialog').is_visible()
+     page.locator('#progress-day-dialog [data-close]').click()
+     page.locator('.progress-records [data-route="records/history"]').click()
+     page.locator('.progress-history').wait_for()
+     assert page.locator('.progress-record-table tbody tr').count()==1
     page.goto(base+'小蛙自习室.html#words');page.wait_for_selector('.vocab-category')
     assert page.locator('.vocab-category').count()==(1 if mobile else 8)
     assert not errors,errors

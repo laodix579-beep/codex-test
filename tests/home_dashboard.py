@@ -33,9 +33,9 @@ with sync_playwright() as p:
   if i==2:
    page.locator('.mvp-subcategory').first.click();page.get_by_role('heading',name='这个分类正在准备中').wait_for()
    assert page.locator('[data-action="add-word"]').first.is_enabled()
- home();page.locator('.home-section-heading [data-route="words"]').click();assert page.locator('.mvp-category-card').count()==8
+ home();page.locator('.home-section-heading [data-route="words"]').click();expect(page.locator('.mvp-category-card')).to_have_count(8)
  home();page.locator('#global-search').fill('早上好');page.locator('#global-search').press('Enter')
- page.wait_for_function('location.hash.startsWith("#search/")');assert page.locator('.search-results .word-card').count()>0
+ page.wait_for_function('location.hash.startsWith("#search/")');page.locator('.search-results .word-card').first.wait_for()
  home();page.locator('.home-category-tile[data-category-id="C01"]').click();page.locator('.mvp-subcategory').first.wait_for()
  assert page.locator('.mvp-subcategory').count()==4
  print('PASS: all eight actual category entries, empty states, view-all and search-to-category navigation',flush=True)
@@ -98,7 +98,7 @@ with sync_playwright() as p:
  assert current_day()['checked']
  page.locator('.mvp-old-dashboard>summary').click();assert page.locator('.calendar-day.today.checked').is_visible()
  page.locator('.mvp-old-dashboard>summary').click()
- menu();page.locator('#home-user-menu [data-route="records"]').click();expect(page.locator('#content')).to_contain_text('✓ 已完成');home()
+ menu();page.locator('#home-user-menu [data-route="records"]').click();expect(page.locator('.progress-records')).to_contain_text('已打卡');home()
  assert saved()['days'][history['key']]==history['day']
  print('PASS: dual-goal guard, real progress, missing-time/missing-word cases, persistent check-in, goal changes and calendar/history',flush=True)
  for width in (1024,1280,1440,1824,1920):
