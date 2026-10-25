@@ -1,8 +1,8 @@
 // Public static resources only; personal study data stays in localStorage.
 importScripts('./audio-files.js');
-const CACHE="frog-word-scenes-v25";
+const CACHE="frog-profile-pose-v26";
 const ROOT=new URL('./',self.location.href);
-const FILES=['index.html','assets/home-hero.png','data/scene-catalog.json',...Array.from({length:17},(_,i)=>`assets/scenes/sheet-${String(i+1).padStart(2,'0')}.png`),'audio-files.js','audio-manifest.json','data/pronunciation-test-words.json','manifest.webmanifest','icon-192.png','icon-512.png','apple-touch-icon.png',...self.FROG_AUDIO_FILES];
+const FILES=['index.html','assets/home-hero.png','assets/scenes/see-you-tomorrow.png','data/scene-catalog.json',...Array.from({length:17},(_,i)=>`assets/scenes/sheet-${String(i+1).padStart(2,'0')}.png`),'audio-files.js','audio-manifest.json','data/pronunciation-test-words.json','manifest.webmanifest','icon-192.png','icon-512.png','apple-touch-icon.png',...self.FROG_AUDIO_FILES];
 self.addEventListener('install',event=>event.waitUntil((async()=>{
   const cache=await caches.open(CACHE);let next=0;
   await Promise.all(Array.from({length:6},async()=>{

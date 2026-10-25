@@ -20,7 +20,7 @@ with TemporaryDirectory(prefix='mvp-pages-') as directory:
   assert archive.read('index.html')==archive.read('小蛙自习室.html')==(ROOT/'index.html').read_bytes()
   assert archive.read('assets/home-hero.png')==(ROOT/'assets/home-hero.png').read_bytes()
   scenes=json.loads(archive.read('data/scene-catalog.json'))
-  assert len(scenes['scenes'])==136 and len(scenes['sheets'])==17
+  assert len(scenes['scenes'])==136 and len(scenes['sheets'])==18
   for sheet in scenes['sheets']:assert hashlib.sha256(archive.read(sheet['path'])).hexdigest()==sheet['sha256']
   audit=json.loads(archive.read('reports/source-audio-sha256.json'))
   assert len(audit)==610
@@ -42,6 +42,11 @@ with TemporaryDirectory(prefix='mvp-pages-') as directory:
     page.goto(base+'#settings')
     page.wait_for_function('document.querySelector("[data-mobile-status]").textContent.startsWith("已保存离线内容")',timeout=90000)
     context.set_offline(True)
+    page.goto(base+'#profile');page.reload();page.locator('#profile-form').wait_for()
+    page.locator('#profile-name').fill('离线学习者');page.locator('#profile-grade').fill('三年级')
+    page.locator('#profile-form button[type="submit"]').click()
+    page.wait_for_function('location.hash==="#home"')
+    assert page.evaluate('JSON.parse(localStorage.getItem(document.body.dataset.storageKey)).settings.grade')=='三年级'
     if not mobile:
      page.goto(base+'#home');page.reload()
      page.wait_for_function('document.querySelector(".home-hero-illustration img")?.naturalWidth>0')
@@ -77,6 +82,10 @@ with TemporaryDirectory(prefix='mvp-pages-') as directory:
      assert '4/22' in page.locator('#lesson-course').inner_text()
      page.wait_for_function('document.querySelector(".translation-picture img")?.naturalWidth>0')
      assert page.locator('.translation-picture').get_attribute('data-scene-id')=='C01-S01-004'
+     page.locator('.mvp-practice-info .practice-options>summary').click();page.locator('#practice-jump').select_option('8')
+     page.wait_for_function('document.querySelector(".translation-picture img")?.naturalWidth>0')
+     assert page.locator('.translation-picture').get_attribute('data-scene-id')=='C01-S01-009'
+     assert page.locator('.translation-picture img').get_attribute('src').endswith('/assets/scenes/see-you-tomorrow.png')
      page.locator('.practice-back').click();page.wait_for_function('!document.querySelector("#lesson-dialog").open')
      page.goto(base+'#records');page.reload()
      page.locator('.progress-dashboard').wait_for()

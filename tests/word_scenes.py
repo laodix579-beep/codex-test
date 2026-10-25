@@ -11,12 +11,12 @@ groups=json.loads((ROOT/'data/basic-vocabulary.json').read_text())['subcategorie
 scenes={scene['id']:scene for scene in catalog['scenes']}
 assert len(scenes)==136
 assert len({(s['sheet'],s['column'],s['row']) for s in scenes.values()})==136
-assert len(catalog['sheets'])==17
+assert len(catalog['sheets'])==18
 for sheet in catalog['sheets']:
     path=ROOT/sheet['path']
     with Image.open(path) as im:assert im.size==(sheet['width'],sheet['height'])
     assert hashlib.sha256(path.read_bytes()).hexdigest()==sheet['sha256']
-print('PASS: 136 distinct scene regions and all 17 original atlas dimensions/hashes',flush=True)
+print('PASS: 136 distinct scene regions and all 18 image dimensions/hashes',flush=True)
 
 with sync_playwright() as p:
     browser=p.chromium.launch(executable_path='/usr/bin/chromium',headless=True,args=['--no-sandbox'])
@@ -34,7 +34,10 @@ with sync_playwright() as p:
             assert picture.get_attribute('aria-label')==word['example_zh']
             page.wait_for_function('document.querySelector(".translation-picture img")?.naturalWidth>0')
             assert scene['sheet'] in picture.locator('img').get_attribute('src')
-            assert picture.locator('img').get_attribute('style')==f'transform:translate(-{scene["column"]*25}%,-{scene["row"]*50}%)'
+            sheet=next(s for s in catalog['sheets'] if s['path']==scene['sheet'])
+            style=picture.locator('img').get_attribute('style')
+            assert style.endswith(f'transform:translate(-{scene["column"]*100/sheet["columns"]:g}%,-{scene["row"]*100/sheet["rows"]:g}%)')
+            if sheet['columns']==1:assert style.startswith('width:100%;height:100%;')
             if scene.get('visual'):
                 visual=scene['visual'];overlay=picture.locator('.scene-quantity')
                 assert overlay.get_attribute('data-quantity-type')==visual['type']

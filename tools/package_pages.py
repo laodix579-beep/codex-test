@@ -14,7 +14,7 @@ for row in manifest['clips']:
  path=ROOT/row['path'];assert hashlib.sha256(path.read_bytes()).hexdigest()==audit[row['path']]['sha256']
 assert len(list((ROOT/'audio').rglob('*.mp3')))==610
 scenes=json.loads((ROOT/'data/scene-catalog.json').read_text())
-assert len(scenes['scenes'])==136 and len(scenes['sheets'])==17
+assert len(scenes['scenes'])==136 and len(scenes['sheets'])==18
 for sheet in scenes['sheets']:
  assert hashlib.sha256((ROOT/sheet['path']).read_bytes()).hexdigest()==sheet['sha256']
 (ROOT/'小蛙自习室.html').write_bytes((ROOT/'index.html').read_bytes())

@@ -35,6 +35,11 @@ with sync_playwright() as p:
         page.locator('.translation-blank').first.wait_for()
         page.wait_for_function('document.querySelector(".translation-picture img")?.naturalWidth>0')
         expect(page.locator('.translation-picture')).to_have_attribute('data-scene-id',scene)
+        if sub=='C01-S01':
+            for i in range(8):page.locator('.mobile-controls [data-action="next-item"]').click()
+            page.wait_for_function('document.querySelector(".translation-picture img")?.naturalWidth>0')
+            expect(page.locator('.translation-picture')).to_have_attribute('data-scene-id','C01-S01-009')
+            assert page.locator('.translation-picture img').get_attribute('src').endswith('/assets/scenes/see-you-tomorrow.png')
         if sub=='C01-S03':
             page.locator('.translation-blank').first.fill('red')
             page.locator('.mobile-controls [data-action="translation-submit"]').click()

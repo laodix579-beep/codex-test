@@ -1,5 +1,7 @@
 """The home user-menu export carries its new illustration and original MP3s."""
 import threading
+import base64
+import hashlib
 from functools import partial
 from http.server import SimpleHTTPRequestHandler,ThreadingHTTPServer
 from pathlib import Path
@@ -15,7 +17,7 @@ with sync_playwright() as p:
  context.add_init_script("Object.defineProperty(window,'speechSynthesis',{get(){throw new Error('TTS forbidden')}})")
  page=context.new_page();errors=[];page.on('pageerror',lambda e:errors.append(str(e)))
  page.goto('http://127.0.0.1:8000/#home')
- page.evaluate('''()=>{const key=document.body.dataset.storageKey,s=JSON.parse(localStorage.getItem(key)),ids=FROG_WORD_CATALOG.words.filter(w=>w.subcategoryId==='C01-S01').map(w=>w.id);ids.forEach(id=>s.wordStatus[id]='mastered');s.practiceResume={ids,wordId:ids[2],answered:true,finished:false};s.settings.userName='导出学习者';s.notes=[{id:'export-home-note',title:'原有手账',body:'需要保留的记录',createdAt:'2026-10-01T00:00:00Z',updatedAt:'2026-10-01T00:00:00Z'}];localStorage.setItem(key,JSON.stringify(s));}''')
+ page.evaluate('''()=>{const key=document.body.dataset.storageKey,s=JSON.parse(localStorage.getItem(key)),ids=FROG_WORD_CATALOG.words.filter(w=>w.subcategoryId==='C01-S01').map(w=>w.id);ids.forEach(id=>s.wordStatus[id]='mastered');s.practiceResume={ids,wordId:ids[2],answered:true,finished:false};s.settings.userName='导出学习者';s.settings.grade='四年级';s.notes=[{id:'export-home-note',title:'原有手账',body:'需要保留的记录',createdAt:'2026-10-01T00:00:00Z',updatedAt:'2026-10-01T00:00:00Z'}];localStorage.setItem(key,JSON.stringify(s));}''')
  page.reload();page.locator('#home-user-menu>summary').click()
  page.locator('#home-user-menu [data-action="save-app"]').click()
  page.locator('#save-app-dialog [data-action="download-app-file"]').wait_for(timeout=90000)
@@ -38,7 +40,8 @@ with sync_playwright() as p:
    stored=exported.evaluate('JSON.parse(localStorage.getItem(document.body.dataset.storageKey))')
    assert stored['wordStatus']['C01-S01-001']=='mastered' and stored['notes'][0]['body']=='需要保留的记录'
    assert stored['practiceResume']['answered'] is True
-   assert exported.evaluate('Object.keys(FROG_SCENE_IMAGES).length')==17
+   assert stored['settings']['grade']=='四年级'
+   assert exported.evaluate('Object.keys(FROG_SCENE_IMAGES).length')==18
    assert exported.locator('.startup-screen').is_hidden()
    isolated.set_offline(True)
    exported.goto(f'http://127.0.0.1:{server.server_port}/#records')
@@ -56,6 +59,13 @@ with sync_playwright() as p:
    for field,value in zip(exported.locator('.translation-blank').all(),['good','afternoon']):field.fill(value)
    exported.locator('#translation-submit').click()
    exported.wait_for_function('document.querySelector("#question-audio").dataset.sourceText==="good afternoon"&&document.querySelector("#question-audio").currentTime>0')
+   exported.locator('.mvp-practice-info .practice-options>summary').click()
+   exported.locator('#practice-jump').select_option('8')
+   exported.wait_for_function('document.querySelector(".translation-picture img")?.naturalWidth>0')
+   assert exported.locator('.translation-picture').get_attribute('data-scene-id')=='C01-S01-009'
+   art=exported.locator('.translation-picture img').get_attribute('src')
+   assert art.startswith('data:image/png;base64,')
+   assert hashlib.sha256(base64.b64decode(art.split(',',1)[1])).digest()==hashlib.sha256((Path(__file__).resolve().parents[1]/'assets/scenes/see-you-tomorrow.png').read_bytes()).digest()
    assert not errors,errors
    print('PASS: home menu exports one HTML with the new hero, saved name/notes/progress and MP3 playback without original assets',flush=True)
   finally:

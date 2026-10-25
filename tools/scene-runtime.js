@@ -83,7 +83,8 @@
     if(!scene)return '<div class="scene-unavailable"><span aria-hidden="true">📖</span><small>暂无对应场景图</small></div>';
     const sheet=sheets.get(scene.sheet),src=window.FROG_SCENE_IMAGES?.[scene.sheet]||new URL(scene.sheet,document.baseURI).href;
     const ratio=(sheet.width/sheet.columns)/(sheet.height/sheet.rows);
-    return `<div class="scene-art-stage" data-scene-id="${scene.id}"><div class="scene-tile" style="--scene-aspect:${ratio}"><img src="${escape(src)}" alt="" draggable="false" decoding="async" data-scene-sheet="${escape(scene.sheet)}" style="transform:translate(-${scene.column*25}%,-${scene.row*50}%)"/>${scene.visual?quantity(scene.visual):''}</div></div>`;
+    const size=sheet.columns===4&&sheet.rows===2?'':`width:${sheet.columns*100}%;height:${sheet.rows*100}%;`;
+    return `<div class="scene-art-stage" data-scene-id="${scene.id}"><div class="scene-tile" style="--scene-aspect:${ratio}"><img src="${escape(src)}" alt="" draggable="false" decoding="async" data-scene-sheet="${escape(scene.sheet)}" style="${size}transform:translate(-${scene.column*100/sheet.columns}%,-${scene.row*100/sheet.rows}%)"/>${scene.visual?quantity(scene.visual):''}</div></div>`;
   }
   function picture(item) {
     const scene=match(item);

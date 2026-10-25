@@ -8,21 +8,21 @@
   },
   {
     "profile": "desktop-1",
-    "framesChecked": 14,
+    "framesChecked": 13,
     "appHiddenUntilReady": true,
     "oldDesktopShellNeverPainted": true,
     "failureVisible": false
   },
   {
     "profile": "phone-0",
-    "framesChecked": 13,
+    "framesChecked": 14,
     "appHiddenUntilReady": true,
     "oldDesktopShellNeverPainted": null,
     "failureVisible": false
   },
   {
     "profile": "failure-0",
-    "framesChecked": 15,
+    "framesChecked": 18,
     "appHiddenUntilReady": true,
     "oldDesktopShellNeverPainted": true,
     "failureVisible": true

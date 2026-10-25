@@ -1,5 +1,5 @@
 {
-  "version": "scenes-v25",
+  "version": "scenes-v26",
   "characterReference": "assets/home-hero.png",
   "sheets": [
     {
@@ -154,6 +154,15 @@
       "width": 1774,
       "height": 887,
       "sha256": "8068dc8d90c1ac6445e38e97bc47abbea406955602500c9e280230f8ac668d9e"
+    },
+    {
+      "path": "assets/scenes/see-you-tomorrow.png",
+      "columns": 1,
+      "rows": 1,
+      "prompt": "Create ONE single square 3D cartoon storybook illustration to replace ONLY the top-left panel of the second reference sheet (the scene for 'See you tomorrow.'). Use the exact homepage child character identities in reference 1: chestnut tousled hair, big brown eyes, boy in blue hoodie/white T-shirt/backpack; girl in pink hoodie, wavy chestnut hair. Keep warm dusk street / school gate, sunset and gentle lantern light. Main boy stands center-right facing diagonally toward a girl in the near left foreground. CRITICAL ANATOMICAL CORRECTION: show a natural FRONT THREE-QUARTER view of the boy, NOT a back view with head twisted backwards. His chest, hips, knees, feet and face all point consistently diagonally toward the girl at frame left; shoulders and neck have a comfortable natural alignment. The boy waves with HIS ANATOMICAL RIGHT HAND, clearly the near-side arm on the VIEWER'S LEFT side of the boy, raised beside his RIGHT cheek. That right upper arm connects normally to his right shoulder, elbow comfortably bent, palm toward the girl, exactly five natural fingers. His ANATOMICAL LEFT ARM is the far-side arm, relaxed behind the left side of his torso/backpack and NATURALLY OCCLUDED, so no visible left hand or odd crossed arm. Backpack straps lie naturally on his shoulders. Girl is on the left foreground seen from back/three-quarter, happily saying goodbye. No contortion, no backwards head, no shoulder reversal, no duplicate limbs. Keep the important action centered so the boy's face, right shoulder, elbow and hand remain fully visible. No graduation caps, NO captions, NO letters, NO text, NO watermark, no border, no atlas/grid. Beautiful polished animation-quality friendly warm lighting matching the original characters. Make this a clear anatomically plausible goodbye scene.",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "2687c0b8ad243269a8ebe3382296378d14673ded5a1d8654a1025e336980bb50"
     }
   ],
   "scenes": [
@@ -250,11 +259,11 @@
       "word": "see you",
       "example": "See you tomorrow.",
       "chinese": "明天见。",
-      "sheet": "assets/scenes/sheet-02.png",
+      "sheet": "assets/scenes/see-you-tomorrow.png",
       "column": 0,
       "row": 0,
       "kind": "scene",
-      "description": "Illustrate the meaning of this sentence (do NOT print the sentence): See you tomorrow."
+      "description": "Corrected natural front three-quarter body angle; boy waves with anatomical right hand, left arm naturally occluded. Create ONE single square 3D cartoon storybook illustration to replace ONLY the top-left panel of the second reference sheet (the scene for 'See you tomorrow.'). Use the exact homepage child character identities in reference 1: chestnut tousled hair, big brown eyes, boy in blue hoodie/white T-shirt/backpack; girl in pink hoodie, wavy chestnut hair. Keep warm dusk street / school gate, sunset and gentle lantern light. Main boy stands center-right facing diagonally toward a girl in the near left foreground. CRITICAL ANATOMICAL CORRECTION: show a natural FRONT THREE-QUARTER view of the boy, NOT a back view with head twisted backwards. His chest, hips, knees, feet and face all point consistently diagonally toward the girl at frame left; shoulders and neck have a comfortable natural alignment. The boy waves with HIS ANATOMICAL RIGHT HAND, clearly the near-side arm on the VIEWER'S LEFT side of the boy, raised beside his RIGHT cheek. That right upper arm connects normally to his right shoulder, elbow comfortably bent, palm toward the girl, exactly five natural fingers. His ANATOMICAL LEFT ARM is the far-side arm, relaxed behind the left side of his torso/backpack and NATURALLY OCCLUDED, so no visible left hand or odd crossed arm. Backpack straps lie naturally on his shoulders. Girl is on the left foreground seen from back/three-quarter, happily saying goodbye. No contortion, no backwards head, no shoulder reversal, no duplicate limbs. Keep the important action centered so the boy's face, right shoulder, elbow and hand remain fully visible. No graduation caps, NO captions, NO letters, NO text, NO watermark, no border, no atlas/grid. Beautiful polished animation-quality friendly warm lighting matching the original characters. Make this a clear anatomically plausible goodbye scene."
     },
     {
       "id": "C01-S01-010",

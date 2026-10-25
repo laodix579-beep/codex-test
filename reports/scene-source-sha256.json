@@ -66,5 +66,9 @@
   "assets/scenes/sheet-17.png": {
     "source": "exec-fd9d7c21-1861-4961-bb76-aacb73d2ebbb.png",
     "sha256": "8068dc8d90c1ac6445e38e97bc47abbea406955602500c9e280230f8ac668d9e"
+  },
+  "assets/scenes/see-you-tomorrow.png": {
+    "source": "exec-85897d98-bf78-4afc-bef2-fe32f0681c28.png",
+    "sha256": "2687c0b8ad243269a8ebe3382296378d14673ded5a1d8654a1025e336980bb50"
   }
 }
