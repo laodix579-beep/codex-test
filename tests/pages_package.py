@@ -47,7 +47,11 @@ with TemporaryDirectory(prefix='mvp-pages-') as directory:
      page.keyboard.down('a');page.keyboard.down('a');page.keyboard.down('a');page.keyboard.up('a')
      assert page.locator('.translation-blank').input_value()==''
      assert page.locator('#practice-answer-dialog').evaluate('e=>!e.open')
-    page.locator('.translation-blank').fill('hello')
+    if not mobile:
+     page.locator('.translation-blank').fill('he');page.locator('.translation-picture').click();page.keyboard.type('llo')
+     assert page.locator('.translation-blank').input_value()=='hello'
+     assert page.locator('.translation-blank').evaluate('e=>document.activeElement===e')
+    else:page.locator('.translation-blank').fill('hello')
     page.locator('.mobile-controls [data-action="translation-submit"]' if mobile else '#translation-submit').click()
     page.wait_for_function('document.querySelector("#question-audio").dataset.sourceText==="hello"&&document.querySelector("#question-audio").currentTime>0')
     assert '/codex-test/audio/' in page.locator('#question-audio').get_attribute('src')

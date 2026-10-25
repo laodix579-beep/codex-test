@@ -782,7 +782,7 @@ window.LOCAL_AUDIO_BANK={"voice":"Bella · GA 美式英语","voiceLocale":"en-US
 <script>
 (() => {
   'use strict';
-  window.FROG_OFFLINE_CACHE="frog-home-progress-v19";
+  window.FROG_OFFLINE_CACHE="frog-practice-focus-v20";
   let installPrompt=null;
   let offlineReady=false;
   let registrationFailed=false;
@@ -2249,6 +2249,54 @@ ollama pull gemma3:1b</pre><p class="hint">这个设置允许本地网页连接�
     if(event.key!==STORAGE_KEY||!event.newValue)return;
     try{state=validateState(JSON.parse(event.newValue));storageAvailable=true;render();toast('已同步另一个页面保存的数据');}catch{toast('另一个页面写入了无法识别的数据，请导出备份后检查。',true);}
   });
+  // Mouse clicks on the lesson's non-editing areas keep the current answer
+  // ready for real keyboard input, without interfering with other controls.
+  let desktopAnswerCaret=null,desktopTabTraversal=false,desktopAudioFocusTimer=null;
+  function desktopAnswerWaiting() {
+    if(!desktopMVP()||!lesson||lesson.mode!=='translate'||lesson.paused||lesson.finished||!$('#lesson-dialog').open||$('#practice-answer-dialog')?.open)return false;
+    const round=translationRound();return !round.solved&&!round.marked;
+  }
+  function rememberDesktopAnswerCaret() {
+    const field=document.activeElement;
+    if(!desktopAnswerWaiting()||!field?.matches('.translation-blank'))return;
+    desktopAnswerCaret={owner:lesson,index:lesson.index,token:Number(field.dataset.tokenIndex),start:field.selectionStart,end:field.selectionEnd,direction:field.selectionDirection};
+  }
+  document.addEventListener('pointerdown',rememberDesktopAnswerCaret,true);
+  ['focusin','selectionchange','input','keyup'].forEach(type=>document.addEventListener(type,rememberDesktopAnswerCaret));
+  document.addEventListener('click',event=>{
+    if(event.detail===0||event.button!==0||!desktopAnswerWaiting()||!event.target.closest('#lesson-dialog'))return;
+    const control=event.target.closest('button,a,input,textarea,select,label,summary,[contenteditable],[role="button"],[tabindex]');
+    if(control&&control.id!=='lesson-dialog'&&!control.matches('button[data-action="speak-lesson"],button[data-action="test-key-sound"]'))return;
+    restoreDesktopAnswerCaret(desktopAnswerCaret);
+  });
+  function restoreDesktopAnswerCaret(caret) {
+    if(!desktopAnswerWaiting()||caret?.owner!==lesson||caret.index!==lesson.index)return;
+    const field=$(`#translation-word-${caret.token}`);
+    if(!field)return;
+    field.focus({preventScroll:true});field.setSelectionRange(caret.start,caret.end,caret.direction);
+  }
+  document.addEventListener('keydown',event=>{
+    clearTimeout(desktopAudioFocusTimer);
+    desktopTabTraversal=event.key==='Tab';
+    if(desktopTabTraversal)setTimeout(()=>{desktopTabTraversal=false;},0);
+  },true);
+  // Chromium's native media controls swallow mouse events, but expose focus.
+  // Return after a mouse action; keep deliberate Tab navigation inside the player.
+  document.addEventListener('focusin',event=>{
+    if(event.target.id!=='question-audio'||desktopTabTraversal||!desktopAnswerWaiting())return;
+    const audio=event.target,caret=desktopAnswerCaret;
+    const before={paused:audio.paused,time:audio.currentTime,volume:audio.volume,muted:audio.muted};
+    clearTimeout(desktopAudioFocusTimer);
+    desktopAudioFocusTimer=setTimeout(()=>{
+      const played=audio.paused!==before.paused&&!audio.ended;
+      const sought=audio.seeking||Math.abs(audio.currentTime-before.time)>.25;
+      const volumeChanged=audio.volume!==before.volume||audio.muted!==before.muted;
+      // An overflow menu or deliberate focus change must stay usable.
+      if(document.activeElement===audio&&(played||sought||volumeChanged))restoreDesktopAnswerCaret(caret);
+    },0);
+  });
+  $('#lesson-dialog').addEventListener('close',()=>{if(!$('#lesson-dialog').open){desktopAnswerCaret=null;clearTimeout(desktopAudioFocusTimer);}});
+
   try{render();}catch(error){content.textContent=`页面打开失败：${error.message}。请重新打开网页；已有学习记录请先保留备份。`;}
 })();
 
