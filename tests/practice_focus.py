@@ -24,7 +24,7 @@ with sync_playwright() as p:
   assert '3/22' in page.locator('#lesson-course').inner_text()
   assert page.evaluate('JSON.parse(localStorage.getItem(document.body.dataset.storageKey)).wordStatus')=={}
  # Non-interactive content across the full practice window restores the same blank.
- for target in ['.translation-picture img','.translation-chinese','.word-context-meaning','.given-word','.mvp-practice-info h2','.mvp-session-label','.mvp-stat.time','.mvp-practice-nav .privacy-note','.mvp-question-heading','#practice-speech-status']:
+ for target in ['.translation-picture .scene-tile','.translation-chinese','.word-context-meaning','.given-word','.mvp-practice-info h2','.mvp-session-label','.mvp-stat.time','.mvp-practice-nav .privacy-note','.mvp-question-heading','#practice-speech-status']:
   page.locator(target).click();intact()
  page.mouse.click(1890,1000);intact()
  # The next real key replaces the old selection, and edits sound exactly once.

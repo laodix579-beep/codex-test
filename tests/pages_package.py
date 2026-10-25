@@ -19,6 +19,9 @@ with TemporaryDirectory(prefix='mvp-pages-') as directory:
   assert archive.testzip() is None
   assert archive.read('index.html')==archive.read('小蛙自习室.html')==(ROOT/'index.html').read_bytes()
   assert archive.read('assets/home-hero.png')==(ROOT/'assets/home-hero.png').read_bytes()
+  scenes=json.loads(archive.read('data/scene-catalog.json'))
+  assert len(scenes['scenes'])==136 and len(scenes['sheets'])==17
+  for sheet in scenes['sheets']:assert hashlib.sha256(archive.read(sheet['path'])).hexdigest()==sheet['sha256']
   audit=json.loads(archive.read('reports/source-audio-sha256.json'))
   assert len(audit)==610
   for path,row in audit.items():assert hashlib.sha256(archive.read(path)).hexdigest()==row['sha256']
@@ -47,6 +50,8 @@ with TemporaryDirectory(prefix='mvp-pages-') as directory:
     page.goto(base+'#words');page.reload()
     assert page.locator('.vocab-category').count()==(1 if mobile else 8)
     page.goto(base+'#words/C01/C01-S01');page.locator('.translation-blank').wait_for()
+    page.wait_for_function('document.querySelector(".translation-picture img")?.naturalWidth>0')
+    assert page.locator('.translation-picture').get_attribute('data-scene-id')=='C01-S01-001'
     if not mobile:
      page.locator('#translation-form [data-action="translation-answer"]').click()
      assert page.locator('#practice-answer-dialog strong').inner_text()=='Hello, Anna'
@@ -70,6 +75,8 @@ with TemporaryDirectory(prefix='mvp-pages-') as directory:
      page.wait_for_function('document.querySelector(".mvp-resume-title")?.textContent.includes("第 4 / 22 词")')
      page.locator('.home-resume-card [data-action="resume-desktop"]').click()
      assert '4/22' in page.locator('#lesson-course').inner_text()
+     page.wait_for_function('document.querySelector(".translation-picture img")?.naturalWidth>0')
+     assert page.locator('.translation-picture').get_attribute('data-scene-id')=='C01-S01-004'
      page.locator('.practice-back').click();page.wait_for_function('!document.querySelector("#lesson-dialog").open')
      page.goto(base+'#records');page.reload()
      page.locator('.progress-dashboard').wait_for()

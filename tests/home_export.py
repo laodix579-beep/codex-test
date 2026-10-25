@@ -21,6 +21,7 @@ with sync_playwright() as p:
  page.locator('#save-app-dialog [data-action="download-app-file"]').wait_for(timeout=90000)
  html=page.locator('#offline-html-source').input_value()
  assert 'id="home-art-snapshot"' in html and 'window.FROG_HOME_ART="data:image/png;base64,' in html
+ assert 'id="scene-art-snapshot"' in html and 'window.FROG_SCENE_IMAGES=' in html
  with TemporaryDirectory(prefix='home-export-') as directory:
   with page.expect_download() as dl:page.locator('#save-app-dialog [data-action="download-app-file"]').click()
   dl.value.save_as(Path(directory)/'index.html')
@@ -37,6 +38,7 @@ with sync_playwright() as p:
    stored=exported.evaluate('JSON.parse(localStorage.getItem(document.body.dataset.storageKey))')
    assert stored['wordStatus']['C01-S01-001']=='mastered' and stored['notes'][0]['body']=='需要保留的记录'
    assert stored['practiceResume']['answered'] is True
+   assert exported.evaluate('Object.keys(FROG_SCENE_IMAGES).length')==17
    assert exported.locator('.startup-screen').is_hidden()
    isolated.set_offline(True)
    exported.goto(f'http://127.0.0.1:{server.server_port}/#records')
@@ -48,6 +50,9 @@ with sync_playwright() as p:
    exported.locator('.home-resume-card [data-action="resume-desktop"]').click()
    exported.locator('.translation-blank').first.wait_for()
    assert '4/22' in exported.locator('#lesson-course').inner_text()
+   exported.wait_for_function('document.querySelector(".translation-picture img")?.naturalWidth>0')
+   assert exported.locator('.translation-picture').get_attribute('data-scene-id')=='C01-S01-004'
+   assert exported.locator('.translation-picture img').get_attribute('src').startswith('data:image/png;base64,')
    for field,value in zip(exported.locator('.translation-blank').all(),['good','afternoon']):field.fill(value)
    exported.locator('#translation-submit').click()
    exported.wait_for_function('document.querySelector("#question-audio").dataset.sourceText==="good afternoon"&&document.querySelector("#question-audio").currentTime>0')
