@@ -316,9 +316,14 @@ body.desktop-mvp{--bg:#f6f7ff;--panel:#fff;--raised:#f0efff;--line:#e7e6f5;--ink
 .desktop-mvp .mvp-resume{display:grid;grid-template-columns:145px 1fr auto;gap:25px;align-items:center;position:relative;margin:-46px 22px 0;padding:26px;background:#fff;border:1px solid #f2efff;border-radius:22px;box-shadow:0 8px 28px #b9b2df13}
 .desktop-mvp .mvp-abc-art{display:inline-block;position:relative;width:84px;height:78px;flex-shrink:0;vertical-align:middle}.desktop-mvp .mvp-abc-art i{position:absolute;display:grid;place-items:center;width:44px;height:43px;border:2px solid #ffffff70;border-radius:10px;color:white;font:700 29px/1 Arial,sans-serif;text-shadow:0 2px 1px #0001;box-shadow:inset -4px -5px 0 #0000000d,0 4px 7px #7d6d9c13}.desktop-mvp .mvp-abc-art i:nth-child(1){left:20px;top:0;transform:rotate(-6deg);background:linear-gradient(140deg,#ff9b9b,#fc526e)}.desktop-mvp .mvp-abc-art i:nth-child(2){left:0;top:34px;transform:rotate(4deg);background:linear-gradient(140deg,#82c9ff,#408cff)}.desktop-mvp .mvp-abc-art i:nth-child(3){right:0;top:34px;transform:rotate(-3deg);background:linear-gradient(140deg,#ffe18b,#ffb52b)}.desktop-mvp .mvp-block-art .mvp-abc-art{transform:scale(1.15)}.desktop-mvp .mvp-session-label .mvp-abc-art{transform:scale(.55);transform-origin:right center;width:50px;margin-left:-10px}
 .desktop-mvp .mvp-block-art{height:145px;width:145px;display:grid;place-items:center;background:linear-gradient(135deg,#fff4da,#fff9ec);border-radius:18px;font-size:64px}
-.desktop-mvp .mvp-resume h2{font-size:21px;margin:0 0 6px;color:#28254a}
-.desktop-mvp .mvp-resume h2 .tag{font-size:10px;padding:3px 9px;margin-left:10px;border:1px solid #e3d8ff;border-radius:8px;vertical-align:middle}
-.desktop-mvp .mvp-resume-title{font-size:14px;color:#77748b;margin-bottom:10px}
+.desktop-mvp .mvp-resume-info{min-width:0}
+.desktop-mvp .mvp-resume h2{display:flex;align-items:center;flex-wrap:wrap;gap:8px;font-size:21px;line-height:1.5;margin:0 0 8px;color:#28254a}
+.desktop-mvp .mvp-resume h2 .tag{font-size:10px;font-weight:400;padding:3px 9px;border:1px solid #e3d8ff;border-radius:8px;white-space:nowrap}
+.desktop-mvp .mvp-resume-title{font-size:12px;color:#8c88a2;margin:0 0 10px}
+.desktop-mvp .mvp-resume-progress-count{display:block}
+.desktop-mvp .mvp-preview button{display:flex;align-items:center;gap:5px;border:0;border-radius:6px;background:transparent;padding:3px 4px;margin-left:-4px;color:#75708c;font-size:12px;line-height:1.6;text-align:left}
+.desktop-mvp .mvp-preview button:hover{background:#f0ebff;color:#7660b8;text-decoration:underline;text-underline-offset:3px}
+.desktop-mvp .mvp-preview .wrong svg{color:#cc6c82;background:#fff0f3}
 .desktop-mvp .mvp-resume .progress-track{height:9px;margin:9px 0}
 .desktop-mvp .mvp-resume small{color:#a3a2b7;font-size:11px}
 .desktop-mvp .mvp-preview{display:flex;flex-wrap:wrap;gap:4px 15px;font-size:12px;color:#6c718e;margin-top:12px}
@@ -777,7 +782,7 @@ window.LOCAL_AUDIO_BANK={"voice":"Bella · GA 美式英语","voiceLocale":"en-US
 <script>
 (() => {
   'use strict';
-  window.FROG_OFFLINE_CACHE="frog-desktop-mvp-v18";
+  window.FROG_OFFLINE_CACHE="frog-home-progress-v19";
   let installPrompt=null;
   let offlineReady=false;
   let registrationFailed=false;
@@ -977,7 +982,9 @@ window.LOCAL_AUDIO_BANK={"voice":"Bella · GA 美式英语","voiceLocale":"en-US
   }
   function renderDesktopHome() {
     const resume=desktopResume(),old=renderLegacyHome(),d=today();
-    return `<section class="mvp-home"><div class="mvp-welcome"><div class="mvp-welcome-copy"><p class="mvp-date">${new Date().toLocaleDateString('zh-CN',{month:'long',day:'numeric',weekday:'long'})}</p><h1>你好，${esc(state.settings.userName)}。<br>今天一起学习英语吧</h1><p>每天进步一点点，积累更好的自己！</p></div><div class="mvp-welcome-art" aria-hidden="true"><img src="${studyImage()}" alt=""></div></div><section class="mvp-resume" aria-label="继续上次学习"><div class="mvp-block-art" aria-hidden="true">${abcArt()}</div><div><h2>${resume.done?'上次学习到哪里':'从这里开始学习'}<span class="tag">${esc(resume.category?.name||'单词仓库')}</span></h2><div class="mvp-resume-title">${esc(resume.sub?.name||'我的词条')} · 单词中译英</div><div class="progress-track"><div class="progress-fill" style="width:${resume.items.length?resume.done/resume.items.length*100:0}%"></div></div><small>已掌握 ${resume.done} / ${resume.items.length} 个词条</small><div class="mvp-preview">${resume.items.slice(0,3).map(w=>`<span class="${state.wordStatus[w.id]==='mastered'?'done':''}">${icon('check')}${esc(w.word)} 的用法</span>`).join('')}</div></div><div class="mvp-resume-action"><button class="button primary" data-action="resume-desktop" ${resume.items.length?'':'disabled'}>${resume.done||state.practiceResume?'继续学习':'开始学习'} ${icon('arrow')}</button><small>每天 ${state.plan.minutes} 分钟 · ${state.plan.words} 个词条</small></div></section><div class="mvp-home-secondary"><button class="mvp-start-category" data-route="words"><span><h3>选择一个分类，慢慢积累</h3><p>8 大主题 · 从生活中的表达开始</p></span>${icon('arrow')}</button><button class="mvp-start-category" data-route="records"><span><h3>每一步进步，都看得见</h3><p>今天已练习 ${d.words.length} 个词条 · 查看学习记录</p></span>${icon('chart')}</button></div><details class="mvp-old-dashboard"><summary>学习统计、日历与打卡</summary>${old}</details></section>`;
+    const total=resume.items.length,percent=total?resume.done/total*100:0,complete=total>0&&resume.done===total;
+    const actionLabel=complete?'复习本组':resume.done||state.practiceResume?'继续学习':'开始学习';
+    return `<section class="mvp-home"><div class="mvp-welcome"><div class="mvp-welcome-copy"><p class="mvp-date">${new Date().toLocaleDateString('zh-CN',{month:'long',day:'numeric',weekday:'long'})}</p><h1>你好，${esc(state.settings.userName)}。<br>今天一起学习英语吧</h1><p>每天进步一点点，积累更好的自己！</p></div><div class="mvp-welcome-art" aria-hidden="true"><img src="${studyImage()}" alt=""></div></div><section class="mvp-resume" aria-label="继续上次学习"><div class="mvp-block-art" aria-hidden="true">${abcArt()}</div><div class="mvp-resume-info"><h2><span class="mvp-resume-name">${esc(resume.sub?.name||'我的词条')} · 单词中译英</span><span class="tag">${esc(resume.category?.name||'单词仓库')}</span></h2><p class="mvp-resume-title">上次学习进度</p><div class="progress-track" role="progressbar" aria-label="上次学习进度" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${Math.round(percent)}" aria-valuetext="${total?`已掌握 ${resume.done} / ${total} 个词条`:'暂无词条'}"><div class="progress-fill" style="width:${percent}%"></div></div><small class="mvp-resume-progress-count">已掌握 ${resume.done} / ${total} 个词条</small><div class="mvp-preview" role="group" aria-label="本组词条练习">${resume.items.slice(0,3).map(w=>{const status=state.wordStatus[w.id],done=status==='mastered';return `<button type="button" class="${done?'done':status||'new'}" data-action="resume-word" data-id="${esc(w.id)}" title="${esc(statusLabel(status))} · 练习 ${esc(w.word)} 的用法" aria-label="练习 ${esc(w.word)} 的用法">${icon(done?'check':'clock')}<span>${esc(w.word)} 的用法</span></button>`;}).join('')}</div></div><div class="mvp-resume-action"><button class="button primary" data-action="resume-desktop" ${resume.items.length?'':'disabled'}>${actionLabel} ${icon('arrow')}</button><small>每天 ${state.plan.minutes} 分钟 · ${state.plan.words} 个词条</small></div></section><div class="mvp-home-secondary"><button class="mvp-start-category" data-route="words"><span><h3>选择一个分类，慢慢积累</h3><p>8 大主题 · 从生活中的表达开始</p></span>${icon('arrow')}</button><button class="mvp-start-category" data-route="records"><span><h3>每一步进步，都看得见</h3><p>今天已练习 ${d.words.length} 个词条 · 查看学习记录</p></span>${icon('chart')}</button></div><details class="mvp-old-dashboard"><summary>学习统计、日历与打卡</summary>${old}</details></section>`;
   }
   const abcArt=()=>'<span class="mvp-abc-art" aria-hidden="true"><i>A</i><i>B</i><i>C</i></span>';
   const categoryArt=['🔠','⏰','📚','🏡','🍎','🐘','🚌','🏃'];
@@ -1920,6 +1927,7 @@ ollama pull gemma3:1b</pre><p class="hint">这个设置允许本地网页连接�
       const id=button.dataset.id;
       switch(button.dataset.action){
         case 'resume-desktop':{const resume=desktopResume();openLesson('word',resume.items,resume.index);break;}
+        case 'resume-word':{const resume=desktopResume(),index=resume.items.findIndex(w=>w.id===id);if(index>=0)openLesson('word',resume.items,index);break;}
         case 'practice-navigate':resetPracticeMedia();$('#lesson-dialog').close();navigate(button.dataset.destination);break;
         case 'navigate-back':navigateBack();break;
         case 'open-textbook':ensureTextbook();navigate(`course/${LOCAL_TEXTBOOK.id}`);break;
