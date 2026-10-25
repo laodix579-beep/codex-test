@@ -71,7 +71,7 @@ with sync_playwright() as p:
    page.locator('#save-app-dialog [data-action="download-app-file"]').wait_for(timeout=90000)
    assert stored()['courses']==baseline['courses']
    html=page.locator('#offline-html-source').input_value()
-   assert 'frog-warehouse-only-v16' in html
+   assert page.evaluate('FROG_OFFLINE_CACHE') in html
    page.locator('#save-app-dialog .dialog-back').click()
   page.goto(BASE+'#words');context.set_offline(True);page.reload(wait_until='networkidle')
   assert page.locator('.vocab-category').count()==2

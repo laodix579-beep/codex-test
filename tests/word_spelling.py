@@ -100,7 +100,7 @@ with sync_playwright() as p:
     page.locator('#lesson-dialog .translation-shortcuts [data-action="translation-answer"]').click()
     answer=page.locator('.translation-answer strong').inner_text()
     colors=page.evaluate('FROG_WORD_CATALOG.words.filter(w=>w.subcategoryId==="C01-S03").map(w=>w.example)')
-    assert answer in colors
+    assert answer in [text.rstrip('.!?') for text in colors]
     page.locator('.translation-blank').first.press_sequentially('x')
     assert page.locator('.translation-answer').count()==0
     page.locator('[data-practice-setting="keySounds"]').filter(visible=True).first.uncheck()

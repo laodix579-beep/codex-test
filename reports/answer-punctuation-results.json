@@ -1,0 +1,62 @@
+[
+  {
+    "profile": "desktop",
+    "cases": [
+      {
+        "word": "see you later",
+        "answer": "See you later",
+        "sourceExample": "See you later!"
+      },
+      {
+        "word": "how are you?",
+        "answer": "How are you today",
+        "sourceExample": "How are you today?"
+      },
+      {
+        "word": "I'm fine.",
+        "answer": "I'm fine, thank you",
+        "sourceExample": "I'm fine, thank you."
+      },
+      {
+        "word": "red",
+        "answer": "The apple is red",
+        "sourceExample": "The apple is red."
+      }
+    ],
+    "mixedTrailingSymbols": true,
+    "internalApostropheAndCommaPreserved": true,
+    "ipaUnchanged": true,
+    "originalMp3LookupTextPreserved": true,
+    "gradingWithLettersOnly": true
+  },
+  {
+    "profile": "phone",
+    "cases": [
+      {
+        "word": "see you later",
+        "answer": "See you later",
+        "sourceExample": "See you later!"
+      },
+      {
+        "word": "how are you?",
+        "answer": "How are you today",
+        "sourceExample": "How are you today?"
+      },
+      {
+        "word": "I'm fine.",
+        "answer": "I'm fine, thank you",
+        "sourceExample": "I'm fine, thank you."
+      },
+      {
+        "word": "red",
+        "answer": "The apple is red",
+        "sourceExample": "The apple is red."
+      }
+    ],
+    "mixedTrailingSymbols": true,
+    "internalApostropheAndCommaPreserved": true,
+    "ipaUnchanged": true,
+    "originalMp3LookupTextPreserved": true,
+    "gradingWithLettersOnly": true
+  }
+]
