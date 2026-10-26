@@ -1,0 +1,82 @@
+{
+  "version": "category-art-v35",
+  "reference": {
+    "path": "assets/home-hero.png",
+    "sha256": "027029deaec608f3b75d52b100fd133b5126085407d72d5c6b61cfd6fde93485"
+  },
+  "encoding": "Lossless WebP. Alpha and every visible RGBA pixel are unchanged; invisible RGB where alpha is zero is normalized by the encoder. Original generated PNGs are retained in the authoring workspace.",
+  "sheets": [
+    {
+      "path": "assets/categories/category-bg-01.webp",
+      "sourceSha256": "3f3bc548052a9316478738a98c126cb0b6065fcbba2d1e1f24b80bb28e1def97",
+      "sha256": "546a846b791d844eca0bee71e239468212916e507a9b60a4947f6a10c62fc667",
+      "width": 1254,
+      "height": 1254,
+      "columns": 2,
+      "rows": 4,
+      "rgbaIdentical": false,
+      "sourceRgbaSha256": "35368500a580eae815a837a34d3e734c3edee6ee1446611147f71bf8f15d349c",
+      "rgbaSha256": "f07d0d8d25a6b95c960c89c6d28aba49782fba3de3f5cd378b850e1a4062d800",
+      "visibleRgbaIdentical": true,
+      "alphaIdentical": true,
+      "displaySha256": "3a71436309eca4ff93a44245dee1354d1f03787670ff0a9ed4998d4227713256",
+      "bytes": 1023472,
+      "sourceFilename": "exec-2d119935-066e-43ef-9a6c-d9d8b8d1989f.png",
+      "prompt": "Create a single SQUARE transparent PNG sprite atlas for a polished Chinese children's English-learning website. Exactly TWO equal-width COLUMNS and FOUR equal-height ROWS: EIGHT separate horizontal 2:1 illustration cells in reading order, top-left to bottom-right. Absolutely no visible grid lines, borders, panels, labels, letters or text. Each illustration is a compact isolated 3D cartoon vignette with soft rounded shapes, gentle warm lighting, pastel lavender/cream/sky-blue accents and clean transparent surroundings. Keep generous transparent breathing room inside each cell and do not let objects cross cell boundaries. Within each 2:1 cell, cluster the artwork toward the RIGHT two-thirds, leaving the LEFT side mostly transparent, so website text can sit separately to its left. All objects must remain completely inside their cell. This is subtle decorative artwork, not a worksheet or UI screenshot. Match the friendly high-quality 3D cartoon look and the boy/girl faces in the supplied homepage reference; when a human is needed use those same brown-haired characters, blue hoodie boy or pink hoodie girl, without graduation hats. People only where specified; otherwise use objects. Transparent background throughout, no scene walls or photographic backdrop. Each cell must communicate its own category distinctly. Cell 1: Greetings and polite expressions: the reference boy in his blue hoodie smiles and waves one anatomically correct hand, with a tiny friendly gift/flower beside him.\nCell 2: Numbers and quantity: a charming wooden abacus, three pastel counting blocks and a few golden counters. No printed numerals or letters.\nCell 3: Colors: a rainbow of paint pots, colored pencils and a rounded artist palette, vivid but soft.\nCell 4: Shapes and size: a circle, triangle, square, ruler and small-versus-large toy blocks.\nCell 5: Time and clocks: a friendly round analog clock, wristwatch and little hourglass, pale lavender and blue.\nCell 6: Weekdays and dates: a desk calendar with empty grid squares and a tiny appointment pin, no writing.\nCell 7: Months and seasons: a miniature tree showing spring blossoms, summer leaves, autumn leaves and winter snow, a calm circular arrangement.\nCell 8: Weather and climate: soft sunshine emerging from a cloud, a few raindrops, umbrella and snowflake."
+    },
+    {
+      "path": "assets/categories/category-bg-02.webp",
+      "sourceSha256": "03fb50135d6f64175f6b705a98182c141e0ec8c6dc30ef8af82a6f76182a0949",
+      "sha256": "914cc67437bb0d4670cbbfa4a968217e74b06dc978222eee7d6a7e333e57ce18",
+      "width": 1254,
+      "height": 1254,
+      "columns": 2,
+      "rows": 4,
+      "rgbaIdentical": false,
+      "sourceRgbaSha256": "45bd3f1b00082cf7b92fb7ab85c8c012598baa070ca0261c7edef9b74f232a3c",
+      "rgbaSha256": "50ddb70da84f9ef8688167267c5c90aac9b0c4f6ce11cff9b7e7afbd074e4e6e",
+      "visibleRgbaIdentical": true,
+      "alphaIdentical": true,
+      "displaySha256": "a4418546cae2e013cb3bda98864987808d35670bc11f040f8d7b4e38030543e1",
+      "bytes": 1192204,
+      "sourceFilename": "exec-3de14306-6baf-4705-a973-2245e4634a74.png",
+      "prompt": "Create a single SQUARE transparent PNG sprite atlas for a polished Chinese children's English-learning website. Exactly TWO equal-width COLUMNS and FOUR equal-height ROWS: EIGHT separate horizontal 2:1 illustration cells in reading order, top-left to bottom-right. Absolutely no visible grid lines, borders, panels, labels, letters or text. Each illustration is a compact isolated 3D cartoon vignette with soft rounded shapes, gentle warm lighting, pastel lavender/cream/sky-blue accents and clean transparent surroundings. Keep generous transparent breathing room inside each cell and do not let objects cross cell boundaries. Within each 2:1 cell, cluster the artwork toward the RIGHT two-thirds, leaving the LEFT side mostly transparent, so website text can sit separately to its left. All objects must remain completely inside their cell. This is subtle decorative artwork, not a worksheet or UI screenshot. Match the friendly high-quality 3D cartoon look and the boy/girl faces in the supplied homepage reference; when a human is needed use those same brown-haired characters, blue hoodie boy or pink hoodie girl, without graduation hats. People only where specified; otherwise use objects. Transparent background throughout, no scene walls or photographic backdrop. Each cell must communicate its own category distinctly. Cell 1: School supplies: a blue backpack, pencils, eraser, notebook and closed books, tidy still life.\nCell 2: Classroom and school campus: a tiny classroom desk, empty green chalkboard and cheerful school building, no writing.\nCell 3: School subjects: a globe, art palette, musical note ornament and stacked books, no lettering.\nCell 4: Common classroom language: the reference girl in her pink hoodie raises her hand politely beside a small empty speech-bubble shape.\nCell 5: Family members: a warm compact family portrait group of a mother, father, reference girl and reference boy in everyday clothes.\nCell 6: Rooms and furniture: a cozy miniature armchair, lamp, small bed and potted plant.\nCell 7: Household objects: a kettle, cup, woven storage basket, key and table lamp, neatly grouped.\nCell 8: Daily actions and clothing: the reference boy tidily carrying a folded shirt beside a toothbrush cup and a pair of shoes."
+    },
+    {
+      "path": "assets/categories/category-bg-03.webp",
+      "sourceSha256": "3cf04d69ef6128fed41bd55cc72cbf66db33f02486d8dc352f8cd411209a4c2d",
+      "sha256": "0a034ce1477ba73fa0ea8d011c2e7650ae36a5b4f72090fbf32a26ad25eab596",
+      "width": 1254,
+      "height": 1254,
+      "columns": 2,
+      "rows": 4,
+      "rgbaIdentical": false,
+      "sourceRgbaSha256": "e75ea21ffb0e46fa5bdc418dfadbbf8025cc6922ec65591816f07548609def32",
+      "rgbaSha256": "c2127911ae7d3167ec121591943ef7768f4a96a60e2700877f7dd51f74b893eb",
+      "visibleRgbaIdentical": true,
+      "alphaIdentical": true,
+      "displaySha256": "674b31512e261b7e51d284bdf25f505b528a806e11b86ddb5dee1091358a6d81",
+      "bytes": 1413374,
+      "sourceFilename": "exec-85c9d90d-c7f4-40ed-ad6f-b2a97eb83f36.png",
+      "prompt": "Create a single SQUARE transparent PNG sprite atlas for a polished Chinese children's English-learning website. Exactly TWO equal-width COLUMNS and FOUR equal-height ROWS: EIGHT separate horizontal 2:1 illustration cells in reading order, top-left to bottom-right. Absolutely no visible grid lines, borders, panels, labels, letters or text. Each illustration is a compact isolated 3D cartoon vignette with soft rounded shapes, gentle warm lighting, pastel lavender/cream/sky-blue accents and clean transparent surroundings. Keep generous transparent breathing room inside each cell and do not let objects cross cell boundaries. Within each 2:1 cell, cluster the artwork toward the RIGHT two-thirds, leaving the LEFT side mostly transparent, so website text can sit separately to its left. All objects must remain completely inside their cell. This is subtle decorative artwork, not a worksheet or UI screenshot. Match the friendly high-quality 3D cartoon look and the boy/girl faces in the supplied homepage reference; when a human is needed use those same brown-haired characters, blue hoodie boy or pink hoodie girl, without graduation hats. People only where specified; otherwise use objects. Transparent background throughout, no scene walls or photographic backdrop. Each cell must communicate its own category distinctly. Cell 1: Fruit and vegetables: apple, orange, pear, carrots and leafy greens in a small basket.\nCell 2: Meals, staple foods and drinks: bread, a bowl of rice, a plate of simple healthy food and milk carton without lettering.\nCell 3: Body parts: a cheerful bust of the reference boy showing his face, one raised open palm and an ear, wholesome and anatomically normal.\nCell 4: Health and physical feelings: a friendly teddy bear with a small bandage, thermometer, stethoscope and heart-shaped cushion.\nCell 5: Pets and farm animals: a happy puppy, kitten, little rabbit and chick grouped comfortably.\nCell 6: Wild and marine animals: a little lion, elephant and friendly dolphin in a compact toy-like arrangement.\nCell 7: Plants and flowers: fresh leaves, potted blooming flowers and a tiny sapling.\nCell 8: Natural environment: a miniature green mountain, clear stream, tree, small cloud and recycling leaf motif."
+    },
+    {
+      "path": "assets/categories/category-bg-04.webp",
+      "sourceSha256": "0a63c66cc97861f93df2531912431a3575fa7460f360f95b702fcfb67ec5c3fd",
+      "sha256": "aec7dc34b5e127c524d3cbabc8617f2d2a5e6d8137a99962489d2ac48e978e17",
+      "width": 1254,
+      "height": 1254,
+      "columns": 2,
+      "rows": 4,
+      "rgbaIdentical": false,
+      "sourceRgbaSha256": "999b0bba6a0e19d16412369b7dee3b0e8d3a4f527b3d5deb833bd1df58f2ad1f",
+      "rgbaSha256": "e0994fbfe19ca40bdf2df421c7fe88c2359a14014bd92daa4a160176a1b596a3",
+      "visibleRgbaIdentical": true,
+      "alphaIdentical": true,
+      "displaySha256": "9efcf17d29b1bfe2c5e23155d6b3f788c4846c5c65d78d3b0d69d4662d44f86c",
+      "bytes": 1276904,
+      "sourceFilename": "exec-7e3458b2-abfc-42d4-acde-c12ec40d9af1.png",
+      "prompt": "Create a single SQUARE transparent PNG sprite atlas for a polished Chinese children's English-learning website. Exactly TWO equal-width COLUMNS and FOUR equal-height ROWS: EIGHT separate horizontal 2:1 illustration cells in reading order, top-left to bottom-right. Absolutely no visible grid lines, borders, panels, labels, letters or text. Each illustration is a compact isolated 3D cartoon vignette with soft rounded shapes, gentle warm lighting, pastel lavender/cream/sky-blue accents and clean transparent surroundings. Keep generous transparent breathing room inside each cell and do not let objects cross cell boundaries. Within each 2:1 cell, cluster the artwork toward the RIGHT two-thirds, leaving the LEFT side mostly transparent, so website text can sit separately to its left. All objects must remain completely inside their cell. This is subtle decorative artwork, not a worksheet or UI screenshot. Match the friendly high-quality 3D cartoon look and the boy/girl faces in the supplied homepage reference; when a human is needed use those same brown-haired characters, blue hoodie boy or pink hoodie girl, without graduation hats. People only where specified; otherwise use objects. Transparent background throughout, no scene walls or photographic backdrop. Each cell must communicate its own category distinctly. Cell 1: Transport, directions and location: a friendly blue bus, bicycle, small road junction and simple directional arrow shapes, no writing.\nCell 2: City and public places: a small library building, hospital with a simple medical cross, park bench and tree.\nCell 3: Jobs and work: a compact group of a doctor's stethoscope, construction helmet, firefighter helmet and briefcase.\nCell 4: Shopping and money: a shopping basket, little wallet, plain golden coins and blank price-tag shapes, no symbols or writing.\nCell 5: Common verbs and phrases: the reference girl in pink cheerfully walking while holding a book, with a tiny empty speech bubble.\nCell 6: Adjectives, feelings and emotions: two small friendly expressive faces in the reference character style, a smiling one and a calmly thoughtful one, with soft heart and star shapes.\nCell 7: Sports and hobbies: the reference boy in blue in a natural running pose with a small football, tennis racket and musical-note ornament nearby.\nCell 8: Pronouns, question words and prepositions: friendly toy boy-and-girl figures next to a small box and a ball, plus a simple question-mark ornament. No words."
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "version": "category-art-v35",
+  "sheets": [
+    {
+      "path": "assets/categories/category-bg-01.webp",
+      "width": 1254,
+      "height": 1254,
+      "columns": 2,
+      "rows": 4,
+      "sha256": "546a846b791d844eca0bee71e239468212916e507a9b60a4947f6a10c62fc667"
+    },
+    {
+      "path": "assets/categories/category-bg-02.webp",
+      "width": 1254,
+      "height": 1254,
+      "columns": 2,
+      "rows": 4,
+      "sha256": "914cc67437bb0d4670cbbfa4a968217e74b06dc978222eee7d6a7e333e57ce18"
+    },
+    {
+      "path": "assets/categories/category-bg-03.webp",
+      "width": 1254,
+      "height": 1254,
+      "columns": 2,
+      "rows": 4,
+      "sha256": "0a034ce1477ba73fa0ea8d011c2e7650ae36a5b4f72090fbf32a26ad25eab596"
+    },
+    {
+      "path": "assets/categories/category-bg-04.webp",
+      "width": 1254,
+      "height": 1254,
+      "columns": 2,
+      "rows": 4,
+      "sha256": "aec7dc34b5e127c524d3cbabc8617f2d2a5e6d8137a99962489d2ac48e978e17"
+    }
+  ],
+  "entries": [
+    {
+      "subcategoryId": "C01-S01",
+      "name": "问候与礼貌用语",
+      "sheet": "assets/categories/category-bg-01.webp",
+      "column": 0,
+      "row": 0
+    },
+    {
+      "subcategoryId": "C01-S02",
+      "name": "数字与数量",
+      "sheet": "assets/categories/category-bg-01.webp",
+      "column": 1,
+      "row": 0
+    },
+    {
+      "subcategoryId": "C01-S03",
+      "name": "颜色",
+      "sheet": "assets/categories/category-bg-01.webp",
+      "column": 0,
+      "row": 1
+    },
+    {
+      "subcategoryId": "C01-S04",
+      "name": "形状与大小",
+      "sheet": "assets/categories/category-bg-01.webp",
+      "column": 1,
+      "row": 1
+    },
+    {
+      "subcategoryId": "C02-S01",
+      "name": "时间与钟表",
+      "sheet": "assets/categories/category-bg-01.webp",
+      "column": 0,
+      "row": 2
+    },
+    {
+      "subcategoryId": "C02-S02",
+      "name": "星期与日期",
+      "sheet": "assets/categories/category-bg-01.webp",
+      "column": 1,
+      "row": 2
+    },
+    {
+      "subcategoryId": "C02-S03",
+      "name": "月份与四季",
+      "sheet": "assets/categories/category-bg-01.webp",
+      "column": 0,
+      "row": 3
+    },
+    {
+      "subcategoryId": "C02-S04",
+      "name": "天气与气候",
+      "sheet": "assets/categories/category-bg-01.webp",
+      "column": 1,
+      "row": 3
+    },
+    {
+      "subcategoryId": "C03-S01",
+      "name": "学习用品",
+      "sheet": "assets/categories/category-bg-02.webp",
+      "column": 0,
+      "row": 0
+    },
+    {
+      "subcategoryId": "C03-S02",
+      "name": "教室与校园",
+      "sheet": "assets/categories/category-bg-02.webp",
+      "column": 1,
+      "row": 0
+    },
+    {
+      "subcategoryId": "C03-S03",
+      "name": "学科名称",
+      "sheet": "assets/categories/category-bg-02.webp",
+      "column": 0,
+      "row": 1
+    },
+    {
+      "subcategoryId": "C03-S04",
+      "name": "课堂常用词",
+      "sheet": "assets/categories/category-bg-02.webp",
+      "column": 1,
+      "row": 1
+    },
+    {
+      "subcategoryId": "C04-S01",
+      "name": "家庭成员",
+      "sheet": "assets/categories/category-bg-02.webp",
+      "column": 0,
+      "row": 2
+    },
+    {
+      "subcategoryId": "C04-S02",
+      "name": "房间与家具",
+      "sheet": "assets/categories/category-bg-02.webp",
+      "column": 1,
+      "row": 2
+    },
+    {
+      "subcategoryId": "C04-S03",
+      "name": "家用物品",
+      "sheet": "assets/categories/category-bg-02.webp",
+      "column": 0,
+      "row": 3
+    },
+    {
+      "subcategoryId": "C04-S04",
+      "name": "日常动作与衣服配饰",
+      "sheet": "assets/categories/category-bg-02.webp",
+      "column": 1,
+      "row": 3
+    },
+    {
+      "subcategoryId": "C05-S01",
+      "name": "水果与蔬菜",
+      "sheet": "assets/categories/category-bg-03.webp",
+      "column": 0,
+      "row": 0
+    },
+    {
+      "subcategoryId": "C05-S02",
+      "name": "食物、主食与饮料",
+      "sheet": "assets/categories/category-bg-03.webp",
+      "column": 1,
+      "row": 0
+    },
+    {
+      "subcategoryId": "C05-S03",
+      "name": "身体部位",
+      "sheet": "assets/categories/category-bg-03.webp",
+      "column": 0,
+      "row": 1
+    },
+    {
+      "subcategoryId": "C05-S04",
+      "name": "健康与身体感受",
+      "sheet": "assets/categories/category-bg-03.webp",
+      "column": 1,
+      "row": 1
+    },
+    {
+      "subcategoryId": "C06-S01",
+      "name": "宠物与农场动物",
+      "sheet": "assets/categories/category-bg-03.webp",
+      "column": 0,
+      "row": 2
+    },
+    {
+      "subcategoryId": "C06-S02",
+      "name": "野生与海洋动物",
+      "sheet": "assets/categories/category-bg-03.webp",
+      "column": 1,
+      "row": 2
+    },
+    {
+      "subcategoryId": "C06-S03",
+      "name": "植物与花卉",
+      "sheet": "assets/categories/category-bg-03.webp",
+      "column": 0,
+      "row": 3
+    },
+    {
+      "subcategoryId": "C06-S04",
+      "name": "自然环境",
+      "sheet": "assets/categories/category-bg-03.webp",
+      "column": 1,
+      "row": 3
+    },
+    {
+      "subcategoryId": "C07-S01",
+      "name": "交通、方向与位置",
+      "sheet": "assets/categories/category-bg-04.webp",
+      "column": 0,
+      "row": 0
+    },
+    {
+      "subcategoryId": "C07-S02",
+      "name": "城市与公共场所",
+      "sheet": "assets/categories/category-bg-04.webp",
+      "column": 1,
+      "row": 0
+    },
+    {
+      "subcategoryId": "C07-S03",
+      "name": "职业与工作",
+      "sheet": "assets/categories/category-bg-04.webp",
+      "column": 0,
+      "row": 1
+    },
+    {
+      "subcategoryId": "C07-S04",
+      "name": "购物与金钱",
+      "sheet": "assets/categories/category-bg-04.webp",
+      "column": 1,
+      "row": 1
+    },
+    {
+      "subcategoryId": "C08-S01",
+      "name": "常用动词与短语",
+      "sheet": "assets/categories/category-bg-04.webp",
+      "column": 0,
+      "row": 2
+    },
+    {
+      "subcategoryId": "C08-S02",
+      "name": "形容词、情绪与感受",
+      "sheet": "assets/categories/category-bg-04.webp",
+      "column": 1,
+      "row": 2
+    },
+    {
+      "subcategoryId": "C08-S03",
+      "name": "运动与兴趣爱好",
+      "sheet": "assets/categories/category-bg-04.webp",
+      "column": 0,
+      "row": 3
+    },
+    {
+      "subcategoryId": "C08-S04",
+      "name": "代词、疑问词与介词",
+      "sheet": "assets/categories/category-bg-04.webp",
+      "column": 1,
+      "row": 3
+    }
+  ]
+}

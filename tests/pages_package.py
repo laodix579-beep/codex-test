@@ -23,6 +23,9 @@ with TemporaryDirectory(prefix='mvp-pages-') as directory:
   assert len(scenes['scenes'])==356 and len(scenes['sheets'])==32
   assert len(json.loads(archive.read('data/meaning-catalog.json'))['entries'])==356
   for sheet in scenes['sheets']:assert hashlib.sha256(archive.read(sheet['path'])).hexdigest()==sheet['sha256']
+  backgrounds=json.loads(archive.read('data/category-art.json'))
+  assert len(backgrounds['entries'])==32 and len(backgrounds['sheets'])==4
+  for sheet in backgrounds['sheets']:assert hashlib.sha256(archive.read(sheet['path'])).hexdigest()==sheet['sha256']
   audit=json.loads(archive.read('reports/all-audio-sha256.json'))
   assert len(audit)==1028
   for path,row in audit.items():assert hashlib.sha256(archive.read(path)).hexdigest()==row['sha256']
@@ -60,7 +63,10 @@ with TemporaryDirectory(prefix='mvp-pages-') as directory:
     page.goto(base+'#words');page.reload()
     assert page.locator('.vocab-category').count()==(2 if mobile else 8)
     if not mobile:
-     page.goto(base+'#words/C01');page.locator('.mvp-subcategory[data-subcategory-id="C01-S01"]').click()
+     page.goto(base+'#words/C01')
+     page.wait_for_function('document.querySelectorAll(".mvp-subcategory-art img").length===4&&[...document.querySelectorAll(".mvp-subcategory-art img")].every(img=>img.complete&&img.naturalWidth>0)')
+     assert page.evaluate('async()=>{const r=await fetch("data/category-art.json");return (await r.json()).entries.length}')==32
+     page.locator('.mvp-subcategory[data-subcategory-id="C01-S01"]').click()
      assert page.locator('#practice-group-dialog .practice-group-all b').inner_text()=='22'
      assert page.locator('#practice-group-dialog [data-practice-group="politeness"] b').inner_text()=='8'
      page.locator('#practice-group-dialog [data-practice-group="politeness"]').click()

@@ -21,12 +21,23 @@ with sync_playwright() as p:
  page.reload();page.locator('#home-user-menu>summary').click()
  page.locator('#home-user-menu [data-action="save-app"]').click()
  page.locator('#save-app-dialog [data-action="download-app-file"]').wait_for(timeout=90000)
- html=page.locator('#offline-html-source').input_value()
- assert 'id="home-art-snapshot"' in html and 'window.FROG_HOME_ART="data:image/png;base64,' in html
- assert 'id="scene-art-snapshot"' in html and 'window.FROG_SCENE_IMAGES=' in html
+ assert page.locator('#offline-html-source').input_value()==''
  with TemporaryDirectory(prefix='home-export-') as directory:
   with page.expect_download() as dl:page.locator('#save-app-dialog [data-action="download-app-file"]').click()
   dl.value.save_as(Path(directory)/'index.html')
+  markers=['id="home-art-snapshot"','window.FROG_HOME_ART="data:image/png;base64,','id="scene-art-snapshot"','window.FROG_SCENE_IMAGES=','id="category-art-snapshot"','window.FROG_CATEGORY_IMAGES=']
+  found=set()
+  with (Path(directory)/'index.html').open() as source:
+   for line in source:
+    found.update(marker for marker in markers if marker in line)
+  assert found==set(markers)
+  page.locator('#source-fallback>summary').click()
+  page.wait_for_function('document.querySelector("#offline-html-source").value.length>1000000',timeout=90000)
+  page.locator('[data-action="select-html-source"]').click()
+  assert page.locator('#offline-html-source').evaluate('e=>e.selectionStart===0&&e.selectionEnd===e.value.length&&e.wrap==="off"')
+  page.locator('#offline-html-source').evaluate('e=>e.value=""')
+  page.locator('#save-app-dialog .dialog-back').click()
+  print('PASS: real Blob download and on-demand complete source selection; generated HTML carries all artwork maps',flush=True)
   server=ThreadingHTTPServer(('127.0.0.1',0),partial(Quiet,directory=directory))
   threading.Thread(target=server.serve_forever,daemon=True).start()
   isolated=browser.new_context(viewport={'width':1440,'height':960},service_workers='block')
@@ -42,8 +53,21 @@ with sync_playwright() as p:
    assert stored['practiceResume']['answered'] is True
    assert stored['settings']['grade']=='四年级'
    assert exported.evaluate('Object.keys(FROG_SCENE_IMAGES).length')==32
+   assert exported.evaluate('Object.keys(FROG_CATEGORY_IMAGES).length')==4
+   # Validate every decoded recording/image after script line-continuation formatting.
+   verified=exported.evaluate('''async()=>{
+    const rows=[...Object.entries(LOCAL_AUDIO_BANK.clips).map(([key,data])=>({data,hash:LOCAL_AUDIO_BANK.sha256[key]})),...FROG_SCENE_LIBRARY.sheets.map(s=>({data:FROG_SCENE_IMAGES[s.path].split(',')[1],hash:s.sha256})),...FROG_CATEGORY_ART.sheets.map(s=>({data:FROG_CATEGORY_IMAGES[s.path].split(',')[1],hash:s.sha256}))];
+    let next=0;
+    await Promise.all(Array.from({length:3},async()=>{while(next<rows.length){const row=rows[next++],bytes=Uint8Array.from(atob(row.data),c=>c.charCodeAt(0)),hash=Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',bytes)),n=>n.toString(16).padStart(2,'0')).join('');if(hash!==row.hash)throw new Error('Exported media bytes changed');}}));
+    return rows.length;
+   }''')
+   assert verified==1028+32+4
    assert exported.locator('.startup-screen').is_hidden()
    isolated.set_offline(True)
+   for category in range(1,9):
+    exported.goto(f'http://127.0.0.1:{server.server_port}/#words/C{category:02}')
+    exported.wait_for_function('document.querySelectorAll(".mvp-subcategory-art img").length===4&&[...document.querySelectorAll(".mvp-subcategory-art img")].every(img=>img.complete&&img.naturalWidth>0)')
+    assert all(src.startswith('data:image/webp;base64,') for src in exported.locator('.mvp-subcategory-art img').evaluate_all('(images)=>images.map(img=>img.src)'))
    exported.goto(f'http://127.0.0.1:{server.server_port}/#records')
    exported.locator('.progress-dashboard').wait_for()
    assert exported.locator('[data-progress-total-words]').inner_text()=='22个'

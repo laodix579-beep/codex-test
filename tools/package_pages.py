@@ -26,12 +26,18 @@ assert len(meanings['entries'])==356 and embedded and json.loads(embedded[1])==m
 groups=json.loads((ROOT/'data/practice-groups.json').read_text())
 embedded_groups=re.search(r'window.FROG_PRACTICE_GROUPS=(.*?);\s*</script>',(ROOT/'index.html').read_text(),re.S)
 assert embedded_groups and json.loads(embedded_groups[1])==groups
+category_art=json.loads((ROOT/'data/category-art.json').read_text())
+embedded_art=re.search(r'window.FROG_CATEGORY_ART=(.*?);\s*</script>',(ROOT/'index.html').read_text(),re.S)
+assert embedded_art and json.loads(embedded_art[1])==category_art
+assert len(category_art['entries'])==32 and len(category_art['sheets'])==4
+for sheet in category_art['sheets']:
+ assert hashlib.sha256((ROOT/sheet['path']).read_bytes()).hexdigest()==sheet['sha256']
 (ROOT/'小蛙自习室.html').write_bytes((ROOT/'index.html').read_bytes())
-names=['.nojekyll','index.html','小蛙自习室.html','sw.js','scene-files.js','audio-files.js','audio-manifest.json','vocabulary-audio-map.csv','pronunciation-test-words.csv','audio-source-report.csv','CODEX_只接入录音.md','README.md','DEPLOY_WINDOWS.md','AUDIO_CREDITS.md','manifest.webmanifest','supabase-config.js','icon-192.png','icon-512.png','apple-touch-icon.png']
+names=['.nojekyll','index.html','小蛙自习室.html','sw.js','scene-files.js','category-files.js','audio-files.js','audio-manifest.json','vocabulary-audio-map.csv','pronunciation-test-words.csv','audio-source-report.csv','CODEX_只接入录音.md','README.md','DEPLOY_WINDOWS.md','AUDIO_CREDITS.md','manifest.webmanifest','supabase-config.js','icon-192.png','icon-512.png','apple-touch-icon.png']
 files=[ROOT/n for n in names]
 for directory in ['assets','audio','data','licenses','reports']:
  files.extend(p for p in (ROOT/directory).rglob('*') if p.is_file())
-files.extend((ROOT/'tests').glob('*.py'));files.extend([Path(__file__).resolve(),ROOT/'tools/build_scene_assets.py',ROOT/'tools/scene-runtime.js',ROOT/'tools/build_meaning_assets.py',ROOT/'tools/build_practice_groups.py',ROOT/'tools/build_time_nature_assets.py',ROOT/'tools/generate_time_nature_audio.py',ROOT/'tools/build_audio_assets.py',ROOT/'tools/ga_intonation.py'])
+files.extend((ROOT/'tests').glob('*.py'));files.extend([Path(__file__).resolve(),ROOT/'tools/build_scene_assets.py',ROOT/'tools/build_category_art.py',ROOT/'tools/scene-runtime.js',ROOT/'tools/build_meaning_assets.py',ROOT/'tools/build_practice_groups.py',ROOT/'tools/build_time_nature_assets.py',ROOT/'tools/generate_time_nature_audio.py',ROOT/'tools/build_audio_assets.py',ROOT/'tools/ga_intonation.py'])
 assert len(files)==len(set(files)) and all(f.is_file() for f in files)
 out.parent.mkdir(parents=True,exist_ok=True)
 with zipfile.ZipFile(out,'w',zipfile.ZIP_DEFLATED,compresslevel=9) as z:
@@ -42,6 +48,8 @@ with zipfile.ZipFile(out) as z:
  for row in manifest['clips']:
   assert hashlib.sha256(z.read(row['path'])).hexdigest()==audit[row['path']]['sha256']
  for sheet in scenes['sheets']:
+  assert hashlib.sha256(z.read(sheet['path'])).hexdigest()==sheet['sha256']
+ for sheet in category_art['sheets']:
   assert hashlib.sha256(z.read(sheet['path'])).hexdigest()==sheet['sha256']
 shutil.copyfile(out,ROOT/'downloads/frog-study-offline.zip')
 assert out.stat().st_size<100*1024*1024,'Pages ZIP exceeds the GitHub file limit'
