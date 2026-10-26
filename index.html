@@ -439,6 +439,10 @@ body.desktop-mvp,html.desktop-mvp body{--bg:#f6f7ff;--panel:#fff;--raised:#f0eff
 .desktop-mvp .translation-blank:focus{border-bottom-color:#8464f5;background:#faf7ff}
 .desktop-mvp .translation-blank.accepted{color:#15a762;border-color:#48b780}
 .desktop-mvp .translation-slots .sentence-punctuation,.desktop-mvp .given-word{color:#33314e}
+.desktop-mvp .mvp-prompt{align-self:stretch;display:flex;flex-direction:column;justify-content:center;align-items:center;min-width:0;padding:clamp(28px,2.5vw,48px) clamp(24px,2.1vw,40px);text-align:center}
+.desktop-mvp .mvp-prompt .translation-chinese{width:100%;text-align:center}
+.desktop-mvp .mvp-prompt .word-context-meaning{max-width:100%;text-align:center}
+.desktop-mvp .mvp-prompt .translation-slots{width:100%;justify-content:center}
 .desktop-mvp .translation-message{font-size:12px;color:#b88b9b;min-height:21px;margin:5px 0 17px;text-align:center}
 .desktop-mvp .mvp-question-form .lesson-controls{display:grid;grid-template-columns:1.15fr 1fr .9fr 1fr;gap:10px;margin:0}
 .desktop-mvp .mvp-question-form .lesson-controls .button{min-height:54px;font-size:14px;border-radius:12px;padding:10px 8px}
@@ -1197,7 +1201,7 @@ window.LOCAL_AUDIO_BANK={"voice":"Bella · GA 美式英语","voiceLocale":"en-US
 <script>
 (() => {
   'use strict';
-  window.FROG_OFFLINE_CACHE="frog-time-nature-v30";
+  window.FROG_OFFLINE_CACHE="frog-practice-center-v31";
   let installPrompt=null;
   let offlineReady=false;
   let registrationFailed=false;
