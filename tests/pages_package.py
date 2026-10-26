@@ -1,6 +1,7 @@
 """Validate the existing deployment ZIP under a GitHub Pages-style subdirectory."""
 import hashlib
 import json
+import sys
 import threading
 import zipfile
 from functools import partial
@@ -15,19 +16,19 @@ class Quiet(SimpleHTTPRequestHandler):
 
 with TemporaryDirectory(prefix='mvp-pages-') as directory:
  target=Path(directory)/'codex-test';target.mkdir()
- with zipfile.ZipFile(ROOT/'downloads/frog-study-offline.zip') as archive:
+ with zipfile.ZipFile(Path(sys.argv[1]) if len(sys.argv)>1 else Path('/workspace/output/laok-pages-v36.zip')) as archive:
   assert archive.testzip() is None
   assert archive.read('index.html')==archive.read('小蛙自习室.html')==(ROOT/'index.html').read_bytes()
   assert archive.read('assets/home-hero.png')==(ROOT/'assets/home-hero.png').read_bytes()
   scenes=json.loads(archive.read('data/scene-catalog.json'))
-  assert len(scenes['scenes'])==356 and len(scenes['sheets'])==32
-  assert len(json.loads(archive.read('data/meaning-catalog.json'))['entries'])==356
+  assert len(scenes['scenes'])==554 and len(scenes['sheets'])==57
+  assert len(json.loads(archive.read('data/meaning-catalog.json'))['entries'])==554
   for sheet in scenes['sheets']:assert hashlib.sha256(archive.read(sheet['path'])).hexdigest()==sheet['sha256']
   backgrounds=json.loads(archive.read('data/category-art.json'))
   assert len(backgrounds['entries'])==32 and len(backgrounds['sheets'])==4
   for sheet in backgrounds['sheets']:assert hashlib.sha256(archive.read(sheet['path'])).hexdigest()==sheet['sha256']
   audit=json.loads(archive.read('reports/all-audio-sha256.json'))
-  assert len(audit)==1028
+  assert len(audit)==1387
   for path,row in audit.items():assert hashlib.sha256(archive.read(path)).hexdigest()==row['sha256']
   for name in archive.namelist():assert (target/name).resolve().is_relative_to(target.resolve())
   archive.extractall(target)
@@ -61,7 +62,7 @@ with TemporaryDirectory(prefix='mvp-pages-') as directory:
      assert page.locator('.home-category-tile').count()==8
      assert page.locator('#home-user-menu>summary').is_visible()
     page.goto(base+'#words');page.reload()
-    assert page.locator('.vocab-category').count()==(2 if mobile else 8)
+    assert page.locator('.vocab-category').count()==(3 if mobile else 8)
     if not mobile:
      page.goto(base+'#words/C01')
      page.wait_for_function('document.querySelectorAll(".mvp-subcategory-art img").length===4&&[...document.querySelectorAll(".mvp-subcategory-art img")].every(img=>img.complete&&img.naturalWidth>0)')
@@ -81,7 +82,7 @@ with TemporaryDirectory(prefix='mvp-pages-') as directory:
      assert page.locator('.translation-blank').first.input_value()==''
      assert page.locator('#translation-previous').is_disabled()
      page.locator('.practice-back').click();page.wait_for_function('!document.querySelector("#lesson-dialog").open')
-     assert page.evaluate('async()=>{const r=await fetch("data/practice-groups.json");return (await r.json()).subcategories.length}')==7
+     assert page.evaluate('async()=>{const r=await fetch("data/practice-groups.json");return (await r.json()).subcategories.length}')==11
     page.goto(base+'#words/C01/C01-S01');page.locator('.translation-blank').wait_for()
     page.wait_for_function('document.querySelector(".translation-picture img")?.naturalWidth>0')
     assert page.locator('.translation-picture').get_attribute('data-scene-id')=='C01-S01-001'
@@ -146,13 +147,13 @@ with TemporaryDirectory(prefix='mvp-pages-') as directory:
     assert page.locator('.word-context-meaning .meaning-dictionary').inner_text()=='词义：一些；任何（依语境）'
     assert page.locator('.word-example-prompt [data-meaning-target]').count()==0
     cached_meanings=page.evaluate('async()=>{const r=await fetch("data/meaning-catalog.json");return (await r.json()).entries.length}')
-    assert cached_meanings==356
+    assert cached_meanings==554
     page.evaluate("window.packClosed=false;document.querySelector('#lesson-dialog').addEventListener('close',()=>packClosed=true,{once:true})")
     page.locator('.practice-back').click();page.wait_for_function('packClosed')
-    for sub,filename,count in [('C02-S01','01_时间与钟表.json',52),('C02-S02','02_星期与日期.json',61),('C02-S03','03_月份与四季.json',56),('C02-S04','04_天气与气候.json',51)]:
-     raw=page.evaluate('async path=>(await(await fetch(path)).json())','data/time-nature/'+filename)
+    for sub,filename,count in [('C02-S01','01_时间与钟表.json',52),('C02-S02','02_星期与日期.json',61),('C02-S03','03_月份与四季.json',56),('C02-S04','04_天气与气候.json',51),('C03-S01','01_学习用品.json',43),('C03-S02','02_教室与校园.json',45),('C03-S03','03_学科名称.json',31),('C03-S04','04_课堂常用词.json',79)]:
+     raw=page.evaluate('async path=>(await(await fetch(path)).json())',('data/time-nature/' if sub.startswith('C02') else 'data/school-learning/')+filename)
      assert len(raw['items'])==count
-     page.goto(base+'#words/C02/'+sub);page.locator('.translation-blank').first.wait_for()
+     page.goto(base+'#words/'+sub[:3]+'/'+sub);page.locator('.translation-blank').first.wait_for()
      page.wait_for_function('document.querySelector(".translation-picture img")?.naturalWidth>0')
      word=page.evaluate('(id)=>FROG_WORD_CATALOG.words.find(w=>w.id===id)',sub+'-001')
      assert page.locator('.translation-picture').get_attribute('data-scene-id')==word['id']
@@ -165,11 +166,11 @@ with TemporaryDirectory(prefix='mvp-pages-') as directory:
      page.evaluate("window.packClosed=false;document.querySelector('#lesson-dialog').addEventListener('close',()=>packClosed=true,{once:true})")
      page.locator('.practice-back').click();page.wait_for_function('packClosed')
     page.goto(base+'小蛙自习室.html#words');page.wait_for_selector('.vocab-category')
-    assert page.locator('.vocab-category').count()==(2 if mobile else 8)
+    assert page.locator('.vocab-category').count()==(3 if mobile else 8)
     assert not errors,errors
     print(f'PASS: extracted ZIP {"phone" if mobile else "desktop"}, subdirectory routes, offline UI, original MP3, byte range, compatibility entry and key repeats',flush=True)
     context.close()
    browser.close()
  finally:
   server.shutdown();server.server_close()
-print('COMPLETE: existing deployment ZIP passed structural, 1028 MP3 hash and browser checks',flush=True)
+print('COMPLETE: existing deployment ZIP passed structural, 1387 MP3 hash and browser checks',flush=True)

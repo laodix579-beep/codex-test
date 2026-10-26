@@ -8659,6 +8659,3237 @@
       "intonation": "fall",
       "sha256": "0f8e542b5bd5b68ac8ab5d9e05855d40fedbdff2711618c89238d1593e7ac61d",
       "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "schoolbag",
+      "text": "schoolbag",
+      "style": "word",
+      "path": "audio/en-us/school/word/schoolbag.mp3",
+      "intonation": "neutral",
+      "sha256": "0a5b7099d5edd12d0a2196917a97ef82e5556fdbc88903574c91693a52fc7a20",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "my schoolbag is blue",
+      "text": "My schoolbag is blue.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/my-schoolbag-is-blue.mp3",
+      "intonation": "fall",
+      "sha256": "aaaff8834b78d7cb57ee3829bb20983105c1e84c83046d15a652301496d6161c",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "i write with a pencil",
+      "text": "I write with a pencil.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/i-write-with-a-pencil.mp3",
+      "intonation": "fall",
+      "sha256": "fbfd9cee53396c3d991851b1ebf7e91835a94d8aeaf14db5acac303be128a452",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "this pen is new",
+      "text": "This pen is new.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/this-pen-is-new.mp3",
+      "intonation": "fall",
+      "sha256": "3fccb5ff0e496f120e36940ab7f633507fb7a6b4acd0ac4159f3f03730d554d7",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "pencil case",
+      "text": "pencil case",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/pencil-case.mp3",
+      "intonation": "fall",
+      "sha256": "03666f4ea5f7a59cbd0b1c6ee471b7538544ca1502f90d490d2da3f94d5b1f36",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "my pens are in the pencil case",
+      "text": "My pens are in the pencil case.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/my-pens-are-in-the-pencil-case.mp3",
+      "intonation": "fall",
+      "sha256": "43567aee4a0f50f13ac05b96b8fcb3fa2fae90506a01da5fbd4fbe6efed02790",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "pencil sharpener",
+      "text": "pencil sharpener",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/pencil-sharpener.mp3",
+      "intonation": "fall",
+      "sha256": "fa390b840fb07b8d5f67b47435fcd788fdf9bbec501e23b60c9eb23bf4e65fed",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "i need a pencil sharpener",
+      "text": "I need a pencil sharpener.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/i-need-a-pencil-sharpener.mp3",
+      "intonation": "fall",
+      "sha256": "ce57664d0c4eb9c11c52200fd5de2e159eb628ad94bc538fc2a2c5cbc4f667ef",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "rubber",
+      "text": "rubber",
+      "style": "word",
+      "path": "audio/en-us/school/word/rubber.mp3",
+      "intonation": "neutral",
+      "sha256": "9513dec818faf72d2321a62abe054466710f75f48b9f8bf1990824601ce685eb",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "can i borrow your rubber",
+      "text": "Can I borrow your rubber?",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/can-i-borrow-your-rubber.mp3",
+      "intonation": "rise",
+      "sha256": "277d694ca0a9c0c7a16de4d92dd4e84fb9c280bcafd5339fa0ae28b280b4a2fd",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "use a ruler to draw a line",
+      "text": "Use a ruler to draw a line.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/use-a-ruler-to-draw-a-line.mp3",
+      "intonation": "fall",
+      "sha256": "4ea9928e301a33b8f9a3a60b58b09e2229e77af67236bf10d8031f0a49de544f",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "scissors",
+      "text": "scissors",
+      "style": "word",
+      "path": "audio/en-us/school/word/scissors.mp3",
+      "intonation": "neutral",
+      "sha256": "255f4cb94e949f0ffed757f3e9c6111694afc1740ef790603e0baf5e95ce4d4a",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "be careful with the scissors",
+      "text": "Be careful with the scissors.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/be-careful-with-the-scissors.mp3",
+      "intonation": "fall",
+      "sha256": "c3be5d7439b18441af0617744fd6147a06e9d2af3ef60194b4e6d851170261ea",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "glue",
+      "text": "glue",
+      "style": "word",
+      "path": "audio/en-us/school/word/glue.mp3",
+      "intonation": "neutral",
+      "sha256": "b6e089da8ec8bd00a1d462dcdfb2244f1fcb264fad8afe54a60b443b4c65b0ae",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "use glue to stick the paper",
+      "text": "Use glue to stick the paper.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/use-glue-to-stick-the-paper.mp3",
+      "intonation": "fall",
+      "sha256": "ee47da38ee148d4dd430c763c9e842f8be3bb9a71c011297c1c9c8916a81c632",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "glue stick",
+      "text": "glue stick",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/glue-stick.mp3",
+      "intonation": "fall",
+      "sha256": "d1bf6db42778f5ae4162b1079d70a749ee69d0b07556f1458480f1925b7debc9",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "i have a glue stick",
+      "text": "I have a glue stick.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/i-have-a-glue-stick.mp3",
+      "intonation": "fall",
+      "sha256": "b35fd1dade9d2cc776272264f11772084ef27f56dab4eb7aad8bb5665eaf57c0",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "tape",
+      "text": "tape",
+      "style": "word",
+      "path": "audio/en-us/school/word/tape.mp3",
+      "intonation": "neutral",
+      "sha256": "192f9fe259e1032d6c887058a2d4c129b8b30311e4ec400756c3bef4f3cd0637",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "use tape to fix the paper",
+      "text": "Use tape to fix the paper.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/use-tape-to-fix-the-paper.mp3",
+      "intonation": "fall",
+      "sha256": "a80e804a9c47465f182bccc5356dd8d0d33166d1a67b8b818998e9d6293f5c5e",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "paper",
+      "text": "paper",
+      "style": "word",
+      "path": "audio/en-us/school/word/paper.mp3",
+      "intonation": "neutral",
+      "sha256": "df30230bd50795cfba88140007f15b183420793490301b3a9d912e673ae6c66d",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "please give me a piece of paper",
+      "text": "Please give me a piece of paper.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/please-give-me-a-piece-of-paper.mp3",
+      "intonation": "fall",
+      "sha256": "637be2d06022d86b55173f3a6f8b234dbb5fb4c477f73f2ee37371e5e31b9f2d",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "notebook",
+      "text": "notebook",
+      "style": "word",
+      "path": "audio/en-us/school/word/notebook.mp3",
+      "intonation": "neutral",
+      "sha256": "9543b95e124fdb1eafba21b51f3b3517c754a99b4ad55fe9e95cbf57730ae3f2",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "i write new words in my notebook",
+      "text": "I write new words in my notebook.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/i-write-new-words-in-my-notebook.mp3",
+      "intonation": "fall",
+      "sha256": "5916f74bbe31e1634b51fcdd035dc5a587c713b6e78d78c34c7ff1eaa5d4f19b",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "exercise book",
+      "text": "exercise book",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/exercise-book.mp3",
+      "intonation": "fall",
+      "sha256": "2e16da8fd35e632f92b730d4c7c55eafb52b102d1d41b39f4b79fe8ce3de020c",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "open your exercise book",
+      "text": "Open your exercise book.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/open-your-exercise-book.mp3",
+      "intonation": "fall",
+      "sha256": "f292d82bf470b328eaef00ab35ddddbccc2926836215c0a28b79e35582849f60",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "this is my english book",
+      "text": "This is my English book.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/this-is-my-english-book.mp3",
+      "intonation": "fall",
+      "sha256": "8f513368949b2d9bbd322da4a2733bd3e5ab53c358ab0dcacd0723b238d3fa14",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "textbook",
+      "text": "textbook",
+      "style": "word",
+      "path": "audio/en-us/school/word/textbook.mp3",
+      "intonation": "neutral",
+      "sha256": "bc19fb4da1cc7a53409449841991a9793c26ad4356ac918aaf95548c84c34735",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "bring your maths textbook",
+      "text": "Bring your maths textbook.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/bring-your-maths-textbook.mp3",
+      "intonation": "fall",
+      "sha256": "f88762f81ed958c0bd3049475059c5ecd8feecb5c70e09e8d687ec27763b7017",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "storybook",
+      "text": "storybook",
+      "style": "word",
+      "path": "audio/en-us/school/word/storybook.mp3",
+      "intonation": "neutral",
+      "sha256": "43ad56f4bc53f4d9747248252b110962f0de7e1ea50fe3ca492ae5de56f12999",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "i read a storybook at bedtime",
+      "text": "I read a storybook at bedtime.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/i-read-a-storybook-at-bedtime.mp3",
+      "intonation": "fall",
+      "sha256": "c30075dfe891a5a7a900b19de98a119c96f12ab8019501fc7a31b4c85bd3742f",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "workbook",
+      "text": "workbook",
+      "style": "word",
+      "path": "audio/en-us/school/word/workbook.mp3",
+      "intonation": "neutral",
+      "sha256": "ece71f3d3d22986500768fcf1a6efc1a6eefb7183134fd9a368d9dfd7b9e2aa6",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "finish the workbook at home",
+      "text": "Finish the workbook at home.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/finish-the-workbook-at-home.mp3",
+      "intonation": "fall",
+      "sha256": "071466e9d3ccd870de24065267c7f797b6bbf89e0718fb5da5e0a874be8777bd",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "dictionary",
+      "text": "dictionary",
+      "style": "word",
+      "path": "audio/en-us/school/word/dictionary.mp3",
+      "intonation": "neutral",
+      "sha256": "eb2c2869bf0f6e27b569c5d31e5c25d0381ff570315f48507001ec36555fc5c0",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "look up the word in a dictionary",
+      "text": "Look up the word in a dictionary.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/look-up-the-word-in-a-dictionary.mp3",
+      "intonation": "fall",
+      "sha256": "e0450004359b93018d818bc4bcb579ce52ffd5f8ffd354330aa71872dd3b27d4",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "folder",
+      "text": "folder",
+      "style": "word",
+      "path": "audio/en-us/school/word/folder.mp3",
+      "intonation": "neutral",
+      "sha256": "ec1df8c29be7ba61f732bb7f77544b0cf39a4b7f6d3d05cc8b5a35553f689636",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "keep your papers in the folder",
+      "text": "Keep your papers in the folder.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/keep-your-papers-in-the-folder.mp3",
+      "intonation": "fall",
+      "sha256": "a8ae6d5b7897fca487e3c6d993f78ba19e99a5988cf42f5054cbad071295d167",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "worksheet",
+      "text": "worksheet",
+      "style": "word",
+      "path": "audio/en-us/school/word/worksheet.mp3",
+      "intonation": "neutral",
+      "sha256": "349483a38ae701618c7da0f5b6bd19c74754a61450870ef9c6c1ebd7b5562406",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "complete the worksheet",
+      "text": "Complete the worksheet.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/complete-the-worksheet.mp3",
+      "intonation": "fall",
+      "sha256": "fa748f9b171b5d5ba4a49eece1304bfc3d65ef7cb82ac575b5ff4013444afa0a",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "coloured pencil",
+      "text": "coloured pencil",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/coloured-pencil.mp3",
+      "intonation": "fall",
+      "sha256": "e52c601716c28af49e337693214d1b914b8f425ecef49c0502fb8d926fd93b0c",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "i draw with a coloured pencil",
+      "text": "I draw with a coloured pencil.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/i-draw-with-a-coloured-pencil.mp3",
+      "intonation": "fall",
+      "sha256": "4447ab346377a8898a4cabd58e5e169e9776a741ca9f7b912cf3530c33f98ad4",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "crayon",
+      "text": "crayon",
+      "style": "word",
+      "path": "audio/en-us/school/word/crayon.mp3",
+      "intonation": "neutral",
+      "sha256": "1088765651123374856edf994d1168fe6e7ef74f57494b840c23a33f2db0d8e0",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "the child draws with a crayon",
+      "text": "The child draws with a crayon.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/the-child-draws-with-a-crayon.mp3",
+      "intonation": "fall",
+      "sha256": "b4057382d6a4792c0717c116099f33ca5d3e8fd99fac57c7ac4350fbd9e3a31e",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "marker",
+      "text": "marker",
+      "style": "word",
+      "path": "audio/en-us/school/word/marker.mp3",
+      "intonation": "neutral",
+      "sha256": "f290b929bf8650a5233b9d66b8125fb5cbf30390776d662dd21c617f89c1985a",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "write the title with a marker",
+      "text": "Write the title with a marker.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/write-the-title-with-a-marker.mp3",
+      "intonation": "fall",
+      "sha256": "5b7da986cfcee2f1cf37dd4363ea49fc360b51221f424f1d6cd23bb53a1f5c58",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "felttip pen",
+      "text": "felt-tip pen",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/felttip-pen.mp3",
+      "intonation": "fall",
+      "sha256": "4afb5b665534cdeb17bc4fde75c19a9b0a392b05a34df272ae685f3fe5d0dbb3",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "use a felttip pen to colour the picture",
+      "text": "Use a felt-tip pen to colour the picture.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/use-a-felttip-pen-to-colour-the-picture.mp3",
+      "intonation": "fall",
+      "sha256": "c8ac15ecdf649c5af2f61d990b4307d31ae95d2835ece71d1737a34fc9e3ada3",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "highlighter",
+      "text": "highlighter",
+      "style": "word",
+      "path": "audio/en-us/school/word/highlighter.mp3",
+      "intonation": "neutral",
+      "sha256": "f1ec25f282747e13606a7363f3fba308de90fcc0b052b31cfc77f1cc1eef68df",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "use a highlighter for key words",
+      "text": "Use a highlighter for key words.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/use-a-highlighter-for-key-words.mp3",
+      "intonation": "fall",
+      "sha256": "b5cca957e257f87c4fa0a2281b84c8a60edae1b5fabfe6e680e3967c682e4cdc",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "paintbrush",
+      "text": "paintbrush",
+      "style": "word",
+      "path": "audio/en-us/school/word/paintbrush.mp3",
+      "intonation": "neutral",
+      "sha256": "43141f67fcecb8e0741a9fad4b02ede6b0fbef81db8b3e9b1c8d0f10f73ef586",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "wash your paintbrush after painting",
+      "text": "Wash your paintbrush after painting.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/wash-your-paintbrush-after-painting.mp3",
+      "intonation": "fall",
+      "sha256": "d3b1ee62dc2413e970c9602c7e32feee0bbafe9199c1e2f06faed2764de4188e",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "calculator",
+      "text": "calculator",
+      "style": "word",
+      "path": "audio/en-us/school/word/calculator.mp3",
+      "intonation": "neutral",
+      "sha256": "747b680b8dea1384c2579f91ec827a937334dd7e6a82f1d93d507bff64bc75da",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "use a calculator to check the answer",
+      "text": "Use a calculator to check the answer.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/use-a-calculator-to-check-the-answer.mp3",
+      "intonation": "fall",
+      "sha256": "2537d1cca41ef44b91fc27daa3b2bd7bfb5432d9d8fe5d4c65ccfea04411271e",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "compass",
+      "text": "compass",
+      "style": "word",
+      "path": "audio/en-us/school/word/compass.mp3",
+      "intonation": "neutral",
+      "sha256": "21eb9af420451ec1ad72f0504b8a6063e4a1c564d7dce114ba159d8b82bb137b",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "use a compass to draw a circle",
+      "text": "Use a compass to draw a circle.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/use-a-compass-to-draw-a-circle.mp3",
+      "intonation": "fall",
+      "sha256": "dd5979514a2db53b864dbc50cf7ec436a023a7cbe830a0dbb51932ca6d968e4a",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "protractor",
+      "text": "protractor",
+      "style": "word",
+      "path": "audio/en-us/school/word/protractor.mp3",
+      "intonation": "neutral",
+      "sha256": "646b046d06702f88f5ac2fc413129b48d09bffca42fd86ccea5823f8af5654d1",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "a protractor measures angles",
+      "text": "A protractor measures angles.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/a-protractor-measures-angles.mp3",
+      "intonation": "fall",
+      "sha256": "2cdf56f8ed4c265ec032a2d1ca02d778cbe548e851b46afec6359802bb061e77",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "set square",
+      "text": "set square",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/set-square.mp3",
+      "intonation": "fall",
+      "sha256": "926ad8cc5547d4e38e62065b90c558de9c820718b460ad70ca592d0c73fc5b10",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "use a set square to draw a right angle",
+      "text": "Use a set square to draw a right angle.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/use-a-set-square-to-draw-a-right-angle.mp3",
+      "intonation": "fall",
+      "sha256": "13adaa13b5b85b14bed51d590c94b621a86b576e271b36b2d59e8d057a433bac",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "stapler",
+      "text": "stapler",
+      "style": "word",
+      "path": "audio/en-us/school/word/stapler.mp3",
+      "intonation": "neutral",
+      "sha256": "6e165ee9f50218cd9073895b24146ddacdaebf79750b547a335a92c55de7b024",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "the stapler is on the desk",
+      "text": "The stapler is on the desk.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/the-stapler-is-on-the-desk.mp3",
+      "intonation": "fall",
+      "sha256": "7cdbafb0a303c9f5985dc24902f5feb39325dab48de6d66faa7dc734dcebc5ef",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "paper clip",
+      "text": "paper clip",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/paper-clip.mp3",
+      "intonation": "fall",
+      "sha256": "5f99d72e309b11834ec97b129e46e09c617e73811f30f63d96607c05a08fcc26",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "use a paper clip to hold the pages",
+      "text": "Use a paper clip to hold the pages.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/use-a-paper-clip-to-hold-the-pages.mp3",
+      "intonation": "fall",
+      "sha256": "0bf13cabe8df81f419f7ef51b233b4b44a6cbd024b45926f86bb14002a0e51e0",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "envelope",
+      "text": "envelope",
+      "style": "word",
+      "path": "audio/en-us/school/word/envelope.mp3",
+      "intonation": "neutral",
+      "sha256": "557627c0a5072d1ed24f4dc61f04409a0db01a96607a7b6aa27056009bfb6cf0",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "put the note in an envelope",
+      "text": "Put the note in an envelope.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/put-the-note-in-an-envelope.mp3",
+      "intonation": "fall",
+      "sha256": "d85cc6457d9ced220eb3c98ae198afbe8a598de8ea198cdfc4c17ddd44c4405f",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "label",
+      "text": "label",
+      "style": "word",
+      "path": "audio/en-us/school/word/label.mp3",
+      "intonation": "neutral",
+      "sha256": "d734da954fa666f3a7a15744198a22791c7bbdc3b06df22a32d5473fb5fed1f3",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "write your name on the label",
+      "text": "Write your name on the label.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/write-your-name-on-the-label.mp3",
+      "intonation": "fall",
+      "sha256": "81dd9d6a4849b048d1804213e01d2526ff9821622501856b5880bb1a9ee88497",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "sticky note",
+      "text": "sticky note",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/sticky-note.mp3",
+      "intonation": "fall",
+      "sha256": "07ad244322505dfb3bd59d6056ca3f8b8695974b2cefb24d2243edf26ced76e3",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "write a reminder on a sticky note",
+      "text": "Write a reminder on a sticky note.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/write-a-reminder-on-a-sticky-note.mp3",
+      "intonation": "fall",
+      "sha256": "d9fedd48549a3f9bcb2074cc79bad2256b14c69eb1ceb3558a2bdd4131ac3d87",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "mark the test date on the calendar",
+      "text": "Mark the test date on the calendar.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/mark-the-test-date-on-the-calendar.mp3",
+      "intonation": "fall",
+      "sha256": "d1f079554b7f705e7df3625a8a2eef556589e7a5fff96b20c016a1c441366d33",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "lunch box",
+      "text": "lunch box",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/lunch-box.mp3",
+      "intonation": "fall",
+      "sha256": "5ef05384a26189850f313ec5c7427501107d08a4be45fa4e25b2f57eb6a056b7",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "my lunch box is in my bag",
+      "text": "My lunch box is in my bag.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/my-lunch-box-is-in-my-bag.mp3",
+      "intonation": "fall",
+      "sha256": "d4c174c0993b995f9fa72af3947fd31018e91b377c0af3c166b1a45695d21133",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "water bottle",
+      "text": "water bottle",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/water-bottle.mp3",
+      "intonation": "fall",
+      "sha256": "807cd740b78bcf2919890b5ca68d126ef79cb3a92f117fda35ea9b69b959e624",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "fill your water bottle before school",
+      "text": "Fill your water bottle before school.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/fill-your-water-bottle-before-school.mp3",
+      "intonation": "fall",
+      "sha256": "b9fb4d095cc32c2bd6bb3580a11333aedfa6546e9ee2b21f922cba3abf048f50",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "computer",
+      "text": "computer",
+      "style": "word",
+      "path": "audio/en-us/school/word/computer.mp3",
+      "intonation": "neutral",
+      "sha256": "42c83688f29c8a2533403c43bdc9396eadb0c5b359c60c0b3d74e7ea8724e117",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "we use a computer at school",
+      "text": "We use a computer at school.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/we-use-a-computer-at-school.mp3",
+      "intonation": "fall",
+      "sha256": "4bda9ec857689038636b5c5aee72f01c55eed0fd58692693fee77b758be03e86",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "tablet",
+      "text": "tablet",
+      "style": "word",
+      "path": "audio/en-us/school/word/tablet.mp3",
+      "intonation": "neutral",
+      "sha256": "bca3cb5b9b18d1146950943a0ad1a277dcdf23af3590251f8455fe61022f8831",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "read the story on the tablet",
+      "text": "Read the story on the tablet.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/read-the-story-on-the-tablet.mp3",
+      "intonation": "fall",
+      "sha256": "f916d575ed4231ed6ab4a90c0b21bbfddf3bd493cf87f2b198fd3bd308b2765f",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "headphones",
+      "text": "headphones",
+      "style": "word",
+      "path": "audio/en-us/school/word/headphones.mp3",
+      "intonation": "neutral",
+      "sha256": "c7a0553c87dfbf32ef17bc3c53ec3e4053865b58ee465c78372a292ccd14e9a8",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "put on your headphones and listen",
+      "text": "Put on your headphones and listen.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/put-on-your-headphones-and-listen.mp3",
+      "intonation": "fall",
+      "sha256": "03c87811a53f778cda357633d6bf13016999112617588877a7b7d9cf8b251588",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "school supplies",
+      "text": "school supplies",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/school-supplies.mp3",
+      "intonation": "fall",
+      "sha256": "3824d7cab023c380693a3e7565b3fe4734ec01d107b779e7486140900097f919",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "i need to buy school supplies",
+      "text": "I need to buy school supplies.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/i-need-to-buy-school-supplies.mp3",
+      "intonation": "fall",
+      "sha256": "87ca11902ee3a408b1f2771c5f1113156b734d9a7d6cbed5f56ef87a52b96468",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "my school is near my home",
+      "text": "My school is near my home.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/my-school-is-near-my-home.mp3",
+      "intonation": "fall",
+      "sha256": "e74ad0708c5866d6872ecb84714bbce7cd7265dde16396bce033954a30022e52",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "our classroom is bright",
+      "text": "Our classroom is bright.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/our-classroom-is-bright.mp3",
+      "intonation": "fall",
+      "sha256": "da76db61ae2eff6ce16099de40dc931e89ed5a4d67936fe82914b263d9448785",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "our class starts at nine",
+      "text": "Our class starts at nine.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/our-class-starts-at-nine.mp3",
+      "intonation": "fall",
+      "sha256": "e45ee9afa49086ab50634fbbb4acac77ac1654aa296d7762f2faaeae3f896ea1",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "school building",
+      "text": "school building",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/school-building.mp3",
+      "intonation": "fall",
+      "sha256": "53d8f2b316376492812aa15a3aa7ad9a79fd866a2ddac733eb75c8c3b3e1f163",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "the school building is large",
+      "text": "The school building is large.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/the-school-building-is-large.mp3",
+      "intonation": "fall",
+      "sha256": "b4c6beb5a13f5a5533b7f27e4630ef73cf7b1608b382734a48488e8caba502b3",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "school gate",
+      "text": "school gate",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/school-gate.mp3",
+      "intonation": "fall",
+      "sha256": "c62015a575f6ac041118467b41b0a127216a617e18f9a0e4559e1f519e1e7a73",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "meet me at the school gate",
+      "text": "Meet me at the school gate.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/meet-me-at-the-school-gate.mp3",
+      "intonation": "fall",
+      "sha256": "8729d7d2eba792ab8cf042b5b0342aee99ae60690a0b58f7292348705b60ffe0",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "playground",
+      "text": "playground",
+      "style": "word",
+      "path": "audio/en-us/school/word/playground.mp3",
+      "intonation": "neutral",
+      "sha256": "20c35771b5d80e6c6f5ca26598cc12c14023ef6d6f3b818575c0745b09cdc329",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "we run on the playground",
+      "text": "We run on the playground.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/we-run-on-the-playground.mp3",
+      "intonation": "fall",
+      "sha256": "57a4a88721ee3100f4589c305a965151afcd6b17a3a21424d58b2122a930d6ea",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "school hall",
+      "text": "school hall",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/school-hall.mp3",
+      "intonation": "fall",
+      "sha256": "e2ae31fb406bfead0c035e6cef41fc66005b42edf2dd5710b9a69880e20dfccb",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "we meet in the school hall",
+      "text": "We meet in the school hall.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/we-meet-in-the-school-hall.mp3",
+      "intonation": "fall",
+      "sha256": "3ae4cfd45724b01ba8daf43349155b9ed971c2240e8dddba52e4b030b8e2eb2c",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "library",
+      "text": "library",
+      "style": "word",
+      "path": "audio/en-us/school/word/library.mp3",
+      "intonation": "neutral",
+      "sha256": "e0217173bd69771a7e4d291e940d1ec91b7fb178c18f157ca5d0d6b144108392",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "i borrow books from the library",
+      "text": "I borrow books from the library.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/i-borrow-books-from-the-library.mp3",
+      "intonation": "fall",
+      "sha256": "a32565a712e36c09e1db801dccde096a96e935143ffc4d9978f7ccfe742c9eb7",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "computer room",
+      "text": "computer room",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/computer-room.mp3",
+      "intonation": "fall",
+      "sha256": "de06c98a684caba8766f9c5d900c159fa3e176e4eb65768a0c0caefac063dd47",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "we learn typing in the computer room",
+      "text": "We learn typing in the computer room.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/we-learn-typing-in-the-computer-room.mp3",
+      "intonation": "fall",
+      "sha256": "3c580af66d6faa0ba6bfcbce12064042f22e97d18ae0af9a6d43807dfef2298b",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "science lab",
+      "text": "science lab",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/science-lab.mp3",
+      "intonation": "fall",
+      "sha256": "d10e118bda2ea5cc970a7b5ba82736beb510b8d4d0e676154428508c3b5f82d2",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "the science lab has microscopes",
+      "text": "The science lab has microscopes.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/the-science-lab-has-microscopes.mp3",
+      "intonation": "fall",
+      "sha256": "443fd21e8419dab3602865a3cfff4725a6898dcbd0be5ccb3a179ca049b7d495",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "art room",
+      "text": "art room",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/art-room.mp3",
+      "intonation": "fall",
+      "sha256": "3be3fa5303f11472147dd4cadda966e8687e307f005c2029e8468008b0bf8cf1",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "we paint in the art room",
+      "text": "We paint in the art room.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/we-paint-in-the-art-room.mp3",
+      "intonation": "fall",
+      "sha256": "1d8fbd3e00c0b36f689bc5d5e321706b0051e80b5c54bf143b3e12dd4e515f89",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "music room",
+      "text": "music room",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/music-room.mp3",
+      "intonation": "fall",
+      "sha256": "4f78117295f2ca8cc8fc6e2390b8d0d765a52fe6ab88b3bb4be8fc13fe22018e",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "the piano is in the music room",
+      "text": "The piano is in the music room.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/the-piano-is-in-the-music-room.mp3",
+      "intonation": "fall",
+      "sha256": "0030d9d96756aac772ff750f9f43f87e782163eeb3cd7927a013e42d254710b8",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "staff room",
+      "text": "staff room",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/staff-room.mp3",
+      "intonation": "fall",
+      "sha256": "2713e617aeb3984ff95b0d30fea648b3bb7473bf03f9f19a566cace58bbe3b46",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "teachers meet in the staff room",
+      "text": "Teachers meet in the staff room.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/teachers-meet-in-the-staff-room.mp3",
+      "intonation": "fall",
+      "sha256": "d156f17ffb372a6b65dcc3e6a5912795ecdfc72d316a0a382b9c9b5ed9bf3d05",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "office",
+      "text": "office",
+      "style": "word",
+      "path": "audio/en-us/school/word/office.mp3",
+      "intonation": "neutral",
+      "sha256": "25954853e2407cbce230057c7cb788e5a968a8748b2198812b73132a16c57946",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "please take this note to the office",
+      "text": "Please take this note to the office.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/please-take-this-note-to-the-office.mp3",
+      "intonation": "fall",
+      "sha256": "14fea19980f4df7f58c47820c5dfdf92eea4888bfb6308f8d165df0e0064a71c",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "canteen",
+      "text": "canteen",
+      "style": "word",
+      "path": "audio/en-us/school/word/canteen.mp3",
+      "intonation": "neutral",
+      "sha256": "78f77796a25a8a913807eb0d2c420fde59885fad9290714aa0b33bb0551cd638",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "we eat lunch in the canteen",
+      "text": "We eat lunch in the canteen.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/we-eat-lunch-in-the-canteen.mp3",
+      "intonation": "fall",
+      "sha256": "432699c9451b527b7eb7cd920a2e5f52768d6d91e6a8cbfa0d868aedf96a492c",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "toilet",
+      "text": "toilet",
+      "style": "word",
+      "path": "audio/en-us/school/word/toilet.mp3",
+      "intonation": "neutral",
+      "sha256": "41c74bb9e3e9bbc5f492761b748340c12df4c05d00dcd81804a4818f98481b6f",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "may i go to the toilet",
+      "text": "May I go to the toilet?",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/may-i-go-to-the-toilet.mp3",
+      "intonation": "rise",
+      "sha256": "ff25dac7badb76bb24cdb6345e93735cbcd9d834e18da6d9cfb6acfd9dd0698d",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "washroom",
+      "text": "washroom",
+      "style": "word",
+      "path": "audio/en-us/school/word/washroom.mp3",
+      "intonation": "neutral",
+      "sha256": "e7f6dde5f33c5d6daf9726e629486f0ac679cabd86cfd37d887ae20673a088c4",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "the washroom is near the hall",
+      "text": "The washroom is near the hall.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/the-washroom-is-near-the-hall.mp3",
+      "intonation": "fall",
+      "sha256": "f6583951ec7c8779abd8992a8afdccfcc9b1e27036c3ca79fdb3eddc80f3da71",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "corridor",
+      "text": "corridor",
+      "style": "word",
+      "path": "audio/en-us/school/word/corridor.mp3",
+      "intonation": "neutral",
+      "sha256": "d8eb0306f0614cad7945d2731f7f7b379c63c9898a0a102de3ecde5d6ae62610",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "walk quietly along the corridor",
+      "text": "Walk quietly along the corridor.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/walk-quietly-along-the-corridor.mp3",
+      "intonation": "fall",
+      "sha256": "55fa4d0d64180de4cbe4bdc53ef5cc1c2d182965c848a89d75fde2bfbf13bfd6",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "stairs",
+      "text": "stairs",
+      "style": "word",
+      "path": "audio/en-us/school/word/stairs.mp3",
+      "intonation": "neutral",
+      "sha256": "f2048c42a45299197aecab6f3e8e7f83e3d28c9a7e3331c6e9fc0d686d436141",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "be careful on the stairs",
+      "text": "Be careful on the stairs.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/be-careful-on-the-stairs.mp3",
+      "intonation": "fall",
+      "sha256": "52968bce83ac9a03d95d8b4c3b27c60500c4777003642361804a1c4d5c058a2d",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "entrance",
+      "text": "entrance",
+      "style": "word",
+      "path": "audio/en-us/school/word/entrance.mp3",
+      "intonation": "neutral",
+      "sha256": "3fa81ff9590f39f0c315185f66fe5df3ce192bc9a61eed4096e73a0c93ad3f8c",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "the entrance is on the left",
+      "text": "The entrance is on the left.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/the-entrance-is-on-the-left.mp3",
+      "intonation": "fall",
+      "sha256": "d0f27cc7464e0fa328a62fe781178a5718c1cdb2df1d387a0d4b4415750e63a6",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "exit",
+      "text": "exit",
+      "style": "word",
+      "path": "audio/en-us/school/word/exit.mp3",
+      "intonation": "neutral",
+      "sha256": "c399cc39ac619f2ff81fa79434843273a94bcdce5882a31dacdeba7e21dcbddd",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "follow the sign to the exit",
+      "text": "Follow the sign to the exit.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/follow-the-sign-to-the-exit.mp3",
+      "intonation": "fall",
+      "sha256": "f1ea890d97249e9301bd602ba78bc8f16cb96c73f28f5b5d110945e1ef6a796a",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "school garden",
+      "text": "school garden",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/school-garden.mp3",
+      "intonation": "fall",
+      "sha256": "5cdb642c22cc0ec53affabc8244faf3e9b8fad6b6de0fc1dcf9a88159526a2fc",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "we grow flowers in the school garden",
+      "text": "We grow flowers in the school garden.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/we-grow-flowers-in-the-school-garden.mp3",
+      "intonation": "fall",
+      "sha256": "bea3d717cbd00348214ded3f8e2c66993ad2fdf7c37cfae582774ff34d6ccb90",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "school bus",
+      "text": "school bus",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/school-bus.mp3",
+      "intonation": "fall",
+      "sha256": "7a38a8da2f16768bcab24de9c58d8f1be958ae3209e7fda503d4ef64a2772a9a",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "i take the school bus every morning",
+      "text": "I take the school bus every morning.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/i-take-the-school-bus-every-morning.mp3",
+      "intonation": "fall",
+      "sha256": "26a5bb0d05f32ea4f8c382ea0a8828add940c7b025216902a2f4b2e7cdb22c10",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "noticeboard",
+      "text": "noticeboard",
+      "style": "word",
+      "path": "audio/en-us/school/word/noticeboard.mp3",
+      "intonation": "neutral",
+      "sha256": "2db96ef77cf548a37799fef9878aa986f0735b2779a3eba7f898122b273bbee7",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "the timetable is on the noticeboard",
+      "text": "The timetable is on the noticeboard.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/the-timetable-is-on-the-noticeboard.mp3",
+      "intonation": "fall",
+      "sha256": "1afe69dfa7ea513cf7c6a6779a0e826f49473d93bf427c2015c7ba072a0eb5f9",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "display board",
+      "text": "display board",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/display-board.mp3",
+      "intonation": "fall",
+      "sha256": "8b665d2395046ad7fdf7a7fac940323905b6b947d3704f541ef9d4e3121407a3",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "our pictures are on the display board",
+      "text": "Our pictures are on the display board.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/our-pictures-are-on-the-display-board.mp3",
+      "intonation": "fall",
+      "sha256": "140f9788952029310fe03d909813987d4fb690d4499410d46e2fa5bf6f537237",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "whiteboard",
+      "text": "whiteboard",
+      "style": "word",
+      "path": "audio/en-us/school/word/whiteboard.mp3",
+      "intonation": "neutral",
+      "sha256": "50245ef37c636bbbc253720b56d1ffa32a21890fd3b7efb21cec7c7dcfc93983",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "the teacher writes on the whiteboard",
+      "text": "The teacher writes on the whiteboard.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/the-teacher-writes-on-the-whiteboard.mp3",
+      "intonation": "fall",
+      "sha256": "31d32a9846e2ba3fc9c91252f23fbe444125ab73c16f24d601d0433043c0642b",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "blackboard",
+      "text": "blackboard",
+      "style": "word",
+      "path": "audio/en-us/school/word/blackboard.mp3",
+      "intonation": "neutral",
+      "sha256": "c1a6b72fd450f960f50acf26fd220b2a753ad697fd547edaa3da17bc147dadf4",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "the answer is on the blackboard",
+      "text": "The answer is on the blackboard.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/the-answer-is-on-the-blackboard.mp3",
+      "intonation": "fall",
+      "sha256": "ad505743622e5c1a0a4afe85ff3fa516814239308a899ae5260233b45d5ba6b9",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "my book is on the desk",
+      "text": "My book is on the desk.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/my-book-is-on-the-desk.mp3",
+      "intonation": "fall",
+      "sha256": "e9f5c00b3412e989df560c2486e619ff7b2a9785304eefd5a42b5e52d3eb8fc4",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "please sit on your chair",
+      "text": "Please sit on your chair.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/please-sit-on-your-chair.mp3",
+      "intonation": "fall",
+      "sha256": "9a6dbc56a61bff54a3dd73fca218786034d4b8a7ae118b760694fc47fe3060f0",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "teacher's desk",
+      "text": "teacher's desk",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/teacher-s-desk.mp3",
+      "intonation": "fall",
+      "sha256": "150952d4accb23e9d74e7c10dfd6d3bf5d27f0cde42d68979cb80e4d53561669",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "the register is on the teacher's desk",
+      "text": "The register is on the teacher's desk.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/the-register-is-on-the-teacher-s-desk.mp3",
+      "intonation": "fall",
+      "sha256": "74fbc47e8f933ec0ba29344bc94dfb605ff7bdd24a8d1765e8c8dc0d1db4e87d",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "bin",
+      "text": "bin",
+      "style": "word",
+      "path": "audio/en-us/school/word/bin.mp3",
+      "intonation": "neutral",
+      "sha256": "43f82b69dc5624f4701154faf4191d8f9e3de3427475dbae235525de0e9e2e09",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "put the paper in the bin",
+      "text": "Put the paper in the bin.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/put-the-paper-in-the-bin.mp3",
+      "intonation": "fall",
+      "sha256": "8555c09392f4a258e10bc13e9210f920bb9c37c79551b969ac877c60aec08feb",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "the clock is above the door",
+      "text": "The clock is above the door.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/the-clock-is-above-the-door.mp3",
+      "intonation": "fall",
+      "sha256": "f494c2135010a2ef70c0bed3ccfb4d8461ef0641b14af8bada0c7ed03d9fd74b",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "window",
+      "text": "window",
+      "style": "word",
+      "path": "audio/en-us/school/word/window.mp3",
+      "intonation": "neutral",
+      "sha256": "85648d86749a7b3bc58c2952f377ff9368430914811d61cfe244185eff9bb3a4",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "open the window please",
+      "text": "Open the window, please.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/open-the-window-please.mp3",
+      "intonation": "fall",
+      "sha256": "85adcd85af0e9b5b0844bdc0edbbd71c522a835f938008661a490afef762c7d3",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "door",
+      "text": "door",
+      "style": "word",
+      "path": "audio/en-us/school/word/door.mp3",
+      "intonation": "neutral",
+      "sha256": "7228a0b1c7029843be7a685c8c3f925a3f1d30aaec8652bc024752bccb9b0b29",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "close the door quietly",
+      "text": "Close the door quietly.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/close-the-door-quietly.mp3",
+      "intonation": "fall",
+      "sha256": "1cf2221667b07e29343b0549a288bd22245c7cb15b1ea153f0f57a5fea3ad33f",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "floor",
+      "text": "floor",
+      "style": "word",
+      "path": "audio/en-us/school/word/floor.mp3",
+      "intonation": "neutral",
+      "sha256": "d01cdc58f0c71a01877980b2e0423ae093f6e706333e376747c64e66a6ffceca",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "keep the floor clean",
+      "text": "Keep the floor clean.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/keep-the-floor-clean.mp3",
+      "intonation": "fall",
+      "sha256": "714b648080155243546abd382c925de626da2fb4b2d3d8d30bf8f40280e6fa6f",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "wall",
+      "text": "wall",
+      "style": "word",
+      "path": "audio/en-us/school/word/wall.mp3",
+      "intonation": "neutral",
+      "sha256": "bb1e479f057f91b79f08759be342a29f845ca20b12051e3d89eb8ba06f2f09d3",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "there is a map on the wall",
+      "text": "There is a map on the wall.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/there-is-a-map-on-the-wall.mp3",
+      "intonation": "fall",
+      "sha256": "9583c713f8eca61b44d9b8bf3049bbc51384cc530c6427180b8428b9b2f192fd",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "locker",
+      "text": "locker",
+      "style": "word",
+      "path": "audio/en-us/school/word/locker.mp3",
+      "intonation": "neutral",
+      "sha256": "6a70304a45a091020f11433454ea94f4684089ac515c00ae2a560fb850864170",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "my pe kit is in the locker",
+      "text": "My PE kit is in the locker.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/my-pe-kit-is-in-the-locker.mp3",
+      "intonation": "fall",
+      "sha256": "952cc36f735d5448607dde802f39a383f4434919c2f65ea3324bb81530b38ab3",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "coat hook",
+      "text": "coat hook",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/coat-hook.mp3",
+      "intonation": "fall",
+      "sha256": "4ce053e390f56ae0531c2461d9202ad2f430cf20958f93cc0070cb13e5d9e575",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "hang your coat on the coat hook",
+      "text": "Hang your coat on the coat hook.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/hang-your-coat-on-the-coat-hook.mp3",
+      "intonation": "fall",
+      "sha256": "2dedc4d9aa5f3f4eb0d893525c0f969ce0adbe1f03ac58c49bba073c7d01906a",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "school uniform",
+      "text": "school uniform",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/school-uniform.mp3",
+      "intonation": "fall",
+      "sha256": "c8643328aa1fed0c28ad667bda69c17740430e5ed06988d56f57cdb5063337a2",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "we wear our school uniform on monday",
+      "text": "We wear our school uniform on Monday.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/we-wear-our-school-uniform-on-monday.mp3",
+      "intonation": "fall",
+      "sha256": "946028f4ddf57b1807376ee4fe93a52f4510a71d7d9b9d40c4152413ad438709",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "student",
+      "text": "student",
+      "style": "word",
+      "path": "audio/en-us/school/word/student.mp3",
+      "intonation": "neutral",
+      "sha256": "ec2c4061eb1213ec5de0a15c5171429ad51d007ce721f53c5c3b8cb7d4861907",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "every student has a book",
+      "text": "Every student has a book.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/every-student-has-a-book.mp3",
+      "intonation": "fall",
+      "sha256": "408efe5b3d469e0e80a55cd4f22ceebed7a9696feac15b35d2e9f728eb88a434",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "pupil",
+      "text": "pupil",
+      "style": "word",
+      "path": "audio/en-us/school/word/pupil.mp3",
+      "intonation": "neutral",
+      "sha256": "1618b259b1256c1efeac4790ba061c22c07d8e515558cbb3938b9d58f25f56d7",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "each pupil has a reading book",
+      "text": "Each pupil has a reading book.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/each-pupil-has-a-reading-book.mp3",
+      "intonation": "fall",
+      "sha256": "e722582b8758c33b5b11cf11a986b748d7e61117527d8607f46d5ffb879e9264",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "our teacher is kind",
+      "text": "Our teacher is kind.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/our-teacher-is-kind.mp3",
+      "intonation": "fall",
+      "sha256": "1232fce8024a38a6625806540b6d10e721f1ad94637da9be3070ad37c9286e3d",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "head teacher",
+      "text": "head teacher",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/head-teacher.mp3",
+      "intonation": "fall",
+      "sha256": "39ada7e17f98aa6ab668b1100a08da43cad1e2d64d406c888ab22c54e04c7ed9",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "the head teacher speaks to the class",
+      "text": "The head teacher speaks to the class.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/the-head-teacher-speaks-to-the-class.mp3",
+      "intonation": "fall",
+      "sha256": "e719fe8d21f0509106aa2462d5e29aa79535349af297e5b62729c8fca8b60caa",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "classmate",
+      "text": "classmate",
+      "style": "word",
+      "path": "audio/en-us/school/word/classmate.mp3",
+      "intonation": "neutral",
+      "sha256": "a4a73e8b169f2a6912afdf91fb556e60c4031dc3665002f836c7ad12485eb8e8",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "my classmate sits next to me",
+      "text": "My classmate sits next to me.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/my-classmate-sits-next-to-me.mp3",
+      "intonation": "fall",
+      "sha256": "bec2174694afd0c144e121b1aa265b2298c61f6635da4000c8b5a4e7097f8707",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "school friend",
+      "text": "school friend",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/school-friend.mp3",
+      "intonation": "fall",
+      "sha256": "dd6d8f109ee4fb9924a22027c10241db32eab41a5bec1a7fa98a00473b1325fc",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "i play with my school friend",
+      "text": "I play with my school friend.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/i-play-with-my-school-friend.mp3",
+      "intonation": "fall",
+      "sha256": "a1f95d792f9b159fc5459423a602b5893d9e3ada7686e3cf36b56e9238595e7c",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "subject",
+      "text": "subject",
+      "style": "word",
+      "path": "audio/en-us/school/word/subject.mp3",
+      "intonation": "neutral",
+      "sha256": "e7a60f0dd0ea7ed1123616887d7f498b5893c3f61f9c247ddc0e14837eef1dd5",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "what is your favourite subject",
+      "text": "What is your favourite subject?",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/what-is-your-favourite-subject.mp3",
+      "intonation": "fall",
+      "sha256": "2d1cc808e738e1a99b1e3772ab689e02d464d3b438140a552ec76c34f464b332",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "we read stories in english",
+      "text": "We read stories in English.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/we-read-stories-in-english.mp3",
+      "intonation": "fall",
+      "sha256": "daf7bd4a9829025841641bb8af5c39eab43feece7c94c300fee33b96a1d02b75",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "maths",
+      "text": "maths",
+      "style": "word",
+      "path": "audio/en-us/school/word/maths.mp3",
+      "intonation": "neutral",
+      "sha256": "a7bea881aee827c763a71e5c0b58a3df81d0a0f4168d98409b7bb37d7e2a11f3",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "i like maths",
+      "text": "I like maths.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/i-like-maths.mp3",
+      "intonation": "fall",
+      "sha256": "5339b4748303333e76402d35c107d1dd5b4302b52923583fa30ff5ad746a9fd0",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "science",
+      "text": "science",
+      "style": "word",
+      "path": "audio/en-us/school/word/science.mp3",
+      "intonation": "neutral",
+      "sha256": "75ebcee8236c26aad1f811feebfffd5cbe9ecad9ec8b6fea349809fb1106f48e",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "we learn about plants in science",
+      "text": "We learn about plants in science.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/we-learn-about-plants-in-science.mp3",
+      "intonation": "fall",
+      "sha256": "62624438b1c1d7f13884cddaedd4865500962e0af401f343bc007521f649cf0f",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "art",
+      "text": "art",
+      "style": "word",
+      "path": "audio/en-us/school/word/art.mp3",
+      "intonation": "neutral",
+      "sha256": "744d615409953a39fe158817a7382e39f7c78c0b9d761ce42982a535dc7ad43a",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "we draw pictures in art",
+      "text": "We draw pictures in art.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/we-draw-pictures-in-art.mp3",
+      "intonation": "fall",
+      "sha256": "44b9db04e5ee35a1173eb5bbd49b9d96e7eb996875236d48757c6e8c68aaffa7",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "music",
+      "text": "music",
+      "style": "word",
+      "path": "audio/en-us/school/word/music.mp3",
+      "intonation": "neutral",
+      "sha256": "e881785845804462eb312c912178576f1dffed8a34566c0941ca68d32b5e2a8c",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "we sing songs in music",
+      "text": "We sing songs in music.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/we-sing-songs-in-music.mp3",
+      "intonation": "fall",
+      "sha256": "c994ab5889f14d0658a1085d3871bb42fc77836b448da873da413999a44a9bba",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "pe",
+      "text": "PE",
+      "style": "word",
+      "path": "audio/en-us/school/word/pe.mp3",
+      "intonation": "neutral",
+      "sha256": "bff76f6e41515662cc328239a5cebd80b2734f5d05a600e638111c85b2adca1d",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "we play games in pe",
+      "text": "We play games in PE.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/we-play-games-in-pe.mp3",
+      "intonation": "fall",
+      "sha256": "414452cb0c6ce0bb58c947ab9955525d8cff8798c3a42b929f2cc56104057a66",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "physical education",
+      "text": "physical education",
+      "style": "word",
+      "path": "audio/en-us/school/word/physical-education.mp3",
+      "intonation": "neutral",
+      "sha256": "0ebd4570f167c947ab4081cd339b01e0b02ca546c1773ecfd103ed704d8e6b78",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "physical education helps us stay active",
+      "text": "Physical education helps us stay active.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/physical-education-helps-us-stay-active.mp3",
+      "intonation": "fall",
+      "sha256": "9183e4bb81830d8e9f0d483923be17e4f5a49343d880f6f1c49cb8cf5cab60d9",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "history",
+      "text": "history",
+      "style": "word",
+      "path": "audio/en-us/school/word/history.mp3",
+      "intonation": "neutral",
+      "sha256": "de53b86e50f7d9eaaaa7fdfaa426df6b91c4642b5e586635ac6442d972883ed9",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "we learn about the past in history",
+      "text": "We learn about the past in history.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/we-learn-about-the-past-in-history.mp3",
+      "intonation": "fall",
+      "sha256": "5b6c2d53d7111ccf2fb54096d9cd74bc0dbe2b1556a182674d81d1efb34fbdfc",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "geography",
+      "text": "geography",
+      "style": "word",
+      "path": "audio/en-us/school/word/geography.mp3",
+      "intonation": "neutral",
+      "sha256": "b4c71f7ca41bad5c638b3ed75a7a3ce07b2c23f9a56a68c4ad1fad95ae6bdc4e",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "we learn about maps in geography",
+      "text": "We learn about maps in geography.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/we-learn-about-maps-in-geography.mp3",
+      "intonation": "fall",
+      "sha256": "e567645d820eb1e02e0a0a41a743b7feca336e15951b6cac9e37513ffcbdfc34",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "computing",
+      "text": "computing",
+      "style": "word",
+      "path": "audio/en-us/school/word/computing.mp3",
+      "intonation": "neutral",
+      "sha256": "54de8bb19b759d7893d7af6547ce10a2509f35700dff2a9d749206466c065f2e",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "we learn coding in computing",
+      "text": "We learn coding in computing.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/we-learn-coding-in-computing.mp3",
+      "intonation": "fall",
+      "sha256": "75e2360cd4355c7b6182cb8cae55c514ab89cfe8717cedbe6529626377375599",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "computer studies",
+      "text": "computer studies",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/computer-studies.mp3",
+      "intonation": "fall",
+      "sha256": "e1376e8c1422bcac56b287afdf2a195b6064ad576b2988349a26838c850caa12",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "computer studies is on tuesday",
+      "text": "Computer studies is on Tuesday.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/computer-studies-is-on-tuesday.mp3",
+      "intonation": "fall",
+      "sha256": "fe5a94fc3ab170f6d4f026dd39d720928ea726c11d00d39bf2164548eb3cdf98",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "drama",
+      "text": "drama",
+      "style": "word",
+      "path": "audio/en-us/school/word/drama.mp3",
+      "intonation": "neutral",
+      "sha256": "c61759e8817c8c9058f0b9e716b8d80054a0aa1bed0f7f769ade0a778722439d",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "we act out a story in drama",
+      "text": "We act out a story in drama.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/we-act-out-a-story-in-drama.mp3",
+      "intonation": "fall",
+      "sha256": "37e53392a1571e5a0697e165d1ff18a0a663e83f3f3f81b79d7cd4a6e11236fb",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "dance",
+      "text": "dance",
+      "style": "word",
+      "path": "audio/en-us/school/word/dance.mp3",
+      "intonation": "neutral",
+      "sha256": "e6fdb7cde1bd26773450a592edb32d303b37b0cd97d051116e0350240e898028",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "we learn a dance at school",
+      "text": "We learn a dance at school.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/we-learn-a-dance-at-school.mp3",
+      "intonation": "fall",
+      "sha256": "d53ae98a8712a791ef32e8a4b7d2a234299980cd1517e3a30a534c35f7d17588",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "religious education",
+      "text": "religious education",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/religious-education.mp3",
+      "intonation": "fall",
+      "sha256": "149743df075645dfcd81a5c0e70fbd86410b1fe48a272c999cca1f9eb4adb19e",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "religious education is on the timetable",
+      "text": "Religious education is on the timetable.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/religious-education-is-on-the-timetable.mp3",
+      "intonation": "fall",
+      "sha256": "9e3f4a25d7f3a08e907d5a2e1d550c9f5cccdebe75fc18026732661e5deab883",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "design and technology",
+      "text": "design and technology",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/design-and-technology.mp3",
+      "intonation": "fall",
+      "sha256": "167128ef276bc4f47a86400a4c70d4a83eee5032a6d1116c9e5624b33444d8be",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "we make a model in design and technology",
+      "text": "We make a model in design and technology.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/we-make-a-model-in-design-and-technology.mp3",
+      "intonation": "fall",
+      "sha256": "6513d3f3b0aa1137f5ee5946c1682cc7dc782202c7a69e53177f3b2b330675ac",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "modern languages",
+      "text": "modern languages",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/modern-languages.mp3",
+      "intonation": "fall",
+      "sha256": "1bb93a608aecd563e482db55ee4c7e9da13ec27258addf98341f73375e80c6cd",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "we learn modern languages at school",
+      "text": "We learn modern languages at school.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/we-learn-modern-languages-at-school.mp3",
+      "intonation": "fall",
+      "sha256": "90f3fcffab700c6e4d506e3ef4ffa76d5052a40a77c52c472d53141cfad2b348",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "reading",
+      "text": "reading",
+      "style": "word",
+      "path": "audio/en-us/school/word/reading.mp3",
+      "intonation": "neutral",
+      "sha256": "cd0a32cdf8e28b7d8cc447221fb1f190ddec1b07033af585e8e3c511ef9cba96",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "reading is part of our english lesson",
+      "text": "Reading is part of our English lesson.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/reading-is-part-of-our-english-lesson.mp3",
+      "intonation": "fall",
+      "sha256": "3ae76257aa99ad96358a0b90117460003436ea81e607a12ac76f1115b73bb19f",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "writing",
+      "text": "writing",
+      "style": "word",
+      "path": "audio/en-us/school/word/writing.mp3",
+      "intonation": "neutral",
+      "sha256": "31aa0eeb0b9adeefa89b9c789ce69def41b84d09d43bfd3edde01db0a505f417",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "we practise writing every day",
+      "text": "We practise writing every day.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/we-practise-writing-every-day.mp3",
+      "intonation": "fall",
+      "sha256": "bdb3493a731e2cf6c77a765fdbc57fc0aca659e1967dd83317bca001e750897a",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "spelling",
+      "text": "spelling",
+      "style": "word",
+      "path": "audio/en-us/school/word/spelling.mp3",
+      "intonation": "neutral",
+      "sha256": "7ef26b471f782ee7c0beb1a9931e5ba62140c4bd5ab2160dcc9edd12afbd8de8",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "we have a spelling test today",
+      "text": "We have a spelling test today.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/we-have-a-spelling-test-today.mp3",
+      "intonation": "fall",
+      "sha256": "e524cde9b9f171f5a88ffaa9ece2c7874789cd353efa6e448873c82418f0c80c",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "handwriting",
+      "text": "handwriting",
+      "style": "word",
+      "path": "audio/en-us/school/word/handwriting.mp3",
+      "intonation": "neutral",
+      "sha256": "7fa3a40b92d994bef505bd441a8294af6bb3d859a6606d5b3fe54c5089cf8064",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "good handwriting is easy to read",
+      "text": "Good handwriting is easy to read.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/good-handwriting-is-easy-to-read.mp3",
+      "intonation": "fall",
+      "sha256": "1a935492475144436c7e821c9bc1a9badd742d6b3bd11a5d1d7d595915f5563b",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "grammar",
+      "text": "grammar",
+      "style": "word",
+      "path": "audio/en-us/school/word/grammar.mp3",
+      "intonation": "neutral",
+      "sha256": "2ab2ed3851fd93b8314672330e1dee0a28f30e4fe7cc3a3f6a4fec5cf7a6ec02",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "we learn grammar in english",
+      "text": "We learn grammar in English.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/we-learn-grammar-in-english.mp3",
+      "intonation": "fall",
+      "sha256": "487e64bcf56381e078fa0073cf6578eaf48b3991ed0dffe89629e843548d7c03",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "literature",
+      "text": "literature",
+      "style": "word",
+      "path": "audio/en-us/school/word/literature.mp3",
+      "intonation": "neutral",
+      "sha256": "7228f8f03754dc55f2512f3b925f0ae57451829cd1b98e8ce8c5e4424c5395ab",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "we read poems in literature",
+      "text": "We read poems in literature.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/we-read-poems-in-literature.mp3",
+      "intonation": "fall",
+      "sha256": "cf0c18e478917f5002ddaad27802fd03a9411387aa90fbd655723d3953f45578",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "number work",
+      "text": "number work",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/number-work.mp3",
+      "intonation": "fall",
+      "sha256": "7acf84bacee2cebad1315843ae53bf143734ba8827f435e58c33511457940983",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "we do number work in maths",
+      "text": "We do number work in maths.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/we-do-number-work-in-maths.mp3",
+      "intonation": "fall",
+      "sha256": "0160a82c99039a7cf946d36e4c836ed58e6070378cd7cb47cf97fc669e6a50b5",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "home economics",
+      "text": "home economics",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/home-economics.mp3",
+      "intonation": "fall",
+      "sha256": "f8c3735f42ae8c975fd8b821c2cb384ced1b7a6ec8c1813ed100d2ef3518c525",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "home economics teaches useful life skills",
+      "text": "Home economics teaches useful life skills.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/home-economics-teaches-useful-life-skills.mp3",
+      "intonation": "fall",
+      "sha256": "07aa8b596cad9006edd80c38905b8050e34cf91f8099911035fc167a266ee9bd",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "our first lesson is english",
+      "text": "Our first lesson is English.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/our-first-lesson-is-english.mp3",
+      "intonation": "fall",
+      "sha256": "515f849ced2d04394c3b4ad0a6015e4bb53744f89f00a0010de223b6fa177546",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "timetable",
+      "text": "timetable",
+      "style": "word",
+      "path": "audio/en-us/school/word/timetable.mp3",
+      "intonation": "neutral",
+      "sha256": "90d30659c86f791abe4b87b59fe7f7755700641d8ca1901c1255d549d52ef543",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "check your timetable for tomorrow",
+      "text": "Check your timetable for tomorrow.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/check-your-timetable-for-tomorrow.mp3",
+      "intonation": "fall",
+      "sha256": "86a05a84745b48a7bfc566da171f64602a978629a365594a8f6f54192326a2c2",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "favourite subject",
+      "text": "favourite subject",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/favourite-subject.mp3",
+      "intonation": "fall",
+      "sha256": "767fb4e3ac27cd9e1a9be1a2471e7ae20aa18fb13fabc48b423415e3ede4cef1",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "my favourite subject is art",
+      "text": "My favourite subject is art.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/my-favourite-subject-is-art.mp3",
+      "intonation": "fall",
+      "sha256": "f4f3285fb2644cb33d92d98595f0c87704db596eeb37fb08adb3549988cc34c9",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "i like english",
+      "text": "I like English.",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/i-like-english.mp3",
+      "intonation": "fall",
+      "sha256": "261b9dd4fa1d1e3ba57537bcd5b6272825bc78bfef8cd20f4f68ce0c369450fe",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "i like english because i enjoy stories",
+      "text": "I like English because I enjoy stories.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/i-like-english-because-i-enjoy-stories.mp3",
+      "intonation": "fall",
+      "sha256": "f4593a4d027dd1f9917d718af72f8b635c3d765de4acb413717d41325c295b50",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "i have maths on monday",
+      "text": "I have maths on Monday.",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/i-have-maths-on-monday.mp3",
+      "intonation": "fall",
+      "sha256": "cc507252f31e86fcae010b47f0054b966c74ecbe5b1ce684eef57ff7292dab8d",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "listen to the teacher",
+      "text": "Listen to the teacher.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/listen-to-the-teacher.mp3",
+      "intonation": "fall",
+      "sha256": "3cfd35f7938a35a2bf666ca08c114049efc2254d10daa6d9bbc9108511863fdc",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "look at the picture",
+      "text": "Look at the picture.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/look-at-the-picture.mp3",
+      "intonation": "fall",
+      "sha256": "aba632fc908ecff266899c8a0398dd0d479f86dabbc945061be1427bbdb7fb89",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "read the sentence aloud",
+      "text": "Read the sentence aloud.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/read-the-sentence-aloud.mp3",
+      "intonation": "fall",
+      "sha256": "dcf662e7e16bc263a4914611397ea42414640398f6b1e272da25fca5bfbe90f2",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "write",
+      "text": "write",
+      "style": "word",
+      "path": "audio/en-us/school/word/write.mp3",
+      "intonation": "neutral",
+      "sha256": "b5f577f3336f56d37f0dbeac27111214ee31e9651a4014a26dd144b7c24d1fda",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "write your name here",
+      "text": "Write your name here.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/write-your-name-here.mp3",
+      "intonation": "fall",
+      "sha256": "27440895447784fc85259df966d9389fce734ec98b783b3a22ea789cbb6ee23e",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "spell",
+      "text": "spell",
+      "style": "word",
+      "path": "audio/en-us/school/word/spell.mp3",
+      "intonation": "neutral",
+      "sha256": "c46c8b9d5c2609facbe4b2f083724dc4178901630f08c0d4b852f46ae69b5fa4",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "can you spell your name",
+      "text": "Can you spell your name?",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/can-you-spell-your-name.mp3",
+      "intonation": "rise",
+      "sha256": "803d99b1b4464fb316d6aaf726e6c1c7f336668cc7d63a0aa54567c1ebf09209",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "say the word after me",
+      "text": "Say the word after me.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/say-the-word-after-me.mp3",
+      "intonation": "fall",
+      "sha256": "909ef2a0e3461adcab5112cb3a7540c24c367704feb09dfd42b530e41298c2be",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "please speak clearly",
+      "text": "Please speak clearly.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/please-speak-clearly.mp3",
+      "intonation": "fall",
+      "sha256": "a5e874d23e6e16d6b712f2ea7e2e2fc7e3ca1ff3342d3cfb2baf45d73703574e",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "repeat",
+      "text": "repeat",
+      "style": "word",
+      "path": "audio/en-us/school/word/repeat.mp3",
+      "intonation": "neutral",
+      "sha256": "df4eb642c5172971a7b7bbf5eceaa46fec16cd4f6a214d2b486709b158c4bc54",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "repeat the sentence please",
+      "text": "Repeat the sentence, please.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/repeat-the-sentence-please.mp3",
+      "intonation": "fall",
+      "sha256": "1552eb37d84d48b67e2be702b6db9358b0748355d0d1515c884dcf7e98b66bbc",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "ask",
+      "text": "ask",
+      "style": "word",
+      "path": "audio/en-us/school/word/ask.mp3",
+      "intonation": "neutral",
+      "sha256": "95c7c2246ddaabc06c45bc9290d53c3a7eedb5b03b8992ddb0dbb59441f76fd9",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "ask if you need help",
+      "text": "Ask if you need help.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/ask-if-you-need-help.mp3",
+      "intonation": "fall",
+      "sha256": "61ade51e48e530bbff4c8c4b0def06055e553cfa7b4b981b987ccee5102f4a8c",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "answer",
+      "text": "answer",
+      "style": "word",
+      "path": "audio/en-us/school/word/answer.mp3",
+      "intonation": "neutral",
+      "sha256": "f3927a1488da3d8eb52b441cb04605624eeb111f353ff03c5723c6c1cd6b96d5",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "answer the question",
+      "text": "Answer the question.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/answer-the-question.mp3",
+      "intonation": "fall",
+      "sha256": "9581d83a69b13745c8ab436867275c3f9cf4023ec38b6930af6606a29910b1c7",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "think before you answer",
+      "text": "Think before you answer.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/think-before-you-answer.mp3",
+      "intonation": "fall",
+      "sha256": "afe1bb7c692ec6e9db457e42784a13413657313e391af9c2eae0feb2b19a9967",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "match",
+      "text": "match",
+      "style": "word",
+      "path": "audio/en-us/school/word/match.mp3",
+      "intonation": "neutral",
+      "sha256": "0877bca22b20b3bf6efd40fdb90efcb289132a0bea5bad4fbc673b2d5d485990",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "match the words to the pictures",
+      "text": "Match the words to the pictures.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/match-the-words-to-the-pictures.mp3",
+      "intonation": "fall",
+      "sha256": "ceeb0ae5f4cbf7c54b048c6c9c7af8c1ff8d9dd563a0e2948d6a4365e67527dd",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "choose",
+      "text": "choose",
+      "style": "word",
+      "path": "audio/en-us/school/word/choose.mp3",
+      "intonation": "neutral",
+      "sha256": "35fc9c35d4628f6b54cc41d1c6061ee7eade7be4caa3056fe13961b37f1f1871",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "choose the correct answer",
+      "text": "Choose the correct answer.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/choose-the-correct-answer.mp3",
+      "intonation": "fall",
+      "sha256": "e35f8d363198ed5a8d5c68179c7f6eaaa1778d53d6bf4efd641108242c8827a3",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "circle the correct word",
+      "text": "Circle the correct word.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/circle-the-correct-word.mp3",
+      "intonation": "fall",
+      "sha256": "6cc848792b1472eaca7037e3dc29d60969d8d023504d0c5f6878b6645eb613b4",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "underline",
+      "text": "underline",
+      "style": "word",
+      "path": "audio/en-us/school/word/underline.mp3",
+      "intonation": "neutral",
+      "sha256": "c7fd4436d53f1537837756284728ffb0e0a63ee217b29d3861f4d599c4147975",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "underline the key word",
+      "text": "Underline the key word.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/underline-the-key-word.mp3",
+      "intonation": "fall",
+      "sha256": "1d2eff412fd15780a8042071acf1aabb05502f429a17099e8bcc5abf7b8f44af",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "tick",
+      "text": "tick",
+      "style": "word",
+      "path": "audio/en-us/school/word/tick.mp3",
+      "intonation": "neutral",
+      "sha256": "1fea145701ec512603603fa941d82f059c8b57713c72c664dab70c7ccdf006e2",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "tick the correct box",
+      "text": "Tick the correct box.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/tick-the-correct-box.mp3",
+      "intonation": "fall",
+      "sha256": "8d1d256eb6746acf334fd4212d2f2b709cbe29f115f5d4b62154be3cff732716",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "cross",
+      "text": "cross",
+      "style": "word",
+      "path": "audio/en-us/school/word/cross.mp3",
+      "intonation": "neutral",
+      "sha256": "0aeca3d8fb637fbe5e631cf3a4be7396d21619d20d71540a70913ea58af8a8ea",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "put a cross next to the wrong answer",
+      "text": "Put a cross next to the wrong answer.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/put-a-cross-next-to-the-wrong-answer.mp3",
+      "intonation": "fall",
+      "sha256": "b1211bbd2547b8d22ae0c942da842e19506398d686adbda40e303c42db566b0b",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "fill in",
+      "text": "fill in",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/fill-in.mp3",
+      "intonation": "fall",
+      "sha256": "da33b84993f5048b751d91ae206adefcb957ec67865fd635c2167104aee7d25c",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "fill in the missing word",
+      "text": "Fill in the missing word.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/fill-in-the-missing-word.mp3",
+      "intonation": "fall",
+      "sha256": "d12d08b9514764af962b7823ad81c7672d97b34c280c2a466edaa99aa58d6b7d",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "complete",
+      "text": "complete",
+      "style": "word",
+      "path": "audio/en-us/school/word/complete.mp3",
+      "intonation": "neutral",
+      "sha256": "6171cb4194f86a8e4884c6d9fcb3befaaad8437ddb6dbd38035e3faec77f97f9",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "complete the sentence",
+      "text": "Complete the sentence.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/complete-the-sentence.mp3",
+      "intonation": "fall",
+      "sha256": "0518177090ed8bfe077f389343f7ca24a77a2de55dec73470d879fd3e4854212",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "correct",
+      "text": "correct",
+      "style": "word",
+      "path": "audio/en-us/school/word/correct.mp3",
+      "intonation": "neutral",
+      "sha256": "f06382724a15349e0a1591ecbc042687ca3cf3d835ae4f253a639bd65205b99e",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "correct your spelling",
+      "text": "Correct your spelling.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/correct-your-spelling.mp3",
+      "intonation": "fall",
+      "sha256": "db4fb322c46a9c8ad7263bd38a0e29c4cee2ad37e66c14260f02952a06327e04",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "check your answers",
+      "text": "Check your answers.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/check-your-answers.mp3",
+      "intonation": "fall",
+      "sha256": "89a0fbb6221c1fbb29ad35b03c9ebd9e6ce33a197d4fdd0c0d10eac46ccd3da5",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "compare",
+      "text": "compare",
+      "style": "word",
+      "path": "audio/en-us/school/word/compare.mp3",
+      "intonation": "neutral",
+      "sha256": "928bdd5494cf2427c090aed77f6575c0a3fc60c4877d4b3e9be67b2b6c51eace",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "compare the two pictures",
+      "text": "Compare the two pictures.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/compare-the-two-pictures.mp3",
+      "intonation": "fall",
+      "sha256": "f18fd8c97d82e4b4b783debd964b195757202ae616a09019c6874f5620f4b2fc",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "describe",
+      "text": "describe",
+      "style": "word",
+      "path": "audio/en-us/school/word/describe.mp3",
+      "intonation": "neutral",
+      "sha256": "36ca0d8893ed2378fcdef0c1fc0ad5b49eb44889cfd2265ca7208ee1e40c5e79",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "describe what you can see",
+      "text": "Describe what you can see.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/describe-what-you-can-see.mp3",
+      "intonation": "fall",
+      "sha256": "0c1eeb9f2f8096a1b600e8afefebd06234e680a6ebe8014856c7801dfe052ebc",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "explain",
+      "text": "explain",
+      "style": "word",
+      "path": "audio/en-us/school/word/explain.mp3",
+      "intonation": "neutral",
+      "sha256": "1d5018d7593cfcef5af2d1e1bcaded68512cde24842e0c8e04a4b236b6a0ab02",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "explain your answer",
+      "text": "Explain your answer.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/explain-your-answer.mp3",
+      "intonation": "fall",
+      "sha256": "5bc80bdf7e8044e17b23ff509558efa645f3ea3dcbb84ba3e527047f4b1942d9",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "show me your work",
+      "text": "Show me your work.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/show-me-your-work.mp3",
+      "intonation": "fall",
+      "sha256": "43bfb17324a6eb8880f0c10b2b41412f5865ac4cc8056d25c43e8a2d84cbec45",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "draw a line under the word",
+      "text": "Draw a line under the word.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/draw-a-line-under-the-word.mp3",
+      "intonation": "fall",
+      "sha256": "811e606046247a4420a12e80fd8580e1764d06636cd032a428e0a082106f7146",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "colour",
+      "text": "colour",
+      "style": "word",
+      "path": "audio/en-us/school/word/colour.mp3",
+      "intonation": "neutral",
+      "sha256": "ae7f1fd0c5aaa7d39272dcd3fd6e257084e9d2f46f36d9c6978dc80a282b26c6",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "colour the star yellow",
+      "text": "Colour the star yellow.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/colour-the-star-yellow.mp3",
+      "intonation": "fall",
+      "sha256": "bad98956f9f284c5129db4bc8f6e79269db2b263c239a81d986eed9c23e4ce3d",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "cut",
+      "text": "cut",
+      "style": "word",
+      "path": "audio/en-us/school/word/cut.mp3",
+      "intonation": "neutral",
+      "sha256": "7401bc7b70871041afdd79a1c85347a97f3606075b5be22a3dd0595f06c5519f",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "cut out the shape carefully",
+      "text": "Cut out the shape carefully.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/cut-out-the-shape-carefully.mp3",
+      "intonation": "fall",
+      "sha256": "7b749ba07f10c7b010555b4ea0c00d39ca62c2e83ef16eed09bba966558af01b",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "stick",
+      "text": "stick",
+      "style": "word",
+      "path": "audio/en-us/school/word/stick.mp3",
+      "intonation": "neutral",
+      "sha256": "d0765d15754157e39a83a4f87152478773dcfb989d078209fcf47b2764ab436d",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "stick the picture in your book",
+      "text": "Stick the picture in your book.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/stick-the-picture-in-your-book.mp3",
+      "intonation": "fall",
+      "sha256": "e58d78fda535b9ee32aa4b337a6dc93c814636e7c553dc0a46d5f2f6adcbe0d3",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "fold",
+      "text": "fold",
+      "style": "word",
+      "path": "audio/en-us/school/word/fold.mp3",
+      "intonation": "neutral",
+      "sha256": "901f44bbbd6ec9900b5dc78728b7b5a05e1d1efa91b4c35d624632b0ca0d59ad",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "fold the paper in half",
+      "text": "Fold the paper in half.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/fold-the-paper-in-half.mp3",
+      "intonation": "fall",
+      "sha256": "fe45a8ab35537a53ba53637280defbc30f2a8ee1ec57af53708230da9587b15e",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "open your book at page ten",
+      "text": "Open your book at page ten.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/open-your-book-at-page-ten.mp3",
+      "intonation": "fall",
+      "sha256": "c70ab48a3358c953907ca886fbe5701c0901d840fd4d4d521fe8e891d61b854f",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "close your book please",
+      "text": "Close your book, please.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/close-your-book-please.mp3",
+      "intonation": "fall",
+      "sha256": "f616df8a2637d1bb784ec3bd5e470b437fa3dc7e04ecd6709112d3ba2ebb63b2",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "turn to",
+      "text": "turn to",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/turn-to.mp3",
+      "intonation": "fall",
+      "sha256": "d7cccf6e33a6997491332ae6408b8027e9e2aa77f131a26c13f0ca43f2d319dc",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "turn to page five",
+      "text": "Turn to page five.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/turn-to-page-five.mp3",
+      "intonation": "fall",
+      "sha256": "e69e8a0583f17acca188b73aa2066d7dbfa9df1beca5352961c0791719e4e40d",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "start",
+      "text": "start",
+      "style": "word",
+      "path": "audio/en-us/school/word/start.mp3",
+      "intonation": "neutral",
+      "sha256": "48079548f19cdacd0f951e2a46d8a06127b5c195fb4fe9fae246ad868fddb77c",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "start the task now",
+      "text": "Start the task now.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/start-the-task-now.mp3",
+      "intonation": "fall",
+      "sha256": "5afdcd8f871a775eb3f6b7b8ec9c2f1d2e0510d794047ad59673569bf491ba6a",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "finish",
+      "text": "finish",
+      "style": "word",
+      "path": "audio/en-us/school/word/finish.mp3",
+      "intonation": "neutral",
+      "sha256": "fbbf2cb4c9acad7bf72a5a88cece468024087be4e74d9d4166622fb2e7f3c040",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "finish your work before lunch",
+      "text": "Finish your work before lunch.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/finish-your-work-before-lunch.mp3",
+      "intonation": "fall",
+      "sha256": "462783157aea3c0116f98d07cdbc2a8de3b790890aa349848fa7eac8c932073e",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "stop",
+      "text": "stop",
+      "style": "word",
+      "path": "audio/en-us/school/word/stop.mp3",
+      "intonation": "neutral",
+      "sha256": "58c9bdb130eb1d93e5d75b64f13070992e6b2158d6163a078dbcc8e0a015d9a6",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "stop writing and look up",
+      "text": "Stop writing and look up.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/stop-writing-and-look-up.mp3",
+      "intonation": "fall",
+      "sha256": "def9455e627043364ccbb085fbdbe625d1c91b237e4a9ea07ef5aac66a8dc159",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "wait",
+      "text": "wait",
+      "style": "word",
+      "path": "audio/en-us/school/word/wait.mp3",
+      "intonation": "neutral",
+      "sha256": "6fb9f0ceadefb447a171941e78762e28f5ff1fe319275ffe19fc2d251f3f6751",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "wait for your turn",
+      "text": "Wait for your turn.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/wait-for-your-turn.mp3",
+      "intonation": "fall",
+      "sha256": "d5a0f57ecd0b50f42ab1679cf409455e66dc3635d329f7f98b97001eed4eaddf",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "share the pencils with your group",
+      "text": "Share the pencils with your group.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/share-the-pencils-with-your-group.mp3",
+      "intonation": "fall",
+      "sha256": "35f3133799e0bc6f15fd608f5edbcd1ceff5e8370593eba6c9aba308cefe029a",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "work together",
+      "text": "work together",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/work-together.mp3",
+      "intonation": "fall",
+      "sha256": "42756bb972950486b6d69d0305b9a3420ee3922703a0ee8295fc5f279feeb6e8",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "work together to solve the problem",
+      "text": "Work together to solve the problem.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/work-together-to-solve-the-problem.mp3",
+      "intonation": "fall",
+      "sha256": "6c9dc41670ee4e03f0188a274b9a22f970401d8947e7e91b836e0c0704d7bcf0",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "take turns",
+      "text": "take turns",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/take-turns.mp3",
+      "intonation": "fall",
+      "sha256": "84fda88cd36e60f5525d231a631a59b155ad59f35df80f77c6205f097b38cce0",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "take turns to read",
+      "text": "Take turns to read.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/take-turns-to-read.mp3",
+      "intonation": "fall",
+      "sha256": "da43f762d6868e4dd0f983b6e8e26e94db5a35a055af476542d6f15ad64c400b",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "raise your hand",
+      "text": "raise your hand",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/raise-your-hand.mp3",
+      "intonation": "fall",
+      "sha256": "b56a2c1ae9c7b7d3fb57dd27ca16f5af53812e2626c1f3a774ef1e855c46bd9b",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "raise your hand to answer",
+      "text": "Raise your hand to answer.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/raise-your-hand-to-answer.mp3",
+      "intonation": "fall",
+      "sha256": "4346415c0939aa4845875154a855ee2c2608518ab9a62becab9413b058a5583b",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "stand up",
+      "text": "stand up",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/stand-up.mp3",
+      "intonation": "fall",
+      "sha256": "53faf5f8d7d333d063e4e598d76214ccb555bf28c6e3fcf3074b653ab78d97e8",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "stand up please",
+      "text": "Stand up, please.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/stand-up-please.mp3",
+      "intonation": "fall",
+      "sha256": "89f2afc0573325de3af37253a7d198c2b36659e999df2ea9e92c11d68d94aa75",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "sit down",
+      "text": "sit down",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/sit-down.mp3",
+      "intonation": "fall",
+      "sha256": "cdef334544b8a5be55790a9fc3fb8710ac200722d71ab1e0ea26c84692564084",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "sit down and get ready",
+      "text": "Sit down and get ready.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/sit-down-and-get-ready.mp3",
+      "intonation": "fall",
+      "sha256": "a7477d172d7f835960047e4149ada4460326b366bf1b3e8dd15c5609127a67c4",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "line up",
+      "text": "line up",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/line-up.mp3",
+      "intonation": "fall",
+      "sha256": "03d400014974b839e20e147c407584b5bc9b1970e23c0cee6c3abf1dbe274d8c",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "line up quietly outside the classroom",
+      "text": "Line up quietly outside the classroom.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/line-up-quietly-outside-the-classroom.mp3",
+      "intonation": "fall",
+      "sha256": "5f3c4c8585f80233e077a23a89b11b67b454387231e60fb8d666d0a42f68611a",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "be quiet",
+      "text": "be quiet",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/be-quiet.mp3",
+      "intonation": "fall",
+      "sha256": "f3a43826e28d26f5e5fe03da80edf246f99c2e1603bbed51a505bd045fea1577",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "please be quiet during the test",
+      "text": "Please be quiet during the test.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/please-be-quiet-during-the-test.mp3",
+      "intonation": "fall",
+      "sha256": "0c7f817f6095022cc823b371ba67837071b964e2e5ea66e40c4c5b7b4c5e761b",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "pay attention",
+      "text": "pay attention",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/pay-attention.mp3",
+      "intonation": "fall",
+      "sha256": "1c025a19bbe520ace1381c88f09cf4c1de86ef718b9e8fadcef3f4d39e7f6ed8",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "pay attention to the instructions",
+      "text": "Pay attention to the instructions.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/pay-attention-to-the-instructions.mp3",
+      "intonation": "fall",
+      "sha256": "35ab7c20e36d8f285e4d6e543aff1ccbbad9acadee1d20290804f8b60309ff26",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "have a go",
+      "text": "have a go",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/have-a-go.mp3",
+      "intonation": "fall",
+      "sha256": "95351d35d9d9865a5b902faff989e4d34561d2ef9e058347d91b03777edb628b",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "have a go at the first question",
+      "text": "Have a go at the first question.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/have-a-go-at-the-first-question.mp3",
+      "intonation": "fall",
+      "sha256": "cec09b0353128fe255f7fb11202f31bdfbdc1f78ed5256886adb503ca480eda7",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "try again",
+      "text": "try again",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/try-again.mp3",
+      "intonation": "fall",
+      "sha256": "83fd573eaf2f7a8b5f8bc7d63969b317d36372082e03ed0b98eddbda94c6a887",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "it's ok try again",
+      "text": "It's OK. Try again.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/it-s-ok-try-again.mp3",
+      "intonation": "fall",
+      "sha256": "6654894d58fc45fecb2491450ed9e957ba33b7ab32773988b4302711e4c32fb0",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "well done",
+      "text": "well done",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/well-done.mp3",
+      "intonation": "fall",
+      "sha256": "c78d6be79fdbe557782c96c24517847b56002fad64ef1d8ec7d716ceb5ef8c9c",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "well done for finishing your work",
+      "text": "Well done for finishing your work.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/well-done-for-finishing-your-work.mp3",
+      "intonation": "fall",
+      "sha256": "2d9e49735e48e3f737b29bb93e61edee9d0eacad21804e95d7a5403c14bf1f6f",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "homework",
+      "text": "homework",
+      "style": "word",
+      "path": "audio/en-us/school/word/homework.mp3",
+      "intonation": "neutral",
+      "sha256": "33dca2fbc644b468bb0dabfcc68153fe5e41abfa96a10c2a1c7093aadcba715e",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "i do my homework after school",
+      "text": "I do my homework after school.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/i-do-my-homework-after-school.mp3",
+      "intonation": "fall",
+      "sha256": "bdf963bada2bd21ee2666a2a62a7d5b898241f0b6e153cecdece360047016fe6",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "classwork",
+      "text": "classwork",
+      "style": "word",
+      "path": "audio/en-us/school/word/classwork.mp3",
+      "intonation": "neutral",
+      "sha256": "d54501b32b88b30002ed9bf7eb4335db2b14bc734229de1571dfbb60376c1ab2",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "finish your classwork before you leave",
+      "text": "Finish your classwork before you leave.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/finish-your-classwork-before-you-leave.mp3",
+      "intonation": "fall",
+      "sha256": "de769c842812d524a474520121bc2a34dd36c4a5bb493cf5264f6790dfbcfa68",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "project",
+      "text": "project",
+      "style": "word",
+      "path": "audio/en-us/school/word/project.mp3",
+      "intonation": "neutral",
+      "sha256": "097a9f22744a1e78a60db63c61de2601e45c51bb3e67b5e1427f34696af3de89",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "our project is about animals",
+      "text": "Our project is about animals.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/our-project-is-about-animals.mp3",
+      "intonation": "fall",
+      "sha256": "8d40d2320a8e9677351b26c41b7a52a74cb381b98fb653954a88e399518e8a55",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "read the task carefully",
+      "text": "Read the task carefully.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/read-the-task-carefully.mp3",
+      "intonation": "fall",
+      "sha256": "68e2f51a6088411006c38c9cec08fcc51154b197814b28272b3d3d5e360b416c",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "question",
+      "text": "question",
+      "style": "word",
+      "path": "audio/en-us/school/word/question.mp3",
+      "intonation": "neutral",
+      "sha256": "9d23b6258a0512d9a00774a88e86c34356908f8334df7574f8f9165e228f29b6",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "read the question twice",
+      "text": "Read the question twice.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/read-the-question-twice.mp3",
+      "intonation": "fall",
+      "sha256": "83e350b7f5cf7a64aec44591d3af193c6bcbdc7d1bdf29f6485bd438327ebf22",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "example",
+      "text": "example",
+      "style": "word",
+      "path": "audio/en-us/school/word/example.mp3",
+      "intonation": "neutral",
+      "sha256": "41020dcf77ab9a266f07943a3883bb6376151701b6ada9cc510be16ab39d5799",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "look at the example first",
+      "text": "Look at the example first.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/look-at-the-example-first.mp3",
+      "intonation": "fall",
+      "sha256": "56477bf84eea1296b68a82b9f734ba758434e4b7b25e521c63a19fbf79908850",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "mistake",
+      "text": "mistake",
+      "style": "word",
+      "path": "audio/en-us/school/word/mistake.mp3",
+      "intonation": "neutral",
+      "sha256": "5e19ac019c0edc09cea85552aac1f5cf074010f9da12a2841e6523d1a1865be3",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "everyone makes a mistake sometimes",
+      "text": "Everyone makes a mistake sometimes.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/everyone-makes-a-mistake-sometimes.mp3",
+      "intonation": "fall",
+      "sha256": "4b74b60776bd96b38f5b1ce4a77dd64b024fa5710a422b332b29152c3ff7e7e7",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "problem",
+      "text": "problem",
+      "style": "word",
+      "path": "audio/en-us/school/word/problem.mp3",
+      "intonation": "neutral",
+      "sha256": "8700cae953e6548c724228530dae5b853e1a402a6e1cf06b02410902f23fd385",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "can you solve this problem",
+      "text": "Can you solve this problem?",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/can-you-solve-this-problem.mp3",
+      "intonation": "rise",
+      "sha256": "61dae8d03c6cb30f288059394f9d76cf8661e2d224f2fd7317e3786492b0492e",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "solution",
+      "text": "solution",
+      "style": "word",
+      "path": "audio/en-us/school/word/solution.mp3",
+      "intonation": "neutral",
+      "sha256": "696717b63960dffc658f07713c10d0162a011f7643a4bf1bf38d3b21ce08264e",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "let's find a solution together",
+      "text": "Let's find a solution together.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/let-s-find-a-solution-together.mp3",
+      "intonation": "fall",
+      "sha256": "ac55ab86b4a589155b493c623663713e2cb94a806f6996423cdabe2873e23790",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "rule",
+      "text": "rule",
+      "style": "word",
+      "path": "audio/en-us/school/word/rule.mp3",
+      "intonation": "neutral",
+      "sha256": "5dd5478590956ee6ba317efe854d326276dffb10a38bb617d8b6fb57865b4f5b",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "follow the classroom rules",
+      "text": "Follow the classroom rules.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/follow-the-classroom-rules.mp3",
+      "intonation": "fall",
+      "sha256": "c30609b2855b9b69ff48d2467c66f85b5d9138c8555e479b10aabbb06eab363e",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "instruction",
+      "text": "instruction",
+      "style": "word",
+      "path": "audio/en-us/school/word/instruction.mp3",
+      "intonation": "neutral",
+      "sha256": "f53f2f792004c0b6fba460978dc00b1e53a76279d552e3afbbad619e0a0682c1",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "listen to the instructions carefully",
+      "text": "Listen to the instructions carefully.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/listen-to-the-instructions-carefully.mp3",
+      "intonation": "fall",
+      "sha256": "2984fc264dbd9d3cf780cac366f617c91512f1b1ce6ec2aa08d0f502a5a76f67",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "group",
+      "text": "group",
+      "style": "word",
+      "path": "audio/en-us/school/word/group.mp3",
+      "intonation": "neutral",
+      "sha256": "c578f1e642e1b8deca53a22a6d005f9975d841715de5cf68ff1a312e75978445",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "work in a group of four",
+      "text": "Work in a group of four.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/work-in-a-group-of-four.mp3",
+      "intonation": "fall",
+      "sha256": "41bc37e2e6f97e9974956a72dbcb826dd9e9d8cd06d347bdf88350866546095d",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "pair",
+      "text": "pair",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/pair.mp3",
+      "intonation": "fall",
+      "sha256": "8096acbe4242a67359cee8c41eaab498bd5aaea7b0d3fe5302ee14f45518bce7",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "work in pairs",
+      "text": "Work in pairs.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/work-in-pairs.mp3",
+      "intonation": "fall",
+      "sha256": "aceacd157d65ed676f014ddc64ff10382079d793cb90e28de4db8792e7e3646d",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "partner",
+      "text": "partner",
+      "style": "word",
+      "path": "audio/en-us/school/word/partner.mp3",
+      "intonation": "neutral",
+      "sha256": "1571671e157ebd55f08f29883d27f8fe81e55f5a6bf7344887c2024a46d2a3c9",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "check the answer with your partner",
+      "text": "Check the answer with your partner.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/check-the-answer-with-your-partner.mp3",
+      "intonation": "fall",
+      "sha256": "eca027f92367a30b8f332bea59bbd3bb994a77af8d15e22c669cc2ab7bc0aefd",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "break",
+      "text": "break",
+      "style": "word",
+      "path": "audio/en-us/school/word/break.mp3",
+      "intonation": "neutral",
+      "sha256": "08123609a7bec93ed5f7ee154411ae11ba1ef57cd05e6016e1e917b2db6e553a",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "we have a short break at ten",
+      "text": "We have a short break at ten.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/we-have-a-short-break-at-ten.mp3",
+      "intonation": "fall",
+      "sha256": "7d35df462dd2ac56db78eaccb40a2694037617855a07fde43a2ea6a70d0ba2a4",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "break time",
+      "text": "break time",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/break-time.mp3",
+      "intonation": "fall",
+      "sha256": "87b66664ce468ad55e3d7a97972880482e0ce9a92a4a6d9e085d8fc0d7e25736",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "we play outside at break time",
+      "text": "We play outside at break time.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/we-play-outside-at-break-time.mp3",
+      "intonation": "fall",
+      "sha256": "6e77dc5b68aee61674327b421f18d85a64339e22c8aa5f67365e34dc57f6a610",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "test",
+      "text": "test",
+      "style": "word",
+      "path": "audio/en-us/school/word/test.mp3",
+      "intonation": "neutral",
+      "sha256": "e76d7287504a429318fc7c85dbbfab2043b644e7bdcf6295c428deee83e4c726",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "exam",
+      "text": "exam",
+      "style": "word",
+      "path": "audio/en-us/school/word/exam.mp3",
+      "intonation": "neutral",
+      "sha256": "6654893b41ae8806f3d2078117a7c11af31c932087c4985ca022a3e32ad9b301",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "the exam starts at nine",
+      "text": "The exam starts at nine.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/the-exam-starts-at-nine.mp3",
+      "intonation": "fall",
+      "sha256": "9524a8faf4c444d41491b9125539009ad0dba012d3f8ce6e383a04e13e6fa47d",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "mark",
+      "text": "mark",
+      "style": "word",
+      "path": "audio/en-us/school/word/mark.mp3",
+      "intonation": "neutral",
+      "sha256": "2f530ccb81f5f9071e7aba856f8b76fe822dde40f436421137c1fe2699f78644",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "the teacher gives me a good mark",
+      "text": "The teacher gives me a good mark.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/the-teacher-gives-me-a-good-mark.mp3",
+      "intonation": "fall",
+      "sha256": "ed1fc78860618b140074939cff5c6b8057f84efe0c30d1b883d6ba3d07e31274",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "score",
+      "text": "score",
+      "style": "word",
+      "path": "audio/en-us/school/word/score.mp3",
+      "intonation": "neutral",
+      "sha256": "ee3002ab92eee54fbfd45eb45c447b4ce7b66beab883a30cbb54e98708f27e8d",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "what is your score",
+      "text": "What is your score?",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/what-is-your-score.mp3",
+      "intonation": "fall",
+      "sha256": "3daf42ef4b2d94bea15e4c8a76230a02cf232b8e3aeebf7e67c1d5aa0d23f659",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "result",
+      "text": "result",
+      "style": "word",
+      "path": "audio/en-us/school/word/result.mp3",
+      "intonation": "neutral",
+      "sha256": "2dbaa3138037be5c12f3a1acf75dea1d35cb51c04d24a26895c0018233965d84",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "we get our test results tomorrow",
+      "text": "We get our test results tomorrow.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/we-get-our-test-results-tomorrow.mp3",
+      "intonation": "fall",
+      "sha256": "ef22544a730f4b6caa7e61ba1efedd7f42897dcd2d942d5a4382d41b3b541cb3",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "are you ready to begin",
+      "text": "Are you ready to begin?",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/are-you-ready-to-begin.mp3",
+      "intonation": "rise",
+      "sha256": "7b27e2012a6e529fa4ca44c8376efbef9d2a6cd20450e025fcfada13a961ac0c",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "i don't understand",
+      "text": "I don't understand.",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/i-don-t-understand.mp3",
+      "intonation": "fall",
+      "sha256": "9e2c6d27d41c68e33b357eb9515c51aa02172aadf66906355f914735842b3238",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "i don't understand this question",
+      "text": "I don't understand this question.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/i-don-t-understand-this-question.mp3",
+      "intonation": "fall",
+      "sha256": "0ea23859afd70d67675ab7cb5ab6cb4626ac815d9cc54fe02cb0be49d23ba698",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "can you help me",
+      "text": "Can you help me?",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/can-you-help-me.mp3",
+      "intonation": "rise",
+      "sha256": "9b95c60681d9a0ee2b3a3e611c30748617152a8e68e5822bc88ccdf6dc2a2804",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "can you help me with this word",
+      "text": "Can you help me with this word?",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/can-you-help-me-with-this-word.mp3",
+      "intonation": "rise",
+      "sha256": "a658650ef2ae6e82f4b1bba2315d17397c1e2e0eba898d1b57fe4cc2610f8e5c",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "may i come in please",
+      "text": "May I come in, please?",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/may-i-come-in-please.mp3",
+      "intonation": "rise",
+      "sha256": "3b0158074c95cb0ceb0cd5114efddb1c5e364f40f695c2f121bfaddf4706c45c",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "may i go to the toilet please",
+      "text": "May I go to the toilet, please?",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/may-i-go-to-the-toilet-please.mp3",
+      "intonation": "rise",
+      "sha256": "9a96bec187e2aeabe3b20707fceebe80299f9773277bf0fa169b6a72157e8faf",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "here you are",
+      "text": "Here you are.",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/here-you-are.mp3",
+      "intonation": "fall",
+      "sha256": "6588322b367bd7af1dd59dd5d95b518a87c47757f756c8db1384a3aed21557c9",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "here you are this is your pencil",
+      "text": "Here you are. This is your pencil.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/here-you-are-this-is-your-pencil.mp3",
+      "intonation": "fall",
+      "sha256": "77425c8362593fce65124fb31908c6339dbcb67d6160a3e23f5c8ad1680eec2f",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "i'm finished",
+      "text": "I'm finished.",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/i-m-finished.mp3",
+      "intonation": "fall",
+      "sha256": "59db08e60c63942b2621eeca88a366ca33514aa53b95c5b23c46d681992d6970",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "i'm finished may i check my answers",
+      "text": "I'm finished. May I check my answers?",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/i-m-finished-may-i-check-my-answers.mp3",
+      "intonation": "fall",
+      "sha256": "47abde2bb3ceca4a7543810fd9929fa211c99d5851ed6961b892b283cd5115b3",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "please say that again",
+      "text": "Please say that again.",
+      "style": "sentence",
+      "path": "audio/en-us/school/word/please-say-that-again.mp3",
+      "intonation": "fall",
+      "sha256": "fc0c3fc9f612fb912a1aadf79007e921b0620877349d789fcd4299a5a82af791",
+      "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "please say that again more slowly",
+      "text": "Please say that again more slowly.",
+      "style": "sentence",
+      "path": "audio/en-us/school/sentence/please-say-that-again-more-slowly.mp3",
+      "intonation": "fall",
+      "sha256": "145f834c08e8f7a37ed41dd9862290fd35ae06b363c782c7f77af962a3c6f97f",
+      "source": "school-learning-v1"
     }
   ],
   "clip_count": 610,
@@ -8674,6 +11905,13 @@
       "voice": "af_bella",
       "locale": "en-US",
       "source": "data/time-nature-audio-generation.json"
+    },
+    {
+      "pack": "school-learning-v1",
+      "clips": 359,
+      "voice": "af_bella",
+      "locale": "en-US",
+      "source": "data/school-learning-audio-generation.json"
     }
   ]
 }

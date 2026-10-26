@@ -1,0 +1,33 @@
+{
+  "sourceZip": "学校与学习.zip",
+  "sourceSha256": "eb652d9070876caa2351cba872fc26cfec007524167347c44763114551f6e03c",
+  "files": [
+    {
+      "path": "data/school-learning/01_学习用品.json",
+      "sourceName": "小蛙自习室_英语词库_第三类_学校与学习/01_学习用品.json",
+      "sha256": "3b7c82b569231844d0d486494edf7c33fe092a9614d69869be2d0b004238ca03"
+    },
+    {
+      "path": "data/school-learning/02_教室与校园.json",
+      "sourceName": "小蛙自习室_英语词库_第三类_学校与学习/02_教室与校园.json",
+      "sha256": "08d2b9ec17aedf5fbfd014780a6d40400301b88ed2bb32ad7e2598fdef67f9d1"
+    },
+    {
+      "path": "data/school-learning/03_学科名称.json",
+      "sourceName": "小蛙自习室_英语词库_第三类_学校与学习/03_学科名称.json",
+      "sha256": "df66cb882e91fc8c797c8b2cc03284e311f8441ae975ee6cf5185ae26cce614f"
+    },
+    {
+      "path": "data/school-learning/04_课堂常用词.json",
+      "sourceName": "小蛙自习室_英语词库_第三类_学校与学习/04_课堂常用词.json",
+      "sha256": "59eb1266a2d3df2b9fb543c8c52b1fcea4a0c87cb83d12c7c610828d8edeae1f"
+    },
+    {
+      "path": "data/school-learning/index.json",
+      "sourceName": "小蛙自习室_英语词库_第三类_学校与学习/学校与学习_分类目录.json",
+      "sha256": "4a2cd23b9ec22050ce2b8790c986923c3e205b71605b833681777766b6c5e744"
+    }
+  ],
+  "vocabularyCount": 198,
+  "sourceAudioCount": 0
+}

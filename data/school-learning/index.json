@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "category_id": "C03",
+  "category_name": "学校与学习",
+  "pronunciation_system": "DJ 英式音标（British English IPA）",
+  "audio_pronunciation_note": "音标标注与实际音频口音分开处理；若项目既定规范为 DJ 英式音标、实际朗读采用美式英语 GA，应保留现有音频规范。本词库不包含 MP3。",
+  "description": "小蛙自习室第三类独立词库。四个二级分类分别存放在独立 JSON 文件中，便于单独审阅、修改和替换。",
+  "subcategory_count": 4,
+  "item_count": 198,
+  "subcategories": [
+    {
+      "id": "C03-S01",
+      "name": "学习用品",
+      "filename": "01_学习用品.json",
+      "description": "学生日常学习会用到的文具、书本、书包及相关用品。",
+      "item_count": 43
+    },
+    {
+      "id": "C03-S02",
+      "name": "教室与校园",
+      "filename": "02_教室与校园.json",
+      "description": "认识教室、学校场所、校园设施、人员和校园日常环境。",
+      "item_count": 45
+    },
+    {
+      "id": "C03-S03",
+      "name": "学科名称",
+      "filename": "03_学科名称.json",
+      "description": "学习小学常见学科名称，以及表达课程安排和喜好的简单句型。",
+      "item_count": 31
+    },
+    {
+      "id": "C03-S04",
+      "name": "课堂常用词",
+      "filename": "04_课堂常用词.json",
+      "description": "学习老师课堂指令、学习动作、课堂互动、作业和常见学习表达。",
+      "item_count": 79
+    }
+  ]
+}

@@ -9,7 +9,8 @@ ROOT=Path(__file__).resolve().parents[1]
 catalog=json.loads((ROOT/'data/scene-catalog.json').read_text())
 groups=json.loads((ROOT/'data/basic-vocabulary.json').read_text())['subcategories']
 words=[w for group in groups for w in group['items']]
-for file in sorted((ROOT/'data/time-nature').glob('0*.json')):words.extend(json.loads(file.read_text())['items'])
+for folder in ['time-nature','school-learning']:
+    for file in sorted((ROOT/'data'/folder).glob('0*.json')):words.extend(json.loads(file.read_text())['items'])
 assert {s['id'] for s in catalog['scenes']}=={w['id'] for w in words}
 numeric=[*range(30),30,40,50,60,70,80,90,100]
 icons=['🍪','🖊️','🐦','📕','🐈','🍎','🦆','⭐','🖍️','🌸','🖐️','🃏','🥚','🔵','🐦','🧒','🌟','⭐','✏️','🧱','🧱','🌟','🐦','📕','🃏','🧒','🖍️','⭐','📅','🔮','🌟','📕','⭐','🕒','⚖️','🔢','🔢','🔵']

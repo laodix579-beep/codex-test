@@ -14,7 +14,7 @@ ROOT = Path(__file__).resolve().parents[1]
 manifest = json.loads((ROOT / 'audio-manifest.json').read_text())
 audit = json.loads((ROOT / 'reports/all-audio-sha256.json').read_text())
 assert len(json.loads((ROOT / 'reports/source-audio-sha256.json').read_text())) == 610
-assert len(manifest['clips']) == len(audit) == 1028
+assert len(manifest['clips']) == len(audit) == 1387
 for row in manifest['clips']:
     assert hashlib.sha256((ROOT / row['path']).read_bytes()).hexdigest() == row['sha256'] == audit[row['path']]['sha256']
 
@@ -94,9 +94,9 @@ try:
                         peak=Math.max(peak,max);count++;
                     }}));await ctx.close();return {count,peak};
                 }''')
-                assert decoded['count'] == 1028
+                assert decoded['count'] == 1387
                 results['browserDecodedOriginals'] = decoded
-                print('PASS: 1028 MP3 hashes, including 610 unchanged originals, complete browser decode, valid durations and no silence/clipping', flush=True)
+                print('PASS: 1387 MP3 hashes, including 610 unchanged originals, complete browser decode, valid durations and no silence/clipping', flush=True)
             assert page.evaluate('localStorage.getItem(document.body.dataset.storageKey)') == snapshot
 
             # Search uses separate, byte-accurate word and sentence recordings.

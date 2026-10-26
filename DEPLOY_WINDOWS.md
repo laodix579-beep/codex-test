@@ -1,18 +1,18 @@
 # Windows 上传与 GitHub Pages 部署
 
-本包包含全部 1028 个已制作 MP3（原 610 个保持，新增 C02 418 个），运行网站不需要语音服务、API Key 或音频生成工具。
+本包包含全部 1387 个已制作 MP3（原 610 个保持，新增 C02 418 个与 C03 359 个），运行网站不需要语音服务、API Key 或音频生成工具。
 
 ## 上传哪些文件
 
-先在 Windows 资源管理器中右键 ZIP →“全部提取”。打开提取后的目录，应直接看到 `index.html` 和 `audio` 文件夹。把这个目录里的全部文件和文件夹一起复制到仓库根目录，保留原来的层级。
+先在 Windows 资源管理器中右键 ZIP →“全部提取”。通过原下载入口获取的 GitHub 完整 ZIP，解压后先打开 `codex-test-gh-pages` 文件夹；本地平铺部署 ZIP 直接打开解压目录。此时应看到 `index.html` 和 `audio` 文件夹。把这个目录里的全部文件和文件夹一起复制到仓库根目录，保留原来的层级。
 
 | 文件或目录 | 用途 |
 | --- | --- |
 | `index.html` | 网站主页，必须放在发布目录根部 |
 | `小蛙自习室.html` | 同一页面的旧文件名兼容入口，显示名称已改为“老K学英语” |
-| `audio/`（包括 `en-us/nature/`） | 全部 1028 个 MP3，原 610 个保持，必须完整上传 |
+| `audio/`（包括 `en-us/nature/`、`en-us/school/`） | 全部 1387 个 MP3，原 610 个保持，必须完整上传 |
 | `audio-manifest.json`、`audio-files.js`、`scene-files.js`、`category-files.js` | 播放映射及离线缓存清单，必须上传 |
-| `assets/` | 首页插画及 `assets/scenes/` 的 原 17 张合集图、1 张独立修正图及新增 14 张无损 WebP 图集，以及 `assets/categories/` 的 4 张分类卡片背景图集，整个目录必须上传 |
+| `assets/` | 首页插画及 `assets/scenes/` 的 原 17 张合集图、1 张独立修正图及新增 14 张自然图集与 25 张学校无损 WebP 图集，以及 `assets/categories/` 的 4 张分类卡片背景图集，整个目录必须上传 |
 | `data/` | 原有资料、场景及 `meaning-catalog.json` 中的词义对应资料，整个目录上传 |
 | `sw.js`、`manifest.webmanifest` | 手机安装及离线缓存支持 |
 | `icon-192.png`、`icon-512.png`、`apple-touch-icon.png` | 网站及手机图标 |
@@ -26,19 +26,19 @@ GitHub Pages 会直接读取这些文件；上传前完成解压。
 
 ## 推荐：使用 GitHub Desktop 上传整包
 
-1028 个 MP3 适合用 GitHub Desktop 一次提交，避免网页上传的文件数量限制。
+1387 个 MP3 适合用 GitHub Desktop 一次提交，避免网页上传的文件数量限制。
 
 1. 打开 GitHub Desktop，通过浏览器登录你的 GitHub 账号。
 2. 选择 **File → Clone repository**，找到 `laodix579-beep/codex-test` 并克隆。
 3. **Current branch** 选择 `gh-pages`。这是本项目当前的网站发布分支。
 4. 选择 **Repository → Show in Explorer**，打开仓库文件夹。
 5. 把解压目录中的全部内容复制进该仓库文件夹，选择合并文件夹、替换同名文件。保留仓库已有的 `.git` 目录。
-6. 回到 GitHub Desktop，在 Summary 填写“导入时间与自然词汇及配套资源”，点击 **Commit to gh-pages**。
+6. 回到 GitHub Desktop，在 Summary 填写“导入学校与学习词汇及配套资源”，点击 **Commit to gh-pages**。
 7. 点击 **Push origin**，等待上传完成。
 8. 在 GitHub 仓库网页进入 **Settings → Pages**，确认 **Deploy from a branch**、分支 **gh-pages**、目录 **/(root)**。如果是你自己的新仓库，也可以用 `main`，但提交分支与 Pages 选择的分支应一致。
 9. 等待 Pages 显示发布成功，再打开网站链接。
 
-若使用 GitHub 网页上传，请在目标目录分批上传，每批最多 100 个文件，并保留整个 `audio/` 文件夹的层级；最终 MP3 总数应为 1028。
+若使用 GitHub 网页上传，请在目标目录分批上传，每批最多 100 个文件，并保留整个 `audio/` 文件夹的层级；最终 MP3 总数应为 1387。
 
 ## 发布后检查
 

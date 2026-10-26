@@ -6012,6 +6012,3386 @@
       ],
       "usage": "",
       "note": ""
+    },
+    {
+      "id": "C03-S01-001",
+      "word": "schoolbag",
+      "meaning": "书包",
+      "english": "My schoolbag is blue.",
+      "chinese": "我的书包是蓝色的。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "书包"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S01-002",
+      "word": "pencil",
+      "meaning": "铅笔",
+      "english": "I write with a pencil.",
+      "chinese": "我用铅笔写字。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "铅笔"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S01-003",
+      "word": "pen",
+      "meaning": "笔；钢笔",
+      "english": "This pen is new.",
+      "chinese": "这支笔是新的。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 3,
+          "text": "笔"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S01-004",
+      "word": "pencil case",
+      "meaning": "笔袋；铅笔盒",
+      "english": "My pens are in the pencil case.",
+      "chinese": "我的笔在笔袋里。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "笔袋"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S01-005",
+      "word": "pencil sharpener",
+      "meaning": "卷笔刀",
+      "english": "I need a pencil sharpener.",
+      "chinese": "我需要一个卷笔刀。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 8,
+          "text": "卷笔刀"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S01-006",
+      "word": "rubber",
+      "meaning": "橡皮（英式）",
+      "english": "Can I borrow your rubber?",
+      "chinese": "我可以借一下你的橡皮吗？",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 8,
+          "end": 10,
+          "text": "橡皮"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S01-007",
+      "word": "ruler",
+      "meaning": "尺子",
+      "english": "Use a ruler to draw a line.",
+      "chinese": "用尺子画一条线。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "尺子"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S01-008",
+      "word": "scissors",
+      "meaning": "剪刀",
+      "english": "Be careful with the scissors.",
+      "chinese": "使用剪刀时要小心。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "剪刀"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S01-009",
+      "word": "glue",
+      "meaning": "胶水",
+      "english": "Use glue to stick the paper.",
+      "chinese": "用胶水粘纸。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "胶水"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S01-010",
+      "word": "glue stick",
+      "meaning": "固体胶",
+      "english": "I have a glue stick.",
+      "chinese": "我有一支固体胶。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 7,
+          "text": "固体胶"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S01-011",
+      "word": "tape",
+      "meaning": "胶带",
+      "english": "Use tape to fix the paper.",
+      "chinese": "用胶带固定纸张。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "胶带"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S01-012",
+      "word": "paper",
+      "meaning": "纸；纸张",
+      "english": "Please give me a piece of paper.",
+      "chinese": "请给我一张纸。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 6,
+          "text": "纸"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S01-013",
+      "word": "notebook",
+      "meaning": "笔记本",
+      "english": "I write new words in my notebook.",
+      "chinese": "我把新单词写在笔记本里。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 10,
+          "text": "笔记本"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S01-014",
+      "word": "exercise book",
+      "meaning": "练习本",
+      "english": "Open your exercise book.",
+      "chinese": "打开你的练习本。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 7,
+          "text": "练习本"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S01-015",
+      "word": "book",
+      "meaning": "书",
+      "english": "This is my English book.",
+      "chinese": "这是我的英语书。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 7,
+          "text": "书"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S01-016",
+      "word": "textbook",
+      "meaning": "课本；教科书",
+      "english": "Bring your maths textbook.",
+      "chinese": "带上你的数学课本。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 8,
+          "text": "课本"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S01-017",
+      "word": "storybook",
+      "meaning": "故事书",
+      "english": "I read a storybook at bedtime.",
+      "chinese": "我睡前读一本故事书。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 9,
+          "text": "故事书"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S01-018",
+      "word": "workbook",
+      "meaning": "练习册",
+      "english": "Finish the workbook at home.",
+      "chinese": "在家完成练习册。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 7,
+          "text": "练习册"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S01-019",
+      "word": "dictionary",
+      "meaning": "词典",
+      "english": "Look up the word in a dictionary.",
+      "chinese": "在词典里查这个单词。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "词典"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S01-020",
+      "word": "folder",
+      "meaning": "文件夹",
+      "english": "Keep your papers in the folder.",
+      "chinese": "把纸张放进文件夹。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 8,
+          "text": "文件夹"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S01-021",
+      "word": "worksheet",
+      "meaning": "练习纸；学习单",
+      "english": "Complete the worksheet.",
+      "chinese": "完成这张练习纸。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 7,
+          "text": "练习纸"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S01-022",
+      "word": "coloured pencil",
+      "meaning": "彩色铅笔",
+      "english": "I draw with a coloured pencil.",
+      "chinese": "我用彩色铅笔画画。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 6,
+          "text": "彩色铅笔"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S01-023",
+      "word": "crayon",
+      "meaning": "蜡笔",
+      "english": "The child draws with a crayon.",
+      "chinese": "孩子用蜡笔画画。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "蜡笔"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S01-024",
+      "word": "marker",
+      "meaning": "记号笔；马克笔",
+      "english": "Write the title with a marker.",
+      "chinese": "用记号笔写标题。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 4,
+          "text": "记号笔"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S01-025",
+      "word": "felt-tip pen",
+      "meaning": "毡头笔；水彩笔",
+      "english": "Use a felt-tip pen to colour the picture.",
+      "chinese": "用水彩笔给图画上色。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 4,
+          "text": "水彩笔"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S01-026",
+      "word": "highlighter",
+      "meaning": "荧光笔",
+      "english": "Use a highlighter for key words.",
+      "chinese": "用荧光笔标出关键词。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 4,
+          "text": "荧光笔"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S01-027",
+      "word": "paintbrush",
+      "meaning": "画笔",
+      "english": "Wash your paintbrush after painting.",
+      "chinese": "画完后清洗画笔。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "画笔"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S01-028",
+      "word": "calculator",
+      "meaning": "计算器",
+      "english": "Use a calculator to check the answer.",
+      "chinese": "用计算器检查答案。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 4,
+          "text": "计算器"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S01-029",
+      "word": "compass",
+      "meaning": "圆规；指南针",
+      "english": "Use a compass to draw a circle.",
+      "chinese": "用圆规画一个圆。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "圆规"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S01-030",
+      "word": "protractor",
+      "meaning": "量角器",
+      "english": "A protractor measures angles.",
+      "chinese": "量角器用来测量角度。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "量角器"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S01-031",
+      "word": "set square",
+      "meaning": "三角板",
+      "english": "Use a set square to draw a right angle.",
+      "chinese": "用三角板画直角。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 4,
+          "text": "三角板"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S01-032",
+      "word": "stapler",
+      "meaning": "订书机",
+      "english": "The stapler is on the desk.",
+      "chinese": "订书机在桌子上。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "订书机"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S01-033",
+      "word": "paper clip",
+      "meaning": "回形针",
+      "english": "Use a paper clip to hold the pages.",
+      "chinese": "用回形针夹住这些纸。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 4,
+          "text": "回形针"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S01-034",
+      "word": "envelope",
+      "meaning": "信封",
+      "english": "Put the note in an envelope.",
+      "chinese": "把便条放进信封。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "信封"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S01-035",
+      "word": "label",
+      "meaning": "标签",
+      "english": "Write your name on the label.",
+      "chinese": "把名字写在标签上。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "标签"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S01-036",
+      "word": "sticky note",
+      "meaning": "便利贴",
+      "english": "Write a reminder on a sticky note.",
+      "chinese": "在便利贴上写个提醒。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 4,
+          "text": "便利贴"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S01-037",
+      "word": "calendar",
+      "meaning": "日历",
+      "english": "Mark the test date on the calendar.",
+      "chinese": "在日历上标出考试日期。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "日历"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S01-038",
+      "word": "lunch box",
+      "meaning": "饭盒",
+      "english": "My lunch box is in my bag.",
+      "chinese": "我的饭盒在包里。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "饭盒"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S01-039",
+      "word": "water bottle",
+      "meaning": "水瓶；水壶",
+      "english": "Fill your water bottle before school.",
+      "chinese": "上学前把水瓶装满水。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "水瓶"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S01-040",
+      "word": "computer",
+      "meaning": "电脑",
+      "english": "We use a computer at school.",
+      "chinese": "我们在学校使用电脑。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 9,
+          "text": "电脑"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S01-041",
+      "word": "tablet",
+      "meaning": "平板电脑",
+      "english": "Read the story on the tablet.",
+      "chinese": "在平板电脑上读故事。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 5,
+          "text": "平板电脑"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S01-042",
+      "word": "headphones",
+      "meaning": "耳机",
+      "english": "Put on your headphones and listen.",
+      "chinese": "戴上耳机听。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "耳机"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S01-043",
+      "word": "school supplies",
+      "meaning": "学习用品；学校用品",
+      "english": "I need to buy school supplies.",
+      "chinese": "我需要买学习用品。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 8,
+          "text": "学习用品"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S02-001",
+      "word": "school",
+      "meaning": "学校",
+      "english": "My school is near my home.",
+      "chinese": "我的学校离家很近。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "学校"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S02-002",
+      "word": "classroom",
+      "meaning": "教室",
+      "english": "Our classroom is bright.",
+      "chinese": "我们的教室很明亮。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "教室"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S02-003",
+      "word": "class",
+      "meaning": "班级；课",
+      "english": "Our class starts at nine.",
+      "chinese": "我们的课九点开始。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 4,
+          "text": "课"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S02-004",
+      "word": "school building",
+      "meaning": "教学楼；学校建筑",
+      "english": "The school building is large.",
+      "chinese": "教学楼很大。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "教学楼"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S02-005",
+      "word": "school gate",
+      "meaning": "校门",
+      "english": "Meet me at the school gate.",
+      "chinese": "在校门口见我。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "校门"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S02-006",
+      "word": "playground",
+      "meaning": "操场；游乐场",
+      "english": "We run on the playground.",
+      "chinese": "我们在操场上跑步。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "操场"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S02-007",
+      "word": "school hall",
+      "meaning": "学校礼堂；大厅",
+      "english": "We meet in the school hall.",
+      "chinese": "我们在学校礼堂集合。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 7,
+          "text": "学校礼堂"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S02-008",
+      "word": "library",
+      "meaning": "图书馆",
+      "english": "I borrow books from the library.",
+      "chinese": "我从图书馆借书。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 5,
+          "text": "图书馆"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S02-009",
+      "word": "computer room",
+      "meaning": "电脑教室",
+      "english": "We learn typing in the computer room.",
+      "chinese": "我们在电脑教室学习打字。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 7,
+          "text": "电脑教室"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S02-010",
+      "word": "science lab",
+      "meaning": "科学实验室",
+      "english": "The science lab has microscopes.",
+      "chinese": "科学实验室里有显微镜。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 5,
+          "text": "科学实验室"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S02-011",
+      "word": "art room",
+      "meaning": "美术教室",
+      "english": "We paint in the art room.",
+      "chinese": "我们在美术教室画画。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 7,
+          "text": "美术教室"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S02-012",
+      "word": "music room",
+      "meaning": "音乐教室",
+      "english": "The piano is in the music room.",
+      "chinese": "钢琴在音乐教室里。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 7,
+          "text": "音乐教室"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S02-013",
+      "word": "staff room",
+      "meaning": "教职工休息室",
+      "english": "Teachers meet in the staff room.",
+      "chinese": "老师们在教职工休息室见面。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 10,
+          "text": "教职工休息室"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S02-014",
+      "word": "office",
+      "meaning": "办公室",
+      "english": "Please take this note to the office.",
+      "chinese": "请把这张便条送到办公室。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 8,
+          "end": 11,
+          "text": "办公室"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S02-015",
+      "word": "canteen",
+      "meaning": "食堂；餐厅",
+      "english": "We eat lunch in the canteen.",
+      "chinese": "我们在食堂吃午饭。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "食堂"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S02-016",
+      "word": "toilet",
+      "meaning": "厕所；卫生间（英式常用）",
+      "english": "May I go to the toilet?",
+      "chinese": "我可以去一下卫生间吗？",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 9,
+          "text": "卫生间"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S02-017",
+      "word": "washroom",
+      "meaning": "洗手间",
+      "english": "The washroom is near the hall.",
+      "chinese": "洗手间在大厅附近。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "洗手间"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S02-018",
+      "word": "corridor",
+      "meaning": "走廊",
+      "english": "Walk quietly along the corridor.",
+      "chinese": "沿走廊安静地走。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "走廊"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S02-019",
+      "word": "stairs",
+      "meaning": "楼梯",
+      "english": "Be careful on the stairs.",
+      "chinese": "上下楼梯时要小心。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "楼梯"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S02-020",
+      "word": "entrance",
+      "meaning": "入口",
+      "english": "The entrance is on the left.",
+      "chinese": "入口在左边。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "入口"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S02-021",
+      "word": "exit",
+      "meaning": "出口",
+      "english": "Follow the sign to the exit.",
+      "chinese": "沿着标志找到出口。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 8,
+          "text": "出口"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S02-022",
+      "word": "school garden",
+      "meaning": "校园花园",
+      "english": "We grow flowers in the school garden.",
+      "chinese": "我们在校园花园里种花。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 7,
+          "text": "校园花园"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S02-023",
+      "word": "school bus",
+      "meaning": "校车",
+      "english": "I take the school bus every morning.",
+      "chinese": "我每天早上坐校车。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 8,
+          "text": "校车"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S02-024",
+      "word": "noticeboard",
+      "meaning": "公告栏",
+      "english": "The timetable is on the noticeboard.",
+      "chinese": "课程表在公告栏上。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 7,
+          "text": "公告栏"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S02-025",
+      "word": "display board",
+      "meaning": "展示板；展板",
+      "english": "Our pictures are on the display board.",
+      "chinese": "我们的图画在展示板上。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 9,
+          "text": "展示板"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S02-026",
+      "word": "whiteboard",
+      "meaning": "白板",
+      "english": "The teacher writes on the whiteboard.",
+      "chinese": "老师在白板上写字。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "白板"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S02-027",
+      "word": "blackboard",
+      "meaning": "黑板",
+      "english": "The answer is on the blackboard.",
+      "chinese": "答案在黑板上。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "黑板"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S02-028",
+      "word": "desk",
+      "meaning": "课桌；书桌",
+      "english": "My book is on the desk.",
+      "chinese": "我的书在课桌上。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "课桌"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S02-029",
+      "word": "chair",
+      "meaning": "椅子",
+      "english": "Please sit on your chair.",
+      "chinese": "请坐在椅子上。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "椅子"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S02-030",
+      "word": "teacher's desk",
+      "meaning": "讲台；老师的桌子",
+      "english": "The register is on the teacher's desk.",
+      "chinese": "点名册在老师的桌子上。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 9,
+          "text": "老师的桌子"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S02-031",
+      "word": "bin",
+      "meaning": "垃圾桶（英式）",
+      "english": "Put the paper in the bin.",
+      "chinese": "把纸放进垃圾桶。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 7,
+          "text": "垃圾桶"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S02-032",
+      "word": "clock",
+      "meaning": "钟；时钟",
+      "english": "The clock is above the door.",
+      "chinese": "时钟在门上方。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "时钟"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S02-033",
+      "word": "window",
+      "meaning": "窗户",
+      "english": "Open the window, please.",
+      "chinese": "请打开窗户。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "窗户"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S02-034",
+      "word": "door",
+      "meaning": "门",
+      "english": "Close the door quietly.",
+      "chinese": "轻轻关上门。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 5,
+          "text": "门"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S02-035",
+      "word": "floor",
+      "meaning": "地板；楼层",
+      "english": "Keep the floor clean.",
+      "chinese": "保持地面清洁。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "地面"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S02-036",
+      "word": "wall",
+      "meaning": "墙",
+      "english": "There is a map on the wall.",
+      "chinese": "墙上有一张地图。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 1,
+          "text": "墙"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S02-037",
+      "word": "locker",
+      "meaning": "储物柜",
+      "english": "My PE kit is in the locker.",
+      "chinese": "我的体育用品在储物柜里。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 10,
+          "text": "储物柜"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S02-038",
+      "word": "coat hook",
+      "meaning": "衣帽钩",
+      "english": "Hang your coat on the coat hook.",
+      "chinese": "把外套挂在衣帽钩上。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 8,
+          "text": "衣帽钩"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S02-039",
+      "word": "school uniform",
+      "meaning": "校服",
+      "english": "We wear our school uniform on Monday.",
+      "chinese": "我们星期一穿校服。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 8,
+          "text": "校服"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S02-040",
+      "word": "student",
+      "meaning": "学生",
+      "english": "Every student has a book.",
+      "chinese": "每个学生都有一本书。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "学生"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S02-041",
+      "word": "pupil",
+      "meaning": "小学生；学生（英式常用）",
+      "english": "Each pupil has a reading book.",
+      "chinese": "每个小学生都有一本阅读书。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 5,
+          "text": "小学生"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S02-042",
+      "word": "teacher",
+      "meaning": "老师",
+      "english": "Our teacher is kind.",
+      "chinese": "我们的老师很和蔼。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "老师"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S02-043",
+      "word": "head teacher",
+      "meaning": "校长（英式常用）",
+      "english": "The head teacher speaks to the class.",
+      "chinese": "校长对全班讲话。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "校长"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S02-044",
+      "word": "classmate",
+      "meaning": "同班同学",
+      "english": "My classmate sits next to me.",
+      "chinese": "我的同班同学坐在我旁边。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 6,
+          "text": "同班同学"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S02-045",
+      "word": "school friend",
+      "meaning": "学校里的朋友",
+      "english": "I play with my school friend.",
+      "chinese": "我和学校里的朋友一起玩。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 8,
+          "text": "学校里的朋友"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S03-001",
+      "word": "subject",
+      "meaning": "学科；科目",
+      "english": "What is your favourite subject?",
+      "chinese": "你最喜欢的科目是什么？",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "科目"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S03-002",
+      "word": "English",
+      "meaning": "英语",
+      "english": "We read stories in English.",
+      "chinese": "我们用英语读故事。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "英语"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S03-003",
+      "word": "maths",
+      "meaning": "数学（英式）",
+      "english": "I like maths.",
+      "chinese": "我喜欢数学。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "数学"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S03-004",
+      "word": "science",
+      "meaning": "科学",
+      "english": "We learn about plants in science.",
+      "chinese": "我们在科学课上学习植物。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "科学"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S03-005",
+      "word": "art",
+      "meaning": "美术；艺术",
+      "english": "We draw pictures in art.",
+      "chinese": "我们在美术课上画画。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "美术"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S03-006",
+      "word": "music",
+      "meaning": "音乐",
+      "english": "We sing songs in music.",
+      "chinese": "我们在音乐课上唱歌。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "音乐"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S03-007",
+      "word": "PE",
+      "meaning": "体育（physical education 的缩写）",
+      "english": "We play games in PE.",
+      "chinese": "我们在体育课上做游戏。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "体育"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S03-008",
+      "word": "physical education",
+      "meaning": "体育教育；体育课",
+      "english": "Physical education helps us stay active.",
+      "chinese": "体育课帮助我们保持活跃。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "体育课"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S03-009",
+      "word": "history",
+      "meaning": "历史",
+      "english": "We learn about the past in history.",
+      "chinese": "我们在历史课上学习过去的事情。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "历史"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S03-010",
+      "word": "geography",
+      "meaning": "地理",
+      "english": "We learn about maps in geography.",
+      "chinese": "我们在地理课上学习地图。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "地理"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S03-011",
+      "word": "computing",
+      "meaning": "计算机课程；信息技术（英式常用）",
+      "english": "We learn coding in computing.",
+      "chinese": "我们在计算机课上学习编程。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 7,
+          "text": "计算机课"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S03-012",
+      "word": "computer studies",
+      "meaning": "计算机课程",
+      "english": "Computer studies is on Tuesday.",
+      "chinese": "星期二有计算机课。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 8,
+          "text": "计算机课"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S03-013",
+      "word": "drama",
+      "meaning": "戏剧；戏剧课",
+      "english": "We act out a story in drama.",
+      "chinese": "我们在戏剧课上表演故事。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 6,
+          "text": "戏剧课"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S03-014",
+      "word": "dance",
+      "meaning": "舞蹈；舞蹈课",
+      "english": "We learn a dance at school.",
+      "chinese": "我们在学校学习舞蹈。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 9,
+          "text": "舞蹈"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S03-015",
+      "word": "religious education",
+      "meaning": "宗教教育课程（英国部分学校）",
+      "english": "Religious education is on the timetable.",
+      "chinese": "课程表上有宗教教育课。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 10,
+          "text": "宗教教育课"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S03-016",
+      "word": "design and technology",
+      "meaning": "设计与技术课程",
+      "english": "We make a model in design and technology.",
+      "chinese": "我们在设计与技术课上制作模型。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 9,
+          "text": "设计与技术课"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S03-017",
+      "word": "modern languages",
+      "meaning": "现代外语课程",
+      "english": "We learn modern languages at school.",
+      "chinese": "我们在学校学习现代外语。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 11,
+          "text": "现代外语"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S03-018",
+      "word": "reading",
+      "meaning": "阅读；阅读课",
+      "english": "Reading is part of our English lesson.",
+      "chinese": "阅读是英语课的一部分。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "阅读"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S03-019",
+      "word": "writing",
+      "meaning": "写作；书写",
+      "english": "We practise writing every day.",
+      "chinese": "我们每天练习写作。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 8,
+          "text": "写作"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S03-020",
+      "word": "spelling",
+      "meaning": "拼写；拼写练习",
+      "english": "We have a spelling test today.",
+      "chinese": "我们今天有拼写测验。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "拼写"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S03-021",
+      "word": "handwriting",
+      "meaning": "书写；笔迹",
+      "english": "Good handwriting is easy to read.",
+      "chinese": "工整的字迹容易辨认。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "字迹"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S03-022",
+      "word": "grammar",
+      "meaning": "语法",
+      "english": "We learn grammar in English.",
+      "chinese": "我们在英语课上学习语法。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 9,
+          "end": 11,
+          "text": "语法"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S03-023",
+      "word": "literature",
+      "meaning": "文学",
+      "english": "We read poems in literature.",
+      "chinese": "我们在文学课上读诗。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "文学"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S03-024",
+      "word": "number work",
+      "meaning": "数字练习；数学习题",
+      "english": "We do number work in maths.",
+      "chinese": "我们在数学课上做数字练习。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 8,
+          "end": 12,
+          "text": "数字练习"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S03-025",
+      "word": "home economics",
+      "meaning": "家政课程",
+      "english": "Home economics teaches useful life skills.",
+      "chinese": "家政课教授实用生活技能。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "家政课"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S03-026",
+      "word": "lesson",
+      "meaning": "课；一节课",
+      "english": "Our first lesson is English.",
+      "chinese": "我们的第一节课是英语。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 7,
+          "text": "一节课"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S03-027",
+      "word": "timetable",
+      "meaning": "课程表；时间表",
+      "english": "Check your timetable for tomorrow.",
+      "chinese": "查看你明天的课程表。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 9,
+          "text": "课程表"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S03-028",
+      "word": "favourite subject",
+      "meaning": "最喜欢的科目",
+      "english": "My favourite subject is art.",
+      "chinese": "我最喜欢的科目是美术。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 7,
+          "text": "最喜欢的科目"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S03-029",
+      "word": "What is your favourite subject?",
+      "meaning": "你最喜欢的科目是什么？",
+      "english": "What is your favourite subject?",
+      "chinese": "你最喜欢的科目是什么？",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 10,
+          "text": "你最喜欢的科目是什么"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S03-030",
+      "word": "I like English.",
+      "meaning": "我喜欢英语。",
+      "english": "I like English because I enjoy stories.",
+      "chinese": "我喜欢英语，因为我喜欢故事。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 5,
+          "text": "我喜欢英语"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S03-031",
+      "word": "I have maths on Monday.",
+      "meaning": "我星期一有数学课。",
+      "english": "I have maths on Monday.",
+      "chinese": "我星期一有数学课。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 8,
+          "text": "我星期一有数学课"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-001",
+      "word": "listen",
+      "meaning": "听",
+      "english": "Listen to the teacher.",
+      "chinese": "听老师讲。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 1,
+          "text": "听"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-002",
+      "word": "look",
+      "meaning": "看；瞧",
+      "english": "Look at the picture.",
+      "chinese": "看这张图片。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 1,
+          "text": "看"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-003",
+      "word": "read",
+      "meaning": "读；阅读",
+      "english": "Read the sentence aloud.",
+      "chinese": "大声读这个句子。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 3,
+          "text": "读"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-004",
+      "word": "write",
+      "meaning": "写",
+      "english": "Write your name here.",
+      "chinese": "在这里写上你的名字。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 4,
+          "text": "写"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-005",
+      "word": "spell",
+      "meaning": "拼写",
+      "english": "Can you spell your name?",
+      "chinese": "你会拼写自己的名字吗？",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "拼写"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-006",
+      "word": "say",
+      "meaning": "说；讲",
+      "english": "Say the word after me.",
+      "chinese": "跟我读这个单词。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 3,
+          "text": "读"
+        }
+      ],
+      "usage": "",
+      "note": "say the word 在本句中译为“读这个单词”；词义仍保留“说；讲”。"
+    },
+    {
+      "id": "C03-S04-007",
+      "word": "speak",
+      "meaning": "说话；讲话",
+      "english": "Please speak clearly.",
+      "chinese": "请清楚地说。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 5,
+          "text": "说"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-008",
+      "word": "repeat",
+      "meaning": "重复；跟读",
+      "english": "Repeat the sentence, please.",
+      "chinese": "请重复这个句子。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "重复"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-009",
+      "word": "ask",
+      "meaning": "问；询问",
+      "english": "Ask if you need help.",
+      "chinese": "如果需要帮助就问。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 8,
+          "text": "问"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-010",
+      "word": "answer",
+      "meaning": "回答；答案",
+      "english": "Answer the question.",
+      "chinese": "回答这个问题。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "回答"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-011",
+      "word": "think",
+      "meaning": "思考；想",
+      "english": "Think before you answer.",
+      "chinese": "回答前先思考。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "思考"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-012",
+      "word": "count",
+      "meaning": "数数；计数",
+      "english": "Count from one to ten.",
+      "chinese": "从一数到十。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 3,
+          "text": "数"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-013",
+      "word": "match",
+      "meaning": "匹配；配对",
+      "english": "Match the words to the pictures.",
+      "chinese": "把单词和图片配对。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 8,
+          "text": "配对"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-014",
+      "word": "choose",
+      "meaning": "选择",
+      "english": "Choose the correct answer.",
+      "chinese": "选择正确答案。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "选择"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-015",
+      "word": "circle",
+      "meaning": "圈出；圆圈",
+      "english": "Circle the correct word.",
+      "chinese": "圈出正确的单词。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "圈出"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-016",
+      "word": "underline",
+      "meaning": "在……下面画线",
+      "english": "Underline the key word.",
+      "chinese": "在关键词下面画线。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 1,
+          "text": "在"
+        },
+        {
+          "start": 4,
+          "end": 8,
+          "text": "下面画线"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-017",
+      "word": "tick",
+      "meaning": "打勾；勾选（英式）",
+      "english": "Tick the correct box.",
+      "chinese": "勾选正确的方框。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "勾选"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-018",
+      "word": "cross",
+      "meaning": "打叉；叉号",
+      "english": "Put a cross next to the wrong answer.",
+      "chinese": "在错误答案旁边打叉。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 9,
+          "text": "打叉"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-019",
+      "word": "fill in",
+      "meaning": "填写；填入",
+      "english": "Fill in the missing word.",
+      "chinese": "填入缺少的单词。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "填入"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-020",
+      "word": "complete",
+      "meaning": "完成；补全",
+      "english": "Complete the sentence.",
+      "chinese": "补全这个句子。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "补全"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-021",
+      "word": "correct",
+      "meaning": "改正；正确的",
+      "english": "Correct your spelling.",
+      "chinese": "改正你的拼写。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "改正"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-022",
+      "word": "check",
+      "meaning": "检查；核对",
+      "english": "Check your answers.",
+      "chinese": "检查你的答案。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "检查"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-023",
+      "word": "compare",
+      "meaning": "比较；对比",
+      "english": "Compare the two pictures.",
+      "chinese": "比较这两张图片。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "比较"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-024",
+      "word": "describe",
+      "meaning": "描述",
+      "english": "Describe what you can see.",
+      "chinese": "描述你能看到的东西。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "描述"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-025",
+      "word": "explain",
+      "meaning": "解释；说明",
+      "english": "Explain your answer.",
+      "chinese": "解释你的答案。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "解释"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-026",
+      "word": "show",
+      "meaning": "展示；给……看",
+      "english": "Show me your work.",
+      "chinese": "把你的作业给我看。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 6,
+          "text": "给"
+        },
+        {
+          "start": 7,
+          "end": 8,
+          "text": "看"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-027",
+      "word": "draw",
+      "meaning": "画；绘制",
+      "english": "Draw a line under the word.",
+      "chinese": "在单词下面画一条线。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 6,
+          "text": "画"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-028",
+      "word": "colour",
+      "meaning": "给……涂色；颜色（英式拼写）",
+      "english": "Colour the star yellow.",
+      "chinese": "把星星涂成黄色。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "涂成"
+        }
+      ],
+      "usage": "",
+      "note": "colour 在本句中是动词，表示涂色；黄色对应句中已给出的 yellow。"
+    },
+    {
+      "id": "C03-S04-029",
+      "word": "cut",
+      "meaning": "剪；切",
+      "english": "Cut out the shape carefully.",
+      "chinese": "小心地把形状剪下来。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 7,
+          "text": "剪"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-030",
+      "word": "stick",
+      "meaning": "粘贴；贴上",
+      "english": "Stick the picture in your book.",
+      "chinese": "把图片贴在你的书里。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 4,
+          "text": "贴"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-031",
+      "word": "fold",
+      "meaning": "折叠",
+      "english": "Fold the paper in half.",
+      "chinese": "把纸对折。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 4,
+          "text": "折"
+        }
+      ],
+      "usage": "",
+      "note": "fold 表示“折”，in half 表示“对半”；词义仍保留“折叠”。"
+    },
+    {
+      "id": "C03-S04-032",
+      "word": "open",
+      "meaning": "打开",
+      "english": "Open your book at page ten.",
+      "chinese": "把书翻到第十页。",
+      "mode": "usage",
+      "spans": [],
+      "usage": "open 在这里用于翻书指令；整句译为“把书翻到第十页”，中文没有逐字单独译出“打开”。",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-033",
+      "word": "close",
+      "meaning": "关闭；合上",
+      "english": "Close your book, please.",
+      "chinese": "请合上书。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "合上"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-034",
+      "word": "turn to",
+      "meaning": "翻到（某一页）",
+      "english": "Turn to page five.",
+      "chinese": "翻到第五页。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "翻到"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-035",
+      "word": "start",
+      "meaning": "开始",
+      "english": "Start the task now.",
+      "chinese": "现在开始任务。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "开始"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-036",
+      "word": "finish",
+      "meaning": "完成；结束",
+      "english": "Finish your work before lunch.",
+      "chinese": "午饭前完成作业。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "完成"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-037",
+      "word": "stop",
+      "meaning": "停止",
+      "english": "Stop writing and look up.",
+      "chinese": "停止写字并抬头看。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "停止"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-038",
+      "word": "wait",
+      "meaning": "等待",
+      "english": "Wait for your turn.",
+      "chinese": "等待轮到你。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "等待"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-039",
+      "word": "share",
+      "meaning": "分享；共用",
+      "english": "Share the pencils with your group.",
+      "chinese": "和小组共用这些铅笔。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "共用"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-040",
+      "word": "work together",
+      "meaning": "一起合作",
+      "english": "Work together to solve the problem.",
+      "chinese": "一起合作解决这个问题。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 4,
+          "text": "一起合作"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-041",
+      "word": "take turns",
+      "meaning": "轮流",
+      "english": "Take turns to read.",
+      "chinese": "轮流朗读。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "轮流"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-042",
+      "word": "raise your hand",
+      "meaning": "举手",
+      "english": "Raise your hand to answer.",
+      "chinese": "举手回答。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "举手"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-043",
+      "word": "stand up",
+      "meaning": "起立；站起来",
+      "english": "Stand up, please.",
+      "chinese": "请起立。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "起立"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-044",
+      "word": "sit down",
+      "meaning": "坐下",
+      "english": "Sit down and get ready.",
+      "chinese": "坐下并做好准备。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "坐下"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-045",
+      "word": "line up",
+      "meaning": "排队",
+      "english": "Line up quietly outside the classroom.",
+      "chinese": "在教室外安静排队。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 8,
+          "text": "排队"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-046",
+      "word": "be quiet",
+      "meaning": "保持安静",
+      "english": "Please be quiet during the test.",
+      "chinese": "考试时请保持安静。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 8,
+          "text": "保持安静"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-047",
+      "word": "pay attention",
+      "meaning": "集中注意力",
+      "english": "Pay attention to the instructions.",
+      "chinese": "注意听指令。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "注意"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-048",
+      "word": "have a go",
+      "meaning": "试一试（英式常用）",
+      "english": "Have a go at the first question.",
+      "chinese": "试着做第一道题。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "试着做"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-049",
+      "word": "try again",
+      "meaning": "再试一次",
+      "english": "It's OK. Try again.",
+      "chinese": "没关系，再试一次。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 8,
+          "text": "再试一次"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-050",
+      "word": "well done",
+      "meaning": "做得好；干得漂亮",
+      "english": "Well done for finishing your work.",
+      "chinese": "你完成了作业，做得很好。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 11,
+          "text": "做得很好"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-051",
+      "word": "homework",
+      "meaning": "家庭作业",
+      "english": "I do my homework after school.",
+      "chinese": "我放学后做家庭作业。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 9,
+          "text": "家庭作业"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-052",
+      "word": "classwork",
+      "meaning": "课堂作业",
+      "english": "Finish your classwork before you leave.",
+      "chinese": "离开前完成课堂作业。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 9,
+          "text": "课堂作业"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-053",
+      "word": "project",
+      "meaning": "项目；课题作业",
+      "english": "Our project is about animals.",
+      "chinese": "我们的课题是关于动物的。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "课题"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-054",
+      "word": "task",
+      "meaning": "任务；作业",
+      "english": "Read the task carefully.",
+      "chinese": "仔细阅读任务要求。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 8,
+          "text": "任务要求"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-055",
+      "word": "question",
+      "meaning": "问题；题目",
+      "english": "Read the question twice.",
+      "chinese": "把题目读两遍。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "题目"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-056",
+      "word": "example",
+      "meaning": "例子；示例",
+      "english": "Look at the example first.",
+      "chinese": "先看这个例子。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "例子"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-057",
+      "word": "mistake",
+      "meaning": "错误",
+      "english": "Everyone makes a mistake sometimes.",
+      "chinese": "每个人有时都会犯错。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 8,
+          "end": 9,
+          "text": "错"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-058",
+      "word": "problem",
+      "meaning": "问题；难题",
+      "english": "Can you solve this problem?",
+      "chinese": "你能解决这道题吗？",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 7,
+          "text": "题"
+        }
+      ],
+      "usage": "",
+      "note": "problem 在这道练习的中文例句中译为“题”。"
+    },
+    {
+      "id": "C03-S04-059",
+      "word": "solution",
+      "meaning": "解决办法；答案",
+      "english": "Let's find a solution together.",
+      "chinese": "我们一起找出解决办法。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 10,
+          "text": "解决办法"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-060",
+      "word": "rule",
+      "meaning": "规则",
+      "english": "Follow the classroom rules.",
+      "chinese": "遵守课堂规则。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "规则"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-061",
+      "word": "instruction",
+      "meaning": "指令；说明",
+      "english": "Listen to the instructions carefully.",
+      "chinese": "仔细听说明。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "说明"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-062",
+      "word": "group",
+      "meaning": "小组；群组",
+      "english": "Work in a group of four.",
+      "chinese": "四人一组进行活动。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 4,
+          "text": "组"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-063",
+      "word": "pair",
+      "meaning": "一对；两人一组",
+      "english": "Work in pairs.",
+      "chinese": "两人一组进行活动。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 4,
+          "text": "两人一组"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-064",
+      "word": "partner",
+      "meaning": "搭档；伙伴",
+      "english": "Check the answer with your partner.",
+      "chinese": "和搭档核对答案。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "搭档"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-065",
+      "word": "break",
+      "meaning": "休息；课间休息",
+      "english": "We have a short break at ten.",
+      "chinese": "我们十点有一小段休息时间。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 8,
+          "end": 10,
+          "text": "休息"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-066",
+      "word": "break time",
+      "meaning": "课间休息时间",
+      "english": "We play outside at break time.",
+      "chinese": "课间休息时我们在外面玩。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 4,
+          "text": "课间休息"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-067",
+      "word": "test",
+      "meaning": "测验；测试",
+      "english": "We have a spelling test today.",
+      "chinese": "我们今天有拼写测验。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 9,
+          "text": "测验"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-068",
+      "word": "exam",
+      "meaning": "考试",
+      "english": "The exam starts at nine.",
+      "chinese": "考试九点开始。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "考试"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-069",
+      "word": "mark",
+      "meaning": "分数；评分（英式常用）",
+      "english": "The teacher gives me a good mark.",
+      "chinese": "老师给了我一个好成绩。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 8,
+          "end": 10,
+          "text": "成绩"
+        }
+      ],
+      "usage": "",
+      "note": "mark 在本句中指老师给出的成绩。"
+    },
+    {
+      "id": "C03-S04-070",
+      "word": "score",
+      "meaning": "得分；成绩",
+      "english": "What is your score?",
+      "chinese": "你的得分是多少？",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "得分"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-071",
+      "word": "result",
+      "meaning": "结果；成绩",
+      "english": "We get our test results tomorrow.",
+      "chinese": "我们明天拿到测验成绩。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 8,
+          "end": 10,
+          "text": "成绩"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-072",
+      "word": "ready",
+      "meaning": "准备好的",
+      "english": "Are you ready to begin?",
+      "chinese": "你准备好开始了吗？",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 4,
+          "text": "准备好"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-073",
+      "word": "I don't understand.",
+      "meaning": "我不明白。",
+      "english": "I don't understand this question.",
+      "chinese": "我不明白这道题。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 4,
+          "text": "我不明白"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-074",
+      "word": "Can you help me?",
+      "meaning": "你能帮帮我吗？",
+      "english": "Can you help me with this word?",
+      "chinese": "你能帮我看看这个单词吗？",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 6,
+          "text": "你能帮我看看"
+        },
+        {
+          "start": 10,
+          "end": 11,
+          "text": "吗"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-075",
+      "word": "May I come in?",
+      "meaning": "我可以进来吗？",
+      "english": "May I come in, please?",
+      "chinese": "请问我可以进来吗？",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 8,
+          "text": "我可以进来吗"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-076",
+      "word": "May I go to the toilet?",
+      "meaning": "我可以去卫生间吗？",
+      "english": "May I go to the toilet, please?",
+      "chinese": "请问我可以去卫生间吗？",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 10,
+          "text": "我可以去卫生间吗"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-077",
+      "word": "Here you are.",
+      "meaning": "给你。",
+      "english": "Here you are. This is your pencil.",
+      "chinese": "给你。这是你的铅笔。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "给你"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-078",
+      "word": "I'm finished.",
+      "meaning": "我做完了。",
+      "english": "I'm finished. May I check my answers?",
+      "chinese": "我做完了。我可以检查答案吗？",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 4,
+          "text": "我做完了"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C03-S04-079",
+      "word": "Please say that again.",
+      "meaning": "请再说一遍。",
+      "english": "Please say that again more slowly.",
+      "chinese": "请再慢一点说一遍。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "请再"
+        },
+        {
+          "start": 5,
+          "end": 8,
+          "text": "说一遍"
+        }
+      ],
+      "usage": "",
+      "note": ""
     }
   ]
 }
