@@ -35,7 +35,11 @@ with TemporaryDirectory(prefix='mvp-pages-') as directory:
    browser=p.chromium.launch(executable_path='/usr/bin/chromium',headless=True,args=['--no-sandbox'])
    for mobile in (False,True):
     context=browser.new_context(viewport={'width':390 if mobile else 1440,'height':844 if mobile else 960},is_mobile=mobile,has_touch=mobile)
-    context.add_init_script("Object.defineProperty(window,'speechSynthesis',{get(){throw new Error('TTS forbidden')}})")
+    context.add_init_script('''{
+     Object.defineProperty(window,'speechSynthesis',{get(){throw new Error('TTS forbidden')}});
+     const pending=sessionStorage.getItem('pages-next-state');
+     if(pending){const fixture=JSON.parse(pending);sessionStorage.removeItem('pages-next-state');localStorage.setItem(fixture.key,fixture.value);}
+    }''')
     page=context.new_page();errors=[];page.on('pageerror',lambda e:errors.append(str(e)))
     base=f'http://127.0.0.1:{server.server_port}/codex-test/'
     page.goto(base+'#home')
@@ -62,6 +66,14 @@ with TemporaryDirectory(prefix='mvp-pages-') as directory:
      page.locator('#practice-group-dialog [data-practice-group="politeness"]').click()
      page.locator('.translation-blank').first.wait_for();assert page.locator('#practice-jump option').count()==8
      assert page.locator('.translation-picture').get_attribute('data-scene-id')=='C01-S01-011'
+     page.locator('.translation-blank').first.fill('draft')
+     page.locator('#translation-form [data-action="next-item"]').click()
+     page.locator('#translation-previous').click()
+     assert page.locator('.translation-blank').first.input_value()=='draft'
+     page.locator('#restart-practice-group').click()
+     assert '1/8' in page.locator('#lesson-course').inner_text()
+     assert page.locator('.translation-blank').first.input_value()==''
+     assert page.locator('#translation-previous').is_disabled()
      page.locator('.practice-back').click();page.wait_for_function('!document.querySelector("#lesson-dialog").open')
      assert page.evaluate('async()=>{const r=await fetch("data/practice-groups.json");return (await r.json()).subcategories.length}')==7
     page.goto(base+'#words/C01/C01-S01');page.locator('.translation-blank').wait_for()
@@ -92,7 +104,8 @@ with TemporaryDirectory(prefix='mvp-pages-') as directory:
     assert ranged['status']==206 and ranged['bytes']==31 and ranged['range'].startswith('bytes 10-40/')
     page.locator('.practice-back').click();page.wait_for_function('!document.querySelector("#lesson-dialog").open')
     if not mobile:
-     page.evaluate('''()=>{const key=document.body.dataset.storageKey,s=JSON.parse(localStorage.getItem(key)),ids=FROG_WORD_CATALOG.words.filter(w=>w.subcategoryId==='C01-S01').map(w=>w.id);ids.forEach(id=>s.wordStatus[id]='mastered');s.practiceResume={ids,wordId:ids[3],answered:false,finished:false};localStorage.setItem(key,JSON.stringify(s));}''')
+     # Apply this fixture after the old page's legitimate unload/time save.
+     page.evaluate('''()=>{const key=document.body.dataset.storageKey,s=JSON.parse(localStorage.getItem(key)),ids=FROG_WORD_CATALOG.words.filter(w=>w.subcategoryId==='C01-S01').map(w=>w.id);ids.forEach(id=>s.wordStatus[id]='mastered');s.practiceResume={ids,wordId:ids[3],answered:false,finished:false};sessionStorage.setItem('pages-next-state',JSON.stringify({key,value:JSON.stringify(s)}));}''')
      page.goto(base+'#home');page.reload()
      page.wait_for_function('document.querySelector(".mvp-resume-title")?.textContent.includes("第 4 / 22 词")')
      page.locator('.home-resume-card [data-action="resume-desktop"]').click()

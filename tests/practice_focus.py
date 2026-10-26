@@ -43,7 +43,7 @@ with sync_playwright() as p:
  page.wait_for_function('document.querySelector("#question-audio").currentTime>0&&!document.querySelector("#question-audio").paused')
  page.locator('.question-audio-player [data-action="speak-lesson"]').click();intact()
  # Native player controls remain keyboard-accessible through deliberate Tab use.
- fields.first.focus();page.keyboard.press('Shift+Tab');page.keyboard.press('Shift+Tab')
+ fields.first.focus();page.keyboard.press('Shift+Tab');page.keyboard.press('Shift+Tab');page.keyboard.press('Shift+Tab')
  assert page.locator('#question-audio').evaluate('e=>document.activeElement===e')
  fields.nth(1).focus();fields.nth(1).evaluate('e=>e.setSelectionRange(4,5)')
  print('PASS: image/text/blank area/sidebar/replay/native audio preserve the live second blank, selection and single edit sounds',flush=True)
