@@ -1,8 +1,8 @@
 // Public static resources only; personal study data stays in localStorage.
 importScripts('./audio-files.js','./scene-files.js','./category-files.js');
-const CACHE="frog-school-learning-v36";
+const CACHE="frog-family-daily-v37";
 const ROOT=new URL('./',self.location.href);
-const FILES=['index.html','assets/home-hero.png',...self.FROG_SCENE_FILES,...self.FROG_CATEGORY_FILES,'category-files.js','data/category-art.json','data/scene-catalog.json','data/meaning-catalog.json','data/practice-groups.json','data/catalog-packs.json','data/school-learning/index.json',...['01_学习用品.json','02_教室与校园.json','03_学科名称.json','04_课堂常用词.json'].map(name=>'data/school-learning/'+name),'data/time-nature/index.json',...['01_时间与钟表.json','02_星期与日期.json','03_月份与四季.json','04_天气与气候.json'].map(name=>'data/time-nature/'+name),'scene-files.js','audio-files.js','audio-manifest.json','data/pronunciation-test-words.json','manifest.webmanifest','icon-192.png','icon-512.png','apple-touch-icon.png',...self.FROG_AUDIO_FILES];
+const FILES=['index.html','assets/home-hero.png',...self.FROG_SCENE_FILES,...self.FROG_CATEGORY_FILES,'category-files.js','data/category-art.json','data/scene-catalog.json','data/meaning-catalog.json','data/practice-groups.json','data/catalog-packs.json','data/family-daily/index.json',...['01_家庭成员.json','02_房间与家具.json','03_家居用品.json','04_日常生活与作息.json'].map(name=>'data/family-daily/'+name),'data/school-learning/index.json',...['01_学习用品.json','02_教室与校园.json','03_学科名称.json','04_课堂常用词.json'].map(name=>'data/school-learning/'+name),'data/time-nature/index.json',...['01_时间与钟表.json','02_星期与日期.json','03_月份与四季.json','04_天气与气候.json'].map(name=>'data/time-nature/'+name),'scene-files.js','audio-files.js','audio-manifest.json','data/pronunciation-test-words.json','manifest.webmanifest','icon-192.png','icon-512.png','apple-touch-icon.png',...self.FROG_AUDIO_FILES];
 const FILE_URLS=new Map(FILES.map(file=>[new URL(file,ROOT).href,file]));
 self.addEventListener('install',event=>event.waitUntil((async()=>{
   const cache=await caches.open(CACHE);let next=0;

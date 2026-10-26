@@ -11890,6 +11890,3291 @@
       "intonation": "fall",
       "sha256": "145f834c08e8f7a37ed41dd9862290fd35ae06b363c782c7f77af962a3c6f97f",
       "source": "school-learning-v1"
+    },
+    {
+      "audio_key": "i love my family",
+      "text": "I love my family.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/i-love-my-family.mp3",
+      "intonation": "fall",
+      "sha256": "04a31d76617330b967b20deacab086e270ee986fd896a5f863aa12afac3ad572",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "parent",
+      "text": "parent",
+      "style": "word",
+      "path": "audio/en-us/family/word/parent.mp3",
+      "intonation": "neutral",
+      "sha256": "8b677fc03710459ac4023c41cc5e34019d5e5eae3c870dbd5779b1fa83f5bf81",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "a parent came to the school meeting",
+      "text": "A parent came to the school meeting.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/a-parent-came-to-the-school-meeting.mp3",
+      "intonation": "fall",
+      "sha256": "1da8372003a1c59c14faa0226acd976e973c2c40d4e19df6dd5fce42893179f0",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "parents",
+      "text": "parents",
+      "style": "word",
+      "path": "audio/en-us/family/word/parents.mp3",
+      "intonation": "neutral",
+      "sha256": "e2da53dcb31678f4afad649f2b85037bb8c0be45fe94fe37080b92dc5e2a978c",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "my parents are at home",
+      "text": "My parents are at home.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/my-parents-are-at-home.mp3",
+      "intonation": "fall",
+      "sha256": "98f3ba417bb4b020985a36d4407cad4ff6f002be34ae3344f9abd52921d426c9",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "my mother reads with me",
+      "text": "My mother reads with me.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/my-mother-reads-with-me.mp3",
+      "intonation": "fall",
+      "sha256": "ed53361df485b60d8f4b6e06797ad2b65170a5947a64b95348bd158da34927bc",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "mum",
+      "text": "mum",
+      "style": "word",
+      "path": "audio/en-us/family/word/mum.mp3",
+      "intonation": "neutral",
+      "sha256": "cea9037bffcdbc6a3273b7d87205c20f1c36716a76e7c816ec8fd281a6c0bae4",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "mum is making dinner",
+      "text": "Mum is making dinner.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/mum-is-making-dinner.mp3",
+      "intonation": "fall",
+      "sha256": "269113e18597d55cc0dbb7866620aa1e2908bdacc30e176a5cd7ccff5eb857eb",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "my father walks to work",
+      "text": "My father walks to work.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/my-father-walks-to-work.mp3",
+      "intonation": "fall",
+      "sha256": "d758bd72a59af0dc4ea926729ce78842205573b9a02a1d6530cf6a3dc516c84a",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "dad",
+      "text": "dad",
+      "style": "word",
+      "path": "audio/en-us/family/word/dad.mp3",
+      "intonation": "neutral",
+      "sha256": "5bc20d7ca389dc26859060b16ec71dc6c73ddc77a6e06a2c03292dd0aaa422fc",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "dad helps me with my homework",
+      "text": "Dad helps me with my homework.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/dad-helps-me-with-my-homework.mp3",
+      "intonation": "fall",
+      "sha256": "49b35f182f80137a108b9bef374c326c7f0f4d28f7315da021647fd05946f67d",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "my brother likes football",
+      "text": "My brother likes football.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/my-brother-likes-football.mp3",
+      "intonation": "fall",
+      "sha256": "45f5f17824dc7beced8ea822fe5b05177c6e8ca98fdf8551b70b4fd40429d4d4",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "my sister is reading a book",
+      "text": "My sister is reading a book.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/my-sister-is-reading-a-book.mp3",
+      "intonation": "fall",
+      "sha256": "54561a4bc9ae03ab673ec7ca5dc7fecc9b4985eb47420f3f6026713691025ff5",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "sibling",
+      "text": "sibling",
+      "style": "word",
+      "path": "audio/en-us/family/word/sibling.mp3",
+      "intonation": "neutral",
+      "sha256": "94dd464232dfcaa883065b468036f7a608e2f1116ac9abd96824ec2570f8e96f",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "i have one sibling",
+      "text": "I have one sibling.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/i-have-one-sibling.mp3",
+      "intonation": "fall",
+      "sha256": "59cbe02c6d052a1d34e482fd38b0043c0e857013626c5069a4d5d798961b1b1d",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "older brother",
+      "text": "older brother",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/older-brother.mp3",
+      "intonation": "fall",
+      "sha256": "c9ceb1a7dae29de03283b936a7250f3d5ae134e7ccc80c6d850d4326f8b5eb82",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "my older brother is twelve",
+      "text": "My older brother is twelve.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/my-older-brother-is-twelve.mp3",
+      "intonation": "fall",
+      "sha256": "e0d91b1a6495af7fde07a5b33d8e90303a5d8f0e1823346b089aa04b36dd01b4",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "younger brother",
+      "text": "younger brother",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/younger-brother.mp3",
+      "intonation": "fall",
+      "sha256": "9addc517fb9f94514b3e08795c4282bd38398d1629de197ccf2465b51dc15a55",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "my younger brother is six",
+      "text": "My younger brother is six.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/my-younger-brother-is-six.mp3",
+      "intonation": "fall",
+      "sha256": "93582c723369bb556610072bdadbf49693b2829b0b93a3195f2ba3c2418036c4",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "older sister",
+      "text": "older sister",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/older-sister.mp3",
+      "intonation": "fall",
+      "sha256": "4fe32812e5701c8bc1fb168162ded7ebeca9379f9d42c667eb5c55b949052bd5",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "my older sister helps me read",
+      "text": "My older sister helps me read.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/my-older-sister-helps-me-read.mp3",
+      "intonation": "fall",
+      "sha256": "30e8c518062894e50fd9a5591497a7a5e79d208daeeb9e4166f3bc470b427bd0",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "younger sister",
+      "text": "younger sister",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/younger-sister.mp3",
+      "intonation": "fall",
+      "sha256": "b8f01e28ad186689c709b75fa476488494fde297f69ed269fd37a5a8d0c2f4cc",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "my younger sister likes drawing",
+      "text": "My younger sister likes drawing.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/my-younger-sister-likes-drawing.mp3",
+      "intonation": "fall",
+      "sha256": "6fea4d40fea24701f063da2246312f0460465789c3675275481d4c31f599f766",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "baby",
+      "text": "baby",
+      "style": "word",
+      "path": "audio/en-us/family/word/baby.mp3",
+      "intonation": "neutral",
+      "sha256": "4f2a015583c6f852f2d919f019aff2d040b9c230cfce1a97aa397ae30dd549c3",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "the baby is sleeping",
+      "text": "The baby is sleeping.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/the-baby-is-sleeping.mp3",
+      "intonation": "fall",
+      "sha256": "1fe90d2ec2c9b16ac88266084363ce2680783af730471a0be5b67453cb1467f2",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "son",
+      "text": "son",
+      "style": "word",
+      "path": "audio/en-us/family/word/son.mp3",
+      "intonation": "neutral",
+      "sha256": "4aff50a4c67748b2083b8f0bd758812c57df9199c24a055a6bdd57b4db26f55a",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "their son goes to primary school",
+      "text": "Their son goes to primary school.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/their-son-goes-to-primary-school.mp3",
+      "intonation": "fall",
+      "sha256": "253d61e1db18f7f7293b48eeed9decab0149dfea7ee3acbd67eaec532a93f3b8",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "daughter",
+      "text": "daughter",
+      "style": "word",
+      "path": "audio/en-us/family/word/daughter.mp3",
+      "intonation": "neutral",
+      "sha256": "a45cb59859d271e2b762dd9122d3f3bc00f5b67dac7d7902607bb80644c28201",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "their daughter likes music",
+      "text": "Their daughter likes music.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/their-daughter-likes-music.mp3",
+      "intonation": "fall",
+      "sha256": "5794ce736f9cf345154bd72d95cbc49814f3b5cd1607b4be2192862344756582",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "child",
+      "text": "child",
+      "style": "word",
+      "path": "audio/en-us/family/word/child.mp3",
+      "intonation": "neutral",
+      "sha256": "e91ca202e9dba9bc1dcf152694b145a074fea5024b1f41179fda429d43a4d19f",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "the child is playing outside",
+      "text": "The child is playing outside.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/the-child-is-playing-outside.mp3",
+      "intonation": "fall",
+      "sha256": "c9f88e29da633199aa6bef1917da49ebba76e87b242e728c4316d75fcd1c1845",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "children",
+      "text": "children",
+      "style": "word",
+      "path": "audio/en-us/family/word/children.mp3",
+      "intonation": "neutral",
+      "sha256": "e8f5d22198ef15487ca251208031866f6beb41efcda48df456deb8a8ed80a074",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "the children are in the garden",
+      "text": "The children are in the garden.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/the-children-are-in-the-garden.mp3",
+      "intonation": "fall",
+      "sha256": "667e5cb793287b27e3e24c53e41ac837015edb287d27b5bc739f9b3d5dc6b63d",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "grandparents",
+      "text": "grandparents",
+      "style": "word",
+      "path": "audio/en-us/family/word/grandparents.mp3",
+      "intonation": "neutral",
+      "sha256": "34848cf9e8f733a2497ee69c41d5843330f917713f4ec43dae9e1e9189af42b5",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "my grandparents live nearby",
+      "text": "My grandparents live nearby.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/my-grandparents-live-nearby.mp3",
+      "intonation": "fall",
+      "sha256": "d2f30f4cdc65380ce546a6f92512d5f0827461c7bf01cae7d2157933d9481154",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "grandmother",
+      "text": "grandmother",
+      "style": "word",
+      "path": "audio/en-us/family/word/grandmother.mp3",
+      "intonation": "neutral",
+      "sha256": "832891330a3fc67014d22dd7f81d72b7a73de98145f087e867148dc493d4bed2",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "my grandmother tells funny stories",
+      "text": "My grandmother tells funny stories.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/my-grandmother-tells-funny-stories.mp3",
+      "intonation": "fall",
+      "sha256": "1bd448d25c0e0ccdfbe7fabb8ffa70e0a907c686c57f248717891bfe8e9b6699",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "grandma makes lovely soup",
+      "text": "Grandma makes lovely soup.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/grandma-makes-lovely-soup.mp3",
+      "intonation": "fall",
+      "sha256": "65892069aec3ed85dd978d34bb2e2e858efe4cface9b5ae828ad59f8d8e98f32",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "grandfather",
+      "text": "grandfather",
+      "style": "word",
+      "path": "audio/en-us/family/word/grandfather.mp3",
+      "intonation": "neutral",
+      "sha256": "3f62ad5e313a3e14b81aeb9b19f3d35432d14e97d00bef796cc4fe38962261f1",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "my grandfather likes gardening",
+      "text": "My grandfather likes gardening.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/my-grandfather-likes-gardening.mp3",
+      "intonation": "fall",
+      "sha256": "5f22145330463232dccbe58e667b17d897dc370fbc3ec438feca2bbd291c9b9b",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "grandpa reads the newspaper",
+      "text": "Grandpa reads the newspaper.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/grandpa-reads-the-newspaper.mp3",
+      "intonation": "fall",
+      "sha256": "0aff732c635cdefd18c98cff3fcf3b394b4b76a951c73ebaf58622ca6f8955a5",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "aunt",
+      "text": "aunt",
+      "style": "word",
+      "path": "audio/en-us/family/word/aunt.mp3",
+      "intonation": "neutral",
+      "sha256": "7f0e0f799146d29cf04b67e23cf2ff43fb9e092d9c6ab3becd1eddf27a9d8c11",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "my aunt lives in london",
+      "text": "My aunt lives in London.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/my-aunt-lives-in-london.mp3",
+      "intonation": "fall",
+      "sha256": "f6195574802b40b379f6517042af121768b1a813235327ef2a8c7d0b05c503a5",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "uncle",
+      "text": "uncle",
+      "style": "word",
+      "path": "audio/en-us/family/word/uncle.mp3",
+      "intonation": "neutral",
+      "sha256": "6baf192fba3e0899dcd35b3a0c7bd51da22c7b6d2fd0180aa521ca267b4ff3ad",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "my uncle visits us on sunday",
+      "text": "My uncle visits us on Sunday.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/my-uncle-visits-us-on-sunday.mp3",
+      "intonation": "fall",
+      "sha256": "f6c509c69b45252395070e215255f3ad89af96a42907af8832736ae86b06cc3d",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "cousin",
+      "text": "cousin",
+      "style": "word",
+      "path": "audio/en-us/family/word/cousin.mp3",
+      "intonation": "neutral",
+      "sha256": "c2f850a61623b0816de3c93aa203051226f76557ec2cb66d52ac62de665109da",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "my cousin is the same age as me",
+      "text": "My cousin is the same age as me.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/my-cousin-is-the-same-age-as-me.mp3",
+      "intonation": "fall",
+      "sha256": "9c6dc7b2ea30545f07f2601918d00a0c488016b85a63dd66e2999e96a12808bf",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "relative",
+      "text": "relative",
+      "style": "word",
+      "path": "audio/en-us/family/word/relative.mp3",
+      "intonation": "neutral",
+      "sha256": "9eec56e7555ea24446193e1addbb9f6e6dbdd440e4c4c207f38ba8ef49db9fda",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "we visit our relatives at new year",
+      "text": "We visit our relatives at New Year.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/we-visit-our-relatives-at-new-year.mp3",
+      "intonation": "fall",
+      "sha256": "7aaeafce87a867be3b7536dcd0acf06f9237d7ac7d9c4acf78406d0aef8961c7",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "twins",
+      "text": "twins",
+      "style": "word",
+      "path": "audio/en-us/family/word/twins.mp3",
+      "intonation": "neutral",
+      "sha256": "dcb623dab2a883bda6334756862e65852d7f8d0864182575abc19d655a889f46",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "the twins look alike",
+      "text": "The twins look alike.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/the-twins-look-alike.mp3",
+      "intonation": "fall",
+      "sha256": "1ce04cce6762e96a8af7132b7ebdbf1e4a5bb65ccbe23152413b5b22099a7e70",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "only child",
+      "text": "only child",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/only-child.mp3",
+      "intonation": "fall",
+      "sha256": "2831a8752760dbeb99daa1832caa1cd9027d182d5db7a7312dfbd3fcd010867b",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "i am an only child",
+      "text": "I am an only child.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/i-am-an-only-child.mp3",
+      "intonation": "fall",
+      "sha256": "b4bc3c7c2f67f4f162e3e198a86b412bcb09cd2411da9eaedb071bdcc54de879",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "family photo",
+      "text": "family photo",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/family-photo.mp3",
+      "intonation": "fall",
+      "sha256": "18b4416902aca4084d06cec36e2474286393432f09bec24eaa38e2a7f9d5f5d9",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "this is our family photo",
+      "text": "This is our family photo.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/this-is-our-family-photo.mp3",
+      "intonation": "fall",
+      "sha256": "d9fd269a77fc49dce15032952052d90181f2d1d8e92bb8b4474a5b0f8482a08f",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "who is this",
+      "text": "Who is this?",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/who-is-this.mp3",
+      "intonation": "fall",
+      "sha256": "a76322e2fce8709092f3a3da39d93c6f3912516c6fff3f57eeed781fafd07db5",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "who is this in the photo",
+      "text": "Who is this in the photo?",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/who-is-this-in-the-photo.mp3",
+      "intonation": "fall",
+      "sha256": "d05169c7df3733adf764d4426a6de2120c6992affbe7e321b93e1a5064090516",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "home",
+      "text": "home",
+      "style": "word",
+      "path": "audio/en-us/family/word/home.mp3",
+      "intonation": "neutral",
+      "sha256": "ec0b4554a1762755bed863ba7b8895f6cc5e17dbae2ea02e9e534d15a159cf9c",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "i go home after school",
+      "text": "I go home after school.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/i-go-home-after-school.mp3",
+      "intonation": "fall",
+      "sha256": "5cf2eaa1938fbdb8b5285a403769ea0395042ee8dc4041165ad547a94087851f",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "house",
+      "text": "house",
+      "style": "word",
+      "path": "audio/en-us/family/word/house.mp3",
+      "intonation": "neutral",
+      "sha256": "e730d4ce9e1035c8df069207b5f583ce44411a935e40c4cb322add2efb3cca96",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "their house has a small garden",
+      "text": "Their house has a small garden.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/their-house-has-a-small-garden.mp3",
+      "intonation": "fall",
+      "sha256": "912fc1f47b54f9c9484e607a390149088a19430060a298d49ed8a297e3264f1b",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "flat",
+      "text": "flat",
+      "style": "word",
+      "path": "audio/en-us/family/word/flat.mp3",
+      "intonation": "neutral",
+      "sha256": "f094fe31de88e808b54557eb7e71e3d0a79bc2050c9e1d1489e99b48db2f3860",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "we live in a flat",
+      "text": "We live in a flat.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/we-live-in-a-flat.mp3",
+      "intonation": "fall",
+      "sha256": "108e282ec93cb8bfac4049e830fe5d7f0082668a169249830c2cd4b5478fa980",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "room",
+      "text": "room",
+      "style": "word",
+      "path": "audio/en-us/family/word/room.mp3",
+      "intonation": "neutral",
+      "sha256": "7dfc17d24890c3f806f147de55125c752b80f56b5a7bdc4fb7c692f9b9ef7359",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "my room is tidy",
+      "text": "My room is tidy.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/my-room-is-tidy.mp3",
+      "intonation": "fall",
+      "sha256": "64b0adea20ed3f30023da9a8c56cbddc7bdcfcf86214a61d7315d2df2bc9982c",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "bedroom",
+      "text": "bedroom",
+      "style": "word",
+      "path": "audio/en-us/family/word/bedroom.mp3",
+      "intonation": "neutral",
+      "sha256": "e2f9dd3610c4e702435ab2b1f55284f152bd41f9c72200d943e281bb81f24a00",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "my bedroom has a big window",
+      "text": "My bedroom has a big window.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/my-bedroom-has-a-big-window.mp3",
+      "intonation": "fall",
+      "sha256": "d978edd24c55d2afc529470473ac7d4f0613b34adedfdd6a6a63e0d33d929cb4",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "living room",
+      "text": "living room",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/living-room.mp3",
+      "intonation": "fall",
+      "sha256": "3dfcae73c998b8d5cdde736d4458c222b3ded48289c4c1132493a14821f70be4",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "we watch tv in the living room",
+      "text": "We watch TV in the living room.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/we-watch-tv-in-the-living-room.mp3",
+      "intonation": "fall",
+      "sha256": "74e8404e182e02dbea16c08f5713f09b998687853c35367cf0ae8cc5dc4ce76e",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "sitting room",
+      "text": "sitting room",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/sitting-room.mp3",
+      "intonation": "fall",
+      "sha256": "e437dee11d4b4b2b43650667f58cd4ee22a18ddef0e5c0df11177841a8d935f3",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "the sitting room is warm",
+      "text": "The sitting room is warm.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/the-sitting-room-is-warm.mp3",
+      "intonation": "fall",
+      "sha256": "d878362d388423e2e47c3038787362ba63786860d07be0162adc6299158880e9",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "kitchen",
+      "text": "kitchen",
+      "style": "word",
+      "path": "audio/en-us/family/word/kitchen.mp3",
+      "intonation": "neutral",
+      "sha256": "3b0857a929d216c7b3626d3a8ef0fe618cf4f1f2f84238acc80eb669bdd9c133",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "dad is in the kitchen",
+      "text": "Dad is in the kitchen.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/dad-is-in-the-kitchen.mp3",
+      "intonation": "fall",
+      "sha256": "7554bb1f0c44b8125bad9050df528b53cab8a2deda656c221020aec7e75bc69f",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "bathroom",
+      "text": "bathroom",
+      "style": "word",
+      "path": "audio/en-us/family/word/bathroom.mp3",
+      "intonation": "neutral",
+      "sha256": "244c40b8e4947e6291826d33d34d72388e874cb98905783d685ebd2680bbae91",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "the bathroom is upstairs",
+      "text": "The bathroom is upstairs.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/the-bathroom-is-upstairs.mp3",
+      "intonation": "fall",
+      "sha256": "f27a53cba2fdd4834c9ecb9ddcbf905cc1522c1c7d5fffd13832123a86486491",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "dining room",
+      "text": "dining room",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/dining-room.mp3",
+      "intonation": "fall",
+      "sha256": "c8fcfbc8c0012d5588069faba8aa778e98eac13eeb8fef3a7c560797c2be7284",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "we eat together in the dining room",
+      "text": "We eat together in the dining room.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/we-eat-together-in-the-dining-room.mp3",
+      "intonation": "fall",
+      "sha256": "f5233c335313b059341a76cae481b3c98d344d759182a70a7b192d9c9268f24c",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "study",
+      "text": "study",
+      "style": "word",
+      "path": "audio/en-us/family/word/study.mp3",
+      "intonation": "neutral",
+      "sha256": "c4048c7276ea0d555b5c67c6b00267215f73c8240f3da6f86d9be4086287d1a0",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "i do my reading in the study",
+      "text": "I do my reading in the study.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/i-do-my-reading-in-the-study.mp3",
+      "intonation": "fall",
+      "sha256": "93efedef795a012e7f2a32e151366b143c7cafbec39c613511fe1550e65013f6",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "hall",
+      "text": "hall",
+      "style": "word",
+      "path": "audio/en-us/family/word/hall.mp3",
+      "intonation": "neutral",
+      "sha256": "99c6ce25a1978bf3872c9997b4672d93deea4dca099bf0d758b2816de0ac65a3",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "leave your shoes in the hall",
+      "text": "Leave your shoes in the hall.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/leave-your-shoes-in-the-hall.mp3",
+      "intonation": "fall",
+      "sha256": "c29ca551af49c4ae2389c2996a8d4019262f28a6dbbe8c241c83e06c361f7adb",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "hallway",
+      "text": "hallway",
+      "style": "word",
+      "path": "audio/en-us/family/word/hallway.mp3",
+      "intonation": "neutral",
+      "sha256": "d231b4ee7befe92ccdfcf63715db8b345b3e1624ec7c8c8410eef432dbd62983",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "the hallway is narrow",
+      "text": "The hallway is narrow.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/the-hallway-is-narrow.mp3",
+      "intonation": "fall",
+      "sha256": "5ee16d91ab20d3cd3ada41f03c0d96f27a5281e6381064973dc6b3361ab4b8b1",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "balcony",
+      "text": "balcony",
+      "style": "word",
+      "path": "audio/en-us/family/word/balcony.mp3",
+      "intonation": "neutral",
+      "sha256": "878de8330ae8537743b7f7419d4de5fddd4412f05b1bbd84e9e0744bb1b5de6b",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "there are flowers on the balcony",
+      "text": "There are flowers on the balcony.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/there-are-flowers-on-the-balcony.mp3",
+      "intonation": "fall",
+      "sha256": "af0dc18ddb96c61ed306c1f0fce13412e4cb8372afde8d35b5da1fcb2945b40e",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "garden",
+      "text": "garden",
+      "style": "word",
+      "path": "audio/en-us/family/word/garden.mp3",
+      "intonation": "neutral",
+      "sha256": "e8ac2120b3c46ba9433efc7a3b418e09f3bb908924a91e62745de239ef67d30e",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "we play in the garden",
+      "text": "We play in the garden.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/we-play-in-the-garden.mp3",
+      "intonation": "fall",
+      "sha256": "b3d97daad82b0582dc9e5ed6b845e3f51676a0d7a4be6ce933d3369b59594af4",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "garage",
+      "text": "garage",
+      "style": "word",
+      "path": "audio/en-us/family/word/garage.mp3",
+      "intonation": "neutral",
+      "sha256": "134e8c7a522bac79e10f7fa5031a1eb0ff0dacd42fa7f3e0e827270bbb598c59",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "the car is in the garage",
+      "text": "The car is in the garage.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/the-car-is-in-the-garage.mp3",
+      "intonation": "fall",
+      "sha256": "cd7998ae8b7ac7c8f54d1f98289cb889327c3c05067a4ada03ea6bc2d7ef2b9b",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "roof",
+      "text": "roof",
+      "style": "word",
+      "path": "audio/en-us/family/word/roof.mp3",
+      "intonation": "neutral",
+      "sha256": "6418a47518397a4954d08040a6e6f92f81a71fb5a3c7fccf61416c94b92c44d2",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "the roof is covered with snow",
+      "text": "The roof is covered with snow.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/the-roof-is-covered-with-snow.mp3",
+      "intonation": "fall",
+      "sha256": "1515cbbf6915a23a95950a54001758ae2500ced23fb2850039ddeccfe07a1e90",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "the toy is on the floor",
+      "text": "The toy is on the floor.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/the-toy-is-on-the-floor.mp3",
+      "intonation": "fall",
+      "sha256": "ff70d5d92086b3b2a8aa97ae1263643c69b14f3bc7c65d105ae90ef0040cadf6",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "ceiling",
+      "text": "ceiling",
+      "style": "word",
+      "path": "audio/en-us/family/word/ceiling.mp3",
+      "intonation": "neutral",
+      "sha256": "df085c9e5b2a1f19f6fe552846e672ffdd19f34abf0f47530c5f22d9922de229",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "a lamp hangs from the ceiling",
+      "text": "A lamp hangs from the ceiling.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/a-lamp-hangs-from-the-ceiling.mp3",
+      "intonation": "fall",
+      "sha256": "d2967042e3412a246bf495b4897ab1acd36a70d74cda6ce540064485e4818f7c",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "please close the door",
+      "text": "Please close the door.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/please-close-the-door.mp3",
+      "intonation": "fall",
+      "sha256": "b0e718af0f2ab0f4ac4836400b07fc1fb8555ff6b664f02ea08a3d4606cde206",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "open the window for fresh air",
+      "text": "Open the window for fresh air.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/open-the-window-for-fresh-air.mp3",
+      "intonation": "fall",
+      "sha256": "daf6d48afa9c8c5ed98c6249acb738dd58c789f3d3f99fbd1249ec69a1904ee6",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "curtain",
+      "text": "curtain",
+      "style": "word",
+      "path": "audio/en-us/family/word/curtain.mp3",
+      "intonation": "neutral",
+      "sha256": "b7340405d2b8543c841c96dd149a02b2430dfe25e9aa5367b1f6ad630d884344",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "the curtains are blue",
+      "text": "The curtains are blue.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/the-curtains-are-blue.mp3",
+      "intonation": "fall",
+      "sha256": "20c0ae9e4edba20ed75a3d340075a1deeaa935c4317b3d8812f08f1cf47ed8b0",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "sofa",
+      "text": "sofa",
+      "style": "word",
+      "path": "audio/en-us/family/word/sofa.mp3",
+      "intonation": "neutral",
+      "sha256": "05bfb9de981224a0072ba49bd14b747126e4ad0a07bef00478776a99ddc2feda",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "the cat is sleeping on the sofa",
+      "text": "The cat is sleeping on the sofa.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/the-cat-is-sleeping-on-the-sofa.mp3",
+      "intonation": "fall",
+      "sha256": "22d615a8ea8436bd4571c95c1a6a40ecb75b48ae65cdc3c4456c491254bda503",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "armchair",
+      "text": "armchair",
+      "style": "word",
+      "path": "audio/en-us/family/word/armchair.mp3",
+      "intonation": "neutral",
+      "sha256": "e7d383474c20885f6d741aef8b6dd88adaae2ee046c5749e0d64656b2a334f1c",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "grandpa sits in the armchair",
+      "text": "Grandpa sits in the armchair.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/grandpa-sits-in-the-armchair.mp3",
+      "intonation": "fall",
+      "sha256": "121dc5de8b01ded8e0f4521bd9428a0af1157f71a5232aa85a83994b750b3c86",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "there are four chairs around the table",
+      "text": "There are four chairs around the table.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/there-are-four-chairs-around-the-table.mp3",
+      "intonation": "fall",
+      "sha256": "b98df865e90e1440a10b3ea0a4a9533326155d48672df59eb90932cdb07d18be",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "table",
+      "text": "table",
+      "style": "word",
+      "path": "audio/en-us/family/word/table.mp3",
+      "intonation": "neutral",
+      "sha256": "94033fb8c3aae496e6c27329b71465574626bd7cca26e4fa94095c46763f46e7",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "put the cups on the table",
+      "text": "Put the cups on the table.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/put-the-cups-on-the-table.mp3",
+      "intonation": "fall",
+      "sha256": "b6f54d84c23d4145576ebb15124236331b2ec221165b37d3c658690a1a211b26",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "dining table",
+      "text": "dining table",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/dining-table.mp3",
+      "intonation": "fall",
+      "sha256": "e807b17eb0e90426b4bf5c9798519d8efe40f75357bf2ed85aee0f01bd521db3",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "dinner is on the dining table",
+      "text": "Dinner is on the dining table.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/dinner-is-on-the-dining-table.mp3",
+      "intonation": "fall",
+      "sha256": "81c7fea1bdc7e7b8e56955fe3b6cb931c1efb89b95a9f679e5212dcaa6333f5e",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "my books are on my desk",
+      "text": "My books are on my desk.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/my-books-are-on-my-desk.mp3",
+      "intonation": "fall",
+      "sha256": "3cce5d44fa3c282bd1461dce97089fa201fee9d57dcc0316ac6be9150a79ba90",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "i make my bed every morning",
+      "text": "I make my bed every morning.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/i-make-my-bed-every-morning.mp3",
+      "intonation": "fall",
+      "sha256": "b6ece3eab0fe7bdd6d19c7180e0ebe3ed0370a23faa69cb75efb182b2e5a6d36",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "bunk bed",
+      "text": "bunk bed",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/bunk-bed.mp3",
+      "intonation": "fall",
+      "sha256": "d62ae74849e68dfff344c266c1ed535968a93051b7963e01af97dcae15a193ed",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "the children sleep in a bunk bed",
+      "text": "The children sleep in a bunk bed.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/the-children-sleep-in-a-bunk-bed.mp3",
+      "intonation": "fall",
+      "sha256": "5da9c33600ed6eec9ce76f6c5368165a826acd77cceb338ecddf10ab043ca7da",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "pillow",
+      "text": "pillow",
+      "style": "word",
+      "path": "audio/en-us/family/word/pillow.mp3",
+      "intonation": "neutral",
+      "sha256": "d736fccfcd22c64fc31c64fb1849b08aae93a518ac708f88e510f09f6d642a9c",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "i need a clean pillow",
+      "text": "I need a clean pillow.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/i-need-a-clean-pillow.mp3",
+      "intonation": "fall",
+      "sha256": "cce26f7b908aa4e48cc96346e2968e56b368883eff8e0ff707bc728555b8a1b7",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "blanket",
+      "text": "blanket",
+      "style": "word",
+      "path": "audio/en-us/family/word/blanket.mp3",
+      "intonation": "neutral",
+      "sha256": "1b2ce46219361b10f354e4a4f7e799f519f070763a0482c5415fa1976537e34f",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "the blanket keeps me warm",
+      "text": "The blanket keeps me warm.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/the-blanket-keeps-me-warm.mp3",
+      "intonation": "fall",
+      "sha256": "13d686d3b5bdc18117e01b9ad7982e05d415e2aaefe5b5aa4f4e80aa4e4a12fd",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "duvet",
+      "text": "duvet",
+      "style": "word",
+      "path": "audio/en-us/family/word/duvet.mp3",
+      "intonation": "neutral",
+      "sha256": "306ba894efdf1ee0374baf5f4aa23b41c793d3dda19165ffcb47c1bc5c4ff22c",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "my duvet is warm and light",
+      "text": "My duvet is warm and light.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/my-duvet-is-warm-and-light.mp3",
+      "intonation": "fall",
+      "sha256": "42cd0e02932e5c8ba10d249c561bacf53bf9c6044e6641edfd8dbb1cc6642367",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "wardrobe",
+      "text": "wardrobe",
+      "style": "word",
+      "path": "audio/en-us/family/word/wardrobe.mp3",
+      "intonation": "neutral",
+      "sha256": "f16488b63c8ee3f5c7e44d2d3b71337b408312d2daa1ead86d646302dff7bc6d",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "my clothes are in the wardrobe",
+      "text": "My clothes are in the wardrobe.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/my-clothes-are-in-the-wardrobe.mp3",
+      "intonation": "fall",
+      "sha256": "04b4447b8cdfc718f8e5a59235fc84d42c5f86090d87b279164b3d13e9bfc8cf",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "bookshelf",
+      "text": "bookshelf",
+      "style": "word",
+      "path": "audio/en-us/family/word/bookshelf.mp3",
+      "intonation": "neutral",
+      "sha256": "900ae2194fa29aacbc819b76f09fc640dfd393e779e48988f02ed0b586561ef4",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "the bookshelf is next to my desk",
+      "text": "The bookshelf is next to my desk.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/the-bookshelf-is-next-to-my-desk.mp3",
+      "intonation": "fall",
+      "sha256": "8c9943214ce2ba1c7eee66fccfa0b0e6e2eaf7ff07c45dd0dde8442246c1c88f",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "cupboard",
+      "text": "cupboard",
+      "style": "word",
+      "path": "audio/en-us/family/word/cupboard.mp3",
+      "intonation": "neutral",
+      "sha256": "ee0b0d29ea7e1854a753476ca866e36d96c7059d87b0e1ae7a60715721ded2bb",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "the plates are in the cupboard",
+      "text": "The plates are in the cupboard.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/the-plates-are-in-the-cupboard.mp3",
+      "intonation": "fall",
+      "sha256": "81afccfaf7b3bb0315315fbe8bc1b193590273689ef234273acc5fb0b9d3cdf1",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "shelf",
+      "text": "shelf",
+      "style": "word",
+      "path": "audio/en-us/family/word/shelf.mp3",
+      "intonation": "neutral",
+      "sha256": "ac3acac8da152f41643e3dc29a67424a1b8bd93cf28660a91f76f081b9055c89",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "put the toy on the shelf",
+      "text": "Put the toy on the shelf.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/put-the-toy-on-the-shelf.mp3",
+      "intonation": "fall",
+      "sha256": "d0f4138a9f4fb2c2cf124f6ceed335943ba484dacdac3245b0009aa53d9c7a20",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "drawer",
+      "text": "drawer",
+      "style": "word",
+      "path": "audio/en-us/family/word/drawer.mp3",
+      "intonation": "neutral",
+      "sha256": "6941e1ff9f680be01bc0d3e81dbdec3c9655b2e986ead2613650c72fbe3e7f95",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "the keys are in the drawer",
+      "text": "The keys are in the drawer.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/the-keys-are-in-the-drawer.mp3",
+      "intonation": "fall",
+      "sha256": "bd25d396ffae99779b97c0828eadedd91e862b3e3183fdae87e8bd471d2ea33b",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "lamp",
+      "text": "lamp",
+      "style": "word",
+      "path": "audio/en-us/family/word/lamp.mp3",
+      "intonation": "neutral",
+      "sha256": "88792bbc62c240acd17e3a1c7e90a06b88be8eb42836170fa7f075941a10a2b3",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "turn on the lamp please",
+      "text": "Turn on the lamp, please.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/turn-on-the-lamp-please.mp3",
+      "intonation": "fall",
+      "sha256": "e065a9f719918d2cea1e36fe00dfc6979babe8058e866f86d10f826c319dbcfd",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "mirror",
+      "text": "mirror",
+      "style": "word",
+      "path": "audio/en-us/family/word/mirror.mp3",
+      "intonation": "neutral",
+      "sha256": "e299dedd146107bc018bf1d84344e661977f14d756b59fa3b0090da3fae9f7ed",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "i look in the mirror",
+      "text": "I look in the mirror.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/i-look-in-the-mirror.mp3",
+      "intonation": "fall",
+      "sha256": "667b30130a48c8013522ac3a3b3b1a191029ba24a2b290326c2c06f9b6ff864b",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "rug",
+      "text": "rug",
+      "style": "word",
+      "path": "audio/en-us/family/word/rug.mp3",
+      "intonation": "neutral",
+      "sha256": "c99184d0bd359263122565c341e3edd3925ff1c630cc70bd65c6af936aafa158",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "there is a rug beside the bed",
+      "text": "There is a rug beside the bed.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/there-is-a-rug-beside-the-bed.mp3",
+      "intonation": "fall",
+      "sha256": "9daf1e64b64601ee99d97fee4a684a5753e3a133188fb16fa3fbf68d91ab73f1",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "carpet",
+      "text": "carpet",
+      "style": "word",
+      "path": "audio/en-us/family/word/carpet.mp3",
+      "intonation": "neutral",
+      "sha256": "e78e2f304e5a892e0e7330ae6a0964a103135eb6954bf734e410790ac9905861",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "the carpet is soft",
+      "text": "The carpet is soft.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/the-carpet-is-soft.mp3",
+      "intonation": "fall",
+      "sha256": "18e6730e263d74e1d6d4542784c8c11e6cc8a7a32b6bbee690298acf45467199",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "plant",
+      "text": "plant",
+      "style": "word",
+      "path": "audio/en-us/family/word/plant.mp3",
+      "intonation": "neutral",
+      "sha256": "e61ef9548ec82211b33a8b9aeb7c2c542752cf453369ca4c9ad73eefe595ed0c",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "there is a plant by the window",
+      "text": "There is a plant by the window.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/there-is-a-plant-by-the-window.mp3",
+      "intonation": "fall",
+      "sha256": "bae440c4d00f5c1a6c8b34fa5117d39689b37e90431b2e138d10276c66262e67",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "tap",
+      "text": "tap",
+      "style": "word",
+      "path": "audio/en-us/family/word/tap.mp3",
+      "intonation": "neutral",
+      "sha256": "096b20bd8e1400a64ba86f1289f135f22e922a3fc03996f99c2bbcdbb34eb3da",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "turn off the tap",
+      "text": "Turn off the tap.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/turn-off-the-tap.mp3",
+      "intonation": "fall",
+      "sha256": "ef9a04b7175c940b788f9829b89357d7cf6b3c99a313915a16bb8b20eb54b59d",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "i drink milk from a cup",
+      "text": "I drink milk from a cup.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/i-drink-milk-from-a-cup.mp3",
+      "intonation": "fall",
+      "sha256": "a928b35615382b3a411e8f8ae51ea6665910e363a290888e4dbf1113efe557f3",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "mug",
+      "text": "mug",
+      "style": "word",
+      "path": "audio/en-us/family/word/mug.mp3",
+      "intonation": "neutral",
+      "sha256": "4bd8c6c6a4a5cdb1dee59371fd9afafb89f9ced02bf75e6fc7e6406a931f2df7",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "this is my favourite mug",
+      "text": "This is my favourite mug.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/this-is-my-favourite-mug.mp3",
+      "intonation": "fall",
+      "sha256": "d22d0c64fcddc6733f8fb9e26f94e1510b17e63e3bf82df97b428bd06cbd0241",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "glass",
+      "text": "glass",
+      "style": "word",
+      "path": "audio/en-us/family/word/glass.mp3",
+      "intonation": "neutral",
+      "sha256": "6b84ab66ddfff394a2ada573500c5cf76efe668d30c8ba28b6249148200b5881",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "please give me a glass of water",
+      "text": "Please give me a glass of water.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/please-give-me-a-glass-of-water.mp3",
+      "intonation": "fall",
+      "sha256": "0c01e6e01bf0b8c97506311a85da9dc9257b035820b5a6a750ba549aefce22be",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "bottle",
+      "text": "bottle",
+      "style": "word",
+      "path": "audio/en-us/family/word/bottle.mp3",
+      "intonation": "neutral",
+      "sha256": "0b0fd73a20d290d0023db4fe265fbf2fed6750fba25997d8edca2007587e20e0",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "the bottle is full of water",
+      "text": "The bottle is full of water.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/the-bottle-is-full-of-water.mp3",
+      "intonation": "fall",
+      "sha256": "9b3a91a0a23d7c4e14951465fc8d4f9a8356cf9fb2f8d0aabbfd2c17e3909fcf",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "plate",
+      "text": "plate",
+      "style": "word",
+      "path": "audio/en-us/family/word/plate.mp3",
+      "intonation": "neutral",
+      "sha256": "0d40d297041ba563a965daf2e91f44d87449f9296df4a5de4bf0651341f7a785",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "put the sandwich on a plate",
+      "text": "Put the sandwich on a plate.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/put-the-sandwich-on-a-plate.mp3",
+      "intonation": "fall",
+      "sha256": "41296e2d74fc495abe83c1c5fef2dc4967a2ceef6ae6f3eb5c7a294a6d5412e9",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "bowl",
+      "text": "bowl",
+      "style": "word",
+      "path": "audio/en-us/family/word/bowl.mp3",
+      "intonation": "neutral",
+      "sha256": "8dae21bfe997e1e62e031fa2e122c83d4ad8209e0bfadfd3bf7231d2c46c4c68",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "i eat cereal from a bowl",
+      "text": "I eat cereal from a bowl.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/i-eat-cereal-from-a-bowl.mp3",
+      "intonation": "fall",
+      "sha256": "6427b727392cc65f6ee349215839b87c91a848ae1c1bf0f2f943039384f33f8b",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "wash the dishes after dinner",
+      "text": "Wash the dishes after dinner.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/wash-the-dishes-after-dinner.mp3",
+      "intonation": "fall",
+      "sha256": "c522c0bdb6e1d361c34df630851b4ad1c3a6ec9d769d53444738f271696ce6a3",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "spoon",
+      "text": "spoon",
+      "style": "word",
+      "path": "audio/en-us/family/word/spoon.mp3",
+      "intonation": "neutral",
+      "sha256": "cdeb83a5792dd73c5466aa37d51c596b74ccce1adefd464e20c774ccbbd055f7",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "use a spoon for the soup",
+      "text": "Use a spoon for the soup.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/use-a-spoon-for-the-soup.mp3",
+      "intonation": "fall",
+      "sha256": "35b733ce2a0c65db18e6c519fdce9dfc6e548cf8e4cd25efc0fcec1e1f0c4055",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "fork",
+      "text": "fork",
+      "style": "word",
+      "path": "audio/en-us/family/word/fork.mp3",
+      "intonation": "neutral",
+      "sha256": "a3fa687cc4473ebb09b4685a95511c11441e5b53e6f1d9eb811f95189e33976a",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "i eat pasta with a fork",
+      "text": "I eat pasta with a fork.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/i-eat-pasta-with-a-fork.mp3",
+      "intonation": "fall",
+      "sha256": "c8495b39d8b52281b3cada8d5958e39add15a64730aa617fa08906c073267f98",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "knife",
+      "text": "knife",
+      "style": "word",
+      "path": "audio/en-us/family/word/knife.mp3",
+      "intonation": "neutral",
+      "sha256": "98963f38e305ad61fc24ff96bb80c0992e6bc9140b6d84697a4b5a385e2dadf3",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "use a knife carefully",
+      "text": "Use a knife carefully.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/use-a-knife-carefully.mp3",
+      "intonation": "fall",
+      "sha256": "be18301d80a54078e07201abfd12b05a5a5e7a0594e49c0f8e3c6b3c6a4a1f34",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "chopsticks",
+      "text": "chopsticks",
+      "style": "word",
+      "path": "audio/en-us/family/word/chopsticks.mp3",
+      "intonation": "neutral",
+      "sha256": "3b9fbb0978ea37ab51964dae6ea74734cfac29e6280ef5616d12fc94588c7aa9",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "i can use chopsticks",
+      "text": "I can use chopsticks.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/i-can-use-chopsticks.mp3",
+      "intonation": "fall",
+      "sha256": "b5f4cc49e0009b1b348c3bfb5c1b68e468a5d40eca9799d3e8fdf2c2559f1c9f",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "kettle",
+      "text": "kettle",
+      "style": "word",
+      "path": "audio/en-us/family/word/kettle.mp3",
+      "intonation": "neutral",
+      "sha256": "26810d1b1691957b14f2cb7030e67e3e2ac323078dd637e513d65dd96f8694d2",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "the kettle is boiling",
+      "text": "The kettle is boiling.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/the-kettle-is-boiling.mp3",
+      "intonation": "fall",
+      "sha256": "8ce47e74d6fb3215aa4f44f8ae6706083a263cb86932614fae7d85fe4e3141a1",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "teapot",
+      "text": "teapot",
+      "style": "word",
+      "path": "audio/en-us/family/word/teapot.mp3",
+      "intonation": "neutral",
+      "sha256": "4cb285d6aa1795295d07cb85911dc521a169308ae8a7d74dafd0a72877e7ce6b",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "the tea is in the teapot",
+      "text": "The tea is in the teapot.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/the-tea-is-in-the-teapot.mp3",
+      "intonation": "fall",
+      "sha256": "7df917f1040dedb7b7b9a2ac53c72e51c0d538b9af95d83bdb653e7b021b8640",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "saucepan",
+      "text": "saucepan",
+      "style": "word",
+      "path": "audio/en-us/family/word/saucepan.mp3",
+      "intonation": "neutral",
+      "sha256": "df6f8c6310c1c32cfb0169216def8f306b612bd7bce02213820ea0d97058a70b",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "heat the soup in a saucepan",
+      "text": "Heat the soup in a saucepan.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/heat-the-soup-in-a-saucepan.mp3",
+      "intonation": "fall",
+      "sha256": "c4064e67ad485f6aaaf83b2708dfc3b486aecded9debaa683aefdcc17215fa25",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "frying pan",
+      "text": "frying pan",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/frying-pan.mp3",
+      "intonation": "fall",
+      "sha256": "c00a7ea195116aedc3c6bd56ebbc5cda1b91c8a0230b23f59e165a98841d36bc",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "the eggs are in the frying pan",
+      "text": "The eggs are in the frying pan.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/the-eggs-are-in-the-frying-pan.mp3",
+      "intonation": "fall",
+      "sha256": "171b87e8bdc9ee0748100b3c2c14b64dee446a2c3f4e3f2630b0b5c4d104903d",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "oven",
+      "text": "oven",
+      "style": "word",
+      "path": "audio/en-us/family/word/oven.mp3",
+      "intonation": "neutral",
+      "sha256": "f655656f270a8dff847a944cd68a970d1c1fdbc387bdc40e479594b2e41d1cab",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "the cake is in the oven",
+      "text": "The cake is in the oven.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/the-cake-is-in-the-oven.mp3",
+      "intonation": "fall",
+      "sha256": "36c5187e39cc89dc2052c15db38a18a89f9848ed954d94f9849361313557a370",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "cooker",
+      "text": "cooker",
+      "style": "word",
+      "path": "audio/en-us/family/word/cooker.mp3",
+      "intonation": "neutral",
+      "sha256": "af6fa55f25368ed02e8045620ba8aeba818c175e70528438870578fb35b167b2",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "the cooker is in the kitchen",
+      "text": "The cooker is in the kitchen.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/the-cooker-is-in-the-kitchen.mp3",
+      "intonation": "fall",
+      "sha256": "bc6d45e6a6db977fdbb692caeab3b00fb78635375362cd2470662807ba9aa2ce",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "microwave",
+      "text": "microwave",
+      "style": "word",
+      "path": "audio/en-us/family/word/microwave.mp3",
+      "intonation": "neutral",
+      "sha256": "933906175dd74535b56561da22c69fa6a0acfd18c6a0801fc671955f4f7f621a",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "heat the food in the microwave",
+      "text": "Heat the food in the microwave.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/heat-the-food-in-the-microwave.mp3",
+      "intonation": "fall",
+      "sha256": "4ed97d4920fe097b7f9e14861c8f57272b14ecf354208f6e143ee8fab0948d0a",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "fridge",
+      "text": "fridge",
+      "style": "word",
+      "path": "audio/en-us/family/word/fridge.mp3",
+      "intonation": "neutral",
+      "sha256": "9de18f2cc6943624a5057cb7843e9e06055954692e9cdad5dd4abc89e70971be",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "the milk is in the fridge",
+      "text": "The milk is in the fridge.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/the-milk-is-in-the-fridge.mp3",
+      "intonation": "fall",
+      "sha256": "529a185ceb5b46e439bddf27e198c0f35f3f3133ca8830cb367e1ecf1f13a85d",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "freezer",
+      "text": "freezer",
+      "style": "word",
+      "path": "audio/en-us/family/word/freezer.mp3",
+      "intonation": "neutral",
+      "sha256": "a7ca87c215bf511c7cb50792207e7f981be89ef0717efdd5da14a8bb194cdfa3",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "the peas are in the freezer",
+      "text": "The peas are in the freezer.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/the-peas-are-in-the-freezer.mp3",
+      "intonation": "fall",
+      "sha256": "513ce578b474f3ed68a88f8f85a8b9a4f1e80e4fc1f4556434bfdb545d720ecd",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "dishwasher",
+      "text": "dishwasher",
+      "style": "word",
+      "path": "audio/en-us/family/word/dishwasher.mp3",
+      "intonation": "neutral",
+      "sha256": "49b7a90625ff576e8f535866ad54bb22e1a5092b7ddf852aa703e07e4bc08f6f",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "the dishwasher is full",
+      "text": "The dishwasher is full.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/the-dishwasher-is-full.mp3",
+      "intonation": "fall",
+      "sha256": "f41e46183b84772f094119a990f0ddb13119ec318ea4976ecb8cc02139075bd3",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "washing machine",
+      "text": "washing machine",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/washing-machine.mp3",
+      "intonation": "fall",
+      "sha256": "d61aa735c1c99c9709bde3ac8b386c22ba9f52198fcf4660ae3eabed86c4a617",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "the washing machine is running",
+      "text": "The washing machine is running.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/the-washing-machine-is-running.mp3",
+      "intonation": "fall",
+      "sha256": "2a72bbfca725a18750470b2378fac85de890a3a208177231019ea51a50077ada",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "tumble dryer",
+      "text": "tumble dryer",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/tumble-dryer.mp3",
+      "intonation": "fall",
+      "sha256": "9b864578d045c713aa4a23f3a3aef9c1cdbfeeb4b926e330ccdac02873c88627",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "the towels are in the tumble dryer",
+      "text": "The towels are in the tumble dryer.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/the-towels-are-in-the-tumble-dryer.mp3",
+      "intonation": "fall",
+      "sha256": "73f5fc7f973678975534fcb8040b3e57683e6e37bbfcfdc85f613ea80a68d043",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "vacuum cleaner",
+      "text": "vacuum cleaner",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/vacuum-cleaner.mp3",
+      "intonation": "fall",
+      "sha256": "805f91ff7d9bc3ffeea88d88e9800124e8df843a890c43f547ff82ce1ed7a21c",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "i use the vacuum cleaner on the carpet",
+      "text": "I use the vacuum cleaner on the carpet.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/i-use-the-vacuum-cleaner-on-the-carpet.mp3",
+      "intonation": "fall",
+      "sha256": "6f92dd6d2fb0194da55c0223af5529b6efa32704d6f9148273fae93dfd2f9e72",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "iron",
+      "text": "iron",
+      "style": "word",
+      "path": "audio/en-us/family/word/iron.mp3",
+      "intonation": "neutral",
+      "sha256": "9e0dea7fc9224a701bef82ac038aada94a1892550102465c8cbb390285da2387",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "the iron is on the ironing board",
+      "text": "The iron is on the ironing board.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/the-iron-is-on-the-ironing-board.mp3",
+      "intonation": "fall",
+      "sha256": "0453be315ec4a91d0d6231e585f1eaf5c21800d149de34c0750db8c31aa08023",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "fan",
+      "text": "fan",
+      "style": "word",
+      "path": "audio/en-us/family/word/fan.mp3",
+      "intonation": "neutral",
+      "sha256": "37efe2359e8dafe90ae6acfbf630cdf715b8891e3753c67ba238cb83e73af556",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "turn on the fan",
+      "text": "Turn on the fan.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/turn-on-the-fan.mp3",
+      "intonation": "fall",
+      "sha256": "5dd2b7cbec013949eb4ccd8ce854d1e2905536b57283306054f5932170c78e25",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "heater",
+      "text": "heater",
+      "style": "word",
+      "path": "audio/en-us/family/word/heater.mp3",
+      "intonation": "neutral",
+      "sha256": "80526ee399a183dee1a9905380de8e5bc8036adc91e0d9bc92ba12ab67abcc49",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "the heater keeps the room warm",
+      "text": "The heater keeps the room warm.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/the-heater-keeps-the-room-warm.mp3",
+      "intonation": "fall",
+      "sha256": "6c218092858a2c99f653adfee553cb3a515b89986f4cc6bf21ba3e37af43648e",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "air conditioner",
+      "text": "air conditioner",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/air-conditioner.mp3",
+      "intonation": "fall",
+      "sha256": "c2f243c830991328d1fc52014f213c39086a79b7f62f886b7adc6900fdb60cd3",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "the air conditioner is on",
+      "text": "The air conditioner is on.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/the-air-conditioner-is-on.mp3",
+      "intonation": "fall",
+      "sha256": "9e7668ad8ca1a3c96101ac2aa6fab8390e9af2446d89b298d86ce7ef995d873c",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "television",
+      "text": "television",
+      "style": "word",
+      "path": "audio/en-us/family/word/television.mp3",
+      "intonation": "neutral",
+      "sha256": "fed6a8af2d9f9c96eb3d4cc42c0bc58dc57fa4299e1fbbc163e6a893e8e36e0b",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "the television is in the living room",
+      "text": "The television is in the living room.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/the-television-is-in-the-living-room.mp3",
+      "intonation": "fall",
+      "sha256": "986f9f83dbc2172778748477dc55caf3361c505324805899eeb0ee3513b5e845",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "remote control",
+      "text": "remote control",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/remote-control.mp3",
+      "intonation": "fall",
+      "sha256": "9fad3e61dd195cf50ca9c6dca52337ba0de0b923f54a3042e079d5a194f1f1d7",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "use the remote control to turn it off",
+      "text": "Use the remote control to turn it off.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/use-the-remote-control-to-turn-it-off.mp3",
+      "intonation": "fall",
+      "sha256": "ac4b79f516643c611f6c928957d52aa20b2dadd7c9c513e37d02341749e0c9d5",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "towel",
+      "text": "towel",
+      "style": "word",
+      "path": "audio/en-us/family/word/towel.mp3",
+      "intonation": "neutral",
+      "sha256": "0e10097fa88fe5bd1f5ca2879a8d3491e74cf38b8244908673e26579846267b8",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "dry your hands with a towel",
+      "text": "Dry your hands with a towel.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/dry-your-hands-with-a-towel.mp3",
+      "intonation": "fall",
+      "sha256": "0ba25c6d7e8789f55d29b4319886223c282b4bcf6b49483a2c07e3cb226fe54d",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "soap",
+      "text": "soap",
+      "style": "word",
+      "path": "audio/en-us/family/word/soap.mp3",
+      "intonation": "neutral",
+      "sha256": "9d2ca0769f2c75b5bca074542099f5ca9216aa1372881d3fdf7836782651273c",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "wash your hands with soap",
+      "text": "Wash your hands with soap.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/wash-your-hands-with-soap.mp3",
+      "intonation": "fall",
+      "sha256": "0652714a88f53285b05589f01a644459898a32ad6db6c2d4537f9f58e935429b",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "shampoo",
+      "text": "shampoo",
+      "style": "word",
+      "path": "audio/en-us/family/word/shampoo.mp3",
+      "intonation": "neutral",
+      "sha256": "9f6bfc8321e9c40791f268ed75e241f9a5c5f6e0afdaeb2b1ee1696df059ff31",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "i need some shampoo",
+      "text": "I need some shampoo.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/i-need-some-shampoo.mp3",
+      "intonation": "fall",
+      "sha256": "c718b478b29277dd7c5e393b6f348029856d6c01fcf344c38f49723b45b53c58",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "toothbrush",
+      "text": "toothbrush",
+      "style": "word",
+      "path": "audio/en-us/family/word/toothbrush.mp3",
+      "intonation": "neutral",
+      "sha256": "f0086b6bd0e7894f794310e061dd32244830d9558e794e47b64b0e82a2238ab1",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "my toothbrush is blue",
+      "text": "My toothbrush is blue.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/my-toothbrush-is-blue.mp3",
+      "intonation": "fall",
+      "sha256": "7b73eabba7b2364c8998879de0ad9d62bf734e65208431828cb07a0d4e393542",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "toothpaste",
+      "text": "toothpaste",
+      "style": "word",
+      "path": "audio/en-us/family/word/toothpaste.mp3",
+      "intonation": "neutral",
+      "sha256": "0041220ed2e81647951e15641832cd2e385e3cb28274b2630342902cf90b6df4",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "put toothpaste on your toothbrush",
+      "text": "Put toothpaste on your toothbrush.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/put-toothpaste-on-your-toothbrush.mp3",
+      "intonation": "fall",
+      "sha256": "0c1efe906c9072684ba48c77c2332f9f156ce84fe7b0f576f686f7d45bcf8707",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "comb",
+      "text": "comb",
+      "style": "word",
+      "path": "audio/en-us/family/word/comb.mp3",
+      "intonation": "neutral",
+      "sha256": "c2f19c45987ad24e9c9d1a880128821229827a84d3c1a91686e509390d95384a",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "i use a comb every morning",
+      "text": "I use a comb every morning.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/i-use-a-comb-every-morning.mp3",
+      "intonation": "fall",
+      "sha256": "fa81c6f81fe93bf9e641358b36b0696bf961d52d9e3b4c1ab34da01d17aeab4a",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "tissue",
+      "text": "tissue",
+      "style": "word",
+      "path": "audio/en-us/family/word/tissue.mp3",
+      "intonation": "neutral",
+      "sha256": "baff0900f3540815dd184ed5ca7b52180f88f40226f026a58b6f950d24955d97",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "take a tissue from the box",
+      "text": "Take a tissue from the box.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/take-a-tissue-from-the-box.mp3",
+      "intonation": "fall",
+      "sha256": "80e55e4eec93ee4759dc641d857dd643710a904303e2b5c217d35f5ebc250729",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "bin bag",
+      "text": "bin bag",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/bin-bag.mp3",
+      "intonation": "fall",
+      "sha256": "e858cd8ae731146a831f0208511c97129447fe273153ee943877b79e290e608e",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "put the rubbish in a bin bag",
+      "text": "Put the rubbish in a bin bag.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/put-the-rubbish-in-a-bin-bag.mp3",
+      "intonation": "fall",
+      "sha256": "50fb9f153b150449f9fd82ca727545d60f09534434bbfbf4d450f0ca7ef5525c",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "dustbin",
+      "text": "dustbin",
+      "style": "word",
+      "path": "audio/en-us/family/word/dustbin.mp3",
+      "intonation": "neutral",
+      "sha256": "b61f2955eb3dc6d35bed6a94f5b01a6d0eb13ba080eefcd9ba221232d6352397",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "the dustbin is outside",
+      "text": "The dustbin is outside.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/the-dustbin-is-outside.mp3",
+      "intonation": "fall",
+      "sha256": "654a962e02c57e5d693ea2288e99ece61144a04a29eefb58a4e8382d59372789",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "broom",
+      "text": "broom",
+      "style": "word",
+      "path": "audio/en-us/family/word/broom.mp3",
+      "intonation": "neutral",
+      "sha256": "4b21a798e95ce41302fdf0d1f92acfa31b1fef913a016e06d502328dfc6ca68c",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "use a broom to sweep the floor",
+      "text": "Use a broom to sweep the floor.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/use-a-broom-to-sweep-the-floor.mp3",
+      "intonation": "fall",
+      "sha256": "2f2c16bac93c694bf73eab31eae1becbcb9ce3e5f7ad87bde90ed45fc73da91a",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "mop",
+      "text": "mop",
+      "style": "word",
+      "path": "audio/en-us/family/word/mop.mp3",
+      "intonation": "neutral",
+      "sha256": "c84eec62a0fb0cb4bb71e9c400ef3941297021f892b70a530a0a2e48c0c6689e",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "the mop is in the cupboard",
+      "text": "The mop is in the cupboard.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/the-mop-is-in-the-cupboard.mp3",
+      "intonation": "fall",
+      "sha256": "3a74a75ee244c273c5f98e815af106384f6d983f09e076e5ae3ba33313e95184",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "bucket",
+      "text": "bucket",
+      "style": "word",
+      "path": "audio/en-us/family/word/bucket.mp3",
+      "intonation": "neutral",
+      "sha256": "7dd8b91d18cd2608722b092e10c57afc0271684f350fe56836dc815d123f5663",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "fill the bucket with water",
+      "text": "Fill the bucket with water.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/fill-the-bucket-with-water.mp3",
+      "intonation": "fall",
+      "sha256": "1bebd26b30b946911f94a0f1e328e763544fe5c65f80cdbed14aed63024c9f3d",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "sponge",
+      "text": "sponge",
+      "style": "word",
+      "path": "audio/en-us/family/word/sponge.mp3",
+      "intonation": "neutral",
+      "sha256": "7090b5bba666481651c14912f59ec4bbe8058ea2f316aabae24d927eafefe6f6",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "use a sponge to clean the table",
+      "text": "Use a sponge to clean the table.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/use-a-sponge-to-clean-the-table.mp3",
+      "intonation": "fall",
+      "sha256": "dcf40e33f41ba479a24c270d4642db9bd1dcc8214e083bbf1e65b7f222fc7873",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "washingup liquid",
+      "text": "washing-up liquid",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/washingup-liquid.mp3",
+      "intonation": "fall",
+      "sha256": "7e6eea5b4dd251ebf3d7226ec6775ba86e4d4fe6219cd681a08f67881e4fae72",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "we need more washingup liquid",
+      "text": "We need more washing-up liquid.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/we-need-more-washingup-liquid.mp3",
+      "intonation": "fall",
+      "sha256": "a5e0aa1d2749b2409b45fc5499d1e70fb2bf7188f417b8640b5d5c6a82ce3a8c",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "cloth",
+      "text": "cloth",
+      "style": "word",
+      "path": "audio/en-us/family/word/cloth.mp3",
+      "intonation": "neutral",
+      "sha256": "b658383f988966fbe08a1456ac97682bfceee247f103a57ba922e1717031d3fe",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "wipe the table with a cloth",
+      "text": "Wipe the table with a cloth.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/wipe-the-table-with-a-cloth.mp3",
+      "intonation": "fall",
+      "sha256": "6e2390e1ad9c74fb2e9cbc3a48811c42c0f7b3f491811b69e60cddf831884f98",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "dustpan",
+      "text": "dustpan",
+      "style": "word",
+      "path": "audio/en-us/family/word/dustpan.mp3",
+      "intonation": "neutral",
+      "sha256": "45bb68870b437638dbe08473e0e4debdff63b678fd914b58b21a2a0bc446397b",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "the dustpan is beside the broom",
+      "text": "The dustpan is beside the broom.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/the-dustpan-is-beside-the-broom.mp3",
+      "intonation": "fall",
+      "sha256": "1497b1eb47e0e86978ba04004c1f46d1c991a006568a0751ac773e4ca428ed72",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "laundry basket",
+      "text": "laundry basket",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/laundry-basket.mp3",
+      "intonation": "fall",
+      "sha256": "2553786156987b62d8151442b998f204d39419d8738dd796450911c485baaaff",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "put dirty clothes in the laundry basket",
+      "text": "Put dirty clothes in the laundry basket.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/put-dirty-clothes-in-the-laundry-basket.mp3",
+      "intonation": "fall",
+      "sha256": "98606da1bdacb47fd7d2194e18f2bcb2a2770313c86d691db996b9855094c5cb",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "hanger",
+      "text": "hanger",
+      "style": "word",
+      "path": "audio/en-us/family/word/hanger.mp3",
+      "intonation": "neutral",
+      "sha256": "ac0bd0ab64ba1c37d26b6ed62e05d41153cc69cfe8b54db998accbf8686c3c15",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "hang your coat on a hanger",
+      "text": "Hang your coat on a hanger.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/hang-your-coat-on-a-hanger.mp3",
+      "intonation": "fall",
+      "sha256": "b9743878f1f45d7c238a24d06a3cadcfed673e3c4c6b8bf7ca00fde60eeb5af0",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "light bulb",
+      "text": "light bulb",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/light-bulb.mp3",
+      "intonation": "fall",
+      "sha256": "5a75ba075ec851dc1444783fd6044778667db744e00a22d3c1139477fecae57c",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "the light bulb needs changing",
+      "text": "The light bulb needs changing.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/the-light-bulb-needs-changing.mp3",
+      "intonation": "fall",
+      "sha256": "5207b83d3b18ea715953ce59c2b066bca933d96d58b3c28540cd357429dabf15",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "battery",
+      "text": "battery",
+      "style": "word",
+      "path": "audio/en-us/family/word/battery.mp3",
+      "intonation": "neutral",
+      "sha256": "369f5de696cb859090e11fb6eec56e43473bb7cb459a14ce50767d7f9f933660",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "the toy needs a new battery",
+      "text": "The toy needs a new battery.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/the-toy-needs-a-new-battery.mp3",
+      "intonation": "fall",
+      "sha256": "875706206a36e476fb7f44bf2b256461ee6f31e7e8688f6d4255bdfcad4f72a8",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "torch",
+      "text": "torch",
+      "style": "word",
+      "path": "audio/en-us/family/word/torch.mp3",
+      "intonation": "neutral",
+      "sha256": "3329c61bb51fff21365af512fa432a2e7eeff7947c913030e75f824f4278bc40",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "take a torch when it is dark",
+      "text": "Take a torch when it is dark.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/take-a-torch-when-it-is-dark.mp3",
+      "intonation": "fall",
+      "sha256": "45a5d0d0957e2b644231619d8b23b6a4f7a63da8eadc00b5bd60d4843355905e",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "firstaid kit",
+      "text": "first-aid kit",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/firstaid-kit.mp3",
+      "intonation": "fall",
+      "sha256": "ca77c94cd099a45f7ce3e5130521a0885a51be7a6bc16b9eab213538fe603cac",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "the firstaid kit is in the cupboard",
+      "text": "The first-aid kit is in the cupboard.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/the-firstaid-kit-is-in-the-cupboard.mp3",
+      "intonation": "fall",
+      "sha256": "5f2a8467df14df562cb0316cc09b014d4adb921b106be82ad1f7a41d08f3e39f",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "toolbox",
+      "text": "toolbox",
+      "style": "word",
+      "path": "audio/en-us/family/word/toolbox.mp3",
+      "intonation": "neutral",
+      "sha256": "7ca7e2644870650609778aa04b78cb0edd69fc69b03cf2ce19c31af1b3a44b45",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "dad keeps his tools in a toolbox",
+      "text": "Dad keeps his tools in a toolbox.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/dad-keeps-his-tools-in-a-toolbox.mp3",
+      "intonation": "fall",
+      "sha256": "cf1fa595c60dfe170d7b802dd5533542399e2824fe7ff28a284243adeea4c1cf",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "wake up",
+      "text": "wake up",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/wake-up.mp3",
+      "intonation": "fall",
+      "sha256": "0e0f1d8bba2f3706295ef454a583181867805ad7281348924dc3301045979d9b",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "i wake up at seven",
+      "text": "I wake up at seven.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/i-wake-up-at-seven.mp3",
+      "intonation": "fall",
+      "sha256": "ec9b36b903051bc043d2840d1fd3310be36c5df1f59f62623da7d221eec8044e",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "get up",
+      "text": "get up",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/get-up.mp3",
+      "intonation": "fall",
+      "sha256": "38733f6c7eb2dd305eadafda0d1726d8aecf76f4ce891e98940020f1e865764f",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "i get up early on school days",
+      "text": "I get up early on school days.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/i-get-up-early-on-school-days.mp3",
+      "intonation": "fall",
+      "sha256": "8e58a0dcfe52c9de5ef438e0a5fd125eeb7075c6c5332a82e82f56d34a1786e4",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "make the bed",
+      "text": "make the bed",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/make-the-bed.mp3",
+      "intonation": "fall",
+      "sha256": "21893207d8e6f8fc4230fcd2fb716e131bccd3964605046d7f149f9b281a42e0",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "i make the bed every morning",
+      "text": "I make the bed every morning.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/i-make-the-bed-every-morning.mp3",
+      "intonation": "fall",
+      "sha256": "008d8ebe606ab8c73f98a64208696dd3ccc5a9a3510e3c176df433509f50cc3b",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "brush my teeth",
+      "text": "brush my teeth",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/brush-my-teeth.mp3",
+      "intonation": "fall",
+      "sha256": "3d87baa1e2027a3d159d700ad7568acb7ee1407ab1370750ee52b75790aa60fb",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "wash my face",
+      "text": "wash my face",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/wash-my-face.mp3",
+      "intonation": "fall",
+      "sha256": "f143e6d054ea1305e11877c0a23dd588dee2889dc5389712fd57fe9e2c5f3595",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "i wash my face in the morning",
+      "text": "I wash my face in the morning.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/i-wash-my-face-in-the-morning.mp3",
+      "intonation": "fall",
+      "sha256": "8b6705d86ad510548954375f17bb288b3b97229aa498f1b41cc4440aecd04f21",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "wash my hands",
+      "text": "wash my hands",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/wash-my-hands.mp3",
+      "intonation": "fall",
+      "sha256": "240019eeccd08019c61a9f8f2a8913220a59a2106dfda9932c50d096bb740ac1",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "i wash my hands before meals",
+      "text": "I wash my hands before meals.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/i-wash-my-hands-before-meals.mp3",
+      "intonation": "fall",
+      "sha256": "5d6dae49e367ded4ef3e586752d59b4e15b4470d6c61816299170b1bd73d33c8",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "take a shower",
+      "text": "take a shower",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/take-a-shower.mp3",
+      "intonation": "fall",
+      "sha256": "1ae19e929cd6b66ade5828e061894e22e8bbee1a3e43327f1659d8ea21bcd13d",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "i take a shower after exercise",
+      "text": "I take a shower after exercise.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/i-take-a-shower-after-exercise.mp3",
+      "intonation": "fall",
+      "sha256": "b45a217507ec84dafa3b5a449f5ffc3954188c4d98ca76b562447cfb6ca4090a",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "have a bath",
+      "text": "have a bath",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/have-a-bath.mp3",
+      "intonation": "fall",
+      "sha256": "3816092f218737d66e5cf8574b656dddde7736ec53cf4b6ee6a491500bc7ced9",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "i have a bath in the evening",
+      "text": "I have a bath in the evening.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/i-have-a-bath-in-the-evening.mp3",
+      "intonation": "fall",
+      "sha256": "a44701eb985e85a40361b923f700ac5eb24617bea83c0ded07a0abed3650f9bb",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "get dressed",
+      "text": "get dressed",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/get-dressed.mp3",
+      "intonation": "fall",
+      "sha256": "055a70d8e3717f38c4877ea9a389af67eb15b77e2ecdb711f38064040c840f74",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "i get dressed after washing",
+      "text": "I get dressed after washing.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/i-get-dressed-after-washing.mp3",
+      "intonation": "fall",
+      "sha256": "1e1a00cdbb349383a07a0010ec31f3f982a894085bd087589777c6728ac97999",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "put on",
+      "text": "put on",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/put-on.mp3",
+      "intonation": "fall",
+      "sha256": "239440ea29f40d8f96bca71d3ec9dfb85c856c55ffe9d8ea84bc2cee4a0b9b6b",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "put on your coat before going out",
+      "text": "Put on your coat before going out.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/put-on-your-coat-before-going-out.mp3",
+      "intonation": "fall",
+      "sha256": "ac96cdaf66cdfd0e2d403aa494e2e4f4ffa41b625806803605f468c0ef34f58d",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "take off",
+      "text": "take off",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/take-off.mp3",
+      "intonation": "fall",
+      "sha256": "7d768233a7794ab819731d316444091f2c02f48e11c4fee642d87cf95ddd9885",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "take off your shoes at the door",
+      "text": "Take off your shoes at the door.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/take-off-your-shoes-at-the-door.mp3",
+      "intonation": "fall",
+      "sha256": "14679d7db31b2070dc845fdafd9290f63f1694f608d8114ffe2993c0e6dfb7ca",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "comb my hair",
+      "text": "comb my hair",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/comb-my-hair.mp3",
+      "intonation": "fall",
+      "sha256": "2965cd5d5863c2425deb58ec6fdc0185ef362958a80e33c355dce08ac0d578d7",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "i comb my hair before school",
+      "text": "I comb my hair before school.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/i-comb-my-hair-before-school.mp3",
+      "intonation": "fall",
+      "sha256": "f023916fea036aa6511240f54c2a0d778025d017a02eaec0b3a1cbb3ca0fd9ac",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "get ready",
+      "text": "get ready",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/get-ready.mp3",
+      "intonation": "fall",
+      "sha256": "65fe5b678a46b7c49e94c5095e7fba946bc0bafe26b55e80a9b9d5a391c9c3e5",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "i get ready for school at eight",
+      "text": "I get ready for school at eight.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/i-get-ready-for-school-at-eight.mp3",
+      "intonation": "fall",
+      "sha256": "b67aa263c48e1f7cb45fd982c00299ced29f1e335110d31c39538b818ba31520",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "have breakfast",
+      "text": "have breakfast",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/have-breakfast.mp3",
+      "intonation": "fall",
+      "sha256": "31e83891538ad72acc9eb5746568425b7d2c9b1a494091bdecddc4c392b4f607",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "we have breakfast together",
+      "text": "We have breakfast together.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/we-have-breakfast-together.mp3",
+      "intonation": "fall",
+      "sha256": "11258db50f007988a6a12623da4acacd3006d0a902b247c9a7c6a72ddfd26619",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "have lunch",
+      "text": "have lunch",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/have-lunch.mp3",
+      "intonation": "fall",
+      "sha256": "f6ba94e4a0d81b8e89cae895e826a4944d9aeadc4b33f18085fa615f3e386098",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "i have lunch at school",
+      "text": "I have lunch at school.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/i-have-lunch-at-school.mp3",
+      "intonation": "fall",
+      "sha256": "f0ffb5b89500de881c60a6b50280eba1086b63432e85479e262dd22102ee523d",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "have dinner",
+      "text": "have dinner",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/have-dinner.mp3",
+      "intonation": "fall",
+      "sha256": "788f379be6b4d181ce125c9295d3a44e899880c6a94249cd75716114788c2ac0",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "we have dinner at six",
+      "text": "We have dinner at six.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/we-have-dinner-at-six.mp3",
+      "intonation": "fall",
+      "sha256": "bd9bbe8398d1b6192dcd44d47bb742270c304ddfaf43ad89299fb2dc4e89c1a7",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "eat a snack",
+      "text": "eat a snack",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/eat-a-snack.mp3",
+      "intonation": "fall",
+      "sha256": "276540c6ef25f0adac520318453dc4def05254a13b0e6352bfcca0c49ed5a1d7",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "i eat a snack after school",
+      "text": "I eat a snack after school.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/i-eat-a-snack-after-school.mp3",
+      "intonation": "fall",
+      "sha256": "d5634ee33f7b62d56d40dfbebe5c64cbef1e2d58a98fa646a0955fbac93f242a",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "drink water",
+      "text": "drink water",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/drink-water.mp3",
+      "intonation": "fall",
+      "sha256": "82409d4e00ccb4563e67c8ad0aee523973e3102d3b899f0c7756fe156e60b99e",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "remember to drink water",
+      "text": "Remember to drink water.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/remember-to-drink-water.mp3",
+      "intonation": "fall",
+      "sha256": "851e8cdfbce3e9bfb0e0fa7e809bea64327153df0bc0498b0b393243457b2b87",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "go to school",
+      "text": "go to school",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/go-to-school.mp3",
+      "intonation": "fall",
+      "sha256": "49db48d8bfbd6ae15bedb5301543ad9f44e663057a91d4c9efb828d255e024ac",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "i go to school by bus",
+      "text": "I go to school by bus.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/i-go-to-school-by-bus.mp3",
+      "intonation": "fall",
+      "sha256": "c8fa164bbcc85d11f72c5bcbe4ad9634039d0d747f431936be2dd5d98344934e",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "come home",
+      "text": "come home",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/come-home.mp3",
+      "intonation": "fall",
+      "sha256": "51e40f3eb4e04269193575b880f51f4614bfddd5843e71f4b61da8c5d1000ed9",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "i come home at four",
+      "text": "I come home at four.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/i-come-home-at-four.mp3",
+      "intonation": "fall",
+      "sha256": "07166774cee630794e4e9aa44dc97bc85000be152a04f5b1e819a996efaec4e9",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "change clothes",
+      "text": "change clothes",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/change-clothes.mp3",
+      "intonation": "fall",
+      "sha256": "dc5f818885a3370649d3e93013d49f762e8a3f4ae2d344afb5336fe9108a7bad",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "i change clothes after playing",
+      "text": "I change clothes after playing.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/i-change-clothes-after-playing.mp3",
+      "intonation": "fall",
+      "sha256": "24a77d9e7460bf910df68886c3a5bddb56f8c756821310abb94abdaf8c697438",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "do homework",
+      "text": "do homework",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/do-homework.mp3",
+      "intonation": "fall",
+      "sha256": "80a407fa2f2ed74b37bdb9aaa091c03426465bda598af1849cb7f0983cd605c8",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "i do homework after a short break",
+      "text": "I do homework after a short break.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/i-do-homework-after-a-short-break.mp3",
+      "intonation": "fall",
+      "sha256": "754bf2293e48171acb6bb78f9b84ad9aa9d60443f70fe4b9e91fa7b215eef98b",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "read a book",
+      "text": "read a book",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/read-a-book.mp3",
+      "intonation": "fall",
+      "sha256": "813149c2f7b14c7911b16e62af1b3f7dab624352a4e336816663618cb3fd1065",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "i read a book before bed",
+      "text": "I read a book before bed.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/i-read-a-book-before-bed.mp3",
+      "intonation": "fall",
+      "sha256": "a74e2656d513fa16c9d44def0376e8625359203ccc288049854c5d4f4f3c4fe7",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "practise english",
+      "text": "practise English",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/practise-english.mp3",
+      "intonation": "fall",
+      "sha256": "a10acffa761275e5684b8b0f5e0d28328445140f6e6266cad7a8e85471412b0b",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "i practise english every day",
+      "text": "I practise English every day.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/i-practise-english-every-day.mp3",
+      "intonation": "fall",
+      "sha256": "1ae53146a75f07998bb639f2ab0c7e72de219fb4a760d5e84a321f3fc1f4744a",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "play outside",
+      "text": "play outside",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/play-outside.mp3",
+      "intonation": "fall",
+      "sha256": "6b3dfd0d6ae526c5dda6918f13a7a8c5a8fba5a2632f15f80744116eb515627b",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "we play outside after school",
+      "text": "We play outside after school.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/we-play-outside-after-school.mp3",
+      "intonation": "fall",
+      "sha256": "aae12efcf3fd009aa8b3579e228a0c00287a4f21ecf4af9ed543fd84b9900fbd",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "play with toys",
+      "text": "play with toys",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/play-with-toys.mp3",
+      "intonation": "fall",
+      "sha256": "55cb2b150663adfea5cb2274083a83d9fb6b1fc8cb6217c7a5a90dcd05a454bf",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "the child plays with toys",
+      "text": "The child plays with toys.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/the-child-plays-with-toys.mp3",
+      "intonation": "fall",
+      "sha256": "1479855cd6c217f7ea9f030825ccf2348be8f48c0c0b65c246886affc32ded99",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "watch tv",
+      "text": "watch TV",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/watch-tv.mp3",
+      "intonation": "fall",
+      "sha256": "0285aff59d9ddff9ecf516c918658c34aa6157691f98111ddbb69f152176d6bb",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "we watch tv after dinner",
+      "text": "We watch TV after dinner.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/we-watch-tv-after-dinner.mp3",
+      "intonation": "fall",
+      "sha256": "67c7a7685f4109bbbfb6bef9a9e05860013e82a92775c293e2f705c32c2231ba",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "listen to music",
+      "text": "listen to music",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/listen-to-music.mp3",
+      "intonation": "fall",
+      "sha256": "2cda229a65511bc348f92f4797adcb4920d850c88edb6b2905912843dd2dd2fc",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "i listen to music while i tidy my room",
+      "text": "I listen to music while I tidy my room.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/i-listen-to-music-while-i-tidy-my-room.mp3",
+      "intonation": "fall",
+      "sha256": "832808fdebe21c60fe2861cf6d79dc8533f9d217d8405d3a958ee46bf9eced7f",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "help at home",
+      "text": "help at home",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/help-at-home.mp3",
+      "intonation": "fall",
+      "sha256": "8b7a79ce4c8012a518a148fd2f7d64480b0258abdb7c10d605f63dc4f3db0f36",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "i help at home on weekends",
+      "text": "I help at home on weekends.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/i-help-at-home-on-weekends.mp3",
+      "intonation": "fall",
+      "sha256": "ff3e54a9b8cc4c3e45242814957c295941a007f2b5afaa56b45fb2eec62ed679",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "tidy my room",
+      "text": "tidy my room",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/tidy-my-room.mp3",
+      "intonation": "fall",
+      "sha256": "df02f03594675e730f4f7b81bd36b42728f0d33e2002e5cb533f7ca2996ec3ba",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "i tidy my room every saturday",
+      "text": "I tidy my room every Saturday.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/i-tidy-my-room-every-saturday.mp3",
+      "intonation": "fall",
+      "sha256": "3820078237bc477ba4003c403261200b330c4e3d95421483fb83c9a357c7ca61",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "set the table",
+      "text": "set the table",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/set-the-table.mp3",
+      "intonation": "fall",
+      "sha256": "775abebfc47528911ecb9849f1de9232b21c9211e71136425a0428d79524b032",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "please set the table for dinner",
+      "text": "Please set the table for dinner.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/please-set-the-table-for-dinner.mp3",
+      "intonation": "fall",
+      "sha256": "82ecbbc2250582e4e5795af4170d42b6c5d8b7da7869f4d16f38426553acec51",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "clear the table",
+      "text": "clear the table",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/clear-the-table.mp3",
+      "intonation": "fall",
+      "sha256": "0d1f57781611d3210413314a4dae4317a3b763f39674332257898187d39a09b7",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "i clear the table after dinner",
+      "text": "I clear the table after dinner.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/i-clear-the-table-after-dinner.mp3",
+      "intonation": "fall",
+      "sha256": "51aa8883da7d6e92bf4811f2b30720a6e48af3a6e642740e2ddb1efcddf6a15d",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "wash the dishes",
+      "text": "wash the dishes",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/wash-the-dishes.mp3",
+      "intonation": "fall",
+      "sha256": "51294855d663144f8e1a98ffa18a0f69971a1d5ec51cb54d5062130c05cb89b4",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "my brother washes the dishes",
+      "text": "My brother washes the dishes.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/my-brother-washes-the-dishes.mp3",
+      "intonation": "fall",
+      "sha256": "60f7f8309b566c3bf68d31ef40b2977c92dc710c1f51dfed7357b3b71fefe2fe",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "do the washing",
+      "text": "do the washing",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/do-the-washing.mp3",
+      "intonation": "fall",
+      "sha256": "1c15e9ca40594c9ff4a955d7b577382c1715e175f3c7eba81186489b37f7c53a",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "mum does the washing on sunday",
+      "text": "Mum does the washing on Sunday.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/mum-does-the-washing-on-sunday.mp3",
+      "intonation": "fall",
+      "sha256": "ebf86ca6366dde669295173440145c72709b48035441783786a3a3ee0be35d01",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "hang out the washing",
+      "text": "hang out the washing",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/hang-out-the-washing.mp3",
+      "intonation": "fall",
+      "sha256": "9f2bfaf723fd9f6056ebbaa1b0cf1fdb8f5840e13b733ddd24c9e250b4427a92",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "we hang out the washing in the garden",
+      "text": "We hang out the washing in the garden.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/we-hang-out-the-washing-in-the-garden.mp3",
+      "intonation": "fall",
+      "sha256": "1f940ec91e9430c85f777c828575c81d55e75d124b75e23e1efb7e8cafa0e0fc",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "fold the clothes",
+      "text": "fold the clothes",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/fold-the-clothes.mp3",
+      "intonation": "fall",
+      "sha256": "5fb5e19415518e08edd676db29bfd6128d963990452dd1ad93e6aa03df1099d7",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "i fold the clothes after they dry",
+      "text": "I fold the clothes after they dry.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/i-fold-the-clothes-after-they-dry.mp3",
+      "intonation": "fall",
+      "sha256": "80e049191569dccfaa98c1b5a4d4bc640f3786f0f0f7d416a27695d7f0dfbb61",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "sweep the floor",
+      "text": "sweep the floor",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/sweep-the-floor.mp3",
+      "intonation": "fall",
+      "sha256": "e7d32aa84b0465e268f2810fa0cc1357020415d6ff54c2a98bf93794dd75f92e",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "i sweep the floor in the kitchen",
+      "text": "I sweep the floor in the kitchen.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/i-sweep-the-floor-in-the-kitchen.mp3",
+      "intonation": "fall",
+      "sha256": "e2d76a2bd8aa86894849baf26d4954805bea70152b42b2af6fe1533fcc1f11f9",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "mop the floor",
+      "text": "mop the floor",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/mop-the-floor.mp3",
+      "intonation": "fall",
+      "sha256": "524811472b3bceb2a162db0400868cdd1799efada5632b64a5ce274a45a9a335",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "dad mops the floor",
+      "text": "Dad mops the floor.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/dad-mops-the-floor.mp3",
+      "intonation": "fall",
+      "sha256": "95c25335b8da1da9b13d0928a93be18285d9ff47958a847f14d904feec9711ff",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "water the plants",
+      "text": "water the plants",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/water-the-plants.mp3",
+      "intonation": "fall",
+      "sha256": "1f7f96a73e900b9e10adbae92d8b9d6543b86727e182de78d314fb90b87f5b72",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "i water the plants every morning",
+      "text": "I water the plants every morning.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/i-water-the-plants-every-morning.mp3",
+      "intonation": "fall",
+      "sha256": "421d8508a0964a48035eeba4b48b7c0251d053c585a0979ccf3049a1d37e7eb5",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "feed the pet",
+      "text": "feed the pet",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/feed-the-pet.mp3",
+      "intonation": "fall",
+      "sha256": "d8ba691523281cb672b34839b558df5c33d98aba30661f4303d4476002f760b5",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "i feed the pet before school",
+      "text": "I feed the pet before school.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/i-feed-the-pet-before-school.mp3",
+      "intonation": "fall",
+      "sha256": "1181eda33daff182162a3723a08da3b05c7dd9610ac24c48f7f2c4f2de62ff3f",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "take out the rubbish",
+      "text": "take out the rubbish",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/take-out-the-rubbish.mp3",
+      "intonation": "fall",
+      "sha256": "fdec2314c37e278eebf7a447941dd4a3a4d757e8505e13720404d7d97d8afee6",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "please take out the rubbish tonight",
+      "text": "Please take out the rubbish tonight.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/please-take-out-the-rubbish-tonight.mp3",
+      "intonation": "fall",
+      "sha256": "103ac57a38c6d8dda5dfe71cc3d6e23d4cd54917361ced3fd4a0f3ef3171c48f",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "go shopping",
+      "text": "go shopping",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/go-shopping.mp3",
+      "intonation": "fall",
+      "sha256": "23c3efa5f392fedfcb4bbc68d57170624a538a166e6895fb1c5213f2e47b47b8",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "we go shopping on saturday",
+      "text": "We go shopping on Saturday.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/we-go-shopping-on-saturday.mp3",
+      "intonation": "fall",
+      "sha256": "490e5a1892d00d65af71a31d145ea2bbdd97b7f98223523cec2a3b73b0c08bea",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "visit relatives",
+      "text": "visit relatives",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/visit-relatives.mp3",
+      "intonation": "fall",
+      "sha256": "6c1617c179c56c7a11ceb4f7a765a3bd378e9215dcf45c15ea639ed627f8ae3c",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "we visit relatives during the holiday",
+      "text": "We visit relatives during the holiday.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/we-visit-relatives-during-the-holiday.mp3",
+      "intonation": "fall",
+      "sha256": "086104c243577220ca006bd3ddf76dcd233999433ef2b8757ac82b6fc7c77081",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "go for a walk",
+      "text": "go for a walk",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/go-for-a-walk.mp3",
+      "intonation": "fall",
+      "sha256": "918ed1f6c258958584d0ce256fadfe44db7f4f976e5e7a82449480b6a1514ed9",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "i go for a walk with dad",
+      "text": "I go for a walk with Dad.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/i-go-for-a-walk-with-dad.mp3",
+      "intonation": "fall",
+      "sha256": "105e4d311de50633050eea303feb4f1096b685bc85e8e9e3ff8a20e1a9d36f61",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "exercise",
+      "text": "exercise",
+      "style": "word",
+      "path": "audio/en-us/family/word/exercise.mp3",
+      "intonation": "neutral",
+      "sha256": "e38b3052106da8ce8a8f36338f5420c9e2e3ab64d990b9322e2696261358c5fd",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "i exercise every afternoon",
+      "text": "I exercise every afternoon.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/i-exercise-every-afternoon.mp3",
+      "intonation": "fall",
+      "sha256": "6b477b3aaaace60af062fc82bc79cf031a37a72ad69cf979c84405cd10cca12f",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "relax",
+      "text": "relax",
+      "style": "word",
+      "path": "audio/en-us/family/word/relax.mp3",
+      "intonation": "neutral",
+      "sha256": "bb26126c20f978a3efc7ddb013efebc23a2f5b176d13edcf0e2191c422b9d244",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "i relax after finishing my homework",
+      "text": "I relax after finishing my homework.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/i-relax-after-finishing-my-homework.mp3",
+      "intonation": "fall",
+      "sha256": "afba8840f1939791646252c48e2e035e982a6d8a0f38eec2513963466ce56283",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "rest",
+      "text": "rest",
+      "style": "word",
+      "path": "audio/en-us/family/word/rest.mp3",
+      "intonation": "neutral",
+      "sha256": "9415cb8198c8ae91def6f5eb3791ca89b03eb58b5fe7fe49616a0ebb8480aa64",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "you can rest for ten minutes",
+      "text": "You can rest for ten minutes.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/you-can-rest-for-ten-minutes.mp3",
+      "intonation": "fall",
+      "sha256": "361283ddc570256b4afd6303ed6f98480d476893d784375ce9d97eb95d3bd4b5",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "take a nap",
+      "text": "take a nap",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/take-a-nap.mp3",
+      "intonation": "fall",
+      "sha256": "bcd40b3623f76422b271d31f2ad1c119e304aee4c7b109eeed24db3aebb2d5fb",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "the baby takes a nap after lunch",
+      "text": "The baby takes a nap after lunch.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/the-baby-takes-a-nap-after-lunch.mp3",
+      "intonation": "fall",
+      "sha256": "cfe431769d5f6042a3a640c940a1d387ef8fc65ff4b1e844baa73b5d5c2bc9c7",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "go to bed",
+      "text": "go to bed",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/go-to-bed.mp3",
+      "intonation": "fall",
+      "sha256": "69044de3eef08b61da02571e9aedf448c059564cf701d278daa1919495effb3d",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "i go to bed at nine",
+      "text": "I go to bed at nine.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/i-go-to-bed-at-nine.mp3",
+      "intonation": "fall",
+      "sha256": "7449368d647821a900681f50cdcd2dbf05285530f498db798a7de636395d8f7b",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "fall asleep",
+      "text": "fall asleep",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/fall-asleep.mp3",
+      "intonation": "fall",
+      "sha256": "af0d76442220073822f4fb3eda75cd9ae37238bc4294e484fe685fd9f9d3c041",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "i fall asleep quickly",
+      "text": "I fall asleep quickly.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/i-fall-asleep-quickly.mp3",
+      "intonation": "fall",
+      "sha256": "6afa6e7f693606937d200dc356ddd8dd448b8ad049a163773c728708c4424a9e",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "sleep",
+      "text": "sleep",
+      "style": "word",
+      "path": "audio/en-us/family/word/sleep.mp3",
+      "intonation": "neutral",
+      "sha256": "4e6e60fbe5fae42a02b737a7f9f3d807320992c0ea8e2127db75d183bf2d70be",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "children need enough sleep",
+      "text": "Children need enough sleep.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/children-need-enough-sleep.mp3",
+      "intonation": "fall",
+      "sha256": "c9158f12ad5c5530c22785a561341c177b146947baec03fe10490aaa53851421",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "i get up early on weekdays",
+      "text": "I get up early on weekdays.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/i-get-up-early-on-weekdays.mp3",
+      "intonation": "fall",
+      "sha256": "3a6b57933fd569f9e8798d799e2b8fabefb5d44bda58da790ec65ffafc8da493",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "don't stay up late",
+      "text": "Don't stay up late.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/don-t-stay-up-late.mp3",
+      "intonation": "fall",
+      "sha256": "45c9466e1cefab3efd4e9587cfdf56ff0ca677cbb5a6d7a9cd0422e1d6a62e2d",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "i read english every day",
+      "text": "I read English every day.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/i-read-english-every-day.mp3",
+      "intonation": "fall",
+      "sha256": "fd9ccd4b1489f0df670915188815aa3f3491b122b9d9d193a47b633b54a59020",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "i play outside in the afternoon",
+      "text": "I play outside in the afternoon.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/i-play-outside-in-the-afternoon.mp3",
+      "intonation": "fall",
+      "sha256": "e07289179062c715916c5e933963f65f2a2ce084388acbfcec8271be387140b1",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "in the evening",
+      "text": "in the evening",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/in-the-evening.mp3",
+      "intonation": "fall",
+      "sha256": "1c4835ede527a137519de25113b47ea1b8e275160ee2136011365934fa3dc210",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "we have dinner in the evening",
+      "text": "We have dinner in the evening.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/we-have-dinner-in-the-evening.mp3",
+      "intonation": "fall",
+      "sha256": "19a7643f59be1257521b09f8248cd80caccb83b26c8e0e6e806bf93f4a6570e0",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "i sleep well at night",
+      "text": "I sleep well at night.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/i-sleep-well-at-night.mp3",
+      "intonation": "fall",
+      "sha256": "2858acc5e249de9cc05064b598953d00f415341a2766fe9dc09760f95969ea3c",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "wash your hands before dinner",
+      "text": "Wash your hands before dinner.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/wash-your-hands-before-dinner.mp3",
+      "intonation": "fall",
+      "sha256": "218ab77cc1b79d3641d2c77afc7e67b5a19c4f9a2e8118a2da41ec7dbc9d846f",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "i read after school",
+      "text": "I read after school.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/i-read-after-school.mp3",
+      "intonation": "fall",
+      "sha256": "b3caa88fa75d3f9640b162c6fd51a1ca2353ef2a05da037ac6a36edcd7a713da",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "first brush your teeth",
+      "text": "First, brush your teeth.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/first-brush-your-teeth.mp3",
+      "intonation": "fall",
+      "sha256": "623142a859174250a4f67815b9225c0ed92aff2271dd255b0c1c7da6efc34df7",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "then",
+      "text": "then",
+      "style": "word",
+      "path": "audio/en-us/family/word/then.mp3",
+      "intonation": "neutral",
+      "sha256": "ae2cab8a5832ab40e298860715f1e52fd488f8560812a343dba022d3eda8408d",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "i get dressed then i eat breakfast",
+      "text": "I get dressed, then I eat breakfast.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/i-get-dressed-then-i-eat-breakfast.mp3",
+      "intonation": "fall",
+      "sha256": "d9818caa0fee1b09df489d9ebcde9a6ecb134118d700ac00163526aabc899002",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "next pack your schoolbag",
+      "text": "Next, pack your schoolbag.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/next-pack-your-schoolbag.mp3",
+      "intonation": "fall",
+      "sha256": "dd8688d9319bb798648f9b3dc0c761469c414fd17a1a468a7f794158628d359e",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "finally",
+      "text": "finally",
+      "style": "word",
+      "path": "audio/en-us/family/word/finally.mp3",
+      "intonation": "neutral",
+      "sha256": "c37b9beac21311a914293ced2a82ae49e6438d87451b9ea546bd3707653888ff",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "finally i go to bed",
+      "text": "Finally, I go to bed.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/finally-i-go-to-bed.mp3",
+      "intonation": "fall",
+      "sha256": "5b775f801df8baa4f45a8cc2c6fd515936a24beaaab8dcc0cd548bf73cc27476",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "daily routine",
+      "text": "daily routine",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/daily-routine.mp3",
+      "intonation": "fall",
+      "sha256": "f3ac4be35af7ee94fbc011389349aac71be919604b992042f6594c6c0d19ee76",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "my daily routine is simple",
+      "text": "My daily routine is simple.",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/my-daily-routine-is-simple.mp3",
+      "intonation": "fall",
+      "sha256": "1601c7b62808d8cb02461a4cf919cd5fbb1b3fd6b7ec3ace591335768466ccdf",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "what do you do after school",
+      "text": "What do you do after school?",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/what-do-you-do-after-school.mp3",
+      "intonation": "fall",
+      "sha256": "c612eab656d4ed0c5128f13e4f76eb8ca9341469433ea7e27967c30abb2d1120",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "i help my family at home",
+      "text": "I help my family at home.",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/i-help-my-family-at-home.mp3",
+      "intonation": "fall",
+      "sha256": "0c8b22dbd4652458305d8226836dd2f32098bc4f29a31390e7f159f8782baa4f",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "it's time for bed",
+      "text": "It's time for bed.",
+      "style": "sentence",
+      "path": "audio/en-us/family/word/it-s-time-for-bed.mp3",
+      "intonation": "fall",
+      "sha256": "44a62f3e42e171ab5e4264c7a1222cfdf3314c48dc958df32a035ad6ca04bb63",
+      "source": "family-daily-v1"
+    },
+    {
+      "audio_key": "it's time for bed good night",
+      "text": "It's time for bed. Good night!",
+      "style": "sentence",
+      "path": "audio/en-us/family/sentence/it-s-time-for-bed-good-night.mp3",
+      "intonation": "fall",
+      "sha256": "6f06a624188727bbeae564b6a81714c365b171695e36509ba1cea0ee9d490b29",
+      "source": "family-daily-v1"
     }
   ],
   "clip_count": 610,
@@ -11912,6 +15197,13 @@
       "voice": "af_bella",
       "locale": "en-US",
       "source": "data/school-learning-audio-generation.json"
+    },
+    {
+      "pack": "family-daily-v1",
+      "clips": 365,
+      "voice": "af_bella",
+      "locale": "en-US",
+      "source": "data/family-daily-audio-generation.json"
     }
   ]
 }

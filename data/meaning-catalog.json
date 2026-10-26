@@ -9392,6 +9392,3415 @@
       ],
       "usage": "",
       "note": ""
+    },
+    {
+      "id": "C04-S01-001",
+      "word": "family",
+      "meaning": "家庭；家人",
+      "english": "I love my family.",
+      "chinese": "我爱我的家人。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "家人"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S01-002",
+      "word": "parent",
+      "meaning": "父亲或母亲；家长",
+      "english": "A parent came to the school meeting.",
+      "chinese": "一位家长来参加学校会议。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "家长"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S01-003",
+      "word": "parents",
+      "meaning": "父母",
+      "english": "My parents are at home.",
+      "chinese": "我的父母在家。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "父母"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S01-004",
+      "word": "mother",
+      "meaning": "母亲",
+      "english": "My mother reads with me.",
+      "chinese": "妈妈和我一起阅读。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "妈妈"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S01-005",
+      "word": "mum",
+      "meaning": "妈妈（英式常用）",
+      "english": "Mum is making dinner.",
+      "chinese": "妈妈正在做晚饭。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "妈妈"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S01-006",
+      "word": "father",
+      "meaning": "父亲",
+      "english": "My father walks to work.",
+      "chinese": "爸爸步行去上班。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "爸爸"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S01-007",
+      "word": "dad",
+      "meaning": "爸爸",
+      "english": "Dad helps me with my homework.",
+      "chinese": "爸爸帮我做家庭作业。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "爸爸"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S01-008",
+      "word": "brother",
+      "meaning": "兄弟；哥哥；弟弟",
+      "english": "My brother likes football.",
+      "chinese": "我哥哥／弟弟喜欢足球。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 6,
+          "text": "哥哥／弟弟"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S01-009",
+      "word": "sister",
+      "meaning": "姐妹；姐姐；妹妹",
+      "english": "My sister is reading a book.",
+      "chinese": "我姐姐／妹妹正在读书。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 6,
+          "text": "姐姐／妹妹"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S01-010",
+      "word": "sibling",
+      "meaning": "兄弟姐妹中的一人",
+      "english": "I have one sibling.",
+      "chinese": "我有一个兄弟姐妹。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 8,
+          "text": "兄弟姐妹"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S01-011",
+      "word": "older brother",
+      "meaning": "哥哥",
+      "english": "My older brother is twelve.",
+      "chinese": "我哥哥十二岁。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "哥哥"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S01-012",
+      "word": "younger brother",
+      "meaning": "弟弟",
+      "english": "My younger brother is six.",
+      "chinese": "我弟弟六岁。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "弟弟"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S01-013",
+      "word": "older sister",
+      "meaning": "姐姐",
+      "english": "My older sister helps me read.",
+      "chinese": "我姐姐帮我阅读。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "姐姐"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S01-014",
+      "word": "younger sister",
+      "meaning": "妹妹",
+      "english": "My younger sister likes drawing.",
+      "chinese": "我妹妹喜欢画画。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "妹妹"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S01-015",
+      "word": "baby",
+      "meaning": "婴儿；宝宝",
+      "english": "The baby is sleeping.",
+      "chinese": "宝宝正在睡觉。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "宝宝"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S01-016",
+      "word": "son",
+      "meaning": "儿子",
+      "english": "Their son goes to primary school.",
+      "chinese": "他们的儿子上小学。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "儿子"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S01-017",
+      "word": "daughter",
+      "meaning": "女儿",
+      "english": "Their daughter likes music.",
+      "chinese": "他们的女儿喜欢音乐。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "女儿"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S01-018",
+      "word": "child",
+      "meaning": "孩子",
+      "english": "The child is playing outside.",
+      "chinese": "这个孩子正在外面玩。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "孩子"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S01-019",
+      "word": "children",
+      "meaning": "孩子们",
+      "english": "The children are in the garden.",
+      "chinese": "孩子们在花园里。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "孩子们"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S01-020",
+      "word": "grandparents",
+      "meaning": "祖父母；外祖父母",
+      "english": "My grandparents live nearby.",
+      "chinese": "我的祖父母住在附近。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 5,
+          "text": "祖父母"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S01-021",
+      "word": "grandmother",
+      "meaning": "祖母；外祖母",
+      "english": "My grandmother tells funny stories.",
+      "chinese": "奶奶／外婆会讲有趣的故事。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 5,
+          "text": "奶奶／外婆"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S01-022",
+      "word": "grandma",
+      "meaning": "奶奶；外婆",
+      "english": "Grandma makes lovely soup.",
+      "chinese": "奶奶／外婆做的汤很好喝。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 5,
+          "text": "奶奶／外婆"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S01-023",
+      "word": "grandfather",
+      "meaning": "祖父；外祖父",
+      "english": "My grandfather likes gardening.",
+      "chinese": "爷爷／外公喜欢园艺。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 5,
+          "text": "爷爷／外公"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S01-024",
+      "word": "grandpa",
+      "meaning": "爷爷；外公",
+      "english": "Grandpa reads the newspaper.",
+      "chinese": "爷爷／外公在看报纸。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 5,
+          "text": "爷爷／外公"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S01-025",
+      "word": "aunt",
+      "meaning": "姑妈；姨妈等",
+      "english": "My aunt lives in London.",
+      "chinese": "我的姨妈／姑妈住在伦敦。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 7,
+          "text": "姨妈／姑妈"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S01-026",
+      "word": "uncle",
+      "meaning": "叔叔；舅舅等",
+      "english": "My uncle visits us on Sunday.",
+      "chinese": "我叔叔／舅舅星期日来看我们。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 6,
+          "text": "叔叔／舅舅"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S01-027",
+      "word": "cousin",
+      "meaning": "堂／表兄弟姐妹",
+      "english": "My cousin is the same age as me.",
+      "chinese": "我的堂／表兄弟姐妹和我同岁。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 9,
+          "text": "堂／表兄弟姐妹"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S01-028",
+      "word": "relative",
+      "meaning": "亲戚",
+      "english": "We visit our relatives at New Year.",
+      "chinese": "新年时我们去拜访亲戚。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 8,
+          "end": 10,
+          "text": "亲戚"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S01-029",
+      "word": "twins",
+      "meaning": "双胞胎",
+      "english": "The twins look alike.",
+      "chinese": "这对双胞胎长得很像。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 5,
+          "text": "双胞胎"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S01-030",
+      "word": "only child",
+      "meaning": "独生子女",
+      "english": "I am an only child.",
+      "chinese": "我是独生子女。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 6,
+          "text": "独生子女"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S01-031",
+      "word": "family photo",
+      "meaning": "全家福；家庭照片",
+      "english": "This is our family photo.",
+      "chinese": "这是我们的全家福。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 8,
+          "text": "全家福"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S01-032",
+      "word": "Who is this?",
+      "meaning": "这是谁？",
+      "english": "Who is this in the photo?",
+      "chinese": "照片里这是谁？",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 6,
+          "text": "这是谁"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S01-033",
+      "word": "This is my family.",
+      "meaning": "这是我的家人。",
+      "english": "This is my family.",
+      "chinese": "这是我的家人。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 6,
+          "text": "这是我的家人"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S02-001",
+      "word": "home",
+      "meaning": "家；住所",
+      "english": "I go home after school.",
+      "chinese": "我放学后回家。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 6,
+          "text": "家"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S02-002",
+      "word": "house",
+      "meaning": "房子；住宅",
+      "english": "Their house has a small garden.",
+      "chinese": "他们的房子有一个小花园。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "房子"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S02-003",
+      "word": "flat",
+      "meaning": "公寓（英式常用）",
+      "english": "We live in a flat.",
+      "chinese": "我们住在一套公寓里。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 8,
+          "text": "公寓"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S02-004",
+      "word": "room",
+      "meaning": "房间",
+      "english": "My room is tidy.",
+      "chinese": "我的房间很整洁。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "房间"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S02-005",
+      "word": "bedroom",
+      "meaning": "卧室",
+      "english": "My bedroom has a big window.",
+      "chinese": "我的卧室有一扇大窗户。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "卧室"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S02-006",
+      "word": "living room",
+      "meaning": "客厅",
+      "english": "We watch TV in the living room.",
+      "chinese": "我们在客厅看电视。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "客厅"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S02-007",
+      "word": "sitting room",
+      "meaning": "起居室；客厅",
+      "english": "The sitting room is warm.",
+      "chinese": "起居室很暖和。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "起居室"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S02-008",
+      "word": "kitchen",
+      "meaning": "厨房",
+      "english": "Dad is in the kitchen.",
+      "chinese": "爸爸在厨房里。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "厨房"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S02-009",
+      "word": "bathroom",
+      "meaning": "浴室；卫生间",
+      "english": "The bathroom is upstairs.",
+      "chinese": "浴室在楼上。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "浴室"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S02-010",
+      "word": "dining room",
+      "meaning": "餐厅",
+      "english": "We eat together in the dining room.",
+      "chinese": "我们在餐厅一起吃饭。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "餐厅"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S02-011",
+      "word": "study",
+      "meaning": "书房",
+      "english": "I do my reading in the study.",
+      "chinese": "我在书房阅读。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "书房"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S02-012",
+      "word": "hall",
+      "meaning": "门厅；大厅",
+      "english": "Leave your shoes in the hall.",
+      "chinese": "把鞋子放在门厅里。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "门厅"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S02-013",
+      "word": "hallway",
+      "meaning": "走廊；过道",
+      "english": "The hallway is narrow.",
+      "chinese": "过道很窄。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "过道"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S02-014",
+      "word": "balcony",
+      "meaning": "阳台",
+      "english": "There are flowers on the balcony.",
+      "chinese": "阳台上有花。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "阳台"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S02-015",
+      "word": "garden",
+      "meaning": "花园",
+      "english": "We play in the garden.",
+      "chinese": "我们在花园里玩。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "花园"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S02-016",
+      "word": "garage",
+      "meaning": "车库",
+      "english": "The car is in the garage.",
+      "chinese": "汽车在车库里。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "车库"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S02-017",
+      "word": "roof",
+      "meaning": "屋顶",
+      "english": "The roof is covered with snow.",
+      "chinese": "屋顶上覆盖着雪。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "屋顶"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S02-018",
+      "word": "floor",
+      "meaning": "地板；楼层",
+      "english": "The toy is on the floor.",
+      "chinese": "玩具在地板上。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "地板"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S02-019",
+      "word": "ceiling",
+      "meaning": "天花板",
+      "english": "A lamp hangs from the ceiling.",
+      "chinese": "一盏灯挂在天花板上。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 8,
+          "text": "天花板"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S02-020",
+      "word": "door",
+      "meaning": "门",
+      "english": "Please close the door.",
+      "chinese": "请关上门。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 4,
+          "text": "门"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S02-021",
+      "word": "window",
+      "meaning": "窗户",
+      "english": "Open the window for fresh air.",
+      "chinese": "打开窗户透透气。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "窗户"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S02-022",
+      "word": "curtain",
+      "meaning": "窗帘",
+      "english": "The curtains are blue.",
+      "chinese": "窗帘是蓝色的。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "窗帘"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S02-023",
+      "word": "sofa",
+      "meaning": "沙发",
+      "english": "The cat is sleeping on the sofa.",
+      "chinese": "猫正在沙发上睡觉。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "沙发"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S02-024",
+      "word": "armchair",
+      "meaning": "扶手椅",
+      "english": "Grandpa sits in the armchair.",
+      "chinese": "爷爷坐在扶手椅上。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 7,
+          "text": "扶手椅"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S02-025",
+      "word": "chair",
+      "meaning": "椅子",
+      "english": "There are four chairs around the table.",
+      "chinese": "桌子周围有四把椅子。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 9,
+          "text": "椅子"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S02-026",
+      "word": "table",
+      "meaning": "桌子",
+      "english": "Put the cups on the table.",
+      "chinese": "把杯子放在桌子上。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "桌子"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S02-027",
+      "word": "dining table",
+      "meaning": "餐桌",
+      "english": "Dinner is on the dining table.",
+      "chinese": "晚饭摆在餐桌上。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "餐桌"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S02-028",
+      "word": "desk",
+      "meaning": "书桌",
+      "english": "My books are on my desk.",
+      "chinese": "我的书在书桌上。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "书桌"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S02-029",
+      "word": "bed",
+      "meaning": "床",
+      "english": "I make my bed every morning.",
+      "chinese": "我每天早上整理床铺。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 8,
+          "text": "床"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S02-030",
+      "word": "bunk bed",
+      "meaning": "双层床",
+      "english": "The children sleep in a bunk bed.",
+      "chinese": "孩子们睡在双层床上。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 8,
+          "text": "双层床"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S02-031",
+      "word": "pillow",
+      "meaning": "枕头",
+      "english": "I need a clean pillow.",
+      "chinese": "我需要一个干净的枕头。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 8,
+          "end": 10,
+          "text": "枕头"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S02-032",
+      "word": "blanket",
+      "meaning": "毯子；毛毯",
+      "english": "The blanket keeps me warm.",
+      "chinese": "毯子让我保持温暖。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "毯子"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S02-033",
+      "word": "duvet",
+      "meaning": "被子（英式常用）",
+      "english": "My duvet is warm and light.",
+      "chinese": "我的被子又暖又轻。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "被子"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S02-034",
+      "word": "wardrobe",
+      "meaning": "衣柜",
+      "english": "My clothes are in the wardrobe.",
+      "chinese": "我的衣服在衣柜里。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "衣柜"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S02-035",
+      "word": "bookshelf",
+      "meaning": "书架",
+      "english": "The bookshelf is next to my desk.",
+      "chinese": "书架在我的书桌旁边。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "书架"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S02-036",
+      "word": "cupboard",
+      "meaning": "橱柜；柜子",
+      "english": "The plates are in the cupboard.",
+      "chinese": "盘子在橱柜里。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "橱柜"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S02-037",
+      "word": "shelf",
+      "meaning": "架子；搁板",
+      "english": "Put the toy on the shelf.",
+      "chinese": "把玩具放在架子上。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "架子"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S02-038",
+      "word": "drawer",
+      "meaning": "抽屉",
+      "english": "The keys are in the drawer.",
+      "chinese": "钥匙在抽屉里。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "抽屉"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S02-039",
+      "word": "lamp",
+      "meaning": "灯；台灯",
+      "english": "Turn on the lamp, please.",
+      "chinese": "请打开灯。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 4,
+          "text": "灯"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S02-040",
+      "word": "mirror",
+      "meaning": "镜子",
+      "english": "I look in the mirror.",
+      "chinese": "我照镜子。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "镜子"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S02-041",
+      "word": "rug",
+      "meaning": "小地毯",
+      "english": "There is a rug beside the bed.",
+      "chinese": "床边有一块小地毯。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 8,
+          "text": "小地毯"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S02-042",
+      "word": "carpet",
+      "meaning": "地毯",
+      "english": "The carpet is soft.",
+      "chinese": "地毯很柔软。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "地毯"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S02-043",
+      "word": "plant",
+      "meaning": "植物；盆栽",
+      "english": "There is a plant by the window.",
+      "chinese": "窗边有一盆植物。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "植物"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S02-044",
+      "word": "tap",
+      "meaning": "水龙头",
+      "english": "Turn off the tap.",
+      "chinese": "关掉水龙头。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 5,
+          "text": "水龙头"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S03-001",
+      "word": "cup",
+      "meaning": "杯子",
+      "english": "I drink milk from a cup.",
+      "chinese": "我用杯子喝牛奶。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "杯子"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S03-002",
+      "word": "mug",
+      "meaning": "马克杯",
+      "english": "This is my favourite mug.",
+      "chinese": "这是我最喜欢的马克杯。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 10,
+          "text": "马克杯"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S03-003",
+      "word": "glass",
+      "meaning": "玻璃杯；玻璃",
+      "english": "Please give me a glass of water.",
+      "chinese": "请给我一杯水。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 5,
+          "text": "杯"
+        }
+      ],
+      "usage": "",
+      "note": "a glass of water 表示一杯水；glass 在这里以容器表示份量，中文译为“杯”。"
+    },
+    {
+      "id": "C04-S03-004",
+      "word": "bottle",
+      "meaning": "瓶子",
+      "english": "The bottle is full of water.",
+      "chinese": "瓶子里装满了水。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "瓶子"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S03-005",
+      "word": "plate",
+      "meaning": "盘子",
+      "english": "Put the sandwich on a plate.",
+      "chinese": "把三明治放在盘子里。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 8,
+          "text": "盘子"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S03-006",
+      "word": "bowl",
+      "meaning": "碗",
+      "english": "I eat cereal from a bowl.",
+      "chinese": "我用碗吃麦片。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 3,
+          "text": "碗"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S03-007",
+      "word": "dish",
+      "meaning": "盘；碟；一道菜",
+      "english": "Wash the dishes after dinner.",
+      "chinese": "晚饭后洗餐具。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "餐具"
+        }
+      ],
+      "usage": "",
+      "note": "dishes 在这里泛指餐具，而不是“一道菜”；洗餐具也常说洗碗。"
+    },
+    {
+      "id": "C04-S03-008",
+      "word": "spoon",
+      "meaning": "勺子",
+      "english": "Use a spoon for the soup.",
+      "chinese": "用勺子喝汤。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "勺子"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S03-009",
+      "word": "fork",
+      "meaning": "叉子",
+      "english": "I eat pasta with a fork.",
+      "chinese": "我用叉子吃意面。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "叉子"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S03-010",
+      "word": "knife",
+      "meaning": "刀",
+      "english": "Use a knife carefully.",
+      "chinese": "小心使用刀具。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 5,
+          "text": "刀"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S03-011",
+      "word": "chopsticks",
+      "meaning": "筷子",
+      "english": "I can use chopsticks.",
+      "chinese": "我会用筷子。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "筷子"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S03-012",
+      "word": "kettle",
+      "meaning": "水壶；烧水壶",
+      "english": "The kettle is boiling.",
+      "chinese": "水壶里的水正在烧开。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "水壶"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S03-013",
+      "word": "teapot",
+      "meaning": "茶壶",
+      "english": "The tea is in the teapot.",
+      "chinese": "茶在茶壶里。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "茶壶"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S03-014",
+      "word": "saucepan",
+      "meaning": "炖锅；长柄锅",
+      "english": "Heat the soup in a saucepan.",
+      "chinese": "用炖锅加热汤。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "炖锅"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S03-015",
+      "word": "frying pan",
+      "meaning": "煎锅",
+      "english": "The eggs are in the frying pan.",
+      "chinese": "鸡蛋在煎锅里。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "煎锅"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S03-016",
+      "word": "oven",
+      "meaning": "烤箱",
+      "english": "The cake is in the oven.",
+      "chinese": "蛋糕在烤箱里。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "烤箱"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S03-017",
+      "word": "cooker",
+      "meaning": "炉灶（英式常用）",
+      "english": "The cooker is in the kitchen.",
+      "chinese": "炉灶在厨房里。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "炉灶"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S03-018",
+      "word": "microwave",
+      "meaning": "微波炉",
+      "english": "Heat the food in the microwave.",
+      "chinese": "用微波炉加热食物。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 4,
+          "text": "微波炉"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S03-019",
+      "word": "fridge",
+      "meaning": "冰箱（口语）",
+      "english": "The milk is in the fridge.",
+      "chinese": "牛奶在冰箱里。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "冰箱"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S03-020",
+      "word": "freezer",
+      "meaning": "冷冻室；冰柜",
+      "english": "The peas are in the freezer.",
+      "chinese": "豌豆在冷冻室里。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 6,
+          "text": "冷冻室"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S03-021",
+      "word": "dishwasher",
+      "meaning": "洗碗机",
+      "english": "The dishwasher is full.",
+      "chinese": "洗碗机装满了。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "洗碗机"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S03-022",
+      "word": "washing machine",
+      "meaning": "洗衣机",
+      "english": "The washing machine is running.",
+      "chinese": "洗衣机正在运转。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "洗衣机"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S03-023",
+      "word": "tumble dryer",
+      "meaning": "滚筒烘干机",
+      "english": "The towels are in the tumble dryer.",
+      "chinese": "毛巾在烘干机里。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 6,
+          "text": "烘干机"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S03-024",
+      "word": "vacuum cleaner",
+      "meaning": "吸尘器",
+      "english": "I use the vacuum cleaner on the carpet.",
+      "chinese": "我用吸尘器清理地毯。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 5,
+          "text": "吸尘器"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S03-025",
+      "word": "iron",
+      "meaning": "熨斗；熨烫",
+      "english": "The iron is on the ironing board.",
+      "chinese": "熨斗在熨衣板上。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "熨斗"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S03-026",
+      "word": "fan",
+      "meaning": "风扇",
+      "english": "Turn on the fan.",
+      "chinese": "打开风扇。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "风扇"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S03-027",
+      "word": "heater",
+      "meaning": "加热器；取暖器",
+      "english": "The heater keeps the room warm.",
+      "chinese": "取暖器让房间保持温暖。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "取暖器"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S03-028",
+      "word": "air conditioner",
+      "meaning": "空调",
+      "english": "The air conditioner is on.",
+      "chinese": "空调开着。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "空调"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S03-029",
+      "word": "television",
+      "meaning": "电视机",
+      "english": "The television is in the living room.",
+      "chinese": "电视机在客厅里。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "电视机"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S03-030",
+      "word": "remote control",
+      "meaning": "遥控器",
+      "english": "Use the remote control to turn it off.",
+      "chinese": "用遥控器把它关掉。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 4,
+          "text": "遥控器"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S03-031",
+      "word": "towel",
+      "meaning": "毛巾",
+      "english": "Dry your hands with a towel.",
+      "chinese": "用毛巾擦干双手。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "毛巾"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S03-032",
+      "word": "soap",
+      "meaning": "肥皂；香皂",
+      "english": "Wash your hands with soap.",
+      "chinese": "用肥皂洗手。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "肥皂"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S03-033",
+      "word": "shampoo",
+      "meaning": "洗发水",
+      "english": "I need some shampoo.",
+      "chinese": "我需要一些洗发水。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 8,
+          "text": "洗发水"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S03-034",
+      "word": "toothbrush",
+      "meaning": "牙刷",
+      "english": "My toothbrush is blue.",
+      "chinese": "我的牙刷是蓝色的。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "牙刷"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S03-035",
+      "word": "toothpaste",
+      "meaning": "牙膏",
+      "english": "Put toothpaste on your toothbrush.",
+      "chinese": "把牙膏挤在牙刷上。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "牙膏"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S03-036",
+      "word": "comb",
+      "meaning": "梳子；梳头",
+      "english": "I use a comb every morning.",
+      "chinese": "我每天早上用梳子梳头。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 8,
+          "text": "梳子"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S03-037",
+      "word": "tissue",
+      "meaning": "纸巾",
+      "english": "Take a tissue from the box.",
+      "chinese": "从盒子里拿一张纸巾。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 9,
+          "text": "纸巾"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S03-038",
+      "word": "bin bag",
+      "meaning": "垃圾袋",
+      "english": "Put the rubbish in a bin bag.",
+      "chinese": "把垃圾放进垃圾袋。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 8,
+          "text": "垃圾袋"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S03-039",
+      "word": "dustbin",
+      "meaning": "垃圾桶（英式）",
+      "english": "The dustbin is outside.",
+      "chinese": "垃圾桶在外面。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "垃圾桶"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S03-040",
+      "word": "broom",
+      "meaning": "扫帚",
+      "english": "Use a broom to sweep the floor.",
+      "chinese": "用扫帚扫地。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "扫帚"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S03-041",
+      "word": "mop",
+      "meaning": "拖把；拖地",
+      "english": "The mop is in the cupboard.",
+      "chinese": "拖把在橱柜里。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "拖把"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S03-042",
+      "word": "bucket",
+      "meaning": "水桶",
+      "english": "Fill the bucket with water.",
+      "chinese": "把水桶装满水。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "水桶"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S03-043",
+      "word": "sponge",
+      "meaning": "海绵",
+      "english": "Use a sponge to clean the table.",
+      "chinese": "用海绵擦桌子。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "海绵"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S03-044",
+      "word": "washing-up liquid",
+      "meaning": "洗洁精（英式）",
+      "english": "We need more washing-up liquid.",
+      "chinese": "我们需要更多洗洁精。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 9,
+          "text": "洗洁精"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S03-045",
+      "word": "cloth",
+      "meaning": "抹布；布",
+      "english": "Wipe the table with a cloth.",
+      "chinese": "用抹布擦桌子。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "抹布"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S03-046",
+      "word": "dustpan",
+      "meaning": "簸箕",
+      "english": "The dustpan is beside the broom.",
+      "chinese": "簸箕在扫帚旁边。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "簸箕"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S03-047",
+      "word": "laundry basket",
+      "meaning": "洗衣篮",
+      "english": "Put dirty clothes in the laundry basket.",
+      "chinese": "把脏衣服放进洗衣篮。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 9,
+          "text": "洗衣篮"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S03-048",
+      "word": "hanger",
+      "meaning": "衣架",
+      "english": "Hang your coat on a hanger.",
+      "chinese": "把外套挂在衣架上。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "衣架"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S03-049",
+      "word": "light bulb",
+      "meaning": "灯泡",
+      "english": "The light bulb needs changing.",
+      "chinese": "这个灯泡需要更换。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "灯泡"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S03-050",
+      "word": "battery",
+      "meaning": "电池",
+      "english": "The toy needs a new battery.",
+      "chinese": "这个玩具需要一节新电池。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 9,
+          "end": 11,
+          "text": "电池"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S03-051",
+      "word": "torch",
+      "meaning": "手电筒（英式）",
+      "english": "Take a torch when it is dark.",
+      "chinese": "天黑时带上手电筒。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 8,
+          "text": "手电筒"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S03-052",
+      "word": "first-aid kit",
+      "meaning": "急救箱",
+      "english": "The first-aid kit is in the cupboard.",
+      "chinese": "急救箱在橱柜里。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "急救箱"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S03-053",
+      "word": "toolbox",
+      "meaning": "工具箱",
+      "english": "Dad keeps his tools in a toolbox.",
+      "chinese": "爸爸把工具放在工具箱里。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 10,
+          "text": "工具箱"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-001",
+      "word": "wake up",
+      "meaning": "醒来",
+      "english": "I wake up at seven.",
+      "chinese": "我七点醒来。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "醒来"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-002",
+      "word": "get up",
+      "meaning": "起床",
+      "english": "I get up early on school days.",
+      "chinese": "上学日我起得很早。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 5,
+          "text": "起"
+        }
+      ],
+      "usage": "",
+      "note": "get up 表示起床；本句“起得很早”中的“早”对应已给出的 early。"
+    },
+    {
+      "id": "C04-S04-003",
+      "word": "make the bed",
+      "meaning": "整理床铺",
+      "english": "I make the bed every morning.",
+      "chinese": "我每天早上整理床铺。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 9,
+          "text": "整理床铺"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-004",
+      "word": "brush my teeth",
+      "meaning": "刷牙",
+      "english": "I brush my teeth twice a day.",
+      "chinese": "我每天刷两次牙。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 4,
+          "text": "刷"
+        },
+        {
+          "start": 6,
+          "end": 7,
+          "text": "牙"
+        }
+      ],
+      "usage": "",
+      "note": "刷……牙对应 brush my teeth；两次对应已给出的 twice，中文不必逐字译出 my。"
+    },
+    {
+      "id": "C04-S04-005",
+      "word": "wash my face",
+      "meaning": "洗脸",
+      "english": "I wash my face in the morning.",
+      "chinese": "我早上洗脸。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "洗脸"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-006",
+      "word": "wash my hands",
+      "meaning": "洗手",
+      "english": "I wash my hands before meals.",
+      "chinese": "我饭前洗手。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "洗手"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-007",
+      "word": "take a shower",
+      "meaning": "淋浴；洗澡",
+      "english": "I take a shower after exercise.",
+      "chinese": "我运动后洗澡。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "洗澡"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-008",
+      "word": "have a bath",
+      "meaning": "泡澡；洗盆浴",
+      "english": "I have a bath in the evening.",
+      "chinese": "我晚上泡澡。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "泡澡"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-009",
+      "word": "get dressed",
+      "meaning": "穿好衣服",
+      "english": "I get dressed after washing.",
+      "chinese": "我洗漱后穿好衣服。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 8,
+          "text": "穿好衣服"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-010",
+      "word": "put on",
+      "meaning": "穿上；戴上",
+      "english": "Put on your coat before going out.",
+      "chinese": "出门前穿上外套。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "穿上"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-011",
+      "word": "take off",
+      "meaning": "脱下；摘下",
+      "english": "Take off your shoes at the door.",
+      "chinese": "在门口脱鞋。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 4,
+          "text": "脱"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-012",
+      "word": "comb my hair",
+      "meaning": "梳头",
+      "english": "I comb my hair before school.",
+      "chinese": "我上学前梳头。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "梳头"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-013",
+      "word": "get ready",
+      "meaning": "做好准备",
+      "english": "I get ready for school at eight.",
+      "chinese": "我八点准备去上学。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "准备"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-014",
+      "word": "have breakfast",
+      "meaning": "吃早餐",
+      "english": "We have breakfast together.",
+      "chinese": "我们一起吃早餐。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 7,
+          "text": "吃早餐"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-015",
+      "word": "have lunch",
+      "meaning": "吃午餐",
+      "english": "I have lunch at school.",
+      "chinese": "我在学校吃午餐。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 7,
+          "text": "吃午餐"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-016",
+      "word": "have dinner",
+      "meaning": "吃晚餐",
+      "english": "We have dinner at six.",
+      "chinese": "我们六点吃晚饭。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 7,
+          "text": "吃晚饭"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-017",
+      "word": "eat a snack",
+      "meaning": "吃点心",
+      "english": "I eat a snack after school.",
+      "chinese": "我放学后吃点心。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 7,
+          "text": "吃点心"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-018",
+      "word": "drink water",
+      "meaning": "喝水",
+      "english": "Remember to drink water.",
+      "chinese": "记得喝水。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "喝水"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-019",
+      "word": "go to school",
+      "meaning": "去上学",
+      "english": "I go to school by bus.",
+      "chinese": "我坐公交车去上学。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 8,
+          "text": "去上学"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-020",
+      "word": "come home",
+      "meaning": "回家",
+      "english": "I come home at four.",
+      "chinese": "我四点回家。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "回家"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-021",
+      "word": "change clothes",
+      "meaning": "换衣服",
+      "english": "I change clothes after playing.",
+      "chinese": "玩耍后我换衣服。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 7,
+          "text": "换衣服"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-022",
+      "word": "do homework",
+      "meaning": "做家庭作业",
+      "english": "I do homework after a short break.",
+      "chinese": "短暂休息后我做家庭作业。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 11,
+          "text": "做家庭作业"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-023",
+      "word": "read a book",
+      "meaning": "读书",
+      "english": "I read a book before bed.",
+      "chinese": "我睡前读书。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "读书"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-024",
+      "word": "practise English",
+      "meaning": "练习英语",
+      "english": "I practise English every day.",
+      "chinese": "我每天练习英语。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 7,
+          "text": "练习英语"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-025",
+      "word": "play outside",
+      "meaning": "在户外玩",
+      "english": "We play outside after school.",
+      "chinese": "我们放学后在户外玩。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 9,
+          "text": "在户外玩"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-026",
+      "word": "play with toys",
+      "meaning": "玩玩具",
+      "english": "The child plays with toys.",
+      "chinese": "孩子在玩玩具。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 6,
+          "text": "玩玩具"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-027",
+      "word": "watch TV",
+      "meaning": "看电视",
+      "english": "We watch TV after dinner.",
+      "chinese": "我们晚饭后看电视。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 8,
+          "text": "看电视"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-028",
+      "word": "listen to music",
+      "meaning": "听音乐",
+      "english": "I listen to music while I tidy my room.",
+      "chinese": "我整理房间时听音乐。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 9,
+          "text": "听音乐"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-029",
+      "word": "help at home",
+      "meaning": "在家帮忙",
+      "english": "I help at home on weekends.",
+      "chinese": "我周末在家帮忙。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 7,
+          "text": "在家帮忙"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-030",
+      "word": "tidy my room",
+      "meaning": "整理房间",
+      "english": "I tidy my room every Saturday.",
+      "chinese": "我每周六整理房间。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 8,
+          "text": "整理房间"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-031",
+      "word": "set the table",
+      "meaning": "摆放餐具",
+      "english": "Please set the table for dinner.",
+      "chinese": "请摆好晚餐餐具。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "摆好"
+        },
+        {
+          "start": 5,
+          "end": 7,
+          "text": "餐具"
+        }
+      ],
+      "usage": "",
+      "note": "set the table 表示摆放餐具；晚餐对应已给出的 for dinner。"
+    },
+    {
+      "id": "C04-S04-032",
+      "word": "clear the table",
+      "meaning": "收拾餐桌",
+      "english": "I clear the table after dinner.",
+      "chinese": "我晚饭后收拾餐桌。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 8,
+          "text": "收拾餐桌"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-033",
+      "word": "wash the dishes",
+      "meaning": "洗碗",
+      "english": "My brother washes the dishes.",
+      "chinese": "我哥哥／弟弟洗碗。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 8,
+          "text": "洗碗"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-034",
+      "word": "do the washing",
+      "meaning": "洗衣服（英式）",
+      "english": "Mum does the washing on Sunday.",
+      "chinese": "妈妈星期日洗衣服。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 8,
+          "text": "洗衣服"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-035",
+      "word": "hang out the washing",
+      "meaning": "把洗好的衣服晾出去",
+      "english": "We hang out the washing in the garden.",
+      "chinese": "我们把洗好的衣服晾在花园里。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 9,
+          "text": "把洗好的衣服晾"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-036",
+      "word": "fold the clothes",
+      "meaning": "叠衣服",
+      "english": "I fold the clothes after they dry.",
+      "chinese": "衣服晾干后我把它们叠好。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 11,
+          "text": "把它们叠好"
+        }
+      ],
+      "usage": "",
+      "note": "本句用“它们”指前面的衣服，fold the clothes 表示把衣服叠好。"
+    },
+    {
+      "id": "C04-S04-037",
+      "word": "sweep the floor",
+      "meaning": "扫地",
+      "english": "I sweep the floor in the kitchen.",
+      "chinese": "我扫厨房的地。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 2,
+          "text": "扫"
+        },
+        {
+          "start": 5,
+          "end": 6,
+          "text": "地"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-038",
+      "word": "mop the floor",
+      "meaning": "拖地",
+      "english": "Dad mops the floor.",
+      "chinese": "爸爸拖地。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "拖地"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-039",
+      "word": "water the plants",
+      "meaning": "给植物浇水",
+      "english": "I water the plants every morning.",
+      "chinese": "我每天早上给植物浇水。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 10,
+          "text": "给植物浇水"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-040",
+      "word": "feed the pet",
+      "meaning": "喂宠物",
+      "english": "I feed the pet before school.",
+      "chinese": "我上学前喂宠物。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 7,
+          "text": "喂宠物"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-041",
+      "word": "take out the rubbish",
+      "meaning": "倒垃圾（英式）",
+      "english": "Please take out the rubbish tonight.",
+      "chinese": "今晚请把垃圾拿出去。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 9,
+          "text": "把垃圾拿出去"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-042",
+      "word": "go shopping",
+      "meaning": "去购物",
+      "english": "We go shopping on Saturday.",
+      "chinese": "我们星期六去购物。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 8,
+          "text": "去购物"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-043",
+      "word": "visit relatives",
+      "meaning": "拜访亲戚",
+      "english": "We visit relatives during the holiday.",
+      "chinese": "假期里我们拜访亲戚。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 9,
+          "text": "拜访亲戚"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-044",
+      "word": "go for a walk",
+      "meaning": "去散步",
+      "english": "I go for a walk with Dad.",
+      "chinese": "我和爸爸一起散步。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 8,
+          "text": "散步"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-045",
+      "word": "exercise",
+      "meaning": "锻炼",
+      "english": "I exercise every afternoon.",
+      "chinese": "我每天下午锻炼。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "锻炼"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-046",
+      "word": "relax",
+      "meaning": "放松",
+      "english": "I relax after finishing my homework.",
+      "chinese": "完成作业后我放松一下。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 8,
+          "text": "放松"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-047",
+      "word": "rest",
+      "meaning": "休息",
+      "english": "You can rest for ten minutes.",
+      "chinese": "你可以休息十分钟。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "休息"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-048",
+      "word": "take a nap",
+      "meaning": "小睡一会儿",
+      "english": "The baby takes a nap after lunch.",
+      "chinese": "宝宝午饭后小睡一会儿。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 10,
+          "text": "小睡一会儿"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-049",
+      "word": "go to bed",
+      "meaning": "上床睡觉",
+      "english": "I go to bed at nine.",
+      "chinese": "我九点上床睡觉。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 7,
+          "text": "上床睡觉"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-050",
+      "word": "fall asleep",
+      "meaning": "入睡",
+      "english": "I fall asleep quickly.",
+      "chinese": "我很快就睡着了。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "睡着"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-051",
+      "word": "sleep",
+      "meaning": "睡觉",
+      "english": "Children need enough sleep.",
+      "chinese": "孩子们需要充足的睡眠。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 8,
+          "end": 10,
+          "text": "睡眠"
+        }
+      ],
+      "usage": "",
+      "note": "sleep 在本例句中是名词，表示睡眠；原词义“睡觉”保留。"
+    },
+    {
+      "id": "C04-S04-052",
+      "word": "early",
+      "meaning": "早；提早",
+      "english": "I get up early on weekdays.",
+      "chinese": "我上学日早起。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 5,
+          "text": "早"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-053",
+      "word": "late",
+      "meaning": "晚；迟",
+      "english": "Don't stay up late.",
+      "chinese": "不要熬夜。",
+      "mode": "usage",
+      "spans": [],
+      "usage": "stay up late 在本句中整体译为“熬夜”；late 表示“到很晚”，中文通常不把它单独翻译，不需要再补一个“晚”。",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-054",
+      "word": "every day",
+      "meaning": "每天",
+      "english": "I read English every day.",
+      "chinese": "我每天读英语。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "每天"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-055",
+      "word": "in the morning",
+      "meaning": "在早上",
+      "english": "I eat breakfast in the morning.",
+      "chinese": "我早上吃早餐。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "早上"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-056",
+      "word": "in the afternoon",
+      "meaning": "在下午",
+      "english": "I play outside in the afternoon.",
+      "chinese": "我下午在户外玩。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "下午"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-057",
+      "word": "in the evening",
+      "meaning": "在晚上",
+      "english": "We have dinner in the evening.",
+      "chinese": "我们晚上吃晚饭。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "晚上"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-058",
+      "word": "at night",
+      "meaning": "在夜里",
+      "english": "I sleep well at night.",
+      "chinese": "我晚上睡得很好。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "晚上"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-059",
+      "word": "before",
+      "meaning": "在……之前",
+      "english": "Wash your hands before dinner.",
+      "chinese": "晚饭前洗手。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 3,
+          "text": "前"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-060",
+      "word": "after",
+      "meaning": "在……之后",
+      "english": "I read after school.",
+      "chinese": "我放学后阅读。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 4,
+          "text": "后"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-061",
+      "word": "first",
+      "meaning": "首先；第一",
+      "english": "First, brush your teeth.",
+      "chinese": "首先，刷牙。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "首先"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-062",
+      "word": "then",
+      "meaning": "然后",
+      "english": "I get dressed, then I eat breakfast.",
+      "chinese": "我穿好衣服，然后吃早餐。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 8,
+          "text": "然后"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-063",
+      "word": "next",
+      "meaning": "接下来",
+      "english": "Next, pack your schoolbag.",
+      "chinese": "接下来，整理书包。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "接下来"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-064",
+      "word": "finally",
+      "meaning": "最后",
+      "english": "Finally, I go to bed.",
+      "chinese": "最后，我上床睡觉。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "最后"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-065",
+      "word": "daily routine",
+      "meaning": "日常作息",
+      "english": "My daily routine is simple.",
+      "chinese": "我的日常作息很简单。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 6,
+          "text": "日常作息"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-066",
+      "word": "What time do you get up?",
+      "meaning": "你几点起床？",
+      "english": "What time do you get up?",
+      "chinese": "你几点起床？",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 5,
+          "text": "你几点起床"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-067",
+      "word": "I get up at seven.",
+      "meaning": "我七点起床。",
+      "english": "I get up at seven.",
+      "chinese": "我七点起床。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 5,
+          "text": "我七点起床"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-068",
+      "word": "What do you do after school?",
+      "meaning": "你放学后做什么？",
+      "english": "What do you do after school?",
+      "chinese": "你放学后做什么？",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 7,
+          "text": "你放学后做什么"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-069",
+      "word": "I help my family at home.",
+      "meaning": "我在家帮助家人。",
+      "english": "I help my family at home.",
+      "chinese": "我在家帮助家人。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 7,
+          "text": "我在家帮助家人"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C04-S04-070",
+      "word": "It's time for bed.",
+      "meaning": "该睡觉了。",
+      "english": "It's time for bed. Good night!",
+      "chinese": "该睡觉了。晚安！",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 4,
+          "text": "该睡觉了"
+        }
+      ],
+      "usage": "",
+      "note": ""
     }
   ]
 }

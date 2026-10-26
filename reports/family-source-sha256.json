@@ -1,0 +1,33 @@
+{
+  "sourceZip": "家庭与日常生活.zip",
+  "sourceSha256": "46f17b23760dc451ecaf5bf39229a8e6580270fee5315d040909442d95e4f60c",
+  "files": [
+    {
+      "path": "data/family-daily/01_家庭成员.json",
+      "sourceName": "小蛙自习室_英语词库_第四类_家庭与日常生活/01_家庭成员.json",
+      "sha256": "b1afc9f983f9f1bbd6a224e0101d165060b3f2357a45d7c889e49479f6096b49"
+    },
+    {
+      "path": "data/family-daily/02_房间与家具.json",
+      "sourceName": "小蛙自习室_英语词库_第四类_家庭与日常生活/02_房间与家具.json",
+      "sha256": "43673c82f9a3ca86575912289024acd7ebcca78851cbb42404d647879bba4b06"
+    },
+    {
+      "path": "data/family-daily/03_家居用品.json",
+      "sourceName": "小蛙自习室_英语词库_第四类_家庭与日常生活/03_家居用品.json",
+      "sha256": "8ac4b4d450dad9983b0b8af80b048acb2e1b185d29a48fab1fdae82cddd3089b"
+    },
+    {
+      "path": "data/family-daily/04_日常生活与作息.json",
+      "sourceName": "小蛙自习室_英语词库_第四类_家庭与日常生活/04_日常生活与作息.json",
+      "sha256": "6fdc82a5b743e96949e33aa8fa9d54fe2a8c96f6cd3f968b17afea2b30f251a2"
+    },
+    {
+      "path": "data/family-daily/index.json",
+      "sourceName": "小蛙自习室_英语词库_第四类_家庭与日常生活/家庭与日常生活_分类目录.json",
+      "sha256": "81eb58c1747752e5c13bd4baf4fb856727ca68077c234cda2dd63e4744f1b488"
+    }
+  ],
+  "vocabularyCount": 200,
+  "sourceAudioCount": 0
+}

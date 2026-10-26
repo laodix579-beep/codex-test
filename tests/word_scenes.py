@@ -11,12 +11,12 @@ groups=json.loads((ROOT/'data/basic-vocabulary.json').read_text())['subcategorie
 scenes={scene['id']:scene for scene in catalog['scenes'] if scene['id'].startswith('C01-')}
 assert len(scenes)==136
 assert len({(s['sheet'],s['column'],s['row']) for s in scenes.values()})==136
-assert len(catalog['sheets'])==57
+assert len(catalog['sheets'])==82
 for sheet in catalog['sheets']:
     path=ROOT/sheet['path']
     with Image.open(path) as im:assert im.size==(sheet['width'],sheet['height'])
     assert hashlib.sha256(path.read_bytes()).hexdigest()==sheet['sha256']
-print('PASS: 136 distinct scene regions and all 57 image dimensions/hashes',flush=True)
+print('PASS: 136 distinct scene regions and all 82 image dimensions/hashes',flush=True)
 
 with sync_playwright() as p:
     browser=p.chromium.launch(executable_path='/usr/bin/chromium',headless=True,args=['--no-sandbox'])

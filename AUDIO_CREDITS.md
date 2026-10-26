@@ -1,3 +1,13 @@
+# 本次家庭与日常生活词包
+
+用户明确要求为 C04 新词生成 GA 美式录音。源 ZIP 包含 200 条词汇与 DJ 英式音标，没有 MP3。本次沿用既有本地 Kokoro/Bella GA 声线，新增 365 个录音；复用同读音的已有资源，原 1387 个 MP3 的 SHA-256 保持，总数 1752。运行网页播放静态 MP3，无需语音服务或 API Key。
+
+原词条、英式拼写、DJ 音标与完整例句保持。新例句中的 read/reads 明确使用现在时读音，live/lives 使用居住义，close 动词发 /z/，use 动词发 /z/；cloth 与 clothes 的尾辅音分开。元数据位于 `data/family-daily-audio-generation.json`，逐词／例句路径见 `data/family-daily-audio-map.csv`。
+
+制作模型与声音哈希、24kHz 单声道、单词 96kbit/s／语句 128kbit/s、loudnorm -16LUFS / -1.5dBTP、首尾留白及完整句子独立生成均沿用前包规范。自动哈希/浏览器解码/削波与音素复核不等于真人逐条发音认证。制作环境和缓存不随网站分发。
+
+---
+
 # 本次学校与学习词包
 
 用户明确要求为 C03 新词生成 GA 美式录音。源 ZIP 包含 198 条词汇和 DJ 音标，没有 MP3。本次沿用现有本地 Kokoro/Bella 声线，新增 359 个录音，其余相同读音复用现有资源；原 1028 个 MP3 的 SHA-256 保持。制作环境无需用户配置 API，运行网站不调用 TTS。

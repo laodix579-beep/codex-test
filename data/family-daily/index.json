@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "category_id": "C04",
+  "category_name": "家庭与日常生活",
+  "pronunciation_system": "DJ 英式音标（British English IPA）",
+  "audio_pronunciation_note": "音标与实际音频口音分开处理；如项目既定规范为 DJ 英式音标、音频采用美式英语 GA，应保留该音频规范。本词库不包含 MP3。",
+  "subcategory_count": 4,
+  "item_count": 200,
+  "subcategories": [
+    {
+      "id": "C04-S01",
+      "name": "家庭成员",
+      "filename": "01_家庭成员.json",
+      "description": "家庭成员、亲属关系及介绍家人的常见表达。",
+      "item_count": 33
+    },
+    {
+      "id": "C04-S02",
+      "name": "房间与家具",
+      "filename": "02_房间与家具.json",
+      "description": "家庭房间、家具、家中固定设施及位置表达。",
+      "item_count": 44
+    },
+    {
+      "id": "C04-S03",
+      "name": "家居用品",
+      "filename": "03_家居用品.json",
+      "description": "厨房用品、餐具、清洁用品、家用电器和日常家居物件。",
+      "item_count": 53
+    },
+    {
+      "id": "C04-S04",
+      "name": "日常生活与作息",
+      "filename": "04_日常生活与作息.json",
+      "description": "起床、洗漱、吃饭、上学、家务、休息、睡觉及时间顺序表达。",
+      "item_count": 70
+    }
+  ]
+}
