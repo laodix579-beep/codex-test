@@ -13,12 +13,12 @@ marker = 'window.FROG_WORD_CATALOG = '
 catalog = json.JSONDecoder().raw_decode((ROOT / 'index.html').read_text().split(marker, 1)[1])[0]
 previous = json.JSONDecoder().raw_decode(subprocess.check_output(['git', 'show', BASELINE + ':index.html'], text=True).split(marker, 1)[1])[0]
 assert catalog['version'] == previous['version'] == 'basic-us-v1'
-assert [w for w in catalog['words'] if w['categoryId'] != 'C04'] == previous['words']
-assert len(catalog['words']) == 754
+assert [w for w in catalog['words'] if w['categoryId'] in ('C01', 'C02', 'C03')] == previous['words']
+assert len(catalog['words']) == 972
 for file, key in [('data/meaning-catalog.json', 'entries'), ('data/scene-catalog.json', 'scenes')]:
     old = json.loads(subprocess.check_output(['git', 'show', BASELINE + ':' + file]))
     current = json.loads((ROOT / file).read_text())
-    assert [r for r in current[key] if not r['id'].startswith('C04-')] == old[key]
+    assert [r for r in current[key] if r['id'].startswith(('C01-', 'C02-', 'C03-'))] == old[key]
 for file in ['data/basic-vocabulary.json', 'data/category-art.json']:
     assert (ROOT / file).read_bytes() == subprocess.check_output(['git', 'show', BASELINE + ':' + file])
 old_audio = json.loads(subprocess.check_output(['git', 'show', BASELINE + ':reports/all-audio-sha256.json']))
@@ -53,7 +53,7 @@ with sync_playwright() as p:
         return page.evaluate('JSON.parse(localStorage.getItem(document.body.dataset.storageKey))')
     page.reload();page.locator('.home-dashboard').wait_for()
     now = saved()
-    assert len(now['words']) == 755 and now['contentPacks'] == ['time-nature-v1', 'school-learning-v1', 'family-daily-v1']
+    assert len(now['words']) == 973 and now['contentPacks'] == ['time-nature-v1', 'school-learning-v1', 'family-daily-v1', 'food-health-v1']
     for word in legacy['words']:
         assert next(w for w in now['words'] if w['id'] == word['id']) == word
     for key in ['wordStatus', 'favorites', 'notes', 'settings', 'plan', 'practiceResume']:
@@ -62,14 +62,14 @@ with sync_playwright() as p:
     assert page.evaluate("FrogPractice.speechKey('close','关闭')") == 'close::verb'
     assert page.evaluate("FrogPractice.speechKey('read','读（过去式）')") == 'read::past'
     assert page.evaluate("FrogPractice.referenceNote('read','读（过去式）')") is None
-    page.reload();assert len(saved()['words']) == 755
+    page.reload();assert len(saved()['words']) == 973
     page.evaluate('''()=>{const k=document.body.dataset.storageKey,s=JSON.parse(localStorage.getItem(k));s.words=s.words.filter(w=>w.id!=='C04-S01-001');localStorage.setItem(k,JSON.stringify(s));}''')
     page.reload();assert not any(w['id'] == 'C04-S01-001' for w in saved()['words'])
     page.goto(BASE + '#settings')
     page.locator('#restore-file').set_input_files({'name': 'before-family.json', 'mimeType': 'application/json', 'buffer': json.dumps(legacy, ensure_ascii=False).encode()})
     page.locator('#confirm-dialog button[value="yes"]').click()
     page.wait_for_function('JSON.parse(localStorage.getItem(document.body.dataset.storageKey)).words.some(w=>w.id==="C04-S01-001")')
-    assert len(saved()['words']) == 755 and saved()['wordStatus'] == legacy['wordStatus']
+    assert len(saved()['words']) == 973 and saved()['wordStatus'] == legacy['wordStatus']
     context.close()
     print('PASS: all 554 old words, custom homograph, profile, status, backup, notes, favorites and resume preserved; C04 installs once and respects deletion', flush=True)
 

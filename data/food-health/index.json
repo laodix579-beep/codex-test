@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.1",
+  "category_id": "C05",
+  "category_name": "饮食与健康",
+  "pronunciation_system": "DJ 英式音标（British English IPA）",
+  "audio_pronunciation_note": "音标使用 DJ 英式标注；实际朗读继续遵循小蛙自习室既定的美式英语 GA 规范。本包不包含 MP3。",
+  "window_count": 4,
+  "item_count": 218,
+  "windows": [
+    {
+      "window_id": "C05-W01",
+      "window_name": "水果与蔬菜",
+      "filename": "01_水果与蔬菜.json",
+      "item_count": 64,
+      "subcategory_count": 2,
+      "subcategories": [
+        {
+          "id": "C05-S01",
+          "name": "水果",
+          "source_filename": "01_水果.json",
+          "item_count": 31
+        },
+        {
+          "id": "C05-S02",
+          "name": "蔬菜",
+          "source_filename": "02_蔬菜.json",
+          "item_count": 33
+        }
+      ]
+    },
+    {
+      "window_id": "C05-W02",
+      "window_name": "食物、主食与饮料",
+      "filename": "02_食物、主食与饮料.json",
+      "item_count": 69,
+      "subcategory_count": 2,
+      "subcategories": [
+        {
+          "id": "C05-S03",
+          "name": "食物与主食",
+          "source_filename": "03_食物与主食.json",
+          "item_count": 43
+        },
+        {
+          "id": "C05-S04",
+          "name": "饮料",
+          "source_filename": "04_饮料.json",
+          "item_count": 26
+        }
+      ]
+    },
+    {
+      "window_id": "C05-W03",
+      "window_name": "身体部位",
+      "filename": "03_身体部位.json",
+      "item_count": 41,
+      "subcategory_count": 1,
+      "subcategories": [
+        {
+          "id": "C05-S05",
+          "name": "身体部位",
+          "source_filename": "05_身体部位.json",
+          "item_count": 41
+        }
+      ]
+    },
+    {
+      "window_id": "C05-W04",
+      "window_name": "健康与身体感受",
+      "filename": "04_健康与身体感受.json",
+      "item_count": 44,
+      "subcategory_count": 1,
+      "subcategories": [
+        {
+          "id": "C05-S06",
+          "name": "健康与常见身体感受",
+          "source_filename": "06_健康与常见身体感受.json",
+          "item_count": 44
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+﻿id,english,chinese,DJ_IPA,word_key,word_path,example_en,example_key,example_path
+C05-S01-001,apple,苹果,/ˈæpəl/,apple,audio/en-us/word/apple.mp3,I eat an apple after lunch.,i eat an apple after lunch,audio/en-us/food/sentence/i-eat-an-apple-after-lunch.mp3
+C05-S01-002,banana,香蕉,/bəˈnɑːnə/,banana,audio/en-us/food/word/banana.mp3,The banana is yellow.,the banana is yellow,audio/en-us/food/sentence/the-banana-is-yellow.mp3
+C05-S01-003,orange,橙子；橙色的,/ˈɒrɪndʒ/,orange,audio/en-us/word/orange.mp3,Would you like an orange?,would you like an orange,audio/en-us/food/sentence/would-you-like-an-orange.mp3
+C05-S01-004,pear,梨,/peə/,pear,audio/en-us/food/word/pear.mp3,The pear is sweet.,the pear is sweet,audio/en-us/food/sentence/the-pear-is-sweet.mp3
+C05-S01-005,peach,桃子,/piːtʃ/,peach,audio/en-us/food/word/peach.mp3,This peach smells lovely.,this peach smells lovely,audio/en-us/food/sentence/this-peach-smells-lovely.mp3
+C05-S01-006,plum,李子,/plʌm/,plum,audio/en-us/food/word/plum.mp3,The plum is small and purple.,the plum is small and purple,audio/en-us/food/sentence/the-plum-is-small-and-purple.mp3
+C05-S01-007,grape,葡萄,/ɡreɪp/,grape,audio/en-us/food/word/grape.mp3,A grape fell on the floor.,a grape fell on the floor,audio/en-us/food/sentence/a-grape-fell-on-the-floor.mp3
+C05-S01-008,grapes,葡萄（复数）,/ɡreɪps/,grapes,audio/en-us/food/word/grapes.mp3,These grapes are very sweet.,these grapes are very sweet,audio/en-us/food/sentence/these-grapes-are-very-sweet.mp3
+C05-S01-009,strawberry,草莓,/ˈstrɔːbəri/,strawberry,audio/en-us/food/word/strawberry.mp3,I put a strawberry on the cake.,i put a strawberry on the cake,audio/en-us/food/sentence/i-put-a-strawberry-on-the-cake.mp3
+C05-S01-010,blueberry,蓝莓,/ˈbluːbəri/,blueberry,audio/en-us/food/word/blueberry.mp3,She eats blueberries with yoghurt.,she eats blueberries with yoghurt,audio/en-us/food/sentence/she-eats-blueberries-with-yoghurt.mp3
+C05-S01-011,raspberry,覆盆子；树莓,/ˈrɑːzbəri/,raspberry,audio/en-us/food/word/raspberry.mp3,A raspberry is soft and red.,a raspberry is soft and red,audio/en-us/food/sentence/a-raspberry-is-soft-and-red.mp3
+C05-S01-012,cherry,樱桃,/ˈtʃeri/,cherry,audio/en-us/food/word/cherry.mp3,There is a cherry on top.,there is a cherry on top,audio/en-us/food/sentence/there-is-a-cherry-on-top.mp3
+C05-S01-013,watermelon,西瓜,/ˈwɔːtəˌmelən/,watermelon,audio/en-us/food/word/watermelon.mp3,We share a watermelon in summer.,we share a watermelon in summer,audio/en-us/food/sentence/we-share-a-watermelon-in-summer.mp3
+C05-S01-014,melon,甜瓜；瓜,/ˈmelən/,melon,audio/en-us/food/word/melon.mp3,The melon is ripe.,the melon is ripe,audio/en-us/food/sentence/the-melon-is-ripe.mp3
+C05-S01-015,pineapple,菠萝,/ˈpaɪnˌæpəl/,pineapple,audio/en-us/food/word/pineapple.mp3,Pineapple tastes sweet and sour.,pineapple tastes sweet and sour,audio/en-us/food/sentence/pineapple-tastes-sweet-and-sour.mp3
+C05-S01-016,mango,芒果,/ˈmæŋɡəʊ/,mango,audio/en-us/food/word/mango.mp3,This mango is ripe.,this mango is ripe,audio/en-us/food/sentence/this-mango-is-ripe.mp3
+C05-S01-017,lemon,柠檬,/ˈlemən/,lemon,audio/en-us/food/word/lemon.mp3,A lemon tastes sour.,a lemon tastes sour,audio/en-us/food/sentence/a-lemon-tastes-sour.mp3
+C05-S01-018,lime,青柠,/laɪm/,lime,audio/en-us/food/word/lime.mp3,Add a slice of lime to the water.,add a slice of lime to the water,audio/en-us/food/sentence/add-a-slice-of-lime-to-the-water.mp3
+C05-S01-019,grapefruit,葡萄柚,/ˈɡreɪpfruːt/,grapefruit,audio/en-us/food/word/grapefruit.mp3,Grapefruit can taste bitter.,grapefruit can taste bitter,audio/en-us/food/sentence/grapefruit-can-taste-bitter.mp3
+C05-S01-020,kiwi fruit,猕猴桃,/ˈkiːwiː fruːt/,kiwi fruit,audio/en-us/food/word/kiwi-fruit.mp3,Cut the kiwi fruit in half.,cut the kiwi fruit in half,audio/en-us/food/sentence/cut-the-kiwi-fruit-in-half.mp3
+C05-S01-021,coconut,椰子,/ˈkəʊkənʌt/,coconut,audio/en-us/food/word/coconut.mp3,A coconut has a hard shell.,a coconut has a hard shell,audio/en-us/food/sentence/a-coconut-has-a-hard-shell.mp3
+C05-S01-022,avocado,牛油果,/ˌævəˈkɑːdəʊ/,avocado,audio/en-us/food/word/avocado.mp3,I put avocado on my toast.,i put avocado on my toast,audio/en-us/food/sentence/i-put-avocado-on-my-toast.mp3
+C05-S01-023,papaya,木瓜,/pəˈpaɪə/,papaya,audio/en-us/food/word/papaya.mp3,The papaya is soft and orange.,the papaya is soft and orange,audio/en-us/food/sentence/the-papaya-is-soft-and-orange.mp3
+C05-S01-024,pomegranate,石榴,/ˈpɒmɪˌɡrænɪt/,pomegranate,audio/en-us/food/word/pomegranate.mp3,A pomegranate has many seeds.,a pomegranate has many seeds,audio/en-us/food/sentence/a-pomegranate-has-many-seeds.mp3
+C05-S01-025,apricot,杏,/ˈeɪprɪkɒt/,apricot,audio/en-us/food/word/apricot.mp3,The apricot is small and sweet.,the apricot is small and sweet,audio/en-us/food/sentence/the-apricot-is-small-and-sweet.mp3
+C05-S01-026,nectarine,油桃,/ˈnektəriːn/,nectarine,audio/en-us/food/word/nectarine.mp3,A nectarine has smooth skin.,a nectarine has smooth skin,audio/en-us/food/sentence/a-nectarine-has-smooth-skin.mp3
+C05-S01-027,fig,无花果,/fɪɡ/,fig,audio/en-us/food/word/fig.mp3,The fig is ripe and soft.,the fig is ripe and soft,audio/en-us/food/sentence/the-fig-is-ripe-and-soft.mp3
+C05-S01-028,date,枣；椰枣,/deɪt/,date,audio/en-us/nature/word/date.mp3,Dates are naturally sweet.,dates are naturally sweet,audio/en-us/food/sentence/dates-are-naturally-sweet.mp3
+C05-S01-029,fruit salad,水果沙拉,/ˈfruːt ˌsæləd/,fruit salad,audio/en-us/food/word/fruit-salad.mp3,We make fruit salad together.,we make fruit salad together,audio/en-us/food/sentence/we-make-fruit-salad-together.mp3
+C05-S01-030,peel,果皮；剥皮,/piːl/,peel,audio/en-us/food/word/peel.mp3,Peel the banana before you eat it.,peel the banana before you eat it,audio/en-us/food/sentence/peel-the-banana-before-you-eat-it.mp3
+C05-S01-031,seed,种子；果核,/siːd/,seed,audio/en-us/food/word/seed.mp3,There is a seed in the apple.,there is a seed in the apple,audio/en-us/food/sentence/there-is-a-seed-in-the-apple.mp3
+C05-S02-001,carrot,胡萝卜,/ˈkærət/,carrot,audio/en-us/food/word/carrot.mp3,Rabbits like carrots.,rabbits like carrots,audio/en-us/food/sentence/rabbits-like-carrots.mp3
+C05-S02-002,potato,土豆,/pəˈteɪtəʊ/,potato,audio/en-us/food/word/potato.mp3,We bake a potato for lunch.,we bake a potato for lunch,audio/en-us/food/sentence/we-bake-a-potato-for-lunch.mp3
+C05-S02-003,tomato,番茄,/təˈmɑːtəʊ/,tomato,audio/en-us/food/word/tomato.mp3,Cut the tomato into small pieces.,cut the tomato into small pieces,audio/en-us/food/sentence/cut-the-tomato-into-small-pieces.mp3
+C05-S02-004,onion,洋葱,/ˈʌnjən/,onion,audio/en-us/food/word/onion.mp3,Chop the onion carefully.,chop the onion carefully,audio/en-us/food/sentence/chop-the-onion-carefully.mp3
+C05-S02-005,garlic,大蒜,/ˈɡɑːlɪk/,garlic,audio/en-us/food/word/garlic.mp3,Garlic gives the soup more flavour.,garlic gives the soup more flavour,audio/en-us/food/sentence/garlic-gives-the-soup-more-flavour.mp3
+C05-S02-006,cucumber,黄瓜,/ˈkjuːkʌmbə/,cucumber,audio/en-us/food/word/cucumber.mp3,I put cucumber in my sandwich.,i put cucumber in my sandwich,audio/en-us/food/sentence/i-put-cucumber-in-my-sandwich.mp3
+C05-S02-007,lettuce,生菜,/ˈletɪs/,lettuce,audio/en-us/food/word/lettuce.mp3,The lettuce is fresh and crisp.,the lettuce is fresh and crisp,audio/en-us/food/sentence/the-lettuce-is-fresh-and-crisp.mp3
+C05-S02-008,cabbage,卷心菜,/ˈkæbɪdʒ/,cabbage,audio/en-us/food/word/cabbage.mp3,We cook cabbage with carrots.,we cook cabbage with carrots,audio/en-us/food/sentence/we-cook-cabbage-with-carrots.mp3
+C05-S02-009,broccoli,西兰花,/ˈbrɒkəli/,broccoli,audio/en-us/food/word/broccoli.mp3,Broccoli is green.,broccoli is green,audio/en-us/food/sentence/broccoli-is-green.mp3
+C05-S02-010,cauliflower,花椰菜；菜花,/ˈkɒlɪˌflaʊə/,cauliflower,audio/en-us/food/word/cauliflower.mp3,Cauliflower is white.,cauliflower is white,audio/en-us/food/sentence/cauliflower-is-white.mp3
+C05-S02-011,spinach,菠菜,/ˈspɪnɪdʒ/,spinach,audio/en-us/food/word/spinach.mp3,Add spinach to the pasta.,add spinach to the pasta,audio/en-us/food/sentence/add-spinach-to-the-pasta.mp3
+C05-S02-012,pea,豌豆,/piː/,pea,audio/en-us/food/word/pea.mp3,One pea rolled off my plate.,one pea rolled off my plate,audio/en-us/food/sentence/one-pea-rolled-off-my-plate.mp3
+C05-S02-013,peas,豌豆（复数）,/piːz/,peas,audio/en-us/food/word/peas.mp3,The peas are ready to eat.,the peas are ready to eat,audio/en-us/food/sentence/the-peas-are-ready-to-eat.mp3
+C05-S02-014,green bean,四季豆；青豆角,/ˌɡriːn ˈbiːn/,green bean,audio/en-us/food/word/green-bean.mp3,She cuts the green beans.,she cuts the green beans,audio/en-us/food/sentence/she-cuts-the-green-beans.mp3
+C05-S02-015,sweetcorn,甜玉米,/ˈswiːtkɔːn/,sweetcorn,audio/en-us/food/word/sweetcorn.mp3,I like sweetcorn in my salad.,i like sweetcorn in my salad,audio/en-us/food/sentence/i-like-sweetcorn-in-my-salad.mp3
+C05-S02-016,pepper,甜椒；胡椒,/ˈpepə/,pepper,audio/en-us/food/word/pepper.mp3,The red pepper is sweet.,the red pepper is sweet,audio/en-us/food/sentence/the-red-pepper-is-sweet.mp3
+C05-S02-017,chilli,辣椒,/ˈtʃɪli/,chilli,audio/en-us/food/word/chilli.mp3,This chilli is very hot.,this chilli is very hot,audio/en-us/food/sentence/this-chilli-is-very-hot.mp3
+C05-S02-018,pumpkin,南瓜,/ˈpʌmpkɪn/,pumpkin,audio/en-us/food/word/pumpkin.mp3,We make pumpkin soup in autumn.,we make pumpkin soup in autumn,audio/en-us/food/sentence/we-make-pumpkin-soup-in-autumn.mp3
+C05-S02-019,courgette,西葫芦（英式）,/kʊəˈʒet/,courgette,audio/en-us/food/word/courgette.mp3,Slice the courgette thinly.,slice the courgette thinly,audio/en-us/food/sentence/slice-the-courgette-thinly.mp3
+C05-S02-020,aubergine,茄子（英式）,/ˈəʊbəʒiːn/,aubergine,audio/en-us/food/word/aubergine.mp3,The aubergine is dark purple.,the aubergine is dark purple,audio/en-us/food/sentence/the-aubergine-is-dark-purple.mp3
+C05-S02-021,mushroom,蘑菇,/ˈmʌʃruːm/,mushroom,audio/en-us/food/word/mushroom.mp3,There are mushrooms in the soup.,there are mushrooms in the soup,audio/en-us/food/sentence/there-are-mushrooms-in-the-soup.mp3
+C05-S02-022,celery,芹菜,/ˈseləri/,celery,audio/en-us/food/word/celery.mp3,Celery is crunchy.,celery is crunchy,audio/en-us/food/sentence/celery-is-crunchy.mp3
+C05-S02-023,radish,小萝卜；水萝卜,/ˈrædɪʃ/,radish,audio/en-us/food/word/radish.mp3,The radish is red and white.,the radish is red and white,audio/en-us/food/sentence/the-radish-is-red-and-white.mp3
+C05-S02-024,beetroot,甜菜根（英式）,/ˈbiːtruːt/,beetroot,audio/en-us/food/word/beetroot.mp3,Beetroot can make food pink.,beetroot can make food pink,audio/en-us/food/sentence/beetroot-can-make-food-pink.mp3
+C05-S02-025,turnip,芜菁；大头菜,/ˈtɜːnɪp/,turnip,audio/en-us/food/word/turnip.mp3,The turnip grows under the ground.,the turnip grows under the ground,audio/en-us/food/sentence/the-turnip-grows-under-the-ground.mp3
+C05-S02-026,sweet potato,红薯；甘薯,/ˌswiːt pəˈteɪtəʊ/,sweet potato,audio/en-us/food/word/sweet-potato.mp3,I like baked sweet potato.,i like baked sweet potato,audio/en-us/food/sentence/i-like-baked-sweet-potato.mp3
+C05-S02-027,leek,韭葱,/liːk/,leek,audio/en-us/food/word/leek.mp3,Leek is used in this soup.,leek is used in this soup,audio/en-us/food/sentence/leek-is-used-in-this-soup.mp3
+C05-S02-028,asparagus,芦笋,/əˈspærəɡəs/,asparagus,audio/en-us/food/word/asparagus.mp3,We steam the asparagus.,we steam the asparagus,audio/en-us/food/sentence/we-steam-the-asparagus.mp3
+C05-S02-029,spring onion,葱；青葱（英式）,/ˌsprɪŋ ˈʌnjən/,spring onion,audio/en-us/food/word/spring-onion.mp3,Chop the spring onion.,chop the spring onion,audio/en-us/food/sentence/chop-the-spring-onion.mp3
+C05-S02-030,bean sprout,豆芽,/ˈbiːn spraʊt/,bean sprout,audio/en-us/food/word/bean-sprout.mp3,Bean sprouts are crisp.,bean sprouts are crisp,audio/en-us/food/sentence/bean-sprouts-are-crisp.mp3
+C05-S02-031,ginger,姜,/ˈdʒɪndʒə/,ginger,audio/en-us/food/word/ginger.mp3,Add a little ginger to the soup.,add a little ginger to the soup,audio/en-us/food/sentence/add-a-little-ginger-to-the-soup.mp3
+C05-S02-032,salad,沙拉；凉拌菜,/ˈsæləd/,salad,audio/en-us/food/word/salad.mp3,We eat salad with lunch.,we eat salad with lunch,audio/en-us/food/sentence/we-eat-salad-with-lunch.mp3
+C05-S02-033,vegetable soup,蔬菜汤,/ˈvedʒtəbəl suːp/,vegetable soup,audio/en-us/food/word/vegetable-soup.mp3,The vegetable soup is warm.,the vegetable soup is warm,audio/en-us/food/sentence/the-vegetable-soup-is-warm.mp3
+C05-S03-001,bread,面包,/bred/,bread,audio/en-us/food/word/bread.mp3,I eat bread for breakfast.,i eat bread for breakfast,audio/en-us/food/sentence/i-eat-bread-for-breakfast.mp3
+C05-S03-002,rice,米饭；大米,/raɪs/,rice,audio/en-us/food/word/rice.mp3,We have rice with dinner.,we have rice with dinner,audio/en-us/food/sentence/we-have-rice-with-dinner.mp3
+C05-S03-003,pasta,意大利面,/ˈpæstə/,pasta,audio/en-us/food/word/pasta.mp3,The pasta is ready.,the pasta is ready,audio/en-us/food/sentence/the-pasta-is-ready.mp3
+C05-S03-004,noodles,面条,/ˈnuːdəlz/,noodles,audio/en-us/food/word/noodles.mp3,I like noodles with vegetables.,i like noodles with vegetables,audio/en-us/food/sentence/i-like-noodles-with-vegetables.mp3
+C05-S03-005,flour,面粉,/ˈflaʊə/,flour,audio/en-us/food/word/flour.mp3,We use flour to make bread.,we use flour to make bread,audio/en-us/food/sentence/we-use-flour-to-make-bread.mp3
+C05-S03-006,cereal,谷物早餐；麦片,/ˈsɪəriəl/,cereal,audio/en-us/food/word/cereal.mp3,I eat cereal with milk.,i eat cereal with milk,audio/en-us/food/sentence/i-eat-cereal-with-milk.mp3
+C05-S03-007,porridge,燕麦粥；粥,/ˈpɒrɪdʒ/,porridge,audio/en-us/food/word/porridge.mp3,Porridge is warm and filling.,porridge is warm and filling,audio/en-us/food/sentence/porridge-is-warm-and-filling.mp3
+C05-S03-008,oats,燕麦,/əʊts/,oats,audio/en-us/food/word/oats.mp3,Oats are used to make porridge.,oats are used to make porridge,audio/en-us/food/sentence/oats-are-used-to-make-porridge.mp3
+C05-S03-009,sandwich,三明治,/ˈsænwɪdʒ/,sandwich,audio/en-us/food/word/sandwich.mp3,I take a sandwich to school.,i take a sandwich to school,audio/en-us/food/sentence/i-take-a-sandwich-to-school.mp3
+C05-S03-010,toast,烤面包片,/təʊst/,toast,audio/en-us/food/word/toast.mp3,I have toast and an egg.,i have toast and an egg,audio/en-us/food/sentence/i-have-toast-and-an-egg.mp3
+C05-S03-011,pancake,薄煎饼,/ˈpænkeɪk/,pancake,audio/en-us/food/word/pancake.mp3,We make pancakes on Sunday.,we make pancakes on sunday,audio/en-us/food/sentence/we-make-pancakes-on-sunday.mp3
+C05-S03-012,egg,鸡蛋,/eɡ/,egg,audio/en-us/food/word/egg.mp3,I eat a boiled egg.,i eat a boiled egg,audio/en-us/food/sentence/i-eat-a-boiled-egg.mp3
+C05-S03-013,cheese,奶酪,/tʃiːz/,cheese,audio/en-us/food/word/cheese.mp3,Put some cheese on the bread.,put some cheese on the bread,audio/en-us/food/sentence/put-some-cheese-on-the-bread.mp3
+C05-S03-014,butter,黄油,/ˈbʌtə/,butter,audio/en-us/food/word/butter.mp3,Spread butter on the toast.,spread butter on the toast,audio/en-us/food/sentence/spread-butter-on-the-toast.mp3
+C05-S03-015,yoghurt,酸奶（英式拼写）,/ˈjɒɡət/,yoghurt,audio/en-us/food/word/yoghurt.mp3,I eat yoghurt with fruit.,i eat yoghurt with fruit,audio/en-us/food/sentence/i-eat-yoghurt-with-fruit.mp3
+C05-S03-016,meat,肉,/miːt/,meat,audio/en-us/food/word/meat.mp3,This dish has no meat.,this dish has no meat,audio/en-us/food/sentence/this-dish-has-no-meat.mp3
+C05-S03-017,chicken,鸡肉；鸡,/ˈtʃɪkɪn/,chicken,audio/en-us/food/word/chicken.mp3,We have chicken and rice.,we have chicken and rice,audio/en-us/food/sentence/we-have-chicken-and-rice.mp3
+C05-S03-018,beef,牛肉,/biːf/,beef,audio/en-us/food/word/beef.mp3,The beef is tender.,the beef is tender,audio/en-us/food/sentence/the-beef-is-tender.mp3
+C05-S03-019,pork,猪肉,/pɔːk/,pork,audio/en-us/food/word/pork.mp3,Pork is used in this dish.,pork is used in this dish,audio/en-us/food/sentence/pork-is-used-in-this-dish.mp3
+C05-S03-020,lamb,羊肉；羔羊,/læm/,lamb,audio/en-us/food/word/lamb.mp3,We cook lamb with potatoes.,we cook lamb with potatoes,audio/en-us/food/sentence/we-cook-lamb-with-potatoes.mp3
+C05-S03-021,fish,鱼；鱼肉,/fɪʃ/,fish,audio/en-us/word/fish.mp3,We eat fish on Fridays.,we eat fish on fridays,audio/en-us/food/sentence/we-eat-fish-on-fridays.mp3
+C05-S03-022,prawn,大虾,/prɔːn/,prawn,audio/en-us/food/word/prawn.mp3,There are prawns in the salad.,there are prawns in the salad,audio/en-us/food/sentence/there-are-prawns-in-the-salad.mp3
+C05-S03-023,sausage,香肠,/ˈsɒsɪdʒ/,sausage,audio/en-us/food/word/sausage.mp3,The sausage is hot.,the sausage is hot,audio/en-us/food/sentence/the-sausage-is-hot.mp3
+C05-S03-024,bacon,培根；熏猪肉,/ˈbeɪkən/,bacon,audio/en-us/food/word/bacon.mp3,Dad cooks bacon for breakfast.,dad cooks bacon for breakfast,audio/en-us/food/sentence/dad-cooks-bacon-for-breakfast.mp3
+C05-S03-025,soup,汤,/suːp/,soup,audio/en-us/food/word/soup.mp3,The soup smells good.,the soup smells good,audio/en-us/food/sentence/the-soup-smells-good.mp3
+C05-S03-026,pizza,披萨,/ˈpiːtsə/,pizza,audio/en-us/food/word/pizza.mp3,We share a pizza.,we share a pizza,audio/en-us/food/sentence/we-share-a-pizza.mp3
+C05-S03-027,burger,汉堡包,/ˈbɜːɡə/,burger,audio/en-us/food/word/burger.mp3,He orders a chicken burger.,he orders a chicken burger,audio/en-us/food/sentence/he-orders-a-chicken-burger.mp3
+C05-S03-028,chips,薯条（英式）,/tʃɪps/,chips,audio/en-us/food/word/chips.mp3,Fish and chips is a popular meal.,fish and chips is a popular meal,audio/en-us/food/sentence/fish-and-chips-is-a-popular-meal.mp3
+C05-S03-029,crisps,薯片（英式）,/krɪsps/,crisps,audio/en-us/food/word/crisps.mp3,I have a small packet of crisps.,i have a small packet of crisps,audio/en-us/food/sentence/i-have-a-small-packet-of-crisps.mp3
+C05-S03-030,biscuit,饼干（英式）,/ˈbɪskɪt/,biscuit,audio/en-us/food/word/biscuit.mp3,Would you like a biscuit?,would you like a biscuit,audio/en-us/food/sentence/would-you-like-a-biscuit.mp3
+C05-S03-031,cake,蛋糕,/keɪk/,cake,audio/en-us/food/word/cake.mp3,We bake a cake for her birthday.,we bake a cake for her birthday,audio/en-us/food/sentence/we-bake-a-cake-for-her-birthday.mp3
+C05-S03-032,chocolate,巧克力,/ˈtʃɒklət/,chocolate,audio/en-us/food/word/chocolate.mp3,This chocolate is sweet.,this chocolate is sweet,audio/en-us/food/sentence/this-chocolate-is-sweet.mp3
+C05-S03-033,honey,蜂蜜,/ˈhʌni/,honey,audio/en-us/food/word/honey.mp3,I add honey to my tea.,i add honey to my tea,audio/en-us/food/sentence/i-add-honey-to-my-tea.mp3
+C05-S03-034,jam,果酱,/dʒæm/,jam,audio/en-us/food/word/jam.mp3,I spread jam on my toast.,i spread jam on my toast,audio/en-us/food/sentence/i-spread-jam-on-my-toast.mp3
+C05-S03-035,sugar,糖,/ˈʃʊɡə/,sugar,audio/en-us/food/word/sugar.mp3,Would you like sugar in your tea?,would you like sugar in your tea,audio/en-us/food/sentence/would-you-like-sugar-in-your-tea.mp3
+C05-S03-036,salt,盐,/sɔːlt/,salt,audio/en-us/food/word/salt.mp3,Add a little salt.,add a little salt,audio/en-us/food/sentence/add-a-little-salt.mp3
+C05-S03-037,oil,食用油；油,/ɔɪl/,oil,audio/en-us/food/word/oil.mp3,We cook vegetables in oil.,we cook vegetables in oil,audio/en-us/food/sentence/we-cook-vegetables-in-oil.mp3
+C05-S03-038,breakfast,早餐,/ˈbrekfəst/,breakfast,audio/en-us/word/breakfast.mp3,Breakfast is ready.,breakfast is ready,audio/en-us/food/sentence/breakfast-is-ready.mp3
+C05-S03-039,lunch,午餐,/lʌntʃ/,lunch,audio/en-us/food/word/lunch.mp3,We have lunch at twelve.,we have lunch at twelve,audio/en-us/food/sentence/we-have-lunch-at-twelve.mp3
+C05-S03-040,dinner,晚餐；正餐,/ˈdɪnə/,dinner,audio/en-us/food/word/dinner.mp3,Dinner is on the table.,dinner is on the table,audio/en-us/food/sentence/dinner-is-on-the-table.mp3
+C05-S03-041,meal,一餐；膳食,/miːl/,meal,audio/en-us/food/word/meal.mp3,This is a healthy meal.,this is a healthy meal,audio/en-us/food/sentence/this-is-a-healthy-meal.mp3
+C05-S03-042,snack,零食；点心,/snæk/,snack,audio/en-us/food/word/snack.mp3,I have a snack after school.,i have a snack after school,audio/en-us/food/sentence/i-have-a-snack-after-school.mp3
+C05-S03-043,dessert,甜点,/dɪˈzɜːt/,dessert,audio/en-us/food/word/dessert.mp3,Fruit is my favourite dessert.,fruit is my favourite dessert,audio/en-us/food/sentence/fruit-is-my-favourite-dessert.mp3
+C05-S04-001,water,水,/ˈwɔːtə/,water,audio/en-us/food/word/water.mp3,Please drink some water.,please drink some water,audio/en-us/food/sentence/please-drink-some-water.mp3
+C05-S04-002,tap water,自来水,/ˈtæp ˌwɔːtə/,tap water,audio/en-us/food/word/tap-water.mp3,Tap water is safe to drink here.,tap water is safe to drink here,audio/en-us/food/sentence/tap-water-is-safe-to-drink-here.mp3
+C05-S04-003,sparkling water,气泡水,/ˈspɑːklɪŋ ˌwɔːtə/,sparkling water,audio/en-us/food/word/sparkling-water.mp3,She prefers sparkling water.,she prefers sparkling water,audio/en-us/food/sentence/she-prefers-sparkling-water.mp3
+C05-S04-004,mineral water,矿泉水,/ˈmɪnərəl ˌwɔːtə/,mineral water,audio/en-us/food/word/mineral-water.mp3,I bought a bottle of mineral water.,i bought a bottle of mineral water,audio/en-us/food/sentence/i-bought-a-bottle-of-mineral-water.mp3
+C05-S04-005,milk,牛奶,/mɪlk/,milk,audio/en-us/food/word/milk.mp3,The child drinks milk every morning.,the child drinks milk every morning,audio/en-us/food/sentence/the-child-drinks-milk-every-morning.mp3
+C05-S04-006,soya milk,豆奶（英式）,/ˈsɔɪə mɪlk/,soya milk,audio/en-us/food/word/soya-milk.mp3,Soya milk is in the fridge.,soya milk is in the fridge,audio/en-us/food/sentence/soya-milk-is-in-the-fridge.mp3
+C05-S04-007,orange juice,橙汁,/ˈɒrɪndʒ ˌdʒuːs/,orange juice,audio/en-us/food/word/orange-juice.mp3,I have orange juice with breakfast.,i have orange juice with breakfast,audio/en-us/food/sentence/i-have-orange-juice-with-breakfast.mp3
+C05-S04-008,apple juice,苹果汁,/ˈæpəl ˌdʒuːs/,apple juice,audio/en-us/food/word/apple-juice.mp3,Would you like apple juice?,would you like apple juice,audio/en-us/food/sentence/would-you-like-apple-juice.mp3
+C05-S04-009,fruit juice,果汁,/ˈfruːt ˌdʒuːs/,fruit juice,audio/en-us/food/word/fruit-juice.mp3,This fruit juice has no added sugar.,this fruit juice has no added sugar,audio/en-us/food/sentence/this-fruit-juice-has-no-added-sugar.mp3
+C05-S04-010,tea,茶,/tiː/,tea,audio/en-us/word/tea.mp3,My grandpa drinks tea every day.,my grandpa drinks tea every day,audio/en-us/food/sentence/my-grandpa-drinks-tea-every-day.mp3
+C05-S04-011,black tea,红茶,/ˌblæk ˈtiː/,black tea,audio/en-us/food/word/black-tea.mp3,I drink black tea without sugar.,i drink black tea without sugar,audio/en-us/food/sentence/i-drink-black-tea-without-sugar.mp3
+C05-S04-012,green tea,绿茶,/ˌɡriːn ˈtiː/,green tea,audio/en-us/food/word/green-tea.mp3,Green tea is served warm.,green tea is served warm,audio/en-us/food/sentence/green-tea-is-served-warm.mp3
+C05-S04-013,herbal tea,花草茶,/ˌhɜːbəl ˈtiː/,herbal tea,audio/en-us/food/word/herbal-tea.mp3,She drinks herbal tea at night.,she drinks herbal tea at night,audio/en-us/food/sentence/she-drinks-herbal-tea-at-night.mp3
+C05-S04-014,coffee,咖啡,/ˈkɒfi/,coffee,audio/en-us/word/coffee.mp3,Dad makes coffee in the morning.,dad makes coffee in the morning,audio/en-us/food/sentence/dad-makes-coffee-in-the-morning.mp3
+C05-S04-015,hot chocolate,热巧克力饮料,/ˌhɒt ˈtʃɒklət/,hot chocolate,audio/en-us/food/word/hot-chocolate.mp3,I drink hot chocolate on cold days.,i drink hot chocolate on cold days,audio/en-us/food/sentence/i-drink-hot-chocolate-on-cold-days.mp3
+C05-S04-016,lemonade,柠檬汽水；柠檬饮料,/ˌleməˈneɪd/,lemonade,audio/en-us/food/word/lemonade.mp3,The lemonade tastes fresh.,the lemonade tastes fresh,audio/en-us/food/sentence/the-lemonade-tastes-fresh.mp3
+C05-S04-017,squash,浓缩果汁饮料（英式）,/skwɒʃ/,squash,audio/en-us/food/word/squash.mp3,Dilute the squash with water.,dilute the squash with water,audio/en-us/food/sentence/dilute-the-squash-with-water.mp3
+C05-S04-018,fizzy drink,汽水；碳酸饮料,/ˈfɪzi drɪŋk/,fizzy drink,audio/en-us/food/word/fizzy-drink.mp3,This fizzy drink has bubbles.,this fizzy drink has bubbles,audio/en-us/food/sentence/this-fizzy-drink-has-bubbles.mp3
+C05-S04-019,soft drink,软饮料；不含酒精的饮料,/ˈsɒft drɪŋk/,soft drink,audio/en-us/food/word/soft-drink.mp3,Would you like a soft drink?,would you like a soft drink,audio/en-us/food/sentence/would-you-like-a-soft-drink.mp3
+C05-S04-020,smoothie,思慕雪；水果奶昔,/ˈsmuːði/,smoothie,audio/en-us/food/word/smoothie.mp3,I make a banana smoothie.,i make a banana smoothie,audio/en-us/food/sentence/i-make-a-banana-smoothie.mp3
+C05-S04-021,milkshake,奶昔,/ˈmɪlkʃeɪk/,milkshake,audio/en-us/food/word/milkshake.mp3,He orders a strawberry milkshake.,he orders a strawberry milkshake,audio/en-us/food/sentence/he-orders-a-strawberry-milkshake.mp3
+C05-S04-022,drink,饮料；喝,/drɪŋk/,drink,audio/en-us/food/word/drink.mp3,This drink is cold.,this drink is cold,audio/en-us/food/sentence/this-drink-is-cold.mp3
+C05-S04-023,cup of tea,一杯茶,/ˌkʌp əv ˈtiː/,cup of tea,audio/en-us/food/word/cup-of-tea.mp3,Would you like a cup of tea?,would you like a cup of tea,audio/en-us/food/sentence/would-you-like-a-cup-of-tea.mp3
+C05-S04-024,glass of water,一杯水,/ˌɡlɑːs əv ˈwɔːtə/,glass of water,audio/en-us/food/word/glass-of-water.mp3,Can I have a glass of water?,can i have a glass of water,audio/en-us/food/sentence/can-i-have-a-glass-of-water.mp3
+C05-S04-025,bottle of water,一瓶水,/ˌbɒtəl əv ˈwɔːtə/,bottle of water,audio/en-us/food/word/bottle-of-water.mp3,Take a bottle of water with you.,take a bottle of water with you,audio/en-us/food/sentence/take-a-bottle-of-water-with-you.mp3
+C05-S04-026,thirsty,口渴的,/ˈθɜːsti/,thirsty,audio/en-us/food/word/thirsty.mp3,I am thirsty after running.,i am thirsty after running,audio/en-us/food/sentence/i-am-thirsty-after-running.mp3
+C05-S05-001,body,身体,/ˈbɒdi/,body,audio/en-us/food/word/body.mp3,Exercise is good for your body.,exercise is good for your body,audio/en-us/food/sentence/exercise-is-good-for-your-body.mp3
+C05-S05-002,head,头,/hed/,head,audio/en-us/food/word/head.mp3,Put the hat on your head.,put the hat on your head,audio/en-us/food/sentence/put-the-hat-on-your-head.mp3
+C05-S05-003,face,脸；面部,/feɪs/,face,audio/en-us/food/word/face.mp3,Wash your face in the morning.,wash your face in the morning,audio/en-us/food/sentence/wash-your-face-in-the-morning.mp3
+C05-S05-004,hair,头发,/heə/,hair,audio/en-us/word/hair.mp3,Her hair is long.,her hair is long,audio/en-us/food/sentence/her-hair-is-long.mp3
+C05-S05-005,forehead,额头,/ˈfɒrɪd/,forehead,audio/en-us/food/word/forehead.mp3,He has a cool cloth on his forehead.,he has a cool cloth on his forehead,audio/en-us/food/sentence/he-has-a-cool-cloth-on-his-forehead.mp3
+C05-S05-006,eye,眼睛,/aɪ/,eye,audio/en-us/food/word/eye.mp3,Close one eye.,close one eye,audio/en-us/food/sentence/close-one-eye.mp3
+C05-S05-007,eyes,眼睛（复数）,/aɪz/,eyes,audio/en-us/word/eyes.mp3,Her eyes are brown.,her eyes are brown,audio/en-us/food/sentence/her-eyes-are-brown.mp3
+C05-S05-008,eyebrow,眉毛,/ˈaɪbraʊ/,eyebrow,audio/en-us/food/word/eyebrow.mp3,He raised an eyebrow.,he raised an eyebrow,audio/en-us/food/sentence/he-raised-an-eyebrow.mp3
+C05-S05-009,eyelash,睫毛,/ˈaɪlæʃ/,eyelash,audio/en-us/food/word/eyelash.mp3,An eyelash fell on her cheek.,an eyelash fell on her cheek,audio/en-us/food/sentence/an-eyelash-fell-on-her-cheek.mp3
+C05-S05-010,ear,耳朵,/ɪə/,ear,audio/en-us/food/word/ear.mp3,I can hear with each ear.,i can hear with each ear,audio/en-us/food/sentence/i-can-hear-with-each-ear.mp3
+C05-S05-011,nose,鼻子,/nəʊz/,nose,audio/en-us/food/word/nose.mp3,Touch your nose.,touch your nose,audio/en-us/food/sentence/touch-your-nose.mp3
+C05-S05-012,cheek,脸颊,/tʃiːk/,cheek,audio/en-us/food/word/cheek.mp3,The baby has a round cheek.,the baby has a round cheek,audio/en-us/food/sentence/the-baby-has-a-round-cheek.mp3
+C05-S05-013,mouth,嘴；口腔,/maʊθ/,mouth,audio/en-us/food/word/mouth.mp3,"Open your mouth, please.",open your mouth please,audio/en-us/food/sentence/open-your-mouth-please.mp3
+C05-S05-014,lip,嘴唇,/lɪp/,lip,audio/en-us/food/word/lip.mp3,She has a smile on her lips.,she has a smile on her lips,audio/en-us/food/sentence/she-has-a-smile-on-her-lips.mp3
+C05-S05-015,tooth,牙齿（单数）,/tuːθ/,tooth,audio/en-us/food/word/tooth.mp3,I lost a baby tooth.,i lost a baby tooth,audio/en-us/food/sentence/i-lost-a-baby-tooth.mp3
+C05-S05-016,teeth,牙齿（复数）,/tiːθ/,teeth,audio/en-us/food/word/teeth.mp3,Brush your teeth twice a day.,brush your teeth twice a day,audio/en-us/food/sentence/brush-your-teeth-twice-a-day.mp3
+C05-S05-017,tongue,舌头,/tʌŋ/,tongue,audio/en-us/food/word/tongue.mp3,The doctor asked me to show my tongue.,the doctor asked me to show my tongue,audio/en-us/food/sentence/the-doctor-asked-me-to-show-my-tongue.mp3
+C05-S05-018,chin,下巴,/tʃɪn/,chin,audio/en-us/food/word/chin.mp3,He rested his chin on his hand.,he rested his chin on his hand,audio/en-us/food/sentence/he-rested-his-chin-on-his-hand.mp3
+C05-S05-019,neck,脖子；颈部,/nek/,neck,audio/en-us/food/word/neck.mp3,A scarf keeps your neck warm.,a scarf keeps your neck warm,audio/en-us/food/sentence/a-scarf-keeps-your-neck-warm.mp3
+C05-S05-020,shoulder,肩膀,/ˈʃəʊldə/,shoulder,audio/en-us/food/word/shoulder.mp3,My schoolbag is on one shoulder.,my schoolbag is on one shoulder,audio/en-us/food/sentence/my-schoolbag-is-on-one-shoulder.mp3
+C05-S05-021,arm,手臂,/ɑːm/,arm,audio/en-us/food/word/arm.mp3,Raise your arm.,raise your arm,audio/en-us/food/sentence/raise-your-arm.mp3
+C05-S05-022,elbow,肘部,/ˈelbəʊ/,elbow,audio/en-us/food/word/elbow.mp3,I bumped my elbow on the desk.,i bumped my elbow on the desk,audio/en-us/food/sentence/i-bumped-my-elbow-on-the-desk.mp3
+C05-S05-023,wrist,手腕,/rɪst/,wrist,audio/en-us/food/word/wrist.mp3,The watch is around my wrist.,the watch is around my wrist,audio/en-us/food/sentence/the-watch-is-around-my-wrist.mp3
+C05-S05-024,hand,手,/hænd/,hand,audio/en-us/word/hand.mp3,Wash your hands before eating.,wash your hands before eating,audio/en-us/food/sentence/wash-your-hands-before-eating.mp3
+C05-S05-025,finger,手指,/ˈfɪŋɡə/,finger,audio/en-us/food/word/finger.mp3,Count on your fingers.,count on your fingers,audio/en-us/food/sentence/count-on-your-fingers.mp3
+C05-S05-026,thumb,拇指,/θʌm/,thumb,audio/en-us/food/word/thumb.mp3,Give me a thumbs-up.,give me a thumbsup,audio/en-us/food/sentence/give-me-a-thumbsup.mp3
+C05-S05-027,nail,指甲；趾甲,/neɪl/,nail,audio/en-us/food/word/nail.mp3,Keep your nails clean.,keep your nails clean,audio/en-us/food/sentence/keep-your-nails-clean.mp3
+C05-S05-028,chest,胸部,/tʃest/,chest,audio/en-us/food/word/chest.mp3,The badge is on his chest.,the badge is on his chest,audio/en-us/food/sentence/the-badge-is-on-his-chest.mp3
+C05-S05-029,back,背部；后背,/bæk/,back,audio/en-us/food/word/back.mp3,My back feels tired after sitting.,my back feels tired after sitting,audio/en-us/food/sentence/my-back-feels-tired-after-sitting.mp3
+C05-S05-030,stomach,胃；腹部,/ˈstʌmək/,stomach,audio/en-us/food/word/stomach.mp3,My stomach is full.,my stomach is full,audio/en-us/food/sentence/my-stomach-is-full.mp3
+C05-S05-031,waist,腰部,/weɪst/,waist,audio/en-us/food/word/waist.mp3,The belt goes around your waist.,the belt goes around your waist,audio/en-us/food/sentence/the-belt-goes-around-your-waist.mp3
+C05-S05-032,hip,髋部；臀部侧面,/hɪp/,hip,audio/en-us/food/word/hip.mp3,He hurt his hip while playing.,he hurt his hip while playing,audio/en-us/food/sentence/he-hurt-his-hip-while-playing.mp3
+C05-S05-033,leg,腿,/leɡ/,leg,audio/en-us/food/word/leg.mp3,Stretch your leg gently.,stretch your leg gently,audio/en-us/food/sentence/stretch-your-leg-gently.mp3
+C05-S05-034,knee,膝盖,/niː/,knee,audio/en-us/food/word/knee.mp3,She fell and hurt her knee.,she fell and hurt her knee,audio/en-us/food/sentence/she-fell-and-hurt-her-knee.mp3
+C05-S05-035,ankle,脚踝,/ˈæŋkəl/,ankle,audio/en-us/food/word/ankle.mp3,He twisted his ankle.,he twisted his ankle,audio/en-us/food/sentence/he-twisted-his-ankle.mp3
+C05-S05-036,foot,脚（单数）,/fʊt/,foot,audio/en-us/food/word/foot.mp3,My foot is cold.,my foot is cold,audio/en-us/food/sentence/my-foot-is-cold.mp3
+C05-S05-037,feet,脚（复数）,/fiːt/,feet,audio/en-us/food/word/feet.mp3,Put both feet on the floor.,put both feet on the floor,audio/en-us/food/sentence/put-both-feet-on-the-floor.mp3
+C05-S05-038,toe,脚趾,/təʊ/,toe,audio/en-us/food/word/toe.mp3,I stubbed my toe.,i stubbed my toe,audio/en-us/food/sentence/i-stubbed-my-toe.mp3
+C05-S05-039,skin,皮肤,/skɪn/,skin,audio/en-us/food/word/skin.mp3,Protect your skin from the sun.,protect your skin from the sun,audio/en-us/food/sentence/protect-your-skin-from-the-sun.mp3
+C05-S05-040,heart,心脏,/hɑːt/,heart,audio/en-us/word/heart.mp3,Your heart pumps blood around your body.,your heart pumps blood around your body,audio/en-us/food/sentence/your-heart-pumps-blood-around-your-body.mp3
+C05-S05-041,brain,大脑,/breɪn/,brain,audio/en-us/food/word/brain.mp3,Your brain helps you think.,your brain helps you think,audio/en-us/food/sentence/your-brain-helps-you-think.mp3
+C05-S06-001,healthy,健康的,/ˈhelθi/,healthy,audio/en-us/food/word/healthy.mp3,Fruit and vegetables help us stay healthy.,fruit and vegetables help us stay healthy,audio/en-us/food/sentence/fruit-and-vegetables-help-us-stay-healthy.mp3
+C05-S06-002,ill,生病的；不舒服的,/ɪl/,ill,audio/en-us/food/word/ill.mp3,I feel ill today.,i feel ill today,audio/en-us/food/sentence/i-feel-ill-today.mp3
+C05-S06-003,sick,生病的；恶心的,/sɪk/,sick,audio/en-us/food/word/sick.mp3,The child feels sick.,the child feels sick,audio/en-us/food/sentence/the-child-feels-sick.mp3
+C05-S06-004,unwell,身体不适的,/ʌnˈwel/,unwell,audio/en-us/food/word/unwell.mp3,She is a little unwell.,she is a little unwell,audio/en-us/food/sentence/she-is-a-little-unwell.mp3
+C05-S06-005,pain,疼痛,/peɪn/,pain,audio/en-us/food/word/pain.mp3,Tell an adult if you have pain.,tell an adult if you have pain,audio/en-us/food/sentence/tell-an-adult-if-you-have-pain.mp3
+C05-S06-006,ache,持续的疼痛；疼,/eɪk/,ache,audio/en-us/food/word/ache.mp3,My legs ache after the long walk.,my legs ache after the long walk,audio/en-us/food/sentence/my-legs-ache-after-the-long-walk.mp3
+C05-S06-007,headache,头痛,/ˈhedeɪk/,headache,audio/en-us/food/word/headache.mp3,I have a headache.,i have a headache,audio/en-us/food/sentence/i-have-a-headache.mp3
+C05-S06-008,stomach ache,胃痛；肚子痛,/ˈstʌmək eɪk/,stomach ache,audio/en-us/food/word/stomach-ache.mp3,He has a stomach ache.,he has a stomach ache,audio/en-us/food/sentence/he-has-a-stomach-ache.mp3
+C05-S06-009,toothache,牙痛,/ˈtuːθeɪk/,toothache,audio/en-us/food/word/toothache.mp3,I have toothache and need a dentist.,i have toothache and need a dentist,audio/en-us/food/sentence/i-have-toothache-and-need-a-dentist.mp3
+C05-S06-010,earache,耳痛,/ˈɪəreɪk/,earache,audio/en-us/food/word/earache.mp3,She stayed home because of earache.,she stayed home because of earache,audio/en-us/food/sentence/she-stayed-home-because-of-earache.mp3
+C05-S06-011,sore throat,喉咙痛,/ˌsɔː ˈθrəʊt/,sore throat,audio/en-us/food/word/sore-throat.mp3,I have a sore throat.,i have a sore throat,audio/en-us/food/sentence/i-have-a-sore-throat.mp3
+C05-S06-012,cough,咳嗽；咳,/kɒf/,cough,audio/en-us/food/word/cough.mp3,Cover your mouth when you cough.,cover your mouth when you cough,audio/en-us/food/sentence/cover-your-mouth-when-you-cough.mp3
+C05-S06-013,cold,感冒；寒冷的,/kəʊld/,cold,audio/en-us/nature/word/cold.mp3,"I have a cold, so I am resting.",i have a cold so i am resting,audio/en-us/food/sentence/i-have-a-cold-so-i-am-resting.mp3
+C05-S06-014,fever,发烧；发热,/ˈfiːvə/,fever,audio/en-us/food/word/fever.mp3,The child has a fever.,the child has a fever,audio/en-us/food/sentence/the-child-has-a-fever.mp3
+C05-S06-015,temperature,体温；温度,/ˈtemprətʃə/,temperature,audio/en-us/nature/word/temperature.mp3,The nurse checks my temperature.,the nurse checks my temperature,audio/en-us/food/sentence/the-nurse-checks-my-temperature.mp3
+C05-S06-016,sneeze,打喷嚏,/sniːz/,sneeze,audio/en-us/food/word/sneeze.mp3,I sneeze when there is dust.,i sneeze when there is dust,audio/en-us/food/sentence/i-sneeze-when-there-is-dust.mp3
+C05-S06-017,runny nose,流鼻涕,/ˌrʌni ˈnəʊz/,runny nose,audio/en-us/food/word/runny-nose.mp3,A runny nose can happen with a cold.,a runny nose can happen with a cold,audio/en-us/food/sentence/a-runny-nose-can-happen-with-a-cold.mp3
+C05-S06-018,blocked nose,鼻塞,/ˌblɒkt ˈnəʊz/,blocked nose,audio/en-us/food/word/blocked-nose.mp3,My blocked nose makes it hard to sleep.,my blocked nose makes it hard to sleep,audio/en-us/food/sentence/my-blocked-nose-makes-it-hard-to-sleep.mp3
+C05-S06-019,tired,累的；疲倦的,/ˈtaɪəd/,tired,audio/en-us/food/word/tired.mp3,I feel tired after school.,i feel tired after school,audio/en-us/food/sentence/i-feel-tired-after-school.mp3
+C05-S06-020,sleepy,困倦的,/ˈsliːpi/,sleepy,audio/en-us/food/word/sleepy.mp3,The baby is sleepy.,the baby is sleepy,audio/en-us/food/sentence/the-baby-is-sleepy.mp3
+C05-S06-021,hungry,饥饿的,/ˈhʌŋɡri/,hungry,audio/en-us/food/word/hungry.mp3,I am hungry. Can I have a snack?,i am hungry can i have a snack,audio/en-us/food/sentence/i-am-hungry-can-i-have-a-snack.mp3
+C05-S06-022,thirsty,口渴的,/ˈθɜːsti/,thirsty,audio/en-us/food/word/thirsty.mp3,I feel thirsty after playing.,i feel thirsty after playing,audio/en-us/food/sentence/i-feel-thirsty-after-playing.mp3
+C05-S06-023,hot,热的；感觉热,/hɒt/,hot,audio/en-us/word/hot.mp3,I feel hot after running.,i feel hot after running,audio/en-us/food/sentence/i-feel-hot-after-running.mp3
+C05-S06-024,cold,冷的；感觉冷,/kəʊld/,cold,audio/en-us/nature/word/cold.mp3,My hands feel cold.,my hands feel cold,audio/en-us/food/sentence/my-hands-feel-cold.mp3
+C05-S06-025,dizzy,头晕的,/ˈdɪzi/,dizzy,audio/en-us/food/word/dizzy.mp3,Sit down if you feel dizzy.,sit down if you feel dizzy,audio/en-us/food/sentence/sit-down-if-you-feel-dizzy.mp3
+C05-S06-026,hurt,疼；受伤,/hɜːt/,hurt,audio/en-us/food/word/hurt.mp3,My knee hurts.,my knee hurts,audio/en-us/food/sentence/my-knee-hurts.mp3
+C05-S06-027,bruise,瘀青；碰伤,/bruːz/,bruise,audio/en-us/food/word/bruise.mp3,There is a bruise on my arm.,there is a bruise on my arm,audio/en-us/food/sentence/there-is-a-bruise-on-my-arm.mp3
+C05-S06-028,cut,割伤；划伤,/kʌt/,cut,audio/en-us/school/word/cut.mp3,I have a small cut on my finger.,i have a small cut on my finger,audio/en-us/food/sentence/i-have-a-small-cut-on-my-finger.mp3
+C05-S06-029,burn,烧伤；烫伤,/bɜːn/,burn,audio/en-us/food/word/burn.mp3,Tell an adult if you get a burn.,tell an adult if you get a burn,audio/en-us/food/sentence/tell-an-adult-if-you-get-a-burn.mp3
+C05-S06-030,medicine,药；药物,/ˈmedsən/,medicine,audio/en-us/food/word/medicine.mp3,Only take medicine with an adult's help.,only take medicine with an adult's help,audio/en-us/food/sentence/only-take-medicine-with-an-adult-s-help.mp3
+C05-S06-031,tablet,药片,/ˈtæblət/,tablet,audio/en-us/school/word/tablet.mp3,Take a tablet only as directed by an adult or clinician.,take a tablet only as directed by an adult or clinician,audio/en-us/food/sentence/take-a-tablet-only-as-directed-by-an-adult-or-clinician.mp3
+C05-S06-032,bandage,绷带,/ˈbændɪdʒ/,bandage,audio/en-us/food/word/bandage.mp3,The nurse puts a bandage on his arm.,the nurse puts a bandage on his arm,audio/en-us/food/sentence/the-nurse-puts-a-bandage-on-his-arm.mp3
+C05-S06-033,plaster,创可贴（英式）,/ˈplɑːstə/,plaster,audio/en-us/food/word/plaster.mp3,Put a plaster over the small cut.,put a plaster over the small cut,audio/en-us/food/sentence/put-a-plaster-over-the-small-cut.mp3
+C05-S06-034,doctor,医生,/ˈdɒktə/,doctor,audio/en-us/food/word/doctor.mp3,The doctor checks my throat.,the doctor checks my throat,audio/en-us/food/sentence/the-doctor-checks-my-throat.mp3
+C05-S06-035,nurse,护士,/nɜːs/,nurse,audio/en-us/food/word/nurse.mp3,The nurse helps the patient.,the nurse helps the patient,audio/en-us/food/sentence/the-nurse-helps-the-patient.mp3
+C05-S06-036,dentist,牙医,/ˈdentɪst/,dentist,audio/en-us/food/word/dentist.mp3,I visit the dentist for a check-up.,i visit the dentist for a checkup,audio/en-us/food/sentence/i-visit-the-dentist-for-a-checkup.mp3
+C05-S06-037,hospital,医院,/ˈhɒspɪtəl/,hospital,audio/en-us/food/word/hospital.mp3,The ambulance takes him to hospital.,the ambulance takes him to hospital,audio/en-us/food/sentence/the-ambulance-takes-him-to-hospital.mp3
+C05-S06-038,clinic,诊所；门诊,/ˈklɪnɪk/,clinic,audio/en-us/food/word/clinic.mp3,The clinic opens at nine.,the clinic opens at nine,audio/en-us/food/sentence/the-clinic-opens-at-nine.mp3
+C05-S06-039,rest,休息,/rest/,rest,audio/en-us/family/word/rest.mp3,You should rest when you feel unwell.,you should rest when you feel unwell,audio/en-us/food/sentence/you-should-rest-when-you-feel-unwell.mp3
+C05-S06-040,recover,恢复；康复,/rɪˈkʌvə/,recover,audio/en-us/food/word/recover.mp3,She needs time to recover.,she needs time to recover,audio/en-us/food/sentence/she-needs-time-to-recover.mp3
+C05-S06-041,feel better,感觉好些,/ˌfiːl ˈbetə/,feel better,audio/en-us/food/word/feel-better.mp3,I hope you feel better soon.,i hope you feel better soon,audio/en-us/food/sentence/i-hope-you-feel-better-soon.mp3
+C05-S06-042,What's wrong?,怎么了？,/ˌwɒts ˈrɒŋ/,what's wrong,audio/en-us/food/word/what-s-wrong.mp3,What's wrong? Do you feel ill?,what's wrong do you feel ill,audio/en-us/food/sentence/what-s-wrong-do-you-feel-ill.mp3
+C05-S06-043,I don't feel well.,我觉得不舒服。,/aɪ dəʊnt fiːl ˈwel/,i don't feel well,audio/en-us/food/word/i-don-t-feel-well.mp3,"I don't feel well, so I need to tell Mum.",i don't feel well so i need to tell mum,audio/en-us/food/sentence/i-don-t-feel-well-so-i-need-to-tell-mum.mp3
+C05-S06-044,Please help me.,请帮帮我。,/ˌpliːz ˈhelp miː/,please help me,audio/en-us/food/word/please-help-me.mp3,Please help me. I feel dizzy.,please help me i feel dizzy,audio/en-us/food/sentence/please-help-me-i-feel-dizzy.mp3

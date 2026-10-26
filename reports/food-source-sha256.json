@@ -1,0 +1,31 @@
+{
+  "sourceZip": "饮食与健康.zip",
+  "sourceSha256": "3d313ac5175394e3aabe1cc38bc82aaf549608409e8453d7f6097c572cdc30ff",
+  "files": [
+    {
+      "path": "data/food-health/01_水果与蔬菜.json",
+      "sourceName": "小蛙自习室_第五类_四窗口版/01_水果与蔬菜.json",
+      "sha256": "c565661653e4d9c104c425a149527c9425b7c9ed17d3f67c5889f3c2a6474a9f"
+    },
+    {
+      "path": "data/food-health/02_食物、主食与饮料.json",
+      "sourceName": "小蛙自习室_第五类_四窗口版/02_食物、主食与饮料.json",
+      "sha256": "44dfb629a7aa87e68a0516e05fda42c63128281f278a2b03622e7e89935821d9"
+    },
+    {
+      "path": "data/food-health/03_身体部位.json",
+      "sourceName": "小蛙自习室_第五类_四窗口版/03_身体部位.json",
+      "sha256": "0c4b08ab1c408c63c14b9ea654f3e172a6b8957f84f12294c7621709c142e59c"
+    },
+    {
+      "path": "data/food-health/04_健康与身体感受.json",
+      "sourceName": "小蛙自习室_第五类_四窗口版/04_健康与身体感受.json",
+      "sha256": "4de07536ab9ec47e513b17009f90ba4799b64c9d9af39da8178fed21b31760e0"
+    },
+    {
+      "path": "data/food-health/index.json",
+      "sourceName": "小蛙自习室_第五类_四窗口版/饮食与健康_分类目录.json",
+      "sha256": "c50c86e1603517299dd0981cf0fb2b5f2e043ed60ddd5079b5ea7894ed9fcf3e"
+    }
+  ]
+}

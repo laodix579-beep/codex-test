@@ -19,7 +19,7 @@ old=subprocess.check_output(['git','show','1d4f963:index.html'],text=True)
 previous=json.JSONDecoder().raw_decode(old.split(marker,1)[1])[0]
 assert catalog['version']==previous['version']=='basic-us-v1'
 assert [w for w in catalog['words'] if w['categoryId']=='C01']==previous['words']
-assert len(catalog['words'])==754
+assert len(catalog['words'])==972
 generation=json.loads((ROOT/'data/time-nature-audio-generation.json').read_text())
 assert len(generation['clips'])==418 and generation['voice']=='af_bella' and generation['locale']=='en-US'
 assert next(r for r in generation['clips'] if r['key']=='wind')['phonemes']=='wˈɪnd'
@@ -42,20 +42,20 @@ with sync_playwright() as p:
     page.reload();page.locator('.home-dashboard').wait_for()
     def saved():return page.evaluate('JSON.parse(localStorage.getItem(document.body.dataset.storageKey))')
     now=saved()
-    assert len(now['words'])==755 and now['contentPacks']==['time-nature-v1','school-learning-v1','family-daily-v1']
+    assert len(now['words'])==973 and now['contentPacks']==['time-nature-v1','school-learning-v1','family-daily-v1','food-health-v1']
     assert page.evaluate("FrogPractice.speechKey('wind','缠绕（动词）')")== 'wind::verb'
     assert page.evaluate("FrogPractice.speechKey('wind','风')")== 'wind'
     for word in legacy['words']:assert next(w for w in now['words'] if w['id']==word['id'])==word
     for key in ['wordStatus','favorites','notes','settings','plan','practiceResume']:assert now[key]==legacy[key],key
     assert now['days']['2026-10-01']==legacy['days']['2026-10-01']
-    page.reload();assert len(saved()['words'])==755
+    page.reload();assert len(saved()['words'])==973
     # Explicit deletion is respected after the one-time content installation.
     page.evaluate('''()=>{const k=document.body.dataset.storageKey,s=JSON.parse(localStorage.getItem(k));s.words=s.words.filter(w=>w.id!=='C02-S01-001');localStorage.setItem(k,JSON.stringify(s));}''')
     page.reload();assert not any(w['id']=='C02-S01-001' for w in saved()['words'])
     page.goto(BASE+'#settings');page.locator('#restore-file').set_input_files({'name':'legacy-before-C02.json','mimeType':'application/json','buffer':json.dumps(legacy,ensure_ascii=False).encode()})
     page.locator('#confirm-dialog button[value="yes"]').click()
     page.wait_for_function('JSON.parse(localStorage.getItem(document.body.dataset.storageKey)).words.some(w=>w.id==="C02-S01-001")')
-    assert len(saved()['words'])==755 and saved()['wordStatus']==legacy['wordStatus']
+    assert len(saved()['words'])==973 and saved()['wordStatus']==legacy['wordStatus']
     assert not errors,errors
     context.close();print('PASS: existing v29 state and old backup append C02 once; every old word, record, preference and resume survives; deletions remain deleted',flush=True)
 

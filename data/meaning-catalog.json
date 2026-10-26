@@ -12801,6 +12801,3711 @@
       ],
       "usage": "",
       "note": ""
+    },
+    {
+      "id": "C05-S01-001",
+      "word": "apple",
+      "meaning": "苹果",
+      "english": "I eat an apple after lunch.",
+      "chinese": "我午饭后吃一个苹果。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 9,
+          "text": "苹果"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S01-002",
+      "word": "banana",
+      "meaning": "香蕉",
+      "english": "The banana is yellow.",
+      "chinese": "这根香蕉是黄色的。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "香蕉"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S01-003",
+      "word": "orange",
+      "meaning": "橙子；橙色的",
+      "english": "Would you like an orange?",
+      "chinese": "你想吃一个橙子吗？",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "橙子"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S01-004",
+      "word": "pear",
+      "meaning": "梨",
+      "english": "The pear is sweet.",
+      "chinese": "这个梨很甜。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 3,
+          "text": "梨"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S01-005",
+      "word": "peach",
+      "meaning": "桃子",
+      "english": "This peach smells lovely.",
+      "chinese": "这个桃子闻起来很香。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "桃子"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S01-006",
+      "word": "plum",
+      "meaning": "李子",
+      "english": "The plum is small and purple.",
+      "chinese": "这颗李子又小又紫。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "李子"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S01-007",
+      "word": "grape",
+      "meaning": "葡萄",
+      "english": "A grape fell on the floor.",
+      "chinese": "一颗葡萄掉在地上。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "葡萄"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S01-008",
+      "word": "grapes",
+      "meaning": "葡萄（复数）",
+      "english": "These grapes are very sweet.",
+      "chinese": "这些葡萄很甜。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "葡萄"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S01-009",
+      "word": "strawberry",
+      "meaning": "草莓",
+      "english": "I put a strawberry on the cake.",
+      "chinese": "我在蛋糕上放了一颗草莓。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 9,
+          "end": 11,
+          "text": "草莓"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S01-010",
+      "word": "blueberry",
+      "meaning": "蓝莓",
+      "english": "She eats blueberries with yoghurt.",
+      "chinese": "她把蓝莓和酸奶一起吃。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "蓝莓"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S01-011",
+      "word": "raspberry",
+      "meaning": "覆盆子；树莓",
+      "english": "A raspberry is soft and red.",
+      "chinese": "树莓柔软且呈红色。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "树莓"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S01-012",
+      "word": "cherry",
+      "meaning": "樱桃",
+      "english": "There is a cherry on top.",
+      "chinese": "最上面有一颗樱桃。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 8,
+          "text": "樱桃"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S01-013",
+      "word": "watermelon",
+      "meaning": "西瓜",
+      "english": "We share a watermelon in summer.",
+      "chinese": "夏天我们一起吃西瓜。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 9,
+          "text": "西瓜"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S01-014",
+      "word": "melon",
+      "meaning": "甜瓜；瓜",
+      "english": "The melon is ripe.",
+      "chinese": "这个瓜熟了。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 3,
+          "text": "瓜"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S01-015",
+      "word": "pineapple",
+      "meaning": "菠萝",
+      "english": "Pineapple tastes sweet and sour.",
+      "chinese": "菠萝吃起来酸甜。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "菠萝"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S01-016",
+      "word": "mango",
+      "meaning": "芒果",
+      "english": "This mango is ripe.",
+      "chinese": "这个芒果熟了。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "芒果"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S01-017",
+      "word": "lemon",
+      "meaning": "柠檬",
+      "english": "A lemon tastes sour.",
+      "chinese": "柠檬尝起来很酸。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "柠檬"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S01-018",
+      "word": "lime",
+      "meaning": "青柠",
+      "english": "Add a slice of lime to the water.",
+      "chinese": "在水里加一片青柠。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 8,
+          "text": "青柠"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S01-019",
+      "word": "grapefruit",
+      "meaning": "葡萄柚",
+      "english": "Grapefruit can taste bitter.",
+      "chinese": "葡萄柚可能带点苦味。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "葡萄柚"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S01-020",
+      "word": "kiwi fruit",
+      "meaning": "猕猴桃",
+      "english": "Cut the kiwi fruit in half.",
+      "chinese": "把猕猴桃切成两半。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 4,
+          "text": "猕猴桃"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S01-021",
+      "word": "coconut",
+      "meaning": "椰子",
+      "english": "A coconut has a hard shell.",
+      "chinese": "椰子有坚硬的外壳。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "椰子"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S01-022",
+      "word": "avocado",
+      "meaning": "牛油果",
+      "english": "I put avocado on my toast.",
+      "chinese": "我把牛油果放在吐司上。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 5,
+          "text": "牛油果"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S01-023",
+      "word": "papaya",
+      "meaning": "木瓜",
+      "english": "The papaya is soft and orange.",
+      "chinese": "木瓜柔软，果肉呈橙色。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "木瓜"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S01-024",
+      "word": "pomegranate",
+      "meaning": "石榴",
+      "english": "A pomegranate has many seeds.",
+      "chinese": "石榴里面有很多籽。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "石榴"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S01-025",
+      "word": "apricot",
+      "meaning": "杏",
+      "english": "The apricot is small and sweet.",
+      "chinese": "杏子个头小，味道甜。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 1,
+          "text": "杏"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S01-026",
+      "word": "nectarine",
+      "meaning": "油桃",
+      "english": "A nectarine has smooth skin.",
+      "chinese": "油桃的表皮很光滑。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "油桃"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S01-027",
+      "word": "fig",
+      "meaning": "无花果",
+      "english": "The fig is ripe and soft.",
+      "chinese": "这个无花果熟了，摸起来很软。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 5,
+          "text": "无花果"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S01-028",
+      "word": "date",
+      "meaning": "枣；椰枣",
+      "english": "Dates are naturally sweet.",
+      "chinese": "椰枣天然带有甜味。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "椰枣"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S01-029",
+      "word": "fruit salad",
+      "meaning": "水果沙拉",
+      "english": "We make fruit salad together.",
+      "chinese": "我们一起做水果沙拉。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 9,
+          "text": "水果沙拉"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S01-030",
+      "word": "peel",
+      "meaning": "果皮；剥皮",
+      "english": "Peel the banana before you eat it.",
+      "chinese": "吃香蕉前先剥皮。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "剥皮"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S01-031",
+      "word": "seed",
+      "meaning": "种子；果核",
+      "english": "There is a seed in the apple.",
+      "chinese": "苹果里有一颗籽。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 7,
+          "text": "籽"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S02-001",
+      "word": "carrot",
+      "meaning": "胡萝卜",
+      "english": "Rabbits like carrots.",
+      "chinese": "兔子喜欢胡萝卜。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 7,
+          "text": "胡萝卜"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S02-002",
+      "word": "potato",
+      "meaning": "土豆",
+      "english": "We bake a potato for lunch.",
+      "chinese": "我们午饭烤一个土豆。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 9,
+          "text": "土豆"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S02-003",
+      "word": "tomato",
+      "meaning": "番茄",
+      "english": "Cut the tomato into small pieces.",
+      "chinese": "把番茄切成小块。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "番茄"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S02-004",
+      "word": "onion",
+      "meaning": "洋葱",
+      "english": "Chop the onion carefully.",
+      "chinese": "小心地把洋葱切碎。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "洋葱"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S02-005",
+      "word": "garlic",
+      "meaning": "大蒜",
+      "english": "Garlic gives the soup more flavour.",
+      "chinese": "大蒜能让汤更有味道。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "大蒜"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S02-006",
+      "word": "cucumber",
+      "meaning": "黄瓜",
+      "english": "I put cucumber in my sandwich.",
+      "chinese": "我在三明治里放了黄瓜。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 8,
+          "end": 10,
+          "text": "黄瓜"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S02-007",
+      "word": "lettuce",
+      "meaning": "生菜",
+      "english": "The lettuce is fresh and crisp.",
+      "chinese": "生菜新鲜又脆。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "生菜"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S02-008",
+      "word": "cabbage",
+      "meaning": "卷心菜",
+      "english": "We cook cabbage with carrots.",
+      "chinese": "我们把卷心菜和胡萝卜一起煮。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 6,
+          "text": "卷心菜"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S02-009",
+      "word": "broccoli",
+      "meaning": "西兰花",
+      "english": "Broccoli is green.",
+      "chinese": "西兰花是绿色的。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "西兰花"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S02-010",
+      "word": "cauliflower",
+      "meaning": "花椰菜；菜花",
+      "english": "Cauliflower is white.",
+      "chinese": "花椰菜是白色的。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "花椰菜"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S02-011",
+      "word": "spinach",
+      "meaning": "菠菜",
+      "english": "Add spinach to the pasta.",
+      "chinese": "在意面里加些菠菜。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 8,
+          "text": "菠菜"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S02-012",
+      "word": "pea",
+      "meaning": "豌豆",
+      "english": "One pea rolled off my plate.",
+      "chinese": "一颗豌豆从我的盘子里滚了下来。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "豌豆"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S02-013",
+      "word": "peas",
+      "meaning": "豌豆（复数）",
+      "english": "The peas are ready to eat.",
+      "chinese": "豌豆可以吃了。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "豌豆"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S02-014",
+      "word": "green bean",
+      "meaning": "四季豆；青豆角",
+      "english": "She cuts the green beans.",
+      "chinese": "她把青豆角切好。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 5,
+          "text": "青豆角"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S02-015",
+      "word": "sweetcorn",
+      "meaning": "甜玉米",
+      "english": "I like sweetcorn in my salad.",
+      "chinese": "我喜欢在沙拉里加甜玉米。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 8,
+          "end": 11,
+          "text": "甜玉米"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S02-016",
+      "word": "pepper",
+      "meaning": "甜椒；胡椒",
+      "english": "The red pepper is sweet.",
+      "chinese": "红甜椒味道很甜。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "甜椒"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S02-017",
+      "word": "chilli",
+      "meaning": "辣椒",
+      "english": "This chilli is very hot.",
+      "chinese": "这个辣椒非常辣。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "辣椒"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S02-018",
+      "word": "pumpkin",
+      "meaning": "南瓜",
+      "english": "We make pumpkin soup in autumn.",
+      "chinese": "秋天我们做南瓜汤。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "南瓜"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S02-019",
+      "word": "courgette",
+      "meaning": "西葫芦（英式）",
+      "english": "Slice the courgette thinly.",
+      "chinese": "把西葫芦切成薄片。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 4,
+          "text": "西葫芦"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S02-020",
+      "word": "aubergine",
+      "meaning": "茄子（英式）",
+      "english": "The aubergine is dark purple.",
+      "chinese": "茄子是深紫色的。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "茄子"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S02-021",
+      "word": "mushroom",
+      "meaning": "蘑菇",
+      "english": "There are mushrooms in the soup.",
+      "chinese": "汤里有蘑菇。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "蘑菇"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S02-022",
+      "word": "celery",
+      "meaning": "芹菜",
+      "english": "Celery is crunchy.",
+      "chinese": "芹菜吃起来很脆。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "芹菜"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S02-023",
+      "word": "radish",
+      "meaning": "小萝卜；水萝卜",
+      "english": "The radish is red and white.",
+      "chinese": "这种小萝卜红白相间。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 5,
+          "text": "小萝卜"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S02-024",
+      "word": "beetroot",
+      "meaning": "甜菜根（英式）",
+      "english": "Beetroot can make food pink.",
+      "chinese": "甜菜根可以让食物变成粉红色。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "甜菜根"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S02-025",
+      "word": "turnip",
+      "meaning": "芜菁；大头菜",
+      "english": "The turnip grows under the ground.",
+      "chinese": "芜菁生长在地下。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "芜菁"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S02-026",
+      "word": "sweet potato",
+      "meaning": "红薯；甘薯",
+      "english": "I like baked sweet potato.",
+      "chinese": "我喜欢烤红薯。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "红薯"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S02-027",
+      "word": "leek",
+      "meaning": "韭葱",
+      "english": "Leek is used in this soup.",
+      "chinese": "这道汤里用到了韭葱。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 9,
+          "text": "韭葱"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S02-028",
+      "word": "asparagus",
+      "meaning": "芦笋",
+      "english": "We steam the asparagus.",
+      "chinese": "我们把芦笋蒸熟。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "芦笋"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S02-029",
+      "word": "spring onion",
+      "meaning": "葱；青葱（英式）",
+      "english": "Chop the spring onion.",
+      "chinese": "把青葱切碎。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "青葱"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S02-030",
+      "word": "bean sprout",
+      "meaning": "豆芽",
+      "english": "Bean sprouts are crisp.",
+      "chinese": "豆芽吃起来很脆。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "豆芽"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S02-031",
+      "word": "ginger",
+      "meaning": "姜",
+      "english": "Add a little ginger to the soup.",
+      "chinese": "在汤里加一点姜。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 7,
+          "text": "姜"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S02-032",
+      "word": "salad",
+      "meaning": "沙拉；凉拌菜",
+      "english": "We eat salad with lunch.",
+      "chinese": "我们午餐吃沙拉。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "沙拉"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S02-033",
+      "word": "vegetable soup",
+      "meaning": "蔬菜汤",
+      "english": "The vegetable soup is warm.",
+      "chinese": "蔬菜汤热乎乎的。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "蔬菜汤"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S03-001",
+      "word": "bread",
+      "meaning": "面包",
+      "english": "I eat bread for breakfast.",
+      "chinese": "我早餐吃面包。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "面包"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S03-002",
+      "word": "rice",
+      "meaning": "米饭；大米",
+      "english": "We have rice with dinner.",
+      "chinese": "我们晚餐吃米饭。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "米饭"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S03-003",
+      "word": "pasta",
+      "meaning": "意大利面",
+      "english": "The pasta is ready.",
+      "chinese": "意大利面做好了。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 4,
+          "text": "意大利面"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S03-004",
+      "word": "noodles",
+      "meaning": "面条",
+      "english": "I like noodles with vegetables.",
+      "chinese": "我喜欢吃蔬菜面。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 7,
+          "text": "面"
+        }
+      ],
+      "usage": "",
+      "note": "蔬菜面里的“面”对应 noodles，蔬菜对应已给出的 vegetables。"
+    },
+    {
+      "id": "C05-S03-005",
+      "word": "flour",
+      "meaning": "面粉",
+      "english": "We use flour to make bread.",
+      "chinese": "我们用面粉做面包。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "面粉"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S03-006",
+      "word": "cereal",
+      "meaning": "谷物早餐；麦片",
+      "english": "I eat cereal with milk.",
+      "chinese": "我用牛奶泡麦片吃。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "麦片"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S03-007",
+      "word": "porridge",
+      "meaning": "燕麦粥；粥",
+      "english": "Porridge is warm and filling.",
+      "chinese": "燕麦粥热乎又顶饱。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "燕麦粥"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S03-008",
+      "word": "oats",
+      "meaning": "燕麦",
+      "english": "Oats are used to make porridge.",
+      "chinese": "燕麦可以用来煮粥。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "燕麦"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S03-009",
+      "word": "sandwich",
+      "meaning": "三明治",
+      "english": "I take a sandwich to school.",
+      "chinese": "我带三明治去学校。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 5,
+          "text": "三明治"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S03-010",
+      "word": "toast",
+      "meaning": "烤面包片",
+      "english": "I have toast and an egg.",
+      "chinese": "我吃烤面包片和鸡蛋。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 6,
+          "text": "烤面包片"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S03-011",
+      "word": "pancake",
+      "meaning": "薄煎饼",
+      "english": "We make pancakes on Sunday.",
+      "chinese": "我们星期日做薄煎饼。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 9,
+          "text": "薄煎饼"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S03-012",
+      "word": "egg",
+      "meaning": "鸡蛋",
+      "english": "I eat a boiled egg.",
+      "chinese": "我吃一个水煮蛋。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 7,
+          "text": "蛋"
+        }
+      ],
+      "usage": "",
+      "note": "水煮蛋里的“蛋”对应 egg；水煮对应已给出的 boiled。"
+    },
+    {
+      "id": "C05-S03-013",
+      "word": "cheese",
+      "meaning": "奶酪",
+      "english": "Put some cheese on the bread.",
+      "chinese": "在面包上放些奶酪。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 8,
+          "text": "奶酪"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S03-014",
+      "word": "butter",
+      "meaning": "黄油",
+      "english": "Spread butter on the toast.",
+      "chinese": "把黄油涂在烤面包片上。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "黄油"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S03-015",
+      "word": "yoghurt",
+      "meaning": "酸奶（英式拼写）",
+      "english": "I eat yoghurt with fruit.",
+      "chinese": "我把酸奶和水果一起吃。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "酸奶"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S03-016",
+      "word": "meat",
+      "meaning": "肉",
+      "english": "This dish has no meat.",
+      "chinese": "这道菜不含肉。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 6,
+          "text": "肉"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S03-017",
+      "word": "chicken",
+      "meaning": "鸡肉；鸡",
+      "english": "We have chicken and rice.",
+      "chinese": "我们吃鸡肉和米饭。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "鸡肉"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S03-018",
+      "word": "beef",
+      "meaning": "牛肉",
+      "english": "The beef is tender.",
+      "chinese": "牛肉很嫩。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "牛肉"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S03-019",
+      "word": "pork",
+      "meaning": "猪肉",
+      "english": "Pork is used in this dish.",
+      "chinese": "这道菜用到了猪肉。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 8,
+          "text": "猪肉"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S03-020",
+      "word": "lamb",
+      "meaning": "羊肉；羔羊",
+      "english": "We cook lamb with potatoes.",
+      "chinese": "我们把羊肉和土豆一起煮。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "羊肉"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S03-021",
+      "word": "fish",
+      "meaning": "鱼；鱼肉",
+      "english": "We eat fish on Fridays.",
+      "chinese": "我们星期五吃鱼。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 7,
+          "text": "鱼"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S03-022",
+      "word": "prawn",
+      "meaning": "大虾",
+      "english": "There are prawns in the salad.",
+      "chinese": "沙拉里有大虾。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "大虾"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S03-023",
+      "word": "sausage",
+      "meaning": "香肠",
+      "english": "The sausage is hot.",
+      "chinese": "香肠是热的。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "香肠"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S03-024",
+      "word": "bacon",
+      "meaning": "培根；熏猪肉",
+      "english": "Dad cooks bacon for breakfast.",
+      "chinese": "爸爸做培根当早餐。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "培根"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S03-025",
+      "word": "soup",
+      "meaning": "汤",
+      "english": "The soup smells good.",
+      "chinese": "这汤闻起来很香。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 2,
+          "text": "汤"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S03-026",
+      "word": "pizza",
+      "meaning": "披萨",
+      "english": "We share a pizza.",
+      "chinese": "我们一起分吃一个披萨。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 8,
+          "end": 10,
+          "text": "披萨"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S03-027",
+      "word": "burger",
+      "meaning": "汉堡包",
+      "english": "He orders a chicken burger.",
+      "chinese": "他点了一个鸡肉汉堡。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 9,
+          "text": "汉堡"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S03-028",
+      "word": "chips",
+      "meaning": "薯条（英式）",
+      "english": "Fish and chips is a popular meal.",
+      "chinese": "炸鱼薯条是一种受欢迎的餐食。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "薯条"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S03-029",
+      "word": "crisps",
+      "meaning": "薯片（英式）",
+      "english": "I have a small packet of crisps.",
+      "chinese": "我吃一小包薯片。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "薯片"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S03-030",
+      "word": "biscuit",
+      "meaning": "饼干（英式）",
+      "english": "Would you like a biscuit?",
+      "chinese": "你想吃块饼干吗？",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "饼干"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S03-031",
+      "word": "cake",
+      "meaning": "蛋糕",
+      "english": "We bake a cake for her birthday.",
+      "chinese": "我们为她的生日烤蛋糕。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 8,
+          "end": 10,
+          "text": "蛋糕"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S03-032",
+      "word": "chocolate",
+      "meaning": "巧克力",
+      "english": "This chocolate is sweet.",
+      "chinese": "这块巧克力很甜。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 5,
+          "text": "巧克力"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S03-033",
+      "word": "honey",
+      "meaning": "蜂蜜",
+      "english": "I add honey to my tea.",
+      "chinese": "我在茶里加蜂蜜。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "蜂蜜"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S03-034",
+      "word": "jam",
+      "meaning": "果酱",
+      "english": "I spread jam on my toast.",
+      "chinese": "我把果酱涂在烤面包片上。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "果酱"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S03-035",
+      "word": "sugar",
+      "meaning": "糖",
+      "english": "Would you like sugar in your tea?",
+      "chinese": "你的茶里要加糖吗？",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 7,
+          "text": "糖"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S03-036",
+      "word": "salt",
+      "meaning": "盐",
+      "english": "Add a little salt.",
+      "chinese": "加一点盐。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 4,
+          "text": "盐"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S03-037",
+      "word": "oil",
+      "meaning": "食用油；油",
+      "english": "We cook vegetables in oil.",
+      "chinese": "我们用油炒蔬菜。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 4,
+          "text": "油"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S03-038",
+      "word": "breakfast",
+      "meaning": "早餐",
+      "english": "Breakfast is ready.",
+      "chinese": "早餐准备好了。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "早餐"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S03-039",
+      "word": "lunch",
+      "meaning": "午餐",
+      "english": "We have lunch at twelve.",
+      "chinese": "我们十二点吃午餐。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 8,
+          "text": "午餐"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S03-040",
+      "word": "dinner",
+      "meaning": "晚餐；正餐",
+      "english": "Dinner is on the table.",
+      "chinese": "晚餐已经摆在桌上。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "晚餐"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S03-041",
+      "word": "meal",
+      "meaning": "一餐；膳食",
+      "english": "This is a healthy meal.",
+      "chinese": "这是一顿健康的饭。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "一顿"
+        },
+        {
+          "start": 7,
+          "end": 8,
+          "text": "饭"
+        }
+      ],
+      "usage": "",
+      "note": "meal 在本句中表示“一顿饭”；中间的“健康的”对应已给出的 healthy。"
+    },
+    {
+      "id": "C05-S03-042",
+      "word": "snack",
+      "meaning": "零食；点心",
+      "english": "I have a snack after school.",
+      "chinese": "我放学后吃点心。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "点心"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S03-043",
+      "word": "dessert",
+      "meaning": "甜点",
+      "english": "Fruit is my favourite dessert.",
+      "chinese": "水果是我最喜欢的甜点。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 8,
+          "end": 10,
+          "text": "甜点"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S04-001",
+      "word": "water",
+      "meaning": "水",
+      "english": "Please drink some water.",
+      "chinese": "请喝点水。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 4,
+          "text": "水"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S04-002",
+      "word": "tap water",
+      "meaning": "自来水",
+      "english": "Tap water is safe to drink here.",
+      "chinese": "这里的自来水可以安全饮用。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 6,
+          "text": "自来水"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S04-003",
+      "word": "sparkling water",
+      "meaning": "气泡水",
+      "english": "She prefers sparkling water.",
+      "chinese": "她更喜欢气泡水。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 7,
+          "text": "气泡水"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S04-004",
+      "word": "mineral water",
+      "meaning": "矿泉水",
+      "english": "I bought a bottle of mineral water.",
+      "chinese": "我买了一瓶矿泉水。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 8,
+          "text": "矿泉水"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S04-005",
+      "word": "milk",
+      "meaning": "牛奶",
+      "english": "The child drinks milk every morning.",
+      "chinese": "孩子每天早上喝牛奶。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 9,
+          "text": "牛奶"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S04-006",
+      "word": "soya milk",
+      "meaning": "豆奶（英式）",
+      "english": "Soya milk is in the fridge.",
+      "chinese": "豆奶在冰箱里。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "豆奶"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S04-007",
+      "word": "orange juice",
+      "meaning": "橙汁",
+      "english": "I have orange juice with breakfast.",
+      "chinese": "我早餐喝橙汁。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "橙汁"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S04-008",
+      "word": "apple juice",
+      "meaning": "苹果汁",
+      "english": "Would you like apple juice?",
+      "chinese": "你想喝苹果汁吗？",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 6,
+          "text": "苹果汁"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S04-009",
+      "word": "fruit juice",
+      "meaning": "果汁",
+      "english": "This fruit juice has no added sugar.",
+      "chinese": "这款果汁没有额外添加糖。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "果汁"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S04-010",
+      "word": "tea",
+      "meaning": "茶",
+      "english": "My grandpa drinks tea every day.",
+      "chinese": "我爷爷每天喝茶。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 7,
+          "text": "茶"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S04-011",
+      "word": "black tea",
+      "meaning": "红茶",
+      "english": "I drink black tea without sugar.",
+      "chinese": "我喝不加糖的红茶。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 8,
+          "text": "红茶"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S04-012",
+      "word": "green tea",
+      "meaning": "绿茶",
+      "english": "Green tea is served warm.",
+      "chinese": "绿茶是温热着端上来的。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "绿茶"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S04-013",
+      "word": "herbal tea",
+      "meaning": "花草茶",
+      "english": "She drinks herbal tea at night.",
+      "chinese": "她晚上喝花草茶。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 7,
+          "text": "花草茶"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S04-014",
+      "word": "coffee",
+      "meaning": "咖啡",
+      "english": "Dad makes coffee in the morning.",
+      "chinese": "爸爸早上煮咖啡。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "咖啡"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S04-015",
+      "word": "hot chocolate",
+      "meaning": "热巧克力饮料",
+      "english": "I drink hot chocolate on cold days.",
+      "chinese": "天气冷时我喝热巧克力。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 10,
+          "text": "热巧克力"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S04-016",
+      "word": "lemonade",
+      "meaning": "柠檬汽水；柠檬饮料",
+      "english": "The lemonade tastes fresh.",
+      "chinese": "柠檬饮料喝起来很清爽。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 4,
+          "text": "柠檬饮料"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S04-017",
+      "word": "squash",
+      "meaning": "浓缩果汁饮料（英式）",
+      "english": "Dilute the squash with water.",
+      "chinese": "把浓缩果汁饮料加水稀释。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 7,
+          "text": "浓缩果汁饮料"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S04-018",
+      "word": "fizzy drink",
+      "meaning": "汽水；碳酸饮料",
+      "english": "This fizzy drink has bubbles.",
+      "chinese": "这款汽水里有气泡。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "汽水"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S04-019",
+      "word": "soft drink",
+      "meaning": "软饮料；不含酒精的饮料",
+      "english": "Would you like a soft drink?",
+      "chinese": "你想喝一杯软饮料吗？",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 8,
+          "text": "软饮料"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S04-020",
+      "word": "smoothie",
+      "meaning": "思慕雪；水果奶昔",
+      "english": "I make a banana smoothie.",
+      "chinese": "我做了一杯香蕉思慕雪。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 10,
+          "text": "思慕雪"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S04-021",
+      "word": "milkshake",
+      "meaning": "奶昔",
+      "english": "He orders a strawberry milkshake.",
+      "chinese": "他点了一杯草莓奶昔。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 9,
+          "text": "奶昔"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S04-022",
+      "word": "drink",
+      "meaning": "饮料；喝",
+      "english": "This drink is cold.",
+      "chinese": "这杯饮料是冰的。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "饮料"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S04-023",
+      "word": "cup of tea",
+      "meaning": "一杯茶",
+      "english": "Would you like a cup of tea?",
+      "chinese": "你想喝一杯茶吗？",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 6,
+          "text": "一杯茶"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S04-024",
+      "word": "glass of water",
+      "meaning": "一杯水",
+      "english": "Can I have a glass of water?",
+      "chinese": "可以给我一杯水吗？",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 7,
+          "text": "一杯水"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S04-025",
+      "word": "bottle of water",
+      "meaning": "一瓶水",
+      "english": "Take a bottle of water with you.",
+      "chinese": "随身带一瓶水。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 6,
+          "text": "一瓶水"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S04-026",
+      "word": "thirsty",
+      "meaning": "口渴的",
+      "english": "I am thirsty after running.",
+      "chinese": "跑步后我口渴了。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "口渴"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S05-001",
+      "word": "body",
+      "meaning": "身体",
+      "english": "Exercise is good for your body.",
+      "chinese": "运动对身体有好处。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "身体"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S05-002",
+      "word": "head",
+      "meaning": "头",
+      "english": "Put the hat on your head.",
+      "chinese": "把帽子戴在头上。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 6,
+          "text": "头"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S05-003",
+      "word": "face",
+      "meaning": "脸；面部",
+      "english": "Wash your face in the morning.",
+      "chinese": "早上洗脸。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 4,
+          "text": "脸"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S05-004",
+      "word": "hair",
+      "meaning": "头发",
+      "english": "Her hair is long.",
+      "chinese": "她的头发很长。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "头发"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S05-005",
+      "word": "forehead",
+      "meaning": "额头",
+      "english": "He has a cool cloth on his forehead.",
+      "chinese": "他额头上敷着一块凉布。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "额头"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S05-006",
+      "word": "eye",
+      "meaning": "眼睛",
+      "english": "Close one eye.",
+      "chinese": "闭上一只眼睛。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "眼睛"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S05-007",
+      "word": "eyes",
+      "meaning": "眼睛（复数）",
+      "english": "Her eyes are brown.",
+      "chinese": "她的眼睛是棕色的。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "眼睛"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S05-008",
+      "word": "eyebrow",
+      "meaning": "眉毛",
+      "english": "He raised an eyebrow.",
+      "chinese": "他扬起了一边眉毛。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 8,
+          "text": "眉毛"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S05-009",
+      "word": "eyelash",
+      "meaning": "睫毛",
+      "english": "An eyelash fell on her cheek.",
+      "chinese": "一根睫毛落在她脸颊上。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "睫毛"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S05-010",
+      "word": "ear",
+      "meaning": "耳朵",
+      "english": "I can hear with each ear.",
+      "chinese": "我用耳朵听声音。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "耳朵"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S05-011",
+      "word": "nose",
+      "meaning": "鼻子",
+      "english": "Touch your nose.",
+      "chinese": "摸摸你的鼻子。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "鼻子"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S05-012",
+      "word": "cheek",
+      "meaning": "脸颊",
+      "english": "The baby has a round cheek.",
+      "chinese": "宝宝的脸颊圆圆的。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "脸颊"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S05-013",
+      "word": "mouth",
+      "meaning": "嘴；口腔",
+      "english": "Open your mouth, please.",
+      "chinese": "请张开嘴。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 4,
+          "text": "嘴"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S05-014",
+      "word": "lip",
+      "meaning": "嘴唇",
+      "english": "She has a smile on her lips.",
+      "chinese": "她嘴角带着微笑。",
+      "mode": "usage",
+      "spans": [],
+      "usage": "a smile on her lips 在本句中整体表示“嘴角带着微笑”；lip 本义是嘴唇，例句使用复数 lips。",
+      "note": ""
+    },
+    {
+      "id": "C05-S05-015",
+      "word": "tooth",
+      "meaning": "牙齿（单数）",
+      "english": "I lost a baby tooth.",
+      "chinese": "我掉了一颗乳牙。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 7,
+          "text": "牙"
+        }
+      ],
+      "usage": "",
+      "note": "baby tooth 表示乳牙；tooth 指单颗牙齿，teeth 是复数。"
+    },
+    {
+      "id": "C05-S05-016",
+      "word": "teeth",
+      "meaning": "牙齿（复数）",
+      "english": "Brush your teeth twice a day.",
+      "chinese": "每天刷两次牙。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 6,
+          "text": "牙"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S05-017",
+      "word": "tongue",
+      "meaning": "舌头",
+      "english": "The doctor asked me to show my tongue.",
+      "chinese": "医生让我伸出舌头。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 8,
+          "text": "舌头"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S05-018",
+      "word": "chin",
+      "meaning": "下巴",
+      "english": "He rested his chin on his hand.",
+      "chinese": "他把下巴靠在手上。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "下巴"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S05-019",
+      "word": "neck",
+      "meaning": "脖子；颈部",
+      "english": "A scarf keeps your neck warm.",
+      "chinese": "围巾能让脖子暖和。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "脖子"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S05-020",
+      "word": "shoulder",
+      "meaning": "肩膀",
+      "english": "My schoolbag is on one shoulder.",
+      "chinese": "我的书包背在一侧肩膀上。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 8,
+          "end": 10,
+          "text": "肩膀"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S05-021",
+      "word": "arm",
+      "meaning": "手臂",
+      "english": "Raise your arm.",
+      "chinese": "举起你的手臂。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "手臂"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S05-022",
+      "word": "elbow",
+      "meaning": "肘部",
+      "english": "I bumped my elbow on the desk.",
+      "chinese": "我的肘部撞到了桌子。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "肘部"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S05-023",
+      "word": "wrist",
+      "meaning": "手腕",
+      "english": "The watch is around my wrist.",
+      "chinese": "手表戴在我的手腕上。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 8,
+          "text": "手腕"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S05-024",
+      "word": "hand",
+      "meaning": "手",
+      "english": "Wash your hands before eating.",
+      "chinese": "吃东西前洗手。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 6,
+          "text": "手"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S05-025",
+      "word": "finger",
+      "meaning": "手指",
+      "english": "Count on your fingers.",
+      "chinese": "用手指数数。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "手指"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S05-026",
+      "word": "thumb",
+      "meaning": "拇指",
+      "english": "Give me a thumbs-up.",
+      "chinese": "给我竖个大拇指。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "拇指"
+        }
+      ],
+      "usage": "",
+      "note": "thumb 表示拇指；例句 thumbs-up 整体表示竖拇指的手势，沿用单词拼写练习，不把复合表达当成单词原型。"
+    },
+    {
+      "id": "C05-S05-027",
+      "word": "nail",
+      "meaning": "指甲；趾甲",
+      "english": "Keep your nails clean.",
+      "chinese": "保持指甲清洁。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "指甲"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S05-028",
+      "word": "chest",
+      "meaning": "胸部",
+      "english": "The badge is on his chest.",
+      "chinese": "徽章在他的胸前。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 6,
+          "text": "胸"
+        }
+      ],
+      "usage": "",
+      "note": "on his chest 在本句中译为在他的胸前；chest 本义是胸部。"
+    },
+    {
+      "id": "C05-S05-029",
+      "word": "back",
+      "meaning": "背部；后背",
+      "english": "My back feels tired after sitting.",
+      "chinese": "坐久了我觉得后背累。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 8,
+          "text": "后背"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S05-030",
+      "word": "stomach",
+      "meaning": "胃；腹部",
+      "english": "My stomach is full.",
+      "chinese": "我的肚子饱了。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "肚子"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S05-031",
+      "word": "waist",
+      "meaning": "腰部",
+      "english": "The belt goes around your waist.",
+      "chinese": "腰带系在腰部。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "腰部"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S05-032",
+      "word": "hip",
+      "meaning": "髋部；臀部侧面",
+      "english": "He hurt his hip while playing.",
+      "chinese": "他玩耍时伤到了髋部。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 9,
+          "text": "髋部"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S05-033",
+      "word": "leg",
+      "meaning": "腿",
+      "english": "Stretch your leg gently.",
+      "chinese": "轻轻伸展你的腿。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 7,
+          "text": "腿"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S05-034",
+      "word": "knee",
+      "meaning": "膝盖",
+      "english": "She fell and hurt her knee.",
+      "chinese": "她摔倒时伤到了膝盖。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 9,
+          "text": "膝盖"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S05-035",
+      "word": "ankle",
+      "meaning": "脚踝",
+      "english": "He twisted his ankle.",
+      "chinese": "他扭伤了脚踝。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "脚踝"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S05-036",
+      "word": "foot",
+      "meaning": "脚（单数）",
+      "english": "My foot is cold.",
+      "chinese": "我的脚很冷。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 3,
+          "text": "脚"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S05-037",
+      "word": "feet",
+      "meaning": "脚（复数）",
+      "english": "Put both feet on the floor.",
+      "chinese": "双脚都放在地板上。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 2,
+          "text": "脚"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S05-038",
+      "word": "toe",
+      "meaning": "脚趾",
+      "english": "I stubbed my toe.",
+      "chinese": "我的脚趾撞到了东西。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "脚趾"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S05-039",
+      "word": "skin",
+      "meaning": "皮肤",
+      "english": "Protect your skin from the sun.",
+      "chinese": "保护皮肤，避免阳光直晒。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "皮肤"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S05-040",
+      "word": "heart",
+      "meaning": "心脏",
+      "english": "Your heart pumps blood around your body.",
+      "chinese": "心脏把血液输送到全身。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "心脏"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S05-041",
+      "word": "brain",
+      "meaning": "大脑",
+      "english": "Your brain helps you think.",
+      "chinese": "大脑帮助你思考。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "大脑"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S06-001",
+      "word": "healthy",
+      "meaning": "健康的",
+      "english": "Fruit and vegetables help us stay healthy.",
+      "chinese": "水果和蔬菜有助于我们保持健康。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 12,
+          "end": 14,
+          "text": "健康"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S06-002",
+      "word": "ill",
+      "meaning": "生病的；不舒服的",
+      "english": "I feel ill today.",
+      "chinese": "我今天觉得不舒服。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 8,
+          "text": "不舒服"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S06-003",
+      "word": "sick",
+      "meaning": "生病的；恶心的",
+      "english": "The child feels sick.",
+      "chinese": "这个孩子觉得恶心。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 8,
+          "text": "恶心"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S06-004",
+      "word": "unwell",
+      "meaning": "身体不适的",
+      "english": "She is a little unwell.",
+      "chinese": "她有点不舒服。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 6,
+          "text": "不舒服"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S06-005",
+      "word": "pain",
+      "meaning": "疼痛",
+      "english": "Tell an adult if you have pain.",
+      "chinese": "如果你感到疼痛，要告诉大人。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "疼痛"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S06-006",
+      "word": "ache",
+      "meaning": "持续的疼痛；疼",
+      "english": "My legs ache after the long walk.",
+      "chinese": "走了很久后我的腿疼。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 8,
+          "end": 9,
+          "text": "疼"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S06-007",
+      "word": "headache",
+      "meaning": "头痛",
+      "english": "I have a headache.",
+      "chinese": "我头痛。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "头痛"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S06-008",
+      "word": "stomach ache",
+      "meaning": "胃痛；肚子痛",
+      "english": "He has a stomach ache.",
+      "chinese": "他肚子痛。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 4,
+          "text": "肚子痛"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S06-009",
+      "word": "toothache",
+      "meaning": "牙痛",
+      "english": "I have toothache and need a dentist.",
+      "chinese": "我牙痛，需要看牙医。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "牙痛"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S06-010",
+      "word": "earache",
+      "meaning": "耳痛",
+      "english": "She stayed home because of earache.",
+      "chinese": "她因为耳痛待在家里。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "耳痛"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S06-011",
+      "word": "sore throat",
+      "meaning": "喉咙痛",
+      "english": "I have a sore throat.",
+      "chinese": "我喉咙痛。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 4,
+          "text": "喉咙痛"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S06-012",
+      "word": "cough",
+      "meaning": "咳嗽；咳",
+      "english": "Cover your mouth when you cough.",
+      "chinese": "咳嗽时捂住嘴。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "咳嗽"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S06-013",
+      "word": "cold",
+      "meaning": "感冒；寒冷的",
+      "english": "I have a cold, so I am resting.",
+      "chinese": "我感冒了，所以正在休息。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "感冒"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S06-014",
+      "word": "fever",
+      "meaning": "发烧；发热",
+      "english": "The child has a fever.",
+      "chinese": "这个孩子发烧了。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "发烧"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S06-015",
+      "word": "temperature",
+      "meaning": "体温；温度",
+      "english": "The nurse checks my temperature.",
+      "chinese": "护士给我量体温。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "体温"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S06-016",
+      "word": "sneeze",
+      "meaning": "打喷嚏",
+      "english": "I sneeze when there is dust.",
+      "chinese": "有灰尘时我会打喷嚏。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 9,
+          "text": "打喷嚏"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S06-017",
+      "word": "runny nose",
+      "meaning": "流鼻涕",
+      "english": "A runny nose can happen with a cold.",
+      "chinese": "感冒时可能会流鼻涕。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 9,
+          "text": "流鼻涕"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S06-018",
+      "word": "blocked nose",
+      "meaning": "鼻塞",
+      "english": "My blocked nose makes it hard to sleep.",
+      "chinese": "鼻塞让我难以入睡。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "鼻塞"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S06-019",
+      "word": "tired",
+      "meaning": "累的；疲倦的",
+      "english": "I feel tired after school.",
+      "chinese": "放学后我觉得累。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 7,
+          "text": "累"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S06-020",
+      "word": "sleepy",
+      "meaning": "困倦的",
+      "english": "The baby is sleepy.",
+      "chinese": "宝宝困了。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 3,
+          "text": "困"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S06-021",
+      "word": "hungry",
+      "meaning": "饥饿的",
+      "english": "I am hungry. Can I have a snack?",
+      "chinese": "我饿了，可以吃点心吗？",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 2,
+          "text": "饿"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S06-022",
+      "word": "thirsty",
+      "meaning": "口渴的",
+      "english": "I feel thirsty after playing.",
+      "chinese": "玩耍后我觉得口渴。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 8,
+          "text": "口渴"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S06-023",
+      "word": "hot",
+      "meaning": "热的；感觉热",
+      "english": "I feel hot after running.",
+      "chinese": "跑步后我觉得热。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 7,
+          "text": "热"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S06-024",
+      "word": "cold",
+      "meaning": "冷的；感觉冷",
+      "english": "My hands feel cold.",
+      "chinese": "我的手感觉很冷。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 7,
+          "text": "冷"
+        }
+      ],
+      "usage": "",
+      "note": "原词库括号 feeling 为词义标签，用于区分冷的感觉与感冒；实际学习和发音是 cold。"
+    },
+    {
+      "id": "C05-S06-025",
+      "word": "dizzy",
+      "meaning": "头晕的",
+      "english": "Sit down if you feel dizzy.",
+      "chinese": "如果觉得头晕，就坐下来。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "头晕"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S06-026",
+      "word": "hurt",
+      "meaning": "疼；受伤",
+      "english": "My knee hurts.",
+      "chinese": "我的膝盖疼。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 5,
+          "text": "疼"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S06-027",
+      "word": "bruise",
+      "meaning": "瘀青；碰伤",
+      "english": "There is a bruise on my arm.",
+      "chinese": "我的手臂上有一块瘀青。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 8,
+          "end": 10,
+          "text": "瘀青"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S06-028",
+      "word": "cut",
+      "meaning": "割伤；划伤",
+      "english": "I have a small cut on my finger.",
+      "chinese": "我的手指上有一道小划伤。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 9,
+          "end": 11,
+          "text": "划伤"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S06-029",
+      "word": "burn",
+      "meaning": "烧伤；烫伤",
+      "english": "Tell an adult if you get a burn.",
+      "chinese": "如果被烫伤，要告诉大人。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "烫伤"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S06-030",
+      "word": "medicine",
+      "meaning": "药；药物",
+      "english": "Only take medicine with an adult's help.",
+      "chinese": "只有在大人的帮助下才能服药。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 12,
+          "end": 13,
+          "text": "药"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S06-031",
+      "word": "tablet",
+      "meaning": "药片",
+      "english": "Take a tablet only as directed by an adult or clinician.",
+      "chinese": "只有在成人或医护人员指导下才能服用药片。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 17,
+          "end": 19,
+          "text": "药片"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S06-032",
+      "word": "bandage",
+      "meaning": "绷带",
+      "english": "The nurse puts a bandage on his arm.",
+      "chinese": "护士在他的手臂上包上绷带。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 10,
+          "end": 12,
+          "text": "绷带"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S06-033",
+      "word": "plaster",
+      "meaning": "创可贴（英式）",
+      "english": "Put a plaster over the small cut.",
+      "chinese": "在小伤口上贴一张创可贴。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 8,
+          "end": 11,
+          "text": "创可贴"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S06-034",
+      "word": "doctor",
+      "meaning": "医生",
+      "english": "The doctor checks my throat.",
+      "chinese": "医生检查我的喉咙。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "医生"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S06-035",
+      "word": "nurse",
+      "meaning": "护士",
+      "english": "The nurse helps the patient.",
+      "chinese": "护士帮助病人。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "护士"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S06-036",
+      "word": "dentist",
+      "meaning": "牙医",
+      "english": "I visit the dentist for a check-up.",
+      "chinese": "我去看牙医做检查。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "牙医"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S06-037",
+      "word": "hospital",
+      "meaning": "医院",
+      "english": "The ambulance takes him to hospital.",
+      "chinese": "救护车把他送到医院。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 9,
+          "text": "医院"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S06-038",
+      "word": "clinic",
+      "meaning": "诊所；门诊",
+      "english": "The clinic opens at nine.",
+      "chinese": "诊所九点开门。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "诊所"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S06-039",
+      "word": "rest",
+      "meaning": "休息",
+      "english": "You should rest when you feel unwell.",
+      "chinese": "身体不舒服时应该休息。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 8,
+          "end": 10,
+          "text": "休息"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S06-040",
+      "word": "recover",
+      "meaning": "恢复；康复",
+      "english": "She needs time to recover.",
+      "chinese": "她需要时间恢复。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "恢复"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S06-041",
+      "word": "feel better",
+      "meaning": "感觉好些",
+      "english": "I hope you feel better soon.",
+      "chinese": "希望你很快好起来。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 8,
+          "text": "好起来"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S06-042",
+      "word": "What's wrong?",
+      "meaning": "怎么了？",
+      "english": "What's wrong? Do you feel ill?",
+      "chinese": "怎么了？你不舒服吗？",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "怎么了"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S06-043",
+      "word": "I don't feel well.",
+      "meaning": "我觉得不舒服。",
+      "english": "I don't feel well, so I need to tell Mum.",
+      "chinese": "我觉得不舒服，所以要告诉妈妈。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 6,
+          "text": "我觉得不舒服"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C05-S06-044",
+      "word": "Please help me.",
+      "meaning": "请帮帮我。",
+      "english": "Please help me. I feel dizzy.",
+      "chinese": "请帮帮我，我觉得头晕。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 4,
+          "text": "请帮帮我"
+        }
+      ],
+      "usage": "",
+      "note": ""
     }
   ]
 }

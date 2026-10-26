@@ -1,6 +1,6 @@
 # Windows 上传与 GitHub Pages 部署
 
-本包包含全部 1752 个已制作 MP3（原 610 个保持，新增 C02 418 个、C03 359 个与 C04 365 个），运行网站不需要语音服务、API Key 或音频生成工具。
+本包包含全部 2169 个已制作 MP3（原 610 个保持，新增 C02 418 个、C03 359 个与 C04 365 个、C05 417 个），运行网站不需要语音服务、API Key 或音频生成工具。
 
 ## 上传哪些文件
 
@@ -10,9 +10,9 @@
 | --- | --- |
 | `index.html` | 网站主页，必须放在发布目录根部 |
 | `小蛙自习室.html` | 同一页面的旧文件名兼容入口，显示名称已改为“老K学英语” |
-| `audio/`（包括 `en-us/nature/`、`en-us/school/`、`en-us/family/`） | 全部 1752 个 MP3，原 610 个保持，必须完整上传 |
+| `audio/`（包括 `en-us/nature/`、`en-us/school/`、`en-us/family/`、`en-us/food/`） | 全部 2169 个 MP3，原 610 个保持，必须完整上传 |
 | `audio-manifest.json`、`audio-files.js`、`scene-files.js`、`category-files.js` | 播放映射及离线缓存清单，必须上传 |
-| `assets/` | 首页插画及 `assets/scenes/` 的 原 17 张合集图、1 张独立修正图及新增 14 张自然图集与 25 张学校及 25 张家庭无损 WebP 图集，以及 `assets/categories/` 的 4 张分类卡片背景图集，整个目录必须上传 |
+| `assets/` | 首页插画及 `assets/scenes/` 的 原 17 张合集图、1 张独立修正图及新增 14 张自然图集与 25 张学校及 25 张家庭及 28 张饮食健康无损 WebP 图集，以及 `assets/categories/` 的 4 张分类卡片背景图集，整个目录必须上传 |
 | `data/` | 原有资料、场景及 `meaning-catalog.json` 中的词义对应资料，整个目录上传 |
 | `sw.js`、`manifest.webmanifest` | 手机安装及离线缓存支持 |
 | `icon-192.png`、`icon-512.png`、`apple-touch-icon.png` | 网站及手机图标 |
@@ -26,19 +26,19 @@ GitHub Pages 会直接读取这些文件；上传前完成解压。
 
 ## 推荐：使用 GitHub Desktop 上传整包
 
-1752 个 MP3 适合用 GitHub Desktop 一次提交，避免网页上传的文件数量限制。
+2169 个 MP3 适合用 GitHub Desktop 一次提交，避免网页上传的文件数量限制。
 
 1. 打开 GitHub Desktop，通过浏览器登录你的 GitHub 账号。
 2. 选择 **File → Clone repository**，找到 `laodix579-beep/codex-test` 并克隆。
 3. **Current branch** 选择 `gh-pages`。这是本项目当前的网站发布分支。
 4. 选择 **Repository → Show in Explorer**，打开仓库文件夹。
 5. 把解压目录中的全部内容复制进该仓库文件夹，选择合并文件夹、替换同名文件。保留仓库已有的 `.git` 目录。
-6. 回到 GitHub Desktop，在 Summary 填写“导入家庭与日常生活词汇及配套资源”，点击 **Commit to gh-pages**。
+6. 回到 GitHub Desktop，在 Summary 填写“导入饮食与健康词汇及配套资源”，点击 **Commit to gh-pages**。
 7. 点击 **Push origin**，等待上传完成。
 8. 在 GitHub 仓库网页进入 **Settings → Pages**，确认 **Deploy from a branch**、分支 **gh-pages**、目录 **/(root)**。如果是你自己的新仓库，也可以用 `main`，但提交分支与 Pages 选择的分支应一致。
 9. 等待 Pages 显示发布成功，再打开网站链接。
 
-若使用 GitHub 网页上传，请在目标目录分批上传，每批最多 100 个文件，并保留整个 `audio/` 文件夹的层级；最终 MP3 总数应为 1752。
+若使用 GitHub 网页上传，请在目标目录分批上传，每批最多 100 个文件，并保留整个 `audio/` 文件夹的层级；最终 MP3 总数应为 2169。
 
 ## 发布后检查
 
@@ -58,6 +58,7 @@ GitHub Pages 会直接读取这些文件；上传前完成解压。
 - 在问候小类第 12/14 题（I’m fine）检查英文横线下方的灯泡小图案和缩写提示；普通题不显示，原输入、显示答案及提交保持。更新主页、兼容 HTML 和 `sw.js`，无需替换或生成录音。
 - 电脑端点击“问候与礼貌用语”应弹出选择窗口：上方整组 22 条，下方问候 14 条、礼貌用语 8 条；点击后只练习对应词条。“颜色”直接进入 19 条练习，不出现额外选择窗口。其他复合分类也提供小类，数量随当前词库变化；`data/practice-groups.json`、主页和 `sw.js` 需一起更新。
 - “时间与自然”入口应显示 220 条和四个子分类（52 / 61 / 56 / 51），复用原练习和发音操作。上传整个 `data/time-nature/`、`audio/en-us/nature/` 及 `assets/scenes/`；不能仅上传 JSON 或主页。
+- “饮食与健康”入口显示 218 条，四窗口数量为 64 / 69 / 41 / 44。水果／蔬菜、食物主食／饮料通过原弹窗选择整组或小类；身体部位与健康单一分类直接练习。上传整个 `data/food-health/`、`audio/en-us/food/`、新增 `assets/scenes/food-*.webp` 及同版本主页与全部映射，推荐完整覆盖部署包内容。
 - 手机联网打开“设置与备份”，等待“已保存离线内容”后再断网重开。
 - 更新仍使用原网站地址、原浏览器。学习记录保存在该浏览器；迁移到其他设备或域名前，先导出完整备份。
 

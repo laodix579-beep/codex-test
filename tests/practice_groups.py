@@ -78,7 +78,7 @@ with sync_playwright() as p:
     page.locator('.translation-blank').first.wait_for()
     assert page.locator('#practice-jump option').count()==19
     assert page.evaluate("!document.querySelector('#practice-group-dialog')?.open")
-    closed();page.goto(BASE+'#words/C05');page.locator('.mvp-subcategory').first.click()
+    closed();page.goto(BASE+'#words/C06');page.locator('.mvp-subcategory').first.click()
     page.get_by_role('heading',name='这个分类正在准备中').wait_for()
     assert not page.locator('#lesson-dialog').evaluate('e=>e.open')
     print('PASS: DJ/MP3/scene/answer/grading, subset resume after reload, direct colors and empty category',flush=True)
