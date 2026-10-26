@@ -78,6 +78,7 @@ with sync_playwright() as p:
    exported.locator('#practice-answer-dialog [data-answer-close]').click()
    exported.locator('#practice-jump').evaluate('e=>{e.value="47";e.dispatchEvent(new Event("change",{bubbles:true}))}')
    assert '中文通常不单独翻译' in exported.locator('.word-context-meaning').inner_text()
+   assert exported.locator('.word-context-meaning .meaning-dictionary').inner_text()=='词义：一些；任何（依语境）'
    assert exported.locator('.word-example-prompt [data-meaning-target]').count()==0
    assert not errors,errors
    print('PASS: home menu exports one HTML with the new hero, saved name/notes/progress and MP3 playback without original assets',flush=True)

@@ -750,6 +750,7 @@ body.desktop-mvp,html.desktop-mvp body{--bg:#f6f7ff;--panel:#fff;--raised:#f0eff
 /* Use the existing theme accent for both languages; weight also marks the target. */
 .practice-target{color:var(--purple);font-weight:700}
 .meaning-context-note{display:block;margin-top:7px;font-size:12px;line-height:1.7;color:var(--muted);font-weight:400}
+.meaning-dictionary{display:block;margin-top:8px;font-size:14px;line-height:1.7;color:var(--muted);font-weight:400}
 .meaning-hint{line-height:1.7;overflow-wrap:anywhere}
 .desktop-mvp .mvp-answer-english .practice-target,.desktop-mvp .mvp-complete-sentence .practice-target{color:var(--purple);font-weight:750}
 .desktop-mvp .mvp-answer-line .meaning-hint{margin:0}
@@ -1146,7 +1147,7 @@ window.LOCAL_AUDIO_BANK={"voice":"Bella · GA 美式英语","voiceLocale":"en-US
 <script>
 (() => {
   'use strict';
-  window.FROG_OFFLINE_CACHE="frog-meaning-target-v28";
+  window.FROG_OFFLINE_CACHE="frog-meaning-definition-v29";
   let installPrompt=null;
   let offlineReady=false;
   let registrationFailed=false;
@@ -1428,7 +1429,7 @@ window.LOCAL_AUDIO_BANK={"voice":"Bella · GA 美式英语","voiceLocale":"en-US
   }
   function practiceMeaningHint(item,label='词义') {
     const row=meaningReference(item);
-    if(row?.mode==='usage')return `<span class="meaning-usage">本句用法：<span class="practice-target">${esc(row.usage)}</span></span>`;
+    if(row?.mode==='usage')return `<span class="meaning-usage">本句用法：<span class="practice-target">${esc(row.usage)}</span></span><span class="meaning-dictionary">${esc(label)}：<span class="practice-target">${esc(item.meaning||'')}</span></span>`;
     if(item.cloze&&!row)return `<span class="meaning-usage">本句用法：请结合整句理解；本句暂未确认逐字对应关系。</span><small class="meaning-context-note">词条释义：${esc(item.meaning||'')}</small>`;
     return `${esc(label)}：<span class="practice-target">${esc(item.meaning||'')}</span>${row?.note?`<small class="meaning-context-note">本句用法：${esc(row.note)}</small>`:''}`;
   }

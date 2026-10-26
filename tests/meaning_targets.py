@@ -38,6 +38,11 @@ with sync_playwright() as p:
             if row['mode'] == 'usage':
                 assert hint.inner_text().startswith('本句用法：')
                 assert row['usage'] in hint.inner_text()
+                definition = hint.locator('.meaning-dictionary')
+                assert definition.inner_text() == '词义：' + row['meaning']
+                assert definition.bounding_box()['y'] > hint.locator('.meaning-usage').bounding_box()['y']
+                bounds = definition.bounding_box()
+                assert bounds['y'] + bounds['height'] <= page.locator('.translation-slots').bounding_box()['y']
                 assert targets.count() == 0
             else:
                 assert hint.inner_text().startswith('词义：' + row['meaning'])
@@ -49,6 +54,8 @@ with sync_playwright() as p:
             dialog = page.locator('#practice-answer-dialog')
             assert dialog.locator('.mvp-answer-english strong').inner_text() == page.evaluate('(text)=>text.trim().replace(/[\\s\\p{P}\\p{S}]+$/u,"")', row['english'])
             assert dialog.locator('[data-meaning-target="english"]').all_text_contents() == expected, row['word']
+            if row['mode'] == 'usage':
+                assert dialog.locator('.meaning-dictionary').inner_text() == '中文释义：' + row['meaning']
             if targets.count():
                 assert dialog.locator('[data-meaning-target="english"]').first.evaluate('e=>getComputedStyle(e).color') == targets.first.evaluate('e=>getComputedStyle(e).color')
                 assert dialog.locator('.mvp-answer-note [data-meaning-target="chinese"]').all_text_contents() == targets.all_text_contents()
@@ -101,16 +108,21 @@ with sync_playwright() as p:
     for width in (320, 390, 760):
         mobile = browser.new_context(viewport={'width': width, 'height': 844}, is_mobile=True, has_touch=True, service_workers='block')
         phone = mobile.new_page()
-        for index, expected in ((49, ['半个']), (47, [])):
-            phone.goto(BASE + '#words/C01/C01-S02')
+        for group_id, index, target, expected in (('C01-S02',49,'half',['半个']),('C01-S02',47,'any',[]),('C01-S02',0,'zero',[]),('C01-S04',32,'size',[])):
+            phone.goto(BASE + '#words/C01/' + group_id)
             phone.locator('.translation-blank').first.wait_for()
             phone.locator('#practice-jump').evaluate('(e,index)=>{e.value=String(index);e.dispatchEvent(new Event("change",{bubbles:true}))}', index)
             phone.wait_for_function('(index)=>document.querySelector("#practice-jump").value===String(index)', arg=index)
             assert phone.locator('.word-example-prompt [data-meaning-target]').all_text_contents() == expected
             if not expected:
-                assert '中文通常不单独翻译' in phone.locator('.word-context-meaning').inner_text()
+                row = next(row for row in rows.values() if row['word'] == target)
+                assert row['usage'] in phone.locator('.word-context-meaning').inner_text()
+                definition = phone.locator('.word-context-meaning .meaning-dictionary')
+                assert definition.inner_text() == '词义：' + row['meaning']
+                bounds = definition.bounding_box()
+                assert bounds['y'] + bounds['height'] <= phone.locator('.translation-slots').bounding_box()['y']
             phone.locator('.mobile-controls [data-action="translation-answer"]').click()
-            assert phone.locator('.translation-answer [data-meaning-target="english"]').all_text_contents() == (['half'] if index == 49 else ['any'])
+            assert phone.locator('.translation-answer [data-meaning-target="english"]').all_text_contents() == [target]
             assert phone.evaluate('document.documentElement.scrollWidth<=innerWidth')
             phone.evaluate("window.meaningClosed=false;document.querySelector('#lesson-dialog').addEventListener('close',()=>window.meaningClosed=true,{once:true})")
             phone.locator('.practice-back').click()

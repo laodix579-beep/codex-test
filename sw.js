@@ -1,6 +1,6 @@
 // Public static resources only; personal study data stays in localStorage.
 importScripts('./audio-files.js');
-const CACHE="frog-meaning-target-v28";
+const CACHE="frog-meaning-definition-v29";
 const ROOT=new URL('./',self.location.href);
 const FILES=['index.html','assets/home-hero.png','assets/scenes/see-you-tomorrow.png','data/scene-catalog.json','data/meaning-catalog.json',...Array.from({length:17},(_,i)=>`assets/scenes/sheet-${String(i+1).padStart(2,'0')}.png`),'audio-files.js','audio-manifest.json','data/pronunciation-test-words.json','manifest.webmanifest','icon-192.png','icon-512.png','apple-touch-icon.png',...self.FROG_AUDIO_FILES];
 self.addEventListener('install',event=>event.waitUntil((async()=>{

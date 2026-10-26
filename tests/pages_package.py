@@ -109,6 +109,7 @@ with TemporaryDirectory(prefix='mvp-pages-') as directory:
     if not mobile:page.locator('#practice-answer-dialog [data-answer-close]').click()
     page.locator('#practice-jump').evaluate('e=>{e.value="47";e.dispatchEvent(new Event("change",{bubbles:true}))}')
     assert '中文通常不单独翻译' in page.locator('.word-context-meaning').inner_text()
+    assert page.locator('.word-context-meaning .meaning-dictionary').inner_text()=='词义：一些；任何（依语境）'
     assert page.locator('.word-example-prompt [data-meaning-target]').count()==0
     cached_meanings=page.evaluate('async()=>{const r=await fetch("data/meaning-catalog.json");return (await r.json()).entries.length}')
     assert cached_meanings==136
