@@ -67,6 +67,12 @@ with TemporaryDirectory(prefix='mvp-pages-') as directory:
     page.goto(base+'#words/C01/C01-S01');page.locator('.translation-blank').wait_for()
     page.wait_for_function('document.querySelector(".translation-picture img")?.naturalWidth>0')
     assert page.locator('.translation-picture').get_attribute('data-scene-id')=='C01-S01-001'
+    page.locator('#practice-jump').evaluate('e=>{e.value="19";e.dispatchEvent(new Event("change",{bubbles:true}))}')
+    assert page.locator('.contraction-hint svg').is_visible()
+    assert page.locator('.contraction-hint').evaluate('e=>e.previousElementSibling.matches(".translation-slots")')
+    assert '缩写形式' in page.locator('.contraction-hint').inner_text()
+    page.locator('#practice-jump').evaluate('e=>{e.value="0";e.dispatchEvent(new Event("change",{bubbles:true}))}')
+    assert page.locator('.contraction-hint').count()==0
     if not mobile:
      page.locator('#translation-form [data-action="translation-answer"]').click()
      assert page.locator('#practice-answer-dialog strong').inner_text()=='Hello, Anna'
