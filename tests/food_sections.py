@@ -1,4 +1,4 @@
-"""Exercise every refined C05 choice and preserve actual v39 learner state."""
+"""Exercise every refined C05 choice and preserve existing C05 learner state."""
 import hashlib
 import json
 from pathlib import Path
@@ -8,11 +8,11 @@ from playwright.sync_api import sync_playwright
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = 'http://127.0.0.1:8000/'
-BASELINE = 'c20b1fa11f6c64f59d4fa717c8f49184ef4132f5'
+BASELINE = 'c9487d016cfa526d242563d7f8dcf755ce96aa5e'
 old_html = subprocess.check_output(['git', 'show', BASELINE + ':index.html'], text=True)
 html = (ROOT / 'index.html').read_text()
 pattern = r'<script id="practice-group-library">.*?</script>\s*'
-assert re.sub(pattern, '', html, flags=re.S) == re.sub(pattern, '', old_html, flags=re.S).replace('frog-food-sections-v39', 'frog-food-groups-v40')
+assert re.sub(pattern, '', html, flags=re.S) == re.sub(pattern, '', old_html, flags=re.S).replace('frog-food-groups-v40', 'frog-practice-balance-v41')
 sections = json.loads((ROOT / 'data/food-health-practice-sections.json').read_text())['subcategories']
 assert [len(s['groups']) for s in sections] == [4, 5, 2, 3]
 assert sum(len(g['wordIds']) for s in sections for g in s['groups']) == 218
@@ -20,7 +20,7 @@ assert all(10 <= len(g['wordIds']) <= 25 for s in sections for g in s['groups'])
 assert [[len(g['wordIds']) for g in s['groups']] for s in sections] == [[13,18,18,15],[17,13,13,14,12],[22,19],[11,18,15]]
 old_groups = json.loads(subprocess.check_output(['git', 'show', BASELINE + ':data/practice-groups.json']))
 groups = json.loads((ROOT / 'data/practice-groups.json').read_text())
-assert [s for s in groups['subcategories'] if not s['subcategoryId'].startswith('C05-')] == [s for s in old_groups['subcategories'] if not s['subcategoryId'].startswith('C05-')]
+assert [s for s in groups['subcategories'] if s['subcategoryId'].startswith('C05-')] == [s for s in old_groups['subcategories'] if s['subcategoryId'].startswith('C05-')]
 for file in ['data/food-health-windows.json', 'data/meaning-catalog.json', 'data/scene-catalog.json', 'audio-manifest.json', 'audio-files.js', 'data/catalog-packs.json']:
     assert (ROOT / file).read_bytes() == subprocess.check_output(['git', 'show', BASELINE + ':' + file])
 media = json.loads((ROOT / 'reports/all-audio-sha256.json').read_text())
@@ -87,8 +87,8 @@ with sync_playwright() as p:
     # Seed the state with the real old application, then load the updated one.
     context = browser.new_context(viewport={'width': 1440, 'height': 900}, service_workers='block')
     page = context.new_page()
-    page.route(BASE + '?legacy-food-v39', lambda route: route.fulfill(body=old_html, content_type='text/html; charset=utf-8'), times=1)
-    page.goto(BASE + '?legacy-food-v39#home')
+    page.route(BASE + '?legacy-food-v40', lambda route: route.fulfill(body=old_html, content_type='text/html; charset=utf-8'), times=1)
+    page.goto(BASE + '?legacy-food-v40#home')
     legacy = page.evaluate('''()=>{const k=document.body.dataset.storageKey,s=JSON.parse(localStorage.getItem(k));
       const ids=s.words.filter(w=>['C05-S06-001','C05-S06-002','C05-S06-003','C05-S06-004'].includes(w.id)).map(w=>w.id);
       s.practiceResume={ids,wordId:ids[1],answered:false,finished:false};
@@ -139,7 +139,7 @@ with sync_playwright() as p:
     assert stored()['practiceResume']['ids'] == ['custom-food-health']
     for key in ['words', 'wordStatus', 'settings', 'favorites', 'notes', 'plan', 'contentPacks']:
         assert stored()[key] == before[key], key
-    print('PASS: real v39 records and old four-word subset resume retained; refined subset grading, reload/resume, previous/restart and dynamic user edits work', flush=True)
+    print('PASS: existing records and old four-word subset resume retained; refined subset grading, reload/resume, previous/restart and dynamic user edits work', flush=True)
     assert not errors, errors
     context.close();browser.close()
 print('COMPLETE: all 14 merged C05 sections and learner-state preservation passed', flush=True)

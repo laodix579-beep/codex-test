@@ -16,7 +16,7 @@ class Quiet(SimpleHTTPRequestHandler):
 
 with TemporaryDirectory(prefix='mvp-pages-') as directory:
  target=Path(directory)/'codex-test';target.mkdir()
- with zipfile.ZipFile(Path(sys.argv[1]) if len(sys.argv)>1 else Path('/workspace/output/laok-pages-v40.zip')) as archive:
+ with zipfile.ZipFile(Path(sys.argv[1]) if len(sys.argv)>1 else Path('/workspace/output/laok-pages-v41.zip')) as archive:
   assert archive.testzip() is None
   assert archive.read('index.html')==archive.read('小蛙自习室.html')==(ROOT/'index.html').read_bytes()
   assert archive.read('assets/home-hero.png')==(ROOT/'assets/home-hero.png').read_bytes()
@@ -67,18 +67,18 @@ with TemporaryDirectory(prefix='mvp-pages-') as directory:
      page.goto(base+'#words/C01')
      page.wait_for_function('document.querySelectorAll(".mvp-subcategory-art img").length===4&&[...document.querySelectorAll(".mvp-subcategory-art img")].every(img=>img.complete&&img.naturalWidth>0)')
      assert page.evaluate('async()=>{const r=await fetch("data/category-art.json");return (await r.json()).entries.length}')==32
-     page.locator('.mvp-subcategory[data-subcategory-id="C01-S01"]').click()
-     assert page.locator('#practice-group-dialog .practice-group-all b').inner_text()=='22'
-     assert page.locator('#practice-group-dialog [data-practice-group="politeness"] b').inner_text()=='8'
-     page.locator('#practice-group-dialog [data-practice-group="politeness"]').click()
-     page.locator('.translation-blank').first.wait_for();assert page.locator('#practice-jump option').count()==8
-     assert page.locator('.translation-picture').get_attribute('data-scene-id')=='C01-S01-011'
+     page.locator('.mvp-subcategory[data-subcategory-id="C01-S04"]').click()
+     assert page.locator('#practice-group-dialog .practice-group-all b').inner_text()=='33'
+     assert page.locator('#practice-group-dialog [data-practice-group="size"] b').inner_text()=='17'
+     page.locator('#practice-group-dialog [data-practice-group="size"]').click()
+     page.locator('.translation-blank').first.wait_for();assert page.locator('#practice-jump option').count()==17
+     assert page.locator('.translation-picture').get_attribute('data-scene-id')=='C01-S04-017'
      page.locator('.translation-blank').first.fill('draft')
      page.locator('#translation-form [data-action="next-item"]').click()
      page.locator('#translation-previous').click()
      assert page.locator('.translation-blank').first.input_value()=='draft'
      page.locator('#restart-practice-group').click()
-     assert '1/8' in page.locator('#lesson-course').inner_text()
+     assert '1/17' in page.locator('#lesson-course').inner_text()
      assert page.locator('.translation-blank').first.input_value()==''
      assert page.locator('#translation-previous').is_disabled()
      page.locator('.practice-back').click();page.wait_for_function('!document.querySelector("#lesson-dialog").open')

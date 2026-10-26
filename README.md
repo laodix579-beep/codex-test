@@ -1,5 +1,7 @@
 # 老K学英语
 
+全站已按每组 10–25 词的原则检查并合并相近内容：972 个词覆盖 20 个已有词汇的入口，共 61 个学习分组，每组 10–24 词。18 个入口提供整组／小类选择；问候与礼貌用语 22 词、颜色 19 词直接整组练习。原 25 个不足 10 词的小类均已合并，词条、DJ、录音、图片及记录保留。详见 `reports/practice-group-audit.json` 和 `reports/test-report.md`。
+
 本次在原网站的“饮食与健康”入口新增 **218 条**：水果与蔬菜 64、食物主食与饮料 69、身体部位 41、健康与身体感受 44。总词库现为 **972 条**，原基础入门 136、时间与自然 220、学校与学习 198、家庭与日常生活 200 保持。
 
 沿用现有四个二级入口和选择弹窗，将相近内容合并为 **14 个练习小类**：水果与蔬菜 4 类（13 / 18 / 18 / 15 词）、食物主食与饮料 5 类（17 / 13 / 13 / 14 / 12 词）、身体部位 2 类（22 / 19 词）、健康与身体感受 3 类（11 / 18 / 15 词）。所有内置小类均在建议的 **10–25 词**范围内，整组练习保留。健康组为“健康与日常感受”“常见症状与受伤”“就医护理与康复”。搜索、DJ、GA、例句填空、答案、上下题、重练、续学、资料、打卡、备份和本地记录保持。
@@ -21,12 +23,14 @@
 - `tools/build_food_assets.py` 追加 C05 内容包；词库版本保持 `basic-us-v1`，按 `food-health-v1` 包标记安装一次，旧状态/旧备份保留，用户明确删除后不强制补回。
 - `tools/build_food_mappings.py` 维护本包中文词义对应及四入口的 14 个小类；具体分组见 `data/food-health-practice-sections.json`。`data/food-health-windows.json` 保留源语义分类和网站入口的对应关系。
 - `tools/generate_food_audio.py` 是制作阶段的可选工具，仅制作新包缺少的录音；依赖、模型和临时缓存不随网站分发。`data/food-health-audio-generation.json` 记录音素、声线、模型和文件哈希；`data/food-health-audio-map.csv` 提供 218 条单词与例句映射。
+- `data/practice-group-policy.json` 维护全站相关小类的合并与 10–25 词目标；运行各词包构建器后，必须运行 `tools/build_practice_groups.py`，重新应用合并、校验全量覆盖并更新页面及审计报告。重复构建不会恢复零碎分组。
 - `tools/build_audio_assets.py`、`build_meaning_assets.py`、`build_scene_assets.py`、`build_practice_groups.py` 校验并内嵌全部已发布词包的静态映射。
-- `python3 tools/package_pages.py /workspace/output/laok-pages-v40.zip` 可生成本地平铺部署包，公开下载使用原入口自动提供当前 `gh-pages` 完整源码 ZIP，避免递归提交大 ZIP。
+- `python3 tools/package_pages.py /workspace/output/laok-pages-v41.zip` 可生成本地平铺部署包，公开下载使用原入口自动提供当前 `gh-pages` 完整源码 ZIP，避免递归提交大 ZIP。
 
 在仓库根目录运行 `python3 -m http.server 8000` 后，使用 Python Playwright 和 Chromium 核对：
 
 ```sh
+python3 tests/site_group_audit.py
 python3 tests/food_sections.py
 python3 tests/food_health.py
 python3 tests/food_forms.py
@@ -38,7 +42,7 @@ python3 tests/meaning_targets.py
 python3 tests/practice_groups.py
 python3 tests/audio_quality.py
 python3 tests/home_export.py
-python3 tests/pages_package.py /workspace/output/laok-pages-v40.zip
+python3 tests/pages_package.py /workspace/output/laok-pages-v41.zip
 ```
 
 当前实际通过范围见 [reports/test-report.md](reports/test-report.md)；历史教材流程测试仍作归档，未声称其通过当前仅词库版本。

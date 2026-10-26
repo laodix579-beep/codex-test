@@ -1,0 +1,207 @@
+{
+  "version": 1,
+  "targetWords": {
+    "min": 10,
+    "max": 25
+  },
+  "merges": [
+    {
+      "subcategoryId": "C01-S01",
+      "groups": [
+        {
+          "id": "greetings",
+          "name": "问候与礼貌表达",
+          "sources": [
+            "greetings",
+            "politeness"
+          ]
+        }
+      ]
+    },
+    {
+      "subcategoryId": "C01-S02",
+      "groups": [
+        {
+          "id": "quantity",
+          "name": "数量、计数与顺序",
+          "sources": [
+            "quantity",
+            "ordinals"
+          ]
+        }
+      ]
+    },
+    {
+      "subcategoryId": "C02-S01",
+      "groups": [
+        {
+          "id": "time-relations",
+          "name": "时间关系与频率",
+          "sources": [
+            "time-relations",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "subcategoryId": "C02-S04",
+      "groups": [
+        {
+          "id": "temperature",
+          "name": "天气感受与防护",
+          "sources": [
+            "temperature",
+            "rain-gear"
+          ]
+        }
+      ]
+    },
+    {
+      "subcategoryId": "C03-S01",
+      "groups": [
+        {
+          "id": "tools-storage",
+          "name": "学习工具与日常用品",
+          "sources": [
+            "tools-storage",
+            "daily-electronics"
+          ]
+        }
+      ]
+    },
+    {
+      "subcategoryId": "C03-S02",
+      "groups": [
+        {
+          "id": "campus-places",
+          "name": "校园场所与师生活动",
+          "sources": [
+            "campus-places",
+            "people-life"
+          ]
+        }
+      ]
+    },
+    {
+      "subcategoryId": "C03-S03",
+      "groups": [
+        {
+          "id": "core-subjects",
+          "name": "常见与拓展学科",
+          "sources": [
+            "core-subjects",
+            "more-subjects"
+          ]
+        },
+        {
+          "id": "learning-skills",
+          "name": "学习活动与课程表达",
+          "sources": [
+            "learning-skills",
+            "schedule-expression"
+          ]
+        }
+      ]
+    },
+    {
+      "subcategoryId": "C03-S04",
+      "groups": [
+        {
+          "id": "break-tests",
+          "name": "测验反馈与课堂交流",
+          "sources": [
+            "break-tests",
+            "classroom-phrases"
+          ]
+        }
+      ]
+    },
+    {
+      "subcategoryId": "C04-S01",
+      "groups": [
+        {
+          "id": "family-introductions",
+          "name": "父母长辈与亲属称呼",
+          "sources": [
+            "family-introductions",
+            "grandparents",
+            "relatives"
+          ]
+        }
+      ]
+    },
+    {
+      "subcategoryId": "C04-S02",
+      "groups": [
+        {
+          "id": "rooms-spaces",
+          "name": "房间空间与固定设施",
+          "sources": [
+            "rooms-spaces",
+            "fixed-features"
+          ]
+        },
+        {
+          "id": "tables-seats-beds",
+          "name": "家具寝具与装饰",
+          "sources": [
+            "tables-seats-beds",
+            "bedding-storage",
+            "lights-decoration"
+          ]
+        }
+      ]
+    },
+    {
+      "subcategoryId": "C04-S03",
+      "groups": [
+        {
+          "id": "tableware-containers",
+          "name": "餐厨用品",
+          "sources": [
+            "tableware-containers",
+            "kitchen-cooking"
+          ]
+        },
+        {
+          "id": "home-appliances",
+          "name": "家电、工具与应急",
+          "sources": [
+            "home-appliances",
+            "repair-first-aid"
+          ]
+        },
+        {
+          "id": "personal-care",
+          "name": "洗护清洁与衣物",
+          "sources": [
+            "personal-care",
+            "cleaning-laundry"
+          ]
+        }
+      ]
+    },
+    {
+      "subcategoryId": "C04-S04",
+      "groups": [
+        {
+          "id": "meals-travel",
+          "name": "用餐往返与学习娱乐",
+          "sources": [
+            "meals-travel",
+            "study-play"
+          ]
+        },
+        {
+          "id": "time-sequence",
+          "name": "作息时间与日常表达",
+          "sources": [
+            "time-sequence",
+            "routine-phrases"
+          ]
+        }
+      ]
+    }
+  ]
+}

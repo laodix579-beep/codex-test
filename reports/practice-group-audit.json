@@ -1,0 +1,563 @@
+{
+  "targetWords": {
+    "min": 10,
+    "max": 25
+  },
+  "totalWords": 972,
+  "populatedEntrances": 20,
+  "practiceGroups": 61,
+  "chooserEntrances": 18,
+  "directEntrances": 2,
+  "emptyEntrances": 12,
+  "subcategories": [
+    {
+      "id": "C01-S01",
+      "name": "问候与礼貌用语",
+      "words": 22,
+      "mode": "direct",
+      "groups": [
+        {
+          "id": "greetings",
+          "name": "问候与礼貌表达",
+          "words": 22
+        }
+      ]
+    },
+    {
+      "id": "C01-S02",
+      "name": "数字与数量",
+      "words": 62,
+      "mode": "chooser",
+      "groups": [
+        {
+          "id": "numbers-basic",
+          "name": "基础数字（0–20）",
+          "words": 21
+        },
+        {
+          "id": "numbers-extended",
+          "name": "进阶数字（21–100）",
+          "words": 17
+        },
+        {
+          "id": "quantity",
+          "name": "数量、计数与顺序",
+          "words": 24
+        }
+      ]
+    },
+    {
+      "id": "C01-S03",
+      "name": "颜色",
+      "words": 19,
+      "mode": "direct",
+      "groups": [
+        {
+          "id": "all",
+          "name": "颜色",
+          "words": 19
+        }
+      ]
+    },
+    {
+      "id": "C01-S04",
+      "name": "形状与大小",
+      "words": 33,
+      "mode": "chooser",
+      "groups": [
+        {
+          "id": "shapes",
+          "name": "形状",
+          "words": 16
+        },
+        {
+          "id": "size",
+          "name": "大小与尺寸",
+          "words": 17
+        }
+      ]
+    },
+    {
+      "id": "C02-S01",
+      "name": "时间与钟表",
+      "words": 52,
+      "mode": "chooser",
+      "groups": [
+        {
+          "id": "clocks",
+          "name": "钟表与读时",
+          "words": 15
+        },
+        {
+          "id": "daytime",
+          "name": "一天中的时间",
+          "words": 16
+        },
+        {
+          "id": "time-relations",
+          "name": "时间关系与频率",
+          "words": 21
+        }
+      ]
+    },
+    {
+      "id": "C02-S02",
+      "name": "星期与日期",
+      "words": 61,
+      "mode": "chooser",
+      "groups": [
+        {
+          "id": "weekdays",
+          "name": "星期与周次",
+          "words": 20
+        },
+        {
+          "id": "dates",
+          "name": "日期与日程",
+          "words": 10
+        },
+        {
+          "id": "dates-first",
+          "name": "日期序数（1–15）",
+          "words": 15
+        },
+        {
+          "id": "dates-last",
+          "name": "日期序数（16–31）",
+          "words": 16
+        }
+      ]
+    },
+    {
+      "id": "C02-S03",
+      "name": "月份与四季",
+      "words": 56,
+      "mode": "chooser",
+      "groups": [
+        {
+          "id": "months",
+          "name": "十二个月",
+          "words": 12
+        },
+        {
+          "id": "years",
+          "name": "年月与日期表达",
+          "words": 16
+        },
+        {
+          "id": "seasons",
+          "name": "四季与季节表达",
+          "words": 10
+        },
+        {
+          "id": "seasonal-life",
+          "name": "季节景物与活动",
+          "words": 18
+        }
+      ]
+    },
+    {
+      "id": "C02-S04",
+      "name": "天气与气候",
+      "words": 51,
+      "mode": "chooser",
+      "groups": [
+        {
+          "id": "weather",
+          "name": "天气描述",
+          "words": 17
+        },
+        {
+          "id": "temperature",
+          "name": "天气感受与防护",
+          "words": 12
+        },
+        {
+          "id": "phenomena",
+          "name": "自然天气现象",
+          "words": 22
+        }
+      ]
+    },
+    {
+      "id": "C03-S01",
+      "name": "学习用品",
+      "words": 43,
+      "mode": "chooser",
+      "groups": [
+        {
+          "id": "writing-art",
+          "name": "书写与美术",
+          "words": 10
+        },
+        {
+          "id": "books-paper",
+          "name": "书本与纸张",
+          "words": 10
+        },
+        {
+          "id": "tools-storage",
+          "name": "学习工具与日常用品",
+          "words": 23
+        }
+      ]
+    },
+    {
+      "id": "C03-S02",
+      "name": "教室与校园",
+      "words": 45,
+      "mode": "chooser",
+      "groups": [
+        {
+          "id": "teaching-spaces",
+          "name": "学校与教学空间",
+          "words": 14
+        },
+        {
+          "id": "campus-places",
+          "name": "校园场所与师生活动",
+          "words": 16
+        },
+        {
+          "id": "facilities",
+          "name": "设施与物品",
+          "words": 15
+        }
+      ]
+    },
+    {
+      "id": "C03-S03",
+      "name": "学科名称",
+      "words": 31,
+      "mode": "chooser",
+      "groups": [
+        {
+          "id": "core-subjects",
+          "name": "常见与拓展学科",
+          "words": 19
+        },
+        {
+          "id": "learning-skills",
+          "name": "学习活动与课程表达",
+          "words": 12
+        }
+      ]
+    },
+    {
+      "id": "C03-S04",
+      "name": "课堂常用词",
+      "words": 79,
+      "mode": "chooser",
+      "groups": [
+        {
+          "id": "language-interaction",
+          "name": "听说读写与互动",
+          "words": 11
+        },
+        {
+          "id": "answer-check",
+          "name": "答题与检查",
+          "words": 15
+        },
+        {
+          "id": "hands-on",
+          "name": "动手与操作指令",
+          "words": 12
+        },
+        {
+          "id": "classroom-routines",
+          "name": "合作与课堂规范",
+          "words": 12
+        },
+        {
+          "id": "learning-activities",
+          "name": "作业与学习活动",
+          "words": 14
+        },
+        {
+          "id": "break-tests",
+          "name": "测验反馈与课堂交流",
+          "words": 15
+        }
+      ]
+    },
+    {
+      "id": "C04-S01",
+      "name": "家庭成员",
+      "words": 33,
+      "mode": "chooser",
+      "groups": [
+        {
+          "id": "family-introductions",
+          "name": "父母长辈与亲属称呼",
+          "words": 19
+        },
+        {
+          "id": "children-siblings",
+          "name": "孩子与兄弟姐妹",
+          "words": 14
+        }
+      ]
+    },
+    {
+      "id": "C04-S02",
+      "name": "房间与家具",
+      "words": 44,
+      "mode": "chooser",
+      "groups": [
+        {
+          "id": "rooms-spaces",
+          "name": "房间空间与固定设施",
+          "words": 23
+        },
+        {
+          "id": "tables-seats-beds",
+          "name": "家具寝具与装饰",
+          "words": 21
+        }
+      ]
+    },
+    {
+      "id": "C04-S03",
+      "name": "家居用品",
+      "words": 53,
+      "mode": "chooser",
+      "groups": [
+        {
+          "id": "tableware-containers",
+          "name": "餐厨用品",
+          "words": 18
+        },
+        {
+          "id": "home-appliances",
+          "name": "家电、工具与应急",
+          "words": 17
+        },
+        {
+          "id": "personal-care",
+          "name": "洗护清洁与衣物",
+          "words": 18
+        }
+      ]
+    },
+    {
+      "id": "C04-S04",
+      "name": "日常生活与作息",
+      "words": 70,
+      "mode": "chooser",
+      "groups": [
+        {
+          "id": "wake-up-care",
+          "name": "起床与洗漱",
+          "words": 13
+        },
+        {
+          "id": "meals-travel",
+          "name": "用餐往返与学习娱乐",
+          "words": 15
+        },
+        {
+          "id": "chores-care",
+          "name": "家务与照料",
+          "words": 13
+        },
+        {
+          "id": "outings-rest",
+          "name": "出行与休息",
+          "words": 10
+        },
+        {
+          "id": "time-sequence",
+          "name": "作息时间与日常表达",
+          "words": 19
+        }
+      ]
+    },
+    {
+      "id": "C05-S01",
+      "name": "水果与蔬菜",
+      "words": 64,
+      "mode": "chooser",
+      "groups": [
+        {
+          "id": "common-and-stone-fruit",
+          "name": "常见水果与核果",
+          "words": 13
+        },
+        {
+          "id": "special-fruit-and-preparation",
+          "name": "特色水果与食用",
+          "words": 18
+        },
+        {
+          "id": "roots-and-leafy-vegetables",
+          "name": "根茎、葱蒜与叶菜",
+          "words": 18
+        },
+        {
+          "id": "vegetables-and-dishes",
+          "name": "瓜豆、菌菇与蔬菜餐点",
+          "words": 15
+        }
+      ]
+    },
+    {
+      "id": "C05-S02",
+      "name": "食物、主食与饮料",
+      "words": 69,
+      "mode": "chooser",
+      "groups": [
+        {
+          "id": "staples-and-meals",
+          "name": "主食与常见餐点",
+          "words": 17
+        },
+        {
+          "id": "protein-foods",
+          "name": "蛋奶、肉类与海鲜",
+          "words": 13
+        },
+        {
+          "id": "mealtimes-and-seasonings",
+          "name": "三餐、甜点与调味",
+          "words": 13
+        },
+        {
+          "id": "water-milk-and-juice",
+          "name": "水奶果汁与饮用表达",
+          "words": 14
+        },
+        {
+          "id": "tea-and-other-drinks",
+          "name": "茶咖与其他饮料",
+          "words": 12
+        }
+      ]
+    },
+    {
+      "id": "C05-S03",
+      "name": "身体部位",
+      "words": 41,
+      "mode": "chooser",
+      "groups": [
+        {
+          "id": "head-and-organs",
+          "name": "头面部与身体器官",
+          "words": 22
+        },
+        {
+          "id": "limbs-and-torso",
+          "name": "四肢、关节与躯干",
+          "words": 19
+        }
+      ]
+    },
+    {
+      "id": "C05-S04",
+      "name": "健康与身体感受",
+      "words": 44,
+      "mode": "chooser",
+      "groups": [
+        {
+          "id": "health-and-feelings",
+          "name": "健康与日常感受",
+          "words": 11
+        },
+        {
+          "id": "symptoms-and-injuries",
+          "name": "常见症状与受伤",
+          "words": 18
+        },
+        {
+          "id": "medical-care-and-recovery",
+          "name": "就医护理与康复",
+          "words": 15
+        }
+      ]
+    },
+    {
+      "id": "C06-S01",
+      "name": "宠物与农场动物",
+      "words": 0,
+      "mode": "empty",
+      "groups": []
+    },
+    {
+      "id": "C06-S02",
+      "name": "野生与海洋动物",
+      "words": 0,
+      "mode": "empty",
+      "groups": []
+    },
+    {
+      "id": "C06-S03",
+      "name": "植物与花卉",
+      "words": 0,
+      "mode": "empty",
+      "groups": []
+    },
+    {
+      "id": "C06-S04",
+      "name": "自然环境",
+      "words": 0,
+      "mode": "empty",
+      "groups": []
+    },
+    {
+      "id": "C07-S01",
+      "name": "交通、方向与位置",
+      "words": 0,
+      "mode": "empty",
+      "groups": []
+    },
+    {
+      "id": "C07-S02",
+      "name": "城市与公共场所",
+      "words": 0,
+      "mode": "empty",
+      "groups": []
+    },
+    {
+      "id": "C07-S03",
+      "name": "职业与工作",
+      "words": 0,
+      "mode": "empty",
+      "groups": []
+    },
+    {
+      "id": "C07-S04",
+      "name": "购物与金钱",
+      "words": 0,
+      "mode": "empty",
+      "groups": []
+    },
+    {
+      "id": "C08-S01",
+      "name": "常用动词与短语",
+      "words": 0,
+      "mode": "empty",
+      "groups": []
+    },
+    {
+      "id": "C08-S02",
+      "name": "形容词、情绪与感受",
+      "words": 0,
+      "mode": "empty",
+      "groups": []
+    },
+    {
+      "id": "C08-S03",
+      "name": "运动与兴趣爱好",
+      "words": 0,
+      "mode": "empty",
+      "groups": []
+    },
+    {
+      "id": "C08-S04",
+      "name": "代词、疑问词与介词",
+      "words": 0,
+      "mode": "empty",
+      "groups": []
+    }
+  ]
+}
