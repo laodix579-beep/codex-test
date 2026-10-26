@@ -1,0 +1,239 @@
+﻿id,english,chinese,DJ_IPA,word_key,word_path,example_en,example_key,example_path
+C06-S01-001,pet,宠物,/pet/,pet,audio/en-us/animal/word/pet.mp3,A pet needs food and care.,a pet needs food and care,audio/en-us/animal/sentence/a-pet-needs-food-and-care.mp3
+C06-S01-002,dog,狗,/dɒɡ/,dog,audio/en-us/word/dog.mp3,The dog is playing in the garden.,the dog is playing in the garden,audio/en-us/animal/sentence/the-dog-is-playing-in-the-garden.mp3
+C06-S01-003,puppy,小狗,/ˈpʌpi/,puppy,audio/en-us/animal/word/puppy.mp3,The puppy is very playful.,the puppy is very playful,audio/en-us/animal/sentence/the-puppy-is-very-playful.mp3
+C06-S01-004,cat,猫,/kæt/,cat,audio/en-us/word/cat.mp3,The cat is sleeping on the sofa.,the cat is sleeping on the sofa,audio/en-us/family/sentence/the-cat-is-sleeping-on-the-sofa.mp3
+C06-S01-005,kitten,小猫,/ˈkɪtən/,kitten,audio/en-us/animal/word/kitten.mp3,The kitten has soft fur.,the kitten has soft fur,audio/en-us/animal/sentence/the-kitten-has-soft-fur.mp3
+C06-S01-006,rabbit,兔子,/ˈræbɪt/,rabbit,audio/en-us/animal/word/rabbit.mp3,The rabbit eats a carrot.,the rabbit eats a carrot,audio/en-us/animal/sentence/the-rabbit-eats-a-carrot.mp3
+C06-S01-007,hamster,仓鼠,/ˈhæmstə/,hamster,audio/en-us/animal/word/hamster.mp3,The hamster runs in its wheel.,the hamster runs in its wheel,audio/en-us/animal/sentence/the-hamster-runs-in-its-wheel.mp3
+C06-S01-008,guinea pig,豚鼠,/ˈɡɪni pɪɡ/,guinea pig,audio/en-us/animal/word/guinea-pig.mp3,Our guinea pig likes fresh grass.,our guinea pig likes fresh grass,audio/en-us/animal/sentence/our-guinea-pig-likes-fresh-grass.mp3
+C06-S01-009,gerbil,沙鼠,/ˈdʒɜːbɪl/,gerbil,audio/en-us/animal/word/gerbil.mp3,The gerbil hides in its bedding.,the gerbil hides in its bedding,audio/en-us/animal/sentence/the-gerbil-hides-in-its-bedding.mp3
+C06-S01-010,mouse,老鼠；小鼠,/maʊs/,mouse,audio/en-us/animal/word/mouse.mp3,The little mouse is quick.,the little mouse is quick,audio/en-us/animal/sentence/the-little-mouse-is-quick.mp3
+C06-S01-011,rat,大鼠；老鼠,/ræt/,rat,audio/en-us/animal/word/rat.mp3,The pet rat is gentle.,the pet rat is gentle,audio/en-us/animal/sentence/the-pet-rat-is-gentle.mp3
+C06-S01-012,ferret,雪貂,/ˈferɪt/,ferret,audio/en-us/animal/word/ferret.mp3,The ferret likes to explore.,the ferret likes to explore,audio/en-us/animal/sentence/the-ferret-likes-to-explore.mp3
+C06-S01-013,chinchilla,毛丝鼠；龙猫,/tʃɪnˈtʃɪlə/,chinchilla,audio/en-us/animal/word/chinchilla.mp3,The chinchilla has very soft fur.,the chinchilla has very soft fur,audio/en-us/animal/sentence/the-chinchilla-has-very-soft-fur.mp3
+C06-S01-014,bird,鸟,/bɜːd/,bird,audio/en-us/word/bird.mp3,The bird sings in the morning.,the bird sings in the morning,audio/en-us/animal/sentence/the-bird-sings-in-the-morning.mp3
+C06-S01-015,parrot,鹦鹉,/ˈpærət/,parrot,audio/en-us/animal/word/parrot.mp3,The parrot can copy some sounds.,the parrot can copy some sounds,audio/en-us/animal/sentence/the-parrot-can-copy-some-sounds.mp3
+C06-S01-016,budgie,虎皮鹦鹉（英式常用）,/ˈbʌdʒi/,budgie,audio/en-us/animal/word/budgie.mp3,The budgie sits on its perch.,the budgie sits on its perch,audio/en-us/animal/sentence/the-budgie-sits-on-its-perch.mp3
+C06-S01-017,canary,金丝雀,/kəˈneəri/,canary,audio/en-us/animal/word/canary.mp3,The canary has a yellow body.,the canary has a yellow body,audio/en-us/animal/sentence/the-canary-has-a-yellow-body.mp3
+C06-S01-018,goldfish,金鱼,/ˈɡəʊldfɪʃ/,goldfish,audio/en-us/animal/word/goldfish.mp3,The goldfish swims in a tank.,the goldfish swims in a tank,audio/en-us/animal/sentence/the-goldfish-swims-in-a-tank.mp3
+C06-S01-019,aquarium,水族箱；水族馆,/əˈkweəriəm/,aquarium,audio/en-us/animal/word/aquarium.mp3,The fish lives in a clean aquarium.,the fish lives in a clean aquarium,audio/en-us/animal/sentence/the-fish-lives-in-a-clean-aquarium.mp3
+C06-S01-020,turtle,龟；水龟,/ˈtɜːtəl/,turtle,audio/en-us/animal/word/turtle.mp3,The turtle moves slowly.,the turtle moves slowly,audio/en-us/animal/sentence/the-turtle-moves-slowly.mp3
+C06-S01-021,tortoise,陆龟,/ˈtɔːtəs/,tortoise,audio/en-us/animal/word/tortoise.mp3,The tortoise has a hard shell.,the tortoise has a hard shell,audio/en-us/animal/sentence/the-tortoise-has-a-hard-shell.mp3
+C06-S01-022,lizard,蜥蜴,/ˈlɪzəd/,lizard,audio/en-us/animal/word/lizard.mp3,The lizard sits on a warm rock.,the lizard sits on a warm rock,audio/en-us/animal/sentence/the-lizard-sits-on-a-warm-rock.mp3
+C06-S01-023,snake,蛇,/sneɪk/,snake,audio/en-us/animal/word/snake.mp3,The snake moves through the grass.,the snake moves through the grass,audio/en-us/animal/sentence/the-snake-moves-through-the-grass.mp3
+C06-S01-024,frog,青蛙,/frɒɡ/,frog,audio/en-us/word/frog.mp3,The frog jumps into the pond.,the frog jumps into the pond,audio/en-us/animal/sentence/the-frog-jumps-into-the-pond.mp3
+C06-S01-025,paw,爪子（猫狗等）,/pɔː/,paw,audio/en-us/animal/word/paw.mp3,The puppy lifted its paw.,the puppy lifted its paw,audio/en-us/animal/sentence/the-puppy-lifted-its-paw.mp3
+C06-S01-026,tail,尾巴,/teɪl/,tail,audio/en-us/animal/word/tail.mp3,The cat has a long tail.,the cat has a long tail,audio/en-us/animal/sentence/the-cat-has-a-long-tail.mp3
+C06-S01-027,fur,毛皮；软毛,/fɜː/,fur,audio/en-us/animal/word/fur.mp3,The rabbit's fur is soft.,the rabbit's fur is soft,audio/en-us/animal/sentence/the-rabbit-s-fur-is-soft.mp3
+C06-S01-028,whiskers,（猫等的）胡须,/ˈwɪskəz/,whiskers,audio/en-us/animal/word/whiskers.mp3,The cat has long whiskers.,the cat has long whiskers,audio/en-us/animal/sentence/the-cat-has-long-whiskers.mp3
+C06-S01-029,cage,笼子,/keɪdʒ/,cage,audio/en-us/animal/word/cage.mp3,The bird's cage is near the window.,the bird's cage is near the window,audio/en-us/animal/sentence/the-bird-s-cage-is-near-the-window.mp3
+C06-S01-030,fish tank,鱼缸,/ˈfɪʃ tæŋk/,fish tank,audio/en-us/animal/word/fish-tank.mp3,We clean the fish tank every week.,we clean the fish tank every week,audio/en-us/animal/sentence/we-clean-the-fish-tank-every-week.mp3
+C06-S01-031,pet bowl,宠物食盆,/ˈpet bəʊl/,pet bowl,audio/en-us/animal/word/pet-bowl.mp3,The dog's water is in its pet bowl.,the dog's water is in its pet bowl,audio/en-us/animal/sentence/the-dog-s-water-is-in-its-pet-bowl.mp3
+C06-S01-032,collar,项圈,/ˈkɒlə/,collar,audio/en-us/animal/word/collar.mp3,The dog wears a red collar.,the dog wears a red collar,audio/en-us/animal/sentence/the-dog-wears-a-red-collar.mp3
+C06-S01-033,lead,牵引绳（英式常用）,/liːd/,lead,audio/en-us/animal/word/lead.mp3,Keep the dog on its lead.,keep the dog on its lead,audio/en-us/animal/sentence/keep-the-dog-on-its-lead.mp3
+C06-S01-034,kennel,狗窝；犬舍,/ˈkenəl/,kennel,audio/en-us/animal/word/kennel.mp3,The dog rests in its kennel.,the dog rests in its kennel,audio/en-us/animal/sentence/the-dog-rests-in-its-kennel.mp3
+C06-S01-035,litter tray,猫砂盆,/ˈlɪtə treɪ/,litter tray,audio/en-us/animal/word/litter-tray.mp3,The kitten uses its litter tray.,the kitten uses its litter tray,audio/en-us/animal/sentence/the-kitten-uses-its-litter-tray.mp3
+C06-S01-036,pet shop,宠物店,/ˈpet ʃɒp/,pet shop,audio/en-us/animal/word/pet-shop.mp3,We bought a toy at the pet shop.,we bought a toy at the pet shop,audio/en-us/animal/sentence/we-bought-a-toy-at-the-pet-shop.mp3
+C06-S01-037,vet,兽医,/vet/,vet,audio/en-us/animal/word/vet.mp3,The vet checks the puppy.,the vet checks the puppy,audio/en-us/animal/sentence/the-vet-checks-the-puppy.mp3
+C06-S01-038,feed,喂养；喂食,/fiːd/,feed,audio/en-us/animal/word/feed.mp3,I feed my cat every morning.,i feed my cat every morning,audio/en-us/animal/sentence/i-feed-my-cat-every-morning.mp3
+C06-S01-039,groom,梳理（宠物毛发）,/ɡruːm/,groom,audio/en-us/animal/word/groom.mp3,We groom the dog gently.,we groom the dog gently,audio/en-us/animal/sentence/we-groom-the-dog-gently.mp3
+C06-S02-001,farm,农场,/fɑːm/,farm,audio/en-us/animal/word/farm.mp3,We visited a farm on Saturday.,we visited a farm on saturday,audio/en-us/animal/sentence/we-visited-a-farm-on-saturday.mp3
+C06-S02-002,farmer,农场主；农民,/ˈfɑːmə/,farmer,audio/en-us/animal/word/farmer.mp3,The farmer feeds the animals.,the farmer feeds the animals,audio/en-us/animal/sentence/the-farmer-feeds-the-animals.mp3
+C06-S02-003,cow,奶牛；母牛,/kaʊ/,cow,audio/en-us/animal/word/cow.mp3,The cow is eating grass.,the cow is eating grass,audio/en-us/animal/sentence/the-cow-is-eating-grass.mp3
+C06-S02-004,calf,小牛,/kɑːf/,calf,audio/en-us/animal/word/calf.mp3,The calf stays close to its mother.,the calf stays close to its mother,audio/en-us/animal/sentence/the-calf-stays-close-to-its-mother.mp3
+C06-S02-005,bull,公牛,/bʊl/,bull,audio/en-us/animal/word/bull.mp3,The bull is in the field.,the bull is in the field,audio/en-us/animal/sentence/the-bull-is-in-the-field.mp3
+C06-S02-006,dairy cow,奶牛,/ˈdeəri kaʊ/,dairy cow,audio/en-us/animal/word/dairy-cow.mp3,A dairy cow gives milk.,a dairy cow gives milk,audio/en-us/animal/sentence/a-dairy-cow-gives-milk.mp3
+C06-S02-007,sheep,绵羊,/ʃiːp/,sheep,audio/en-us/animal/word/sheep.mp3,The sheep are in the field.,the sheep are in the field,audio/en-us/animal/sentence/the-sheep-are-in-the-field.mp3
+C06-S02-008,lamb,小羊；羊羔,/læm/,lamb,audio/en-us/food/word/lamb.mp3,The lamb follows the ewe.,the lamb follows the ewe,audio/en-us/animal/sentence/the-lamb-follows-the-ewe.mp3
+C06-S02-009,ewe,母羊,/juː/,ewe,audio/en-us/animal/word/ewe.mp3,The ewe is looking after her lamb.,the ewe is looking after her lamb,audio/en-us/animal/sentence/the-ewe-is-looking-after-her-lamb.mp3
+C06-S02-010,ram,公羊,/ræm/,ram,audio/en-us/animal/word/ram.mp3,The ram has curved horns.,the ram has curved horns,audio/en-us/animal/sentence/the-ram-has-curved-horns.mp3
+C06-S02-011,goat,山羊,/ɡəʊt/,goat,audio/en-us/animal/word/goat.mp3,The goat climbs onto a rock.,the goat climbs onto a rock,audio/en-us/animal/sentence/the-goat-climbs-onto-a-rock.mp3
+C06-S02-012,kid,小山羊,/kɪd/,kid,audio/en-us/animal/word/kid.mp3,The kid jumps beside its mother.,the kid jumps beside its mother,audio/en-us/animal/sentence/the-kid-jumps-beside-its-mother.mp3
+C06-S02-013,pig,猪,/pɪɡ/,pig,audio/en-us/animal/word/pig.mp3,The pig rolls in the mud.,the pig rolls in the mud,audio/en-us/animal/sentence/the-pig-rolls-in-the-mud.mp3
+C06-S02-014,piglet,小猪,/ˈpɪɡlət/,piglet,audio/en-us/animal/word/piglet.mp3,The piglet is very small.,the piglet is very small,audio/en-us/animal/sentence/the-piglet-is-very-small.mp3
+C06-S02-015,horse,马,/hɔːs/,horse,audio/en-us/animal/word/horse.mp3,The horse runs across the field.,the horse runs across the field,audio/en-us/animal/sentence/the-horse-runs-across-the-field.mp3
+C06-S02-016,pony,矮种马,/ˈpəʊni/,pony,audio/en-us/animal/word/pony.mp3,The pony is gentle with children.,the pony is gentle with children,audio/en-us/animal/sentence/the-pony-is-gentle-with-children.mp3
+C06-S02-017,foal,小马驹,/fəʊl/,foal,audio/en-us/animal/word/foal.mp3,The foal stands beside its mother.,the foal stands beside its mother,audio/en-us/animal/sentence/the-foal-stands-beside-its-mother.mp3
+C06-S02-018,donkey,驴,/ˈdɒŋki/,donkey,audio/en-us/animal/word/donkey.mp3,The donkey carries a basket.,the donkey carries a basket,audio/en-us/animal/sentence/the-donkey-carries-a-basket.mp3
+C06-S02-019,mule,骡,/mjuːl/,mule,audio/en-us/animal/word/mule.mp3,The mule walks along the path.,the mule walks along the path,audio/en-us/animal/sentence/the-mule-walks-along-the-path.mp3
+C06-S02-020,chicken,鸡,/ˈtʃɪkɪn/,chicken,audio/en-us/food/word/chicken.mp3,The chickens peck at the grain.,the chickens peck at the grain,audio/en-us/animal/sentence/the-chickens-peck-at-the-grain.mp3
+C06-S02-021,hen,母鸡,/hen/,hen,audio/en-us/animal/word/hen.mp3,The hen lays an egg.,the hen lays an egg,audio/en-us/animal/sentence/the-hen-lays-an-egg.mp3
+C06-S02-022,cockerel,小公鸡；公鸡（英式常用）,/ˈkɒkərəl/,cockerel,audio/en-us/animal/word/cockerel.mp3,The cockerel crows at dawn.,the cockerel crows at dawn,audio/en-us/animal/sentence/the-cockerel-crows-at-dawn.mp3
+C06-S02-023,chick,小鸡,/tʃɪk/,chick,audio/en-us/animal/word/chick.mp3,The chick follows the hen.,the chick follows the hen,audio/en-us/animal/sentence/the-chick-follows-the-hen.mp3
+C06-S02-024,duck,鸭子,/dʌk/,duck,audio/en-us/animal/word/duck.mp3,The duck swims in the farm pond.,the duck swims in the farm pond,audio/en-us/animal/sentence/the-duck-swims-in-the-farm-pond.mp3
+C06-S02-025,duckling,小鸭,/ˈdʌklɪŋ/,duckling,audio/en-us/animal/word/duckling.mp3,The ducklings follow their mother.,the ducklings follow their mother,audio/en-us/animal/sentence/the-ducklings-follow-their-mother.mp3
+C06-S02-026,goose,鹅,/ɡuːs/,goose,audio/en-us/animal/word/goose.mp3,The goose walks near the barn.,the goose walks near the barn,audio/en-us/animal/sentence/the-goose-walks-near-the-barn.mp3
+C06-S02-027,gosling,小鹅,/ˈɡɒzlɪŋ/,gosling,audio/en-us/animal/word/gosling.mp3,The gosling has yellow feathers.,the gosling has yellow feathers,audio/en-us/animal/sentence/the-gosling-has-yellow-feathers.mp3
+C06-S02-028,turkey,火鸡,/ˈtɜːki/,turkey,audio/en-us/animal/word/turkey.mp3,The turkey walks across the yard.,the turkey walks across the yard,audio/en-us/animal/sentence/the-turkey-walks-across-the-yard.mp3
+C06-S02-029,rabbit hutch,兔笼,/ˈræbɪt hʌtʃ/,rabbit hutch,audio/en-us/animal/word/rabbit-hutch.mp3,The rabbit hutch is clean.,the rabbit hutch is clean,audio/en-us/animal/sentence/the-rabbit-hutch-is-clean.mp3
+C06-S02-030,barn,谷仓；牲口棚,/bɑːn/,barn,audio/en-us/animal/word/barn.mp3,The hay is stored in the barn.,the hay is stored in the barn,audio/en-us/animal/sentence/the-hay-is-stored-in-the-barn.mp3
+C06-S02-031,stable,马厩,/ˈsteɪbəl/,stable,audio/en-us/animal/word/stable.mp3,The horse sleeps in the stable.,the horse sleeps in the stable,audio/en-us/animal/sentence/the-horse-sleeps-in-the-stable.mp3
+C06-S02-032,hay,干草,/heɪ/,hay,audio/en-us/animal/word/hay.mp3,The sheep eat hay in winter.,the sheep eat hay in winter,audio/en-us/animal/sentence/the-sheep-eat-hay-in-winter.mp3
+C06-S02-033,feed bucket,饲料桶,/ˈfiːd ˌbʌkɪt/,feed bucket,audio/en-us/animal/word/feed-bucket.mp3,The farmer fills the feed bucket.,the farmer fills the feed bucket,audio/en-us/animal/sentence/the-farmer-fills-the-feed-bucket.mp3
+C06-S03-001,wild animal,野生动物,/ˌwaɪld ˈænɪməl/,wild animal,audio/en-us/animal/word/wild-animal.mp3,A wild animal needs a safe habitat.,a wild animal needs a safe habitat,audio/en-us/animal/sentence/a-wild-animal-needs-a-safe-habitat.mp3
+C06-S03-002,lion,狮子,/ˈlaɪən/,lion,audio/en-us/animal/word/lion.mp3,The lion rests in the shade.,the lion rests in the shade,audio/en-us/animal/sentence/the-lion-rests-in-the-shade.mp3
+C06-S03-003,tiger,老虎,/ˈtaɪɡə/,tiger,audio/en-us/animal/word/tiger.mp3,The tiger has orange and black stripes.,the tiger has orange and black stripes,audio/en-us/animal/sentence/the-tiger-has-orange-and-black-stripes.mp3
+C06-S03-004,leopard,豹,/ˈlepəd/,leopard,audio/en-us/animal/word/leopard.mp3,The leopard climbs a tree.,the leopard climbs a tree,audio/en-us/animal/sentence/the-leopard-climbs-a-tree.mp3
+C06-S03-005,cheetah,猎豹,/ˈtʃiːtə/,cheetah,audio/en-us/animal/word/cheetah.mp3,The cheetah can run very fast.,the cheetah can run very fast,audio/en-us/animal/sentence/the-cheetah-can-run-very-fast.mp3
+C06-S03-006,elephant,大象,/ˈelɪfənt/,elephant,audio/en-us/animal/word/elephant.mp3,The elephant uses its trunk to drink.,the elephant uses its trunk to drink,audio/en-us/animal/sentence/the-elephant-uses-its-trunk-to-drink.mp3
+C06-S03-007,giraffe,长颈鹿,/dʒəˈrɑːf/,giraffe,audio/en-us/animal/word/giraffe.mp3,The giraffe has a long neck.,the giraffe has a long neck,audio/en-us/animal/sentence/the-giraffe-has-a-long-neck.mp3
+C06-S03-008,zebra,斑马,/ˈzebrə/,zebra,audio/en-us/animal/word/zebra.mp3,Each zebra has a different stripe pattern.,each zebra has a different stripe pattern,audio/en-us/animal/sentence/each-zebra-has-a-different-stripe-pattern.mp3
+C06-S03-009,rhinoceros,犀牛,/raɪˈnɒsərəs/,rhinoceros,audio/en-us/animal/word/rhinoceros.mp3,The rhinoceros has thick skin.,the rhinoceros has thick skin,audio/en-us/animal/sentence/the-rhinoceros-has-thick-skin.mp3
+C06-S03-010,hippopotamus,河马,/ˌhɪpəˈpɒtəməs/,hippopotamus,audio/en-us/animal/word/hippopotamus.mp3,The hippopotamus stays in the water.,the hippopotamus stays in the water,audio/en-us/animal/sentence/the-hippopotamus-stays-in-the-water.mp3
+C06-S03-011,monkey,猴子,/ˈmʌŋki/,monkey,audio/en-us/animal/word/monkey.mp3,The monkey swings from a branch.,the monkey swings from a branch,audio/en-us/animal/sentence/the-monkey-swings-from-a-branch.mp3
+C06-S03-012,gorilla,大猩猩,/ɡəˈrɪlə/,gorilla,audio/en-us/animal/word/gorilla.mp3,The gorilla lives in a group.,the gorilla lives in a group,audio/en-us/animal/sentence/the-gorilla-lives-in-a-group.mp3
+C06-S03-013,chimpanzee,黑猩猩,/ˌtʃɪmpænˈziː/,chimpanzee,audio/en-us/animal/word/chimpanzee.mp3,The chimpanzee uses its hands to climb.,the chimpanzee uses its hands to climb,audio/en-us/animal/sentence/the-chimpanzee-uses-its-hands-to-climb.mp3
+C06-S03-014,orangutan,红毛猩猩,/ɔːˈræŋuːtæn/,orangutan,audio/en-us/animal/word/orangutan.mp3,The orangutan lives in forest trees.,the orangutan lives in forest trees,audio/en-us/animal/sentence/the-orangutan-lives-in-forest-trees.mp3
+C06-S03-015,bear,熊,/beə/,bear,audio/en-us/animal/word/bear.mp3,The bear looks for food.,the bear looks for food,audio/en-us/animal/sentence/the-bear-looks-for-food.mp3
+C06-S03-016,polar bear,北极熊,/ˌpəʊlə ˈbeə/,polar bear,audio/en-us/animal/word/polar-bear.mp3,The polar bear lives in the Arctic.,the polar bear lives in the arctic,audio/en-us/animal/sentence/the-polar-bear-lives-in-the-arctic.mp3
+C06-S03-017,panda,熊猫,/ˈpændə/,panda,audio/en-us/animal/word/panda.mp3,The panda eats bamboo.,the panda eats bamboo,audio/en-us/animal/sentence/the-panda-eats-bamboo.mp3
+C06-S03-018,wolf,狼,/wʊlf/,wolf,audio/en-us/animal/word/wolf.mp3,The wolf howls at night.,the wolf howls at night,audio/en-us/animal/sentence/the-wolf-howls-at-night.mp3
+C06-S03-019,fox,狐狸,/fɒks/,fox,audio/en-us/animal/word/fox.mp3,The fox has a bushy tail.,the fox has a bushy tail,audio/en-us/animal/sentence/the-fox-has-a-bushy-tail.mp3
+C06-S03-020,deer,鹿,/dɪə/,deer,audio/en-us/animal/word/deer.mp3,A deer walks through the forest.,a deer walks through the forest,audio/en-us/animal/sentence/a-deer-walks-through-the-forest.mp3
+C06-S03-021,moose,驼鹿,/muːs/,moose,audio/en-us/animal/word/moose.mp3,The moose has large antlers.,the moose has large antlers,audio/en-us/animal/sentence/the-moose-has-large-antlers.mp3
+C06-S03-022,squirrel,松鼠,/ˈskwɪrəl/,squirrel,audio/en-us/animal/word/squirrel.mp3,The squirrel hides a nut.,the squirrel hides a nut,audio/en-us/animal/sentence/the-squirrel-hides-a-nut.mp3
+C06-S03-023,hedgehog,刺猬,/ˈhedʒhɒɡ/,hedgehog,audio/en-us/animal/word/hedgehog.mp3,The hedgehog curls into a ball.,the hedgehog curls into a ball,audio/en-us/animal/sentence/the-hedgehog-curls-into-a-ball.mp3
+C06-S03-024,badger,獾,/ˈbædʒə/,badger,audio/en-us/animal/word/badger.mp3,The badger lives in a burrow.,the badger lives in a burrow,audio/en-us/animal/sentence/the-badger-lives-in-a-burrow.mp3
+C06-S03-025,bat,蝙蝠,/bæt/,bat,audio/en-us/animal/word/bat.mp3,A bat flies at dusk.,a bat flies at dusk,audio/en-us/animal/sentence/a-bat-flies-at-dusk.mp3
+C06-S03-026,kangaroo,袋鼠,/ˌkæŋɡəˈruː/,kangaroo,audio/en-us/animal/word/kangaroo.mp3,The kangaroo carries its baby in a pouch.,the kangaroo carries its baby in a pouch,audio/en-us/animal/sentence/the-kangaroo-carries-its-baby-in-a-pouch.mp3
+C06-S03-027,koala,考拉,/kəʊˈɑːlə/,koala,audio/en-us/animal/word/koala.mp3,The koala rests in a eucalyptus tree.,the koala rests in a eucalyptus tree,audio/en-us/animal/sentence/the-koala-rests-in-a-eucalyptus-tree.mp3
+C06-S03-028,camel,骆驼,/ˈkæməl/,camel,audio/en-us/animal/word/camel.mp3,The camel walks across the desert.,the camel walks across the desert,audio/en-us/animal/sentence/the-camel-walks-across-the-desert.mp3
+C06-S03-029,crocodile,鳄鱼,/ˈkrɒkədaɪl/,crocodile,audio/en-us/animal/word/crocodile.mp3,The crocodile rests beside the river.,the crocodile rests beside the river,audio/en-us/animal/sentence/the-crocodile-rests-beside-the-river.mp3
+C06-S03-030,alligator,短吻鳄,/ˈælɪɡeɪtə/,alligator,audio/en-us/animal/word/alligator.mp3,The alligator swims slowly.,the alligator swims slowly,audio/en-us/animal/sentence/the-alligator-swims-slowly.mp3
+C06-S03-031,chameleon,变色龙,/kəˈmiːliən/,chameleon,audio/en-us/animal/word/chameleon.mp3,The chameleon sits on a branch.,the chameleon sits on a branch,audio/en-us/animal/sentence/the-chameleon-sits-on-a-branch.mp3
+C06-S03-032,eagle,鹰,/ˈiːɡəl/,eagle,audio/en-us/animal/word/eagle.mp3,The eagle circles high in the sky.,the eagle circles high in the sky,audio/en-us/animal/sentence/the-eagle-circles-high-in-the-sky.mp3
+C06-S03-033,owl,猫头鹰,/aʊl/,owl,audio/en-us/animal/word/owl.mp3,The owl can see well at night.,the owl can see well at night,audio/en-us/animal/sentence/the-owl-can-see-well-at-night.mp3
+C06-S03-034,woodpecker,啄木鸟,/ˈwʊdˌpekə/,woodpecker,audio/en-us/animal/word/woodpecker.mp3,The woodpecker taps on a tree.,the woodpecker taps on a tree,audio/en-us/animal/sentence/the-woodpecker-taps-on-a-tree.mp3
+C06-S03-035,peacock,孔雀,/ˈpiːkɒk/,peacock,audio/en-us/animal/word/peacock.mp3,The peacock spreads its colourful tail.,the peacock spreads its colourful tail,audio/en-us/animal/sentence/the-peacock-spreads-its-colourful-tail.mp3
+C06-S03-036,ostrich,鸵鸟,/ˈɒstrɪtʃ/,ostrich,audio/en-us/animal/word/ostrich.mp3,The ostrich is a large bird.,the ostrich is a large bird,audio/en-us/animal/sentence/the-ostrich-is-a-large-bird.mp3
+C06-S03-037,penguin,企鹅,/ˈpeŋɡwɪn/,penguin,audio/en-us/animal/word/penguin.mp3,The penguin waddles across the ice.,the penguin waddles across the ice,audio/en-us/animal/sentence/the-penguin-waddles-across-the-ice.mp3
+C06-S03-038,hyena,鬣狗,/haɪˈiːnə/,hyena,audio/en-us/animal/word/hyena.mp3,The hyena lives in parts of Africa.,the hyena lives in parts of africa,audio/en-us/animal/sentence/the-hyena-lives-in-parts-of-africa.mp3
+C06-S03-039,porcupine,豪猪,/ˈpɔːkjʊpaɪn/,porcupine,audio/en-us/animal/word/porcupine.mp3,The porcupine has sharp spines.,the porcupine has sharp spines,audio/en-us/animal/sentence/the-porcupine-has-sharp-spines.mp3
+C06-S03-040,meerkat,狐獴,/ˈmɪəkæt/,meerkat,audio/en-us/animal/word/meerkat.mp3,The meerkat stands up to look around.,the meerkat stands up to look around,audio/en-us/animal/sentence/the-meerkat-stands-up-to-look-around.mp3
+C06-S04-001,sea animal,海洋动物,/ˈsiː ˌænɪməl/,sea animal,audio/en-us/animal/word/sea-animal.mp3,A sea animal lives in or near the sea.,a sea animal lives in or near the sea,audio/en-us/animal/sentence/a-sea-animal-lives-in-or-near-the-sea.mp3
+C06-S04-002,shark,鲨鱼,/ʃɑːk/,shark,audio/en-us/animal/word/shark.mp3,The shark swims through the water.,the shark swims through the water,audio/en-us/animal/sentence/the-shark-swims-through-the-water.mp3
+C06-S04-003,whale,鲸,/weɪl/,whale,audio/en-us/animal/word/whale.mp3,A whale comes up to breathe.,a whale comes up to breathe,audio/en-us/animal/sentence/a-whale-comes-up-to-breathe.mp3
+C06-S04-004,dolphin,海豚,/ˈdɒlfɪn/,dolphin,audio/en-us/animal/word/dolphin.mp3,The dolphin jumps out of the water.,the dolphin jumps out of the water,audio/en-us/animal/sentence/the-dolphin-jumps-out-of-the-water.mp3
+C06-S04-005,porpoise,鼠海豚,/ˈpɔːpəs/,porpoise,audio/en-us/animal/word/porpoise.mp3,A porpoise is a sea mammal.,a porpoise is a sea mammal,audio/en-us/animal/sentence/a-porpoise-is-a-sea-mammal.mp3
+C06-S04-006,orca,虎鲸,/ˈɔːkə/,orca,audio/en-us/animal/word/orca.mp3,The orca is also called a killer whale.,the orca is also called a killer whale,audio/en-us/animal/sentence/the-orca-is-also-called-a-killer-whale.mp3
+C06-S04-007,seal,海豹,/siːl/,seal,audio/en-us/animal/word/seal.mp3,The seal rests on a rock.,the seal rests on a rock,audio/en-us/animal/sentence/the-seal-rests-on-a-rock.mp3
+C06-S04-008,sea lion,海狮,/ˈsiː ˌlaɪən/,sea lion,audio/en-us/animal/word/sea-lion.mp3,The sea lion can move on land.,the sea lion can move on land,audio/en-us/animal/sentence/the-sea-lion-can-move-on-land.mp3
+C06-S04-009,walrus,海象,/ˈwɔːlrəs/,walrus,audio/en-us/animal/word/walrus.mp3,The walrus has long tusks.,the walrus has long tusks,audio/en-us/animal/sentence/the-walrus-has-long-tusks.mp3
+C06-S04-010,sea turtle,海龟,/ˈsiː ˌtɜːtəl/,sea turtle,audio/en-us/animal/word/sea-turtle.mp3,The sea turtle swims near the reef.,the sea turtle swims near the reef,audio/en-us/animal/sentence/the-sea-turtle-swims-near-the-reef.mp3
+C06-S04-011,octopus,章鱼,/ˈɒktəpəs/,octopus,audio/en-us/animal/word/octopus.mp3,The octopus has eight arms.,the octopus has eight arms,audio/en-us/animal/sentence/the-octopus-has-eight-arms.mp3
+C06-S04-012,squid,鱿鱼；乌贼,/skwɪd/,squid,audio/en-us/animal/word/squid.mp3,The squid moves quickly through the sea.,the squid moves quickly through the sea,audio/en-us/animal/sentence/the-squid-moves-quickly-through-the-sea.mp3
+C06-S04-013,jellyfish,水母,/ˈdʒelifɪʃ/,jellyfish,audio/en-us/animal/word/jellyfish.mp3,Some jellyfish have long tentacles.,some jellyfish have long tentacles,audio/en-us/animal/sentence/some-jellyfish-have-long-tentacles.mp3
+C06-S04-014,starfish,海星,/ˈstɑːfɪʃ/,starfish,audio/en-us/animal/word/starfish.mp3,The starfish rests on the seabed.,the starfish rests on the seabed,audio/en-us/animal/sentence/the-starfish-rests-on-the-seabed.mp3
+C06-S04-015,seahorse,海马,/ˈsiːhɔːs/,seahorse,audio/en-us/animal/word/seahorse.mp3,The seahorse is a small sea animal.,the seahorse is a small sea animal,audio/en-us/animal/sentence/the-seahorse-is-a-small-sea-animal.mp3
+C06-S04-016,crab,螃蟹,/kræb/,crab,audio/en-us/animal/word/crab.mp3,The crab walks sideways.,the crab walks sideways,audio/en-us/animal/sentence/the-crab-walks-sideways.mp3
+C06-S04-017,lobster,龙虾,/ˈlɒbstə/,lobster,audio/en-us/animal/word/lobster.mp3,The lobster has a hard shell.,the lobster has a hard shell,audio/en-us/animal/sentence/the-lobster-has-a-hard-shell.mp3
+C06-S04-018,prawn,大虾,/prɔːn/,prawn,audio/en-us/food/word/prawn.mp3,A prawn has a curved body.,a prawn has a curved body,audio/en-us/animal/sentence/a-prawn-has-a-curved-body.mp3
+C06-S04-019,shrimp,小虾,/ʃrɪmp/,shrimp,audio/en-us/animal/word/shrimp.mp3,The shrimp is very small.,the shrimp is very small,audio/en-us/animal/sentence/the-shrimp-is-very-small.mp3
+C06-S04-020,oyster,牡蛎；生蚝,/ˈɔɪstə/,oyster,audio/en-us/animal/word/oyster.mp3,An oyster lives inside a hard shell.,an oyster lives inside a hard shell,audio/en-us/animal/sentence/an-oyster-lives-inside-a-hard-shell.mp3
+C06-S04-021,clam,蛤蜊,/klæm/,clam,audio/en-us/animal/word/clam.mp3,The clam lives in sand.,the clam lives in sand,audio/en-us/animal/sentence/the-clam-lives-in-sand.mp3
+C06-S04-022,mussel,贻贝；青口贝,/ˈmʌsəl/,mussel,audio/en-us/animal/word/mussel.mp3,A mussel has a dark shell.,a mussel has a dark shell,audio/en-us/animal/sentence/a-mussel-has-a-dark-shell.mp3
+C06-S04-023,scallop,扇贝,/ˈskɒləp/,scallop,audio/en-us/animal/word/scallop.mp3,The scallop has a fan-shaped shell.,the scallop has a fanshaped shell,audio/en-us/animal/sentence/the-scallop-has-a-fanshaped-shell.mp3
+C06-S04-024,sea urchin,海胆,/ˈsiː ˌɜːtʃɪn/,sea urchin,audio/en-us/animal/word/sea-urchin.mp3,A sea urchin has sharp spines.,a sea urchin has sharp spines,audio/en-us/animal/sentence/a-sea-urchin-has-sharp-spines.mp3
+C06-S04-025,stingray,黄貂鱼；魟鱼,/ˈstɪŋreɪ/,stingray,audio/en-us/animal/word/stingray.mp3,The stingray glides over the seabed.,the stingray glides over the seabed,audio/en-us/animal/sentence/the-stingray-glides-over-the-seabed.mp3
+C06-S04-026,manta ray,蝠鲼；魔鬼鱼,/ˈmæntə reɪ/,manta ray,audio/en-us/animal/word/manta-ray.mp3,The manta ray has wide fins.,the manta ray has wide fins,audio/en-us/animal/sentence/the-manta-ray-has-wide-fins.mp3
+C06-S04-027,eel,鳗鱼,/iːl/,eel,audio/en-us/animal/word/eel.mp3,The eel has a long body.,the eel has a long body,audio/en-us/animal/sentence/the-eel-has-a-long-body.mp3
+C06-S04-028,swordfish,剑鱼,/ˈsɔːdfɪʃ/,swordfish,audio/en-us/animal/word/swordfish.mp3,The swordfish has a long pointed bill.,the swordfish has a long pointed bill,audio/en-us/animal/sentence/the-swordfish-has-a-long-pointed-bill.mp3
+C06-S04-029,tuna,金枪鱼,/ˈtjuːnə/,tuna,audio/en-us/animal/word/tuna.mp3,Tuna is a large ocean fish.,tuna is a large ocean fish,audio/en-us/animal/sentence/tuna-is-a-large-ocean-fish.mp3
+C06-S04-030,salmon,鲑鱼；三文鱼,/ˈsæmən/,salmon,audio/en-us/animal/word/salmon.mp3,Salmon can swim upstream.,salmon can swim upstream,audio/en-us/animal/sentence/salmon-can-swim-upstream.mp3
+C06-S04-031,sea anemone,海葵,/ˈsiː əˌneməni/,sea anemone,audio/en-us/animal/word/sea-anemone.mp3,A clownfish may live near a sea anemone.,a clownfish may live near a sea anemone,audio/en-us/animal/sentence/a-clownfish-may-live-near-a-sea-anemone.mp3
+C06-S04-032,coral,珊瑚,/ˈkɒrəl/,coral,audio/en-us/animal/word/coral.mp3,Coral reefs provide homes for sea life.,coral reefs provide homes for sea life,audio/en-us/animal/sentence/coral-reefs-provide-homes-for-sea-life.mp3
+C06-S04-033,reef,礁；珊瑚礁,/riːf/,reef,audio/en-us/animal/word/reef.mp3,Many colourful fish live near the reef.,many colourful fish live near the reef,audio/en-us/animal/sentence/many-colourful-fish-live-near-the-reef.mp3
+C06-S04-034,fin,鳍,/fɪn/,fin,audio/en-us/animal/word/fin.mp3,A fish uses its fin to steer.,a fish uses its fin to steer,audio/en-us/animal/sentence/a-fish-uses-its-fin-to-steer.mp3
+C06-S04-035,tentacle,触手,/ˈtentəkəl/,tentacle,audio/en-us/animal/word/tentacle.mp3,The octopus moves a tentacle.,the octopus moves a tentacle,audio/en-us/animal/sentence/the-octopus-moves-a-tentacle.mp3
+C06-S05-001,plant,植物,/plɑːnt/,plant,audio/en-us/family/word/plant.mp3,This plant needs sunlight.,this plant needs sunlight,audio/en-us/animal/sentence/this-plant-needs-sunlight.mp3
+C06-S05-002,tree,树,/triː/,tree,audio/en-us/animal/word/tree.mp3,The tree is tall.,the tree is tall,audio/en-us/sentence/the-tree-is-tall.mp3
+C06-S05-003,flower,花,/ˈflaʊə/,flower,audio/en-us/animal/word/flower.mp3,The flower smells sweet.,the flower smells sweet,audio/en-us/animal/sentence/the-flower-smells-sweet.mp3
+C06-S05-004,grass,草,/ɡrɑːs/,grass,audio/en-us/animal/word/grass.mp3,The grass is wet after the rain.,the grass is wet after the rain,audio/en-us/animal/sentence/the-grass-is-wet-after-the-rain.mp3
+C06-S05-005,leaf,叶子（单数）,/liːf/,leaf,audio/en-us/animal/word/leaf.mp3,A green leaf fell from the tree.,a green leaf fell from the tree,audio/en-us/animal/sentence/a-green-leaf-fell-from-the-tree.mp3
+C06-S05-006,leaves,叶子（复数）,/liːvz/,leaves,audio/en-us/animal/word/leaves.mp3,The leaves turn yellow in autumn.,the leaves turn yellow in autumn,audio/en-us/animal/sentence/the-leaves-turn-yellow-in-autumn.mp3
+C06-S05-007,root,根,/ruːt/,root,audio/en-us/animal/word/root.mp3,The root takes water from the soil.,the root takes water from the soil,audio/en-us/animal/sentence/the-root-takes-water-from-the-soil.mp3
+C06-S05-008,stem,茎,/stem/,stem,audio/en-us/animal/word/stem.mp3,The stem holds the flower upright.,the stem holds the flower upright,audio/en-us/animal/sentence/the-stem-holds-the-flower-upright.mp3
+C06-S05-009,branch,树枝,/brɑːntʃ/,branch,audio/en-us/animal/word/branch.mp3,A bird sits on the branch.,a bird sits on the branch,audio/en-us/animal/sentence/a-bird-sits-on-the-branch.mp3
+C06-S05-010,trunk,树干,/trʌŋk/,trunk,audio/en-us/animal/word/trunk.mp3,The tree trunk is thick.,the tree trunk is thick,audio/en-us/animal/sentence/the-tree-trunk-is-thick.mp3
+C06-S05-011,seed,种子,/siːd/,seed,audio/en-us/food/word/seed.mp3,We plant a seed in the soil.,we plant a seed in the soil,audio/en-us/animal/sentence/we-plant-a-seed-in-the-soil.mp3
+C06-S05-012,seedling,幼苗,/ˈsiːdlɪŋ/,seedling,audio/en-us/animal/word/seedling.mp3,The seedling is growing.,the seedling is growing,audio/en-us/animal/sentence/the-seedling-is-growing.mp3
+C06-S05-013,bud,花蕾；芽,/bʌd/,bud,audio/en-us/animal/word/bud.mp3,A small bud appears on the stem.,a small bud appears on the stem,audio/en-us/animal/sentence/a-small-bud-appears-on-the-stem.mp3
+C06-S05-014,petal,花瓣,/ˈpetəl/,petal,audio/en-us/animal/word/petal.mp3,The flower has five petals.,the flower has five petals,audio/en-us/animal/sentence/the-flower-has-five-petals.mp3
+C06-S05-015,thorn,刺,/θɔːn/,thorn,audio/en-us/animal/word/thorn.mp3,Be careful of the rose thorn.,be careful of the rose thorn,audio/en-us/animal/sentence/be-careful-of-the-rose-thorn.mp3
+C06-S05-016,rose,玫瑰,/rəʊz/,rose,audio/en-us/animal/word/rose.mp3,The red rose is beautiful.,the red rose is beautiful,audio/en-us/animal/sentence/the-red-rose-is-beautiful.mp3
+C06-S05-017,tulip,郁金香,/ˈtjuːlɪp/,tulip,audio/en-us/animal/word/tulip.mp3,The tulip blooms in spring.,the tulip blooms in spring,audio/en-us/animal/sentence/the-tulip-blooms-in-spring.mp3
+C06-S05-018,sunflower,向日葵,/ˈsʌnˌflaʊə/,sunflower,audio/en-us/animal/word/sunflower.mp3,The sunflower faces the sun.,the sunflower faces the sun,audio/en-us/animal/sentence/the-sunflower-faces-the-sun.mp3
+C06-S05-019,daisy,雏菊,/ˈdeɪzi/,daisy,audio/en-us/animal/word/daisy.mp3,A daisy has a yellow centre.,a daisy has a yellow centre,audio/en-us/animal/sentence/a-daisy-has-a-yellow-centre.mp3
+C06-S05-020,lily,百合,/ˈlɪli/,lily,audio/en-us/word/lily.mp3,The white lily is in a vase.,the white lily is in a vase,audio/en-us/animal/sentence/the-white-lily-is-in-a-vase.mp3
+C06-S05-021,orchid,兰花,/ˈɔːkɪd/,orchid,audio/en-us/animal/word/orchid.mp3,The orchid grows in a pot.,the orchid grows in a pot,audio/en-us/animal/sentence/the-orchid-grows-in-a-pot.mp3
+C06-S05-022,daffodil,黄水仙,/ˈdæfədɪl/,daffodil,audio/en-us/animal/word/daffodil.mp3,The daffodil flowers in spring.,the daffodil flowers in spring,audio/en-us/animal/sentence/the-daffodil-flowers-in-spring.mp3
+C06-S05-023,poppy,罂粟花；虞美人,/ˈpɒpi/,poppy,audio/en-us/animal/word/poppy.mp3,A red poppy grows in the field.,a red poppy grows in the field,audio/en-us/animal/sentence/a-red-poppy-grows-in-the-field.mp3
+C06-S05-024,violet,紫罗兰,/ˈvaɪələt/,violet,audio/en-us/word/violet.mp3,The violet has purple flowers.,the violet has purple flowers,audio/en-us/animal/sentence/the-violet-has-purple-flowers.mp3
+C06-S05-025,lavender,薰衣草,/ˈlævəndə/,lavender,audio/en-us/animal/word/lavender.mp3,Lavender has a lovely smell.,lavender has a lovely smell,audio/en-us/animal/sentence/lavender-has-a-lovely-smell.mp3
+C06-S05-026,dandelion,蒲公英,/ˈdændɪlaɪən/,dandelion,audio/en-us/animal/word/dandelion.mp3,The dandelion seeds blow in the wind.,the dandelion seeds blow in the wind,audio/en-us/animal/sentence/the-dandelion-seeds-blow-in-the-wind.mp3
+C06-S05-027,cherry blossom,樱花,/ˈtʃeri ˌblɒsəm/,cherry blossom,audio/en-us/animal/word/cherry-blossom.mp3,Cherry blossom appears in spring.,cherry blossom appears in spring,audio/en-us/animal/sentence/cherry-blossom-appears-in-spring.mp3
+C06-S05-028,lotus,莲花；荷花,/ˈləʊtəs/,lotus,audio/en-us/animal/word/lotus.mp3,The lotus grows in the pond.,the lotus grows in the pond,audio/en-us/animal/sentence/the-lotus-grows-in-the-pond.mp3
+C06-S05-029,bamboo,竹子,/bæmˈbuː/,bamboo,audio/en-us/animal/word/bamboo.mp3,Pandas eat bamboo.,pandas eat bamboo,audio/en-us/animal/sentence/pandas-eat-bamboo.mp3
+C06-S05-030,cactus,仙人掌,/ˈkæktəs/,cactus,audio/en-us/animal/word/cactus.mp3,A cactus can live in dry places.,a cactus can live in dry places,audio/en-us/animal/sentence/a-cactus-can-live-in-dry-places.mp3
+C06-S05-031,fern,蕨类植物,/fɜːn/,fern,audio/en-us/animal/word/fern.mp3,The fern grows in the shade.,the fern grows in the shade,audio/en-us/animal/sentence/the-fern-grows-in-the-shade.mp3
+C06-S05-032,moss,苔藓,/mɒs/,moss,audio/en-us/animal/word/moss.mp3,Moss grows on the damp rock.,moss grows on the damp rock,audio/en-us/animal/sentence/moss-grows-on-the-damp-rock.mp3
+C06-S05-033,bush,灌木丛,/bʊʃ/,bush,audio/en-us/animal/word/bush.mp3,A small bird hides in the bush.,a small bird hides in the bush,audio/en-us/animal/sentence/a-small-bird-hides-in-the-bush.mp3
+C06-S05-034,vine,藤；藤蔓植物,/vaɪn/,vine,audio/en-us/animal/word/vine.mp3,The vine climbs up the wall.,the vine climbs up the wall,audio/en-us/animal/sentence/the-vine-climbs-up-the-wall.mp3
+C06-S05-035,ivy,常春藤,/ˈaɪvi/,ivy,audio/en-us/animal/word/ivy.mp3,Ivy grows along the fence.,ivy grows along the fence,audio/en-us/animal/sentence/ivy-grows-along-the-fence.mp3
+C06-S05-036,pine tree,松树,/ˈpaɪn triː/,pine tree,audio/en-us/animal/word/pine-tree.mp3,The pine tree stays green in winter.,the pine tree stays green in winter,audio/en-us/animal/sentence/the-pine-tree-stays-green-in-winter.mp3
+C06-S05-037,oak tree,橡树,/ˈəʊk triː/,oak tree,audio/en-us/animal/word/oak-tree.mp3,An oak tree can live for many years.,an oak tree can live for many years,audio/en-us/animal/sentence/an-oak-tree-can-live-for-many-years.mp3
+C06-S05-038,palm tree,棕榈树,/ˈpɑːm triː/,palm tree,audio/en-us/animal/word/palm-tree.mp3,A palm tree grows in a warm place.,a palm tree grows in a warm place,audio/en-us/animal/sentence/a-palm-tree-grows-in-a-warm-place.mp3
+C06-S05-039,soil,土壤,/sɔɪl/,soil,audio/en-us/animal/word/soil.mp3,Good soil helps plants grow.,good soil helps plants grow,audio/en-us/animal/sentence/good-soil-helps-plants-grow.mp3
+C06-S05-040,pot,花盆,/pɒt/,pot,audio/en-us/animal/word/pot.mp3,The plant is in a blue pot.,the plant is in a blue pot,audio/en-us/animal/sentence/the-plant-is-in-a-blue-pot.mp3
+C06-S05-041,water a plant,给植物浇水,/ˈwɔːtər ə ˌplɑːnt/,water a plant,audio/en-us/animal/word/water-a-plant.mp3,I water a plant every morning.,i water a plant every morning,audio/en-us/animal/sentence/i-water-a-plant-every-morning.mp3
+C06-S05-042,grow,生长；种植,/ɡrəʊ/,grow,audio/en-us/nature/word/grow.mp3,Plants grow towards the light.,plants grow towards the light,audio/en-us/animal/sentence/plants-grow-towards-the-light.mp3
+C06-S06-001,nature,自然,/ˈneɪtʃə/,nature,audio/en-us/animal/word/nature.mp3,We should take care of nature.,we should take care of nature,audio/en-us/animal/sentence/we-should-take-care-of-nature.mp3
+C06-S06-002,environment,环境,/ɪnˈvaɪrənmənt/,environment,audio/en-us/animal/word/environment.mp3,A clean environment is important.,a clean environment is important,audio/en-us/animal/sentence/a-clean-environment-is-important.mp3
+C06-S06-003,Earth,地球,/ɜːθ/,earth,audio/en-us/animal/word/earth.mp3,Earth is our home.,earth is our home,audio/en-us/animal/sentence/earth-is-our-home.mp3
+C06-S06-004,land,陆地；土地,/lænd/,land,audio/en-us/animal/word/land.mp3,The land is green after the rain.,the land is green after the rain,audio/en-us/animal/sentence/the-land-is-green-after-the-rain.mp3
+C06-S06-005,sea,海；海洋,/siː/,sea,audio/en-us/animal/word/sea.mp3,The sea looks blue today.,the sea looks blue today,audio/en-us/animal/sentence/the-sea-looks-blue-today.mp3
+C06-S06-006,ocean,大洋；海洋,/ˈəʊʃən/,ocean,audio/en-us/animal/word/ocean.mp3,The ocean is very deep.,the ocean is very deep,audio/en-us/animal/sentence/the-ocean-is-very-deep.mp3
+C06-S06-007,river,河流,/ˈrɪvə/,river,audio/en-us/animal/word/river.mp3,The river flows past the village.,the river flows past the village,audio/en-us/animal/sentence/the-river-flows-past-the-village.mp3
+C06-S06-008,lake,湖,/leɪk/,lake,audio/en-us/animal/word/lake.mp3,We saw ducks on the lake.,we saw ducks on the lake,audio/en-us/animal/sentence/we-saw-ducks-on-the-lake.mp3
+C06-S06-009,pond,池塘,/pɒnd/,pond,audio/en-us/animal/word/pond.mp3,Frogs live near the pond.,frogs live near the pond,audio/en-us/animal/sentence/frogs-live-near-the-pond.mp3
+C06-S06-010,stream,小溪,/striːm/,stream,audio/en-us/animal/word/stream.mp3,The stream runs over the stones.,the stream runs over the stones,audio/en-us/animal/sentence/the-stream-runs-over-the-stones.mp3
+C06-S06-011,waterfall,瀑布,/ˈwɔːtəfɔːl/,waterfall,audio/en-us/animal/word/waterfall.mp3,The waterfall makes a loud sound.,the waterfall makes a loud sound,audio/en-us/animal/sentence/the-waterfall-makes-a-loud-sound.mp3
+C06-S06-012,mountain,山；山脉中的一座山,/ˈmaʊntɪn/,mountain,audio/en-us/animal/word/mountain.mp3,Snow covers the mountain top.,snow covers the mountain top,audio/en-us/animal/sentence/snow-covers-the-mountain-top.mp3
+C06-S06-013,hill,小山；山丘,/hɪl/,hill,audio/en-us/animal/word/hill.mp3,We walked up the hill.,we walked up the hill,audio/en-us/animal/sentence/we-walked-up-the-hill.mp3
+C06-S06-014,valley,山谷,/ˈvæli/,valley,audio/en-us/animal/word/valley.mp3,A river runs through the valley.,a river runs through the valley,audio/en-us/animal/sentence/a-river-runs-through-the-valley.mp3
+C06-S06-015,forest,森林,/ˈfɒrɪst/,forest,audio/en-us/animal/word/forest.mp3,Many animals live in the forest.,many animals live in the forest,audio/en-us/animal/sentence/many-animals-live-in-the-forest.mp3
+C06-S06-016,wood,树林,/wʊd/,wood,audio/en-us/animal/word/wood.mp3,We walked through the wood.,we walked through the wood,audio/en-us/animal/sentence/we-walked-through-the-wood.mp3
+C06-S06-017,jungle,丛林,/ˈdʒʌŋɡəl/,jungle,audio/en-us/animal/word/jungle.mp3,The jungle is hot and wet.,the jungle is hot and wet,audio/en-us/animal/sentence/the-jungle-is-hot-and-wet.mp3
+C06-S06-018,rainforest,热带雨林,/ˈreɪnˌfɒrɪst/,rainforest,audio/en-us/animal/word/rainforest.mp3,A rainforest gets lots of rain.,a rainforest gets lots of rain,audio/en-us/animal/sentence/a-rainforest-gets-lots-of-rain.mp3
+C06-S06-019,desert,沙漠,/ˈdezət/,desert,audio/en-us/animal/word/desert.mp3,Some deserts are very dry.,some deserts are very dry,audio/en-us/animal/sentence/some-deserts-are-very-dry.mp3
+C06-S06-020,island,岛屿,/ˈaɪlənd/,island,audio/en-us/animal/word/island.mp3,They live on a small island.,they live on a small island,audio/en-us/animal/sentence/they-live-on-a-small-island.mp3
+C06-S06-021,beach,海滩,/biːtʃ/,beach,audio/en-us/animal/word/beach.mp3,We collected shells on the beach.,we collected shells on the beach,audio/en-us/animal/sentence/we-collected-shells-on-the-beach.mp3
+C06-S06-022,coast,海岸,/kəʊst/,coast,audio/en-us/animal/word/coast.mp3,The town is on the coast.,the town is on the coast,audio/en-us/animal/sentence/the-town-is-on-the-coast.mp3
+C06-S06-023,cliff,悬崖,/klɪf/,cliff,audio/en-us/animal/word/cliff.mp3,Seabirds nest on the cliff.,seabirds nest on the cliff,audio/en-us/animal/sentence/seabirds-nest-on-the-cliff.mp3
+C06-S06-024,cave,洞穴,/keɪv/,cave,audio/en-us/animal/word/cave.mp3,The bear sleeps in a cave.,the bear sleeps in a cave,audio/en-us/animal/sentence/the-bear-sleeps-in-a-cave.mp3
+C06-S06-025,rock,岩石,/rɒk/,rock,audio/en-us/animal/word/rock.mp3,A lizard sits on the rock.,a lizard sits on the rock,audio/en-us/animal/sentence/a-lizard-sits-on-the-rock.mp3
+C06-S06-026,stone,石头,/stəʊn/,stone,audio/en-us/animal/word/stone.mp3,The path is covered with small stones.,the path is covered with small stones,audio/en-us/animal/sentence/the-path-is-covered-with-small-stones.mp3
+C06-S06-027,sand,沙；沙子,/sænd/,sand,audio/en-us/animal/word/sand.mp3,The children play in the sand.,the children play in the sand,audio/en-us/animal/sentence/the-children-play-in-the-sand.mp3
+C06-S06-028,mud,泥；泥浆,/mʌd/,mud,audio/en-us/animal/word/mud.mp3,The path is full of mud.,the path is full of mud,audio/en-us/animal/sentence/the-path-is-full-of-mud.mp3
+C06-S06-029,sky,天空,/skaɪ/,sky,audio/en-us/animal/word/sky.mp3,The sky is clear today.,the sky is clear today,audio/en-us/animal/sentence/the-sky-is-clear-today.mp3
+C06-S06-030,cloud,云,/klaʊd/,cloud,audio/en-us/nature/word/cloud.mp3,A white cloud floats in the sky.,a white cloud floats in the sky,audio/en-us/animal/sentence/a-white-cloud-floats-in-the-sky.mp3
+C06-S06-031,sun,太阳,/sʌn/,sun,audio/en-us/word/sun.mp3,The sun is shining.,the sun is shining,audio/en-us/animal/sentence/the-sun-is-shining.mp3
+C06-S06-032,moon,月亮,/muːn/,moon,audio/en-us/word/moon.mp3,The moon looks bright tonight.,the moon looks bright tonight,audio/en-us/animal/sentence/the-moon-looks-bright-tonight.mp3
+C06-S06-033,star,星星,/stɑː/,star,audio/en-us/word/star.mp3,We can see a star in the sky.,we can see a star in the sky,audio/en-us/animal/sentence/we-can-see-a-star-in-the-sky.mp3
+C06-S06-034,air,空气,/eə/,air,audio/en-us/animal/word/air.mp3,Fresh air feels good.,fresh air feels good,audio/en-us/animal/sentence/fresh-air-feels-good.mp3
+C06-S06-035,wind,风,/wɪnd/,wind,audio/en-us/nature/word/wind.mp3,The wind moves the leaves.,the wind moves the leaves,audio/en-us/animal/sentence/the-wind-moves-the-leaves.mp3
+C06-S06-036,rain,雨；下雨,/reɪn/,rain,audio/en-us/nature/word/rain.mp3,The rain falls on the roof.,the rain falls on the roof,audio/en-us/animal/sentence/the-rain-falls-on-the-roof.mp3
+C06-S06-037,snow,雪；下雪,/snəʊ/,snow,audio/en-us/nature/word/snow.mp3,Snow covers the field in winter.,snow covers the field in winter,audio/en-us/animal/sentence/snow-covers-the-field-in-winter.mp3
+C06-S06-038,ice,冰,/aɪs/,ice,audio/en-us/animal/word/ice.mp3,The lake has a layer of ice.,the lake has a layer of ice,audio/en-us/animal/sentence/the-lake-has-a-layer-of-ice.mp3
+C06-S06-039,storm,暴风雨；风暴,/stɔːm/,storm,audio/en-us/nature/word/storm.mp3,A storm is coming.,a storm is coming,audio/en-us/animal/sentence/a-storm-is-coming.mp3
+C06-S06-040,thunder,雷声,/ˈθʌndə/,thunder,audio/en-us/nature/word/thunder.mp3,We heard thunder in the distance.,we heard thunder in the distance,audio/en-us/animal/sentence/we-heard-thunder-in-the-distance.mp3
+C06-S06-041,lightning,闪电,/ˈlaɪtnɪŋ/,lightning,audio/en-us/nature/word/lightning.mp3,Lightning lit up the sky.,lightning lit up the sky,audio/en-us/nature/sentence/lightning-lit-up-the-sky.mp3
+C06-S06-042,rainbow,彩虹,/ˈreɪnbəʊ/,rainbow,audio/en-us/nature/word/rainbow.mp3,A rainbow appeared after the rain.,a rainbow appeared after the rain,audio/en-us/nature/sentence/a-rainbow-appeared-after-the-rain.mp3
+C06-S06-043,weather,天气,/ˈweðə/,weather,audio/en-us/nature/word/weather.mp3,The weather is warm today.,the weather is warm today,audio/en-us/nature/sentence/the-weather-is-warm-today.mp3
+C06-S06-044,field,田野；地块,/fiːld/,field,audio/en-us/animal/word/field.mp3,Flowers grow in the field.,flowers grow in the field,audio/en-us/animal/sentence/flowers-grow-in-the-field.mp3
+C06-S06-045,meadow,草地；草甸,/ˈmedəʊ/,meadow,audio/en-us/animal/word/meadow.mp3,Butterflies fly over the meadow.,butterflies fly over the meadow,audio/en-us/animal/sentence/butterflies-fly-over-the-meadow.mp3
+C06-S06-046,grassland,草原,/ˈɡrɑːslænd/,grassland,audio/en-us/animal/word/grassland.mp3,Zebras live on the grassland.,zebras live on the grassland,audio/en-us/animal/sentence/zebras-live-on-the-grassland.mp3
+C06-S06-047,volcano,火山,/vɒlˈkeɪnəʊ/,volcano,audio/en-us/animal/word/volcano.mp3,The volcano is a natural landform.,the volcano is a natural landform,audio/en-us/animal/sentence/the-volcano-is-a-natural-landform.mp3
+C06-S06-048,glacier,冰川,/ˈɡlæsiə/,glacier,audio/en-us/animal/word/glacier.mp3,The glacier moves very slowly.,the glacier moves very slowly,audio/en-us/animal/sentence/the-glacier-moves-very-slowly.mp3
+C06-S06-049,habitat,栖息地,/ˈhæbɪtæt/,habitat,audio/en-us/animal/word/habitat.mp3,Every animal needs a suitable habitat.,every animal needs a suitable habitat,audio/en-us/animal/sentence/every-animal-needs-a-suitable-habitat.mp3

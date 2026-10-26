@@ -1,0 +1,22 @@
+{
+  "01_宠物与农场动物.json": {
+    "sha256": "cf16c8afa6c4a08d8aa95e0e447956d9160e403a8345c577f72a804acfdfacfc",
+    "bytes": 38266
+  },
+  "02_野生与海洋动物.json": {
+    "sha256": "9343d4f0e49887f8fd215e739b35a238de5f5b795df1456b9ad29d2b665016a3",
+    "bytes": 40567
+  },
+  "03_植物与花卉.json": {
+    "sha256": "99bb408f2df2c5299911d537fabdcf2d80bdc0a7c6f151a33fd9c6995fed0e91",
+    "bytes": 22854
+  },
+  "04_自然环境.json": {
+    "sha256": "40f3a252aa9e5a37064b48f4f3a6c010e3d388eb3cab54105b4f2e5964ecd7bd",
+    "bytes": 26221
+  },
+  "动物与自然_分类目录.json": {
+    "sha256": "1c0c4be0f032163c29f94f896ae76e8284545bcb3745ebe54e4e528172099b7f",
+    "bytes": 3053
+  }
+}

@@ -32,7 +32,7 @@ with sync_playwright() as p:
     found.update(marker for marker in markers if marker in line)
   assert found==set(markers)
   page.locator('#source-fallback>summary').click()
-  # The full media archive is about 395 MB; source-editor layout can take
+  # The full media archive is over 450 MB; source-editor layout can take
   # longer than navigation on a shared runner. Keep the full-value/hash checks.
   page.wait_for_function('document.querySelector("#offline-html-source").value.length>1000000',timeout=180000)
   page.locator('[data-action="select-html-source"]').click()
@@ -54,7 +54,7 @@ with sync_playwright() as p:
    assert stored['wordStatus']['C01-S01-001']=='mastered' and stored['notes'][0]['body']=='需要保留的记录'
    assert stored['practiceResume']['answered'] is True
    assert stored['settings']['grade']=='四年级'
-   assert exported.evaluate('Object.keys(FROG_SCENE_IMAGES).length')==110
+   assert exported.evaluate('Object.keys(FROG_SCENE_IMAGES).length')==140
    assert exported.evaluate('Object.keys(FROG_CATEGORY_IMAGES).length')==4
    # Validate every decoded recording/image after script line-continuation formatting.
    verified=exported.evaluate('''async()=>{
@@ -63,7 +63,7 @@ with sync_playwright() as p:
     await Promise.all(Array.from({length:3},async()=>{while(next<rows.length){const row=rows[next++],bytes=Uint8Array.from(atob(row.data),c=>c.charCodeAt(0)),hash=Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',bytes)),n=>n.toString(16).padStart(2,'0')).join('');if(hash!==row.hash)throw new Error('Exported media bytes changed');}}));
     return rows.length;
    }''')
-   assert verified==2169+110+4
+   assert verified==2616+140+4
    assert exported.locator('.startup-screen').is_hidden()
    isolated.set_offline(True)
    for category in range(1,9):
@@ -92,7 +92,7 @@ with sync_playwright() as p:
    art=exported.locator('.translation-picture img').get_attribute('src')
    assert art.startswith('data:image/png;base64,')
    assert hashlib.sha256(base64.b64decode(art.split(',',1)[1])).digest()==hashlib.sha256((Path(__file__).resolve().parents[1]/'assets/scenes/see-you-tomorrow.png').read_bytes()).digest()
-   assert exported.evaluate('FROG_MEANING_LIBRARY.entries.length')==972
+   assert exported.evaluate('FROG_MEANING_LIBRARY.entries.length')==1210
    exported.evaluate("window.meaningClosed=false;document.querySelector('#lesson-dialog').addEventListener('close',()=>window.meaningClosed=true,{once:true})")
    exported.locator('.practice-back').click();exported.wait_for_function('meaningClosed')
    exported.goto(f'http://127.0.0.1:{server.server_port}/#words/C01/C01-S02')

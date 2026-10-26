@@ -1,14 +1,12 @@
 # 老K学英语
 
-全站已按每组 10–25 词的原则检查并合并相近内容：972 个词覆盖 20 个已有词汇的入口，共 61 个学习分组，每组 10–24 词。18 个入口提供整组／小类选择；问候与礼貌用语 22 词、颜色 19 词直接整组练习。原 25 个不足 10 词的小类均已合并，词条、DJ、录音、图片及记录保留。详见 `reports/practice-group-audit.json` 和 `reports/test-report.md`。
+在原网站“动物与自然”入口新增 **238 条**，保持原页面、操作、设置和记录格式。四个二级入口为：宠物与农场动物 **72**、野生与海洋动物 **75**、植物与花卉 **42**、自然环境 **49**。各入口均保留整组练习与小类弹窗，共 **15 个小类，每类 11–20 词**；按相近内容组织，不拆成零碎小组。
 
-本次在原网站的“饮食与健康”入口新增 **218 条**：水果与蔬菜 64、食物主食与饮料 69、身体部位 41、健康与身体感受 44。总词库现为 **972 条**，原基础入门 136、时间与自然 220、学校与学习 198、家庭与日常生活 200 保持。
+本包词条、ID、DJ 英式音标及中英文例句保留源值。新增 **447 段** Bella GA 单词／完整例句 MP3，其余相同读音复用现有录音；原 **2169 段**字节不变，总数 **2616 段**。新增 **30 张**无损 WebP 图集，为 238 条各提供独立场景；需要人物时沿用首页男孩与女孩，其余突出对应动植物及环境。原 110 个图片文件与分类背景保持。
 
-沿用现有四个二级入口和选择弹窗，将相近内容合并为 **14 个练习小类**：水果与蔬菜 4 类（13 / 18 / 18 / 15 词）、食物主食与饮料 5 类（17 / 13 / 13 / 14 / 12 词）、身体部位 2 类（22 / 19 词）、健康与身体感受 3 类（11 / 18 / 15 词）。所有内置小类均在建议的 **10–25 词**范围内，整组练习保留。健康组为“健康与日常感受”“常见症状与受伤”“就医护理与康复”。搜索、DJ、GA、例句填空、答案、上下题、重练、续学、资料、打卡、备份和本地记录保持。
+全站现有 **1210 条词汇、24 个有内容入口、76 个学习分组，每组 10–24 词**。原基础入门 136、时间与自然 220、学校与学习 198、家庭与日常生活 200、饮食与健康 218 保留。其余未提供词汇的入口继续为空。搜索、DJ、GA、完整例句填空、词义对应、居中答案弹窗、正确提交、上下题、重练、续学、资料、打卡、备份及本地记录沿用原功能。
 
-新增 **417 个** Bella GA 单词／完整语句 MP3，相同读音复用已有文件；原 **1752 个 MP3** 字节保持，总数 **2169 个**。新增 28 张无损 WebP 图集，为 218 条各提供对应场景，沿用首页男孩与女孩，并按例句补充家人和医生。网页使用随包静态资源，无需语音服务或 API Key。
-
-源 ZIP 的四窗口与六个语义类别分别保留于原始 JSON；既有网站入口仍为四个，词条 ID 不变。源标签 `cold (feeling)` 的括号用于区分词义，练习和朗读使用 `cold`，DJ、词义和例句保留。补充 green bean／bean sprout 在例句中的规则复数识别，答题要求实际词形；原 754 条填空结果保持。thumb 的源例句使用 thumbs-up 复合词，沿用原单词拼写回退，不强制填写不同词。
+源包六个语义分类映射到既有四个入口，保持 UI ID 和源词条 ID。`kid` 在本包指小山羊，`lead` 指牵引绳；中文例句中 `poppy` 仅概括为红花，使用原“本句用法”提示并保留词义，避免错误地把所有红花等同于 poppy。
 
 ## 完整包和部署
 
@@ -19,30 +17,31 @@
 
 ## 内容维护与核对
 
-- 原始词包 JSON 分别保留于 `data/time-nature/`、`data/school-learning/`、`data/family-daily/`、`data/food-health/`。原基础资料为 `data/basic-vocabulary.json`。
+- 新包原始 JSON 与审阅稿保留于 `data/animal-nature/`，SHA-256 见 `reports/animal-source-sha256.json`。`tools/build_animal_assets.py` 追加 `animal-nature-v1`，词库版本保持 `basic-us-v1`，安装一次，尊重用户删除；旧备份可补装新包。
+- `tools/build_animal_mappings.py` 校验中文词义对应与四入口的 15 个小类；源六语义类别与四 UI 入口关系见 `data/animal-nature-windows.json`，练习定义见 `data/animal-nature-practice-sections.json`。词条 ID 保持，不按 ID 中 S01–S06 推断网站入口。
+- `tools/generate_animal_audio.py` 只制作新包缺少的录音，模型/依赖在仓库外；词、整句路径见 `data/animal-nature-audio-map.csv`，音素及哈希见 `data/animal-nature-audio-generation.json`。原 2169 段不变，网页不调用语音合成。
+- `tools/build_animal_scenes.py` 将图像工具生成的 30 张 PNG 无损编码为 WebP 图集，浏览器沿用现有分格渲染；238 个词各有独立对应场景，源图哈希见 `reports/animal-scene-source-sha256.json`。
+
+- 原始词包 JSON 分别保留于 `data/time-nature/`、`data/school-learning/`、`data/family-daily/`、`data/food-health/`、`data/animal-nature/`。原基础资料为 `data/basic-vocabulary.json`。
 - `tools/build_food_assets.py` 追加 C05 内容包；词库版本保持 `basic-us-v1`，按 `food-health-v1` 包标记安装一次，旧状态/旧备份保留，用户明确删除后不强制补回。
 - `tools/build_food_mappings.py` 维护本包中文词义对应及四入口的 14 个小类；具体分组见 `data/food-health-practice-sections.json`。`data/food-health-windows.json` 保留源语义分类和网站入口的对应关系。
 - `tools/generate_food_audio.py` 是制作阶段的可选工具，仅制作新包缺少的录音；依赖、模型和临时缓存不随网站分发。`data/food-health-audio-generation.json` 记录音素、声线、模型和文件哈希；`data/food-health-audio-map.csv` 提供 218 条单词与例句映射。
 - `data/practice-group-policy.json` 维护全站相关小类的合并与 10–25 词目标；运行各词包构建器后，必须运行 `tools/build_practice_groups.py`，重新应用合并、校验全量覆盖并更新页面及审计报告。重复构建不会恢复零碎分组。
 - `tools/build_audio_assets.py`、`build_meaning_assets.py`、`build_scene_assets.py`、`build_practice_groups.py` 校验并内嵌全部已发布词包的静态映射。
-- `python3 tools/package_pages.py /workspace/output/laok-pages-v41.zip` 可生成本地平铺部署包，公开下载使用原入口自动提供当前 `gh-pages` 完整源码 ZIP，避免递归提交大 ZIP。
+- `python3 tools/package_pages.py /workspace/output/laok-pages-v42.zip` 可生成本地平铺部署包，公开下载使用原入口自动提供当前 `gh-pages` 完整源码 ZIP，避免递归提交大 ZIP。
 
 在仓库根目录运行 `python3 -m http.server 8000` 后，使用 Python Playwright 和 Chromium 核对：
 
 ```sh
+python3 tests/animal_nature.py
 python3 tests/site_group_audit.py
-python3 tests/food_sections.py
-python3 tests/food_health.py
-python3 tests/food_forms.py
-python3 tests/family_daily.py
-python3 tests/phrase_forms.py
-python3 tests/school_learning.py
-python3 tests/time_nature.py
-python3 tests/meaning_targets.py
 python3 tests/practice_groups.py
+python3 tests/learning_progress.py
+python3 tests/resume_position.py
+python3 tests/practice_focus.py
 python3 tests/audio_quality.py
 python3 tests/home_export.py
-python3 tests/pages_package.py /workspace/output/laok-pages-v41.zip
+python3 tests/pages_package.py /workspace/output/laok-pages-v42.zip
 ```
 
 当前实际通过范围见 [reports/test-report.md](reports/test-report.md)；历史教材流程测试仍作归档，未声称其通过当前仅词库版本。

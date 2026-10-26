@@ -16,12 +16,12 @@ for row in manifest['clips']:
  path=ROOT/row['path'];assert hashlib.sha256(path.read_bytes()).hexdigest()==row['sha256']==audit[row['path']]['sha256']
 assert len(list((ROOT/'audio').rglob('*.mp3')))==len(audit)
 scenes=json.loads((ROOT/'data/scene-catalog.json').read_text())
-assert len(scenes['scenes'])==972 and len(scenes['sheets'])==110
+assert len(scenes['scenes'])==1210 and len(scenes['sheets'])==140
 for sheet in scenes['sheets']:
  assert hashlib.sha256((ROOT/sheet['path']).read_bytes()).hexdigest()==sheet['sha256']
 meanings=json.loads((ROOT/'data/meaning-catalog.json').read_text())
 embedded=re.search(r'window.FROG_MEANING_LIBRARY=(.*?);\s*</script>',(ROOT/'index.html').read_text(),re.S)
-assert len(meanings['entries'])==972 and embedded and json.loads(embedded[1])==meanings
+assert len(meanings['entries'])==1210 and embedded and json.loads(embedded[1])==meanings
 groups=json.loads((ROOT/'data/practice-groups.json').read_text())
 embedded_groups=re.search(r'window.FROG_PRACTICE_GROUPS=(.*?);\s*</script>',(ROOT/'index.html').read_text(),re.S)
 assert embedded_groups and json.loads(embedded_groups[1])==groups

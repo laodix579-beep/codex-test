@@ -11,7 +11,7 @@ bank = json.loads(match[1])
 manifest = json.loads((ROOT / 'audio-manifest.json').read_text())
 provided = json.loads((ROOT / 'reports/source-audio-sha256.json').read_text())
 generations = [json.loads((ROOT / ('data/' + name + '-audio-generation.json')).read_text())
-               for name in ['time-nature', 'school-learning', 'family-daily', 'food-health']]
+               for name in ['time-nature', 'school-learning', 'family-daily', 'food-health', 'animal-nature']]
 audit = dict(provided)
 for path, entry in provided.items():
     assert hashlib.sha256((ROOT / path).read_bytes()).hexdigest() == entry['sha256']

@@ -16506,6 +16506,4046 @@
       ],
       "usage": "",
       "note": ""
+    },
+    {
+      "id": "C06-S01-001",
+      "word": "pet",
+      "meaning": "宠物",
+      "english": "A pet needs food and care.",
+      "chinese": "宠物需要食物和照料。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "宠物"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S01-002",
+      "word": "dog",
+      "meaning": "狗",
+      "english": "The dog is playing in the garden.",
+      "chinese": "这只狗正在花园里玩。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 3,
+          "text": "狗"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S01-003",
+      "word": "puppy",
+      "meaning": "小狗",
+      "english": "The puppy is very playful.",
+      "chinese": "这只小狗很爱玩。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "小狗"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S01-004",
+      "word": "cat",
+      "meaning": "猫",
+      "english": "The cat is sleeping on the sofa.",
+      "chinese": "猫正在沙发上睡觉。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 1,
+          "text": "猫"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S01-005",
+      "word": "kitten",
+      "meaning": "小猫",
+      "english": "The kitten has soft fur.",
+      "chinese": "这只小猫有柔软的毛。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "小猫"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S01-006",
+      "word": "rabbit",
+      "meaning": "兔子",
+      "english": "The rabbit eats a carrot.",
+      "chinese": "兔子吃胡萝卜。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "兔子"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S01-007",
+      "word": "hamster",
+      "meaning": "仓鼠",
+      "english": "The hamster runs in its wheel.",
+      "chinese": "仓鼠在跑轮里跑。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "仓鼠"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S01-008",
+      "word": "guinea pig",
+      "meaning": "豚鼠",
+      "english": "Our guinea pig likes fresh grass.",
+      "chinese": "我们的豚鼠喜欢新鲜的草。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "豚鼠"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S01-009",
+      "word": "gerbil",
+      "meaning": "沙鼠",
+      "english": "The gerbil hides in its bedding.",
+      "chinese": "沙鼠藏在垫料里。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "沙鼠"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S01-010",
+      "word": "mouse",
+      "meaning": "老鼠；小鼠",
+      "english": "The little mouse is quick.",
+      "chinese": "这只小鼠动作很快。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "小鼠"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S01-011",
+      "word": "rat",
+      "meaning": "大鼠；老鼠",
+      "english": "The pet rat is gentle.",
+      "chinese": "这只宠物鼠很温顺。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 5,
+          "text": "宠物鼠"
+        }
+      ],
+      "usage": "",
+      "note": "rat 是体型较大的鼠；本句用“宠物鼠”表达，注意与 mouse 区分。"
+    },
+    {
+      "id": "C06-S01-012",
+      "word": "ferret",
+      "meaning": "雪貂",
+      "english": "The ferret likes to explore.",
+      "chinese": "雪貂喜欢到处探索。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "雪貂"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S01-013",
+      "word": "chinchilla",
+      "meaning": "毛丝鼠；龙猫",
+      "english": "The chinchilla has very soft fur.",
+      "chinese": "毛丝鼠有非常柔软的毛。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "毛丝鼠"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S01-014",
+      "word": "bird",
+      "meaning": "鸟",
+      "english": "The bird sings in the morning.",
+      "chinese": "这只鸟早上唱歌。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 3,
+          "text": "鸟"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S01-015",
+      "word": "parrot",
+      "meaning": "鹦鹉",
+      "english": "The parrot can copy some sounds.",
+      "chinese": "鹦鹉会模仿一些声音。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "鹦鹉"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S01-016",
+      "word": "budgie",
+      "meaning": "虎皮鹦鹉（英式常用）",
+      "english": "The budgie sits on its perch.",
+      "chinese": "虎皮鹦鹉站在栖木上。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 4,
+          "text": "虎皮鹦鹉"
+        }
+      ],
+      "usage": "",
+      "note": "budgie 是虎皮鹦鹉的英式常用名称；单词保留源词形，朗读使用 GA。"
+    },
+    {
+      "id": "C06-S01-017",
+      "word": "canary",
+      "meaning": "金丝雀",
+      "english": "The canary has a yellow body.",
+      "chinese": "金丝雀的身体是黄色的。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "金丝雀"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S01-018",
+      "word": "goldfish",
+      "meaning": "金鱼",
+      "english": "The goldfish swims in a tank.",
+      "chinese": "金鱼在鱼缸里游泳。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "金鱼"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S01-019",
+      "word": "aquarium",
+      "meaning": "水族箱；水族馆",
+      "english": "The fish lives in a clean aquarium.",
+      "chinese": "这条鱼生活在干净的水族箱里。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 9,
+          "end": 12,
+          "text": "水族箱"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S01-020",
+      "word": "turtle",
+      "meaning": "龟；水龟",
+      "english": "The turtle moves slowly.",
+      "chinese": "这只龟移动得很慢。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 3,
+          "text": "龟"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S01-021",
+      "word": "tortoise",
+      "meaning": "陆龟",
+      "english": "The tortoise has a hard shell.",
+      "chinese": "陆龟有坚硬的壳。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "陆龟"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S01-022",
+      "word": "lizard",
+      "meaning": "蜥蜴",
+      "english": "The lizard sits on a warm rock.",
+      "chinese": "蜥蜴趴在温暖的石头上。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "蜥蜴"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S01-023",
+      "word": "snake",
+      "meaning": "蛇",
+      "english": "The snake moves through the grass.",
+      "chinese": "蛇穿过草丛。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 1,
+          "text": "蛇"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S01-024",
+      "word": "frog",
+      "meaning": "青蛙",
+      "english": "The frog jumps into the pond.",
+      "chinese": "青蛙跳进池塘。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "青蛙"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S01-025",
+      "word": "paw",
+      "meaning": "爪子（猫狗等）",
+      "english": "The puppy lifted its paw.",
+      "chinese": "小狗抬起了爪子。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "爪子"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S01-026",
+      "word": "tail",
+      "meaning": "尾巴",
+      "english": "The cat has a long tail.",
+      "chinese": "这只猫有一条长尾巴。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 9,
+          "text": "尾巴"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S01-027",
+      "word": "fur",
+      "meaning": "毛皮；软毛",
+      "english": "The rabbit's fur is soft.",
+      "chinese": "兔子的毛很柔软。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 4,
+          "text": "毛"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S01-028",
+      "word": "whiskers",
+      "meaning": "（猫等的）胡须",
+      "english": "The cat has long whiskers.",
+      "chinese": "这只猫有长长的胡须。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 9,
+          "text": "胡须"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S01-029",
+      "word": "cage",
+      "meaning": "笼子",
+      "english": "The bird's cage is near the window.",
+      "chinese": "鸟笼在窗户旁边。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 2,
+          "text": "笼"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S01-030",
+      "word": "fish tank",
+      "meaning": "鱼缸",
+      "english": "We clean the fish tank every week.",
+      "chinese": "我们每周清洗鱼缸。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 8,
+          "text": "鱼缸"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S01-031",
+      "word": "pet bowl",
+      "meaning": "宠物食盆",
+      "english": "The dog's water is in its pet bowl.",
+      "chinese": "狗的水放在宠物碗里。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 8,
+          "text": "宠物碗"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S01-032",
+      "word": "collar",
+      "meaning": "项圈",
+      "english": "The dog wears a red collar.",
+      "chinese": "这只狗戴着红色项圈。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 9,
+          "text": "项圈"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S01-033",
+      "word": "lead",
+      "meaning": "牵引绳（英式常用）",
+      "english": "Keep the dog on its lead.",
+      "chinese": "遛狗时要给狗拴上牵引绳。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 8,
+          "end": 11,
+          "text": "牵引绳"
+        }
+      ],
+      "usage": "",
+      "note": "lead 在本句中指牵引绳，读 /liːd/，不是金属铅 /led/。"
+    },
+    {
+      "id": "C06-S01-034",
+      "word": "kennel",
+      "meaning": "狗窝；犬舍",
+      "english": "The dog rests in its kennel.",
+      "chinese": "狗在狗窝里休息。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "狗窝"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S01-035",
+      "word": "litter tray",
+      "meaning": "猫砂盆",
+      "english": "The kitten uses its litter tray.",
+      "chinese": "小猫使用猫砂盆。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 7,
+          "text": "猫砂盆"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S01-036",
+      "word": "pet shop",
+      "meaning": "宠物店",
+      "english": "We bought a toy at the pet shop.",
+      "chinese": "我们在宠物店买了一个玩具。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 6,
+          "text": "宠物店"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S01-037",
+      "word": "vet",
+      "meaning": "兽医",
+      "english": "The vet checks the puppy.",
+      "chinese": "兽医检查小狗。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "兽医"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S01-038",
+      "word": "feed",
+      "meaning": "喂养；喂食",
+      "english": "I feed my cat every morning.",
+      "chinese": "我每天早上喂猫。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 6,
+          "text": "喂"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S01-039",
+      "word": "groom",
+      "meaning": "梳理（宠物毛发）",
+      "english": "We groom the dog gently.",
+      "chinese": "我们轻轻地给狗梳理毛发。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 9,
+          "text": "梳理"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S02-001",
+      "word": "farm",
+      "meaning": "农场",
+      "english": "We visited a farm on Saturday.",
+      "chinese": "我们星期六参观了农场。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 8,
+          "end": 10,
+          "text": "农场"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S02-002",
+      "word": "farmer",
+      "meaning": "农场主；农民",
+      "english": "The farmer feeds the animals.",
+      "chinese": "农场主给动物喂食。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "农场主"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S02-003",
+      "word": "cow",
+      "meaning": "奶牛；母牛",
+      "english": "The cow is eating grass.",
+      "chinese": "奶牛正在吃草。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "奶牛"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S02-004",
+      "word": "calf",
+      "meaning": "小牛",
+      "english": "The calf stays close to its mother.",
+      "chinese": "小牛待在妈妈身边。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "小牛"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S02-005",
+      "word": "bull",
+      "meaning": "公牛",
+      "english": "The bull is in the field.",
+      "chinese": "公牛在田野里。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "公牛"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S02-006",
+      "word": "dairy cow",
+      "meaning": "奶牛",
+      "english": "A dairy cow gives milk.",
+      "chinese": "奶牛产奶。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "奶牛"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S02-007",
+      "word": "sheep",
+      "meaning": "绵羊",
+      "english": "The sheep are in the field.",
+      "chinese": "绵羊在田野里。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "绵羊"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S02-008",
+      "word": "lamb",
+      "meaning": "小羊；羊羔",
+      "english": "The lamb follows the ewe.",
+      "chinese": "小羊跟着母羊。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "小羊"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S02-009",
+      "word": "ewe",
+      "meaning": "母羊",
+      "english": "The ewe is looking after her lamb.",
+      "chinese": "母羊正在照看小羊。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "母羊"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S02-010",
+      "word": "ram",
+      "meaning": "公羊",
+      "english": "The ram has curved horns.",
+      "chinese": "这只公羊有弯曲的角。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "公羊"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S02-011",
+      "word": "goat",
+      "meaning": "山羊",
+      "english": "The goat climbs onto a rock.",
+      "chinese": "山羊爬上石头。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "山羊"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S02-012",
+      "word": "kid",
+      "meaning": "小山羊",
+      "english": "The kid jumps beside its mother.",
+      "chinese": "小山羊在妈妈身边跳跃。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "小山羊"
+        }
+      ],
+      "usage": "",
+      "note": "kid 在本句中是小山羊，不是人类小孩。"
+    },
+    {
+      "id": "C06-S02-013",
+      "word": "pig",
+      "meaning": "猪",
+      "english": "The pig rolls in the mud.",
+      "chinese": "猪在泥里打滚。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 1,
+          "text": "猪"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S02-014",
+      "word": "piglet",
+      "meaning": "小猪",
+      "english": "The piglet is very small.",
+      "chinese": "这只小猪很小。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "小猪"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S02-015",
+      "word": "horse",
+      "meaning": "马",
+      "english": "The horse runs across the field.",
+      "chinese": "马跑过田野。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 1,
+          "text": "马"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S02-016",
+      "word": "pony",
+      "meaning": "矮种马",
+      "english": "The pony is gentle with children.",
+      "chinese": "这匹矮种马对孩子很温顺。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 5,
+          "text": "矮种马"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S02-017",
+      "word": "foal",
+      "meaning": "小马驹",
+      "english": "The foal stands beside its mother.",
+      "chinese": "小马驹站在妈妈身边。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "小马驹"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S02-018",
+      "word": "donkey",
+      "meaning": "驴",
+      "english": "The donkey carries a basket.",
+      "chinese": "驴驮着一个篮子。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 1,
+          "text": "驴"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S02-019",
+      "word": "mule",
+      "meaning": "骡",
+      "english": "The mule walks along the path.",
+      "chinese": "骡沿着小路走。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 1,
+          "text": "骡"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S02-020",
+      "word": "chicken",
+      "meaning": "鸡",
+      "english": "The chickens peck at the grain.",
+      "chinese": "鸡啄食谷物。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 1,
+          "text": "鸡"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S02-021",
+      "word": "hen",
+      "meaning": "母鸡",
+      "english": "The hen lays an egg.",
+      "chinese": "母鸡下了一个蛋。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "母鸡"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S02-022",
+      "word": "cockerel",
+      "meaning": "小公鸡；公鸡（英式常用）",
+      "english": "The cockerel crows at dawn.",
+      "chinese": "公鸡在黎明时打鸣。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "公鸡"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S02-023",
+      "word": "chick",
+      "meaning": "小鸡",
+      "english": "The chick follows the hen.",
+      "chinese": "小鸡跟着母鸡。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "小鸡"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S02-024",
+      "word": "duck",
+      "meaning": "鸭子",
+      "english": "The duck swims in the farm pond.",
+      "chinese": "鸭子在农场池塘里游泳。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "鸭子"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S02-025",
+      "word": "duckling",
+      "meaning": "小鸭",
+      "english": "The ducklings follow their mother.",
+      "chinese": "小鸭跟着妈妈。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "小鸭"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S02-026",
+      "word": "goose",
+      "meaning": "鹅",
+      "english": "The goose walks near the barn.",
+      "chinese": "鹅在谷仓附近走。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 1,
+          "text": "鹅"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S02-027",
+      "word": "gosling",
+      "meaning": "小鹅",
+      "english": "The gosling has yellow feathers.",
+      "chinese": "小鹅长着黄色的羽毛。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "小鹅"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S02-028",
+      "word": "turkey",
+      "meaning": "火鸡",
+      "english": "The turkey walks across the yard.",
+      "chinese": "火鸡走过院子。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "火鸡"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S02-029",
+      "word": "rabbit hutch",
+      "meaning": "兔笼",
+      "english": "The rabbit hutch is clean.",
+      "chinese": "兔笼很干净。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "兔笼"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S02-030",
+      "word": "barn",
+      "meaning": "谷仓；牲口棚",
+      "english": "The hay is stored in the barn.",
+      "chinese": "干草存放在谷仓里。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "谷仓"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S02-031",
+      "word": "stable",
+      "meaning": "马厩",
+      "english": "The horse sleeps in the stable.",
+      "chinese": "马在马厩里休息。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "马厩"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S02-032",
+      "word": "hay",
+      "meaning": "干草",
+      "english": "The sheep eat hay in winter.",
+      "chinese": "绵羊冬天吃干草。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "干草"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S02-033",
+      "word": "feed bucket",
+      "meaning": "饲料桶",
+      "english": "The farmer fills the feed bucket.",
+      "chinese": "农场主把饲料桶装满。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 7,
+          "text": "饲料桶"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S03-001",
+      "word": "wild animal",
+      "meaning": "野生动物",
+      "english": "A wild animal needs a safe habitat.",
+      "chinese": "野生动物需要安全的栖息地。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 4,
+          "text": "野生动物"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S03-002",
+      "word": "lion",
+      "meaning": "狮子",
+      "english": "The lion rests in the shade.",
+      "chinese": "狮子在阴凉处休息。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "狮子"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S03-003",
+      "word": "tiger",
+      "meaning": "老虎",
+      "english": "The tiger has orange and black stripes.",
+      "chinese": "老虎身上有橙色和黑色的条纹。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "老虎"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S03-004",
+      "word": "leopard",
+      "meaning": "豹",
+      "english": "The leopard climbs a tree.",
+      "chinese": "豹子爬上树。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 1,
+          "text": "豹"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S03-005",
+      "word": "cheetah",
+      "meaning": "猎豹",
+      "english": "The cheetah can run very fast.",
+      "chinese": "猎豹跑得很快。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "猎豹"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S03-006",
+      "word": "elephant",
+      "meaning": "大象",
+      "english": "The elephant uses its trunk to drink.",
+      "chinese": "大象用鼻子喝水。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "大象"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S03-007",
+      "word": "giraffe",
+      "meaning": "长颈鹿",
+      "english": "The giraffe has a long neck.",
+      "chinese": "长颈鹿有长长的脖子。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "长颈鹿"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S03-008",
+      "word": "zebra",
+      "meaning": "斑马",
+      "english": "Each zebra has a different stripe pattern.",
+      "chinese": "每只斑马的条纹图案都不同。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "斑马"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S03-009",
+      "word": "rhinoceros",
+      "meaning": "犀牛",
+      "english": "The rhinoceros has thick skin.",
+      "chinese": "犀牛有厚厚的皮肤。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "犀牛"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S03-010",
+      "word": "hippopotamus",
+      "meaning": "河马",
+      "english": "The hippopotamus stays in the water.",
+      "chinese": "河马待在水里。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "河马"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S03-011",
+      "word": "monkey",
+      "meaning": "猴子",
+      "english": "The monkey swings from a branch.",
+      "chinese": "猴子在树枝间荡来荡去。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "猴子"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S03-012",
+      "word": "gorilla",
+      "meaning": "大猩猩",
+      "english": "The gorilla lives in a group.",
+      "chinese": "大猩猩群居。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "大猩猩"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S03-013",
+      "word": "chimpanzee",
+      "meaning": "黑猩猩",
+      "english": "The chimpanzee uses its hands to climb.",
+      "chinese": "黑猩猩用手攀爬。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "黑猩猩"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S03-014",
+      "word": "orangutan",
+      "meaning": "红毛猩猩",
+      "english": "The orangutan lives in forest trees.",
+      "chinese": "红毛猩猩生活在森林的树上。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 4,
+          "text": "红毛猩猩"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S03-015",
+      "word": "bear",
+      "meaning": "熊",
+      "english": "The bear looks for food.",
+      "chinese": "熊在寻找食物。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 1,
+          "text": "熊"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S03-016",
+      "word": "polar bear",
+      "meaning": "北极熊",
+      "english": "The polar bear lives in the Arctic.",
+      "chinese": "北极熊生活在北极地区。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "北极熊"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S03-017",
+      "word": "panda",
+      "meaning": "熊猫",
+      "english": "The panda eats bamboo.",
+      "chinese": "熊猫吃竹子。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "熊猫"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S03-018",
+      "word": "wolf",
+      "meaning": "狼",
+      "english": "The wolf howls at night.",
+      "chinese": "狼在夜里嚎叫。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 1,
+          "text": "狼"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S03-019",
+      "word": "fox",
+      "meaning": "狐狸",
+      "english": "The fox has a bushy tail.",
+      "chinese": "狐狸有一条蓬松的尾巴。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "狐狸"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S03-020",
+      "word": "deer",
+      "meaning": "鹿",
+      "english": "A deer walks through the forest.",
+      "chinese": "一只鹿穿过森林。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 3,
+          "text": "鹿"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S03-021",
+      "word": "moose",
+      "meaning": "驼鹿",
+      "english": "The moose has large antlers.",
+      "chinese": "驼鹿有巨大的鹿角。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "驼鹿"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S03-022",
+      "word": "squirrel",
+      "meaning": "松鼠",
+      "english": "The squirrel hides a nut.",
+      "chinese": "松鼠藏起一颗坚果。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "松鼠"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S03-023",
+      "word": "hedgehog",
+      "meaning": "刺猬",
+      "english": "The hedgehog curls into a ball.",
+      "chinese": "刺猬蜷缩成一个球。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "刺猬"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S03-024",
+      "word": "badger",
+      "meaning": "獾",
+      "english": "The badger lives in a burrow.",
+      "chinese": "獾住在地洞里。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 1,
+          "text": "獾"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S03-025",
+      "word": "bat",
+      "meaning": "蝙蝠",
+      "english": "A bat flies at dusk.",
+      "chinese": "蝙蝠在黄昏时飞行。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "蝙蝠"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S03-026",
+      "word": "kangaroo",
+      "meaning": "袋鼠",
+      "english": "The kangaroo carries its baby in a pouch.",
+      "chinese": "袋鼠把宝宝放在育儿袋里。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "袋鼠"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S03-027",
+      "word": "koala",
+      "meaning": "考拉",
+      "english": "The koala rests in a eucalyptus tree.",
+      "chinese": "考拉在桉树上休息。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "考拉"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S03-028",
+      "word": "camel",
+      "meaning": "骆驼",
+      "english": "The camel walks across the desert.",
+      "chinese": "骆驼穿过沙漠。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "骆驼"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S03-029",
+      "word": "crocodile",
+      "meaning": "鳄鱼",
+      "english": "The crocodile rests beside the river.",
+      "chinese": "鳄鱼在河边休息。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "鳄鱼"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S03-030",
+      "word": "alligator",
+      "meaning": "短吻鳄",
+      "english": "The alligator swims slowly.",
+      "chinese": "短吻鳄缓慢地游泳。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "短吻鳄"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S03-031",
+      "word": "chameleon",
+      "meaning": "变色龙",
+      "english": "The chameleon sits on a branch.",
+      "chinese": "变色龙趴在树枝上。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "变色龙"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S03-032",
+      "word": "eagle",
+      "meaning": "鹰",
+      "english": "The eagle circles high in the sky.",
+      "chinese": "鹰在高空盘旋。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 1,
+          "text": "鹰"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S03-033",
+      "word": "owl",
+      "meaning": "猫头鹰",
+      "english": "The owl can see well at night.",
+      "chinese": "猫头鹰夜间视力很好。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "猫头鹰"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S03-034",
+      "word": "woodpecker",
+      "meaning": "啄木鸟",
+      "english": "The woodpecker taps on a tree.",
+      "chinese": "啄木鸟啄着树干。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "啄木鸟"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S03-035",
+      "word": "peacock",
+      "meaning": "孔雀",
+      "english": "The peacock spreads its colourful tail.",
+      "chinese": "孔雀展开了色彩鲜艳的尾羽。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "孔雀"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S03-036",
+      "word": "ostrich",
+      "meaning": "鸵鸟",
+      "english": "The ostrich is a large bird.",
+      "chinese": "鸵鸟是一种大型鸟类。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "鸵鸟"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S03-037",
+      "word": "penguin",
+      "meaning": "企鹅",
+      "english": "The penguin waddles across the ice.",
+      "chinese": "企鹅摇摇摆摆地走过冰面。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "企鹅"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S03-038",
+      "word": "hyena",
+      "meaning": "鬣狗",
+      "english": "The hyena lives in parts of Africa.",
+      "chinese": "鬣狗生活在非洲的一些地区。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "鬣狗"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S03-039",
+      "word": "porcupine",
+      "meaning": "豪猪",
+      "english": "The porcupine has sharp spines.",
+      "chinese": "豪猪身上有尖刺。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "豪猪"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S03-040",
+      "word": "meerkat",
+      "meaning": "狐獴",
+      "english": "The meerkat stands up to look around.",
+      "chinese": "狐獴直立起来四处张望。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "狐獴"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S04-001",
+      "word": "sea animal",
+      "meaning": "海洋动物",
+      "english": "A sea animal lives in or near the sea.",
+      "chinese": "海洋动物生活在海里或海边。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 4,
+          "text": "海洋动物"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S04-002",
+      "word": "shark",
+      "meaning": "鲨鱼",
+      "english": "The shark swims through the water.",
+      "chinese": "鲨鱼在水中游动。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "鲨鱼"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S04-003",
+      "word": "whale",
+      "meaning": "鲸",
+      "english": "A whale comes up to breathe.",
+      "chinese": "鲸浮出水面呼吸。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 1,
+          "text": "鲸"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S04-004",
+      "word": "dolphin",
+      "meaning": "海豚",
+      "english": "The dolphin jumps out of the water.",
+      "chinese": "海豚跃出水面。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "海豚"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S04-005",
+      "word": "porpoise",
+      "meaning": "鼠海豚",
+      "english": "A porpoise is a sea mammal.",
+      "chinese": "鼠海豚是一种海洋哺乳动物。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "鼠海豚"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S04-006",
+      "word": "orca",
+      "meaning": "虎鲸",
+      "english": "The orca is also called a killer whale.",
+      "chinese": "虎鲸也被称为逆戟鲸。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "虎鲸"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S04-007",
+      "word": "seal",
+      "meaning": "海豹",
+      "english": "The seal rests on a rock.",
+      "chinese": "海豹在岩石上休息。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "海豹"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S04-008",
+      "word": "sea lion",
+      "meaning": "海狮",
+      "english": "The sea lion can move on land.",
+      "chinese": "海狮也能在陆地上移动。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "海狮"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S04-009",
+      "word": "walrus",
+      "meaning": "海象",
+      "english": "The walrus has long tusks.",
+      "chinese": "海象有长长的獠牙。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "海象"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S04-010",
+      "word": "sea turtle",
+      "meaning": "海龟",
+      "english": "The sea turtle swims near the reef.",
+      "chinese": "海龟在珊瑚礁附近游泳。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "海龟"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S04-011",
+      "word": "octopus",
+      "meaning": "章鱼",
+      "english": "The octopus has eight arms.",
+      "chinese": "章鱼有八条腕。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "章鱼"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S04-012",
+      "word": "squid",
+      "meaning": "鱿鱼；乌贼",
+      "english": "The squid moves quickly through the sea.",
+      "chinese": "鱿鱼在海里快速移动。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "鱿鱼"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S04-013",
+      "word": "jellyfish",
+      "meaning": "水母",
+      "english": "Some jellyfish have long tentacles.",
+      "chinese": "有些水母有长长的触手。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "水母"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S04-014",
+      "word": "starfish",
+      "meaning": "海星",
+      "english": "The starfish rests on the seabed.",
+      "chinese": "海星停留在海床上。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "海星"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S04-015",
+      "word": "seahorse",
+      "meaning": "海马",
+      "english": "The seahorse is a small sea animal.",
+      "chinese": "海马是一种小型海洋动物。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "海马"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S04-016",
+      "word": "crab",
+      "meaning": "螃蟹",
+      "english": "The crab walks sideways.",
+      "chinese": "螃蟹横着走。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "螃蟹"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S04-017",
+      "word": "lobster",
+      "meaning": "龙虾",
+      "english": "The lobster has a hard shell.",
+      "chinese": "龙虾有坚硬的外壳。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "龙虾"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S04-018",
+      "word": "prawn",
+      "meaning": "大虾",
+      "english": "A prawn has a curved body.",
+      "chinese": "大虾的身体是弯曲的。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "大虾"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S04-019",
+      "word": "shrimp",
+      "meaning": "小虾",
+      "english": "The shrimp is very small.",
+      "chinese": "这种小虾个头很小。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "小虾"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S04-020",
+      "word": "oyster",
+      "meaning": "牡蛎；生蚝",
+      "english": "An oyster lives inside a hard shell.",
+      "chinese": "牡蛎生活在坚硬的壳里。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "牡蛎"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S04-021",
+      "word": "clam",
+      "meaning": "蛤蜊",
+      "english": "The clam lives in sand.",
+      "chinese": "蛤蜊生活在沙里。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "蛤蜊"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S04-022",
+      "word": "mussel",
+      "meaning": "贻贝；青口贝",
+      "english": "A mussel has a dark shell.",
+      "chinese": "贻贝有深色的贝壳。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "贻贝"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S04-023",
+      "word": "scallop",
+      "meaning": "扇贝",
+      "english": "The scallop has a fan-shaped shell.",
+      "chinese": "扇贝有扇形的贝壳。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "扇贝"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S04-024",
+      "word": "sea urchin",
+      "meaning": "海胆",
+      "english": "A sea urchin has sharp spines.",
+      "chinese": "海胆有尖刺。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "海胆"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S04-025",
+      "word": "stingray",
+      "meaning": "黄貂鱼；魟鱼",
+      "english": "The stingray glides over the seabed.",
+      "chinese": "魟鱼滑过海床。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "魟鱼"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S04-026",
+      "word": "manta ray",
+      "meaning": "蝠鲼；魔鬼鱼",
+      "english": "The manta ray has wide fins.",
+      "chinese": "蝠鲼有宽大的鳍。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "蝠鲼"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S04-027",
+      "word": "eel",
+      "meaning": "鳗鱼",
+      "english": "The eel has a long body.",
+      "chinese": "鳗鱼有细长的身体。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "鳗鱼"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S04-028",
+      "word": "swordfish",
+      "meaning": "剑鱼",
+      "english": "The swordfish has a long pointed bill.",
+      "chinese": "剑鱼有长而尖的吻部。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "剑鱼"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S04-029",
+      "word": "tuna",
+      "meaning": "金枪鱼",
+      "english": "Tuna is a large ocean fish.",
+      "chinese": "金枪鱼是一种大型海鱼。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "金枪鱼"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S04-030",
+      "word": "salmon",
+      "meaning": "鲑鱼；三文鱼",
+      "english": "Salmon can swim upstream.",
+      "chinese": "鲑鱼能够逆流而上。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "鲑鱼"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S04-031",
+      "word": "sea anemone",
+      "meaning": "海葵",
+      "english": "A clownfish may live near a sea anemone.",
+      "chinese": "小丑鱼可能生活在海葵附近。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 8,
+          "end": 10,
+          "text": "海葵"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S04-032",
+      "word": "coral",
+      "meaning": "珊瑚",
+      "english": "Coral reefs provide homes for sea life.",
+      "chinese": "珊瑚礁为海洋生物提供栖息地。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "珊瑚"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S04-033",
+      "word": "reef",
+      "meaning": "礁；珊瑚礁",
+      "english": "Many colourful fish live near the reef.",
+      "chinese": "许多色彩鲜艳的鱼生活在礁石附近。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 11,
+          "end": 12,
+          "text": "礁"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S04-034",
+      "word": "fin",
+      "meaning": "鳍",
+      "english": "A fish uses its fin to steer.",
+      "chinese": "鱼用鳍控制方向。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 3,
+          "text": "鳍"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S04-035",
+      "word": "tentacle",
+      "meaning": "触手",
+      "english": "The octopus moves a tentacle.",
+      "chinese": "章鱼移动一条腕。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 7,
+          "text": "腕"
+        }
+      ],
+      "usage": "",
+      "note": "源词使用 tentacle（触手）；章鱼的附肢在本例句中文译为“腕”。"
+    },
+    {
+      "id": "C06-S05-001",
+      "word": "plant",
+      "meaning": "植物",
+      "english": "This plant needs sunlight.",
+      "chinese": "这株植物需要阳光。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "植物"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S05-002",
+      "word": "tree",
+      "meaning": "树",
+      "english": "The tree is tall.",
+      "chinese": "这棵树很高。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 3,
+          "text": "树"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S05-003",
+      "word": "flower",
+      "meaning": "花",
+      "english": "The flower smells sweet.",
+      "chinese": "这朵花闻起来很香。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 3,
+          "text": "花"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S05-004",
+      "word": "grass",
+      "meaning": "草",
+      "english": "The grass is wet after the rain.",
+      "chinese": "雨后草地是湿的。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 3,
+          "text": "草"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S05-005",
+      "word": "leaf",
+      "meaning": "叶子（单数）",
+      "english": "A green leaf fell from the tree.",
+      "chinese": "一片绿叶从树上落下来。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 4,
+          "text": "叶"
+        }
+      ],
+      "usage": "",
+      "note": "leaf 为单数；leaves 为复数，本题按例句实际词形填写。"
+    },
+    {
+      "id": "C06-S05-006",
+      "word": "leaves",
+      "meaning": "叶子（复数）",
+      "english": "The leaves turn yellow in autumn.",
+      "chinese": "秋天树叶会变黄。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "树叶"
+        }
+      ],
+      "usage": "",
+      "note": "leaves 是 leaf 的复数；本句指多片树叶。"
+    },
+    {
+      "id": "C06-S05-007",
+      "word": "root",
+      "meaning": "根",
+      "english": "The root takes water from the soil.",
+      "chinese": "根从土壤中吸收水分。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 1,
+          "text": "根"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S05-008",
+      "word": "stem",
+      "meaning": "茎",
+      "english": "The stem holds the flower upright.",
+      "chinese": "花茎支撑着花朵。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 2,
+          "text": "茎"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S05-009",
+      "word": "branch",
+      "meaning": "树枝",
+      "english": "A bird sits on the branch.",
+      "chinese": "一只鸟停在树枝上。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "树枝"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S05-010",
+      "word": "trunk",
+      "meaning": "树干",
+      "english": "The tree trunk is thick.",
+      "chinese": "树干很粗。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "树干"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S05-011",
+      "word": "seed",
+      "meaning": "种子",
+      "english": "We plant a seed in the soil.",
+      "chinese": "我们把一颗种子种进土里。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "种子"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S05-012",
+      "word": "seedling",
+      "meaning": "幼苗",
+      "english": "The seedling is growing.",
+      "chinese": "幼苗正在生长。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "幼苗"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S05-013",
+      "word": "bud",
+      "meaning": "花蕾；芽",
+      "english": "A small bud appears on the stem.",
+      "chinese": "茎上长出一个小花蕾。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 9,
+          "text": "花蕾"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S05-014",
+      "word": "petal",
+      "meaning": "花瓣",
+      "english": "The flower has five petals.",
+      "chinese": "这朵花有五片花瓣。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 8,
+          "text": "花瓣"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S05-015",
+      "word": "thorn",
+      "meaning": "刺",
+      "english": "Be careful of the rose thorn.",
+      "chinese": "小心玫瑰的刺。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 6,
+          "text": "刺"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S05-016",
+      "word": "rose",
+      "meaning": "玫瑰",
+      "english": "The red rose is beautiful.",
+      "chinese": "这朵红玫瑰很漂亮。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "玫瑰"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S05-017",
+      "word": "tulip",
+      "meaning": "郁金香",
+      "english": "The tulip blooms in spring.",
+      "chinese": "郁金香在春天开花。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "郁金香"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S05-018",
+      "word": "sunflower",
+      "meaning": "向日葵",
+      "english": "The sunflower faces the sun.",
+      "chinese": "向日葵朝向太阳。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "向日葵"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S05-019",
+      "word": "daisy",
+      "meaning": "雏菊",
+      "english": "A daisy has a yellow centre.",
+      "chinese": "雏菊的中心是黄色的。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "雏菊"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S05-020",
+      "word": "lily",
+      "meaning": "百合",
+      "english": "The white lily is in a vase.",
+      "chinese": "白百合插在花瓶里。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "百合"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S05-021",
+      "word": "orchid",
+      "meaning": "兰花",
+      "english": "The orchid grows in a pot.",
+      "chinese": "兰花种在花盆里。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "兰花"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S05-022",
+      "word": "daffodil",
+      "meaning": "黄水仙",
+      "english": "The daffodil flowers in spring.",
+      "chinese": "黄水仙在春天开花。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "黄水仙"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S05-023",
+      "word": "poppy",
+      "meaning": "罂粟花；虞美人",
+      "english": "A red poppy grows in the field.",
+      "chinese": "田野里开着一朵红花。",
+      "mode": "usage",
+      "spans": [],
+      "usage": "poppy 指罂粟花或虞美人；本句中文用“一朵红花”概括该花，不能把所有红花都叫作 poppy。请结合完整英文例句填写。",
+      "note": ""
+    },
+    {
+      "id": "C06-S05-024",
+      "word": "violet",
+      "meaning": "紫罗兰",
+      "english": "The violet has purple flowers.",
+      "chinese": "紫罗兰开紫色的花。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "紫罗兰"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S05-025",
+      "word": "lavender",
+      "meaning": "薰衣草",
+      "english": "Lavender has a lovely smell.",
+      "chinese": "薰衣草有怡人的香味。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "薰衣草"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S05-026",
+      "word": "dandelion",
+      "meaning": "蒲公英",
+      "english": "The dandelion seeds blow in the wind.",
+      "chinese": "蒲公英的种子随风飘散。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "蒲公英"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S05-027",
+      "word": "cherry blossom",
+      "meaning": "樱花",
+      "english": "Cherry blossom appears in spring.",
+      "chinese": "樱花在春天开放。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "樱花"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S05-028",
+      "word": "lotus",
+      "meaning": "莲花；荷花",
+      "english": "The lotus grows in the pond.",
+      "chinese": "荷花生长在池塘里。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "荷花"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S05-029",
+      "word": "bamboo",
+      "meaning": "竹子",
+      "english": "Pandas eat bamboo.",
+      "chinese": "熊猫吃竹子。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "竹子"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S05-030",
+      "word": "cactus",
+      "meaning": "仙人掌",
+      "english": "A cactus can live in dry places.",
+      "chinese": "仙人掌能在干燥的地方生长。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "仙人掌"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S05-031",
+      "word": "fern",
+      "meaning": "蕨类植物",
+      "english": "The fern grows in the shade.",
+      "chinese": "蕨类植物生长在阴凉处。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 4,
+          "text": "蕨类植物"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S05-032",
+      "word": "moss",
+      "meaning": "苔藓",
+      "english": "Moss grows on the damp rock.",
+      "chinese": "苔藓长在潮湿的岩石上。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "苔藓"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S05-033",
+      "word": "bush",
+      "meaning": "灌木丛",
+      "english": "A small bird hides in the bush.",
+      "chinese": "一只小鸟藏在灌木丛里。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 9,
+          "text": "灌木丛"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S05-034",
+      "word": "vine",
+      "meaning": "藤；藤蔓植物",
+      "english": "The vine climbs up the wall.",
+      "chinese": "藤蔓沿着墙往上爬。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 1,
+          "text": "藤"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S05-035",
+      "word": "ivy",
+      "meaning": "常春藤",
+      "english": "Ivy grows along the fence.",
+      "chinese": "常春藤沿着栅栏生长。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "常春藤"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S05-036",
+      "word": "pine tree",
+      "meaning": "松树",
+      "english": "The pine tree stays green in winter.",
+      "chinese": "松树在冬天仍然是绿色的。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "松树"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S05-037",
+      "word": "oak tree",
+      "meaning": "橡树",
+      "english": "An oak tree can live for many years.",
+      "chinese": "橡树可以生长很多年。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "橡树"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S05-038",
+      "word": "palm tree",
+      "meaning": "棕榈树",
+      "english": "A palm tree grows in a warm place.",
+      "chinese": "棕榈树生长在温暖的地方。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "棕榈树"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S05-039",
+      "word": "soil",
+      "meaning": "土壤",
+      "english": "Good soil helps plants grow.",
+      "chinese": "好的土壤有助于植物生长。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "土壤"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S05-040",
+      "word": "pot",
+      "meaning": "花盆",
+      "english": "The plant is in a blue pot.",
+      "chinese": "植物种在蓝色花盆里。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 8,
+          "text": "花盆"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S05-041",
+      "word": "water a plant",
+      "meaning": "给植物浇水",
+      "english": "I water a plant every morning.",
+      "chinese": "我每天早上给植物浇水。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 10,
+          "text": "给植物浇水"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S05-042",
+      "word": "grow",
+      "meaning": "生长；种植",
+      "english": "Plants grow towards the light.",
+      "chinese": "植物朝着光线生长。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 8,
+          "text": "生长"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S06-001",
+      "word": "nature",
+      "meaning": "自然",
+      "english": "We should take care of nature.",
+      "chinese": "我们应该爱护自然。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 8,
+          "text": "自然"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S06-002",
+      "word": "environment",
+      "meaning": "环境",
+      "english": "A clean environment is important.",
+      "chinese": "清洁的环境很重要。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "环境"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S06-003",
+      "word": "Earth",
+      "meaning": "地球",
+      "english": "Earth is our home.",
+      "chinese": "地球是我们的家园。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "地球"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S06-004",
+      "word": "land",
+      "meaning": "陆地；土地",
+      "english": "The land is green after the rain.",
+      "chinese": "雨后这片土地变绿了。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "土地"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S06-005",
+      "word": "sea",
+      "meaning": "海；海洋",
+      "english": "The sea looks blue today.",
+      "chinese": "今天海水看起来是蓝色的。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 3,
+          "text": "海"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S06-006",
+      "word": "ocean",
+      "meaning": "大洋；海洋",
+      "english": "The ocean is very deep.",
+      "chinese": "海洋非常深。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "海洋"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S06-007",
+      "word": "river",
+      "meaning": "河流",
+      "english": "The river flows past the village.",
+      "chinese": "河流从村庄旁流过。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "河流"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S06-008",
+      "word": "lake",
+      "meaning": "湖",
+      "english": "We saw ducks on the lake.",
+      "chinese": "我们看见湖上有鸭子。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 5,
+          "text": "湖"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S06-009",
+      "word": "pond",
+      "meaning": "池塘",
+      "english": "Frogs live near the pond.",
+      "chinese": "青蛙生活在池塘附近。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "池塘"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S06-010",
+      "word": "stream",
+      "meaning": "小溪",
+      "english": "The stream runs over the stones.",
+      "chinese": "小溪流过石头。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "小溪"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S06-011",
+      "word": "waterfall",
+      "meaning": "瀑布",
+      "english": "The waterfall makes a loud sound.",
+      "chinese": "瀑布发出很大的声音。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "瀑布"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S06-012",
+      "word": "mountain",
+      "meaning": "山；山脉中的一座山",
+      "english": "Snow covers the mountain top.",
+      "chinese": "山顶覆盖着积雪。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 1,
+          "text": "山"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S06-013",
+      "word": "hill",
+      "meaning": "小山；山丘",
+      "english": "We walked up the hill.",
+      "chinese": "我们走上了小山。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "小山"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S06-014",
+      "word": "valley",
+      "meaning": "山谷",
+      "english": "A river runs through the valley.",
+      "chinese": "一条河流穿过山谷。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 8,
+          "text": "山谷"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S06-015",
+      "word": "forest",
+      "meaning": "森林",
+      "english": "Many animals live in the forest.",
+      "chinese": "许多动物生活在森林里。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 9,
+          "text": "森林"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S06-016",
+      "word": "wood",
+      "meaning": "树林",
+      "english": "We walked through the wood.",
+      "chinese": "我们穿过树林。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "树林"
+        }
+      ],
+      "usage": "",
+      "note": "wood 在本句中指树林，不是木材。"
+    },
+    {
+      "id": "C06-S06-017",
+      "word": "jungle",
+      "meaning": "丛林",
+      "english": "The jungle is hot and wet.",
+      "chinese": "丛林又热又潮湿。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "丛林"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S06-018",
+      "word": "rainforest",
+      "meaning": "热带雨林",
+      "english": "A rainforest gets lots of rain.",
+      "chinese": "热带雨林降雨很多。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 4,
+          "text": "热带雨林"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S06-019",
+      "word": "desert",
+      "meaning": "沙漠",
+      "english": "Some deserts are very dry.",
+      "chinese": "有些沙漠非常干燥。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "沙漠"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S06-020",
+      "word": "island",
+      "meaning": "岛屿",
+      "english": "They live on a small island.",
+      "chinese": "他们住在一个小岛上。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 8,
+          "text": "岛"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S06-021",
+      "word": "beach",
+      "meaning": "海滩",
+      "english": "We collected shells on the beach.",
+      "chinese": "我们在海滩上捡贝壳。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "海滩"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S06-022",
+      "word": "coast",
+      "meaning": "海岸",
+      "english": "The town is on the coast.",
+      "chinese": "这座城镇位于海岸边。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 8,
+          "text": "海岸"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S06-023",
+      "word": "cliff",
+      "meaning": "悬崖",
+      "english": "Seabirds nest on the cliff.",
+      "chinese": "海鸟在悬崖上筑巢。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "悬崖"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S06-024",
+      "word": "cave",
+      "meaning": "洞穴",
+      "english": "The bear sleeps in a cave.",
+      "chinese": "熊在洞穴里睡觉。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "洞穴"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S06-025",
+      "word": "rock",
+      "meaning": "岩石",
+      "english": "A lizard sits on the rock.",
+      "chinese": "蜥蜴趴在岩石上。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "岩石"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S06-026",
+      "word": "stone",
+      "meaning": "石头",
+      "english": "The path is covered with small stones.",
+      "chinese": "小路上铺着小石头。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 8,
+          "text": "石头"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S06-027",
+      "word": "sand",
+      "meaning": "沙；沙子",
+      "english": "The children play in the sand.",
+      "chinese": "孩子们在沙地里玩。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 5,
+          "text": "沙"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S06-028",
+      "word": "mud",
+      "meaning": "泥；泥浆",
+      "english": "The path is full of mud.",
+      "chinese": "小路上满是泥。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 6,
+          "text": "泥"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S06-029",
+      "word": "sky",
+      "meaning": "天空",
+      "english": "The sky is clear today.",
+      "chinese": "今天天空晴朗。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "天空"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S06-030",
+      "word": "cloud",
+      "meaning": "云",
+      "english": "A white cloud floats in the sky.",
+      "chinese": "一朵白云飘在天空中。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 4,
+          "text": "云"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S06-031",
+      "word": "sun",
+      "meaning": "太阳",
+      "english": "The sun is shining.",
+      "chinese": "太阳正在照耀。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "太阳"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S06-032",
+      "word": "moon",
+      "meaning": "月亮",
+      "english": "The moon looks bright tonight.",
+      "chinese": "今晚月亮看起来很亮。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "月亮"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S06-033",
+      "word": "star",
+      "meaning": "星星",
+      "english": "We can see a star in the sky.",
+      "chinese": "我们能看见天空中的一颗星星。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 11,
+          "end": 13,
+          "text": "星星"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S06-034",
+      "word": "air",
+      "meaning": "空气",
+      "english": "Fresh air feels good.",
+      "chinese": "新鲜空气让人感觉舒服。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "空气"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S06-035",
+      "word": "wind",
+      "meaning": "风",
+      "english": "The wind moves the leaves.",
+      "chinese": "风吹动树叶。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 1,
+          "text": "风"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S06-036",
+      "word": "rain",
+      "meaning": "雨；下雨",
+      "english": "The rain falls on the roof.",
+      "chinese": "雨落在屋顶上。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 1,
+          "text": "雨"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S06-037",
+      "word": "snow",
+      "meaning": "雪；下雪",
+      "english": "Snow covers the field in winter.",
+      "chinese": "冬天雪覆盖着田野。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 3,
+          "text": "雪"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S06-038",
+      "word": "ice",
+      "meaning": "冰",
+      "english": "The lake has a layer of ice.",
+      "chinese": "湖面上有一层冰。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 7,
+          "text": "冰"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S06-039",
+      "word": "storm",
+      "meaning": "暴风雨；风暴",
+      "english": "A storm is coming.",
+      "chinese": "暴风雨要来了。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "暴风雨"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S06-040",
+      "word": "thunder",
+      "meaning": "雷声",
+      "english": "We heard thunder in the distance.",
+      "chinese": "我们听见远处传来雷声。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 8,
+          "end": 10,
+          "text": "雷声"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S06-041",
+      "word": "lightning",
+      "meaning": "闪电",
+      "english": "Lightning lit up the sky.",
+      "chinese": "闪电照亮了天空。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "闪电"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S06-042",
+      "word": "rainbow",
+      "meaning": "彩虹",
+      "english": "A rainbow appeared after the rain.",
+      "chinese": "雨后出现了一道彩虹。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 9,
+          "text": "彩虹"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S06-043",
+      "word": "weather",
+      "meaning": "天气",
+      "english": "The weather is warm today.",
+      "chinese": "今天天气暖和。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "天气"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S06-044",
+      "word": "field",
+      "meaning": "田野；地块",
+      "english": "Flowers grow in the field.",
+      "chinese": "田野里长着花。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "田野"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S06-045",
+      "word": "meadow",
+      "meaning": "草地；草甸",
+      "english": "Butterflies fly over the meadow.",
+      "chinese": "蝴蝶在草甸上飞舞。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "草甸"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S06-046",
+      "word": "grassland",
+      "meaning": "草原",
+      "english": "Zebras live on the grassland.",
+      "chinese": "斑马生活在草原上。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "草原"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S06-047",
+      "word": "volcano",
+      "meaning": "火山",
+      "english": "The volcano is a natural landform.",
+      "chinese": "火山是一种自然地貌。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "火山"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S06-048",
+      "word": "glacier",
+      "meaning": "冰川",
+      "english": "The glacier moves very slowly.",
+      "chinese": "冰川移动得非常缓慢。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "冰川"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C06-S06-049",
+      "word": "habitat",
+      "meaning": "栖息地",
+      "english": "Every animal needs a suitable habitat.",
+      "chinese": "每种动物都需要合适的栖息地。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 10,
+          "end": 13,
+          "text": "栖息地"
+        }
+      ],
+      "usage": "",
+      "note": ""
     }
   ]
 }

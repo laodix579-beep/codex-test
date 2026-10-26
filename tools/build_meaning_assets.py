@@ -7,7 +7,7 @@ from food_content import study_word
 ROOT = Path(__file__).resolve().parents[1]
 catalog = json.loads((ROOT / 'data/meaning-catalog.json').read_text())
 words = [w for group in json.loads((ROOT / 'data/basic-vocabulary.json').read_text())['subcategories'] for w in group['items']]
-for folder in ['time-nature', 'school-learning', 'family-daily', 'food-health']:
+for folder in ['time-nature', 'school-learning', 'family-daily', 'food-health', 'animal-nature']:
     for file in sorted((ROOT / 'data' / folder).glob('0*.json')):
         words.extend(json.loads(file.read_text())['items'])
 assert len(catalog['entries']) == len(words)

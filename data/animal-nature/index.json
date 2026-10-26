@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.1",
+  "category_id": "C06",
+  "category_name": "动物与自然",
+  "pronunciation_system": "DJ 英式音标（British English IPA）",
+  "audio_pronunciation_note": "音标采用 DJ 英式标注；实际朗读继续遵循小蛙自习室既定的美式英语 GA 规范。本包不包含 MP3。",
+  "window_count": 4,
+  "subcategory_count": 6,
+  "item_count": 238,
+  "subcategories": [
+    {
+      "id": "C06-S01",
+      "name": "宠物",
+      "filename": "01_宠物.json",
+      "item_count": 39
+    },
+    {
+      "id": "C06-S02",
+      "name": "农场动物",
+      "filename": "02_农场动物.json",
+      "item_count": 33
+    },
+    {
+      "id": "C06-S03",
+      "name": "野生动物",
+      "filename": "03_野生动物.json",
+      "item_count": 40
+    },
+    {
+      "id": "C06-S04",
+      "name": "海洋动物",
+      "filename": "04_海洋动物.json",
+      "item_count": 35
+    },
+    {
+      "id": "C06-S05",
+      "name": "植物与花卉",
+      "filename": "05_植物与花卉.json",
+      "item_count": 42
+    },
+    {
+      "id": "C06-S06",
+      "name": "自然环境",
+      "filename": "06_自然环境.json",
+      "item_count": 49
+    }
+  ],
+  "windows": [
+    {
+      "window_id": "C06-W01",
+      "window_name": "宠物与农场动物",
+      "filename": "01_宠物与农场动物.json",
+      "item_count": 72,
+      "subcategory_count": 2,
+      "subcategories": [
+        {
+          "id": "C06-S01",
+          "name": "宠物",
+          "source_filename": "01_宠物.json",
+          "item_count": 39
+        },
+        {
+          "id": "C06-S02",
+          "name": "农场动物",
+          "source_filename": "02_农场动物.json",
+          "item_count": 33
+        }
+      ]
+    },
+    {
+      "window_id": "C06-W02",
+      "window_name": "野生与海洋动物",
+      "filename": "02_野生与海洋动物.json",
+      "item_count": 75,
+      "subcategory_count": 2,
+      "subcategories": [
+        {
+          "id": "C06-S03",
+          "name": "野生动物",
+          "source_filename": "03_野生动物.json",
+          "item_count": 40
+        },
+        {
+          "id": "C06-S04",
+          "name": "海洋动物",
+          "source_filename": "04_海洋动物.json",
+          "item_count": 35
+        }
+      ]
+    },
+    {
+      "window_id": "C06-W03",
+      "window_name": "植物与花卉",
+      "filename": "03_植物与花卉.json",
+      "item_count": 42,
+      "subcategory_count": 1,
+      "subcategories": [
+        {
+          "id": "C06-S05",
+          "name": "植物与花卉",
+          "source_filename": "05_植物与花卉.json",
+          "item_count": 42
+        }
+      ]
+    },
+    {
+      "window_id": "C06-W04",
+      "window_name": "自然环境",
+      "filename": "04_自然环境.json",
+      "item_count": 49,
+      "subcategory_count": 1,
+      "subcategories": [
+        {
+          "id": "C06-S06",
+          "name": "自然环境",
+          "source_filename": "06_自然环境.json",
+          "item_count": 49
+        }
+      ]
+    }
+  ]
+}

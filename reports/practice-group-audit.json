@@ -3,12 +3,12 @@
     "min": 10,
     "max": 25
   },
-  "totalWords": 972,
-  "populatedEntrances": 20,
-  "practiceGroups": 61,
-  "chooserEntrances": 18,
+  "totalWords": 1210,
+  "populatedEntrances": 24,
+  "practiceGroups": 76,
+  "chooserEntrances": 22,
   "directEntrances": 2,
-  "emptyEntrances": 12,
+  "emptyEntrances": 8,
   "subcategories": [
     {
       "id": "C01-S01",
@@ -478,30 +478,109 @@
     {
       "id": "C06-S01",
       "name": "宠物与农场动物",
-      "words": 0,
-      "mode": "empty",
-      "groups": []
+      "words": 72,
+      "mode": "chooser",
+      "groups": [
+        {
+          "id": "small-pets",
+          "name": "常见宠物与小型哺乳动物",
+          "words": 13
+        },
+        {
+          "id": "birds-fish-reptiles",
+          "name": "观赏鸟鱼与爬行宠物",
+          "words": 11
+        },
+        {
+          "id": "pet-features-care",
+          "name": "宠物特征与日常照料",
+          "words": 15
+        },
+        {
+          "id": "farm-mammals",
+          "name": "农场家畜与幼崽",
+          "words": 17
+        },
+        {
+          "id": "farm-birds-care",
+          "name": "家禽与农场照料",
+          "words": 16
+        }
+      ]
     },
     {
       "id": "C06-S02",
       "name": "野生与海洋动物",
-      "words": 0,
-      "mode": "empty",
-      "groups": []
+      "words": 75,
+      "mode": "chooser",
+      "groups": [
+        {
+          "id": "wild-mammals",
+          "name": "常见野生哺乳动物",
+          "words": 20
+        },
+        {
+          "id": "more-wildlife",
+          "name": "林地、鸟类与特色野生动物",
+          "words": 20
+        },
+        {
+          "id": "marine-vertebrates",
+          "name": "海洋哺乳动物与鱼类",
+          "words": 16
+        },
+        {
+          "id": "marine-life-habitat",
+          "name": "海洋无脊椎与生态",
+          "words": 19
+        }
+      ]
     },
     {
       "id": "C06-S03",
       "name": "植物与花卉",
-      "words": 0,
-      "mode": "empty",
-      "groups": []
+      "words": 42,
+      "mode": "chooser",
+      "groups": [
+        {
+          "id": "plant-parts",
+          "name": "植物基础与结构",
+          "words": 15
+        },
+        {
+          "id": "flowers",
+          "name": "常见花卉",
+          "words": 13
+        },
+        {
+          "id": "greenery-growing",
+          "name": "绿植树木与种植",
+          "words": 14
+        }
+      ]
     },
     {
       "id": "C06-S04",
       "name": "自然环境",
-      "words": 0,
-      "mode": "empty",
-      "groups": []
+      "words": 49,
+      "mode": "chooser",
+      "groups": [
+        {
+          "id": "earth-water-landforms",
+          "name": "地球水域与地貌",
+          "words": 20
+        },
+        {
+          "id": "habitats-surface",
+          "name": "自然生境与地表",
+          "words": 14
+        },
+        {
+          "id": "sky-weather",
+          "name": "天空与天气现象",
+          "words": 15
+        }
+      ]
     },
     {
       "id": "C07-S01",

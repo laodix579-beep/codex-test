@@ -1,0 +1,4490 @@
+{
+  "pack": "animal-nature-v1",
+  "voice": "af_bella",
+  "locale": "en-US",
+  "engine": "Kokoro-82M v1.0 FP32",
+  "phonemizer": "Misaki-fork en-US 0.9.6",
+  "sampleRate": 24000,
+  "prosody": {
+    "method": "Praat PSOLA terminal contour v1",
+    "windowSeconds": 0.5,
+    "riseRatio": 1.22,
+    "fallRatio": 0.82
+  },
+  "models": {
+    "kokoro-v1.0.onnx": "beb0d1848dee9a49da392cc3df26958d46cfa35d321edf434f52949153f0df3a",
+    "voices-v1.0.bin": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d"
+  },
+  "clips": [
+    {
+      "key": "pet",
+      "text": "pet",
+      "role": "word",
+      "style": "word",
+      "phonemes": "pˈɛt",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/pet.mp3",
+      "sha256": "98af90247b028831e4c1f301eb13d9a9c3e93aaa48266ec4373dc20cf9aa45b0"
+    },
+    {
+      "key": "a pet needs food and care",
+      "text": "A pet needs food and care.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ɐ pˈɛt nˈidz fˈud ænd kˈɛɹ.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/a-pet-needs-food-and-care.mp3",
+      "sha256": "1bbdb1b4f5440bb7ca1df0a2676b2cfb4caa62cb1da65236c734b05353bfe5e7"
+    },
+    {
+      "key": "the dog is playing in the garden",
+      "text": "The dog is playing in the garden.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə dˈɔɡ ɪz plˈAɪŋ ɪn ðə ɡˈɑɹdən.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-dog-is-playing-in-the-garden.mp3",
+      "sha256": "7ae6db012b8e7496b6a903d93b81c44ffe25e900bfad319c80976b668365999f"
+    },
+    {
+      "key": "puppy",
+      "text": "puppy",
+      "role": "word",
+      "style": "word",
+      "phonemes": "pˈʌpi",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/puppy.mp3",
+      "sha256": "01a353b1365573f012e2312821fa85c21bf644ffcd387ae0e8c384c83b6b3bfd"
+    },
+    {
+      "key": "the puppy is very playful",
+      "text": "The puppy is very playful.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə pˈʌpi ɪz vˈɛɹi plˈAfᵊl.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-puppy-is-very-playful.mp3",
+      "sha256": "4774bfd2e982fff811f7960b2120375e6982b82d1290dac026f9b56682e7396e"
+    },
+    {
+      "key": "kitten",
+      "text": "kitten",
+      "role": "word",
+      "style": "word",
+      "phonemes": "kˈɪtn",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/kitten.mp3",
+      "sha256": "f3474a639d0924600c7e1351e24149cc98de29c8ccb29068b25acc0c66697343"
+    },
+    {
+      "key": "the kitten has soft fur",
+      "text": "The kitten has soft fur.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə kˈɪtn hæz sˈɔft fˈɜɹ.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-kitten-has-soft-fur.mp3",
+      "sha256": "f8e72a2fba09cf90c027491d368300a0daa51304b6f86fa66e9a6849064c2bcb"
+    },
+    {
+      "key": "rabbit",
+      "text": "rabbit",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ɹˈæbət",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/rabbit.mp3",
+      "sha256": "00fb955ee3cefa42c06202ef6313f1f2225111db0bf1b368520e5165dbad4c82"
+    },
+    {
+      "key": "the rabbit eats a carrot",
+      "text": "The rabbit eats a carrot.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə ɹˈæbət ˈits ɐ kˈɛɹət.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-rabbit-eats-a-carrot.mp3",
+      "sha256": "137a161b08c96ac36602a465e9d99ec9f601b3437bc3e7d312452bc515f41b5f"
+    },
+    {
+      "key": "hamster",
+      "text": "hamster",
+      "role": "word",
+      "style": "word",
+      "phonemes": "hˈæmpstəɹ",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/hamster.mp3",
+      "sha256": "1747679b8850900c4dbed7fa28148aad1442bfda7a2e35c8a98e9d27af987f2c"
+    },
+    {
+      "key": "the hamster runs in its wheel",
+      "text": "The hamster runs in its wheel.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə hˈæmpstəɹ ɹˈʌnz ɪn ɪts wˈil.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-hamster-runs-in-its-wheel.mp3",
+      "sha256": "5c460ffcc96c75e014b3c2103981c6414b52ab20585a81133b18461a18f7afa4"
+    },
+    {
+      "key": "guinea pig",
+      "text": "guinea pig",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "ɡˈɪni pˈɪɡ",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/word/guinea-pig.mp3",
+      "sha256": "0c22c62a6a3202546f123db414b09f0a5cebd96c72e355bfe72d0a2be1ef474e"
+    },
+    {
+      "key": "our guinea pig likes fresh grass",
+      "text": "Our guinea pig likes fresh grass.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ˌWəɹ ɡˈɪni pˈɪɡ lˈIks fɹˈɛʃ ɡɹˈæs.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/our-guinea-pig-likes-fresh-grass.mp3",
+      "sha256": "cedfcc105686e9d7a4e1450e1f8e527b3bcca88b381321d39940c9399e095029"
+    },
+    {
+      "key": "gerbil",
+      "text": "gerbil",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ʤˈɜɹbᵊl",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/gerbil.mp3",
+      "sha256": "b67973da5f239b1023770f5ba72f67b00ad23af97c07a82be696bb5cfea47bec"
+    },
+    {
+      "key": "the gerbil hides in its bedding",
+      "text": "The gerbil hides in its bedding.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə ʤˈɜɹbᵊl hˈIdz ɪn ɪts bˈɛdɪŋ.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-gerbil-hides-in-its-bedding.mp3",
+      "sha256": "812c410fa6ef15b2ea18bf544140d8e6d35f49f496299d331b6ff43b22e31884"
+    },
+    {
+      "key": "mouse",
+      "text": "mouse",
+      "role": "word",
+      "style": "word",
+      "phonemes": "mˈWs",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/mouse.mp3",
+      "sha256": "afb5783f8fd209a38d66bdfe088ae87f47fe22bc9c41a1c83996c82173960c46"
+    },
+    {
+      "key": "the little mouse is quick",
+      "text": "The little mouse is quick.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə lˈɪTᵊl mˈWs ɪz kwˈɪk.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-little-mouse-is-quick.mp3",
+      "sha256": "8579fea414bac866c520b33610a297386bab66e4e70fd7ea30172a102e1f4160"
+    },
+    {
+      "key": "rat",
+      "text": "rat",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ɹˈæt",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/rat.mp3",
+      "sha256": "9b70914c53876482df3ce1b9f4f49660f9804c58fcd90a146611ea72cb6cf3c6"
+    },
+    {
+      "key": "the pet rat is gentle",
+      "text": "The pet rat is gentle.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə pˈɛt ɹˈæt ɪz ʤˈɛntəl.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-pet-rat-is-gentle.mp3",
+      "sha256": "efaed0ddb7b537e123e03221f8581643cb53ea72b51a3e7ddcb697eedf9c76fa"
+    },
+    {
+      "key": "ferret",
+      "text": "ferret",
+      "role": "word",
+      "style": "word",
+      "phonemes": "fˈɛɹət",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/ferret.mp3",
+      "sha256": "2335719236f988a812801c50f6047680116fbec0b101513ca69e7e1168879e21"
+    },
+    {
+      "key": "the ferret likes to explore",
+      "text": "The ferret likes to explore.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə fˈɛɹət lˈIks tʊ ɪksplˈɔɹ.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-ferret-likes-to-explore.mp3",
+      "sha256": "cd544f103569eb958c897ec1be585b3e2b47d4cd429970d6e791daa26bf21496"
+    },
+    {
+      "key": "chinchilla",
+      "text": "chinchilla",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ʧɪnʧˈɪlə",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/chinchilla.mp3",
+      "sha256": "db81bee6bbed67959b0f3abc654fb2b535544c0f06e610beff0a9fcb4ad3dda4"
+    },
+    {
+      "key": "the chinchilla has very soft fur",
+      "text": "The chinchilla has very soft fur.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə ʧɪnʧˈɪlə hæz vˈɛɹi sˈɔft fˈɜɹ.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-chinchilla-has-very-soft-fur.mp3",
+      "sha256": "a4b179f10a4049cca28ccab145cd6ff7d8acdaa58cb1e0fcb4188cdc4f21aaa3"
+    },
+    {
+      "key": "the bird sings in the morning",
+      "text": "The bird sings in the morning.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə bˈɜɹd sˈɪŋz ɪn ðə mˈɔɹnɪŋ.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-bird-sings-in-the-morning.mp3",
+      "sha256": "ff62196424bf13a050bedf36497bee545d68b42993995e993a86125960702cca"
+    },
+    {
+      "key": "parrot",
+      "text": "parrot",
+      "role": "word",
+      "style": "word",
+      "phonemes": "pˈɛɹət",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/parrot.mp3",
+      "sha256": "7b176a1a36e3804ecc9b7cb7cea85be419e49bdbeaa453c4df0df5ae74ba4995"
+    },
+    {
+      "key": "the parrot can copy some sounds",
+      "text": "The parrot can copy some sounds.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə pˈɛɹət kæn kˈɑpi sˌʌm sˈWndz.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-parrot-can-copy-some-sounds.mp3",
+      "sha256": "9860117e1bb21f4cae974bcb293df51d32a9d3443d3d6945683140b6c752d38f"
+    },
+    {
+      "key": "budgie",
+      "text": "budgie",
+      "role": "word",
+      "style": "word",
+      "phonemes": "bˈʌʤi",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/budgie.mp3",
+      "sha256": "6cdc0c23ce128e0ca8d16978b608358420acc2e9c59e4d9efaa4b103712a0cc5"
+    },
+    {
+      "key": "the budgie sits on its perch",
+      "text": "The budgie sits on its perch.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə bˈʌʤi sˈɪts ˌɔn ɪts pˈɜɹʧ.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-budgie-sits-on-its-perch.mp3",
+      "sha256": "77fefe67eecd19fc2b65831881cb520ef921a708437177c304fa4efc12d239c8"
+    },
+    {
+      "key": "canary",
+      "text": "canary",
+      "role": "word",
+      "style": "word",
+      "phonemes": "kənˈɛɹi",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/canary.mp3",
+      "sha256": "5814014b03c005f96946d6287b68ac8976b798f15aac929d1bc3fcd392e910f2"
+    },
+    {
+      "key": "the canary has a yellow body",
+      "text": "The canary has a yellow body.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə kənˈɛɹi hæz ɐ jˈɛlO bˈɑdi.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-canary-has-a-yellow-body.mp3",
+      "sha256": "df17cd7a8c7341bb4ade1b24319181b7363707c621a54a240f22aff948e10bb1"
+    },
+    {
+      "key": "goldfish",
+      "text": "goldfish",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ɡˈOldfˌɪʃ",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/goldfish.mp3",
+      "sha256": "dbca36ff46f0cd82f5438e3277b129a3c178cb3b18d68a07f420d498be50a12e"
+    },
+    {
+      "key": "the goldfish swims in a tank",
+      "text": "The goldfish swims in a tank.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə ɡˈOldfˌɪʃ swˈɪmz ɪn ɐ tˈæŋk.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-goldfish-swims-in-a-tank.mp3",
+      "sha256": "6aca1e787357f5c18bb8f9be75d6d9bab4959d4f1084e47318db57845f4042df"
+    },
+    {
+      "key": "aquarium",
+      "text": "aquarium",
+      "role": "word",
+      "style": "word",
+      "phonemes": "əkwˈɛɹiəm",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/aquarium.mp3",
+      "sha256": "b775223fcefc1777f43fe8a3409ff1722de8831cfcc2e9576031ebba06e8a89e"
+    },
+    {
+      "key": "the fish lives in a clean aquarium",
+      "text": "The fish lives in a clean aquarium.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə fˈɪʃ lˈɪvz ɪn ɐ klˈin əkwˈɛɹiəm.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-fish-lives-in-a-clean-aquarium.mp3",
+      "sha256": "db4c7dbf9933f9d6285ae4818868089caeeba7c88dd36659e13b9980ba012097"
+    },
+    {
+      "key": "turtle",
+      "text": "turtle",
+      "role": "word",
+      "style": "word",
+      "phonemes": "tˈɜɹTᵊl",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/turtle.mp3",
+      "sha256": "acbe4aa449395c1e60822bb9747099d497d87e94b15be38210bfaed954320e29"
+    },
+    {
+      "key": "the turtle moves slowly",
+      "text": "The turtle moves slowly.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə tˈɜɹTᵊl mˈuvz slˈOli.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-turtle-moves-slowly.mp3",
+      "sha256": "f49637ea8c58c3623c1502b861b26888dc5059a93b0f0bc95693155bfa3d8d4e"
+    },
+    {
+      "key": "tortoise",
+      "text": "tortoise",
+      "role": "word",
+      "style": "word",
+      "phonemes": "tˈɔɹTəs",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/tortoise.mp3",
+      "sha256": "ff2224b69a6294f29d015369d5b327236972ab6dbc3a28362466679bc0c79e76"
+    },
+    {
+      "key": "the tortoise has a hard shell",
+      "text": "The tortoise has a hard shell.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə tˈɔɹTəs hæz ɐ hˈɑɹd ʃˈɛl.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-tortoise-has-a-hard-shell.mp3",
+      "sha256": "ee0f13f68859d566f5e95658979adb6fed8861c52c2d59cee45f5ab71a561807"
+    },
+    {
+      "key": "lizard",
+      "text": "lizard",
+      "role": "word",
+      "style": "word",
+      "phonemes": "lˈɪzəɹd",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/lizard.mp3",
+      "sha256": "f108e107919599421aec07641a8af3b429a6eadca1490fb8f1a4a51e9973625d"
+    },
+    {
+      "key": "the lizard sits on a warm rock",
+      "text": "The lizard sits on a warm rock.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə lˈɪzəɹd sˈɪts ˌɔn ɐ wˈɔɹm ɹˈɑk.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-lizard-sits-on-a-warm-rock.mp3",
+      "sha256": "62774dce4009227bacc0deb63a29903b78b7c7a5f727c6ca6152361193b24057"
+    },
+    {
+      "key": "snake",
+      "text": "snake",
+      "role": "word",
+      "style": "word",
+      "phonemes": "snˈAk",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/snake.mp3",
+      "sha256": "78ec5a08f0b8cb087cb45ead8d3ef1b57950ca823e73f823e8b8b2b1905ea908"
+    },
+    {
+      "key": "the snake moves through the grass",
+      "text": "The snake moves through the grass.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə snˈAk mˈuvz θɹu ðə ɡɹˈæs.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-snake-moves-through-the-grass.mp3",
+      "sha256": "e325eb4609c9c9b30556e52279003c2bd62b71cc80cfeee5d9d9811aefb1d8f5"
+    },
+    {
+      "key": "the frog jumps into the pond",
+      "text": "The frog jumps into the pond.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə fɹˈɔɡ ʤˈʌmps ˈɪntu ðə pˈɑnd.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-frog-jumps-into-the-pond.mp3",
+      "sha256": "103ba90d4acfc899e175eed1bf1edcede77791b9f28081a67f923e2d5d270cd4"
+    },
+    {
+      "key": "paw",
+      "text": "paw",
+      "role": "word",
+      "style": "word",
+      "phonemes": "pˈɔ",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/paw.mp3",
+      "sha256": "2d2eaab6aadcddb63acd38cbab6daa4591233cfe891e9d021d5323e36ad1ba1d"
+    },
+    {
+      "key": "the puppy lifted its paw",
+      "text": "The puppy lifted its paw.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə pˈʌpi lˈɪftᵻd ɪts pˈɔ.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-puppy-lifted-its-paw.mp3",
+      "sha256": "e371eb2882b81650a3c27f4563b406fcce61482ea508225732d3fe8eead06523"
+    },
+    {
+      "key": "tail",
+      "text": "tail",
+      "role": "word",
+      "style": "word",
+      "phonemes": "tˈAl",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/tail.mp3",
+      "sha256": "003d9ef27367d0cca28b1e0b6199284500a5d231cd9bf21c659ba2dd8791ba59"
+    },
+    {
+      "key": "the cat has a long tail",
+      "text": "The cat has a long tail.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə kˈæt hæz ɐ lˈɔŋ tˈAl.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-cat-has-a-long-tail.mp3",
+      "sha256": "f0b98c412c691e1c8cd1d28bbad475e8de467cfef4cfc6b99ec097889577be8e"
+    },
+    {
+      "key": "fur",
+      "text": "fur",
+      "role": "word",
+      "style": "word",
+      "phonemes": "fˈɜɹ",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/fur.mp3",
+      "sha256": "ee811997e7aeb84414a6f54b9d38195076025a19c42f9e72d1c94515826138eb"
+    },
+    {
+      "key": "the rabbit's fur is soft",
+      "text": "The rabbit's fur is soft.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə ɹˈæbəts fˈɜɹ ɪz sˈɔft.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-rabbit-s-fur-is-soft.mp3",
+      "sha256": "bf6647f7c77b302a402556ba18a7c7ac3b9a7d0ce5b666c9811170b3680c7915"
+    },
+    {
+      "key": "whiskers",
+      "text": "whiskers",
+      "role": "word",
+      "style": "word",
+      "phonemes": "wˈɪskəɹz",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/whiskers.mp3",
+      "sha256": "d2194e109862f0a5868382f6aea6b2c847fb169b17b5b9658e27e714fee40485"
+    },
+    {
+      "key": "the cat has long whiskers",
+      "text": "The cat has long whiskers.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə kˈæt hæz lˈɔŋ wˈɪskəɹz.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-cat-has-long-whiskers.mp3",
+      "sha256": "11e2388d8a92913bde66b7498b8a1c92fd04a7293447e828e348ceaa9024c91c"
+    },
+    {
+      "key": "cage",
+      "text": "cage",
+      "role": "word",
+      "style": "word",
+      "phonemes": "kˈAʤ",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/cage.mp3",
+      "sha256": "8f7ddbbaaca5df28a5f6348d1a6b70c289c01c0d73b6e1253a515ac4098129cc"
+    },
+    {
+      "key": "the bird's cage is near the window",
+      "text": "The bird's cage is near the window.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə bˈɜɹdz kˈAʤ ɪz nˌɪɹ ðə wˈɪndO.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-bird-s-cage-is-near-the-window.mp3",
+      "sha256": "e59d97b97ba1e0ae2e3b00b8cc571b1e737f229d1c2c3c372d28301292b92990"
+    },
+    {
+      "key": "fish tank",
+      "text": "fish tank",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "fˈɪʃ tˈæŋk",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/word/fish-tank.mp3",
+      "sha256": "5245448d1276b3c17cd230ec7e133526ec2036305d3d07efb6d59fb19ae94c93"
+    },
+    {
+      "key": "we clean the fish tank every week",
+      "text": "We clean the fish tank every week.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "wˌi klˈin ðə fˈɪʃ tˈæŋk ˈɛvəɹi wˈik.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/we-clean-the-fish-tank-every-week.mp3",
+      "sha256": "f33bb55f4f42d820b426b57bd33e40fd18d880239157be30b76f9b15510fed6a"
+    },
+    {
+      "key": "pet bowl",
+      "text": "pet bowl",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "pˈɛt bˈOl",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/word/pet-bowl.mp3",
+      "sha256": "e62c7ec9e1aa357eac7f24736d307e8c823dc54f3a20bdcf2bf6a1340e262799"
+    },
+    {
+      "key": "the dog's water is in its pet bowl",
+      "text": "The dog's water is in its pet bowl.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə dˈɔɡz wˈɔTəɹ ɪz ɪn ɪts pˈɛt bˈOl.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-dog-s-water-is-in-its-pet-bowl.mp3",
+      "sha256": "bd71a362b0bc7d1b488d8ac8ffeef88f7ca918011a49d54e1bb23bb2ce5f516b"
+    },
+    {
+      "key": "collar",
+      "text": "collar",
+      "role": "word",
+      "style": "word",
+      "phonemes": "kˈɑləɹ",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/collar.mp3",
+      "sha256": "6d2ffb9ba19f6c5cc5bb560ecb7f596c283bb2a0faa38015460b25403ac5eee6"
+    },
+    {
+      "key": "the dog wears a red collar",
+      "text": "The dog wears a red collar.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə dˈɔɡ wˈɛɹz ɐ ɹˈɛd kˈɑləɹ.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-dog-wears-a-red-collar.mp3",
+      "sha256": "64db5b78bc31d21a3e579c10ab00c1ef2efa34929ab9d61dc8b16a831244d046"
+    },
+    {
+      "key": "lead",
+      "text": "lead",
+      "role": "word",
+      "style": "word",
+      "phonemes": "lˈid",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/lead.mp3",
+      "sha256": "ca3b9547eac33f240b1fdee1b62219dce2a5bfd84eaacb5c053c7ba8e5657963"
+    },
+    {
+      "key": "keep the dog on its lead",
+      "text": "Keep the dog on its lead.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "kˈip ðə dˈɔɡ ˌɔn ɪts lˈid.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/keep-the-dog-on-its-lead.mp3",
+      "sha256": "aa8be16c3d7d3e450256f362ffc8bea6642681a6ed53acab2f0ba997e12fc21e"
+    },
+    {
+      "key": "kennel",
+      "text": "kennel",
+      "role": "word",
+      "style": "word",
+      "phonemes": "kˈɛnᵊl",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/kennel.mp3",
+      "sha256": "db2de47e55fec7b791db6c829611ee6d48160bdcd2548bf7ee9776d241ff21a6"
+    },
+    {
+      "key": "the dog rests in its kennel",
+      "text": "The dog rests in its kennel.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə dˈɔɡ ɹˈɛsts ɪn ɪts kˈɛnᵊl.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-dog-rests-in-its-kennel.mp3",
+      "sha256": "3e910c52351aa1f5fbcfda21c43596af86abc64c044ef4e10ea1ca5a69b3a125"
+    },
+    {
+      "key": "litter tray",
+      "text": "litter tray",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "lˈɪTəɹ tɹˈA",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/word/litter-tray.mp3",
+      "sha256": "c3a7d8aeeaec7f18aa74fcfdd286732d4ce89fee5c3d486cede458e882162017"
+    },
+    {
+      "key": "the kitten uses its litter tray",
+      "text": "The kitten uses its litter tray.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə kˈɪtn jˈuzᵻz ɪts lˈɪTəɹ tɹˈA.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-kitten-uses-its-litter-tray.mp3",
+      "sha256": "a2a508790c795ac6d3c7e5ad6090f17e97ccb2b7d2d666a4f7f6b3e165d222d4"
+    },
+    {
+      "key": "pet shop",
+      "text": "pet shop",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "pˈɛt ʃˈɑp",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/word/pet-shop.mp3",
+      "sha256": "62abcc936f1c31cce878bdf563b2816c99b77698e574663826cfe2ca464b9690"
+    },
+    {
+      "key": "we bought a toy at the pet shop",
+      "text": "We bought a toy at the pet shop.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "wˌi bˈɔt ɐ tˈY æt ðə pˈɛt ʃˈɑp.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/we-bought-a-toy-at-the-pet-shop.mp3",
+      "sha256": "8ea1accaa42c918c7170582db91115a224a00340eabce01ccd9e0e9ce283526f"
+    },
+    {
+      "key": "vet",
+      "text": "vet",
+      "role": "word",
+      "style": "word",
+      "phonemes": "vˈɛt",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/vet.mp3",
+      "sha256": "e2323a71ea98f05558ed0be84618d2608aa4c04162b521d018002f1c843fa975"
+    },
+    {
+      "key": "the vet checks the puppy",
+      "text": "The vet checks the puppy.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə vˈɛt ʧˈɛks ðə pˈʌpi.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-vet-checks-the-puppy.mp3",
+      "sha256": "797667cf5d28f61d73d466800b82d147313139fc773d6064dcbcb8ffe0200f37"
+    },
+    {
+      "key": "feed",
+      "text": "feed",
+      "role": "word",
+      "style": "word",
+      "phonemes": "fˈid",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/feed.mp3",
+      "sha256": "bc2bc0b20cdb2759a1ddd9aa9abb350dae1cb90ca2070ee8d5416bd3799b7e66"
+    },
+    {
+      "key": "i feed my cat every morning",
+      "text": "I feed my cat every morning.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ˌI fˈid mI kˈæt ˈɛvəɹi mˈɔɹnɪŋ.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/i-feed-my-cat-every-morning.mp3",
+      "sha256": "4bf02120e70db966a25d2c3abbe3db1b2df297fca60497daf66087aa7568c1f0"
+    },
+    {
+      "key": "groom",
+      "text": "groom",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ɡɹˈum",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/groom.mp3",
+      "sha256": "d2746fb071205bd5f941c300edaa1f1c3e137c109e782944e1434e969a227709"
+    },
+    {
+      "key": "we groom the dog gently",
+      "text": "We groom the dog gently.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "wˌi ɡɹˈum ðə dˈɔɡ ʤˈɛntli.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/we-groom-the-dog-gently.mp3",
+      "sha256": "21dfe88cfac1717b1e50bcd53b7b45bbf026bd37bf6be4a29f8085a4cbf2c239"
+    },
+    {
+      "key": "farm",
+      "text": "farm",
+      "role": "word",
+      "style": "word",
+      "phonemes": "fˈɑɹm",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/farm.mp3",
+      "sha256": "ca1b2cc82fffb5b002ba4925e1ee678fe678e68e29d9a0177fed02482c4760e3"
+    },
+    {
+      "key": "we visited a farm on saturday",
+      "text": "We visited a farm on Saturday.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "wˌi vˈɪzɪTᵻd ɐ fˈɑɹm ˌɔn sˈæTəɹdˌA.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/we-visited-a-farm-on-saturday.mp3",
+      "sha256": "ab4128838eefe501e0f677291b651a9b880b28d3ef8c1da4a6fba38a277b780d"
+    },
+    {
+      "key": "farmer",
+      "text": "farmer",
+      "role": "word",
+      "style": "word",
+      "phonemes": "fˈɑɹməɹ",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/farmer.mp3",
+      "sha256": "00888c37124d2c8290e9dac4d5ccca01a04cd27095c9461e8e3f647f371889b8"
+    },
+    {
+      "key": "the farmer feeds the animals",
+      "text": "The farmer feeds the animals.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə fˈɑɹməɹ fˈidz ði ˈænəmᵊlz.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-farmer-feeds-the-animals.mp3",
+      "sha256": "1df857704c1d0da726859fc6755ae26d17640f16b4e151153ef8736ca02c7b84"
+    },
+    {
+      "key": "cow",
+      "text": "cow",
+      "role": "word",
+      "style": "word",
+      "phonemes": "kˈW",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/cow.mp3",
+      "sha256": "c700393d6b7491e4d5331179c62be1467c59f3a174154818608c725c98a8b1fd"
+    },
+    {
+      "key": "the cow is eating grass",
+      "text": "The cow is eating grass.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə kˈW ɪz ˈiTɪŋ ɡɹˈæs.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-cow-is-eating-grass.mp3",
+      "sha256": "6fc067e24d738e034d3663002a53469c95ed3d54ff0b0060a67acf92a05f03e6"
+    },
+    {
+      "key": "calf",
+      "text": "calf",
+      "role": "word",
+      "style": "word",
+      "phonemes": "kˈæf",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/calf.mp3",
+      "sha256": "b74db4aa8a4570dda046a3b3d49ff89dd0bfb2f342255b49428a7ea5c35f836e"
+    },
+    {
+      "key": "the calf stays close to its mother",
+      "text": "The calf stays close to its mother.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə kˈæf stˈAz klˈOs tʊ ɪts mˈʌðəɹ.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-calf-stays-close-to-its-mother.mp3",
+      "sha256": "47020976cb1436fb037c277b8fce0bf1b0a3eff1e21a471416b80121fa50d83a"
+    },
+    {
+      "key": "bull",
+      "text": "bull",
+      "role": "word",
+      "style": "word",
+      "phonemes": "bˈʊl",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/bull.mp3",
+      "sha256": "87e1da5b706d4f38882d22d4f39ef67ecef43fdb6dbd92a6d32ee01046ba3c06"
+    },
+    {
+      "key": "the bull is in the field",
+      "text": "The bull is in the field.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə bˈʊl ɪz ɪn ðə fˈild.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-bull-is-in-the-field.mp3",
+      "sha256": "74024af1aa72699c0f8843df50229d4d76cf0da36068e685e805ef80dc1ea28a"
+    },
+    {
+      "key": "dairy cow",
+      "text": "dairy cow",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "dˈɛɹi kˈW",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/word/dairy-cow.mp3",
+      "sha256": "5acf81917ecbf02102004c56b5ffbcfb245953d073a37caa19737fc38eb56f5f"
+    },
+    {
+      "key": "a dairy cow gives milk",
+      "text": "A dairy cow gives milk.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ɐ dˈɛɹi kˈW ɡˈɪvz mˈɪlk.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/a-dairy-cow-gives-milk.mp3",
+      "sha256": "f2983f78dbfebf8d11e4f830b826d429d57eeae073e97e7ea9e1a77dc694e7a6"
+    },
+    {
+      "key": "sheep",
+      "text": "sheep",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ʃˈip",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/sheep.mp3",
+      "sha256": "2ecb3bec629bd6e440a49c450f2e90f5cbc60550e135aeee5b133804a4e364e4"
+    },
+    {
+      "key": "the sheep are in the field",
+      "text": "The sheep are in the field.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə ʃˈip ɑɹ ɪn ðə fˈild.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-sheep-are-in-the-field.mp3",
+      "sha256": "eef0212f6ea94d2173ca7fa7aa6bfac6efe7d46ca6307bcdf64ff7c819aa90bc"
+    },
+    {
+      "key": "the lamb follows the ewe",
+      "text": "The lamb follows the ewe.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə lˈæm fˈɑlOz ðə jˈu.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-lamb-follows-the-ewe.mp3",
+      "sha256": "fd8d270384e788744fee370b022e61da05bb70a064f94775844efd2e1f563fb2"
+    },
+    {
+      "key": "ewe",
+      "text": "ewe",
+      "role": "word",
+      "style": "word",
+      "phonemes": "jˈu",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/ewe.mp3",
+      "sha256": "08801d73f647b8fac394c2f0c970f04121b39c20d70188e6126b23c0595630fe"
+    },
+    {
+      "key": "the ewe is looking after her lamb",
+      "text": "The ewe is looking after her lamb.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə jˈu ɪz lˈʊkɪŋ ˈæftəɹ hɜɹ lˈæm.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-ewe-is-looking-after-her-lamb.mp3",
+      "sha256": "12cd04d95bf5afc0330247f6f2da382c1c6c24dda80dda2c92e190cb1e13c8a9"
+    },
+    {
+      "key": "ram",
+      "text": "ram",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ɹˈæm",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/ram.mp3",
+      "sha256": "62a040bc5619237b2fc47930ed418ca04a0d56a1009a9c7672d8471d87ad8ebc"
+    },
+    {
+      "key": "the ram has curved horns",
+      "text": "The ram has curved horns.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə ɹˈæm hæz kˈɜɹvd hˈɔɹnz.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-ram-has-curved-horns.mp3",
+      "sha256": "c2c7958ce7594d669e73d1e0eb47c5d06c6fce9833e161c4109ad66609a23945"
+    },
+    {
+      "key": "goat",
+      "text": "goat",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ɡˈOt",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/goat.mp3",
+      "sha256": "f1dc27ff177b0a933477f329f4df42a33a7d594cbcd66b1274965da203a284a4"
+    },
+    {
+      "key": "the goat climbs onto a rock",
+      "text": "The goat climbs onto a rock.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə ɡˈOt klˈImz ˈɑntˌu ɐ ɹˈɑk.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-goat-climbs-onto-a-rock.mp3",
+      "sha256": "dfef550a4d79b05a3a9b7b36e139678fef81f0b612727228e122832c4e2fcebd"
+    },
+    {
+      "key": "kid",
+      "text": "kid",
+      "role": "word",
+      "style": "word",
+      "phonemes": "kˈɪd",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/kid.mp3",
+      "sha256": "4d6f760c58538f9b002dc14c8c373869ba6038ea0ce34cfb62559908963fae3b"
+    },
+    {
+      "key": "the kid jumps beside its mother",
+      "text": "The kid jumps beside its mother.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə kˈɪd ʤˈʌmps bəsˈId ɪts mˈʌðəɹ.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-kid-jumps-beside-its-mother.mp3",
+      "sha256": "c5d5d73efab33e759432518f230569d593f73436957a56131e68033c96914045"
+    },
+    {
+      "key": "pig",
+      "text": "pig",
+      "role": "word",
+      "style": "word",
+      "phonemes": "pˈɪɡ",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/pig.mp3",
+      "sha256": "1b47c72f3753d06389b4ad8fdc6eab64be76d63dcd7e5bc2162515bca2925b39"
+    },
+    {
+      "key": "the pig rolls in the mud",
+      "text": "The pig rolls in the mud.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə pˈɪɡ ɹˈOlz ɪn ðə mˈʌd.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-pig-rolls-in-the-mud.mp3",
+      "sha256": "0e2e9fd5933101c331e6892664dea9698ad46ccf2f739758f679d3515c477acc"
+    },
+    {
+      "key": "piglet",
+      "text": "piglet",
+      "role": "word",
+      "style": "word",
+      "phonemes": "pˈɪɡlət",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/piglet.mp3",
+      "sha256": "6171afb7ad2ec7b0b74a3f7b2ea823e58a1a28c55a339a49e38b4ae0ef14679f"
+    },
+    {
+      "key": "the piglet is very small",
+      "text": "The piglet is very small.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə pˈɪɡlət ɪz vˈɛɹi smˈɔl.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-piglet-is-very-small.mp3",
+      "sha256": "793983469b6d0c5a583a1e3859866eb334ee6cb30799a43f62eb9dc99d223810"
+    },
+    {
+      "key": "horse",
+      "text": "horse",
+      "role": "word",
+      "style": "word",
+      "phonemes": "hˈɔɹs",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/horse.mp3",
+      "sha256": "d6dbd43e6e4108551427dc21d2c453e5b8a65a521ebe5c2dd7c25c411db616dd"
+    },
+    {
+      "key": "the horse runs across the field",
+      "text": "The horse runs across the field.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə hˈɔɹs ɹˈʌnz əkɹˈɔs ðə fˈild.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-horse-runs-across-the-field.mp3",
+      "sha256": "4cbf87fae0e9ad637b5acb360112dd4498d83c80d94a2209deaef293e54ece41"
+    },
+    {
+      "key": "pony",
+      "text": "pony",
+      "role": "word",
+      "style": "word",
+      "phonemes": "pˈOni",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/pony.mp3",
+      "sha256": "b5cab233def178f99c5cd47ec31c5841826676ec1f656fc70b3d91431b1c7d55"
+    },
+    {
+      "key": "the pony is gentle with children",
+      "text": "The pony is gentle with children.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə pˈOni ɪz ʤˈɛntəl wɪð ʧˈɪldɹᵊn.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-pony-is-gentle-with-children.mp3",
+      "sha256": "c2be715427e061fadf0be93760826c9929a59994df68bdab4144fbfdac174a24"
+    },
+    {
+      "key": "foal",
+      "text": "foal",
+      "role": "word",
+      "style": "word",
+      "phonemes": "fˈOl",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/foal.mp3",
+      "sha256": "9114f741e5c52133066a696fe2fbc569f70a99b969bb33be7ca3eedd86fab2dc"
+    },
+    {
+      "key": "the foal stands beside its mother",
+      "text": "The foal stands beside its mother.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə fˈOl stˈændz bəsˈId ɪts mˈʌðəɹ.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-foal-stands-beside-its-mother.mp3",
+      "sha256": "edc4dd165fad90beb647574a2d49add38fffe126d34fce77bb8cce275b7db9fb"
+    },
+    {
+      "key": "donkey",
+      "text": "donkey",
+      "role": "word",
+      "style": "word",
+      "phonemes": "dˈɔŋki",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/donkey.mp3",
+      "sha256": "13684bcbcb391ab9b8618763b50fff7c9e49d7d8f4e650eda6033f4ee0060adf"
+    },
+    {
+      "key": "the donkey carries a basket",
+      "text": "The donkey carries a basket.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə dˈɔŋki kˈɛɹiz ɐ bˈæskət.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-donkey-carries-a-basket.mp3",
+      "sha256": "a761fb45926b9c4ee50df40d4402594e984cc5bbb342f29e366364753632ac1f"
+    },
+    {
+      "key": "mule",
+      "text": "mule",
+      "role": "word",
+      "style": "word",
+      "phonemes": "mjˈul",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/mule.mp3",
+      "sha256": "8dc92b8804f0c6188481d75b7ae5eda83e4202ef64b0c20e4bcbe1088ce95f17"
+    },
+    {
+      "key": "the mule walks along the path",
+      "text": "The mule walks along the path.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə mjˈul wˈɔks əlˈɔŋ ðə pˈæθ.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-mule-walks-along-the-path.mp3",
+      "sha256": "8a4dbbd2df96a046b467a8df0751c018e9467f73499511547a3fdc3cab4bfeaa"
+    },
+    {
+      "key": "the chickens peck at the grain",
+      "text": "The chickens peck at the grain.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə ʧˈɪkənz pˈɛk æt ðə ɡɹˈAn.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-chickens-peck-at-the-grain.mp3",
+      "sha256": "b33635730ab351bcc97cb69cea48bf00a2a48ad24f70c0f618ae6a65538ddfbd"
+    },
+    {
+      "key": "hen",
+      "text": "hen",
+      "role": "word",
+      "style": "word",
+      "phonemes": "hˈɛn",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/hen.mp3",
+      "sha256": "23b4ce4094b8a03776e095a5dacd9bc33d9117e797fa8cd0df61300cb09f8d63"
+    },
+    {
+      "key": "the hen lays an egg",
+      "text": "The hen lays an egg.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə hˈɛn lˈAz ɐn ˈɛɡ.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-hen-lays-an-egg.mp3",
+      "sha256": "4315eee19533bda5acdb5949430b3f0de6e86b12113ff51fe3423e5090636d61"
+    },
+    {
+      "key": "cockerel",
+      "text": "cockerel",
+      "role": "word",
+      "style": "word",
+      "phonemes": "kˈɑkəɹəl",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/cockerel.mp3",
+      "sha256": "de3d9ee215e49e4173f6164bcdf767bef1e8c33eb9b090b57e099e81f18b59f8"
+    },
+    {
+      "key": "the cockerel crows at dawn",
+      "text": "The cockerel crows at dawn.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə kˈɑkəɹəl kɹˈOz æt dˈɔn.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-cockerel-crows-at-dawn.mp3",
+      "sha256": "5aeb2ae64621caed460cf28a7328c5be3c9e9eb24b5fa4a50d3c6d219582c76c"
+    },
+    {
+      "key": "chick",
+      "text": "chick",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ʧˈɪk",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/chick.mp3",
+      "sha256": "966166dbe6ae8728fc769f7c094591d58056c0d009aa49351c4984fe04a4fb6d"
+    },
+    {
+      "key": "the chick follows the hen",
+      "text": "The chick follows the hen.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə ʧˈɪk fˈɑlOz ðə hˈɛn.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-chick-follows-the-hen.mp3",
+      "sha256": "949e1e9bf66e7b39bcc00af878d058bfb1bb353a182ca7316c41bee0b1948b77"
+    },
+    {
+      "key": "duck",
+      "text": "duck",
+      "role": "word",
+      "style": "word",
+      "phonemes": "dˈʌk",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/duck.mp3",
+      "sha256": "7c8ce0dc7e617378ae677eed990538cb1fa18bf3abd710faf9a23616869ad9fa"
+    },
+    {
+      "key": "the duck swims in the farm pond",
+      "text": "The duck swims in the farm pond.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə dˈʌk swˈɪmz ɪn ðə fˈɑɹm pˈɑnd.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-duck-swims-in-the-farm-pond.mp3",
+      "sha256": "15a1742875620b639d757a4cddf2e1c9eb5d8f3737f4b61c68912a00686385c2"
+    },
+    {
+      "key": "duckling",
+      "text": "duckling",
+      "role": "word",
+      "style": "word",
+      "phonemes": "dˈʌklɪŋ",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/duckling.mp3",
+      "sha256": "c08ae5dde4c20e8e0024ec6e766d81d5c127011be57b028e9a1037ac2b2841f9"
+    },
+    {
+      "key": "the ducklings follow their mother",
+      "text": "The ducklings follow their mother.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə dˈʌklɪŋz fˈɑlO ðɛɹ mˈʌðəɹ.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-ducklings-follow-their-mother.mp3",
+      "sha256": "fdeb477c425c6983abef5d9ee1da237a232f2548ca6152a7b3666edc5ac15973"
+    },
+    {
+      "key": "goose",
+      "text": "goose",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ɡˈus",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/goose.mp3",
+      "sha256": "8b56b8247f6b6fd08a7944cf667f7b12bd9c8fce77eb5a8c64a7d3db5d1c1b32"
+    },
+    {
+      "key": "the goose walks near the barn",
+      "text": "The goose walks near the barn.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə ɡˈus wˈɔks nˌɪɹ ðə bˈɑɹn.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-goose-walks-near-the-barn.mp3",
+      "sha256": "6401335d5867734ca36c947b1e1c58e6a90a6cb6c1740346520062334ec17644"
+    },
+    {
+      "key": "gosling",
+      "text": "gosling",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ɡˈɑzlɪŋ",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/gosling.mp3",
+      "sha256": "20815f0bd98706e0591aaa2e686e11a5ac9121d05f2391ee95d7414790cc099b"
+    },
+    {
+      "key": "the gosling has yellow feathers",
+      "text": "The gosling has yellow feathers.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə ɡˈɑzlɪŋ hæz jˈɛlO fˈɛðəɹz.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-gosling-has-yellow-feathers.mp3",
+      "sha256": "6b008e4442ecc088b126b8ecb5d7ab56e1a6eea14b4ab522b1ba74ebb7501bf2"
+    },
+    {
+      "key": "turkey",
+      "text": "turkey",
+      "role": "word",
+      "style": "word",
+      "phonemes": "tˈɜɹki",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/turkey.mp3",
+      "sha256": "b92c42b44ab0671ad304fea8236644183bf784036edee61a8780f7d866545115"
+    },
+    {
+      "key": "the turkey walks across the yard",
+      "text": "The turkey walks across the yard.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə tˈɜɹki wˈɔks əkɹˈɔs ðə jˈɑɹd.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-turkey-walks-across-the-yard.mp3",
+      "sha256": "f36e0ccdd9e30f0a99b338eeb752c22560be00244eb0ccf708be5489b1a22790"
+    },
+    {
+      "key": "rabbit hutch",
+      "text": "rabbit hutch",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "ɹˈæbət hˈʌʧ",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/word/rabbit-hutch.mp3",
+      "sha256": "2e2485516e7b78a98b4e27fd6c3722ec02c16e1c7f1a32baba10cf53a8b29d13"
+    },
+    {
+      "key": "the rabbit hutch is clean",
+      "text": "The rabbit hutch is clean.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə ɹˈæbət hˈʌʧ ɪz klˈin.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-rabbit-hutch-is-clean.mp3",
+      "sha256": "b58932a07f7f4c53530186820e9153256e56d98de6b124e15ecb0e00155a6f69"
+    },
+    {
+      "key": "barn",
+      "text": "barn",
+      "role": "word",
+      "style": "word",
+      "phonemes": "bˈɑɹn",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/barn.mp3",
+      "sha256": "7a90a164fc2c959088c54f9b4684e244d55dfc13e323693fd1a3656b16546d1c"
+    },
+    {
+      "key": "the hay is stored in the barn",
+      "text": "The hay is stored in the barn.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə hˈA ɪz stˈɔɹd ɪn ðə bˈɑɹn.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-hay-is-stored-in-the-barn.mp3",
+      "sha256": "29babaf0bb24c0603fc03433da13ebafa426c9fd3accecf489c0bc2aa46ca67f"
+    },
+    {
+      "key": "stable",
+      "text": "stable",
+      "role": "word",
+      "style": "word",
+      "phonemes": "stˈAbᵊl",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/stable.mp3",
+      "sha256": "4b380d538dfd6b4e20ad21b3a22fe61caa04587527a432af2f0ce7a6687e6b45"
+    },
+    {
+      "key": "the horse sleeps in the stable",
+      "text": "The horse sleeps in the stable.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə hˈɔɹs slˈips ɪn ðə stˈAbᵊl.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-horse-sleeps-in-the-stable.mp3",
+      "sha256": "6e760fb4402fd932f809e7f6a496e467585f72a668befd33a943c525ad87f9e4"
+    },
+    {
+      "key": "hay",
+      "text": "hay",
+      "role": "word",
+      "style": "word",
+      "phonemes": "hˈA",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/hay.mp3",
+      "sha256": "e78f43d039066d29005848b49c171683584a117bf7470befa614a0e8a9f3526d"
+    },
+    {
+      "key": "the sheep eat hay in winter",
+      "text": "The sheep eat hay in winter.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə ʃˈip ˈit hˈA ɪn wˈɪntəɹ.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-sheep-eat-hay-in-winter.mp3",
+      "sha256": "11711be893db8d86f861bbc16fb79723f18dba46aefc8847ad10e838bc99c74e"
+    },
+    {
+      "key": "feed bucket",
+      "text": "feed bucket",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "fˈid bˈʌkət",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/word/feed-bucket.mp3",
+      "sha256": "0e8e770fc3de2ba6b21dbb85e2d42723480a1036c4290e7dfafa2b4bc724c7b0"
+    },
+    {
+      "key": "the farmer fills the feed bucket",
+      "text": "The farmer fills the feed bucket.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə fˈɑɹməɹ fˈɪlz ðə fˈid bˈʌkət.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-farmer-fills-the-feed-bucket.mp3",
+      "sha256": "804e04d2e883396ef8c5cfd2d3b98cf2a99b555d7dd7b392e11d0c5c6dd4e58f"
+    },
+    {
+      "key": "wild animal",
+      "text": "wild animal",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "wˈIld ˈænəmᵊl",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/word/wild-animal.mp3",
+      "sha256": "5232d2dc352df058c1826ea225d369f6a9957f1b0db9907acb6a52b09d08c643"
+    },
+    {
+      "key": "a wild animal needs a safe habitat",
+      "text": "A wild animal needs a safe habitat.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ɐ wˈIld ˈænəmᵊl nˈidz ɐ sˈAf hˈæbətˌæt.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/a-wild-animal-needs-a-safe-habitat.mp3",
+      "sha256": "e43dc4d172e04e5b6e9fe52be415583cd1c1921e95cdbc1616af41093104f090"
+    },
+    {
+      "key": "lion",
+      "text": "lion",
+      "role": "word",
+      "style": "word",
+      "phonemes": "lˈIən",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/lion.mp3",
+      "sha256": "a0d97a942f2805061536103fbafa246e649aa25f97a7d868a15fcf0cfbae17d8"
+    },
+    {
+      "key": "the lion rests in the shade",
+      "text": "The lion rests in the shade.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə lˈIən ɹˈɛsts ɪn ðə ʃˈAd.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-lion-rests-in-the-shade.mp3",
+      "sha256": "b699db0b41410f19f876d66726c2f12346c112a8acc59b8c781d62d8c5f5fefc"
+    },
+    {
+      "key": "tiger",
+      "text": "tiger",
+      "role": "word",
+      "style": "word",
+      "phonemes": "tˈIɡəɹ",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/tiger.mp3",
+      "sha256": "b3654bea08e4224f0090e84d4a245aa32ceb05fe7798e3876b71d7e28db9ad88"
+    },
+    {
+      "key": "the tiger has orange and black stripes",
+      "text": "The tiger has orange and black stripes.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə tˈIɡəɹ hæz ˈɔɹᵊnʤ ænd blˈæk stɹˈIps.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-tiger-has-orange-and-black-stripes.mp3",
+      "sha256": "50a11885ccc13795f352eea472eb86bc6687ebd8f1691c6ba390305faed2159d"
+    },
+    {
+      "key": "leopard",
+      "text": "leopard",
+      "role": "word",
+      "style": "word",
+      "phonemes": "lˈɛpəɹd",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/leopard.mp3",
+      "sha256": "8f2a5b39f30f4a24d70d4f1ed10e1fb586b217956c5ed918bbc09d22301cae0a"
+    },
+    {
+      "key": "the leopard climbs a tree",
+      "text": "The leopard climbs a tree.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə lˈɛpəɹd klˈImz ɐ tɹˈi.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-leopard-climbs-a-tree.mp3",
+      "sha256": "883e592288a2ffcbeea7f58230a81c420a115231f31b462ffb53558ae787a30a"
+    },
+    {
+      "key": "cheetah",
+      "text": "cheetah",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ʧˈiTə",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/cheetah.mp3",
+      "sha256": "3acb9b725e62ec9ca7497de803d320efc016474ab90e98107b40820bd0e5f280"
+    },
+    {
+      "key": "the cheetah can run very fast",
+      "text": "The cheetah can run very fast.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə ʧˈiTə kæn ɹˈʌn vˈɛɹi fˈæst.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-cheetah-can-run-very-fast.mp3",
+      "sha256": "8fb4f67c3318f87c80053f3bea79fdc18a1d77a26594b36d2cdbee875ff4defa"
+    },
+    {
+      "key": "elephant",
+      "text": "elephant",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ˈɛləfənt",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/elephant.mp3",
+      "sha256": "8327166cd9a69168c826dc2d0d904f3a16e715ab67418b1dcb8d99172ff7fe91"
+    },
+    {
+      "key": "the elephant uses its trunk to drink",
+      "text": "The elephant uses its trunk to drink.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ði ˈɛləfənt jˈuzᵻz ɪts tɹˈʌŋk tə dɹˈɪŋk.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-elephant-uses-its-trunk-to-drink.mp3",
+      "sha256": "2377d349333f85b751558910ebe226ac7a1da91dee331738a9e7e8f395e18b64"
+    },
+    {
+      "key": "giraffe",
+      "text": "giraffe",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ʤəɹˈæf",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/giraffe.mp3",
+      "sha256": "96dea64801264ec113a7b0a4b771fdb2182da7e4c086ecd4dbf818177c3e0390"
+    },
+    {
+      "key": "the giraffe has a long neck",
+      "text": "The giraffe has a long neck.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə ʤəɹˈæf hæz ɐ lˈɔŋ nˈɛk.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-giraffe-has-a-long-neck.mp3",
+      "sha256": "1bf3d752f645b26efe4f44d26e282195438ff67da325cef3da52a747a82d2bc8"
+    },
+    {
+      "key": "zebra",
+      "text": "zebra",
+      "role": "word",
+      "style": "word",
+      "phonemes": "zˈibɹə",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/zebra.mp3",
+      "sha256": "113b97c0c9f19071c002a8a10c584144f54a017ce44d9f59519863fb72af4ef7"
+    },
+    {
+      "key": "each zebra has a different stripe pattern",
+      "text": "Each zebra has a different stripe pattern.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ˈiʧ zˈibɹə hæz ɐ dˈɪfəɹənt stɹˈIp pˈæTəɹn.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/each-zebra-has-a-different-stripe-pattern.mp3",
+      "sha256": "98f8279ed039ffc3e0c716769cb2d8ea923c7efd6bfa132a45cf3d345086b327"
+    },
+    {
+      "key": "rhinoceros",
+      "text": "rhinoceros",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ɹInˈɑsəɹəs",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/rhinoceros.mp3",
+      "sha256": "4230d4ba35f42d59272c5f5bec3863bad88b6dbaad4dca4e8d2bc07ff5cb911b"
+    },
+    {
+      "key": "the rhinoceros has thick skin",
+      "text": "The rhinoceros has thick skin.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə ɹInˈɑsəɹəs hæz θˈɪk skˈɪn.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-rhinoceros-has-thick-skin.mp3",
+      "sha256": "6f1237d095e4c096e0bb954c9a0eabc068cb83df992657037755e0d1d1876fb1"
+    },
+    {
+      "key": "hippopotamus",
+      "text": "hippopotamus",
+      "role": "word",
+      "style": "word",
+      "phonemes": "hˌɪpəpˈɑTəməs",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/hippopotamus.mp3",
+      "sha256": "b06420b9ed887cf722ffa555fa715424dc3137f2b1469ee246ade9b683bc6413"
+    },
+    {
+      "key": "the hippopotamus stays in the water",
+      "text": "The hippopotamus stays in the water.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə hˌɪpəpˈɑTəməs stˈAz ɪn ðə wˈɔTəɹ.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-hippopotamus-stays-in-the-water.mp3",
+      "sha256": "24243a91fca6ad1b76f164f70bf8abdfb54b98d87222f3d450ba2816e38e123f"
+    },
+    {
+      "key": "monkey",
+      "text": "monkey",
+      "role": "word",
+      "style": "word",
+      "phonemes": "mˈʌŋki",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/monkey.mp3",
+      "sha256": "0593e3ae4956951105a839ff853149729f83ccb2e7623dce2b5ea1f01d6d7035"
+    },
+    {
+      "key": "the monkey swings from a branch",
+      "text": "The monkey swings from a branch.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə mˈʌŋki swˈɪŋz fɹʌm ɐ bɹˈænʧ.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-monkey-swings-from-a-branch.mp3",
+      "sha256": "32a1c3e9c6f256a0a6bd8cea4182b738b8351eea78bc76e03fa1d93e81e67644"
+    },
+    {
+      "key": "gorilla",
+      "text": "gorilla",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ɡəɹˈɪlə",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/gorilla.mp3",
+      "sha256": "646deb619a36397bc1f9834cfb041db37216dcf98d10ff85435c7127e23631b5"
+    },
+    {
+      "key": "the gorilla lives in a group",
+      "text": "The gorilla lives in a group.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə ɡəɹˈɪlə lˈɪvz ɪn ɐ ɡɹˈup.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-gorilla-lives-in-a-group.mp3",
+      "sha256": "6c4263fb33b1a81a41ed43945ef6aae6c8995d276fd7e82070fad9c83af4be8c"
+    },
+    {
+      "key": "chimpanzee",
+      "text": "chimpanzee",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ʧˌɪmpˈænzi",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/chimpanzee.mp3",
+      "sha256": "dbeefd9579c0ce95e4484a24305c7ad530b053a640301a486d9e1c9a9135f9b2"
+    },
+    {
+      "key": "the chimpanzee uses its hands to climb",
+      "text": "The chimpanzee uses its hands to climb.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə ʧˌɪmpˈænzi jˈuzᵻz ɪts hˈændz tə klˈIm.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-chimpanzee-uses-its-hands-to-climb.mp3",
+      "sha256": "76e9d82d3321d9016881212aaa246a2e5ae0f094085c544b9919399aa782f4f6"
+    },
+    {
+      "key": "orangutan",
+      "text": "orangutan",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ɔɹˈæŋətˌæn",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/orangutan.mp3",
+      "sha256": "33bd5727debd6faebd838a283a0988533dbff1be13e834b59574b4aa14090289"
+    },
+    {
+      "key": "the orangutan lives in forest trees",
+      "text": "The orangutan lives in forest trees.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ði ɔɹˈæŋətˌæn lˈɪvz ɪn fˈɔɹəst tɹˈiz.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-orangutan-lives-in-forest-trees.mp3",
+      "sha256": "133839dbd140f3bfa5b17710d1e2b4549b1f984d4d0828c362dfe88e4ba6e5a2"
+    },
+    {
+      "key": "bear",
+      "text": "bear",
+      "role": "word",
+      "style": "word",
+      "phonemes": "bˈɛɹ",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/bear.mp3",
+      "sha256": "5939a07b6a650eda3480ff2ef41074c18545f091006bf7b8344bb456da5c5f2e"
+    },
+    {
+      "key": "the bear looks for food",
+      "text": "The bear looks for food.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə bˈɛɹ lˈʊks fɔɹ fˈud.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-bear-looks-for-food.mp3",
+      "sha256": "9e0b55bbd16701c4cb98f8a787b21a023b04c1511a0726a649daa987d93cf730"
+    },
+    {
+      "key": "polar bear",
+      "text": "polar bear",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "pˈOləɹ bˈɛɹ",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/word/polar-bear.mp3",
+      "sha256": "15903082f34f8323a446d48189a4ef30406e1c673ccb6473400f5ca559c80c26"
+    },
+    {
+      "key": "the polar bear lives in the arctic",
+      "text": "The polar bear lives in the Arctic.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə pˈOləɹ bˈɛɹ lˈɪvz ɪn ði ˈɑɹktɪk.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-polar-bear-lives-in-the-arctic.mp3",
+      "sha256": "630389b967320eea1608acea765faec545a788e2509eb1340befc91533328525"
+    },
+    {
+      "key": "panda",
+      "text": "panda",
+      "role": "word",
+      "style": "word",
+      "phonemes": "pˈændə",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/panda.mp3",
+      "sha256": "c1acabb536c5f8f883e5a5cfee9d83f49709f7b3b1212c69f3b141538ec39f4b"
+    },
+    {
+      "key": "the panda eats bamboo",
+      "text": "The panda eats bamboo.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə pˈændə ˈits bˌæmbˈu.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-panda-eats-bamboo.mp3",
+      "sha256": "a0f65970074db79ca25b2983a957f1e7863cb6ee1fd8b75b6fa22a79631ad224"
+    },
+    {
+      "key": "wolf",
+      "text": "wolf",
+      "role": "word",
+      "style": "word",
+      "phonemes": "wˈʊlf",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/wolf.mp3",
+      "sha256": "40b8fa5c1d38fb85aadd8b4d4f42ad7feece0db2a8e57b216cbae7a8e54f71dc"
+    },
+    {
+      "key": "the wolf howls at night",
+      "text": "The wolf howls at night.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə wˈʊlf hˈWlz æt nˈIt.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-wolf-howls-at-night.mp3",
+      "sha256": "5a31d091a30d40c75754c07c681ef0f4651b56541b6b856b203ef485f44e8d23"
+    },
+    {
+      "key": "fox",
+      "text": "fox",
+      "role": "word",
+      "style": "word",
+      "phonemes": "fˈɑks",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/fox.mp3",
+      "sha256": "7c0f50b633967cf5ad0c82b0576e3f47450914f2f652465e0867170df932d89c"
+    },
+    {
+      "key": "the fox has a bushy tail",
+      "text": "The fox has a bushy tail.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə fˈɑks hæz ɐ bˈʊʃi tˈAl.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-fox-has-a-bushy-tail.mp3",
+      "sha256": "8d319cc1471f93354fafc9a079dd498a843904c1a619f4d327a74b9608106409"
+    },
+    {
+      "key": "deer",
+      "text": "deer",
+      "role": "word",
+      "style": "word",
+      "phonemes": "dˈɪɹ",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/deer.mp3",
+      "sha256": "94c78c824b3f28d6487451be24ffef1fed7b5ecf2a17d28cbdf51961dcecc602"
+    },
+    {
+      "key": "a deer walks through the forest",
+      "text": "A deer walks through the forest.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ɐ dˈɪɹ wˈɔks θɹu ðə fˈɔɹəst.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/a-deer-walks-through-the-forest.mp3",
+      "sha256": "aab4fd91a7178f13b388accbba897244540342a3a278c5b9e734f01c918ea6ce"
+    },
+    {
+      "key": "moose",
+      "text": "moose",
+      "role": "word",
+      "style": "word",
+      "phonemes": "mˈus",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/moose.mp3",
+      "sha256": "18c3ba644e7c3207d0b27dc56adecd8153880aa72d8f701c2bdb5eeb29a2a610"
+    },
+    {
+      "key": "the moose has large antlers",
+      "text": "The moose has large antlers.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə mˈus hæz lˈɑɹʤ ˈæntləɹz.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-moose-has-large-antlers.mp3",
+      "sha256": "2b31440fada5097fdf2f1ba49e02df688f0cd272b1c4a51be99858c7bdd467af"
+    },
+    {
+      "key": "squirrel",
+      "text": "squirrel",
+      "role": "word",
+      "style": "word",
+      "phonemes": "skwˈɜɹᵊl",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/squirrel.mp3",
+      "sha256": "30bbf13ecbcbe50b309db42c95e14a9875b44a238b0025ac95cb040044408755"
+    },
+    {
+      "key": "the squirrel hides a nut",
+      "text": "The squirrel hides a nut.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə skwˈɜɹᵊl hˈIdz ɐ nˈʌt.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-squirrel-hides-a-nut.mp3",
+      "sha256": "1dd4dcf5d26ec2b1e6cba05af60090f5ac1b3fe9a7ad0b6068f9a4f5f75672c4"
+    },
+    {
+      "key": "hedgehog",
+      "text": "hedgehog",
+      "role": "word",
+      "style": "word",
+      "phonemes": "hˈɛʤhˌɔɡ",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/hedgehog.mp3",
+      "sha256": "96c3fcc0efe64850cb38d83afcde25ffd59357c0850c4d086dc8cd4ece0e37a1"
+    },
+    {
+      "key": "the hedgehog curls into a ball",
+      "text": "The hedgehog curls into a ball.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə hˈɛʤhˌɔɡ kˈɜɹlz ˈɪntu ɐ bˈɔl.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-hedgehog-curls-into-a-ball.mp3",
+      "sha256": "12a8c234cd4012469625c1cf098db7927e5d48403399bfab9a477807e3652abc"
+    },
+    {
+      "key": "badger",
+      "text": "badger",
+      "role": "word",
+      "style": "word",
+      "phonemes": "bˈæʤəɹ",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/badger.mp3",
+      "sha256": "d2d41f574dcdfa3f7475fba21208ed8cd6fc0ba0985a4ad5b87179a05c9c2886"
+    },
+    {
+      "key": "the badger lives in a burrow",
+      "text": "The badger lives in a burrow.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə bˈæʤəɹ lˈɪvz ɪn ɐ bˈɜɹO.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-badger-lives-in-a-burrow.mp3",
+      "sha256": "f1440e1214f9373bacd2e0cfd18be8920363133ebf4fcc7d917b75667ff46586"
+    },
+    {
+      "key": "bat",
+      "text": "bat",
+      "role": "word",
+      "style": "word",
+      "phonemes": "bˈæt",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/bat.mp3",
+      "sha256": "179e06f7c1b06f6d54cddc59841c31be7b2ba0bb767edf81307d7009f87e27f3"
+    },
+    {
+      "key": "a bat flies at dusk",
+      "text": "A bat flies at dusk.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ɐ bˈæt flˈIz æt dˈʌsk.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/a-bat-flies-at-dusk.mp3",
+      "sha256": "16aa0e260f7b4a25f398fad400e8079f1cb6f5ef887cb7d6c95c96a05940416b"
+    },
+    {
+      "key": "kangaroo",
+      "text": "kangaroo",
+      "role": "word",
+      "style": "word",
+      "phonemes": "kˌæŋɡəɹˈu",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/kangaroo.mp3",
+      "sha256": "7080d0e357066bfc25950703dd207dbc3736dc91961de123653d1c1aab70c388"
+    },
+    {
+      "key": "the kangaroo carries its baby in a pouch",
+      "text": "The kangaroo carries its baby in a pouch.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə kˌæŋɡəɹˈu kˈɛɹiz ɪts bˈAbi ɪn ɐ pˈWʧ.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-kangaroo-carries-its-baby-in-a-pouch.mp3",
+      "sha256": "20a50d6df1b784884c8e330ba92cb756ed6abaa011869ad873cf4f7fcc0a9354"
+    },
+    {
+      "key": "koala",
+      "text": "koala",
+      "role": "word",
+      "style": "word",
+      "phonemes": "kOˈɑlə",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/koala.mp3",
+      "sha256": "9921aafb89a75b73423584ca2f630936ba28a7e3797fb5044117f0490c29096b"
+    },
+    {
+      "key": "the koala rests in a eucalyptus tree",
+      "text": "The koala rests in a eucalyptus tree.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə kOˈɑlə ɹˈɛsts ɪn ɐ jˌukəlˈɪptəs tɹˈi.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-koala-rests-in-a-eucalyptus-tree.mp3",
+      "sha256": "9017067b01b92afcf963af1e2e29c728020ba219ac41de364adae0030a8d8b59"
+    },
+    {
+      "key": "camel",
+      "text": "camel",
+      "role": "word",
+      "style": "word",
+      "phonemes": "kˈæmᵊl",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/camel.mp3",
+      "sha256": "a4cac61d9fa86eb19a35304d6ea471f5f35f233b527d431aa815e573563b31f8"
+    },
+    {
+      "key": "the camel walks across the desert",
+      "text": "The camel walks across the desert.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə kˈæmᵊl wˈɔks əkɹˈɔs ðə dˈɛzəɹt.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-camel-walks-across-the-desert.mp3",
+      "sha256": "92cab54ab55f29a2b8f8d3240d3370e778ce00087186d75b5a0c6ded1868e43d"
+    },
+    {
+      "key": "crocodile",
+      "text": "crocodile",
+      "role": "word",
+      "style": "word",
+      "phonemes": "kɹˈɑkədˌIl",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/crocodile.mp3",
+      "sha256": "f3c4eea5d2976a5458afe2c214edd9ae5db87ce49d388b9c749bcf145a59eed0"
+    },
+    {
+      "key": "the crocodile rests beside the river",
+      "text": "The crocodile rests beside the river.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə kɹˈɑkədˌIl ɹˈɛsts bəsˈId ðə ɹˈɪvəɹ.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-crocodile-rests-beside-the-river.mp3",
+      "sha256": "14a67148b273f4a8f9e4774d67cf2b2f74f3dd228469f24f3bcfdb48c694bc25"
+    },
+    {
+      "key": "alligator",
+      "text": "alligator",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ˈæləɡˌATəɹ",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/alligator.mp3",
+      "sha256": "44b0c729686c35ffe79210fdf93affe2e45dad9fa923385aa9560e60cd11200c"
+    },
+    {
+      "key": "the alligator swims slowly",
+      "text": "The alligator swims slowly.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ði ˈæləɡˌATəɹ swˈɪmz slˈOli.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-alligator-swims-slowly.mp3",
+      "sha256": "203400a3b34cde74273901ac210c17fdb3249e70123152939576eb9b6ec6c052"
+    },
+    {
+      "key": "chameleon",
+      "text": "chameleon",
+      "role": "word",
+      "style": "word",
+      "phonemes": "kəmˈiljən",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/chameleon.mp3",
+      "sha256": "24808e46425772e016cdd4ea7f14eb262f0a85b2b9927c4553f4064ea9e23f76"
+    },
+    {
+      "key": "the chameleon sits on a branch",
+      "text": "The chameleon sits on a branch.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə kəmˈiljən sˈɪts ˌɔn ɐ bɹˈænʧ.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-chameleon-sits-on-a-branch.mp3",
+      "sha256": "254390107757da412ad697a987e7ed20d967cbb98fbedbacc57daf340da18e1d"
+    },
+    {
+      "key": "eagle",
+      "text": "eagle",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ˈiɡəl",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/eagle.mp3",
+      "sha256": "0416bdf0c59e9bf1a135feee95d5680e216cca65d2ade673def9838aaaec2457"
+    },
+    {
+      "key": "the eagle circles high in the sky",
+      "text": "The eagle circles high in the sky.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ði ˈiɡəl sˈɜɹkᵊlz hˈI ɪn ðə skˈI.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-eagle-circles-high-in-the-sky.mp3",
+      "sha256": "23c811d056163dd9170854e96530a11dd1ece0e7ad218b0241eb670e9256693e"
+    },
+    {
+      "key": "owl",
+      "text": "owl",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ˈWl",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/owl.mp3",
+      "sha256": "b1fe0504b27268859e202e8ba8d3366f0b89867861ff77468a7149257e60df65"
+    },
+    {
+      "key": "the owl can see well at night",
+      "text": "The owl can see well at night.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ði ˈWl kæn sˈi wˈɛl æt nˈIt.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-owl-can-see-well-at-night.mp3",
+      "sha256": "b6e3a82fdc6c311803c484f2b837609ac6a2164ab69e302f654402fdc91e743d"
+    },
+    {
+      "key": "woodpecker",
+      "text": "woodpecker",
+      "role": "word",
+      "style": "word",
+      "phonemes": "wˈʊdpˌɛkəɹ",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/woodpecker.mp3",
+      "sha256": "93c34d04109cc7d5573fe21633cdf8c2428a1aa216f62571017b5bce790dcd65"
+    },
+    {
+      "key": "the woodpecker taps on a tree",
+      "text": "The woodpecker taps on a tree.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə wˈʊdpˌɛkəɹ tˈæps ˌɔn ɐ tɹˈi.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-woodpecker-taps-on-a-tree.mp3",
+      "sha256": "4fb166ed2167c03b244098967b10d52cfa8649ddbcb11f1e5f23110d46f535b6"
+    },
+    {
+      "key": "peacock",
+      "text": "peacock",
+      "role": "word",
+      "style": "word",
+      "phonemes": "pˈikˌɑk",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/peacock.mp3",
+      "sha256": "7153cb8755eb6cb5f554e56761b04c73c0043763a51855b00d54db63a048981d"
+    },
+    {
+      "key": "the peacock spreads its colourful tail",
+      "text": "The peacock spreads its colourful tail.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə pˈikˌɑk spɹˈɛdz ɪts kˈʌləɹfᵊl tˈAl.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-peacock-spreads-its-colourful-tail.mp3",
+      "sha256": "93911fc131ccde4549ef3758ec7994d7cab19b2c6224a387b6b8669de44913f8"
+    },
+    {
+      "key": "ostrich",
+      "text": "ostrich",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ˈɑstɹɪʧ",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/ostrich.mp3",
+      "sha256": "a3b9a0fb091265d32bae5f1d43af5b6371c0e023a3cc2c9f72b0264125832c74"
+    },
+    {
+      "key": "the ostrich is a large bird",
+      "text": "The ostrich is a large bird.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ði ˈɑstɹɪʧ ɪz ɐ lˈɑɹʤ bˈɜɹd.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-ostrich-is-a-large-bird.mp3",
+      "sha256": "04528ce23081d94c20621c4217f52a289c73d94bbaa433c4026e7401a467919d"
+    },
+    {
+      "key": "penguin",
+      "text": "penguin",
+      "role": "word",
+      "style": "word",
+      "phonemes": "pˈɛŋɡwᵊn",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/penguin.mp3",
+      "sha256": "585016495f63c662fa6bce0cdd51fc03ad208216c86a95a07afbd6b1127816b7"
+    },
+    {
+      "key": "the penguin waddles across the ice",
+      "text": "The penguin waddles across the ice.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə pˈɛŋɡwᵊn wˈɑdᵊlz əkɹˈɔs ði ˈIs.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-penguin-waddles-across-the-ice.mp3",
+      "sha256": "d7f72e99e32649e4a063a02b982bc518251fe431eb29eb7b8103a4324e1734ec"
+    },
+    {
+      "key": "hyena",
+      "text": "hyena",
+      "role": "word",
+      "style": "word",
+      "phonemes": "hIˈinə",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/hyena.mp3",
+      "sha256": "5961050586d4965b1a13f2d3d1c31f6688b3b32734aaa1d2ac5da1c8a458d5e4"
+    },
+    {
+      "key": "the hyena lives in parts of africa",
+      "text": "The hyena lives in parts of Africa.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə hIˈinə lˈɪvz ɪn pˈɑɹts ʌv ˈæfɹəkə.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-hyena-lives-in-parts-of-africa.mp3",
+      "sha256": "f19fa62c8cba08fe567c263257317427f1f99a53408c46922a57a1369d952794"
+    },
+    {
+      "key": "porcupine",
+      "text": "porcupine",
+      "role": "word",
+      "style": "word",
+      "phonemes": "pˈɔɹkjəpˌIn",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/porcupine.mp3",
+      "sha256": "771f2edca2195fe3bb0938f348f2105cccedd25716cde1d48cf6d85f26a7de43"
+    },
+    {
+      "key": "the porcupine has sharp spines",
+      "text": "The porcupine has sharp spines.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə pˈɔɹkjəpˌIn hæz ʃˈɑɹp spˈInz.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-porcupine-has-sharp-spines.mp3",
+      "sha256": "4a93a02230cfc631377f3928706e75cef169464b0b513740efb3b251b66c1e2e"
+    },
+    {
+      "key": "meerkat",
+      "text": "meerkat",
+      "role": "word",
+      "style": "word",
+      "phonemes": "mˈɪɹkˌæt",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/meerkat.mp3",
+      "sha256": "364cf6c24fd2ecb9c52525632f26f3f01ab2ac2a477e62fe9a74ba5927d54860"
+    },
+    {
+      "key": "the meerkat stands up to look around",
+      "text": "The meerkat stands up to look around.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə mˈɪɹkˌæt stˈændz ˌʌp tə lˈʊk əɹˈWnd.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-meerkat-stands-up-to-look-around.mp3",
+      "sha256": "51dc29464f00cbd7a4e09d00aa80a6a3fd8be3d5a09acd76e20119f6782c169c"
+    },
+    {
+      "key": "sea animal",
+      "text": "sea animal",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "sˈi ˈænəmᵊl",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/word/sea-animal.mp3",
+      "sha256": "cfed9da236def80106db1f8de02f532d6e353b22e31d5bff1d18dd13461fb20b"
+    },
+    {
+      "key": "a sea animal lives in or near the sea",
+      "text": "A sea animal lives in or near the sea.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ɐ sˈi ˈænəmᵊl lˈɪvz ɪn ɔɹ nˌɪɹ ðə sˈi.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/a-sea-animal-lives-in-or-near-the-sea.mp3",
+      "sha256": "c76894b86493d58880a934af72aaf4cdf096665cf2e43c5872d65c61b5bc2a06"
+    },
+    {
+      "key": "shark",
+      "text": "shark",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ʃˈɑɹk",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/shark.mp3",
+      "sha256": "8efb6677bca8db02c98ce41e7e2690198ab895f158f60b4e547e00e306a15346"
+    },
+    {
+      "key": "the shark swims through the water",
+      "text": "The shark swims through the water.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə ʃˈɑɹk swˈɪmz θɹu ðə wˈɔTəɹ.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-shark-swims-through-the-water.mp3",
+      "sha256": "e1d703a30079b5b57cad6f0a99b61d02cbc1147123fe5a695a3eca67134029a4"
+    },
+    {
+      "key": "whale",
+      "text": "whale",
+      "role": "word",
+      "style": "word",
+      "phonemes": "wˈAl",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/whale.mp3",
+      "sha256": "009bb6ba6ee90eaead4b2ef134675ab6385d061732240141f548526a3bc35dde"
+    },
+    {
+      "key": "a whale comes up to breathe",
+      "text": "A whale comes up to breathe.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ɐ wˈAl kˈʌmz ˌʌp tə bɹˈið.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/a-whale-comes-up-to-breathe.mp3",
+      "sha256": "3de530e23a8cdc73b87ab5689fd0b3cbf05df14153df3fb0b8e3d701203b1040"
+    },
+    {
+      "key": "dolphin",
+      "text": "dolphin",
+      "role": "word",
+      "style": "word",
+      "phonemes": "dˈɑlfən",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/dolphin.mp3",
+      "sha256": "5329653dbe23fc08f91d32fb5ac2791965566a1f99180c4d87c57d2c236f46e0"
+    },
+    {
+      "key": "the dolphin jumps out of the water",
+      "text": "The dolphin jumps out of the water.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə dˈɑlfən ʤˈʌmps ˈWt ʌv ðə wˈɔTəɹ.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-dolphin-jumps-out-of-the-water.mp3",
+      "sha256": "61e248c6db44a0653c7cc363b7ec145b1bd868b107317bf81c92a070cbb408a4"
+    },
+    {
+      "key": "porpoise",
+      "text": "porpoise",
+      "role": "word",
+      "style": "word",
+      "phonemes": "pˈɔɹpəs",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/porpoise.mp3",
+      "sha256": "f37b65a00a5eba687d4a9ce437f57dcf0f1c4facc758818c39512747459fc897"
+    },
+    {
+      "key": "a porpoise is a sea mammal",
+      "text": "A porpoise is a sea mammal.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ɐ pˈɔɹpəs ɪz ɐ sˈi mˈæməl.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/a-porpoise-is-a-sea-mammal.mp3",
+      "sha256": "f8f3c7cc0a73654d94450c11a42980360ad07085eada6afd19761b5baa00f42f"
+    },
+    {
+      "key": "orca",
+      "text": "orca",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ˈɔɹkə",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/orca.mp3",
+      "sha256": "525156d72a16b5fd3ac93a740949307a6744c135f1937bd7b828654292a5263f"
+    },
+    {
+      "key": "the orca is also called a killer whale",
+      "text": "The orca is also called a killer whale.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ði ˈɔɹkə ɪz ˈɔlsO kˈɔld ɐ kˈɪləɹ wˈAl.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-orca-is-also-called-a-killer-whale.mp3",
+      "sha256": "800845af5dafc9ef8a7e389b19ab6728e967b680bddb71c4301b2a481654e196"
+    },
+    {
+      "key": "seal",
+      "text": "seal",
+      "role": "word",
+      "style": "word",
+      "phonemes": "sˈiᵊl",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/seal.mp3",
+      "sha256": "8d8c1197d887c6f3a277dc2ca484d01605b54f5e6d4e154ac336abc6150fcb1e"
+    },
+    {
+      "key": "the seal rests on a rock",
+      "text": "The seal rests on a rock.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə sˈiᵊl ɹˈɛsts ˌɔn ɐ ɹˈɑk.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-seal-rests-on-a-rock.mp3",
+      "sha256": "fdbb0044273bf5da76d1ea3f8694c68520742e7051f2f36a31201680314fb577"
+    },
+    {
+      "key": "sea lion",
+      "text": "sea lion",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "sˈi lˈIən",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/word/sea-lion.mp3",
+      "sha256": "90e880d60d319cbd2be78d3ce2cd85cb66a0ab77a43d9cb14c9edfa3b22bc437"
+    },
+    {
+      "key": "the sea lion can move on land",
+      "text": "The sea lion can move on land.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə sˈi lˈIən kæn mˈuv ˌɔn lˈænd.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-sea-lion-can-move-on-land.mp3",
+      "sha256": "60f04b68cd0080b9806486852bb9514720eec73d83cc471804a9859a02a0b96d"
+    },
+    {
+      "key": "walrus",
+      "text": "walrus",
+      "role": "word",
+      "style": "word",
+      "phonemes": "wˈɔlɹəs",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/walrus.mp3",
+      "sha256": "09a7bb642332a739b6478f836e33ada12b6922e8c4e23628f596fc09718b46e8"
+    },
+    {
+      "key": "the walrus has long tusks",
+      "text": "The walrus has long tusks.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə wˈɔlɹəs hæz lˈɔŋ tˈʌsks.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-walrus-has-long-tusks.mp3",
+      "sha256": "4e766dac123959cba5b0b14ffe4f8fc35d3facafb04444e030ce649b76b61427"
+    },
+    {
+      "key": "sea turtle",
+      "text": "sea turtle",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "sˈi tˈɜɹTᵊl",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/word/sea-turtle.mp3",
+      "sha256": "2d4117a81dff6ab112341b2e65558d5a87d5870d36e77cffce03cff4865193ce"
+    },
+    {
+      "key": "the sea turtle swims near the reef",
+      "text": "The sea turtle swims near the reef.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə sˈi tˈɜɹTᵊl swˈɪmz nˌɪɹ ðə ɹˈif.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-sea-turtle-swims-near-the-reef.mp3",
+      "sha256": "b66fc7e96dd9e674993f059a1c1006bbffe51189beb45aee02edbfb86601e09f"
+    },
+    {
+      "key": "octopus",
+      "text": "octopus",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ˈɑktəpəs",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/octopus.mp3",
+      "sha256": "7b8ce77275a2230678d4f089417f10f44b8d81016f8f1d47dbe00a8efcf9461e"
+    },
+    {
+      "key": "the octopus has eight arms",
+      "text": "The octopus has eight arms.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ði ˈɑktəpəs hæz ˈAt ˈɑɹmz.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-octopus-has-eight-arms.mp3",
+      "sha256": "c2a51074c4400160495dcd8f6ffea1c984d5f26ecda0774c13b74622524b3e5e"
+    },
+    {
+      "key": "squid",
+      "text": "squid",
+      "role": "word",
+      "style": "word",
+      "phonemes": "skwˈɪd",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/squid.mp3",
+      "sha256": "add5c6497080264424eb47b7c1cffa49b52be9fcb530d102e15f76084223260b"
+    },
+    {
+      "key": "the squid moves quickly through the sea",
+      "text": "The squid moves quickly through the sea.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə skwˈɪd mˈuvz kwˈɪkli θɹu ðə sˈi.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-squid-moves-quickly-through-the-sea.mp3",
+      "sha256": "bf96ee790a2ee0e75d6123d31e3399b039dec1c9c0d0b5a672fa09425e07eb12"
+    },
+    {
+      "key": "jellyfish",
+      "text": "jellyfish",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ʤˈɛlifˌɪʃ",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/jellyfish.mp3",
+      "sha256": "a5b656f463685166e7e8e2f05bb6807710814716651b02cc545b6153cc8e51b1"
+    },
+    {
+      "key": "some jellyfish have long tentacles",
+      "text": "Some jellyfish have long tentacles.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "sˌʌm ʤˈɛlifˌɪʃ hæv lˈɔŋ tˈɛntəkᵊlz.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/some-jellyfish-have-long-tentacles.mp3",
+      "sha256": "8dbee7f3c77e51405217d238a150b2d4e77d0e00b70497a26f08781a68067606"
+    },
+    {
+      "key": "starfish",
+      "text": "starfish",
+      "role": "word",
+      "style": "word",
+      "phonemes": "stˈɑɹfˌɪʃ",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/starfish.mp3",
+      "sha256": "19f83ca4684126ba9ca44e553be2a86b24ea40d28a6aec7d1388608572f6bafd"
+    },
+    {
+      "key": "the starfish rests on the seabed",
+      "text": "The starfish rests on the seabed.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə stˈɑɹfˌɪʃ ɹˈɛsts ˌɔn ðə sˈibˌɛd.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-starfish-rests-on-the-seabed.mp3",
+      "sha256": "3efb34d40b96dea8fdb88d49f8aa6fae603ed006c2382ce0e03c419cc5bc7442"
+    },
+    {
+      "key": "seahorse",
+      "text": "seahorse",
+      "role": "word",
+      "style": "word",
+      "phonemes": "sˈihˌɔɹs",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/seahorse.mp3",
+      "sha256": "19a469205ab7c297b3671a1487dfb2646feb2e17bf1b2e9b40a790412fce6470"
+    },
+    {
+      "key": "the seahorse is a small sea animal",
+      "text": "The seahorse is a small sea animal.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə sˈihˌɔɹs ɪz ɐ smˈɔl sˈi ˈænəmᵊl.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-seahorse-is-a-small-sea-animal.mp3",
+      "sha256": "22e19aef8f47170d0e7bc553fcf76a29d5a06ce6fcff02f75d2c1833cdbea383"
+    },
+    {
+      "key": "crab",
+      "text": "crab",
+      "role": "word",
+      "style": "word",
+      "phonemes": "kɹˈæb",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/crab.mp3",
+      "sha256": "b0be7fffa6110cc16755468a8acd94fb3a3e890e4086acce512120af957458fa"
+    },
+    {
+      "key": "the crab walks sideways",
+      "text": "The crab walks sideways.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə kɹˈæb wˈɔks sˈIdwˌAz.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-crab-walks-sideways.mp3",
+      "sha256": "a70af6b69a3611665467b8739b6b6d0073ae805ca4370906e49de0af60c2ba9d"
+    },
+    {
+      "key": "lobster",
+      "text": "lobster",
+      "role": "word",
+      "style": "word",
+      "phonemes": "lˈɑbstəɹ",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/lobster.mp3",
+      "sha256": "fffc26d9b1b94881ed40d61e7b1413a63d32abfc4d3ea6ed30dcdfd944a001d8"
+    },
+    {
+      "key": "the lobster has a hard shell",
+      "text": "The lobster has a hard shell.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə lˈɑbstəɹ hæz ɐ hˈɑɹd ʃˈɛl.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-lobster-has-a-hard-shell.mp3",
+      "sha256": "4fc968422377660acae501fdffd3b1ad5431c046728236b078ca21bed58a6240"
+    },
+    {
+      "key": "a prawn has a curved body",
+      "text": "A prawn has a curved body.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ɐ pɹˈɔn hæz ɐ kˈɜɹvd bˈɑdi.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/a-prawn-has-a-curved-body.mp3",
+      "sha256": "d19642bba58413f67b4452bbaa85814bca7b8a11aeb49d5bb17c40050b29280b"
+    },
+    {
+      "key": "shrimp",
+      "text": "shrimp",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ʃɹˈɪmp",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/shrimp.mp3",
+      "sha256": "ffc7e04ce9eba730dc1d39a99e6f485db8306566f8c85baff15a895b99276fae"
+    },
+    {
+      "key": "the shrimp is very small",
+      "text": "The shrimp is very small.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə ʃɹˈɪmp ɪz vˈɛɹi smˈɔl.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-shrimp-is-very-small.mp3",
+      "sha256": "6e5ec6ec75517d8aa22f064855c5139a38f2c21a58a0693401f61e2f4befea84"
+    },
+    {
+      "key": "oyster",
+      "text": "oyster",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ˈYstəɹ",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/oyster.mp3",
+      "sha256": "f4e656256a8c764941f7a815a2f204f935a436e8c53495c1cc519174c672f71a"
+    },
+    {
+      "key": "an oyster lives inside a hard shell",
+      "text": "An oyster lives inside a hard shell.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ɐn ˈYstəɹ lˈɪvz ɪnsˈId ɐ hˈɑɹd ʃˈɛl.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/an-oyster-lives-inside-a-hard-shell.mp3",
+      "sha256": "e6d67919a52f1cec676bc3a10ba08471c4bc294e8bfdca2a056ce91c44efe1fb"
+    },
+    {
+      "key": "clam",
+      "text": "clam",
+      "role": "word",
+      "style": "word",
+      "phonemes": "klˈæm",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/clam.mp3",
+      "sha256": "e3e0dc21bf578b979306aaeb0fe2407665333ca73c84c022c09977d2658df73b"
+    },
+    {
+      "key": "the clam lives in sand",
+      "text": "The clam lives in sand.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə klˈæm lˈɪvz ɪn sˈænd.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-clam-lives-in-sand.mp3",
+      "sha256": "e690be1eb21d1c045df5ee08a1b09c0bf32771a6c67debe2c1e3fa4ae88c081e"
+    },
+    {
+      "key": "mussel",
+      "text": "mussel",
+      "role": "word",
+      "style": "word",
+      "phonemes": "mˈʌsᵊl",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/mussel.mp3",
+      "sha256": "7a75945a2a44c7295daa9cc21f6c9604bc26a54723254b5a556d22a03a9574bd"
+    },
+    {
+      "key": "a mussel has a dark shell",
+      "text": "A mussel has a dark shell.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ɐ mˈʌsᵊl hæz ɐ dˈɑɹk ʃˈɛl.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/a-mussel-has-a-dark-shell.mp3",
+      "sha256": "818684208391251270be15bd98a54564abdc2b08a57de9789e55ac4146a21ad9"
+    },
+    {
+      "key": "scallop",
+      "text": "scallop",
+      "role": "word",
+      "style": "word",
+      "phonemes": "skˈɑləp",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/scallop.mp3",
+      "sha256": "88fdef7a36bd8a8ce69bced583d3ef89fd2400d9db3ff1ff72b5e3d2461058ae"
+    },
+    {
+      "key": "the scallop has a fanshaped shell",
+      "text": "The scallop has a fan-shaped shell.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə skˈɑləp hæz ɐ fˌænʃˈApt ʃˈɛl.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-scallop-has-a-fanshaped-shell.mp3",
+      "sha256": "14113333cdbb7470d912c98ed26ae470d5165e7c22cf189a584f783d1cfd7b23"
+    },
+    {
+      "key": "sea urchin",
+      "text": "sea urchin",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "sˈi ˈɜɹʧən",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/word/sea-urchin.mp3",
+      "sha256": "63fd1538bb31c0ce1c683aebe66fe572cf1bb7df29c2e6b9b0f056eff4d701ee"
+    },
+    {
+      "key": "a sea urchin has sharp spines",
+      "text": "A sea urchin has sharp spines.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ɐ sˈi ˈɜɹʧən hæz ʃˈɑɹp spˈInz.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/a-sea-urchin-has-sharp-spines.mp3",
+      "sha256": "6997b6f9d59bb47c00a107e8dbef4655ec2dfd5ee98909c10364634b383c0d7f"
+    },
+    {
+      "key": "stingray",
+      "text": "stingray",
+      "role": "word",
+      "style": "word",
+      "phonemes": "stˈɪŋɹˌA",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/stingray.mp3",
+      "sha256": "c8ff2a9b95518c9bc099e10f71917d7f0335bea96de94482edbee508670f1770"
+    },
+    {
+      "key": "the stingray glides over the seabed",
+      "text": "The stingray glides over the seabed.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə stˈɪŋɹˌA ɡlˈIdz ˈOvəɹ ðə sˈibˌɛd.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-stingray-glides-over-the-seabed.mp3",
+      "sha256": "fef256b2c87dc2665a1defd6fa0f6ce089390d41b064ccff7cb7c4fb3202096b"
+    },
+    {
+      "key": "manta ray",
+      "text": "manta ray",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "mˈæntə ɹˈA",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/word/manta-ray.mp3",
+      "sha256": "44a5188081bad7284b105c333d8eca356f562ad15532050b7964df4d864b6fc4"
+    },
+    {
+      "key": "the manta ray has wide fins",
+      "text": "The manta ray has wide fins.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə mˈæntə ɹˈA hæz wˈId fˈɪnz.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-manta-ray-has-wide-fins.mp3",
+      "sha256": "9baeeeb96760d37b2efc1944fe0ef01034415f2e3e9c15406c9b400dc9337e06"
+    },
+    {
+      "key": "eel",
+      "text": "eel",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ˈil",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/eel.mp3",
+      "sha256": "10325ea24ee2d93b8d30ce27cb7cf595154c708c5e3b5c51a52a719ef620368f"
+    },
+    {
+      "key": "the eel has a long body",
+      "text": "The eel has a long body.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ði ˈil hæz ɐ lˈɔŋ bˈɑdi.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-eel-has-a-long-body.mp3",
+      "sha256": "fed4f2c3d486d0d70a088797440ab0743a3f0a2abad90106022873d6734f2ccf"
+    },
+    {
+      "key": "swordfish",
+      "text": "swordfish",
+      "role": "word",
+      "style": "word",
+      "phonemes": "sˈɔɹdfˌɪʃ",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/swordfish.mp3",
+      "sha256": "9e036072daa07fbf2de5da081f1d5df9cf11c69bde854319186af02cbc568ccf"
+    },
+    {
+      "key": "the swordfish has a long pointed bill",
+      "text": "The swordfish has a long pointed bill.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə sˈɔɹdfˌɪʃ hæz ɐ lˈɔŋ pˈYntᵻd bˈɪl.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-swordfish-has-a-long-pointed-bill.mp3",
+      "sha256": "74473030a8ad11624a9ad2b112cc04139bf6ea09f951ee4a2240c2314d4ea9a5"
+    },
+    {
+      "key": "tuna",
+      "text": "tuna",
+      "role": "word",
+      "style": "word",
+      "phonemes": "tˈunə",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/tuna.mp3",
+      "sha256": "58f6c0bd7e81c178c69c496641a91e93f23325d55b20eb871634fe121b9f42c6"
+    },
+    {
+      "key": "tuna is a large ocean fish",
+      "text": "Tuna is a large ocean fish.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "tˈunə ɪz ɐ lˈɑɹʤ ˈOʃən fˈɪʃ.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/tuna-is-a-large-ocean-fish.mp3",
+      "sha256": "9d5a92e7a37d2a3989485c4c3b865cfec17aac67bcb1cff21849aba1cc218272"
+    },
+    {
+      "key": "salmon",
+      "text": "salmon",
+      "role": "word",
+      "style": "word",
+      "phonemes": "sˈæmən",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/salmon.mp3",
+      "sha256": "ae4e5667312f70875a28a9b06a60e15da4ca1c2a413ada82c1be0284ac345bf8"
+    },
+    {
+      "key": "salmon can swim upstream",
+      "text": "Salmon can swim upstream.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "sˈæmən kæn swˈɪm ˌʌpstɹˈim.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/salmon-can-swim-upstream.mp3",
+      "sha256": "a9aecbd8ef4c983750b59f2e457d84ff999428d71e412d317b0532510953b78e"
+    },
+    {
+      "key": "sea anemone",
+      "text": "sea anemone",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "sˈi ənˈɛməni",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/word/sea-anemone.mp3",
+      "sha256": "e4e2b65a53834b57b0aa4b64fdb3f67e46598b551815c959f430373e2f0eab76"
+    },
+    {
+      "key": "a clownfish may live near a sea anemone",
+      "text": "A clownfish may live near a sea anemone.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ɐ klˈWnfɪʃ mˈA lˈɪv nˌɪɹ ɐ sˈi ənˈɛməni.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/a-clownfish-may-live-near-a-sea-anemone.mp3",
+      "sha256": "010e494f6f32d57b9d2b1468cce32fba6ff12748e0b4f69583b4f045640efb1d"
+    },
+    {
+      "key": "coral",
+      "text": "coral",
+      "role": "word",
+      "style": "word",
+      "phonemes": "kˈɔɹəl",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/coral.mp3",
+      "sha256": "afd75b3a7d5cb2e2e4cdd3b8091ebf3f931bbd9bb8a50e272a601a8f30413b99"
+    },
+    {
+      "key": "coral reefs provide homes for sea life",
+      "text": "Coral reefs provide homes for sea life.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "kˈɔɹəl ɹˈifs pɹəvˈId hˈOmz fɔɹ sˈi lˈIf.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/coral-reefs-provide-homes-for-sea-life.mp3",
+      "sha256": "2933e3c2f2bf4f212f3ba8e072f140e7792af5da161b102833fe8ef68ff619e7"
+    },
+    {
+      "key": "reef",
+      "text": "reef",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ɹˈif",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/reef.mp3",
+      "sha256": "231e4781de328d88afd6bc121367e955f06f801b07e062bb355db2394c928463"
+    },
+    {
+      "key": "many colourful fish live near the reef",
+      "text": "Many colourful fish live near the reef.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "mˈɛni kˈʌləɹfᵊl fˈɪʃ lˈɪv nˌɪɹ ðə ɹˈif.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/many-colourful-fish-live-near-the-reef.mp3",
+      "sha256": "392bba62df381363f33113b39f1c726681e9b18919aafb38003dde90d8c9d825"
+    },
+    {
+      "key": "fin",
+      "text": "fin",
+      "role": "word",
+      "style": "word",
+      "phonemes": "fˈɪn",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/fin.mp3",
+      "sha256": "6855e304423e30793aa93b4e79ed00a34450efe08157e71038cadce0064df3f3"
+    },
+    {
+      "key": "a fish uses its fin to steer",
+      "text": "A fish uses its fin to steer.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ɐ fˈɪʃ jˈuzᵻz ɪts fˈɪn tə stˈɪɹ.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/a-fish-uses-its-fin-to-steer.mp3",
+      "sha256": "ce1405407946b3ffd085fd246cfdbf21d235f6b3372ce0d3d91888131d81ca2d"
+    },
+    {
+      "key": "tentacle",
+      "text": "tentacle",
+      "role": "word",
+      "style": "word",
+      "phonemes": "tˈɛntəkᵊl",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/tentacle.mp3",
+      "sha256": "eef1e4b86feab266cb45a5a994799a20602e0f3bce420ffc7a7aabe98c345eaf"
+    },
+    {
+      "key": "the octopus moves a tentacle",
+      "text": "The octopus moves a tentacle.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ði ˈɑktəpəs mˈuvz ɐ tˈɛntəkᵊl.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-octopus-moves-a-tentacle.mp3",
+      "sha256": "b41d0d3ba0a2839a48efb03d7e73b5891d50008bec4f3d469b32d4fdc8c68de9"
+    },
+    {
+      "key": "this plant needs sunlight",
+      "text": "This plant needs sunlight.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðˌɪs plˈænt nˈidz sˈʌnlˌIt.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/this-plant-needs-sunlight.mp3",
+      "sha256": "0f8f840fe69cebfcf7adc93409accf8a4a8ca90ce9e3d289d17e9eabfa67e09f"
+    },
+    {
+      "key": "tree",
+      "text": "tree",
+      "role": "word",
+      "style": "word",
+      "phonemes": "tɹˈi",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/tree.mp3",
+      "sha256": "caa472fec9d12e16a5881839855bc1d8b618b1f156a442b78b519f2221396593"
+    },
+    {
+      "key": "flower",
+      "text": "flower",
+      "role": "word",
+      "style": "word",
+      "phonemes": "flˈWəɹ",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/flower.mp3",
+      "sha256": "a87e8fe3a568aae6040950200112f53e9734e959e8f84184f606bb670215ac7d"
+    },
+    {
+      "key": "the flower smells sweet",
+      "text": "The flower smells sweet.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə flˈWəɹ smˈɛlz swˈit.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-flower-smells-sweet.mp3",
+      "sha256": "00a5b7697a7ecf4c5d07eaf9cfdb7df274ae4208092399f361b263461946aadb"
+    },
+    {
+      "key": "grass",
+      "text": "grass",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ɡɹˈæs",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/grass.mp3",
+      "sha256": "de61383b9af17f40679662fd19234926ddb5400f5316aedbb4e5cb5a6473172c"
+    },
+    {
+      "key": "the grass is wet after the rain",
+      "text": "The grass is wet after the rain.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə ɡɹˈæs ɪz wˈɛt ˈæftəɹ ðə ɹˈAn.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-grass-is-wet-after-the-rain.mp3",
+      "sha256": "a9ba7b73d5f6abf11c03c238e71bd17c30da93cf363ce1983486f2e6486f0f29"
+    },
+    {
+      "key": "leaf",
+      "text": "leaf",
+      "role": "word",
+      "style": "word",
+      "phonemes": "lˈif",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/leaf.mp3",
+      "sha256": "79da6a89392e45549dc7566921bb635c74c0ad9d4e6d79769cc8ccffda4e5e5f"
+    },
+    {
+      "key": "a green leaf fell from the tree",
+      "text": "A green leaf fell from the tree.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ɐ ɡɹˈin lˈif fˈɛl fɹʌm ðə tɹˈi.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/a-green-leaf-fell-from-the-tree.mp3",
+      "sha256": "671328ab67ae0c850771191915050a5f3519ac3752917eb531e1af07daf8804e"
+    },
+    {
+      "key": "leaves",
+      "text": "leaves",
+      "role": "word",
+      "style": "word",
+      "phonemes": "lˈivz",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/leaves.mp3",
+      "sha256": "c9e6b300a355cd5a9547fc8116b168e743a1072954e9f14697f33caa399fdd57"
+    },
+    {
+      "key": "the leaves turn yellow in autumn",
+      "text": "The leaves turn yellow in autumn.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə lˈivz tˈɜɹn jˈɛlO ɪn ˈɔTəm.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-leaves-turn-yellow-in-autumn.mp3",
+      "sha256": "07c78cb841f781dd85b8af66c86210284f25c611c4ab2d64e0f623a78e1b4f59"
+    },
+    {
+      "key": "root",
+      "text": "root",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ɹˈut",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/root.mp3",
+      "sha256": "c4912a330b6ced66a6fc9e79b057de2ef532b7c5432ba18ff4e822edcfb66b65"
+    },
+    {
+      "key": "the root takes water from the soil",
+      "text": "The root takes water from the soil.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə ɹˈut tˈAks wˈɔTəɹ fɹʌm ðə sˈYl.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-root-takes-water-from-the-soil.mp3",
+      "sha256": "bafd8d08953922524ca00461ed2efe56675c8f5260f74127df7a93f212dfbf8d"
+    },
+    {
+      "key": "stem",
+      "text": "stem",
+      "role": "word",
+      "style": "word",
+      "phonemes": "stˈɛm",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/stem.mp3",
+      "sha256": "713a5d151b8b1b3dd21f2bba434a00320b49dbec261fa85387b61790a2bdce6a"
+    },
+    {
+      "key": "the stem holds the flower upright",
+      "text": "The stem holds the flower upright.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə stˈɛm hˈOldz ðə flˈWəɹ ˈʌpɹˌIt.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-stem-holds-the-flower-upright.mp3",
+      "sha256": "57d2d079067b27719458b33d9b0b62ae2296c8f454d5816b69b2655a012c0c5d"
+    },
+    {
+      "key": "branch",
+      "text": "branch",
+      "role": "word",
+      "style": "word",
+      "phonemes": "bɹˈænʧ",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/branch.mp3",
+      "sha256": "697dc8f67a407a72e340e1c30635b7d8abbf0f971b4a6f21a45980b8dd287661"
+    },
+    {
+      "key": "a bird sits on the branch",
+      "text": "A bird sits on the branch.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ɐ bˈɜɹd sˈɪts ˌɔn ðə bɹˈænʧ.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/a-bird-sits-on-the-branch.mp3",
+      "sha256": "9292cee6674271e6baf27a10bf0b92b2cbc62a21e16ba7ef685a04deff94a345"
+    },
+    {
+      "key": "trunk",
+      "text": "trunk",
+      "role": "word",
+      "style": "word",
+      "phonemes": "tɹˈʌŋk",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/trunk.mp3",
+      "sha256": "4f3813ce0acb039b8da35053b1ad67425ea00e6d80619ef5ae430559e49cd847"
+    },
+    {
+      "key": "the tree trunk is thick",
+      "text": "The tree trunk is thick.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə tɹˈi tɹˈʌŋk ɪz θˈɪk.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-tree-trunk-is-thick.mp3",
+      "sha256": "f12cd691998eeefa93f99ddacaa49fafb8766690f14c986dca6dc3548156a0e5"
+    },
+    {
+      "key": "we plant a seed in the soil",
+      "text": "We plant a seed in the soil.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "wˌi plˈænt ɐ sˈid ɪn ðə sˈYl.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/we-plant-a-seed-in-the-soil.mp3",
+      "sha256": "9255161e14a7fb948a6533f17f5f151b872481cc4bccae2d015b877aabe59937"
+    },
+    {
+      "key": "seedling",
+      "text": "seedling",
+      "role": "word",
+      "style": "word",
+      "phonemes": "sˈidlɪŋ",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/seedling.mp3",
+      "sha256": "fe104ce89fc913f4627903d86dbc9478000c4fb7d5a5283c6bbaa82f8a5c0a8c"
+    },
+    {
+      "key": "the seedling is growing",
+      "text": "The seedling is growing.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə sˈidlɪŋ ɪz ɡɹˈOɪŋ.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-seedling-is-growing.mp3",
+      "sha256": "8255562cfb8025837f5361fe48e5f95d6f0d8f9f119dc46e32ec6baba2086f8a"
+    },
+    {
+      "key": "bud",
+      "text": "bud",
+      "role": "word",
+      "style": "word",
+      "phonemes": "bˈʌd",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/bud.mp3",
+      "sha256": "aeeb9c2aaab3672d871a842bfe7044898c66ec7bd820471381d1dc12a717bd30"
+    },
+    {
+      "key": "a small bud appears on the stem",
+      "text": "A small bud appears on the stem.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ɐ smˈɔl bˈʌd əpˈɪɹz ˌɔn ðə stˈɛm.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/a-small-bud-appears-on-the-stem.mp3",
+      "sha256": "c8564dda8dd09be16489705d47b444dde093d09cdbc7f7152832dd604b88c9f1"
+    },
+    {
+      "key": "petal",
+      "text": "petal",
+      "role": "word",
+      "style": "word",
+      "phonemes": "pˈɛTᵊl",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/petal.mp3",
+      "sha256": "8db263c6db003340892158cefe4165c4c80421a79346fcaad556a80e9676404f"
+    },
+    {
+      "key": "the flower has five petals",
+      "text": "The flower has five petals.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə flˈWəɹ hæz fˈIv pˈɛTᵊlz.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-flower-has-five-petals.mp3",
+      "sha256": "989c3b1224dd059adb5c5407dbce38ef0cdb92d02f01994c38b6146acc40a17e"
+    },
+    {
+      "key": "thorn",
+      "text": "thorn",
+      "role": "word",
+      "style": "word",
+      "phonemes": "θˈɔɹn",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/thorn.mp3",
+      "sha256": "9b3a1e441a933a8dd1924600523c71ce14ae79363afe5bcd90bf478a9b05fdcf"
+    },
+    {
+      "key": "be careful of the rose thorn",
+      "text": "Be careful of the rose thorn.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "bˌi kˈɛɹfᵊl ʌv ðə ɹˈOz θˈɔɹn.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/be-careful-of-the-rose-thorn.mp3",
+      "sha256": "a26d4244d2e71b905ae1dd94e88549665f6816d9be43755d17d18653304bf159"
+    },
+    {
+      "key": "rose",
+      "text": "rose",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ɹˈOz",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/rose.mp3",
+      "sha256": "ed5e709151eaf8c9617e711453fecc8ad5f06148502727482e956ea56aa15bfb"
+    },
+    {
+      "key": "the red rose is beautiful",
+      "text": "The red rose is beautiful.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə ɹˈɛd ɹˈOz ɪz bjˈuTəfəl.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-red-rose-is-beautiful.mp3",
+      "sha256": "5f233698451c7d8fc65e36c8eaa6e2d6854c66a9471f31b0271f12158e63b085"
+    },
+    {
+      "key": "tulip",
+      "text": "tulip",
+      "role": "word",
+      "style": "word",
+      "phonemes": "tˈuləp",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/tulip.mp3",
+      "sha256": "69aeb6b00c9272712ce7d6a3a2a79d142642704dfe7caf20c514ec6cf5354488"
+    },
+    {
+      "key": "the tulip blooms in spring",
+      "text": "The tulip blooms in spring.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə tˈuləp blˈumz ɪn spɹˈɪŋ.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-tulip-blooms-in-spring.mp3",
+      "sha256": "dde181be4c37b6fb8c55a18471f7e3fa75d362274e5f587c1c4d249fe3c4379d"
+    },
+    {
+      "key": "sunflower",
+      "text": "sunflower",
+      "role": "word",
+      "style": "word",
+      "phonemes": "sˈʌnflˌWəɹ",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/sunflower.mp3",
+      "sha256": "98e84aa80c68791a65d2d769c6c5beb1f97bd4e88f29acc8aa53777d4a0cd9d4"
+    },
+    {
+      "key": "the sunflower faces the sun",
+      "text": "The sunflower faces the sun.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə sˈʌnflˌWəɹ fˈAsᵻz ðə sˈʌn.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-sunflower-faces-the-sun.mp3",
+      "sha256": "ddc3366ff364a67a885ec3c16fdba8d638cc55a7f14feba83f6261a9e608746b"
+    },
+    {
+      "key": "daisy",
+      "text": "daisy",
+      "role": "word",
+      "style": "word",
+      "phonemes": "dˈAzi",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/daisy.mp3",
+      "sha256": "d6597a37b6388724590af07b9633dbc9cbece365459bac4bc27380f62ff2ec70"
+    },
+    {
+      "key": "a daisy has a yellow centre",
+      "text": "A daisy has a yellow centre.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ɐ dˈAzi hæz ɐ jˈɛlO sˈɛntəɹ.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/a-daisy-has-a-yellow-centre.mp3",
+      "sha256": "7f773b6daab99638fcb51113cd59fb3d1e0e6ab8922db011f2210cc51c2f1242"
+    },
+    {
+      "key": "the white lily is in a vase",
+      "text": "The white lily is in a vase.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə wˈIt lˈɪli ɪz ɪn ɐ vˈAs.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-white-lily-is-in-a-vase.mp3",
+      "sha256": "e09de25ecf3e154401cef9828ea55e804779833c025dee9f7f2c920a1d36aa45"
+    },
+    {
+      "key": "orchid",
+      "text": "orchid",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ˈɔɹkɪd",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/orchid.mp3",
+      "sha256": "1a941be34f60c49d1758f8986d4030cfd92a1430dba0d7c845c5fafd6f229002"
+    },
+    {
+      "key": "the orchid grows in a pot",
+      "text": "The orchid grows in a pot.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ði ˈɔɹkɪd ɡɹˈOz ɪn ɐ pˈɑt.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-orchid-grows-in-a-pot.mp3",
+      "sha256": "a70e89382a78e854ce62a98e164f5905a6e1ae46741a489208400cd022e6c0ac"
+    },
+    {
+      "key": "daffodil",
+      "text": "daffodil",
+      "role": "word",
+      "style": "word",
+      "phonemes": "dˈæfədˌɪl",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/daffodil.mp3",
+      "sha256": "8ab1a3ba5e081abf3031b562f1bbcd88c1316fe773357d4fc319fed60b2bfa80"
+    },
+    {
+      "key": "the daffodil flowers in spring",
+      "text": "The daffodil flowers in spring.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə dˈæfədˌɪl flˈWəɹz ɪn spɹˈɪŋ.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-daffodil-flowers-in-spring.mp3",
+      "sha256": "0a6a83c279232077ad23b115df45f635cdb4da90fce1c25bba5094bd321530d0"
+    },
+    {
+      "key": "poppy",
+      "text": "poppy",
+      "role": "word",
+      "style": "word",
+      "phonemes": "pˈɑpi",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/poppy.mp3",
+      "sha256": "8da0879e0c4379f53e65eab9cc861cd34b38d6b1201d652d49d1d675efb78bac"
+    },
+    {
+      "key": "a red poppy grows in the field",
+      "text": "A red poppy grows in the field.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ɐ ɹˈɛd pˈɑpi ɡɹˈOz ɪn ðə fˈild.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/a-red-poppy-grows-in-the-field.mp3",
+      "sha256": "1a8b7b2f37e780257c619a6be035b0f22223e8de13b6163abb1df2cb5fe3decb"
+    },
+    {
+      "key": "the violet has purple flowers",
+      "text": "The violet has purple flowers.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə vˈIᵊlət hæz pˈɜɹpᵊl flˈWəɹz.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-violet-has-purple-flowers.mp3",
+      "sha256": "9814cddaddd6092b21553b21aa044cf4e14a8b4c2a41483b6d0866ba8f8c0ca8"
+    },
+    {
+      "key": "lavender",
+      "text": "lavender",
+      "role": "word",
+      "style": "word",
+      "phonemes": "lˈævəndəɹ",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/lavender.mp3",
+      "sha256": "e2824767a727d9620217828d5b78141bdc3130ff640a215f0fbc9be84d0f1b05"
+    },
+    {
+      "key": "lavender has a lovely smell",
+      "text": "Lavender has a lovely smell.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "lˈævəndəɹ hæz ɐ lˈʌvli smˈɛl.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/lavender-has-a-lovely-smell.mp3",
+      "sha256": "ef1a4bb06470513e0c757fbfcb66ec5389c7cc9a0bfe732449b6c6a1ede02388"
+    },
+    {
+      "key": "dandelion",
+      "text": "dandelion",
+      "role": "word",
+      "style": "word",
+      "phonemes": "dˈændlˌIən",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/dandelion.mp3",
+      "sha256": "f80fc15c7cdae04d679ef295fe923e5a6d89900799c14ab6bbc06d3e65f411c7"
+    },
+    {
+      "key": "the dandelion seeds blow in the wind",
+      "text": "The dandelion seeds blow in the wind.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə dˈændlˌIən sˈidz blˈO ɪn ðə wˈɪnd.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-dandelion-seeds-blow-in-the-wind.mp3",
+      "sha256": "ab715401447dedf5b87dab58f9af07c56c4305d59258032a96544727b32f9ae3"
+    },
+    {
+      "key": "cherry blossom",
+      "text": "cherry blossom",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "ʧˈɛɹi blˈɑsəm",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/word/cherry-blossom.mp3",
+      "sha256": "a82e72bf0b8ecf41a565275ec77d594555f1606e94ff764ae0d378989f164c1f"
+    },
+    {
+      "key": "cherry blossom appears in spring",
+      "text": "Cherry blossom appears in spring.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ʧˈɛɹi blˈɑsəm əpˈɪɹz ɪn spɹˈɪŋ.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/cherry-blossom-appears-in-spring.mp3",
+      "sha256": "5648f75741497c6eba94ed12d9c9a1f96a72d8a280798011f2c2005dd17fd947"
+    },
+    {
+      "key": "lotus",
+      "text": "lotus",
+      "role": "word",
+      "style": "word",
+      "phonemes": "lˈOTəs",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/lotus.mp3",
+      "sha256": "05ab1bc47d7303783122aa9bec16959d705756c3158b31a35468637c04474a30"
+    },
+    {
+      "key": "the lotus grows in the pond",
+      "text": "The lotus grows in the pond.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə lˈOTəs ɡɹˈOz ɪn ðə pˈɑnd.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-lotus-grows-in-the-pond.mp3",
+      "sha256": "2e5934254f2d1d1e5a84e6528f6eeaf0885bfa95f20826bdacefbc10d2d1e35e"
+    },
+    {
+      "key": "bamboo",
+      "text": "bamboo",
+      "role": "word",
+      "style": "word",
+      "phonemes": "bˌæmbˈu",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/bamboo.mp3",
+      "sha256": "8d8ff3dce8b86b7725718c322c59ea6ecc845e07bb84b5f2e216d97a40344576"
+    },
+    {
+      "key": "pandas eat bamboo",
+      "text": "Pandas eat bamboo.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "pˈændəz ˈit bˌæmbˈu.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/pandas-eat-bamboo.mp3",
+      "sha256": "4d7a4443b0e33b387a93a61a46c4752e13f43887e60e61bd5fd17e46618b97b3"
+    },
+    {
+      "key": "cactus",
+      "text": "cactus",
+      "role": "word",
+      "style": "word",
+      "phonemes": "kˈæktəs",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/cactus.mp3",
+      "sha256": "88ade01d3279ccdc70b156cc69e71014ac8c2c88e575dbe2f0b1df883dda92d4"
+    },
+    {
+      "key": "a cactus can live in dry places",
+      "text": "A cactus can live in dry places.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ɐ kˈæktəs kæn lˈɪv ɪn dɹˈI plˈAsᵻz.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/a-cactus-can-live-in-dry-places.mp3",
+      "sha256": "f587b401e4b2661419e2d95f0347b94c9077e8059701b331e13aa598230375b8"
+    },
+    {
+      "key": "fern",
+      "text": "fern",
+      "role": "word",
+      "style": "word",
+      "phonemes": "fˈɜɹn",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/fern.mp3",
+      "sha256": "4b1624f2ad89f8f20a4beb8263b976975c0fa1c2e08ff3dbd89ecd05c9ea7afd"
+    },
+    {
+      "key": "the fern grows in the shade",
+      "text": "The fern grows in the shade.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə fˈɜɹn ɡɹˈOz ɪn ðə ʃˈAd.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-fern-grows-in-the-shade.mp3",
+      "sha256": "b3f4f4562e7e3232e96a7aef0907f8ce680ff37c37e3cb8e1e8b2a7aba74cae5"
+    },
+    {
+      "key": "moss",
+      "text": "moss",
+      "role": "word",
+      "style": "word",
+      "phonemes": "mˈɔs",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/moss.mp3",
+      "sha256": "72a21a7db55bfb280eec5d70222c6bbb4cb4f91a4748fa59b6dff19cc42fb356"
+    },
+    {
+      "key": "moss grows on the damp rock",
+      "text": "Moss grows on the damp rock.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "mˈɔs ɡɹˈOz ˌɔn ðə dˈæmp ɹˈɑk.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/moss-grows-on-the-damp-rock.mp3",
+      "sha256": "f4c2218aa1ff7a7605002f5bc1d1bd2a50f51fb470e7a60eaec2222d1fc2806e"
+    },
+    {
+      "key": "bush",
+      "text": "bush",
+      "role": "word",
+      "style": "word",
+      "phonemes": "bˈʊʃ",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/bush.mp3",
+      "sha256": "908ac70de4496f9b9ffc49225e73777a7ef7d5ad05a120ae0df16fd7a0cac457"
+    },
+    {
+      "key": "a small bird hides in the bush",
+      "text": "A small bird hides in the bush.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ɐ smˈɔl bˈɜɹd hˈIdz ɪn ðə bˈʊʃ.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/a-small-bird-hides-in-the-bush.mp3",
+      "sha256": "e9fef6e170385631de2e4c18848b9c569afbfe4ce37bedb6e468438935838e86"
+    },
+    {
+      "key": "vine",
+      "text": "vine",
+      "role": "word",
+      "style": "word",
+      "phonemes": "vˈIn",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/vine.mp3",
+      "sha256": "e40f4c90606b30abdcface2c8b2e4a6125140ac025bf335798b2b2e473908479"
+    },
+    {
+      "key": "the vine climbs up the wall",
+      "text": "The vine climbs up the wall.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə vˈIn klˈImz ˌʌp ðə wˈɔl.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-vine-climbs-up-the-wall.mp3",
+      "sha256": "07d7a0688cd1b5b85402d4269b753131f895867a7237d9ea3b5fa1a5d9cd42e3"
+    },
+    {
+      "key": "ivy",
+      "text": "ivy",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ˈIvi",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/ivy.mp3",
+      "sha256": "1f0642a818fa4537b180f197b42c30b452ffe5c0769ad7181f08e7fb74db663c"
+    },
+    {
+      "key": "ivy grows along the fence",
+      "text": "Ivy grows along the fence.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ˈIvi ɡɹˈOz əlˈɔŋ ðə fˈɛns.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/ivy-grows-along-the-fence.mp3",
+      "sha256": "7f55d4d478e4169ea8568e986621f70c9131f8e3d2fd6871e65aadeeb77c07cd"
+    },
+    {
+      "key": "pine tree",
+      "text": "pine tree",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "pˈIn tɹˈi",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/word/pine-tree.mp3",
+      "sha256": "dd7fdd7047dbb2821e5efbc289d56073daec308a10f14335b914027177260910"
+    },
+    {
+      "key": "the pine tree stays green in winter",
+      "text": "The pine tree stays green in winter.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə pˈIn tɹˈi stˈAz ɡɹˈin ɪn wˈɪntəɹ.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-pine-tree-stays-green-in-winter.mp3",
+      "sha256": "4512f41bb2bcf0c7094c5879f5dde208d52dede478072cdd1a982a8eb4f4fe5f"
+    },
+    {
+      "key": "oak tree",
+      "text": "oak tree",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "ˈOk tɹˈi",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/word/oak-tree.mp3",
+      "sha256": "422cba32f3e88b82be593c7a279c6fd7e245b9bf78b11ddc79aa2aca208a1b57"
+    },
+    {
+      "key": "an oak tree can live for many years",
+      "text": "An oak tree can live for many years.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ɐn ˈOk tɹˈi kæn lˈɪv fɔɹ mˈɛni jˈɪɹz.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/an-oak-tree-can-live-for-many-years.mp3",
+      "sha256": "210a8b29703a4b088ba510ad2bafeec4a1752420e2e7d0566a78b4f680621733"
+    },
+    {
+      "key": "palm tree",
+      "text": "palm tree",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "pˈɑlm tɹˈi",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/word/palm-tree.mp3",
+      "sha256": "4301b9e9212cdb2cde6b6ba488ea66676d01252bc5a83d98c77422451a7bafe2"
+    },
+    {
+      "key": "a palm tree grows in a warm place",
+      "text": "A palm tree grows in a warm place.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ɐ pˈɑlm tɹˈi ɡɹˈOz ɪn ɐ wˈɔɹm plˈAs.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/a-palm-tree-grows-in-a-warm-place.mp3",
+      "sha256": "913c825e76461b038909e862b96d4532ebfc211a7670d1e4d5f63db7e6b577ac"
+    },
+    {
+      "key": "soil",
+      "text": "soil",
+      "role": "word",
+      "style": "word",
+      "phonemes": "sˈYl",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/soil.mp3",
+      "sha256": "709c885f0db8a76594d43f3c43b95be32d0348be412e2e58f253bf905e8e1bcf"
+    },
+    {
+      "key": "good soil helps plants grow",
+      "text": "Good soil helps plants grow.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ɡˈʊd sˈYl hˈɛlps plˈænts ɡɹˈO.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/good-soil-helps-plants-grow.mp3",
+      "sha256": "dc4f9314c53c507359db49493539a1aa5ebff0d7befc1352fbc31d6245ddbc6a"
+    },
+    {
+      "key": "pot",
+      "text": "pot",
+      "role": "word",
+      "style": "word",
+      "phonemes": "pˈɑt",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/pot.mp3",
+      "sha256": "bb63af115389f47274c7d494d4fc969808590dc5e60c15b65a3915788e7e999b"
+    },
+    {
+      "key": "the plant is in a blue pot",
+      "text": "The plant is in a blue pot.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə plˈænt ɪz ɪn ɐ blˈu pˈɑt.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-plant-is-in-a-blue-pot.mp3",
+      "sha256": "85103f5dcd60cae86869bb082078e130e9084871e5f900e3b64b7cdd83a5c58f"
+    },
+    {
+      "key": "water a plant",
+      "text": "water a plant",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "wˈɔTəɹ ɐ plˈænt",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/word/water-a-plant.mp3",
+      "sha256": "d7336891eeddf2f3c2c014eb3cf947a90835c0d1bc05668db37208051b4aac10"
+    },
+    {
+      "key": "i water a plant every morning",
+      "text": "I water a plant every morning.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ˌI wˈɔTəɹ ɐ plˈænt ˈɛvəɹi mˈɔɹnɪŋ.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/i-water-a-plant-every-morning.mp3",
+      "sha256": "e5916bf64d5a19f4f61b89d006a4db4fae322ada369c0fb4fa42fd4387caeaed"
+    },
+    {
+      "key": "plants grow towards the light",
+      "text": "Plants grow towards the light.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "plˈænts ɡɹˈO tˈɔɹdz ðə lˈIt.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/plants-grow-towards-the-light.mp3",
+      "sha256": "9942bd39c9f75417b228a8523ebf91aff66ab692b9cbbd93c0981a3906416b9e"
+    },
+    {
+      "key": "nature",
+      "text": "nature",
+      "role": "word",
+      "style": "word",
+      "phonemes": "nˈAʧəɹ",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/nature.mp3",
+      "sha256": "7b07aead4a177a15d9ccd9a8ecbc95112e56c1c0fd5c5c6346b5e84de1d770e7"
+    },
+    {
+      "key": "we should take care of nature",
+      "text": "We should take care of nature.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "wˌi ʃˌʊd tˈAk kˈɛɹ ʌv nˈAʧəɹ.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/we-should-take-care-of-nature.mp3",
+      "sha256": "59de296ec88beab9ba7df3f98a09113e5d49f18eaca0e571f3ce62fcce03d398"
+    },
+    {
+      "key": "environment",
+      "text": "environment",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ənvˈIɹənmᵊnt",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/environment.mp3",
+      "sha256": "6d5a1b570fccc41314ea9bfc1a531638db0f9cb7f2cae49be15d37623b0c21f5"
+    },
+    {
+      "key": "a clean environment is important",
+      "text": "A clean environment is important.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ɐ klˈin ənvˈIɹənmᵊnt ɪz ɪmpˈɔɹtᵊnt.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/a-clean-environment-is-important.mp3",
+      "sha256": "546cbfe0c4aab5c3d904c75e3d2b03b4647411e4b3518e33a7c57aab0113235e"
+    },
+    {
+      "key": "earth",
+      "text": "Earth",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ˈɜɹθ",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/earth.mp3",
+      "sha256": "4544ea287c7222fc41f1c03c19e9aa2390cfa36a3a0d238cd57f573e0de79973"
+    },
+    {
+      "key": "earth is our home",
+      "text": "Earth is our home.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ˈɜɹθ ɪz ˌWəɹ hˈOm.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/earth-is-our-home.mp3",
+      "sha256": "2df23c7633674b261524296c0429e66e62676b504032acdfec4a348376ebd623"
+    },
+    {
+      "key": "land",
+      "text": "land",
+      "role": "word",
+      "style": "word",
+      "phonemes": "lˈænd",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/land.mp3",
+      "sha256": "aaf7724e4be721ecd244f580da4226accce4586a7aa353b299b195aa672515e3"
+    },
+    {
+      "key": "the land is green after the rain",
+      "text": "The land is green after the rain.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə lˈænd ɪz ɡɹˈin ˈæftəɹ ðə ɹˈAn.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-land-is-green-after-the-rain.mp3",
+      "sha256": "7e026488158183d2353bd506fc471b8f8c8f4321d48b1b3fd6191683a86377c5"
+    },
+    {
+      "key": "sea",
+      "text": "sea",
+      "role": "word",
+      "style": "word",
+      "phonemes": "sˈi",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/sea.mp3",
+      "sha256": "e27fe109c3e50db2dcea12d2e8090e68e0dbaff1a21dd863d1a2f607da03e494"
+    },
+    {
+      "key": "the sea looks blue today",
+      "text": "The sea looks blue today.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə sˈi lˈʊks blˈu tədˈA.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-sea-looks-blue-today.mp3",
+      "sha256": "69c5fcf4e097aed58e4656a78484613ac4a7f81f95d94c52e352ec9041c98358"
+    },
+    {
+      "key": "ocean",
+      "text": "ocean",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ˈOʃən",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/ocean.mp3",
+      "sha256": "3edc14dc55b6c9ba31fc499c9433dc5f24c992b2cb94032535cb79ede16e71d7"
+    },
+    {
+      "key": "the ocean is very deep",
+      "text": "The ocean is very deep.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ði ˈOʃən ɪz vˈɛɹi dˈip.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-ocean-is-very-deep.mp3",
+      "sha256": "0c81e58984cd83c3650dd30a62ea7f9365c760cfe5cc3eb501a1a9e58e9951be"
+    },
+    {
+      "key": "river",
+      "text": "river",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ɹˈɪvəɹ",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/river.mp3",
+      "sha256": "0acf95f78140a4a18ea27da4e56a40707d9d93a58d418053a6efe1e46837f286"
+    },
+    {
+      "key": "the river flows past the village",
+      "text": "The river flows past the village.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə ɹˈɪvəɹ flˈOz pˈæst ðə vˈɪlɪʤ.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-river-flows-past-the-village.mp3",
+      "sha256": "6d5d069d2e8821813ae5943b929019b16363e32bac656e95bf2e489b8210ab94"
+    },
+    {
+      "key": "lake",
+      "text": "lake",
+      "role": "word",
+      "style": "word",
+      "phonemes": "lˈAk",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/lake.mp3",
+      "sha256": "669b9d8d8f19c79971cdd81bf81a9cf26befd33b508825f7c85cd65b9e719360"
+    },
+    {
+      "key": "we saw ducks on the lake",
+      "text": "We saw ducks on the lake.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "wˌi sˈɔ dˈʌks ˌɔn ðə lˈAk.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/we-saw-ducks-on-the-lake.mp3",
+      "sha256": "9fe5aac9e4fd79cc7e87454b3258a78c31eb3c7911a6467e660d7b5464df53f4"
+    },
+    {
+      "key": "pond",
+      "text": "pond",
+      "role": "word",
+      "style": "word",
+      "phonemes": "pˈɑnd",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/pond.mp3",
+      "sha256": "28f03fa2b52266a6f77774997b16a0032597c0c50dafe7c0f906f0b18002f1d2"
+    },
+    {
+      "key": "frogs live near the pond",
+      "text": "Frogs live near the pond.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "fɹˈɔɡz lˈɪv nˌɪɹ ðə pˈɑnd.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/frogs-live-near-the-pond.mp3",
+      "sha256": "c17cbc1d02a3e79c8c96daa434dcfd7bf1f4684690f97da4061b7ebe9f49ee8c"
+    },
+    {
+      "key": "stream",
+      "text": "stream",
+      "role": "word",
+      "style": "word",
+      "phonemes": "stɹˈim",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/stream.mp3",
+      "sha256": "36c6b237b0f453a2f765a189594a985c0c76df1140c053a38a4d1be65bea131a"
+    },
+    {
+      "key": "the stream runs over the stones",
+      "text": "The stream runs over the stones.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə stɹˈim ɹˈʌnz ˈOvəɹ ðə stˈOnz.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-stream-runs-over-the-stones.mp3",
+      "sha256": "d39aa4e9fa4c178a3b29e26217af5004ed0f0ce149a66c4f128552c3dd2e7350"
+    },
+    {
+      "key": "waterfall",
+      "text": "waterfall",
+      "role": "word",
+      "style": "word",
+      "phonemes": "wˈɔTəɹfˌɔl",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/waterfall.mp3",
+      "sha256": "d969a258b55dc3f41a794502af6cb40ebfbfc7639802f60708e2ac5b62165bf0"
+    },
+    {
+      "key": "the waterfall makes a loud sound",
+      "text": "The waterfall makes a loud sound.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə wˈɔTəɹfˌɔl mˌAks ɐ lˈWd sˈWnd.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-waterfall-makes-a-loud-sound.mp3",
+      "sha256": "a41758f7cf8d0141557f31b6f167959ca165f37f1f15e669ccd7a1ff750feec8"
+    },
+    {
+      "key": "mountain",
+      "text": "mountain",
+      "role": "word",
+      "style": "word",
+      "phonemes": "mˈWntᵊn",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/mountain.mp3",
+      "sha256": "d521765e1839d4931178ec91a48983068fc94db4ffb08cad2621f9c0cecdb364"
+    },
+    {
+      "key": "snow covers the mountain top",
+      "text": "Snow covers the mountain top.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "snˈO kˈʌvəɹz ðə mˈWntᵊn tˈɑp.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/snow-covers-the-mountain-top.mp3",
+      "sha256": "c0ffb49c153418014be271177c35349943a9cbe3f048031ab9e70db69c386eb1"
+    },
+    {
+      "key": "hill",
+      "text": "hill",
+      "role": "word",
+      "style": "word",
+      "phonemes": "hˈɪl",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/hill.mp3",
+      "sha256": "118fad7aafcc2b468817589a4cf81479840fade3e4cf85a5210da0cf767ac44b"
+    },
+    {
+      "key": "we walked up the hill",
+      "text": "We walked up the hill.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "wˌi wˈɔkt ˌʌp ðə hˈɪl.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/we-walked-up-the-hill.mp3",
+      "sha256": "f8f61a061053ca05fc353775f4bcba9ad01fbef23cb7a5eca5ce8a1ea013c767"
+    },
+    {
+      "key": "valley",
+      "text": "valley",
+      "role": "word",
+      "style": "word",
+      "phonemes": "vˈæli",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/valley.mp3",
+      "sha256": "c5de86f4bf64818925703036c6e3666b5e670b356e7dd75555237324e91c16b6"
+    },
+    {
+      "key": "a river runs through the valley",
+      "text": "A river runs through the valley.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ɐ ɹˈɪvəɹ ɹˈʌnz θɹu ðə vˈæli.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/a-river-runs-through-the-valley.mp3",
+      "sha256": "766a009cba9decf5613755bad4512302d6c5814503568ae1570f46c31ac5a18b"
+    },
+    {
+      "key": "forest",
+      "text": "forest",
+      "role": "word",
+      "style": "word",
+      "phonemes": "fˈɔɹəst",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/forest.mp3",
+      "sha256": "fe06b68be149627739f102ccd4d7289d5d45d27c381840c6938e17185e818912"
+    },
+    {
+      "key": "many animals live in the forest",
+      "text": "Many animals live in the forest.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "mˈɛni ˈænəmᵊlz lˈɪv ɪn ðə fˈɔɹəst.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/many-animals-live-in-the-forest.mp3",
+      "sha256": "375686a2236177ffd11e740090fcc9a750a62fa801fbf1f0904fe5d527bb9490"
+    },
+    {
+      "key": "wood",
+      "text": "wood",
+      "role": "word",
+      "style": "word",
+      "phonemes": "wˈʊd",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/wood.mp3",
+      "sha256": "3397e78d87a515d085deee45854767e3cd0694bcfc008378598b3e7ff2389a51"
+    },
+    {
+      "key": "we walked through the wood",
+      "text": "We walked through the wood.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "wˌi wˈɔkt θɹu ðə wˈʊd.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/we-walked-through-the-wood.mp3",
+      "sha256": "5dfca5d6084af36b329d4156d33051279f2284512f578bc7f91a02c5db0a3786"
+    },
+    {
+      "key": "jungle",
+      "text": "jungle",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ʤˈʌŋɡᵊl",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/jungle.mp3",
+      "sha256": "c841821e5919d4a2c345d3d0ab3f14bf3f40cdd44a62713b0f0188387436eda5"
+    },
+    {
+      "key": "the jungle is hot and wet",
+      "text": "The jungle is hot and wet.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə ʤˈʌŋɡᵊl ɪz hˈɑt ænd wˈɛt.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-jungle-is-hot-and-wet.mp3",
+      "sha256": "c75ed4a7ed6bb9d323f52b9aaf7a25b0e7184af95be9411952e092f2f49ade82"
+    },
+    {
+      "key": "rainforest",
+      "text": "rainforest",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ɹˈAnfˌɔɹəst",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/rainforest.mp3",
+      "sha256": "fe4fbe368403636bc08d1c3e79e01cab02b59e1ca0eb30a3831b326af8a7d2a4"
+    },
+    {
+      "key": "a rainforest gets lots of rain",
+      "text": "A rainforest gets lots of rain.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ɐ ɹˈAnfˌɔɹəst ɡɛts lˈɑts ʌv ɹˈAn.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/a-rainforest-gets-lots-of-rain.mp3",
+      "sha256": "9a174daa5df02833b6eff02c2df4f5035cd9d40288c72e30a9e6adc9421c345b"
+    },
+    {
+      "key": "desert",
+      "text": "desert",
+      "role": "word",
+      "style": "word",
+      "phonemes": "dˈɛzəɹt",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/desert.mp3",
+      "sha256": "d676a63521187d6539c4d7ffadd8698f50f1ce994cd71d1884b52bba29f3c38f"
+    },
+    {
+      "key": "some deserts are very dry",
+      "text": "Some deserts are very dry.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "sˌʌm dˈɛzəɹts ɑɹ vˈɛɹi dɹˈI.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/some-deserts-are-very-dry.mp3",
+      "sha256": "69466137936a70b5284851904c3f25ca7d6b08e5a707915ef03b3954a1d8a845"
+    },
+    {
+      "key": "island",
+      "text": "island",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ˈIlənd",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/island.mp3",
+      "sha256": "46d29a22d254bd2916f01148c61d7e743c455e3f60f0bc48a186fb88a6928cbe"
+    },
+    {
+      "key": "they live on a small island",
+      "text": "They live on a small island.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðˌA lˈɪv ˌɔn ɐ smˈɔl ˈIlənd.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/they-live-on-a-small-island.mp3",
+      "sha256": "1a64f056e8ccb72484a91404b56c6b0abcb3127cea484edad785c5180d924a23"
+    },
+    {
+      "key": "beach",
+      "text": "beach",
+      "role": "word",
+      "style": "word",
+      "phonemes": "bˈiʧ",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/beach.mp3",
+      "sha256": "f5cb808631417dc062913d6971d0cacab170b941ebfd82e172c47c5269eadc3b"
+    },
+    {
+      "key": "we collected shells on the beach",
+      "text": "We collected shells on the beach.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "wˌi kəlˈɛktᵻd ʃˈɛlz ˌɔn ðə bˈiʧ.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/we-collected-shells-on-the-beach.mp3",
+      "sha256": "2488c6af6fadae80d28c5d865ac0e37fb882bdaf4904a311a20683bc90bb4631"
+    },
+    {
+      "key": "coast",
+      "text": "coast",
+      "role": "word",
+      "style": "word",
+      "phonemes": "kˈOst",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/coast.mp3",
+      "sha256": "5c74a0a840cc672225bddc26284b6bb79ab7938e0933d874fa74ac126a915608"
+    },
+    {
+      "key": "the town is on the coast",
+      "text": "The town is on the coast.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə tˈWn ɪz ˌɔn ðə kˈOst.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-town-is-on-the-coast.mp3",
+      "sha256": "937988138abb625979776041ac0c909381613b4795ff60718e0061636a51e9a8"
+    },
+    {
+      "key": "cliff",
+      "text": "cliff",
+      "role": "word",
+      "style": "word",
+      "phonemes": "klˈɪf",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/cliff.mp3",
+      "sha256": "36526003552174ff87f682554e8480fe0b79456315ec9462addd9dab1fe3624d"
+    },
+    {
+      "key": "seabirds nest on the cliff",
+      "text": "Seabirds nest on the cliff.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "sˈibˌɜɹdz nˈɛst ˌɔn ðə klˈɪf.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/seabirds-nest-on-the-cliff.mp3",
+      "sha256": "788c7a399d5436da39624ed76de797b0339f8c70270725a301be2248f87fb44a"
+    },
+    {
+      "key": "cave",
+      "text": "cave",
+      "role": "word",
+      "style": "word",
+      "phonemes": "kˈAv",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/cave.mp3",
+      "sha256": "c86e9208079326348768cc45279191be8827650f54f23b45104f52045ff99fec"
+    },
+    {
+      "key": "the bear sleeps in a cave",
+      "text": "The bear sleeps in a cave.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə bˈɛɹ slˈips ɪn ɐ kˈAv.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-bear-sleeps-in-a-cave.mp3",
+      "sha256": "a3b67dfca32a64890ae2a82f1c100051b13aeb2dffd90151968c1622b59c2c32"
+    },
+    {
+      "key": "rock",
+      "text": "rock",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ɹˈɑk",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/rock.mp3",
+      "sha256": "e99da173f9f153b07fb6dcd883c7dc445f6e2956f7c73f2567e2bf2505c2f4fa"
+    },
+    {
+      "key": "a lizard sits on the rock",
+      "text": "A lizard sits on the rock.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ɐ lˈɪzəɹd sˈɪts ˌɔn ðə ɹˈɑk.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/a-lizard-sits-on-the-rock.mp3",
+      "sha256": "c10ff3a31225ffbd16a6692fc09daa2fe3d3c4e9098a7116a29b71c2a0b6a93d"
+    },
+    {
+      "key": "stone",
+      "text": "stone",
+      "role": "word",
+      "style": "word",
+      "phonemes": "stˈOn",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/stone.mp3",
+      "sha256": "b50126e7c21d0d505bf637d743a133153d8580cb45c80089f4e6d5db38bf27fd"
+    },
+    {
+      "key": "the path is covered with small stones",
+      "text": "The path is covered with small stones.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə pˈæθ ɪz kˈʌvəɹd wɪð smˈɔl stˈOnz.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-path-is-covered-with-small-stones.mp3",
+      "sha256": "ce57be4efd84bd7a13801bfe7834e58109fb85bdf98af659293d98f922b30b16"
+    },
+    {
+      "key": "sand",
+      "text": "sand",
+      "role": "word",
+      "style": "word",
+      "phonemes": "sˈænd",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/sand.mp3",
+      "sha256": "0926184cf111d53db7f2302f206c4d7c6730274db7b3c1fa143a342a5399c5be"
+    },
+    {
+      "key": "the children play in the sand",
+      "text": "The children play in the sand.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə ʧˈɪldɹᵊn plˈA ɪn ðə sˈænd.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-children-play-in-the-sand.mp3",
+      "sha256": "e059680b014c1cc753a830e4cd3e7b680235be4746fad10eb791a062785feb0f"
+    },
+    {
+      "key": "mud",
+      "text": "mud",
+      "role": "word",
+      "style": "word",
+      "phonemes": "mˈʌd",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/mud.mp3",
+      "sha256": "6cb39478dfe41c2cadbea4fa0ea4f357aa3f1c698bc125a084764dfd6d5132a7"
+    },
+    {
+      "key": "the path is full of mud",
+      "text": "The path is full of mud.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə pˈæθ ɪz fˈʊl ʌv mˈʌd.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-path-is-full-of-mud.mp3",
+      "sha256": "4f7a60a5189a744b7ab51fbab9d6a7f171379e166d4684850e459252be1a7cca"
+    },
+    {
+      "key": "sky",
+      "text": "sky",
+      "role": "word",
+      "style": "word",
+      "phonemes": "skˈI",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/sky.mp3",
+      "sha256": "1937b4a8be032d83a7e5dc8cbb05dd893740599902105fc39a58a5d60a703dbb"
+    },
+    {
+      "key": "the sky is clear today",
+      "text": "The sky is clear today.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə skˈI ɪz klˈɪɹ tədˈA.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-sky-is-clear-today.mp3",
+      "sha256": "ed7355caa532aaeae27c5e6ca6206629ad33ce775f0aecff87d227546a0991d7"
+    },
+    {
+      "key": "a white cloud floats in the sky",
+      "text": "A white cloud floats in the sky.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ɐ wˈIt klˈWd flˈOts ɪn ðə skˈI.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/a-white-cloud-floats-in-the-sky.mp3",
+      "sha256": "4b18fd9f60b80b7fa2afc20f7c027fc5ebf65adfa8d782d56f285c37804e7dcc"
+    },
+    {
+      "key": "the sun is shining",
+      "text": "The sun is shining.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə sˈʌn ɪz ʃˈInɪŋ.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-sun-is-shining.mp3",
+      "sha256": "62ba9b2d42f81c14037ef333ecde439c9e61d9682f8a7ec0e381883109e3c9d7"
+    },
+    {
+      "key": "the moon looks bright tonight",
+      "text": "The moon looks bright tonight.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə mˈun lˈʊks bɹˈIt tənˈIt.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-moon-looks-bright-tonight.mp3",
+      "sha256": "737d1b379c243f96223fbf5f17bab373d3e13fb9424a9ae9a4e91616eba93776"
+    },
+    {
+      "key": "we can see a star in the sky",
+      "text": "We can see a star in the sky.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "wˌi kæn sˈi ɐ stˈɑɹ ɪn ðə skˈI.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/we-can-see-a-star-in-the-sky.mp3",
+      "sha256": "9a79a46ee18999a171635d17bf853b5622d0a6541d1b56f554ab1254bf0cace3"
+    },
+    {
+      "key": "air",
+      "text": "air",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ˈɛɹ",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/air.mp3",
+      "sha256": "3edc185c95c6f8c5ff76e08c17a164f063433f6cf9a1788a230ac8a2a29b9619"
+    },
+    {
+      "key": "fresh air feels good",
+      "text": "Fresh air feels good.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "fɹˈɛʃ ˈɛɹ fˈilz ɡˈʊd.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/fresh-air-feels-good.mp3",
+      "sha256": "e2ba4a688a6aec6e1fb0e6b0d96b3ca7bc40a5b1b93536ec22cc9501747fbc7d"
+    },
+    {
+      "key": "the wind moves the leaves",
+      "text": "The wind moves the leaves.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə wˈɪnd mˈuvz ðə lˈivz.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-wind-moves-the-leaves.mp3",
+      "sha256": "ce31bd5c6a9a88d9f4c24e563947060f6b8018c8ea79178a978d20db2b132862"
+    },
+    {
+      "key": "the rain falls on the roof",
+      "text": "The rain falls on the roof.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə ɹˈAn fˈɔlz ˌɔn ðə ɹˈuf.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-rain-falls-on-the-roof.mp3",
+      "sha256": "efa630507407f5ad2850f1948438d01f0aa3273063a86e4b753f44796230f6d7"
+    },
+    {
+      "key": "snow covers the field in winter",
+      "text": "Snow covers the field in winter.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "snˈO kˈʌvəɹz ðə fˈild ɪn wˈɪntəɹ.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/snow-covers-the-field-in-winter.mp3",
+      "sha256": "cd6bedac322e7ef706c8618eb9c400a24dad73fa185e083b0010ba827ee8f009"
+    },
+    {
+      "key": "ice",
+      "text": "ice",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ˈIs",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/ice.mp3",
+      "sha256": "c5eba37587ffebf09a2c512b48c8f419d40e27bb00e3e079234be07d7609a4a2"
+    },
+    {
+      "key": "the lake has a layer of ice",
+      "text": "The lake has a layer of ice.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə lˈAk hæz ɐ lˈAəɹ ʌv ˈIs.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-lake-has-a-layer-of-ice.mp3",
+      "sha256": "d12ea2220e46571425353cd187072166fdbe716cfb07e600ad629359806f1667"
+    },
+    {
+      "key": "a storm is coming",
+      "text": "A storm is coming.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ɐ stˈɔɹm ɪz kˈʌmɪŋ.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/a-storm-is-coming.mp3",
+      "sha256": "331e5f6cf5d8b043d394b5c6ecffe557a0fd5c8500581f6a1aac965f754bbffd"
+    },
+    {
+      "key": "we heard thunder in the distance",
+      "text": "We heard thunder in the distance.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "wˌi hˈɜɹd θˈʌndəɹ ɪn ðə dˈɪstᵊns.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/we-heard-thunder-in-the-distance.mp3",
+      "sha256": "fd4a1301625936565ea400d33c477cc01553fb6f7e03ea9e4b9415de786cf422"
+    },
+    {
+      "key": "field",
+      "text": "field",
+      "role": "word",
+      "style": "word",
+      "phonemes": "fˈild",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/field.mp3",
+      "sha256": "eca45e93488071c73792c0b0ad412a4dbbbed4e79d43ddfa45ccc1de22eab9dd"
+    },
+    {
+      "key": "flowers grow in the field",
+      "text": "Flowers grow in the field.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "flˈWəɹz ɡɹˈO ɪn ðə fˈild.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/flowers-grow-in-the-field.mp3",
+      "sha256": "5d5488f5ab1e53396913acf09a32a1b143db0dc995d7a6d52b56dabb1b431c96"
+    },
+    {
+      "key": "meadow",
+      "text": "meadow",
+      "role": "word",
+      "style": "word",
+      "phonemes": "mˈɛdO",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/meadow.mp3",
+      "sha256": "dcba7290254268d2414308fe362d5a784d5ba962dc9c1018abadda6f349a5e61"
+    },
+    {
+      "key": "butterflies fly over the meadow",
+      "text": "Butterflies fly over the meadow.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "bˈʌTəɹflˌIz flˈI ˈOvəɹ ðə mˈɛdO.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/butterflies-fly-over-the-meadow.mp3",
+      "sha256": "fb4563d73e03d41b5f905cf72db844db56756e806a817c11921aaa4cf374163e"
+    },
+    {
+      "key": "grassland",
+      "text": "grassland",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ɡɹˈæslˌænd",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/grassland.mp3",
+      "sha256": "03eb4dd95523661de357e84643c3967a29e8cfca2118e432d80a97f04f090db2"
+    },
+    {
+      "key": "zebras live on the grassland",
+      "text": "Zebras live on the grassland.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "zˈibɹəz lˈɪv ˌɔn ðə ɡɹˈæslˌænd.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/zebras-live-on-the-grassland.mp3",
+      "sha256": "7f1dff500f25dc2161b6e026a264cc4e4138aae471c3b29a3ebc53235e21858a"
+    },
+    {
+      "key": "volcano",
+      "text": "volcano",
+      "role": "word",
+      "style": "word",
+      "phonemes": "vɑlkˈAnO",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/volcano.mp3",
+      "sha256": "92fc6d3407e3129c5157c9b7fb1b27d568b39fd755cceb5a30037dca2ab8f46f"
+    },
+    {
+      "key": "the volcano is a natural landform",
+      "text": "The volcano is a natural landform.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə vɑlkˈAnO ɪz ɐ nˈæʧəɹᵊl lˈændfˌɔɹm.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-volcano-is-a-natural-landform.mp3",
+      "sha256": "6f878f3442c93a906a10bf93781eb70f97cc12ae4f5091ce003e4def615ea5ce"
+    },
+    {
+      "key": "glacier",
+      "text": "glacier",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ɡlˈAʃəɹ",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/glacier.mp3",
+      "sha256": "b43b35b5d319f5f4175059c8725779afe04859b5d3c9a620f5cf7f87d9c34580"
+    },
+    {
+      "key": "the glacier moves very slowly",
+      "text": "The glacier moves very slowly.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə ɡlˈAʃəɹ mˈuvz vˈɛɹi slˈOli.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/the-glacier-moves-very-slowly.mp3",
+      "sha256": "542588f0a643cfec88a3ca7b96b3a7115f001bbcbb165d79113b08a6d47d55c3"
+    },
+    {
+      "key": "habitat",
+      "text": "habitat",
+      "role": "word",
+      "style": "word",
+      "phonemes": "hˈæbətˌæt",
+      "intonation": "neutral",
+      "path": "audio/en-us/animal/word/habitat.mp3",
+      "sha256": "8c6209194fbe76d39415a29e942d7ff08500022798b06fc92f874ccd6e7d9379"
+    },
+    {
+      "key": "every animal needs a suitable habitat",
+      "text": "Every animal needs a suitable habitat.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ˈɛvəɹi ˈænəmᵊl nˈidz ɐ sˈuTəbᵊl hˈæbətˌæt.",
+      "intonation": "fall",
+      "path": "audio/en-us/animal/sentence/every-animal-needs-a-suitable-habitat.mp3",
+      "sha256": "c1fdbbf9050bf1c33d7505a072f91f73dc38ebbd5ff594ed05ffa14169247736"
+    }
+  ]
+}
