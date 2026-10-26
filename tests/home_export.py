@@ -32,7 +32,9 @@ with sync_playwright() as p:
     found.update(marker for marker in markers if marker in line)
   assert found==set(markers)
   page.locator('#source-fallback>summary').click()
-  page.wait_for_function('document.querySelector("#offline-html-source").value.length>1000000',timeout=90000)
+  # The full media archive is about 395 MB; source-editor layout can take
+  # longer than navigation on a shared runner. Keep the full-value/hash checks.
+  page.wait_for_function('document.querySelector("#offline-html-source").value.length>1000000',timeout=180000)
   page.locator('[data-action="select-html-source"]').click()
   assert page.locator('#offline-html-source').evaluate('e=>e.selectionStart===0&&e.selectionEnd===e.value.length&&e.wrap==="off"')
   page.locator('#offline-html-source').evaluate('e=>e.value=""')
@@ -126,6 +128,14 @@ with sync_playwright() as p:
    assert exported.locator('.translation-picture img').get_attribute('src').startswith('data:image/webp;base64,')
    exported.locator('.translation-blank').first.fill('family');exported.locator('#translation-submit').click()
    exported.wait_for_function('document.querySelector("#question-audio").dataset.audioKey==="family"&&document.querySelector("#question-audio").currentTime>0')
+   exported.locator('.practice-back').click();exported.wait_for_function('!document.querySelector("#lesson-dialog").open')
+   exported.goto(f'http://127.0.0.1:{server.server_port}/#words/C05')
+   exported.locator('.mvp-subcategory[data-subcategory-id="C05-S04"]').click()
+   assert exported.locator('#practice-group-dialog .practice-group-choice').count()==9
+   assert exported.locator('#practice-group-dialog .practice-group-all b').inner_text()=='44'
+   exported.locator('#practice-group-dialog [data-practice-group="asking-for-help"]').click()
+   assert exported.locator('#practice-jump option').count()==3
+   assert exported.locator('.translation-picture').get_attribute('data-scene-id')=='C05-S06-042'
    exported.locator('.practice-back').click();exported.wait_for_function('!document.querySelector("#lesson-dialog").open')
    exported.goto(f'http://127.0.0.1:{server.server_port}/#words/C05/C05-S01')
    exported.locator('.translation-blank').first.wait_for()

@@ -2,7 +2,7 @@
 
 本次在原网站的“饮食与健康”入口新增 **218 条**：水果与蔬菜 64、食物主食与饮料 69、身体部位 41、健康与身体感受 44。总词库现为 **972 条**，原基础入门 136、时间与自然 220、学校与学习 198、家庭与日常生活 200 保持。
 
-沿用现有四个二级入口和操作。水果与蔬菜弹窗提供整组 64／水果 31／蔬菜 33；食物主食与饮料提供整组 69／食物与主食 43／饮料 26。身体部位 41 和健康与身体感受 44 为单一分类，继续直接进入。搜索、DJ 英式音标、GA 美式朗读、例句填空、答案弹窗、上下题、整组重练、续学、个人资料、打卡、备份和本地记录保持。
+沿用现有四个二级入口和选择弹窗，补齐 **37 个具体练习小类**：水果与蔬菜 11 类、食物主食与饮料 11 类、身体部位 6 类、健康与身体感受 9 类。每个入口保留整组练习，下面按实际词条显示各小类数量，每类 2–11 词。健康组包括健康状态 4、疼痛与不适 6、感冒与发热 8、日常身体感受 7、受伤与伤口 4、药品与护理 4、医护人员与场所 5、休息与康复 3、身体不适与求助 3。搜索、DJ 英式音标、GA 美式朗读、例句填空、答案弹窗、上下题、整组重练、续学、资料、打卡、备份和本地记录保持。
 
 新增 **417 个** Bella GA 单词／完整语句 MP3，相同读音复用已有文件；原 **1752 个 MP3** 字节保持，总数 **2169 个**。新增 28 张无损 WebP 图集，为 218 条各提供对应场景，沿用首页男孩与女孩，并按例句补充家人和医生。网页使用随包静态资源，无需语音服务或 API Key。
 
@@ -19,14 +19,15 @@
 
 - 原始词包 JSON 分别保留于 `data/time-nature/`、`data/school-learning/`、`data/family-daily/`、`data/food-health/`。原基础资料为 `data/basic-vocabulary.json`。
 - `tools/build_food_assets.py` 追加 C05 内容包；词库版本保持 `basic-us-v1`，按 `food-health-v1` 包标记安装一次，旧状态/旧备份保留，用户明确删除后不强制补回。
-- `tools/build_food_mappings.py` 维护本包中文词义对应及两个复合窗口的小组。`data/food-health-windows.json` 保留源语义分类和网站入口的对应关系。
+- `tools/build_food_mappings.py` 维护本包中文词义对应及四入口的 37 个小类；具体分组见 `data/food-health-practice-sections.json`。`data/food-health-windows.json` 保留源语义分类和网站入口的对应关系。
 - `tools/generate_food_audio.py` 是制作阶段的可选工具，仅制作新包缺少的录音；依赖、模型和临时缓存不随网站分发。`data/food-health-audio-generation.json` 记录音素、声线、模型和文件哈希；`data/food-health-audio-map.csv` 提供 218 条单词与例句映射。
 - `tools/build_audio_assets.py`、`build_meaning_assets.py`、`build_scene_assets.py`、`build_practice_groups.py` 校验并内嵌全部已发布词包的静态映射。
-- `python3 tools/package_pages.py /workspace/output/laok-pages-v38.zip` 可生成本地平铺部署包，公开下载使用原入口自动提供当前 `gh-pages` 完整源码 ZIP，避免递归提交大 ZIP。
+- `python3 tools/package_pages.py /workspace/output/laok-pages-v39.zip` 可生成本地平铺部署包，公开下载使用原入口自动提供当前 `gh-pages` 完整源码 ZIP，避免递归提交大 ZIP。
 
 在仓库根目录运行 `python3 -m http.server 8000` 后，使用 Python Playwright 和 Chromium 核对：
 
 ```sh
+python3 tests/food_sections.py
 python3 tests/food_health.py
 python3 tests/food_forms.py
 python3 tests/family_daily.py
@@ -37,7 +38,7 @@ python3 tests/meaning_targets.py
 python3 tests/practice_groups.py
 python3 tests/audio_quality.py
 python3 tests/home_export.py
-python3 tests/pages_package.py /workspace/output/laok-pages-v38.zip
+python3 tests/pages_package.py /workspace/output/laok-pages-v39.zip
 ```
 
 当前实际通过范围见 [reports/test-report.md](reports/test-report.md)；历史教材流程测试仍作归档，未声称其通过当前仅词库版本。

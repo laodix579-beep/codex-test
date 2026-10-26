@@ -91,20 +91,15 @@ with sync_playwright() as p:
         page.goto(BASE + '#words/C05')
         page.locator(f'.mvp-subcategory[data-subcategory-id="{subid}"]').click()
         dialog = page.locator('#practice-group-dialog')
-        if gi<2:
-            assert int(dialog.locator('.practice-group-all b').inner_text()) == len(group['items'])
-            section = next(s for s in definitions if s['subcategoryId'] == subid)
-            for part in section['groups']:
-                assert int(dialog.locator(f'[data-practice-group="{part["id"]}"] b').inner_text()) == len(part['wordIds'])
-            part = section['groups'][0]
-            dialog.locator(f'[data-practice-group="{part["id"]}"]').click()
-            assert page.locator('#practice-jump option').count() == len(part['wordIds'])
-            assert page.locator('.translation-picture').get_attribute('data-scene-id') == part['wordIds'][0]
-            page.locator('.practice-back').click();page.wait_for_function('!document.querySelector("#lesson-dialog").open')
-        else:
-            assert not dialog.evaluate('e=>e.open')
-            assert page.locator('#practice-jump option').count()==len(group['items'])
-            page.locator('.practice-back').click();page.wait_for_function('!document.querySelector("#lesson-dialog").open')
+        assert int(dialog.locator('.practice-group-all b').inner_text()) == len(group['items'])
+        section = next(s for s in definitions if s['subcategoryId'] == subid)
+        for part in section['groups']:
+            assert int(dialog.locator(f'[data-practice-group="{part["id"]}"] b').inner_text()) == len(part['wordIds'])
+        part = section['groups'][0]
+        dialog.locator(f'[data-practice-group="{part["id"]}"]').click()
+        assert page.locator('#practice-jump option').count() == len(part['wordIds'])
+        assert page.locator('.translation-picture').get_attribute('data-scene-id') == part['wordIds'][0]
+        page.locator('.practice-back').click();page.wait_for_function('!document.querySelector("#lesson-dialog").open')
         page.goto(BASE + '#words/C05/' + subid)
         page.locator('.translation-blank').first.wait_for()
         for i, row in enumerate(group['items']):

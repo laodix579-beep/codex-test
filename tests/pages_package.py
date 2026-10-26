@@ -16,7 +16,7 @@ class Quiet(SimpleHTTPRequestHandler):
 
 with TemporaryDirectory(prefix='mvp-pages-') as directory:
  target=Path(directory)/'codex-test';target.mkdir()
- with zipfile.ZipFile(Path(sys.argv[1]) if len(sys.argv)>1 else Path('/workspace/output/laok-pages-v38.zip')) as archive:
+ with zipfile.ZipFile(Path(sys.argv[1]) if len(sys.argv)>1 else Path('/workspace/output/laok-pages-v39.zip')) as archive:
   assert archive.testzip() is None
   assert archive.read('index.html')==archive.read('小蛙自习室.html')==(ROOT/'index.html').read_bytes()
   assert archive.read('assets/home-hero.png')==(ROOT/'assets/home-hero.png').read_bytes()
@@ -82,7 +82,16 @@ with TemporaryDirectory(prefix='mvp-pages-') as directory:
      assert page.locator('.translation-blank').first.input_value()==''
      assert page.locator('#translation-previous').is_disabled()
      page.locator('.practice-back').click();page.wait_for_function('!document.querySelector("#lesson-dialog").open')
-     assert page.evaluate('async()=>{const r=await fetch("data/practice-groups.json");return (await r.json()).subcategories.length}')==17
+     assert page.evaluate('async()=>{const r=await fetch("data/practice-groups.json");return (await r.json()).subcategories.length}')==19
+    if not mobile:
+     page.goto(base+'#words/C05')
+     page.locator('.mvp-subcategory[data-subcategory-id="C05-S04"]').click()
+     assert page.locator('#practice-group-dialog .practice-group-all b').inner_text()=='44'
+     assert page.locator('#practice-group-dialog .practice-group-choice').count()==9
+     page.locator('#practice-group-dialog [data-practice-group="asking-for-help"]').click()
+     assert page.locator('#practice-jump option').count()==3
+     assert page.locator('.translation-picture').get_attribute('data-scene-id')=='C05-S06-042'
+     page.locator('.practice-back').click();page.wait_for_function('!document.querySelector("#lesson-dialog").open')
     page.goto(base+'#words/C01/C01-S01');page.locator('.translation-blank').wait_for()
     page.wait_for_function('document.querySelector(".translation-picture img")?.naturalWidth>0')
     assert page.locator('.translation-picture').get_attribute('data-scene-id')=='C01-S01-001'

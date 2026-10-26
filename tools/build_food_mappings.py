@@ -1,4 +1,4 @@
-"""Reviewed C05 meanings; source semantic groups within four existing entrances."""
+"""Reviewed C05 meanings; curated practice sections within four existing entrances."""
 import json
 import re
 from pathlib import Path
@@ -48,10 +48,13 @@ path.write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + '\n')
 windows = json.loads((ROOT / 'data/food-health-windows.json').read_text())['windows']
 path = ROOT / 'data/practice-groups.json';catalog = json.loads(path.read_text())
 catalog['subcategories'] = [r for r in catalog['subcategories'] if not r['subcategoryId'].startswith('C05-')]
-for w in windows:
-    if len(w['groups']) < 2:
-        continue  # Existing single-class entrances continue directly.
-    catalog['subcategories'].append({'subcategoryId': w['subcategoryId'], 'groups': [
-        {'id': g['sourceSubcategoryId'].lower(), 'name': g['name'], 'wordIds': g['wordIds']} for g in w['groups']]})
+sections = json.loads((ROOT / 'data/food-health-practice-sections.json').read_text())['subcategories']
+assert {s['subcategoryId'] for s in sections} == {w['subcategoryId'] for w in windows}
+for section in sections:
+    window = next(w for w in windows if w['subcategoryId'] == section['subcategoryId'])
+    expected = {i for group in window['groups'] for i in group['wordIds']}
+    actual = [i for group in section['groups'] for i in group['wordIds']]
+    assert len(actual) == len(set(actual)) and set(actual) == expected
+    catalog['subcategories'].append(section)
 path.write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + '\n')
-print('Reviewed 218 meanings; two composite windows and two existing single-class direct entrances.')
+print('Reviewed 218 meanings;', sum(len(s['groups']) for s in sections), 'practice sections across all four C05 entrances.')
