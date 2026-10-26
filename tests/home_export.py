@@ -131,11 +131,11 @@ with sync_playwright() as p:
    exported.locator('.practice-back').click();exported.wait_for_function('!document.querySelector("#lesson-dialog").open')
    exported.goto(f'http://127.0.0.1:{server.server_port}/#words/C05')
    exported.locator('.mvp-subcategory[data-subcategory-id="C05-S04"]').click()
-   assert exported.locator('#practice-group-dialog .practice-group-choice').count()==9
+   assert exported.locator('#practice-group-dialog .practice-group-choice').count()==3
    assert exported.locator('#practice-group-dialog .practice-group-all b').inner_text()=='44'
-   exported.locator('#practice-group-dialog [data-practice-group="asking-for-help"]').click()
-   assert exported.locator('#practice-jump option').count()==3
-   assert exported.locator('.translation-picture').get_attribute('data-scene-id')=='C05-S06-042'
+   exported.locator('#practice-group-dialog [data-practice-group="medical-care-and-recovery"]').click()
+   assert exported.locator('#practice-jump option').count()==15
+   assert exported.locator('.translation-picture').get_attribute('data-scene-id')=='C05-S06-030'
    exported.locator('.practice-back').click();exported.wait_for_function('!document.querySelector("#lesson-dialog").open')
    exported.goto(f'http://127.0.0.1:{server.server_port}/#words/C05/C05-S01')
    exported.locator('.translation-blank').first.wait_for()

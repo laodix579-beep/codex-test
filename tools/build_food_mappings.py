@@ -48,7 +48,11 @@ path.write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + '\n')
 windows = json.loads((ROOT / 'data/food-health-windows.json').read_text())['windows']
 path = ROOT / 'data/practice-groups.json';catalog = json.loads(path.read_text())
 catalog['subcategories'] = [r for r in catalog['subcategories'] if not r['subcategoryId'].startswith('C05-')]
-sections = json.loads((ROOT / 'data/food-health-practice-sections.json').read_text())['subcategories']
+definition = json.loads((ROOT / 'data/food-health-practice-sections.json').read_text())
+sections = definition['subcategories']
+size = definition['groupSizePolicy']
+assert size == {'min': 10, 'max': 25}
+assert all(size['min'] <= len(g['wordIds']) <= size['max'] for section in sections for g in section['groups'])
 assert {s['subcategoryId'] for s in sections} == {w['subcategoryId'] for w in windows}
 for section in sections:
     window = next(w for w in windows if w['subcategoryId'] == section['subcategoryId'])

@@ -1,4 +1,4 @@
-"""Exercise every refined C05 choice and preserve actual v38 learner state."""
+"""Exercise every refined C05 choice and preserve actual v39 learner state."""
 import hashlib
 import json
 from pathlib import Path
@@ -8,14 +8,16 @@ from playwright.sync_api import sync_playwright
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = 'http://127.0.0.1:8000/'
-BASELINE = 'c6f59f735f3afefa51862a3d8b3169c182232289'
+BASELINE = 'c20b1fa11f6c64f59d4fa717c8f49184ef4132f5'
 old_html = subprocess.check_output(['git', 'show', BASELINE + ':index.html'], text=True)
 html = (ROOT / 'index.html').read_text()
 pattern = r'<script id="practice-group-library">.*?</script>\s*'
-assert re.sub(pattern, '', html, flags=re.S) == re.sub(pattern, '', old_html, flags=re.S).replace('frog-food-health-v38', 'frog-food-sections-v39')
+assert re.sub(pattern, '', html, flags=re.S) == re.sub(pattern, '', old_html, flags=re.S).replace('frog-food-sections-v39', 'frog-food-groups-v40')
 sections = json.loads((ROOT / 'data/food-health-practice-sections.json').read_text())['subcategories']
-assert [len(s['groups']) for s in sections] == [11, 11, 6, 9]
+assert [len(s['groups']) for s in sections] == [4, 5, 2, 3]
 assert sum(len(g['wordIds']) for s in sections for g in s['groups']) == 218
+assert all(10 <= len(g['wordIds']) <= 25 for s in sections for g in s['groups'])
+assert [[len(g['wordIds']) for g in s['groups']] for s in sections] == [[13,18,18,15],[17,13,13,14,12],[22,19],[11,18,15]]
 old_groups = json.loads(subprocess.check_output(['git', 'show', BASELINE + ':data/practice-groups.json']))
 groups = json.loads((ROOT / 'data/practice-groups.json').read_text())
 assert [s for s in groups['subcategories'] if not s['subcategoryId'].startswith('C05-')] == [s for s in old_groups['subcategories'] if not s['subcategoryId'].startswith('C05-')]
@@ -85,11 +87,11 @@ with sync_playwright() as p:
     # Seed the state with the real old application, then load the updated one.
     context = browser.new_context(viewport={'width': 1440, 'height': 900}, service_workers='block')
     page = context.new_page()
-    page.route(BASE + '?legacy-food-v38', lambda route: route.fulfill(body=old_html, content_type='text/html; charset=utf-8'), times=1)
-    page.goto(BASE + '?legacy-food-v38#home')
+    page.route(BASE + '?legacy-food-v39', lambda route: route.fulfill(body=old_html, content_type='text/html; charset=utf-8'), times=1)
+    page.goto(BASE + '?legacy-food-v39#home')
     legacy = page.evaluate('''()=>{const k=document.body.dataset.storageKey,s=JSON.parse(localStorage.getItem(k));
-      const ids=s.words.filter(w=>w.id.startsWith('C05-S03-')).map(w=>w.id);
-      s.practiceResume={ids,wordId:ids[5],answered:false,finished:false};
+      const ids=s.words.filter(w=>['C05-S06-001','C05-S06-002','C05-S06-003','C05-S06-004'].includes(w.id)).map(w=>w.id);
+      s.practiceResume={ids,wordId:ids[1],answered:false,finished:false};
       s.wordStatus['C05-S06-001']='mastered';s.wordStatus['C05-S05-002']='unfamiliar';
       s.settings.userName='原健康学习者';s.settings.grade='四年级';s.settings.volume=.35;
       s.favorites=['C05-S06-001'];s.notes=[{id:'keep-food-note',title:'原笔记',body:'细分后仍保留',createdAt:'2026-10-01T00:00:00Z',updatedAt:'2026-10-01T00:00:00Z'}];
@@ -105,11 +107,11 @@ with sync_playwright() as p:
     assert stored()['practiceResume'] == legacy['practiceResume']
     page.goto(BASE + '#home')
     page.locator('.home-resume-card [data-action="resume-desktop"]').click()
-    assert page.locator('#practice-jump option').count() == 43
+    assert page.locator('#practice-jump option').count() == 4
     assert page.locator('.translation-picture').get_attribute('data-scene-id') == legacy['practiceResume']['wordId']
     close_practice()
     choose('C05-S04')
-    page.locator('[data-practice-group="health-status"]').click()
+    page.locator('[data-practice-group="health-and-feelings"]').click()
     page.locator('.translation-blank').first.fill('healthy')
     page.locator('#translation-submit').click()
     page.locator('.mvp-solved-actions [data-action="next-item"]').click()
@@ -117,7 +119,7 @@ with sync_playwright() as p:
     close_practice()
     page.goto(BASE + '#home');page.reload()
     page.locator('.home-resume-card [data-action="resume-desktop"]').click()
-    assert page.locator('#practice-jump option').count() == 4
+    assert page.locator('#practice-jump option').count() == 11
     assert page.locator('.translation-picture').get_attribute('data-scene-id') == 'C05-S06-002'
     page.locator('#translation-previous').click()
     page.locator('#restart-practice-group').click()
@@ -131,13 +133,13 @@ with sync_playwright() as p:
       localStorage.setItem(k,JSON.stringify(s));}''')
     page.reload();before = stored();choose('C05-S04')
     assert page.locator('.practice-group-all b').inner_text() == '44'
-    assert page.locator('[data-practice-group="health-status"] b').inner_text() == '3'
+    assert page.locator('[data-practice-group="health-and-feelings"] b').inner_text() == '10'
     assert page.locator('[data-practice-group="other"] b').inner_text() == '1'
     page.locator('[data-practice-group="other"]').click()
     assert stored()['practiceResume']['ids'] == ['custom-food-health']
     for key in ['words', 'wordStatus', 'settings', 'favorites', 'notes', 'plan', 'contentPacks']:
         assert stored()[key] == before[key], key
-    print('PASS: real v38 records and old 43-word subset resume retained; refined subset grading, reload/resume, previous/restart and dynamic user edits work', flush=True)
+    print('PASS: real v39 records and old four-word subset resume retained; refined subset grading, reload/resume, previous/restart and dynamic user edits work', flush=True)
     assert not errors, errors
     context.close();browser.close()
-print('COMPLETE: all 37 detailed C05 sections and learner-state preservation passed', flush=True)
+print('COMPLETE: all 14 merged C05 sections and learner-state preservation passed', flush=True)
