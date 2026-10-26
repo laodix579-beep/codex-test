@@ -1,5 +1,5 @@
 {
-  "version": "meaning-v28",
+  "version": "meaning-v30",
   "entries": [
     {
       "id": "C01-S01-001",
@@ -2298,6 +2298,3719 @@
       "mode": "usage",
       "spans": [],
       "usage": "用于询问尺寸或大小；本句中文整体说“有多大”，不与其中某一个字单独对应。",
+      "note": ""
+    },
+    {
+      "id": "C02-S01-001",
+      "word": "time",
+      "meaning": "时间",
+      "english": "What time is it?",
+      "chinese": "现在几点了？",
+      "mode": "usage",
+      "spans": [],
+      "usage": "用于询问钟表时间；本句中文整体说“现在几点了”，不把其中一个字单独等同于“时间”。",
+      "note": ""
+    },
+    {
+      "id": "C02-S01-002",
+      "word": "clock",
+      "meaning": "钟；时钟",
+      "english": "The clock is on the wall.",
+      "chinese": "钟挂在墙上。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 1,
+          "text": "钟"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S01-003",
+      "word": "watch",
+      "meaning": "手表",
+      "english": "My watch is new.",
+      "chinese": "我的手表是新的。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "手表"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S01-004",
+      "word": "hour",
+      "meaning": "小时",
+      "english": "An hour has sixty minutes.",
+      "chinese": "一小时有六十分钟。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "小时"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S01-005",
+      "word": "minute",
+      "meaning": "分钟",
+      "english": "Wait one minute, please.",
+      "chinese": "请等一分钟。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "分钟"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S01-006",
+      "word": "second",
+      "meaning": "秒",
+      "english": "One minute has sixty seconds.",
+      "chinese": "一分钟有六十秒。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 7,
+          "text": "秒"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S01-007",
+      "word": "o'clock",
+      "meaning": "……点整",
+      "english": "It is six o'clock.",
+      "chinese": "现在六点整。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "点整"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S01-008",
+      "word": "past",
+      "meaning": "过（钟表时间）",
+      "english": "It is ten past three.",
+      "chinese": "现在三点十分。",
+      "mode": "usage",
+      "spans": [],
+      "usage": "表示整点过了多少分钟；本句为三点过十分，中文通常直接说“三点十分”。",
+      "note": ""
+    },
+    {
+      "id": "C02-S01-009",
+      "word": "to",
+      "meaning": "差（钟表时间）",
+      "english": "It is ten to four.",
+      "chinese": "现在差十分四点。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 3,
+          "text": "差"
+        }
+      ],
+      "usage": "",
+      "note": "这里用于钟表读法，表示距离下一个整点还差多少分钟，不是表示方向。"
+    },
+    {
+      "id": "C02-S01-010",
+      "word": "half past",
+      "meaning": "……点半",
+      "english": "It is half past seven.",
+      "chinese": "现在七点半。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "点半"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S01-011",
+      "word": "quarter past",
+      "meaning": "……点十五分",
+      "english": "It is quarter past eight.",
+      "chinese": "现在八点十五分。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 7,
+          "text": "十五分"
+        }
+      ],
+      "usage": "",
+      "note": "一刻钟是15分钟；本句表示八点过一刻，即八点十五分。"
+    },
+    {
+      "id": "C02-S01-012",
+      "word": "quarter to",
+      "meaning": "差十五分……点",
+      "english": "It is quarter to nine.",
+      "chinese": "现在差一刻九点。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 5,
+          "text": "差一刻"
+        }
+      ],
+      "usage": "",
+      "note": "一刻钟是15分钟；差一刻九点即八点四十五分。"
+    },
+    {
+      "id": "C02-S01-013",
+      "word": "noon",
+      "meaning": "中午十二点",
+      "english": "We eat lunch at noon.",
+      "chinese": "我们中午十二点吃午饭。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 7,
+          "text": "中午十二点"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S01-014",
+      "word": "midday",
+      "meaning": "正午；中午",
+      "english": "The sun is high at midday.",
+      "chinese": "正午时太阳很高。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "正午"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S01-015",
+      "word": "midnight",
+      "meaning": "午夜；半夜十二点",
+      "english": "The film ends at midnight.",
+      "chinese": "电影在午夜结束。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "午夜"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S01-016",
+      "word": "morning",
+      "meaning": "早晨；上午",
+      "english": "I read in the morning.",
+      "chinese": "我早上阅读。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "早上"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S01-017",
+      "word": "afternoon",
+      "meaning": "下午",
+      "english": "We play in the afternoon.",
+      "chinese": "我们下午玩耍。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "下午"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S01-018",
+      "word": "evening",
+      "meaning": "傍晚；晚上",
+      "english": "I do homework in the evening.",
+      "chinese": "我晚上做作业。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "晚上"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S01-019",
+      "word": "night",
+      "meaning": "夜晚",
+      "english": "The stars shine at night.",
+      "chinese": "星星在夜晚闪耀。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "夜晚"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S01-020",
+      "word": "dawn",
+      "meaning": "黎明；拂晓",
+      "english": "Birds sing at dawn.",
+      "chinese": "鸟儿在黎明时歌唱。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "黎明"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S01-021",
+      "word": "sunrise",
+      "meaning": "日出",
+      "english": "We watched the sunrise.",
+      "chinese": "我们看了日出。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "日出"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S01-022",
+      "word": "sunset",
+      "meaning": "日落",
+      "english": "The sky is orange at sunset.",
+      "chinese": "日落时天空是橙色的。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "日落"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S01-023",
+      "word": "today",
+      "meaning": "今天",
+      "english": "Today is a school day.",
+      "chinese": "今天是上学日。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "今天"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S01-024",
+      "word": "tomorrow",
+      "meaning": "明天",
+      "english": "See you tomorrow.",
+      "chinese": "明天见。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "明天"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S01-025",
+      "word": "yesterday",
+      "meaning": "昨天",
+      "english": "It was sunny yesterday.",
+      "chinese": "昨天是晴天。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "昨天"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S01-026",
+      "word": "tonight",
+      "meaning": "今晚",
+      "english": "We will read tonight.",
+      "chinese": "我们今晚会阅读。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "今晚"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S01-027",
+      "word": "now",
+      "meaning": "现在",
+      "english": "I am busy now.",
+      "chinese": "我现在很忙。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "现在"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S01-028",
+      "word": "later",
+      "meaning": "稍后；后来",
+      "english": "I will call you later.",
+      "chinese": "我稍后给你打电话。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "稍后"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S01-029",
+      "word": "soon",
+      "meaning": "很快；不久",
+      "english": "The bus will come soon.",
+      "chinese": "公交车很快就会来。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "很快"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S01-030",
+      "word": "early",
+      "meaning": "早；提早",
+      "english": "I get up early.",
+      "chinese": "我起得早。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 4,
+          "text": "早"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S01-031",
+      "word": "late",
+      "meaning": "迟；晚",
+      "english": "Do not be late for school.",
+      "chinese": "上学不要迟到。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "迟到"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S01-032",
+      "word": "before",
+      "meaning": "在……之前",
+      "english": "Wash your hands before lunch.",
+      "chinese": "午饭前洗手。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 3,
+          "text": "前"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S01-033",
+      "word": "after",
+      "meaning": "在……之后",
+      "english": "I play after school.",
+      "chinese": "我放学后玩耍。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 4,
+          "text": "后"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S01-034",
+      "word": "daily",
+      "meaning": "每日的；每天",
+      "english": "This is my daily routine.",
+      "chinese": "这是我的日常安排。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "日常"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S01-035",
+      "word": "every day",
+      "meaning": "每天",
+      "english": "I read every day.",
+      "chinese": "我每天阅读。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "每天"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S01-036",
+      "word": "once",
+      "meaning": "一次",
+      "english": "I visit Grandma once a week.",
+      "chinese": "我每周看望奶奶一次。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 9,
+          "text": "一次"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S01-037",
+      "word": "twice",
+      "meaning": "两次",
+      "english": "I brush my teeth twice a day.",
+      "chinese": "我每天刷两次牙。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "两次"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S01-038",
+      "word": "always",
+      "meaning": "总是；一直",
+      "english": "I always pack my bag at night.",
+      "chinese": "我总是在晚上整理书包。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "总是"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S01-039",
+      "word": "sometimes",
+      "meaning": "有时",
+      "english": "Sometimes I walk to school.",
+      "chinese": "有时我步行去学校。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "有时"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S01-040",
+      "word": "never",
+      "meaning": "从不；绝不",
+      "english": "I never go to bed with my shoes on.",
+      "chinese": "我从不穿着鞋睡觉。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "从不"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S01-041",
+      "word": "bedtime",
+      "meaning": "就寝时间",
+      "english": "My bedtime is nine o’clock.",
+      "chinese": "我的就寝时间是九点。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 6,
+          "text": "就寝时间"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S01-042",
+      "word": "wake-up time",
+      "meaning": "起床时间",
+      "english": "My wake-up time is seven.",
+      "chinese": "我的起床时间是七点。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 6,
+          "text": "起床时间"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S01-043",
+      "word": "What time is it?",
+      "meaning": "现在几点了？",
+      "english": "What time is it now?",
+      "chinese": "现在几点了？",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 5,
+          "text": "现在几点了"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S01-044",
+      "word": "It's seven o'clock.",
+      "meaning": "现在七点整。",
+      "english": "It's seven o'clock. Let's go.",
+      "chinese": "现在七点整。我们走吧。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 5,
+          "text": "现在七点整"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S01-045",
+      "word": "It's half past eight.",
+      "meaning": "现在八点半。",
+      "english": "It's half past eight. Time for school.",
+      "chinese": "现在八点半了，该上学了。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 6,
+          "text": "现在八点半了"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S01-046",
+      "word": "in the morning",
+      "meaning": "在早上；在上午",
+      "english": "I eat breakfast in the morning.",
+      "chinese": "我早上吃早餐。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "早上"
+        }
+      ],
+      "usage": "",
+      "note": "英语用时间介词短语，中文自然表达时直接说“早上”。"
+    },
+    {
+      "id": "C02-S01-047",
+      "word": "in the afternoon",
+      "meaning": "在下午",
+      "english": "We have a lesson in the afternoon.",
+      "chinese": "我们下午有一节课。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "下午"
+        }
+      ],
+      "usage": "",
+      "note": "英语用时间介词短语，中文自然表达时直接说“下午”。"
+    },
+    {
+      "id": "C02-S01-048",
+      "word": "at night",
+      "meaning": "在夜晚",
+      "english": "It is quiet at night.",
+      "chinese": "夜晚很安静。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "夜晚"
+        }
+      ],
+      "usage": "",
+      "note": "英语用时间介词短语，中文自然表达时直接说“夜晚”。"
+    },
+    {
+      "id": "C02-S01-049",
+      "word": "on time",
+      "meaning": "准时",
+      "english": "The train arrived on time.",
+      "chinese": "火车准时到达。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "准时"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S01-050",
+      "word": "in time",
+      "meaning": "及时；来得及",
+      "english": "We got there in time.",
+      "chinese": "我们及时赶到了。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "及时"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S01-051",
+      "word": "What time do you get up?",
+      "meaning": "你几点起床？",
+      "english": "What time do you get up on school days?",
+      "chinese": "上学日你几点起床？",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 8,
+          "text": "你几点起床"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S01-052",
+      "word": "I get up at seven.",
+      "meaning": "我七点起床。",
+      "english": "I get up at seven every morning.",
+      "chinese": "我每天早上七点起床。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 1,
+          "text": "我"
+        },
+        {
+          "start": 5,
+          "end": 9,
+          "text": "七点起床"
+        }
+      ],
+      "usage": "",
+      "note": "“每天早上”对应英语中额外的时间短语；当前作答句型对应“我……七点起床”。"
+    },
+    {
+      "id": "C02-S02-001",
+      "word": "day",
+      "meaning": "天；一天",
+      "english": "There are seven days in a week.",
+      "chinese": "一周有七天。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 5,
+          "text": "天"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-002",
+      "word": "weekday",
+      "meaning": "工作日；周一至周五中的一天",
+      "english": "Monday is a weekday.",
+      "chinese": "星期一是工作日。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 7,
+          "text": "工作日"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-003",
+      "word": "weekend",
+      "meaning": "周末",
+      "english": "I play football at the weekend.",
+      "chinese": "我周末踢足球。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "周末"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-004",
+      "word": "calendar",
+      "meaning": "日历",
+      "english": "The calendar is on the desk.",
+      "chinese": "日历在书桌上。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "日历"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-005",
+      "word": "date",
+      "meaning": "日期",
+      "english": "What is the date today?",
+      "chinese": "今天是几号？",
+      "mode": "usage",
+      "spans": [],
+      "usage": "本句是在询问日期，中文整体用“今天是几号”表达，不单独写出“日期”。",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-006",
+      "word": "school day",
+      "meaning": "上学日",
+      "english": "Tuesday is a school day.",
+      "chinese": "星期二是上学日。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 7,
+          "text": "上学日"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-007",
+      "word": "day off",
+      "meaning": "休息日；不上班/不上学的一天",
+      "english": "Sunday is my day off.",
+      "chinese": "星期日是我的休息日。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 9,
+          "text": "休息日"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-008",
+      "word": "birthday",
+      "meaning": "生日",
+      "english": "My birthday is in June.",
+      "chinese": "我的生日在六月。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "生日"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-009",
+      "word": "holiday",
+      "meaning": "假日；假期",
+      "english": "We visit Grandma during the holiday.",
+      "chinese": "假期里我们去看奶奶。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "假期"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-010",
+      "word": "public holiday",
+      "meaning": "公共假日；法定假日",
+      "english": "The bank is closed on the public holiday.",
+      "chinese": "银行在公共假日休息。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 7,
+          "text": "公共假日"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-011",
+      "word": "school holiday",
+      "meaning": "学校假期",
+      "english": "We travel during the school holiday.",
+      "chinese": "学校放假时我们去旅行。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 4,
+          "text": "学校放假"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-012",
+      "word": "anniversary",
+      "meaning": "周年纪念日",
+      "english": "Today is their wedding anniversary.",
+      "chinese": "今天是他们的结婚纪念日。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 8,
+          "end": 11,
+          "text": "纪念日"
+        }
+      ],
+      "usage": "",
+      "note": "本句为结婚周年纪念日；“结婚”是前面已给出修饰词的意思，当前词对应“纪念日”。"
+    },
+    {
+      "id": "C02-S02-013",
+      "word": "appointment",
+      "meaning": "预约；约定的时间",
+      "english": "I have a doctor's appointment on Friday.",
+      "chinese": "我星期五有医生预约。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 9,
+          "text": "预约"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-014",
+      "word": "schedule",
+      "meaning": "日程安排；时间表",
+      "english": "Check the school schedule.",
+      "chinese": "查看学校日程表。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 7,
+          "text": "日程表"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-015",
+      "word": "Monday",
+      "meaning": "星期一",
+      "english": "I have English on Monday.",
+      "chinese": "我星期一有英语课。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 4,
+          "text": "星期一"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-016",
+      "word": "Tuesday",
+      "meaning": "星期二",
+      "english": "We swim on Tuesday.",
+      "chinese": "我们星期二游泳。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 5,
+          "text": "星期二"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-017",
+      "word": "Wednesday",
+      "meaning": "星期三",
+      "english": "I read on Wednesday.",
+      "chinese": "我星期三阅读。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 4,
+          "text": "星期三"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-018",
+      "word": "Thursday",
+      "meaning": "星期四",
+      "english": "I visit the library on Thursday.",
+      "chinese": "我星期四去图书馆。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 4,
+          "text": "星期四"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-019",
+      "word": "Friday",
+      "meaning": "星期五",
+      "english": "Friday is my last school day this week.",
+      "chinese": "星期五是我这周最后一个上学日。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "星期五"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-020",
+      "word": "Saturday",
+      "meaning": "星期六",
+      "english": "We play in the park on Saturday.",
+      "chinese": "我们星期六在公园玩。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 5,
+          "text": "星期六"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-021",
+      "word": "Sunday",
+      "meaning": "星期日",
+      "english": "I help my family on Sunday.",
+      "chinese": "我星期日帮家里做事。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 4,
+          "text": "星期日"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-022",
+      "word": "every Monday",
+      "meaning": "每个星期一",
+      "english": "We have a test every Monday.",
+      "chinese": "我们每个星期一都有测验。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 7,
+          "text": "每个星期一"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-023",
+      "word": "from Monday to Friday",
+      "meaning": "从星期一到星期五",
+      "english": "I go to school from Monday to Friday.",
+      "chinese": "我星期一到星期五上学。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 8,
+          "text": "星期一到星期五"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-024",
+      "word": "at the weekend",
+      "meaning": "在周末",
+      "english": "I ride my bike at the weekend.",
+      "chinese": "我周末骑自行车。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "周末"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-025",
+      "word": "this week",
+      "meaning": "这周",
+      "english": "We have three tests this week.",
+      "chinese": "我们这周有三次测验。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "这周"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-026",
+      "word": "next week",
+      "meaning": "下周",
+      "english": "We will visit the museum next week.",
+      "chinese": "我们下周会去博物馆。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "下周"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-027",
+      "word": "last week",
+      "meaning": "上周",
+      "english": "I saw my cousin last week.",
+      "chinese": "我上周见了我的表亲。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "上周"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-028",
+      "word": "What day is it today?",
+      "meaning": "今天星期几？",
+      "english": "What day is it today?",
+      "chinese": "今天星期几？",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 5,
+          "text": "今天星期几"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-029",
+      "word": "What is the date today?",
+      "meaning": "今天是几号？",
+      "english": "What is the date today?",
+      "chinese": "今天是几号？",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 5,
+          "text": "今天是几号"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-030",
+      "word": "Today is Monday.",
+      "meaning": "今天是星期一。",
+      "english": "Today is Monday, so school starts again.",
+      "chinese": "今天是星期一，所以又要上学了。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 6,
+          "text": "今天是星期一"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-031",
+      "word": "the first",
+      "meaning": "第一；1日",
+      "english": "The first is a Monday this month.",
+      "chinese": "这个月的一号是星期一。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "一号"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-032",
+      "word": "the second",
+      "meaning": "第二；2日",
+      "english": "The second of May is a school day.",
+      "chinese": "五月二日是上学日。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "二日"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-033",
+      "word": "the third",
+      "meaning": "第三；3日",
+      "english": "Her birthday is on the third of July.",
+      "chinese": "她的生日是七月三日。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 9,
+          "text": "三日"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-034",
+      "word": "the fourth",
+      "meaning": "第四；4日",
+      "english": "The fourth of April is on Friday.",
+      "chinese": "四月四日是星期五。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "四日"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-035",
+      "word": "the fifth",
+      "meaning": "第五；5日",
+      "english": "My birthday is on the fifth of June.",
+      "chinese": "我的生日是六月五日。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 9,
+          "text": "五日"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-036",
+      "word": "the sixth",
+      "meaning": "第六；6日",
+      "english": "The sixth of March is a Thursday.",
+      "chinese": "三月六日是星期四。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "六日"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-037",
+      "word": "the seventh",
+      "meaning": "第七；7日",
+      "english": "The seventh day is Sunday.",
+      "chinese": "第七天是星期日。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "第七"
+        }
+      ],
+      "usage": "",
+      "note": "本句表示顺序中的“第七天”，不是日历日期7日。"
+    },
+    {
+      "id": "C02-S02-038",
+      "word": "the eighth",
+      "meaning": "第八；8日",
+      "english": "The eighth of August is my holiday.",
+      "chinese": "八月八日是我的假期。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "八日"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-039",
+      "word": "the ninth",
+      "meaning": "第九；9日",
+      "english": "The ninth page is missing.",
+      "chinese": "第九页不见了。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "第九"
+        }
+      ],
+      "usage": "",
+      "note": "本句表示页码顺序“第九页”，不是日历日期9日。"
+    },
+    {
+      "id": "C02-S02-040",
+      "word": "the tenth",
+      "meaning": "第十；10日",
+      "english": "The tenth of October is a Friday.",
+      "chinese": "十月十日是星期五。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "十日"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-041",
+      "word": "the eleventh",
+      "meaning": "第十一；11日",
+      "english": "The eleventh is her birthday.",
+      "chinese": "十一日是她的生日。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "十一日"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-042",
+      "word": "the twelfth",
+      "meaning": "第十二；12日",
+      "english": "The twelfth of December is a school day.",
+      "chinese": "十二月十二日是上学日。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 6,
+          "text": "十二日"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-043",
+      "word": "the thirteenth",
+      "meaning": "第十三；13日",
+      "english": "The thirteenth is on Saturday.",
+      "chinese": "十三日是星期六。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "十三日"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-044",
+      "word": "the fourteenth",
+      "meaning": "第十四；14日",
+      "english": "The fourteenth of February is Valentine’s Day.",
+      "chinese": "二月十四日是情人节。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 5,
+          "text": "十四日"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-045",
+      "word": "the fifteenth",
+      "meaning": "第十五；15日",
+      "english": "The fifteenth is halfway through the month.",
+      "chinese": "十五日是这个月的中间。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "十五日"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-046",
+      "word": "the sixteenth",
+      "meaning": "第十六；16日",
+      "english": "The sixteenth of May is our school trip.",
+      "chinese": "五月十六日是我们的学校旅行日。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 5,
+          "text": "十六日"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-047",
+      "word": "the seventeenth",
+      "meaning": "第十七；17日",
+      "english": "The seventeenth is on Tuesday.",
+      "chinese": "十七日是星期二。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "十七日"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-048",
+      "word": "the eighteenth",
+      "meaning": "第十八；18日",
+      "english": "The eighteenth of July is a holiday.",
+      "chinese": "七月十八日是假日。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 5,
+          "text": "十八日"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-049",
+      "word": "the nineteenth",
+      "meaning": "第十九；19日",
+      "english": "The nineteenth is my last day here.",
+      "chinese": "十九日是我在这里的最后一天。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "十九日"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-050",
+      "word": "the twentieth",
+      "meaning": "第二十；20日",
+      "english": "The twentieth is a Monday.",
+      "chinese": "二十日是星期一。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "二十日"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-051",
+      "word": "the twenty-first",
+      "meaning": "第二十一；21日",
+      "english": "The twenty-first is a Sunday.",
+      "chinese": "二十一日是星期日。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 4,
+          "text": "二十一日"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-052",
+      "word": "the twenty-second",
+      "meaning": "第二十二；22日",
+      "english": "The twenty-second is my appointment.",
+      "chinese": "二十二日是我的预约日期。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 4,
+          "text": "二十二日"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-053",
+      "word": "the twenty-third",
+      "meaning": "第二十三；23日",
+      "english": "The twenty-third is the school concert.",
+      "chinese": "二十三日是学校音乐会。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 4,
+          "text": "二十三日"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-054",
+      "word": "the twenty-fourth",
+      "meaning": "第二十四；24日",
+      "english": "The twenty-fourth of December is Christmas Eve.",
+      "chinese": "十二月二十四日是平安夜。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 7,
+          "text": "二十四日"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-055",
+      "word": "the twenty-fifth",
+      "meaning": "第二十五；25日",
+      "english": "The twenty-fifth of December is Christmas Day.",
+      "chinese": "十二月二十五日是圣诞节。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 7,
+          "text": "二十五日"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-056",
+      "word": "the twenty-sixth",
+      "meaning": "第二十六；26日",
+      "english": "The twenty-sixth is a public holiday in some countries.",
+      "chinese": "在一些国家，二十六日是公共假日。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 10,
+          "text": "二十六日"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-057",
+      "word": "the twenty-seventh",
+      "meaning": "第二十七；27日",
+      "english": "The twenty-seventh is a Friday.",
+      "chinese": "二十七日是星期五。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 4,
+          "text": "二十七日"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-058",
+      "word": "the twenty-eighth",
+      "meaning": "第二十八；28日",
+      "english": "February has twenty-eight days in a common year.",
+      "chinese": "平年二月有二十八天。",
+      "mode": "usage",
+      "spans": [],
+      "usage": "词条为序数“第二十八／28日”，上传例句用的是数量“二十八”；保留原文，按原有单词拼写方式练习词条。",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-059",
+      "word": "the twenty-ninth",
+      "meaning": "第二十九；29日",
+      "english": "February has a twenty-ninth day in a leap year.",
+      "chinese": "闰年的二月有二十九日。",
+      "mode": "usage",
+      "spans": [],
+      "usage": "词条包含定冠词，上传例句中的序数前用的是不定冠词；保留原文，按原有单词拼写方式练习完整词条。",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-060",
+      "word": "the thirtieth",
+      "meaning": "第三十；30日",
+      "english": "The thirtieth is near the end of the month.",
+      "chinese": "三十日接近月底。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "三十日"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S02-061",
+      "word": "the thirty-first",
+      "meaning": "第三十一；31日",
+      "english": "Some months have a thirty-first day.",
+      "chinese": "有些月份有三十一日。",
+      "mode": "usage",
+      "spans": [],
+      "usage": "词条包含定冠词，上传例句中的序数前用的是不定冠词；保留原文，按原有单词拼写方式练习完整词条。",
+      "note": ""
+    },
+    {
+      "id": "C02-S03-001",
+      "word": "month",
+      "meaning": "月；月份",
+      "english": "There are twelve months in a year.",
+      "chinese": "一年有十二个月。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 7,
+          "text": "月"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S03-002",
+      "word": "year",
+      "meaning": "年；一年",
+      "english": "A year has twelve months.",
+      "chinese": "一年有十二个月。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 2,
+          "text": "年"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S03-003",
+      "word": "January",
+      "meaning": "一月",
+      "english": "January is the first month of the year.",
+      "chinese": "一月是一年中的第一个月。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "一月"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S03-004",
+      "word": "February",
+      "meaning": "二月",
+      "english": "February is the shortest month in a common year.",
+      "chinese": "平年二月是天数最少的月份。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "二月"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S03-005",
+      "word": "March",
+      "meaning": "三月",
+      "english": "Spring begins in March in many places.",
+      "chinese": "在许多地方，春季从三月开始。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 9,
+          "end": 11,
+          "text": "三月"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S03-006",
+      "word": "April",
+      "meaning": "四月",
+      "english": "April can be rainy.",
+      "chinese": "四月可能多雨。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "四月"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S03-007",
+      "word": "May",
+      "meaning": "五月",
+      "english": "Flowers grow in May.",
+      "chinese": "花儿在五月生长。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "五月"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S03-008",
+      "word": "June",
+      "meaning": "六月",
+      "english": "June is often warm.",
+      "chinese": "六月通常比较暖和。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "六月"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S03-009",
+      "word": "July",
+      "meaning": "七月",
+      "english": "We have a holiday in July.",
+      "chinese": "我们七月有假期。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "七月"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S03-010",
+      "word": "August",
+      "meaning": "八月",
+      "english": "August can be hot.",
+      "chinese": "八月可能很热。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "八月"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S03-011",
+      "word": "September",
+      "meaning": "九月",
+      "english": "School often starts in September.",
+      "chinese": "学校通常在九月开学。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "九月"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S03-012",
+      "word": "October",
+      "meaning": "十月",
+      "english": "The leaves turn yellow in October.",
+      "chinese": "树叶在十月变黄。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "十月"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S03-013",
+      "word": "November",
+      "meaning": "十一月",
+      "english": "November can be cold.",
+      "chinese": "十一月可能很冷。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "十一月"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S03-014",
+      "word": "December",
+      "meaning": "十二月",
+      "english": "December is the last month of the year.",
+      "chinese": "十二月是一年中的最后一个月。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "十二月"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S03-015",
+      "word": "this month",
+      "meaning": "这个月",
+      "english": "We have a school trip this month.",
+      "chinese": "我们这个月有学校旅行。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 5,
+          "text": "这个月"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S03-016",
+      "word": "next month",
+      "meaning": "下个月",
+      "english": "My birthday is next month.",
+      "chinese": "我的生日在下个月。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 8,
+          "text": "下个月"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S03-017",
+      "word": "last month",
+      "meaning": "上个月",
+      "english": "I started this book last month.",
+      "chinese": "我上个月开始读这本书。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 4,
+          "text": "上个月"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S03-018",
+      "word": "every month",
+      "meaning": "每个月",
+      "english": "We visit the library every month.",
+      "chinese": "我们每个月都去图书馆。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 5,
+          "text": "每个月"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S03-019",
+      "word": "monthly",
+      "meaning": "每月的；每月一次地",
+      "english": "We have a monthly meeting.",
+      "chinese": "我们每个月开一次会。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 5,
+          "text": "每个月"
+        },
+        {
+          "start": 6,
+          "end": 8,
+          "text": "一次"
+        }
+      ],
+      "usage": "",
+      "note": "这里表示每月一次的例会，中文分开说“每个月……一次”。"
+    },
+    {
+      "id": "C02-S03-020",
+      "word": "leap year",
+      "meaning": "闰年",
+      "english": "A leap year has 366 days.",
+      "chinese": "闰年有三百六十六天。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "闰年"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S03-021",
+      "word": "common year",
+      "meaning": "平年",
+      "english": "A common year has 365 days.",
+      "chinese": "平年有三百六十五天。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "平年"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S03-022",
+      "word": "calendar year",
+      "meaning": "公历年；日历年",
+      "english": "A calendar year starts in January.",
+      "chinese": "公历年从一月开始。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "公历年"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S03-023",
+      "word": "New Year's Day",
+      "meaning": "元旦；新年第一天",
+      "english": "New Year's Day is on the first of January.",
+      "chinese": "元旦是一月一日。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "元旦"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S03-024",
+      "word": "New Year's Eve",
+      "meaning": "除夕；新年前夜",
+      "english": "We stay up late on New Year's Eve.",
+      "chinese": "除夕夜我们会晚睡。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "除夕夜"
+        }
+      ],
+      "usage": "",
+      "note": "这里是公历12月31日的新年前夜，不特指农历除夕。"
+    },
+    {
+      "id": "C02-S03-025",
+      "word": "at the beginning of the month",
+      "meaning": "在月初",
+      "english": "I get my timetable at the beginning of the month.",
+      "chinese": "我在月初拿到时间表。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "月初"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S03-026",
+      "word": "at the end of the month",
+      "meaning": "在月底",
+      "english": "We pay the bill at the end of the month.",
+      "chinese": "我们在月底付账。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "月底"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S03-027",
+      "word": "Which month comes after May?",
+      "meaning": "五月之后是哪个月？",
+      "english": "Which month comes after May? June.",
+      "chinese": "五月之后是哪个月？六月。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 8,
+          "text": "五月之后是哪个月"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S03-028",
+      "word": "My birthday is in June.",
+      "meaning": "我的生日在六月。",
+      "english": "My birthday is in June.",
+      "chinese": "我的生日在六月。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 7,
+          "text": "我的生日在六月"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S03-029",
+      "word": "season",
+      "meaning": "季节",
+      "english": "What is your favourite season?",
+      "chinese": "你最喜欢哪个季节？",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 8,
+          "text": "季节"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S03-030",
+      "word": "spring",
+      "meaning": "春天；春季",
+      "english": "Flowers grow in spring.",
+      "chinese": "春天花儿生长。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "春天"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S03-031",
+      "word": "summer",
+      "meaning": "夏天；夏季",
+      "english": "We swim in summer.",
+      "chinese": "我们夏天游泳。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "夏天"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S03-032",
+      "word": "autumn",
+      "meaning": "秋天；秋季",
+      "english": "Leaves turn brown in autumn.",
+      "chinese": "秋天树叶会变成棕色。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "秋天"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S03-033",
+      "word": "winter",
+      "meaning": "冬天；冬季",
+      "english": "It can snow in winter.",
+      "chinese": "冬天可能下雪。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "冬天"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S03-034",
+      "word": "springtime",
+      "meaning": "春季；春天时节",
+      "english": "The garden is beautiful in springtime.",
+      "chinese": "春天时花园很美。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "春天"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S03-035",
+      "word": "summertime",
+      "meaning": "夏季；夏天时节",
+      "english": "We spend more time outside in summertime.",
+      "chinese": "夏天我们会花更多时间在户外。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "夏天"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S03-036",
+      "word": "seasonal",
+      "meaning": "季节性的",
+      "english": "These are seasonal flowers.",
+      "chinese": "这些是应季花卉。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "应季"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S03-037",
+      "word": "spring flowers",
+      "meaning": "春天的花",
+      "english": "Spring flowers grow in the garden.",
+      "chinese": "春天的花在花园里生长。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 4,
+          "text": "春天的花"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S03-038",
+      "word": "blossom",
+      "meaning": "花；开花",
+      "english": "The trees blossom in spring.",
+      "chinese": "树木在春天开花。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "开花"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S03-039",
+      "word": "bloom",
+      "meaning": "开花；盛开",
+      "english": "The roses bloom in May.",
+      "chinese": "玫瑰在五月盛开。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "盛开"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S03-040",
+      "word": "new leaves",
+      "meaning": "新叶",
+      "english": "New leaves appear in spring.",
+      "chinese": "春天会长出新叶。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "新叶"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S03-041",
+      "word": "summer holiday",
+      "meaning": "暑假；夏季假期",
+      "english": "We visit the seaside in the summer holiday.",
+      "chinese": "暑假我们去海边。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "暑假"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S03-042",
+      "word": "go swimming",
+      "meaning": "去游泳",
+      "english": "We go swimming in summer.",
+      "chinese": "我们夏天去游泳。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 7,
+          "text": "去游泳"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S03-043",
+      "word": "have a picnic",
+      "meaning": "去野餐",
+      "english": "We have a picnic in spring.",
+      "chinese": "我们春天去野餐。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 7,
+          "text": "去野餐"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S03-044",
+      "word": "autumn leaves",
+      "meaning": "秋叶",
+      "english": "Autumn leaves are red and gold.",
+      "chinese": "秋叶是红色和金色的。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "秋叶"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S03-045",
+      "word": "fall",
+      "meaning": "落下；掉落",
+      "english": "Leaves fall from the trees in autumn.",
+      "chinese": "秋天树叶从树上落下。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 9,
+          "text": "落下"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S03-046",
+      "word": "harvest",
+      "meaning": "收获；收割",
+      "english": "Farmers harvest apples in autumn.",
+      "chinese": "农民在秋天收获苹果。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "收获"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S03-047",
+      "word": "winter coat",
+      "meaning": "冬季外套",
+      "english": "Wear your winter coat when it is cold.",
+      "chinese": "天气冷时穿上冬季外套。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 10,
+          "text": "冬季外套"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S03-048",
+      "word": "snowman",
+      "meaning": "雪人",
+      "english": "The children make a snowman in winter.",
+      "chinese": "孩子们冬天堆雪人。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 8,
+          "text": "雪人"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S03-049",
+      "word": "snowball",
+      "meaning": "雪球",
+      "english": "He throws a snowball.",
+      "chinese": "他扔了一个雪球。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "雪球"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S03-050",
+      "word": "hibernate",
+      "meaning": "冬眠",
+      "english": "Some animals hibernate in winter.",
+      "chinese": "一些动物在冬天冬眠。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 9,
+          "text": "冬眠"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S03-051",
+      "word": "grow",
+      "meaning": "生长；成长",
+      "english": "Plants grow quickly in spring.",
+      "chinese": "植物在春天长得很快。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 6,
+          "text": "长"
+        }
+      ],
+      "usage": "",
+      "note": "这里指植物生长，对应“长得很快”中的“长”。"
+    },
+    {
+      "id": "C02-S03-052",
+      "word": "days get longer",
+      "meaning": "白天变长",
+      "english": "Days get longer in spring.",
+      "chinese": "春天白天会变长。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 7,
+          "text": "白天会变长"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S03-053",
+      "word": "days get shorter",
+      "meaning": "白天变短",
+      "english": "Days get shorter in autumn.",
+      "chinese": "秋天白天会变短。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 7,
+          "text": "白天会变短"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S03-054",
+      "word": "leaves change colour",
+      "meaning": "树叶变色",
+      "english": "Leaves change colour in autumn.",
+      "chinese": "秋天树叶会变色。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 7,
+          "text": "树叶会变色"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S03-055",
+      "word": "Which season do you like?",
+      "meaning": "你喜欢哪个季节？",
+      "english": "Which season do you like best?",
+      "chinese": "你最喜欢哪个季节？",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 1,
+          "text": "你"
+        },
+        {
+          "start": 2,
+          "end": 8,
+          "text": "喜欢哪个季节"
+        }
+      ],
+      "usage": "",
+      "note": "“最”对应英语中额外的程度词；当前作答句型不包含这个词。"
+    },
+    {
+      "id": "C02-S03-056",
+      "word": "My favourite season is spring.",
+      "meaning": "我最喜欢的季节是春天。",
+      "english": "My favourite season is spring.",
+      "chinese": "我最喜欢的季节是春天。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 10,
+          "text": "我最喜欢的季节是春天"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S04-001",
+      "word": "weather",
+      "meaning": "天气",
+      "english": "What is the weather like today?",
+      "chinese": "今天天气怎么样？",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "天气"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S04-002",
+      "word": "climate",
+      "meaning": "气候",
+      "english": "The climate here is warm.",
+      "chinese": "这里的气候温暖。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "气候"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S04-003",
+      "word": "forecast",
+      "meaning": "预报；预测",
+      "english": "Listen to the weather forecast.",
+      "chinese": "听天气预报。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "预报"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S04-004",
+      "word": "weather forecast",
+      "meaning": "天气预报",
+      "english": "The weather forecast says it will rain.",
+      "chinese": "天气预报说会下雨。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 4,
+          "text": "天气预报"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S04-005",
+      "word": "sunny",
+      "meaning": "晴朗的；阳光充足的",
+      "english": "It is sunny today.",
+      "chinese": "今天天气晴朗。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "晴朗"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S04-006",
+      "word": "cloudy",
+      "meaning": "多云的",
+      "english": "The sky is cloudy.",
+      "chinese": "天空多云。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "多云"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S04-007",
+      "word": "rainy",
+      "meaning": "多雨的；下雨的",
+      "english": "It is a rainy day.",
+      "chinese": "今天是雨天。",
+      "mode": "usage",
+      "spans": [],
+      "usage": "本句用形容词描述有雨的天气；中文把“下雨的天”合起来说“雨天”，不逐字单独译出。",
+      "note": ""
+    },
+    {
+      "id": "C02-S04-008",
+      "word": "windy",
+      "meaning": "有风的；风大的",
+      "english": "It is windy outside.",
+      "chinese": "外面风很大。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 5,
+          "text": "风很大"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S04-009",
+      "word": "snowy",
+      "meaning": "下雪的；多雪的",
+      "english": "It is snowy in the mountains.",
+      "chinese": "山上多雪。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "多雪"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S04-010",
+      "word": "foggy",
+      "meaning": "有雾的",
+      "english": "It is foggy this morning.",
+      "chinese": "今天早上有雾。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "有雾"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S04-011",
+      "word": "stormy",
+      "meaning": "有暴风雨的",
+      "english": "The sea is stormy.",
+      "chinese": "海上风暴很大。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 6,
+          "text": "风暴很大"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S04-012",
+      "word": "icy",
+      "meaning": "结冰的；冰冷的",
+      "english": "The road is icy.",
+      "chinese": "路面结冰了。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "结冰"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S04-013",
+      "word": "wet",
+      "meaning": "湿的；潮湿的",
+      "english": "My shoes are wet.",
+      "chinese": "我的鞋湿了。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 4,
+          "text": "湿"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S04-014",
+      "word": "dry",
+      "meaning": "干燥的；干的",
+      "english": "The ground is dry.",
+      "chinese": "地面是干的。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "干的"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S04-015",
+      "word": "hot",
+      "meaning": "热的；炎热的",
+      "english": "It is hot in July.",
+      "chinese": "七月天气很热。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 6,
+          "text": "热"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S04-016",
+      "word": "warm",
+      "meaning": "暖和的；温暖的",
+      "english": "The weather is warm today.",
+      "chinese": "今天天气暖和。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "暖和"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S04-017",
+      "word": "cool",
+      "meaning": "凉爽的",
+      "english": "It is cool in the evening.",
+      "chinese": "晚上天气凉爽。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "凉爽"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S04-018",
+      "word": "cold",
+      "meaning": "冷的；寒冷的",
+      "english": "It is cold in winter.",
+      "chinese": "冬天很冷。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 4,
+          "text": "冷"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S04-019",
+      "word": "freezing",
+      "meaning": "极冷的；冰点以下的",
+      "english": "It is freezing outside.",
+      "chinese": "外面冷极了。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 5,
+          "text": "冷极了"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S04-020",
+      "word": "mild",
+      "meaning": "温和的；不太冷也不太热的",
+      "english": "We have a mild winter.",
+      "chinese": "我们的冬天比较温和。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 9,
+          "text": "温和"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S04-021",
+      "word": "humid",
+      "meaning": "潮湿的；湿度大的",
+      "english": "The air is humid today.",
+      "chinese": "今天空气很潮湿。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "潮湿"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S04-022",
+      "word": "temperature",
+      "meaning": "温度；气温",
+      "english": "The temperature is ten degrees.",
+      "chinese": "气温是十度。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "气温"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S04-023",
+      "word": "degree",
+      "meaning": "度；度数",
+      "english": "It is twenty degrees today.",
+      "chinese": "今天二十度。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 5,
+          "text": "度"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S04-024",
+      "word": "rain",
+      "meaning": "雨；下雨",
+      "english": "The rain is heavy.",
+      "chinese": "雨下得很大。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 1,
+          "text": "雨"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S04-025",
+      "word": "drizzle",
+      "meaning": "毛毛雨；下毛毛雨",
+      "english": "There is a little drizzle.",
+      "chinese": "下着一点毛毛雨。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 7,
+          "text": "毛毛雨"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S04-026",
+      "word": "shower",
+      "meaning": "阵雨",
+      "english": "A shower may come this afternoon.",
+      "chinese": "今天下午可能有阵雨。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 9,
+          "text": "阵雨"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S04-027",
+      "word": "downpour",
+      "meaning": "倾盆大雨",
+      "english": "We waited inside during the downpour.",
+      "chinese": "倾盆大雨时我们在室内等候。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 4,
+          "text": "倾盆大雨"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S04-028",
+      "word": "snow",
+      "meaning": "雪；下雪",
+      "english": "Snow covers the roof.",
+      "chinese": "雪覆盖了屋顶。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 1,
+          "text": "雪"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S04-029",
+      "word": "sleet",
+      "meaning": "雨夹雪；冻雨",
+      "english": "Sleet fell overnight.",
+      "chinese": "夜里下了雨夹雪。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 7,
+          "text": "雨夹雪"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S04-030",
+      "word": "hail",
+      "meaning": "冰雹；下冰雹",
+      "english": "Hail hit the window.",
+      "chinese": "冰雹打在窗户上。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "冰雹"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S04-031",
+      "word": "wind",
+      "meaning": "风",
+      "english": "The wind is strong.",
+      "chinese": "风很大。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 1,
+          "text": "风"
+        }
+      ],
+      "usage": "",
+      "note": "本句指空气流动的“风”，GA 读短元音 /ɪ/，不是“缠绕”的读音。"
+    },
+    {
+      "id": "C02-S04-032",
+      "word": "breeze",
+      "meaning": "微风",
+      "english": "A cool breeze is blowing.",
+      "chinese": "凉爽的微风正在吹。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "微风"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S04-033",
+      "word": "cloud",
+      "meaning": "云",
+      "english": "A white cloud is in the sky.",
+      "chinese": "天空中有一朵白云。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 8,
+          "text": "云"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S04-034",
+      "word": "fog",
+      "meaning": "雾",
+      "english": "The fog is thick.",
+      "chinese": "雾很浓。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 1,
+          "text": "雾"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S04-035",
+      "word": "mist",
+      "meaning": "薄雾",
+      "english": "A light mist covers the hills.",
+      "chinese": "薄雾笼罩着山丘。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "薄雾"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S04-036",
+      "word": "storm",
+      "meaning": "暴风雨；风暴",
+      "english": "The storm is getting closer.",
+      "chinese": "风暴越来越近了。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "风暴"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S04-037",
+      "word": "thunder",
+      "meaning": "雷声；打雷",
+      "english": "I heard thunder.",
+      "chinese": "我听到了雷声。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "雷声"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S04-038",
+      "word": "lightning",
+      "meaning": "闪电",
+      "english": "Lightning lit up the sky.",
+      "chinese": "闪电照亮了天空。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "闪电"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S04-039",
+      "word": "rainbow",
+      "meaning": "彩虹",
+      "english": "A rainbow appeared after the rain.",
+      "chinese": "雨后出现了一道彩虹。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 9,
+          "text": "彩虹"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S04-040",
+      "word": "sunshine",
+      "meaning": "阳光",
+      "english": "The plants need sunshine.",
+      "chinese": "植物需要阳光。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "阳光"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S04-041",
+      "word": "umbrella",
+      "meaning": "雨伞",
+      "english": "Take an umbrella with you.",
+      "chinese": "带把雨伞。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "雨伞"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S04-042",
+      "word": "raincoat",
+      "meaning": "雨衣",
+      "english": "Wear your raincoat in the rain.",
+      "chinese": "下雨时穿上雨衣。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "雨衣"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S04-043",
+      "word": "rain boots",
+      "meaning": "雨靴",
+      "english": "My rain boots keep my feet dry.",
+      "chinese": "我的雨靴能让脚保持干燥。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "雨靴"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S04-044",
+      "word": "heavy rain",
+      "meaning": "大雨；暴雨",
+      "english": "Heavy rain is expected tonight.",
+      "chinese": "预计今晚有大雨。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "大雨"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S04-045",
+      "word": "light rain",
+      "meaning": "小雨",
+      "english": "There will be light rain this morning.",
+      "chinese": "今天上午会有小雨。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 8,
+          "text": "小雨"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S04-046",
+      "word": "strong wind",
+      "meaning": "强风",
+      "english": "Strong wind moved the branches.",
+      "chinese": "强风吹动了树枝。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "强风"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S04-047",
+      "word": "It's raining.",
+      "meaning": "正在下雨。",
+      "english": "It's raining, so take an umbrella.",
+      "chinese": "正在下雨，所以带上雨伞。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 4,
+          "text": "正在下雨"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S04-048",
+      "word": "It's snowing.",
+      "meaning": "正在下雪。",
+      "english": "It's snowing outside.",
+      "chinese": "外面正在下雪。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 6,
+          "text": "正在下雪"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S04-049",
+      "word": "What's the weather like?",
+      "meaning": "天气怎么样？",
+      "english": "What's the weather like today?",
+      "chinese": "今天天气怎么样？",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 7,
+          "text": "天气怎么样"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S04-050",
+      "word": "It's sunny today.",
+      "meaning": "今天天气晴朗。",
+      "english": "It's sunny today. Let's go outside.",
+      "chinese": "今天天气晴朗。我们出去吧。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 6,
+          "text": "今天天气晴朗"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C02-S04-051",
+      "word": "It might rain.",
+      "meaning": "可能会下雨。",
+      "english": "Take your umbrella. It might rain.",
+      "chinese": "带上雨伞，可能会下雨。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 10,
+          "text": "可能会下雨"
+        }
+      ],
+      "usage": "",
       "note": ""
     }
   ]

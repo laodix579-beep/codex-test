@@ -6,7 +6,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 catalog = json.loads((ROOT / 'data/meaning-catalog.json').read_text())
 words = [w for group in json.loads((ROOT / 'data/basic-vocabulary.json').read_text())['subcategories'] for w in group['items']]
-assert len(catalog['entries']) == len(words) == 136
+for file in sorted((ROOT / 'data/time-nature').glob('0*.json')):
+    words.extend(json.loads(file.read_text())['items'])
+assert len(catalog['entries']) == len(words)
 assert {row['id'] for row in catalog['entries']} == {w['id'] for w in words}
 for row, word in zip(catalog['entries'], words):
     assert (row['word'], row['meaning'], row['english'], row['chinese']) == (word['english'], word['chinese'], word['example_en'], word['example_zh'])

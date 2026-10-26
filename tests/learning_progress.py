@@ -59,7 +59,7 @@ with sync_playwright() as p:
     assert '11 分钟' in page.locator('.progress-goal-hint').inner_text()
     assert '26 个单词' in page.locator('.progress-goal-hint').inner_text()
     assert page.locator('[data-progress-category="C01"] .progress-category-count').inner_text() == '22 / 136'
-    assert page.locator('[data-progress-category="C02"] .progress-category-count').inner_text() == '0 / 0'
+    assert page.locator('[data-progress-category="C02"] .progress-category-count').inner_text() == '0 / 220'
     assert [float(b.get_attribute('data-value')) for b in page.locator('.progress-chart-bar').all()] == [15, 28, 12, 20, 35, 18, 9]
     page.screenshot(path='/tmp/learning-progress-v24.png', full_page=True)
     page.locator('[data-progress-trend="words"]').click()

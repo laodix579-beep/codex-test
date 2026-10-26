@@ -14,22 +14,22 @@ with sync_playwright() as p:
   page.goto(BASE+'#words',wait_until='networkidle');page.reload(wait_until='networkidle')
   stored=lambda:page.evaluate('JSON.parse(localStorage.getItem(document.body.dataset.storageKey))')
   initial=stored();ids=[w['id'] for w in initial['words']]
-  assert len(ids)==136 and initial['courses']==[]
+  assert len(ids)==356 and initial['courses']==[]
   assert page.locator('#navigation [data-route="courses"],#navigation [data-route="textbooks"],#navigation [data-route="phonetics"]').count()==0
-  assert page.locator('.vocab-category').count()==(1 if mobile else 8)
+  assert page.locator('.vocab-category').count()==(2 if mobile else 8)
   if mobile:
-   assert page.locator('.vocab-category h3').inner_text()=='基础入门'
-   assert page.locator('.vocab-subcategories button').count()==4
-   assert [int(t.split()[0]) for t in page.locator('.vocab-subcategories small').all_text_contents()]==[22,62,19,33]
-   assert '1 个主题 · 4 个分类' in page.locator('.vocab-summary p').inner_text()
+   assert page.locator('.vocab-category h3').all_text_contents()==['基础入门','时间与自然']
+   assert page.locator('.vocab-subcategories button').count()==8
+   assert [int(t.split()[0]) for t in page.locator('.vocab-subcategories small').all_text_contents()]==[22,62,19,33,52,61,56,51]
+   assert '2 个主题 · 8 个分类' in page.locator('.vocab-summary p').inner_text()
    assert '待添加' not in page.locator('#content').inner_text()
   else:
    assert page.locator('.mvp-category-card').count()==8
    assert page.locator('.mvp-category-card').first.locator('.mvp-category-count').inner_text()=='136 个词条'
   assert page.locator('[data-route="phonetics"]').count()==0
-  for route in ['courses','textbooks','phonetics','course/old','review/sentence/wrong']+(['words/C02','words/manage/C02'] if mobile else []):
+  for route in ['courses','textbooks','phonetics','course/old','review/sentence/wrong']+(['words/C03','words/manage/C03'] if mobile else []):
    page.goto(BASE+'#'+route)
-   page.wait_for_url('**/#words');assert page.locator('.vocab-category').count()==(1 if mobile else 8)
+   page.wait_for_url('**/#words');assert page.locator('.vocab-category').count()==(2 if mobile else 8)
   # Prior courses remain in the storage and backup, never as active material.
   page.evaluate('''()=>{
    const key=document.body.dataset.storageKey,s=JSON.parse(localStorage.getItem(key));
@@ -43,8 +43,8 @@ with sync_playwright() as p:
   }''')
   page.reload(wait_until='networkidle');baseline=stored()
   assert baseline['courses'][0]['title']=='ARCHIVED OUTSIDE COURSE'
-  assert page.locator('.vocab-category').count()==(2 if mobile else 8)
-  if mobile:assert page.locator('.vocab-subcategories button').count()==5
+  assert page.locator('.vocab-category').count()==(3 if mobile else 8)
+  if mobile:assert page.locator('.vocab-subcategories button').count()==9
   for route in ['home','plan','favorites','words','search/ARCHIVED','review/sentence/mastered','courses','textbooks','phonetics']:
    page.goto(BASE+'#'+route)
    assert 'ARCHIVED OUTSIDE COURSE' not in page.locator('#content').inner_text()
@@ -78,8 +78,8 @@ with sync_playwright() as p:
    assert page.evaluate('FROG_OFFLINE_CACHE') in html
    page.locator('#save-app-dialog .dialog-back').click()
   page.goto(BASE+'#words');context.set_offline(True);page.reload(wait_until='networkidle')
-  assert page.locator('.vocab-category').count()==(2 if mobile else 8)
-  assert [w['id'] for w in stored()['words'][:136]]==ids
+  assert page.locator('.vocab-category').count()==(3 if mobile else 8)
+  assert [w['id'] for w in stored()['words'][:356]]==ids
   page.locator('.vocab-category-heading[data-category-id="C01"]' if mobile else '.mvp-category-card[data-category-id="C01"]').click()
   page.locator('#word-category-dialog [data-subcategory-id="C01-S01"]' if mobile else '.mvp-subcategory[data-subcategory-id="C01-S01"]').click()
   page.locator('.translation-blank').first.fill('hello')
@@ -87,7 +87,7 @@ with sync_playwright() as p:
   page.wait_for_function('document.querySelector("#question-audio").dataset.sourceText==="hello"&&document.querySelector("#question-audio").currentTime>0')
   assert not errors,errors
   assert page.evaluate('document.documentElement.scrollWidth<=innerWidth')
-  results.append({'profile':'phone' if mobile else 'desktop','builtins':136,'onlyExistingWords':True,'desktopEightThemes':not mobile,'retiredRoutesRedirect':True,'searchOnlyWarehouse':True,'historyAndBackupPreserved':True,'existingCustomWordPreserved':True,'offlineWordPractice':True})
+  results.append({'profile':'phone' if mobile else 'desktop','builtins':356,'onlyExistingWords':True,'desktopEightThemes':not mobile,'retiredRoutesRedirect':True,'searchOnlyWarehouse':True,'historyAndBackupPreserved':True,'existingCustomWordPreserved':True,'offlineWordPractice':True})
   print('PASS',results[-1]['profile'],'warehouse-only navigation, catalog, search, old-route redirect, archive preservation, backup and offline practice',flush=True)
   context.close()
  browser.close()

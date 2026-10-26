@@ -78,13 +78,62 @@
     }
     return `<svg class="scene-quantity" viewBox="0 0 1000 1000" preserveAspectRatio="none" aria-hidden="true" data-quantity-type="${visual.type}"${visual.value!==undefined?` data-quantity-value="${visual.value}"`:''}><g transform="translate(145 60) scale(.85)"><rect x="245" y="120" width="710" height="760" rx="33" fill="#fffaf1" stroke="#e5d6bb" stroke-width="6"/>${body}</g></svg>`;
   }
+  function nature(visual) {
+    let body='',footer='';
+    if(visual.type==='nature-clock'||visual.type==='nature-photo-clock'){
+      const h=visual.hour||0,m=visual.minute||0,cx=655,cy=510,r=225,minute=m*Math.PI/30,hour=(h%12+m/60)*Math.PI/6;
+      body=`<circle cx="${cx}" cy="${cy}" r="${r}" fill="#fffdf8" stroke="#a391c5" stroke-width="12"/>`;
+      body+=Array.from({length:60},(_,i)=>{const a=i*Math.PI/30;return `<path d="M${cx+Math.sin(a)*205} ${cy-Math.cos(a)*205}L${cx+Math.sin(a)*(i%5?195:185)} ${cy-Math.cos(a)*(i%5?195:185)}" stroke="#998eaa" stroke-width="${i%5?2:5}"/>`;}).join('');
+      body+=Array.from({length:12},(_,i)=>{const n=i+1,a=n*Math.PI/6;return text(cx+Math.sin(a)*164,cy-Math.cos(a)*164,n,37);}).join('');
+      body+=`<path data-clock-hour="${h}" d="M${cx} ${cy}L${cx+Math.sin(hour)*112} ${cy-Math.cos(hour)*112}" stroke="#675581" stroke-width="17" stroke-linecap="round"/><path data-clock-minute="${m}" d="M${cx} ${cy}L${cx+Math.sin(minute)*185} ${cy-Math.cos(minute)*185}" stroke="#e49d60" stroke-width="10" stroke-linecap="round"/><circle cx="${cx}" cy="${cy}" r="13" fill="#675581"/>`;
+      if(visual.type==='nature-photo-clock')body=`<g transform="translate(${visual.x-655*.43} ${visual.y-510*.43}) scale(.43)">${body}</g>`;
+      else body+=text(655,225,`${String(h).padStart(2,'0')}:${String(m).padStart(2,'0')}`,72,'#8b6ac5');
+    }else if(visual.type==='nature-calendar'){
+      const year=visual.year,month=visual.month,day=visual.day||0,offset=(new Date(Date.UTC(year,month-1,1)).getUTCDay()+6)%7,count=new Date(Date.UTC(year,month,0)).getUTCDate();
+      body=text(655,215,`${year} · ${month}`,69,'#8b6ac5')+['一','二','三','四','五','六','日'].map((s,i)=>text(415+i*77,310,s,31,i>4?'#dfab71':'#817092')).join('');
+      body+=Array.from({length:count},(_,i)=>{const n=i+1,x=415+(offset+i)%7*77,y=385+Math.floor((offset+i)/7)*69,selected=n===day;return `<g data-calendar-day="${n}">${selected?`<rect x="${x-31}" y="${y-28}" width="62" height="56" rx="14" fill="#a78ce4"/>`:''}${text(x,y,n,31,selected?'#fff':'#6a6080')}</g>`;}).join('');
+      if(day)body+=text(655,840,`${month} / ${day}`,54,'#b08962');
+    }else if(visual.type==='nature-year'){
+      body=text(655,215,visual.year||2025,72,'#8b6ac5');
+      for(let n=1;n<=12;n++){
+        const x=455+(n-1)%3*195,y=365+Math.floor((n-1)/3)*118,active=n===visual.month;
+        body+=`<g data-year-month="${n}"><rect x="${x-77}" y="${y-45}" width="154" height="91" rx="15" fill="${active?'#aa91e1':'#f0e6d7'}"/>${text(x,y,n,48,active?'#fff':'#817092')}</g>`;
+      }
+      if(visual.days)body+=text(655,850,visual.days,59,'#b08962');
+    }else if(visual.type==='nature-relative'){
+      const values=visual.unit==='month'?[5,6,7]:[25,26,27],selected=1+visual.offset;
+      body=text(655,230,visual.unit==='month'?'月':'日',58,'#8b6ac5');
+      body+=values.map((n,i)=>{const x=450+i*205;return `<g><rect x="${x-85}" y="370" width="170" height="215" rx="23" fill="${i===selected?'#b49ae2':'#eee4d4'}" stroke="#cdbedb" stroke-width="5"/><path d="M${x-85} 420h170" stroke="#cdbedb" stroke-width="5"/>${text(x,500,n,65,i===selected?'white':'#817092')}</g>`;}).join('');
+      body+=text(655,660,visual.unit==='month'?'本月为基准':'当天为基准',43,'#a794ae');
+      if(visual.offset)body+=text(655,755,visual.offset>0?'→':'←',98,'#8b6ac5');
+    }else if(visual.type==='nature-season'||visual.type==='nature-weather'){
+      const icons=visual.type==='nature-season'?['🌷','☀️','🍂','❄️']:['☀️','☁️','🌧️','❄️'];
+      body=icons.map((icon,i)=>{const x=490+i%2*305,y=390+Math.floor(i/2)*300;return `<rect x="${x-122}" y="${y-120}" width="244" height="240" rx="24" fill="${visual.selected===i?'#ddd0f3':'#f3ecde'}"/>${emoji(x,y,icon,135)}`;}).join('');
+    }else if(visual.type==='nature-daylight'){
+      body=emoji(455,260,'☀️',90)+emoji(850,260,'🌙',76);
+      const durations=visual.direction==='longer'?[9,12,15]:[15,12,9];
+      body+=durations.map((n,i)=>{const y=400+i*155;return `<rect x="385" y="${y}" width="550" height="65" rx="18" fill="#c9bddf"/><rect x="385" y="${y}" width="${550*n/24}" height="65" rx="18" fill="#f7cf73"/>${text(655,y+100,i===0?'':visual.direction==='longer'?'↑':'↓',45,'#987cb9')}`;}).join('');
+    }else if(visual.type==='nature-temperature'){
+      const value=visual.value,cy=700,top=260,fill=(value+10)/50*440;
+      body=`<rect x="603" y="${top}" width="85" height="440" rx="40" fill="#f0eafa" stroke="#a391c5" stroke-width="8"/><rect x="625" y="${cy-fill}" width="41" height="${fill}" rx="20" fill="#ea9c7c"/><circle cx="646" cy="${cy}" r="70" fill="#ea9c7c" stroke="#a391c5" stroke-width="7"/>`;
+      body+=[-10,0,10,20,30,40].map(n=>{const y=cy-(n+10)/50*440;return `<path d="M700 ${y}h30" stroke="#a391c5" stroke-width="5"/>${text(785,y,n,35)}`;}).join('')+text(655,845,`${value}°C`,65,'#8b6ac5');
+    }else if(visual.type==='nature-page'){
+      body=`<path d="M385 355q135-60 270 0q135-60 270 0v380q-135-55-270 0q-135-55-270 0Z" fill="#f9f1de" stroke="#b7a4ca" stroke-width="8"/><path d="M655 355v380" stroke="#b7a4ca" stroke-width="7"/>${text(520,550,8,85,'#a79bae')}<rect x="700" y="395" width="180" height="300" rx="15" fill="#fffaf1" stroke="#ad98ca" stroke-width="5" stroke-dasharray="14 12"/>${text(790,535,'?',94,'#987bc2')}${text(790,650,visual.value,49,'#b7a4ca')}`;
+    }else if(visual.type==='nature-units'){
+      footer=text(550,865,visual.value,58,'#8266b4');
+    }else if(visual.type==='nature-week'){
+      footer=['一','二','三','四','五','六','日'].map((s,i)=>{const x=170+i*105,on=Array.isArray(visual.days)?visual.days.includes(i+1):visual.day===i+1;return `<rect data-weekday="${i+1}" x="${x-41}" y="800" width="82" height="82" rx="16" fill="${on?'#a58adb':'#f0e7d5'}"/>${text(x,841,s,39,on?'white':'#817092')}`;}).join('');
+    }
+    const frame=visual.type==='nature-photo-clock'?'':footer?`<rect x="95" y="765" width="810" height="160" rx="24" fill="#fffaf1" stroke="#e4d8bf" stroke-width="5"/>`:`<rect x="335" y="130" width="640" height="790" rx="30" fill="#fffaf1" stroke="#e5d6bb" stroke-width="6"/>`;
+    return `<svg class="scene-quantity scene-nature" viewBox="0 0 1000 1000" preserveAspectRatio="none" aria-hidden="true" data-nature-type="${escape(visual.type)}"${visual.day?` data-selected-day="${visual.day}"`:''}${visual.hour!==undefined?` data-hour="${visual.hour}" data-minute="${visual.minute}"`:''}${visual.value!==undefined?` data-value="${escape(visual.value)}"`:''}>${frame}${footer||body}</svg>`;
+  }
   function art(item) {
     const scene=match(item);
     if(!scene)return '<div class="scene-unavailable"><span aria-hidden="true">📖</span><small>暂无对应场景图</small></div>';
     const sheet=sheets.get(scene.sheet),src=window.FROG_SCENE_IMAGES?.[scene.sheet]||new URL(scene.sheet,document.baseURI).href;
     const ratio=(sheet.width/sheet.columns)/(sheet.height/sheet.rows);
     const size=sheet.columns===4&&sheet.rows===2?'':`width:${sheet.columns*100}%;height:${sheet.rows*100}%;`;
-    return `<div class="scene-art-stage" data-scene-id="${scene.id}"><div class="scene-tile" style="--scene-aspect:${ratio}"><img src="${escape(src)}" alt="" draggable="false" decoding="async" data-scene-sheet="${escape(scene.sheet)}" style="${size}transform:translate(-${scene.column*100/sheet.columns}%,-${scene.row*100/sheet.rows}%)"/>${scene.visual?quantity(scene.visual):''}</div></div>`;
+    return `<div class="scene-art-stage" data-scene-id="${scene.id}"><div class="scene-tile" style="--scene-aspect:${ratio}"><img src="${escape(src)}" alt="" draggable="false" decoding="async" data-scene-sheet="${escape(scene.sheet)}" style="${size}transform:translate(-${scene.column*100/sheet.columns}%,-${scene.row*100/sheet.rows}%)"/>${scene.visual?(scene.visual.type.startsWith('nature-')?nature(scene.visual):quantity(scene.visual)):''}</div></div>`;
   }
   function picture(item) {
     const scene=match(item);

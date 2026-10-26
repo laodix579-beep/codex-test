@@ -6,7 +6,7 @@ from playwright.sync_api import sync_playwright
 ROOT = Path(__file__).resolve().parents[1]
 BASE = 'http://127.0.0.1:8000/'
 catalog = json.loads((ROOT / 'data/meaning-catalog.json').read_text())
-rows = {row['id']: row for row in catalog['entries']}
+rows = {row['id']: row for row in catalog['entries'] if row['id'].startswith('C01-')}
 groups = json.loads((ROOT / 'data/basic-vocabulary.json').read_text())['subcategories']
 assert len(rows) == 136
 assert [row['word'] for row in rows.values() if row['mode'] == 'usage'] == ['zero', 'any', 'size']

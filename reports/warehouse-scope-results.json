@@ -1,7 +1,7 @@
 [
   {
     "profile": "desktop",
-    "builtins": 136,
+    "builtins": 356,
     "onlyExistingWords": true,
     "desktopEightThemes": true,
     "retiredRoutesRedirect": true,
@@ -12,7 +12,7 @@
   },
   {
     "profile": "phone",
-    "builtins": 136,
+    "builtins": 356,
     "onlyExistingWords": true,
     "desktopEightThemes": false,
     "retiredRoutesRedirect": true,

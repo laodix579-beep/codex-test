@@ -12,7 +12,7 @@ with sync_playwright() as p:
  page=context.new_page();errors=[];page.on('pageerror',lambda e:errors.append(str(e)))
  page.goto(BASE+'#home');page.locator('.mvp-resume').wait_for()
  saved=lambda:page.evaluate('JSON.parse(localStorage.getItem(document.body.dataset.storageKey))')
- assert len(saved()['words'])==136
+ assert len(saved()['words'])==356
  assert page.locator('.brand-frog').is_hidden()
  assert page.locator('.brand-book').is_visible()
  # Existing study data and settings are fixtures from the same schema, not replaced.
@@ -34,9 +34,9 @@ with sync_playwright() as p:
  page.locator('#navigation [data-route="words"]').click();page.locator('.mvp-category-card').first.wait_for()
  assert page.locator('.mvp-category-card').count()==8
  assert page.locator('.mvp-category-card h3').all_text_contents()==page.evaluate('FROG_WORD_CATALOG.categories.map(c=>c.name)')
- assert len(saved()['words'])==136
+ assert len(saved()['words'])==356
  page.screenshot(path='/tmp/mvp-categories-final.png')
- page.locator('.mvp-category-card[data-category-id="C02"]').click();page.locator('.mvp-subcategory').first.wait_for()
+ page.locator('.mvp-category-card[data-category-id="C03"]').click();page.locator('.mvp-subcategory').first.wait_for()
  assert page.locator('.mvp-subcategory').count()==4
  assert '暂无词条' in page.locator('.mvp-subcategory').first.inner_text()
  page.locator('.mvp-subcategory').first.click();page.get_by_role('heading',name='这个分类正在准备中').wait_for()

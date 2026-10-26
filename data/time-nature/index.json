@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "category_id": "C02",
+  "category_name": "时间与自然",
+  "pronunciation_system": "DJ 英式音标（British English IPA）",
+  "audio_pronunciation_note": "音标标注与音频口音分开处理；如项目既定规范仍要求美式英语音频，保留现有音频规范，不要因英式音标而擅自重生成音频。",
+  "description": "小蛙自习室第二类独立词库。四个二级分类分别存放在独立 JSON 文件中，便于单独审阅、修改和替换。",
+  "subcategory_count": 4,
+  "item_count": 220,
+  "subcategories": [
+    {
+      "id": "C02-S01",
+      "name": "时间与钟表",
+      "filename": "01_时间与钟表.json",
+      "description": "认识时间单位、钟表读法、一天中的时间段和常见时间表达。",
+      "item_count": 52
+    },
+    {
+      "id": "C02-S02",
+      "name": "星期与日期",
+      "filename": "02_星期与日期.json",
+      "description": "学习星期名称、日历日期、序数日期和常见日程表达。英国常用日期顺序为“日/月/年”。",
+      "item_count": 61
+    },
+    {
+      "id": "C02-S03",
+      "name": "月份与四季",
+      "filename": "03_月份与四季.json",
+      "description": "学习一年十二个月、四季名称、季节特征和常见季节表达。",
+      "item_count": 56
+    },
+    {
+      "id": "C02-S04",
+      "name": "天气与气候",
+      "filename": "04_天气与气候.json",
+      "description": "学习常见天气、温度、降水、风、天气预报和简单天气问答。",
+      "item_count": 51
+    }
+  ]
+}

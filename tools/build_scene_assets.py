@@ -9,6 +9,7 @@ ROOT=Path(__file__).resolve().parents[1]
 catalog=json.loads((ROOT/'data/scene-catalog.json').read_text())
 groups=json.loads((ROOT/'data/basic-vocabulary.json').read_text())['subcategories']
 words=[w for group in groups for w in group['items']]
+for file in sorted((ROOT/'data/time-nature').glob('0*.json')):words.extend(json.loads(file.read_text())['items'])
 assert {s['id'] for s in catalog['scenes']}=={w['id'] for w in words}
 numeric=[*range(30),30,40,50,60,70,80,90,100]
 icons=['🍪','🖊️','🐦','📕','🐈','🍎','🦆','⭐','🖍️','🌸','🖐️','🃏','🥚','🔵','🐦','🧒','🌟','⭐','✏️','🧱','🧱','🌟','🐦','📕','🃏','🧒','🖍️','⭐','📅','🔮','🌟','📕','⭐','🕒','⚖️','🔢','🔢','🔵']
@@ -35,4 +36,5 @@ marker='<script data-embedded-audio="">'
 assert html.count(marker)==1
 html=html.replace(marker,injection+marker)
 (ROOT/'index.html').write_text(html)
+(ROOT/'scene-files.js').write_text('/* Scene resources for the existing offline cache. */\nself.FROG_SCENE_FILES='+json.dumps([s['path'] for s in catalog['sheets']],separators=(',',':'))+';\n')
 print(json.dumps({'scenes':len(bank['scenes']),'atlases':len(bank['sheets']),'files_present':sum((ROOT/s['path']).exists() for s in catalog['sheets'])}))

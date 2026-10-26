@@ -1,6 +1,6 @@
 # Windows 上传与 GitHub Pages 部署
 
-本包使用已提供的 610 个 MP3，不需要语音服务、API Key 或音频生成工具。
+本包包含全部 1028 个已制作 MP3（原 610 个保持，新增 C02 418 个），运行网站不需要语音服务、API Key 或音频生成工具。
 
 ## 上传哪些文件
 
@@ -10,9 +10,9 @@
 | --- | --- |
 | `index.html` | 网站主页，必须放在发布目录根部 |
 | `小蛙自习室.html` | 同一页面的旧文件名兼容入口，显示名称已改为“老K学英语” |
-| `audio/en-us/word/`、`audio/en-us/sentence/` | 全部 610 个原样 MP3，必须完整上传 |
-| `audio-manifest.json`、`audio-files.js` | 播放映射及离线缓存清单，必须上传 |
-| `assets/` | 首页插画及 `assets/scenes/` 的 17 张合集图和 1 张独立修正图，整个目录必须上传 |
+| `audio/`（包括 `en-us/nature/`） | 全部 1028 个 MP3，原 610 个保持，必须完整上传 |
+| `audio-manifest.json`、`audio-files.js`、`scene-files.js` | 播放映射及离线缓存清单，必须上传 |
+| `assets/` | 首页插画及 `assets/scenes/` 的 原 17 张合集图、1 张独立修正图及新增 14 张无损 WebP 图集，整个目录必须上传 |
 | `data/` | 原有资料、场景及 `meaning-catalog.json` 中的词义对应资料，整个目录上传 |
 | `sw.js`、`manifest.webmanifest` | 手机安装及离线缓存支持 |
 | `icon-192.png`、`icon-512.png`、`apple-touch-icon.png` | 网站及手机图标 |
@@ -26,19 +26,19 @@ GitHub Pages 会直接读取这些文件；上传前完成解压。
 
 ## 推荐：使用 GitHub Desktop 上传整包
 
-610 个 MP3 适合用 GitHub Desktop 一次提交，避免网页上传的文件数量限制。
+1028 个 MP3 适合用 GitHub Desktop 一次提交，避免网页上传的文件数量限制。
 
 1. 打开 GitHub Desktop，通过浏览器登录你的 GitHub 账号。
 2. 选择 **File → Clone repository**，找到 `laodix579-beep/codex-test` 并克隆。
 3. **Current branch** 选择 `gh-pages`。这是本项目当前的网站发布分支。
 4. 选择 **Repository → Show in Explorer**，打开仓库文件夹。
 5. 把解压目录中的全部内容复制进该仓库文件夹，选择合并文件夹、替换同名文件。保留仓库已有的 `.git` 目录。
-6. 回到 GitHub Desktop，在 Summary 填写“更新电脑端 MVP 界面”，点击 **Commit to gh-pages**。
+6. 回到 GitHub Desktop，在 Summary 填写“导入时间与自然词汇及配套资源”，点击 **Commit to gh-pages**。
 7. 点击 **Push origin**，等待上传完成。
 8. 在 GitHub 仓库网页进入 **Settings → Pages**，确认 **Deploy from a branch**、分支 **gh-pages**、目录 **/(root)**。如果是你自己的新仓库，也可以用 `main`，但提交分支与 Pages 选择的分支应一致。
 9. 等待 Pages 显示发布成功，再打开网站链接。
 
-若使用 GitHub 网页上传，请在目标目录分批上传，每批最多 100 个文件，并保留 `audio/en-us/word/` 和 `audio/en-us/sentence/` 的层级；最终 MP3 总数应为 610。
+若使用 GitHub 网页上传，请在目标目录分批上传，每批最多 100 个文件，并保留整个 `audio/` 文件夹的层级；最终 MP3 总数应为 1028。
 
 ## 发布后检查
 
@@ -53,12 +53,13 @@ GitHub Pages 会直接读取这些文件；上传前完成解压。
 - 电脑端“学习进度”显示真实统计和目标，近 7 天趋势可切换时长/单词/打卡；点击柱形或日期可查看当天详情。分类进度可跳转，继续目标可续学，“查看更多”可分页查看全部记录并导出 CSV；旧排行和挑战记录在下方展开查看。
 - 四组共 136 个词条显示对应例句场景：下午好为向老师问候，红色为红苹果，数字题按实际数量展示图示；切题及答案弹窗的图片一致，原图片开关可关闭/开启。上传时必须包含整个 `assets/scenes/` 目录和 `data/scene-catalog.json`，个人单文件导出会内嵌全部图片。
 - 问候组第 9/22 题使用右手自然挥手的新图 `assets/scenes/see-you-tomorrow.png`，左臂由身体遮挡；练习、答案弹窗和离线图片一致。
+- “时间与自然”入口应显示 220 条和四个子分类（52 / 61 / 56 / 51），复用原练习和发音操作。上传整个 `data/time-nature/`、`audio/en-us/nature/` 及 `assets/scenes/`；不能仅上传 JSON 或主页。
 - 手机联网打开“设置与备份”，等待“已保存离线内容”后再断网重开。
 - 更新仍使用原网站地址、原浏览器。学习记录保存在该浏览器；迁移到其他设备或域名前，先导出完整备份。
 
 ## 常见问题
 
-- **有页面但没声音**：检查两个 audio 子目录、`audio-manifest.json`、`audio-files.js` 是否完整上传。点击朗读允许浏览器开始播放。
+- **有页面但没声音**：检查两个 audio 子目录、`audio-manifest.json`、`audio-files.js`、`scene-files.js` 是否完整上传。点击朗读允许浏览器开始播放。
 - **声音断续或重叠**：本版下载完整录音并校验后再播放，朗读时自动降低敲击音，并预加载后续录音。首次慢网加载会显示缓冲提示；建议用正常 1× 听原录音音色。先联网刷新并等待“已保存离线内容”，无需清空学习记录。`index.html`、`sw.js`、`audio-files.js` 和 `audio-manifest.json` 应使用同一 ZIP 的版本，MP3 文件保持原样。
 - **提示“暂无对应录音”**：该自定义内容没有匹配的 MP3，网站会如实提示，不会调用语音合成。
 - **网站仍是旧版**：确认推送的是 Pages 使用的分支，等待发布结束后联网刷新，也可使用本次提供的带版本参数链接。新版在首屏绘制前就选择布局，并在联网导航时校验页面版本；无需清空浏览器学习数据。

@@ -4897,6 +4897,3768 @@
       "source": "generated_offline_espeak",
       "voice_note": "Temporary local en-US+f3 eSpeak voice; not the same voice as the original Bella/Kokoro audio bank.",
       "sha256": "6271bd79bd45d016f9442cf5cb6efc60535b6ff4e63984eb5cc03e33afa1e5f2"
+    },
+    {
+      "audio_key": "what time is it",
+      "text": "What time is it?",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/what-time-is-it.mp3",
+      "intonation": "fall",
+      "sha256": "a88db302e9cdd4443f61b8de3a1c0ee8e78c766e486c8a37a2728167f824cbbc",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "clock",
+      "text": "clock",
+      "style": "word",
+      "path": "audio/en-us/nature/word/clock.mp3",
+      "intonation": "neutral",
+      "sha256": "6dc28ad4d390361ab83ea3ccee67354a7e0d9ee869c47fbd39cf9f983824abc7",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the clock is on the wall",
+      "text": "The clock is on the wall.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/the-clock-is-on-the-wall.mp3",
+      "intonation": "fall",
+      "sha256": "e4e7abf03e2f2cbd9f14edcd206b20bd20864d967e5e0282fedaa70e44184758",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "watch",
+      "text": "watch",
+      "style": "word",
+      "path": "audio/en-us/nature/word/watch.mp3",
+      "intonation": "neutral",
+      "sha256": "63c0de85b7bbd5a1e9cc324e7e47b486b870d6050866582567ee33f2c9a0bbb3",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "my watch is new",
+      "text": "My watch is new.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/my-watch-is-new.mp3",
+      "intonation": "fall",
+      "sha256": "2dbd5d6763ce41e42d42ba4947504a92851efe9ebfdfc618204bc23f2ade4bdc",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "hour",
+      "text": "hour",
+      "style": "word",
+      "path": "audio/en-us/nature/word/hour.mp3",
+      "intonation": "neutral",
+      "sha256": "f8ee164a7b46d3eb9d699d7a9b55623f3ffa604d4593e909200ea3410627bd54",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "an hour has sixty minutes",
+      "text": "An hour has sixty minutes.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/an-hour-has-sixty-minutes.mp3",
+      "intonation": "fall",
+      "sha256": "6b0b4ee9c3f331308c2b966b0d750bd7158b9b4353c1c264670374b1885d2d20",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "minute",
+      "text": "minute",
+      "style": "word",
+      "path": "audio/en-us/nature/word/minute.mp3",
+      "intonation": "neutral",
+      "sha256": "8a4a5f0acc4fdfbe95512e1bc488da148919bf2e91539ed0dd98e7c44e5226eb",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "wait one minute please",
+      "text": "Wait one minute, please.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/wait-one-minute-please.mp3",
+      "intonation": "fall",
+      "sha256": "e69169448b26e3d40e19acb03ba6d0a68474d481a5748201fb5c3a000b730315",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "one minute has sixty seconds",
+      "text": "One minute has sixty seconds.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/one-minute-has-sixty-seconds.mp3",
+      "intonation": "fall",
+      "sha256": "5b0475487cc133e1c6be243b391a46b2168cd090dd88588059706f3b8ee83f3e",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "o'clock",
+      "text": "o'clock",
+      "style": "word",
+      "path": "audio/en-us/nature/word/o-clock.mp3",
+      "intonation": "neutral",
+      "sha256": "fc67fa4906ae86a94b6508e4e5484aba2af5145d3c952f82e4ad24b3694b748b",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "it is six o'clock",
+      "text": "It is six o'clock.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/it-is-six-o-clock.mp3",
+      "intonation": "fall",
+      "sha256": "4de8925df56506d67087d9856d15cd71d7937cc10b77e6ad8ac74ee21ec484f4",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "past",
+      "text": "past",
+      "style": "word",
+      "path": "audio/en-us/nature/word/past.mp3",
+      "intonation": "neutral",
+      "sha256": "e9ff332e303473041806b14f2236d19fe352576448121caf39eb4cd75ebe8211",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "it is ten past three",
+      "text": "It is ten past three.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/it-is-ten-past-three.mp3",
+      "intonation": "fall",
+      "sha256": "e8f92cd30d3a0ea274e74a1f008397ffcfe34fd19d7624bb094ee684892df862",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "it is ten to four",
+      "text": "It is ten to four.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/it-is-ten-to-four.mp3",
+      "intonation": "fall",
+      "sha256": "e35f27f38fc923eb4c2201af9cab52dc5da1a4b9399dba7e949833d537347cd0",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "half past",
+      "text": "half past",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/half-past.mp3",
+      "intonation": "fall",
+      "sha256": "c73b332c433327b13fe7e419f8e7d16f88e174cc2956790e47553c5ef18fcdd2",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "it is half past seven",
+      "text": "It is half past seven.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/it-is-half-past-seven.mp3",
+      "intonation": "fall",
+      "sha256": "c2a341adc91ec11f968bebeb32dbd2a4a8cdeb1aa1b0c64257bcaf190be38703",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "quarter past",
+      "text": "quarter past",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/quarter-past.mp3",
+      "intonation": "fall",
+      "sha256": "2e215a9969ceb38c3be515e0fac8ae1dc779a6b8a1e0334918ea6392bdd9efab",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "it is quarter past eight",
+      "text": "It is quarter past eight.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/it-is-quarter-past-eight.mp3",
+      "intonation": "fall",
+      "sha256": "feecf1b759d08fc7bbc9328068f960c5ec1eb86a9c62452f095eab782b495a4d",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "quarter to",
+      "text": "quarter to",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/quarter-to.mp3",
+      "intonation": "fall",
+      "sha256": "d350257aaaa68e2adc564fa838f6aa45a68ea0397141ab7b2a029a52c45f2b0f",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "it is quarter to nine",
+      "text": "It is quarter to nine.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/it-is-quarter-to-nine.mp3",
+      "intonation": "fall",
+      "sha256": "8ff2e795e230dd04a5fd202bc5d1ef00a9607ee7bbebc79c8cd5eab23f79e23d",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "noon",
+      "text": "noon",
+      "style": "word",
+      "path": "audio/en-us/nature/word/noon.mp3",
+      "intonation": "neutral",
+      "sha256": "9793e8bc45e4f333abd1fe6348512501db515c8ebd887055d8ebf48434b17c39",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "we eat lunch at noon",
+      "text": "We eat lunch at noon.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/we-eat-lunch-at-noon.mp3",
+      "intonation": "fall",
+      "sha256": "b0785c60b12efa87c5ae53e8edf4b3764cf33055e669aac98932e892d63d7623",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "midday",
+      "text": "midday",
+      "style": "word",
+      "path": "audio/en-us/nature/word/midday.mp3",
+      "intonation": "neutral",
+      "sha256": "beb9d1d6fd6ce94f89a88daf907973f46297a1bb019b1879a15d80a0ee267fea",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the sun is high at midday",
+      "text": "The sun is high at midday.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/the-sun-is-high-at-midday.mp3",
+      "intonation": "fall",
+      "sha256": "e28e4fd04db328f5612f240f877b37cb54d258b41296cd2d018b336e745c3415",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "midnight",
+      "text": "midnight",
+      "style": "word",
+      "path": "audio/en-us/nature/word/midnight.mp3",
+      "intonation": "neutral",
+      "sha256": "a01ead5cdda2bfa7b87d1fccbbfbc5816b01358fa8dd77d190c4075e28d18abd",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the film ends at midnight",
+      "text": "The film ends at midnight.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/the-film-ends-at-midnight.mp3",
+      "intonation": "fall",
+      "sha256": "55b2f4d7afae72b86c07a0807a597456f5bd7c90ac3261edbbe49635fd295fbb",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "i read in the morning",
+      "text": "I read in the morning.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/i-read-in-the-morning.mp3",
+      "intonation": "fall",
+      "sha256": "096ba79bc3ae83a2d5ad6499d1ea673c382707e83ae2f40dd61093ec12c932b2",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "we play in the afternoon",
+      "text": "We play in the afternoon.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/we-play-in-the-afternoon.mp3",
+      "intonation": "fall",
+      "sha256": "6966315e4dbb59fb5b2517b89c4ff7127fcbb8885e9c1f75dcd1828f23d7fb09",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "evening",
+      "text": "evening",
+      "style": "word",
+      "path": "audio/en-us/nature/word/evening.mp3",
+      "intonation": "neutral",
+      "sha256": "8af47f1d90128007c2f351158db0fa53a8eb0024efd901e2f3d6d89d6ba93f08",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "i do homework in the evening",
+      "text": "I do homework in the evening.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/i-do-homework-in-the-evening.mp3",
+      "intonation": "fall",
+      "sha256": "47ebc9616439d48b58f11729405ea48f8affb55f15d8bfe4563842a81dedc77c",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "night",
+      "text": "night",
+      "style": "word",
+      "path": "audio/en-us/nature/word/night.mp3",
+      "intonation": "neutral",
+      "sha256": "98ba6f97228d7ee971bfa3316e4863a635301e96d346198e04ed15c7ef889aa7",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the stars shine at night",
+      "text": "The stars shine at night.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/the-stars-shine-at-night.mp3",
+      "intonation": "fall",
+      "sha256": "24d8fadb8ebcc51fc5395b985c3e49fb3d8b23cd525f6b87507829090f781fc2",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "dawn",
+      "text": "dawn",
+      "style": "word",
+      "path": "audio/en-us/nature/word/dawn.mp3",
+      "intonation": "neutral",
+      "sha256": "3c2a41f7a7f4bda518f9883fbb8bf7e75e747aa7b59f96bc10aff074736156b7",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "birds sing at dawn",
+      "text": "Birds sing at dawn.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/birds-sing-at-dawn.mp3",
+      "intonation": "fall",
+      "sha256": "2644b92c3cbeb4878c3893c3651cf47645396708a1965df4c8ee905b67fa359c",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "sunrise",
+      "text": "sunrise",
+      "style": "word",
+      "path": "audio/en-us/nature/word/sunrise.mp3",
+      "intonation": "neutral",
+      "sha256": "a4927880a213102b025160c5df921bdd4613fe3f9ddcd5d98f87f6e4c73f1a1b",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "we watched the sunrise",
+      "text": "We watched the sunrise.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/we-watched-the-sunrise.mp3",
+      "intonation": "fall",
+      "sha256": "0de7179ed2d95f6859854fc1add02530feb7610747cfe97d59a5e3a61f27827e",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "sunset",
+      "text": "sunset",
+      "style": "word",
+      "path": "audio/en-us/nature/word/sunset.mp3",
+      "intonation": "neutral",
+      "sha256": "aec1c2c14db8643adcb443085c2566637bdb9ae51c6bb26553768c1f4c6009ac",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the sky is orange at sunset",
+      "text": "The sky is orange at sunset.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/the-sky-is-orange-at-sunset.mp3",
+      "intonation": "fall",
+      "sha256": "79c1e08341df4a7ea917594e3a735ec9cf01b13e383a9e7e559c94bf4f406371",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "today",
+      "text": "today",
+      "style": "word",
+      "path": "audio/en-us/nature/word/today.mp3",
+      "intonation": "neutral",
+      "sha256": "fdd55a20050978b4b93180a42d95f54b628802fc85ad272ceeadb475ebfdcc84",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "today is a school day",
+      "text": "Today is a school day.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/today-is-a-school-day.mp3",
+      "intonation": "fall",
+      "sha256": "e982a32ac422cecf4bb05bc54565f4a9012f1bad535869f314513794d240535e",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "yesterday",
+      "text": "yesterday",
+      "style": "word",
+      "path": "audio/en-us/nature/word/yesterday.mp3",
+      "intonation": "neutral",
+      "sha256": "62556d966a91f4d91e0e85c115436e9c96a783c23ef7de13d8132e8534f7a9e3",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "it was sunny yesterday",
+      "text": "It was sunny yesterday.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/it-was-sunny-yesterday.mp3",
+      "intonation": "fall",
+      "sha256": "c1ea6a441cbf16cb72bd5b41dd7cb0655288e2a4d7fac825f50a5cded550a52f",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "tonight",
+      "text": "tonight",
+      "style": "word",
+      "path": "audio/en-us/nature/word/tonight.mp3",
+      "intonation": "neutral",
+      "sha256": "4a5094e43c817cb0513605735fb6e84a91c36f699ef9e2ed2db9667a61a61ab6",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "we will read tonight",
+      "text": "We will read tonight.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/we-will-read-tonight.mp3",
+      "intonation": "fall",
+      "sha256": "f00f1fa714749e9014518fa7fe52e2b59a1a3d84b957653e7e17f3b1bbbda65e",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "i am busy now",
+      "text": "I am busy now.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/i-am-busy-now.mp3",
+      "intonation": "fall",
+      "sha256": "99752f92351167f930c72794ab03bf77b2aa2383468336ff945f3e38581a902b",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "later",
+      "text": "later",
+      "style": "word",
+      "path": "audio/en-us/nature/word/later.mp3",
+      "intonation": "neutral",
+      "sha256": "4dfb74ab5b09c801dffbf6bd95ccb09adce6c882e78014a7913b50d2a109deec",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "i will call you later",
+      "text": "I will call you later.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/i-will-call-you-later.mp3",
+      "intonation": "fall",
+      "sha256": "5d4a21acd7580af9150d3e2754c124ca7d336d64cfb7f9c6b98c5f19c8b3e68d",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "soon",
+      "text": "soon",
+      "style": "word",
+      "path": "audio/en-us/nature/word/soon.mp3",
+      "intonation": "neutral",
+      "sha256": "13cbb7afd1ab3ba4ed1c9c01ae201e68473a19ded723362f751b252a58620754",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the bus will come soon",
+      "text": "The bus will come soon.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/the-bus-will-come-soon.mp3",
+      "intonation": "fall",
+      "sha256": "43610f736cb3c80b49ecc419039ff4e4f5d8972862a59b55918899399f5c0cde",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "early",
+      "text": "early",
+      "style": "word",
+      "path": "audio/en-us/nature/word/early.mp3",
+      "intonation": "neutral",
+      "sha256": "dfc5f61dded291cab9b3cdeed1e1e25c4d3cc54123545b6c1376536b4f512a7b",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "i get up early",
+      "text": "I get up early.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/i-get-up-early.mp3",
+      "intonation": "fall",
+      "sha256": "b58225b3ef70e28f3239435262b43d3215fc07a3139dcdb1160e2f516c450f3b",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "late",
+      "text": "late",
+      "style": "word",
+      "path": "audio/en-us/nature/word/late.mp3",
+      "intonation": "neutral",
+      "sha256": "091c2b36dccaeef1675de8076074e086cd1765ad472a5d5be56dd6bb66a1e801",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "do not be late for school",
+      "text": "Do not be late for school.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/do-not-be-late-for-school.mp3",
+      "intonation": "fall",
+      "sha256": "eb74ebadbea8ec64d04bc85093247b632061e2f8c5821c4f5039da820736652e",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "before",
+      "text": "before",
+      "style": "word",
+      "path": "audio/en-us/nature/word/before.mp3",
+      "intonation": "neutral",
+      "sha256": "c53c2bd90bdd43d83b816e08656b268c3e7f7ec97e7fba80c0f24fadd83037a8",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "wash your hands before lunch",
+      "text": "Wash your hands before lunch.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/wash-your-hands-before-lunch.mp3",
+      "intonation": "fall",
+      "sha256": "f10aed05737202a48c78f6ff2bd531c9ab9b98350bd87d72f0348fbb1aae9440",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "i play after school",
+      "text": "I play after school.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/i-play-after-school.mp3",
+      "intonation": "fall",
+      "sha256": "a5517a4eda567ac5f31dde02cd62fc91bc0f148a5f59432ae8f9abf00c5f938a",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "daily",
+      "text": "daily",
+      "style": "word",
+      "path": "audio/en-us/nature/word/daily.mp3",
+      "intonation": "neutral",
+      "sha256": "6169bdd007b3d79a14fac3669bdde43c249e8e7a597a6f92ce1987b14a4fd7ab",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "this is my daily routine",
+      "text": "This is my daily routine.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/this-is-my-daily-routine.mp3",
+      "intonation": "fall",
+      "sha256": "260cf4a7d71ff86814fa89760e65a4a722b926611dca12dcc77194ec43ab2c62",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "every day",
+      "text": "every day",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/every-day.mp3",
+      "intonation": "fall",
+      "sha256": "49b06cd16004b0f8a92e7ce30091ecf996cadb89a6d042658b9710f0eec1738c",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "once",
+      "text": "once",
+      "style": "word",
+      "path": "audio/en-us/nature/word/once.mp3",
+      "intonation": "neutral",
+      "sha256": "f1eff4bb77859f79be07532fadf8c630fdedf49628b565382d4efae7e92895ba",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "i visit grandma once a week",
+      "text": "I visit Grandma once a week.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/i-visit-grandma-once-a-week.mp3",
+      "intonation": "fall",
+      "sha256": "30e1d7d37a99205b4751d8562d7e3afefc820cdbf0f87856d17f629ea51a64b3",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "twice",
+      "text": "twice",
+      "style": "word",
+      "path": "audio/en-us/nature/word/twice.mp3",
+      "intonation": "neutral",
+      "sha256": "2bbf7272f58f93bf278dd27ef736115fa35cf69f28f0ccd102edb5952f9e4fcc",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "i brush my teeth twice a day",
+      "text": "I brush my teeth twice a day.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/i-brush-my-teeth-twice-a-day.mp3",
+      "intonation": "fall",
+      "sha256": "1709e1b439a0339359fff32f6972873003ce140ed3b8b7d880d46eb061061c0e",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "always",
+      "text": "always",
+      "style": "word",
+      "path": "audio/en-us/nature/word/always.mp3",
+      "intonation": "neutral",
+      "sha256": "4c31f33fd3a7dce641e8602ef94236b8a458ad92d48e3d26615605daa2a1252f",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "i always pack my bag at night",
+      "text": "I always pack my bag at night.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/i-always-pack-my-bag-at-night.mp3",
+      "intonation": "fall",
+      "sha256": "c71e18d0d81978907b4144df8b28d53d1f2adc4c3f832637671c55352960d985",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "sometimes",
+      "text": "sometimes",
+      "style": "word",
+      "path": "audio/en-us/nature/word/sometimes.mp3",
+      "intonation": "neutral",
+      "sha256": "442c34b0c27d7307236a363ff3759bbcfc9ae6db21185b832a815dfdc2aef74d",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "sometimes i walk to school",
+      "text": "Sometimes I walk to school.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/sometimes-i-walk-to-school.mp3",
+      "intonation": "fall",
+      "sha256": "c9bd4caf8c9d95ffdfce7e3408b6bae8ba915d1d9125224c64b0aad90e6b1554",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "never",
+      "text": "never",
+      "style": "word",
+      "path": "audio/en-us/nature/word/never.mp3",
+      "intonation": "neutral",
+      "sha256": "29c3931a608344efb6f8649d6ea549268137e14a89387ed6e1e558ff514d4b02",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "i never go to bed with my shoes on",
+      "text": "I never go to bed with my shoes on.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/i-never-go-to-bed-with-my-shoes-on.mp3",
+      "intonation": "fall",
+      "sha256": "50a37afe1b1d072ffdf72474ae2956e3466fe0ad42bab33605c5709d73e9b812",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "bedtime",
+      "text": "bedtime",
+      "style": "word",
+      "path": "audio/en-us/nature/word/bedtime.mp3",
+      "intonation": "neutral",
+      "sha256": "b313f378b3bc1b1af28efd6137045037d6f00bfc476274795e7ba32ded10f3bd",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "my bedtime is nine o'clock",
+      "text": "My bedtime is nine o’clock.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/my-bedtime-is-nine-o-clock.mp3",
+      "intonation": "fall",
+      "sha256": "c7792f66e0851de665093567d983c2163f7c4f0b201a354db48562526c669b7e",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "wakeup time",
+      "text": "wake-up time",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/wakeup-time.mp3",
+      "intonation": "fall",
+      "sha256": "d5d025b2c19a66eb08bcb9018f7c7c86fcc5b5b6c6de5768f37a09ea24b3bbc1",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "my wakeup time is seven",
+      "text": "My wake-up time is seven.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/my-wakeup-time-is-seven.mp3",
+      "intonation": "fall",
+      "sha256": "57fd4772f2aa93cc579531dd4b2ea74a9abb5f66e529fa07c27073719a3a4ad6",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "what time is it now",
+      "text": "What time is it now?",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/what-time-is-it-now.mp3",
+      "intonation": "fall",
+      "sha256": "827e5a924d71aaca5aa0c4531b08d31a971063f3fa7460f9f4cf2f88f4e81378",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "it's seven o'clock",
+      "text": "It's seven o'clock.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/it-s-seven-o-clock.mp3",
+      "intonation": "fall",
+      "sha256": "36bc0ceecfae77a27f164c0c78e04d434e71424dacc81acef26621a0288e1de1",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "it's seven o'clock let's go",
+      "text": "It's seven o'clock. Let's go.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/it-s-seven-o-clock-let-s-go.mp3",
+      "intonation": "fall",
+      "sha256": "81fdffe987ee414873aa5b85a18f0573890e33339187eb86fef91285f4cc1c4e",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "it's half past eight",
+      "text": "It's half past eight.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/it-s-half-past-eight.mp3",
+      "intonation": "fall",
+      "sha256": "fb181fe749c03bacc0f8f0c6541b8b7711042f0443991e39d2c8ce7311c0a4e1",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "it's half past eight time for school",
+      "text": "It's half past eight. Time for school.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/it-s-half-past-eight-time-for-school.mp3",
+      "intonation": "fall",
+      "sha256": "b79dbd8d79a468556f59543f1b8d18ea76ec8befec57a57b6f16c20caeb6585f",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "in the morning",
+      "text": "in the morning",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/in-the-morning.mp3",
+      "intonation": "fall",
+      "sha256": "7bddfaa8d8c14b26b2637336df8b67246e553e3a8e18a9c4ada3598c32324a6a",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "i eat breakfast in the morning",
+      "text": "I eat breakfast in the morning.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/i-eat-breakfast-in-the-morning.mp3",
+      "intonation": "fall",
+      "sha256": "eae205de9380e8e6f32eab0bd291d73db6b21b72d6b0c51df36b65958cae0bf0",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "in the afternoon",
+      "text": "in the afternoon",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/in-the-afternoon.mp3",
+      "intonation": "fall",
+      "sha256": "45ff9c0fe1677588edcbe8d3df6036b605c98a693f8d423fc90e841e633ddaf3",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "we have a lesson in the afternoon",
+      "text": "We have a lesson in the afternoon.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/we-have-a-lesson-in-the-afternoon.mp3",
+      "intonation": "fall",
+      "sha256": "2799f86fb7940e756ccad7fad83ab4b22e41774027707d9376b34a6b0f4366c7",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "at night",
+      "text": "at night",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/at-night.mp3",
+      "intonation": "fall",
+      "sha256": "f4854a2b6a1f6539e4981c23b6e33b505fa45f3bbd6febadcfcf46ba66aa2735",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "it is quiet at night",
+      "text": "It is quiet at night.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/it-is-quiet-at-night.mp3",
+      "intonation": "fall",
+      "sha256": "77cf27963b3457e10b034f48f8a01566f7004aa4afa2dc8cd87eee5955dfcd94",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "on time",
+      "text": "on time",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/on-time.mp3",
+      "intonation": "fall",
+      "sha256": "b93c0ff30ab082f5bf910d39753ca571b2adf02e8b8f1b78bc6bafb16ec3f657",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the train arrived on time",
+      "text": "The train arrived on time.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/the-train-arrived-on-time.mp3",
+      "intonation": "fall",
+      "sha256": "690e72c273bc3dff0e660917d27d526099cb75bd405ff5f8d576d0d9d0077b19",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "in time",
+      "text": "in time",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/in-time.mp3",
+      "intonation": "fall",
+      "sha256": "50f1398da77746a6056185f1108fbaf7d1b07c30832f032a2290eab8d6cf6ba3",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "we got there in time",
+      "text": "We got there in time.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/we-got-there-in-time.mp3",
+      "intonation": "fall",
+      "sha256": "5a7782e942d93afcc97d4e5813380d0e2a4c85c94039841dcb39714236a1a934",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "what time do you get up",
+      "text": "What time do you get up?",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/what-time-do-you-get-up.mp3",
+      "intonation": "fall",
+      "sha256": "e023358d13712724423418a4c76b50b008f9546e2365b7c2c0395feb447f1e5a",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "what time do you get up on school days",
+      "text": "What time do you get up on school days?",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/what-time-do-you-get-up-on-school-days.mp3",
+      "intonation": "fall",
+      "sha256": "4b214d97f8bd2d28a56030ba9955d603fc2ce05717ba8aedb8c156e8d7981482",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "i get up at seven",
+      "text": "I get up at seven.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/i-get-up-at-seven.mp3",
+      "intonation": "fall",
+      "sha256": "ba2ba09071087633e0770904d01c64741c84bb16a3b55f0b179531fc391f0a45",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "i get up at seven every morning",
+      "text": "I get up at seven every morning.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/i-get-up-at-seven-every-morning.mp3",
+      "intonation": "fall",
+      "sha256": "d3ac5f4efdf42602c677bc2711aaa3cc5afdaebb1268558db8246ef31f03d85a",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "there are seven days in a week",
+      "text": "There are seven days in a week.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/there-are-seven-days-in-a-week.mp3",
+      "intonation": "fall",
+      "sha256": "a4897fad88e0ce2c7b1827e475f7a3821764202b3ee014438415730a76aafb38",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "weekday",
+      "text": "weekday",
+      "style": "word",
+      "path": "audio/en-us/nature/word/weekday.mp3",
+      "intonation": "neutral",
+      "sha256": "86550eb415e54cf1e0af779d02717c303e892791d23ce144eeb7f7cf6ba29d62",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "monday is a weekday",
+      "text": "Monday is a weekday.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/monday-is-a-weekday.mp3",
+      "intonation": "fall",
+      "sha256": "3bf740e824a466e60d0a41f804ce3466ec767cb290cbb94b1ba4eeba400dc2d3",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "weekend",
+      "text": "weekend",
+      "style": "word",
+      "path": "audio/en-us/nature/word/weekend.mp3",
+      "intonation": "neutral",
+      "sha256": "1df6cd894819e1977d1841ab7266ad2037be49f31d02abbdc56cf8c14eb92a0b",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "i play football at the weekend",
+      "text": "I play football at the weekend.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/i-play-football-at-the-weekend.mp3",
+      "intonation": "fall",
+      "sha256": "f804449d0b537e85b2abd4e54866749b59eb1db2f3416fdcaa9f9cecdb8253f1",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "calendar",
+      "text": "calendar",
+      "style": "word",
+      "path": "audio/en-us/nature/word/calendar.mp3",
+      "intonation": "neutral",
+      "sha256": "c93c722e59aed0259727f30826ec0417c7534def22bf60525d96fd9a89c16d6a",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the calendar is on the desk",
+      "text": "The calendar is on the desk.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/the-calendar-is-on-the-desk.mp3",
+      "intonation": "fall",
+      "sha256": "9df88c7c96a50eef5320d553a96d26352c3e29e2781944855b3bebe1792ee99b",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "date",
+      "text": "date",
+      "style": "word",
+      "path": "audio/en-us/nature/word/date.mp3",
+      "intonation": "neutral",
+      "sha256": "0c50f8d99ec9dc36af8deb425e020da988f6beb4c6e9b0a64c92f6bb2637f47a",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "what is the date today",
+      "text": "What is the date today?",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/what-is-the-date-today.mp3",
+      "intonation": "fall",
+      "sha256": "8073ed23571fd491fcf71dcfda60b1b8303ffa54057b0b7648e5ff81238bf70a",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "school day",
+      "text": "school day",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/school-day.mp3",
+      "intonation": "fall",
+      "sha256": "0c4a30442a38a9a95e6fbcec7389cdccbf44d3e1aabaf07ed16e2a271f729e9e",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "tuesday is a school day",
+      "text": "Tuesday is a school day.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/tuesday-is-a-school-day.mp3",
+      "intonation": "fall",
+      "sha256": "e419c904d3c573e021988babd463a1794385e02b96f704cd705182cf13e503e9",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "day off",
+      "text": "day off",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/day-off.mp3",
+      "intonation": "fall",
+      "sha256": "ea179d1a875c3c67a28bc27fa9c9941febfa73664dd6be5a29dc5ab699aa9e7d",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "sunday is my day off",
+      "text": "Sunday is my day off.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/sunday-is-my-day-off.mp3",
+      "intonation": "fall",
+      "sha256": "2b6d6f18b4591939bfac83d2bc472def1e2bf29e526fb64835fd8a339714b63a",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "birthday",
+      "text": "birthday",
+      "style": "word",
+      "path": "audio/en-us/nature/word/birthday.mp3",
+      "intonation": "neutral",
+      "sha256": "10220d89591af0cdab2b99c41a4079e789af4307dfb1de1af3d409d12e0878ba",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "my birthday is in june",
+      "text": "My birthday is in June.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/my-birthday-is-in-june.mp3",
+      "intonation": "fall",
+      "sha256": "bda35bd5e026438f4657d5dbe4f4de603713bfa41670ad57e024b3a98cbac4e1",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "holiday",
+      "text": "holiday",
+      "style": "word",
+      "path": "audio/en-us/nature/word/holiday.mp3",
+      "intonation": "neutral",
+      "sha256": "3300fe6f2bf9a6cd0e4f2d502b330a3192fcf9e21409678b7d2bfcc12cb5a08c",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "we visit grandma during the holiday",
+      "text": "We visit Grandma during the holiday.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/we-visit-grandma-during-the-holiday.mp3",
+      "intonation": "fall",
+      "sha256": "935dab2b34c23d54a0cc02ed33c86dec13d0c55ee915610ed809ffda47c79e84",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "public holiday",
+      "text": "public holiday",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/public-holiday.mp3",
+      "intonation": "fall",
+      "sha256": "9cdada9fda2e5cce0e8fe926add42a615b7f9ca78321a1a54fa495930de37ae2",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the bank is closed on the public holiday",
+      "text": "The bank is closed on the public holiday.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/the-bank-is-closed-on-the-public-holiday.mp3",
+      "intonation": "fall",
+      "sha256": "d5e19deef7b581a2d770d60a5fdec8b76ae129a542bd7f17ee7b7cd64ab88acb",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "school holiday",
+      "text": "school holiday",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/school-holiday.mp3",
+      "intonation": "fall",
+      "sha256": "29d62741232360cbf1028bb437068442d58437a5686b2caac118ecb0f331c27a",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "we travel during the school holiday",
+      "text": "We travel during the school holiday.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/we-travel-during-the-school-holiday.mp3",
+      "intonation": "fall",
+      "sha256": "34ad7e53ca09150449c9541253e5becbe96f9e380d9c5864fe325f51faeb7bb2",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "anniversary",
+      "text": "anniversary",
+      "style": "word",
+      "path": "audio/en-us/nature/word/anniversary.mp3",
+      "intonation": "neutral",
+      "sha256": "9c3b670964e9fbf435aa25d2e8035395de396d746a5ba5a404c1ae708cb1f786",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "today is their wedding anniversary",
+      "text": "Today is their wedding anniversary.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/today-is-their-wedding-anniversary.mp3",
+      "intonation": "fall",
+      "sha256": "3d13e43522dad00b8b04a92954a212d9982ca7a0b7183ba7bed11f6f71ef24e9",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "appointment",
+      "text": "appointment",
+      "style": "word",
+      "path": "audio/en-us/nature/word/appointment.mp3",
+      "intonation": "neutral",
+      "sha256": "6340dc2908e341383697f0d1868c7a02735ddbb933197178e46ba4f95a8b6281",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "i have a doctor's appointment on friday",
+      "text": "I have a doctor's appointment on Friday.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/i-have-a-doctor-s-appointment-on-friday.mp3",
+      "intonation": "fall",
+      "sha256": "f2dcb7f3ac27c8d0461b9578e2c96fbe78ed7236d2a5e6a526f6c74cba3d4054",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "check the school schedule",
+      "text": "Check the school schedule.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/check-the-school-schedule.mp3",
+      "intonation": "fall",
+      "sha256": "b813a234c06e69af5f1585f085cd1d9236220e9105afc3bf062634a91066b2fa",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "monday",
+      "text": "Monday",
+      "style": "word",
+      "path": "audio/en-us/nature/word/monday.mp3",
+      "intonation": "neutral",
+      "sha256": "93e56d7caf29e1beda46f0cbbbfaddcc14eb38becdbe555d92e6a898b8a02a61",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "i have english on monday",
+      "text": "I have English on Monday.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/i-have-english-on-monday.mp3",
+      "intonation": "fall",
+      "sha256": "f4f08f5833136a2cd1da5d30dc4a1bb4f32e2394f657eb7c3a03bad64a83d4a8",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "tuesday",
+      "text": "Tuesday",
+      "style": "word",
+      "path": "audio/en-us/nature/word/tuesday.mp3",
+      "intonation": "neutral",
+      "sha256": "38887892d1a4cb3bd745897cb60c0098414a0306a5091567f968f4278a501238",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "we swim on tuesday",
+      "text": "We swim on Tuesday.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/we-swim-on-tuesday.mp3",
+      "intonation": "fall",
+      "sha256": "045ffa353448ea29635b64211d67eb6d5bfaecde1c809bbe10f038e195b1c0f1",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "wednesday",
+      "text": "Wednesday",
+      "style": "word",
+      "path": "audio/en-us/nature/word/wednesday.mp3",
+      "intonation": "neutral",
+      "sha256": "fc0254fe5b05adaf5a9aaeb7a8d9a5ab5dbd92950fd83af8cfd396d2ae0f04a5",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "i read on wednesday",
+      "text": "I read on Wednesday.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/i-read-on-wednesday.mp3",
+      "intonation": "fall",
+      "sha256": "76a0adb33763250b5c5a15ec71d07e63107d472463f1fd23065caddf70bdf719",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "thursday",
+      "text": "Thursday",
+      "style": "word",
+      "path": "audio/en-us/nature/word/thursday.mp3",
+      "intonation": "neutral",
+      "sha256": "8af99a2c40a3e25da0ee58f8eebd5cd09423ef2ba29cc6b9842a70ff385b9ec7",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "i visit the library on thursday",
+      "text": "I visit the library on Thursday.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/i-visit-the-library-on-thursday.mp3",
+      "intonation": "fall",
+      "sha256": "15a8ba87943eea91afd08940afc4bc452d23b44e5462a64d1ef3c666bb689c43",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "friday is my last school day this week",
+      "text": "Friday is my last school day this week.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/friday-is-my-last-school-day-this-week.mp3",
+      "intonation": "fall",
+      "sha256": "78a6f5ca7e78dbf77ccfcdbb4653ee9c92d04d31bcecc1945c2284caaf446878",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "saturday",
+      "text": "Saturday",
+      "style": "word",
+      "path": "audio/en-us/nature/word/saturday.mp3",
+      "intonation": "neutral",
+      "sha256": "0b268f7f5c4320daa8fec028988449a239fe771290b7ccb8585df830e07de16d",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "we play in the park on saturday",
+      "text": "We play in the park on Saturday.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/we-play-in-the-park-on-saturday.mp3",
+      "intonation": "fall",
+      "sha256": "c9597264219ee7940cd6f48159c69b4715329349d32ed79a36e1e6544ff265af",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "sunday",
+      "text": "Sunday",
+      "style": "word",
+      "path": "audio/en-us/nature/word/sunday.mp3",
+      "intonation": "neutral",
+      "sha256": "d47a9d3bc43ab64c55fb3e8758936ff24dbfabedfb561b1dd8fd3b681ab5eef2",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "i help my family on sunday",
+      "text": "I help my family on Sunday.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/i-help-my-family-on-sunday.mp3",
+      "intonation": "fall",
+      "sha256": "e95c63467bee1a611f7c85516b147d9ebc24a7ce504187d97a79de54d8713fa4",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "every monday",
+      "text": "every Monday",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/every-monday.mp3",
+      "intonation": "fall",
+      "sha256": "6307eaa245c21d1d894f06c1e0dc8451e8e857f7a5582092c91f956fd62d8faa",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "we have a test every monday",
+      "text": "We have a test every Monday.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/we-have-a-test-every-monday.mp3",
+      "intonation": "fall",
+      "sha256": "c525e4c9631b9747ced322a4fc56bd8c78da29708219083f7619a346113af405",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "from monday to friday",
+      "text": "from Monday to Friday",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/from-monday-to-friday.mp3",
+      "intonation": "fall",
+      "sha256": "d22e7bb84ea2534385717663cd943d910e08c5c4d6b0b3c215d77466923b535a",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "i go to school from monday to friday",
+      "text": "I go to school from Monday to Friday.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/i-go-to-school-from-monday-to-friday.mp3",
+      "intonation": "fall",
+      "sha256": "6996623a485175def8db9801404b56fea660cbe5cfdbc2f3e0096dc70534e9fe",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "at the weekend",
+      "text": "at the weekend",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/at-the-weekend.mp3",
+      "intonation": "fall",
+      "sha256": "aca12674ff8c379b551ccfdc418eec8d77dd855b20c8dbce4021659b22de8e74",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "i ride my bike at the weekend",
+      "text": "I ride my bike at the weekend.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/i-ride-my-bike-at-the-weekend.mp3",
+      "intonation": "fall",
+      "sha256": "1fefa082f1b7a0cf8f20cb1f74e706cb125fa0720501c3d96513df1fed1135ba",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "this week",
+      "text": "this week",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/this-week.mp3",
+      "intonation": "fall",
+      "sha256": "af74279788b279b8a6394c6c57a50a4cc601c96e456e9be62320673e611063ca",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "we have three tests this week",
+      "text": "We have three tests this week.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/we-have-three-tests-this-week.mp3",
+      "intonation": "fall",
+      "sha256": "1858dce7f31186976dd4f569834eccb77093baf76c5909b416a0407ba5fc6922",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "next week",
+      "text": "next week",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/next-week.mp3",
+      "intonation": "fall",
+      "sha256": "0e11e016e98774077bcf39bb45ffb93eefef8c95888b400240f4b661f88aa4a5",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "we will visit the museum next week",
+      "text": "We will visit the museum next week.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/we-will-visit-the-museum-next-week.mp3",
+      "intonation": "fall",
+      "sha256": "a09375696947da5d0840d4e65f79a8309dfe9ffd0682c6b063b39fa31cea4acc",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "last week",
+      "text": "last week",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/last-week.mp3",
+      "intonation": "fall",
+      "sha256": "54999023b58dff27ec813bde9ec1c32a6f00663c64a398368b14eb401e6a021c",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "i saw my cousin last week",
+      "text": "I saw my cousin last week.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/i-saw-my-cousin-last-week.mp3",
+      "intonation": "fall",
+      "sha256": "61ec97c4d9ef6b572910e1e8d92a1d67da3b8989acb1a8f3e2f4eb097e85b3fb",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "what day is it today",
+      "text": "What day is it today?",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/what-day-is-it-today.mp3",
+      "intonation": "fall",
+      "sha256": "bffcbb6d42682516ff02f996bc8176b51f2bd86d828267f890ac2eb4a70b4ada",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "today is monday",
+      "text": "Today is Monday.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/today-is-monday.mp3",
+      "intonation": "fall",
+      "sha256": "dcecb99d326004a9b6fc86c807c29058d5baf59cdb56f73c2e2fcc7bd1969668",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "today is monday so school starts again",
+      "text": "Today is Monday, so school starts again.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/today-is-monday-so-school-starts-again.mp3",
+      "intonation": "fall",
+      "sha256": "86469b2ef3a7040530f4c59dd48bb86a98e5387289edee10c77bfa53b6f8b893",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the first",
+      "text": "the first",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/the-first.mp3",
+      "intonation": "fall",
+      "sha256": "32199df9263b38efe43c03a12d0e2b558757d8ab6b38dadbe5278459e9beba10",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the first is a monday this month",
+      "text": "The first is a Monday this month.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/the-first-is-a-monday-this-month.mp3",
+      "intonation": "fall",
+      "sha256": "b2c5886c0ede314ffac3aa35d62ea88726a462c9c908ff1c1b02fb52bf6e2aae",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the second",
+      "text": "the second",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/the-second.mp3",
+      "intonation": "fall",
+      "sha256": "65c7267f08b40bac95813ef2d1dae1a8c9e4b2ec6e6e13be68c3189961bcb24a",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the second of may is a school day",
+      "text": "The second of May is a school day.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/the-second-of-may-is-a-school-day.mp3",
+      "intonation": "fall",
+      "sha256": "3ec561d7b5adbf17c8e8dec9b3879f1e5852052100b58b029e4970c7975b2f8c",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the third",
+      "text": "the third",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/the-third.mp3",
+      "intonation": "fall",
+      "sha256": "a85ed037df915e5a57e86dc0c08666958462e382e9aafca7b4ffaeea7f15ec7e",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "her birthday is on the third of july",
+      "text": "Her birthday is on the third of July.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/her-birthday-is-on-the-third-of-july.mp3",
+      "intonation": "fall",
+      "sha256": "79c9ee9e1fa3bffa278559dfaef9f57055473470ca88a1e95a67fe6b8af506d7",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the fourth",
+      "text": "the fourth",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/the-fourth.mp3",
+      "intonation": "fall",
+      "sha256": "9ea372a94702ea4198b58efb8c22b33ff5e668c4c11479602edcfc56f02af09e",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the fourth of april is on friday",
+      "text": "The fourth of April is on Friday.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/the-fourth-of-april-is-on-friday.mp3",
+      "intonation": "fall",
+      "sha256": "e15e863d8b0333274f4e3c2905d606f46813b5cb67d9ff3c0721dd144b224393",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the fifth",
+      "text": "the fifth",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/the-fifth.mp3",
+      "intonation": "fall",
+      "sha256": "8750476dea445dc83cdd0bd86b36d030236ccd3f40d5ad1fa0b1ccce843b3e6d",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "my birthday is on the fifth of june",
+      "text": "My birthday is on the fifth of June.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/my-birthday-is-on-the-fifth-of-june.mp3",
+      "intonation": "fall",
+      "sha256": "42c29b470e19f22d00c462d5e2158dd680c940605e5d91ea049a3dd923cdbda9",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the sixth",
+      "text": "the sixth",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/the-sixth.mp3",
+      "intonation": "fall",
+      "sha256": "45dde16b3ae0624a147c769a7df98bcde8dc5d5fe53435243512b3c687864ec2",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the sixth of march is a thursday",
+      "text": "The sixth of March is a Thursday.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/the-sixth-of-march-is-a-thursday.mp3",
+      "intonation": "fall",
+      "sha256": "7f273f7cee775eb9762a9cf7b6d124c00aa252c699ce5bbe369c28590b106a6c",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the seventh",
+      "text": "the seventh",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/the-seventh.mp3",
+      "intonation": "fall",
+      "sha256": "d985d8d06b335e5af10c620fdd7113caf5dcae30ab28684129d2e934e7d6f034",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the seventh day is sunday",
+      "text": "The seventh day is Sunday.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/the-seventh-day-is-sunday.mp3",
+      "intonation": "fall",
+      "sha256": "7292062ad53f4c1fde0ce7b8eed750425639f847056901d2dabbfb6fd9e91c47",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the eighth",
+      "text": "the eighth",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/the-eighth.mp3",
+      "intonation": "fall",
+      "sha256": "929f57c9431ebb62e3a9ac69f6ca0478ce8ba0f001911de2a6b81a6e93f1a214",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the eighth of august is my holiday",
+      "text": "The eighth of August is my holiday.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/the-eighth-of-august-is-my-holiday.mp3",
+      "intonation": "fall",
+      "sha256": "07909ad2cb8438f03b8c402b1343c8be8f18ba024d97ccad99945327df7a2ed5",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the ninth",
+      "text": "the ninth",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/the-ninth.mp3",
+      "intonation": "fall",
+      "sha256": "958cced974a09de0fdaa8ef6e5ab4d7128b29e6f6cbc456796db88bb6bd6e467",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the ninth page is missing",
+      "text": "The ninth page is missing.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/the-ninth-page-is-missing.mp3",
+      "intonation": "fall",
+      "sha256": "1e2c091c49affe3a7b8148746196260d4825b3a4086c6ab5567bf17f871c08a5",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the tenth",
+      "text": "the tenth",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/the-tenth.mp3",
+      "intonation": "fall",
+      "sha256": "1f22f47c6ea6eb7b426513d856cde2dcccdf6b6b1b5fe03a3681400df84498a6",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the tenth of october is a friday",
+      "text": "The tenth of October is a Friday.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/the-tenth-of-october-is-a-friday.mp3",
+      "intonation": "fall",
+      "sha256": "58c8a3d68e7816bafa96d64f0349065d153d07c0e11d635a78e90b60c1b30f06",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the eleventh",
+      "text": "the eleventh",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/the-eleventh.mp3",
+      "intonation": "fall",
+      "sha256": "ba27fe688a59d80fe067b9db5fd267c59518ca928200e3acc2023c1100f2442e",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the eleventh is her birthday",
+      "text": "The eleventh is her birthday.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/the-eleventh-is-her-birthday.mp3",
+      "intonation": "fall",
+      "sha256": "be74ada450335efc1cb201c581a87db096374db03d59da548006e73fd422447d",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the twelfth",
+      "text": "the twelfth",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/the-twelfth.mp3",
+      "intonation": "fall",
+      "sha256": "62b643b4d28ca02e1c412bbf8fd50c52d05c6d04e063dc23a35ce6a3ff654dbc",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the twelfth of december is a school day",
+      "text": "The twelfth of December is a school day.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/the-twelfth-of-december-is-a-school-day.mp3",
+      "intonation": "fall",
+      "sha256": "b4c7e24045f0bfc871177e8dee020400a4061ea1c2acf3fa55e7b164c2d25df0",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the thirteenth",
+      "text": "the thirteenth",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/the-thirteenth.mp3",
+      "intonation": "fall",
+      "sha256": "be6c7627bbe68bc6bc73760518ebdcb7645dbca44d5f91fdc8a697f06e22a177",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the thirteenth is on saturday",
+      "text": "The thirteenth is on Saturday.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/the-thirteenth-is-on-saturday.mp3",
+      "intonation": "fall",
+      "sha256": "f7e302679d46e45a7c1d5f75b634a73fa8a3bb7cfa6463cba1efce2a320a063a",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the fourteenth",
+      "text": "the fourteenth",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/the-fourteenth.mp3",
+      "intonation": "fall",
+      "sha256": "de0c60f67353e614ba4b1204d339d17e5aa74e220ad910c01f1d0e3a6480dcab",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the fourteenth of february is valentine's day",
+      "text": "The fourteenth of February is Valentine’s Day.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/the-fourteenth-of-february-is-valentine-s-day.mp3",
+      "intonation": "fall",
+      "sha256": "4b1440badb13e2a44f5f83731d059fba0defc631f0761ba422ea218b12a2381f",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the fifteenth",
+      "text": "the fifteenth",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/the-fifteenth.mp3",
+      "intonation": "fall",
+      "sha256": "b1658029fe5b7fb4b5de3a3ff4d26a6d441c0d48654806c704396788ac54da9f",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the fifteenth is halfway through the month",
+      "text": "The fifteenth is halfway through the month.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/the-fifteenth-is-halfway-through-the-month.mp3",
+      "intonation": "fall",
+      "sha256": "9f6d02fbeef15b2a87940b1439d45a7d8cfb2bc0d24b46fc13a981d467e40026",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the sixteenth",
+      "text": "the sixteenth",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/the-sixteenth.mp3",
+      "intonation": "fall",
+      "sha256": "d4abe9af9d7ae9ede6eb4ad536fdbb02372fbfbc7cb2fcd6c8246a4689033274",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the sixteenth of may is our school trip",
+      "text": "The sixteenth of May is our school trip.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/the-sixteenth-of-may-is-our-school-trip.mp3",
+      "intonation": "fall",
+      "sha256": "794df6c93c95dd956047e7366d52ba80ab22459bc72564db4513192369618014",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the seventeenth",
+      "text": "the seventeenth",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/the-seventeenth.mp3",
+      "intonation": "fall",
+      "sha256": "908bf57ff49a62cd8b9e8e1a7cdb5a09295805e4e2cddcdea02598b8bbb65e32",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the seventeenth is on tuesday",
+      "text": "The seventeenth is on Tuesday.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/the-seventeenth-is-on-tuesday.mp3",
+      "intonation": "fall",
+      "sha256": "43330c16e09bd5288e44910f237819a1d096df93a4ac1afe21fe701d36b0c974",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the eighteenth",
+      "text": "the eighteenth",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/the-eighteenth.mp3",
+      "intonation": "fall",
+      "sha256": "f998803135fb715073ef38e358e3505d10ee69181e65db4dc7141b506fc98dd7",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the eighteenth of july is a holiday",
+      "text": "The eighteenth of July is a holiday.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/the-eighteenth-of-july-is-a-holiday.mp3",
+      "intonation": "fall",
+      "sha256": "85e81ad6bc99f464f857dc423200fc3c3f4b3c0d42234f003e87cfb372646403",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the nineteenth",
+      "text": "the nineteenth",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/the-nineteenth.mp3",
+      "intonation": "fall",
+      "sha256": "4fa7e5a9e5d209d13927cb6b46f856f07cf4e35f5bcb6041f3d55216ce5cb215",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the nineteenth is my last day here",
+      "text": "The nineteenth is my last day here.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/the-nineteenth-is-my-last-day-here.mp3",
+      "intonation": "fall",
+      "sha256": "a3501f927bbed5c8912f88394a46d61d8d9410a0629404dd6836522f6533ebd5",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the twentieth",
+      "text": "the twentieth",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/the-twentieth.mp3",
+      "intonation": "fall",
+      "sha256": "e0237cd9ecb7bbecec8ad91579cf029e2ac0303c160e28a5a820ed572de03bcf",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the twentieth is a monday",
+      "text": "The twentieth is a Monday.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/the-twentieth-is-a-monday.mp3",
+      "intonation": "fall",
+      "sha256": "f5b189b0cb0981726c9f28f4521c66ccef2a3e50cc65f9a37e07b1175eefff49",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the twentyfirst",
+      "text": "the twenty-first",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/the-twentyfirst.mp3",
+      "intonation": "fall",
+      "sha256": "362b16c064d155eafbe43d73e0e259aa748c1759c306545502438e8d94cd26d9",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the twentyfirst is a sunday",
+      "text": "The twenty-first is a Sunday.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/the-twentyfirst-is-a-sunday.mp3",
+      "intonation": "fall",
+      "sha256": "1761782dada39b6b108e7cb7047b14c7b15468afc8a6568c230cf27592d100b2",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the twentysecond",
+      "text": "the twenty-second",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/the-twentysecond.mp3",
+      "intonation": "fall",
+      "sha256": "04612fffe134f50ff61bed55fe3a62d5e778043be207ac741f657b6663690252",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the twentysecond is my appointment",
+      "text": "The twenty-second is my appointment.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/the-twentysecond-is-my-appointment.mp3",
+      "intonation": "fall",
+      "sha256": "74bcb6695b971ed3bf72df2cb70efbe0bebef21e4f6a4b4ca47977725d86be1e",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the twentythird",
+      "text": "the twenty-third",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/the-twentythird.mp3",
+      "intonation": "fall",
+      "sha256": "e1f196e56cc558db4be3f1e367677681f95c571750caa67b1abd53c1624bbcc1",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the twentythird is the school concert",
+      "text": "The twenty-third is the school concert.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/the-twentythird-is-the-school-concert.mp3",
+      "intonation": "fall",
+      "sha256": "f03f3a4ba7dd041dfb7071794d39f89020835297bf4eb8c5d49375b4a7fa3e78",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the twentyfourth",
+      "text": "the twenty-fourth",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/the-twentyfourth.mp3",
+      "intonation": "fall",
+      "sha256": "7b25cf757a9d1f9c78c7485fe43182e119e87948e2f874582efd4746fac7ffa8",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the twentyfourth of december is christmas eve",
+      "text": "The twenty-fourth of December is Christmas Eve.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/the-twentyfourth-of-december-is-christmas-eve.mp3",
+      "intonation": "fall",
+      "sha256": "13bc945311dbadffa61d69433258a373868768c6d89fd7ef3133590d15827215",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the twentyfifth",
+      "text": "the twenty-fifth",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/the-twentyfifth.mp3",
+      "intonation": "fall",
+      "sha256": "fbe2ce1cfa66a33d6061fd34eac020c503e2d0f24a854fdb79628d314f12d99c",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the twentyfifth of december is christmas day",
+      "text": "The twenty-fifth of December is Christmas Day.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/the-twentyfifth-of-december-is-christmas-day.mp3",
+      "intonation": "fall",
+      "sha256": "2f13791ef601ba6fe873c13ae736bdfaccf65248292ee772a47daa7ab37bf282",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the twentysixth",
+      "text": "the twenty-sixth",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/the-twentysixth.mp3",
+      "intonation": "fall",
+      "sha256": "a223ce168ccbf3e5fff98ae63e5023f09e17a2750140cc1e2ec20f744a5efd84",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the twentysixth is a public holiday in some countries",
+      "text": "The twenty-sixth is a public holiday in some countries.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/the-twentysixth-is-a-public-holiday-in-some-countries.mp3",
+      "intonation": "fall",
+      "sha256": "a4fab02537f8e343ec56008b2e1507aec4cf485a746a684550e0785e841d3b75",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the twentyseventh",
+      "text": "the twenty-seventh",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/the-twentyseventh.mp3",
+      "intonation": "fall",
+      "sha256": "02103a7aa1d1a607889f275024bf3f4922cffda6dbfd4d017f29ff1d66ad88cd",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the twentyseventh is a friday",
+      "text": "The twenty-seventh is a Friday.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/the-twentyseventh-is-a-friday.mp3",
+      "intonation": "fall",
+      "sha256": "9264505eda38f7b3610b26e18d13b080d7f87b5a870adc8594b5cc4f8cf228b5",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the twentyeighth",
+      "text": "the twenty-eighth",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/the-twentyeighth.mp3",
+      "intonation": "fall",
+      "sha256": "b01246798099bf796725407141dc1f4d7e2c214e1d918fa42445211d4a7ec7d2",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "february has twentyeight days in a common year",
+      "text": "February has twenty-eight days in a common year.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/february-has-twentyeight-days-in-a-common-year.mp3",
+      "intonation": "fall",
+      "sha256": "45f3833460178553efd958a4fcc0decfc88614dabb3c927d08bce0ad5e409c65",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the twentyninth",
+      "text": "the twenty-ninth",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/the-twentyninth.mp3",
+      "intonation": "fall",
+      "sha256": "08f85a07f57b9225923b223980fd4a3a5af6981394210e0f6809bc4ca6314376",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "february has a twentyninth day in a leap year",
+      "text": "February has a twenty-ninth day in a leap year.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/february-has-a-twentyninth-day-in-a-leap-year.mp3",
+      "intonation": "fall",
+      "sha256": "813a92eec4ee95fbecaac0527c20819dbf7c255589087b50bbe9a434fe832fdf",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the thirtieth",
+      "text": "the thirtieth",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/the-thirtieth.mp3",
+      "intonation": "fall",
+      "sha256": "1fdcfd912252ae35c900b4e91274c4d6637cb3400faa54eec42f115f2c536593",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the thirtieth is near the end of the month",
+      "text": "The thirtieth is near the end of the month.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/the-thirtieth-is-near-the-end-of-the-month.mp3",
+      "intonation": "fall",
+      "sha256": "e0ef1edb155bd6d360e1621ad5ca51842d24de2c3b65136cf6318db5ed36c5ba",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the thirtyfirst",
+      "text": "the thirty-first",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/the-thirtyfirst.mp3",
+      "intonation": "fall",
+      "sha256": "e01688528e06a2b388a21dd6c5c3ceac2dad0d6e2fff73c6e78484f3a389ff62",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "some months have a thirtyfirst day",
+      "text": "Some months have a thirty-first day.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/some-months-have-a-thirtyfirst-day.mp3",
+      "intonation": "fall",
+      "sha256": "09ed2a33a9dbc554e7b11b5c431dc248ffe3915fcf3229c1cc35f9541034dd89",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "month",
+      "text": "month",
+      "style": "word",
+      "path": "audio/en-us/nature/word/month.mp3",
+      "intonation": "neutral",
+      "sha256": "ef461b1399ba052efca817f6ac4893685526ac72187727bc3411ed7283ac38c2",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "there are twelve months in a year",
+      "text": "There are twelve months in a year.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/there-are-twelve-months-in-a-year.mp3",
+      "intonation": "fall",
+      "sha256": "92e52d7a98cae1b0e201763f9324716af64d2dd4186e1316486cb42dfb1193a4",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "year",
+      "text": "year",
+      "style": "word",
+      "path": "audio/en-us/nature/word/year.mp3",
+      "intonation": "neutral",
+      "sha256": "d933b028044d0a6b17e16d2e3401fd2564ee8ad4a752c164a109890ed63f376a",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "a year has twelve months",
+      "text": "A year has twelve months.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/a-year-has-twelve-months.mp3",
+      "intonation": "fall",
+      "sha256": "da35d8602afc2d79cb18e549a6710c9cd511a7a6ec2c210d0aadf37fb842e388",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "january",
+      "text": "January",
+      "style": "word",
+      "path": "audio/en-us/nature/word/january.mp3",
+      "intonation": "neutral",
+      "sha256": "ac6710c22fdbc80747a64e506e0943c7388eddea7e2586c1ef165b340c8f0007",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "january is the first month of the year",
+      "text": "January is the first month of the year.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/january-is-the-first-month-of-the-year.mp3",
+      "intonation": "fall",
+      "sha256": "235a1a4b2fd8efadf594bcca506461c38b532245b5be5e174b309c28e05c5634",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "february",
+      "text": "February",
+      "style": "word",
+      "path": "audio/en-us/nature/word/february.mp3",
+      "intonation": "neutral",
+      "sha256": "943303a1d39cc39d67713eab1ab48f0d047b7eeff68d89b05a80fe4f0daade65",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "february is the shortest month in a common year",
+      "text": "February is the shortest month in a common year.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/february-is-the-shortest-month-in-a-common-year.mp3",
+      "intonation": "fall",
+      "sha256": "3c5c3710d48df51a55979dcd3cbb16d21c71f18c218936b951e76b25863bd0fd",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "march",
+      "text": "March",
+      "style": "word",
+      "path": "audio/en-us/nature/word/march.mp3",
+      "intonation": "neutral",
+      "sha256": "5e90f187e6cc782762394eef216fbbd68f2edd74a967e6ef11b9479dcd189cd3",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "spring begins in march in many places",
+      "text": "Spring begins in March in many places.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/spring-begins-in-march-in-many-places.mp3",
+      "intonation": "fall",
+      "sha256": "c3b9724d6503ddc46b37951f0af151ffc5d2471473fc5fd22938bd1caef4ce36",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "april",
+      "text": "April",
+      "style": "word",
+      "path": "audio/en-us/nature/word/april.mp3",
+      "intonation": "neutral",
+      "sha256": "ba99e715836d4d90d5e1bfa3c034ad68a247fb9c62835455c74b8f20b1d4534e",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "april can be rainy",
+      "text": "April can be rainy.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/april-can-be-rainy.mp3",
+      "intonation": "fall",
+      "sha256": "6b2b3e526d6101d146357b5930c68c19c243e8cb9fd85be80891b830dc744918",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "flowers grow in may",
+      "text": "Flowers grow in May.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/flowers-grow-in-may.mp3",
+      "intonation": "fall",
+      "sha256": "0773bf9f5ab922eec41925ffab3814c830b33d710d0bf7682742db729631a14b",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "june",
+      "text": "June",
+      "style": "word",
+      "path": "audio/en-us/nature/word/june.mp3",
+      "intonation": "neutral",
+      "sha256": "6ebfbf52d3e25b6621cbdfc81a48963eda3a425c2bd911428442d9cfd807956f",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "june is often warm",
+      "text": "June is often warm.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/june-is-often-warm.mp3",
+      "intonation": "fall",
+      "sha256": "7ef57a4099f88bc31b6d55acf7e2db7a3dffb30172c7ac8de00a876f9c3d704c",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "july",
+      "text": "July",
+      "style": "word",
+      "path": "audio/en-us/nature/word/july.mp3",
+      "intonation": "neutral",
+      "sha256": "cea437b18e641aeb598ee28eb31435fedb90f8ef07789ad7ed9837facc25719f",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "we have a holiday in july",
+      "text": "We have a holiday in July.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/we-have-a-holiday-in-july.mp3",
+      "intonation": "fall",
+      "sha256": "f207b60c8ce4074ed565bde5c0a7b4003ef85bbe4624139cc9641b59fc52747c",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "august",
+      "text": "August",
+      "style": "word",
+      "path": "audio/en-us/nature/word/august.mp3",
+      "intonation": "neutral",
+      "sha256": "288df646211324332520f7bc9a8ddf96f9cbb6ab457b9d73572719675519f3ad",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "august can be hot",
+      "text": "August can be hot.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/august-can-be-hot.mp3",
+      "intonation": "fall",
+      "sha256": "08bf2d36adbf81f0305dd531ad30346d178e5b62c856b03d91022923d0edf5a6",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "september",
+      "text": "September",
+      "style": "word",
+      "path": "audio/en-us/nature/word/september.mp3",
+      "intonation": "neutral",
+      "sha256": "4ae76ea3e3188e47e5bddbe9ca906b160aa2c355b25e0c361475c76bff88ffde",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "school often starts in september",
+      "text": "School often starts in September.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/school-often-starts-in-september.mp3",
+      "intonation": "fall",
+      "sha256": "df906a763439e7f14383a03810de019dd0139b68d1a4e645b0fcc461b94dd636",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "october",
+      "text": "October",
+      "style": "word",
+      "path": "audio/en-us/nature/word/october.mp3",
+      "intonation": "neutral",
+      "sha256": "8f5377a9ce2edc8de2b39bf7564645701c9602ac5e4928c4864e0dbe23b4775b",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the leaves turn yellow in october",
+      "text": "The leaves turn yellow in October.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/the-leaves-turn-yellow-in-october.mp3",
+      "intonation": "fall",
+      "sha256": "faf91477950eaa6cd246d9f2502e5a85f9e4e1dd50e7e34f2547961b0de1709b",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "november",
+      "text": "November",
+      "style": "word",
+      "path": "audio/en-us/nature/word/november.mp3",
+      "intonation": "neutral",
+      "sha256": "d1786c7f7b44d0e60097f5a6c96cbb18361683174a7b08c9459365599f24991d",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "november can be cold",
+      "text": "November can be cold.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/november-can-be-cold.mp3",
+      "intonation": "fall",
+      "sha256": "7e6088e3f70a27502785fc331d772011f99f2a61d7866a2ae60d136f2f8d32f6",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "december",
+      "text": "December",
+      "style": "word",
+      "path": "audio/en-us/nature/word/december.mp3",
+      "intonation": "neutral",
+      "sha256": "9a1c89556e3a480af90e0d43bed5d3e2fd0603dc40c0793700ec43967625c1f1",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "december is the last month of the year",
+      "text": "December is the last month of the year.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/december-is-the-last-month-of-the-year.mp3",
+      "intonation": "fall",
+      "sha256": "f8070d3275bf0628d613a7e2997a605aa9a19ed4844b8dc8beadbf047deb60f1",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "this month",
+      "text": "this month",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/this-month.mp3",
+      "intonation": "fall",
+      "sha256": "2c8d3235fc8043c4cce765bb282a4ae3c776e6b3254b469f986ec1d692f6fd29",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "we have a school trip this month",
+      "text": "We have a school trip this month.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/we-have-a-school-trip-this-month.mp3",
+      "intonation": "fall",
+      "sha256": "155435eaad14fa2f05199ea5054bf929a1ca003cd0287847fb447a2dc1541457",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "next month",
+      "text": "next month",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/next-month.mp3",
+      "intonation": "fall",
+      "sha256": "4aef7fde4fb9cb48712063935c034fdf45ec7a27877a096ac830c8d05b8deea6",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "my birthday is next month",
+      "text": "My birthday is next month.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/my-birthday-is-next-month.mp3",
+      "intonation": "fall",
+      "sha256": "008e4d53d0541b381eaca150a29e8d3c60d7aba958fc3ab14d42b447429a768c",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "last month",
+      "text": "last month",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/last-month.mp3",
+      "intonation": "fall",
+      "sha256": "269ad34c100b66b662af3038f62be726536384c7ac259517c93ac72797131c59",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "i started this book last month",
+      "text": "I started this book last month.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/i-started-this-book-last-month.mp3",
+      "intonation": "fall",
+      "sha256": "0585c334c9cbebd707854527275cff648b43008bb1abbea7610f23f285bdd4be",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "every month",
+      "text": "every month",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/every-month.mp3",
+      "intonation": "fall",
+      "sha256": "0b9b959fe5366a270a271bc45f08e3430219efdcc8d6b0a988ebd92d65a23508",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "we visit the library every month",
+      "text": "We visit the library every month.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/we-visit-the-library-every-month.mp3",
+      "intonation": "fall",
+      "sha256": "a6a53e19728c0e563c232d748510130d375a6c05df6bc067e7e561cf25c5f3b6",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "monthly",
+      "text": "monthly",
+      "style": "word",
+      "path": "audio/en-us/nature/word/monthly.mp3",
+      "intonation": "neutral",
+      "sha256": "34c6c53fb35399577fbf519ead99e7fc8e4244aa58914d0199d175aa173fdefa",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "we have a monthly meeting",
+      "text": "We have a monthly meeting.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/we-have-a-monthly-meeting.mp3",
+      "intonation": "fall",
+      "sha256": "19c069c9263e0ac86377804141a10f6958f7cd9170188909c6e4423f9915a606",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "leap year",
+      "text": "leap year",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/leap-year.mp3",
+      "intonation": "fall",
+      "sha256": "5264d494ca297643d2ea9cea0ab4417b4fb326aad36f84bddea3527f4bb28729",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "a leap year has 366 days",
+      "text": "A leap year has 366 days.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/a-leap-year-has-366-days.mp3",
+      "intonation": "fall",
+      "sha256": "caa9ff30b7f0f96955a76f4d6da4b8d1e7751c24ba325f645e8739e3b0c1e886",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "common year",
+      "text": "common year",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/common-year.mp3",
+      "intonation": "fall",
+      "sha256": "42f9449690989d3ec1639058c351512be12c1de5685a0bd8f86ffc6468baa325",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "a common year has 365 days",
+      "text": "A common year has 365 days.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/a-common-year-has-365-days.mp3",
+      "intonation": "fall",
+      "sha256": "f9d8ea92b1763020c2f2906db4753092e941d53b80591454a9b0f78ff0950114",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "calendar year",
+      "text": "calendar year",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/calendar-year.mp3",
+      "intonation": "fall",
+      "sha256": "792ffe1a0ac15599c9f24a02dded21029b2a88e31682340ae048635af62acba5",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "a calendar year starts in january",
+      "text": "A calendar year starts in January.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/a-calendar-year-starts-in-january.mp3",
+      "intonation": "fall",
+      "sha256": "7564f0aaaddac5bcb0bf81916141fa05e5ffc62156f73e63100531778614d7ea",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "new year's day",
+      "text": "New Year's Day",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/new-year-s-day.mp3",
+      "intonation": "fall",
+      "sha256": "cf06724f74a9e8a38d41c508f100fce48ec752276135f4a9ab8e2089c41a3c8d",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "new year's day is on the first of january",
+      "text": "New Year's Day is on the first of January.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/new-year-s-day-is-on-the-first-of-january.mp3",
+      "intonation": "fall",
+      "sha256": "7f1ef6bd448e076f9a1f521519aac7c44097875c7a7beff9e5ac817dba4025f0",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "new year's eve",
+      "text": "New Year's Eve",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/new-year-s-eve.mp3",
+      "intonation": "fall",
+      "sha256": "a75c063b401b9dac6a35ae605d1ccd14d7f12f3f92f8e9b397c263bdd0fe3843",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "we stay up late on new year's eve",
+      "text": "We stay up late on New Year's Eve.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/we-stay-up-late-on-new-year-s-eve.mp3",
+      "intonation": "fall",
+      "sha256": "05f1f497b5b9a6e8241f189e732972554a3eaf3f6a7c931f2fcd813b8d806ead",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "at the beginning of the month",
+      "text": "at the beginning of the month",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/at-the-beginning-of-the-month.mp3",
+      "intonation": "fall",
+      "sha256": "8325c00619a8a7c69b6f17ce378cd86c3a430b2cda1c3a03feace5ac4bebc865",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "i get my timetable at the beginning of the month",
+      "text": "I get my timetable at the beginning of the month.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/i-get-my-timetable-at-the-beginning-of-the-month.mp3",
+      "intonation": "fall",
+      "sha256": "dc3b661b9882fe4143e233c41e2a064aeda119cdcb5a23851e5c51374ca8accb",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "at the end of the month",
+      "text": "at the end of the month",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/at-the-end-of-the-month.mp3",
+      "intonation": "fall",
+      "sha256": "bf4567ade21c3261a1782047ab49c911bd6e4149a0f641f4b24c3c4ebd8e531a",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "we pay the bill at the end of the month",
+      "text": "We pay the bill at the end of the month.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/we-pay-the-bill-at-the-end-of-the-month.mp3",
+      "intonation": "fall",
+      "sha256": "27c38edc60653794342b9a8f589c0c7457a57e413ab70e2491182415124eaea9",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "which month comes after may",
+      "text": "Which month comes after May?",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/which-month-comes-after-may.mp3",
+      "intonation": "fall",
+      "sha256": "0c623784f2de42a1a667af440d58eafcebcc9dccfab1c1befe58173041dbf966",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "which month comes after may june",
+      "text": "Which month comes after May? June.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/which-month-comes-after-may-june.mp3",
+      "intonation": "fall",
+      "sha256": "adea21249c20cf5fef550fbea33ca35679b71d9fe5a0f272a071cd78c49e3da6",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "season",
+      "text": "season",
+      "style": "word",
+      "path": "audio/en-us/nature/word/season.mp3",
+      "intonation": "neutral",
+      "sha256": "c959856b2f5a49f5842e7116ca0c8004346518eff51006c59824d8bdc98768d2",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "what is your favourite season",
+      "text": "What is your favourite season?",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/what-is-your-favourite-season.mp3",
+      "intonation": "fall",
+      "sha256": "61db9eb5f17ab95f9fcc6018d28b15041d2ea9dd074a1de9cce24b8f44823c98",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "spring",
+      "text": "spring",
+      "style": "word",
+      "path": "audio/en-us/nature/word/spring.mp3",
+      "intonation": "neutral",
+      "sha256": "64b753c2edc4b2973d8f725e10364cd67accd42ced2db4302457d813ab5b0e42",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "flowers grow in spring",
+      "text": "Flowers grow in spring.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/flowers-grow-in-spring.mp3",
+      "intonation": "fall",
+      "sha256": "e0ef8fc301a48a650c1fde9de80f830a8de76e86bd4cd83fc918aaf41fda47be",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "summer",
+      "text": "summer",
+      "style": "word",
+      "path": "audio/en-us/nature/word/summer.mp3",
+      "intonation": "neutral",
+      "sha256": "9e6fdf7637572db77901de3e56ca3b0c2b40859b1ac6592016fc76ea6ca24be9",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "we swim in summer",
+      "text": "We swim in summer.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/we-swim-in-summer.mp3",
+      "intonation": "fall",
+      "sha256": "8e7d0f9ab93b5b0d110bd3c0265f5fd4f4568a07e6e7714919cff8bb4d707b3c",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "autumn",
+      "text": "autumn",
+      "style": "word",
+      "path": "audio/en-us/nature/word/autumn.mp3",
+      "intonation": "neutral",
+      "sha256": "6f71453626b07d8a0886aefa18b4062640f3d461a26626e3293d029be2f704b5",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "leaves turn brown in autumn",
+      "text": "Leaves turn brown in autumn.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/leaves-turn-brown-in-autumn.mp3",
+      "intonation": "fall",
+      "sha256": "bb26cd8a6d6bf4870880227e78faa13b4571d7d12fbb7ef75f5fb956feefbafb",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "winter",
+      "text": "winter",
+      "style": "word",
+      "path": "audio/en-us/nature/word/winter.mp3",
+      "intonation": "neutral",
+      "sha256": "d91955a45450f6f954bd924e42bc695410c0f6448acea1f884f099604dfa7316",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "it can snow in winter",
+      "text": "It can snow in winter.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/it-can-snow-in-winter.mp3",
+      "intonation": "fall",
+      "sha256": "78fea13b11367313e15d45b195093ceef7c93ea22c6b7395c3edd2504d5ecfd8",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "springtime",
+      "text": "springtime",
+      "style": "word",
+      "path": "audio/en-us/nature/word/springtime.mp3",
+      "intonation": "neutral",
+      "sha256": "b9b92cbafb992da82ffb8421b0a79e06390e8287c7748c351894e3873b4579e8",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the garden is beautiful in springtime",
+      "text": "The garden is beautiful in springtime.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/the-garden-is-beautiful-in-springtime.mp3",
+      "intonation": "fall",
+      "sha256": "28c1cbf825bed5f135adb10edb43723267ded916ab476996d3920bb60b581248",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "summertime",
+      "text": "summertime",
+      "style": "word",
+      "path": "audio/en-us/nature/word/summertime.mp3",
+      "intonation": "neutral",
+      "sha256": "f39577aa08e04cc4b3b751f2ee9cc9c8e15b97eaa1ce40c8f659a4aede631169",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "we spend more time outside in summertime",
+      "text": "We spend more time outside in summertime.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/we-spend-more-time-outside-in-summertime.mp3",
+      "intonation": "fall",
+      "sha256": "e24bc874c94dbd282f998eef3223873599751d7718754e8396652fa04f68b289",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "seasonal",
+      "text": "seasonal",
+      "style": "word",
+      "path": "audio/en-us/nature/word/seasonal.mp3",
+      "intonation": "neutral",
+      "sha256": "28a3b27872a2c16d1bf73d886885a486d6f6981809d938af96243e354dd73e92",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "these are seasonal flowers",
+      "text": "These are seasonal flowers.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/these-are-seasonal-flowers.mp3",
+      "intonation": "fall",
+      "sha256": "50c54032da8046278c5e0603a762cd7b0488b77235fd2aed880b11a7d4d3ec0d",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "spring flowers",
+      "text": "spring flowers",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/spring-flowers.mp3",
+      "intonation": "fall",
+      "sha256": "1917f3fa75803aa14bc7f5a3b8cd087946325d4affd145bf35e6e677aaf8a95d",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "spring flowers grow in the garden",
+      "text": "Spring flowers grow in the garden.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/spring-flowers-grow-in-the-garden.mp3",
+      "intonation": "fall",
+      "sha256": "5c5411c5bf62162dce00d1c0eaed6cd627c2c666ea550efc03e51ab53e6715be",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "blossom",
+      "text": "blossom",
+      "style": "word",
+      "path": "audio/en-us/nature/word/blossom.mp3",
+      "intonation": "neutral",
+      "sha256": "6e7cdf6907fecf74322fc9c37f035adac6aa0b8e756d0d37e2b5477b97f4287e",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the trees blossom in spring",
+      "text": "The trees blossom in spring.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/the-trees-blossom-in-spring.mp3",
+      "intonation": "fall",
+      "sha256": "afd654846dd16e510e2c7249c4471e5e7a757564465b34c6eb3cdeb79714d3fd",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "bloom",
+      "text": "bloom",
+      "style": "word",
+      "path": "audio/en-us/nature/word/bloom.mp3",
+      "intonation": "neutral",
+      "sha256": "89222969012158d2bf9e6dc393285ef128a0dc2f1d2a06a0850156d2e9cd37eb",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the roses bloom in may",
+      "text": "The roses bloom in May.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/the-roses-bloom-in-may.mp3",
+      "intonation": "fall",
+      "sha256": "444dfa6b48094345b358996fcb8e819627c0190fd8dfa51b443c0ed36532aed4",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "new leaves",
+      "text": "new leaves",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/new-leaves.mp3",
+      "intonation": "fall",
+      "sha256": "4c79f94fd9cbef429256c3b7e2efbb9d2ce40372fe3bdfcf14d54be41e5eb1ef",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "new leaves appear in spring",
+      "text": "New leaves appear in spring.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/new-leaves-appear-in-spring.mp3",
+      "intonation": "fall",
+      "sha256": "67e927c368468f8cfd9f920ad6daf870d38f3d31a33bd92b709d77fb40b385a2",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "summer holiday",
+      "text": "summer holiday",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/summer-holiday.mp3",
+      "intonation": "fall",
+      "sha256": "993bc339f4130c86d292f2b5e79b20380781d3743de74fd97f9bea6fa095508a",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "we visit the seaside in the summer holiday",
+      "text": "We visit the seaside in the summer holiday.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/we-visit-the-seaside-in-the-summer-holiday.mp3",
+      "intonation": "fall",
+      "sha256": "bd8f516f704305c530954c3e89c7a038f81011b6d1752129891b787e18218d03",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "go swimming",
+      "text": "go swimming",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/go-swimming.mp3",
+      "intonation": "fall",
+      "sha256": "f34d915fa27b1d1a1279ff840abc03c1c92cd8cae6768dbb70efe0ff3a5e3e39",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "we go swimming in summer",
+      "text": "We go swimming in summer.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/we-go-swimming-in-summer.mp3",
+      "intonation": "fall",
+      "sha256": "f4951075a18d3ff047e822e28a9ca90550c962c7cbea13fa138492a5febd26a3",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "have a picnic",
+      "text": "have a picnic",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/have-a-picnic.mp3",
+      "intonation": "fall",
+      "sha256": "b1e71072a1f459d787bd76c4c348c61bf9bf8fd4ba23a09e5918a21d502bdae4",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "we have a picnic in spring",
+      "text": "We have a picnic in spring.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/we-have-a-picnic-in-spring.mp3",
+      "intonation": "fall",
+      "sha256": "b467a878caf8a4f0dd3b16f38197361d8bf187ccded2f0dd804a3e1b4f1cdade",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "autumn leaves",
+      "text": "autumn leaves",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/autumn-leaves.mp3",
+      "intonation": "fall",
+      "sha256": "b9687af54f299d2bae445727c8679cd16a0911171f984a9d672ce27d0c867890",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "autumn leaves are red and gold",
+      "text": "Autumn leaves are red and gold.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/autumn-leaves-are-red-and-gold.mp3",
+      "intonation": "fall",
+      "sha256": "7e3be5388b3b5b4b6ce06d71dcddfcb99d328fb4571b06c4774614fc8ff7fd07",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "fall",
+      "text": "fall",
+      "style": "word",
+      "path": "audio/en-us/nature/word/fall.mp3",
+      "intonation": "neutral",
+      "sha256": "e3702ea3df48e2ec4f1f21799188d963b897d0e83fcfdb6e5aa20d9beb8466dd",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "leaves fall from the trees in autumn",
+      "text": "Leaves fall from the trees in autumn.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/leaves-fall-from-the-trees-in-autumn.mp3",
+      "intonation": "fall",
+      "sha256": "eb9fe8447ddcd39716143fd1c716389e7440ced7d228c75a492f0ba924619608",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "harvest",
+      "text": "harvest",
+      "style": "word",
+      "path": "audio/en-us/nature/word/harvest.mp3",
+      "intonation": "neutral",
+      "sha256": "4667d19a769178948b59fa005765dd55026a1088fd46f987a362e53dca69bc25",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "farmers harvest apples in autumn",
+      "text": "Farmers harvest apples in autumn.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/farmers-harvest-apples-in-autumn.mp3",
+      "intonation": "fall",
+      "sha256": "f10c61ecdd34e47db4b8011d6d978ac3f9d2a380c2e9a656e6fef77a7fffa8b8",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "winter coat",
+      "text": "winter coat",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/winter-coat.mp3",
+      "intonation": "fall",
+      "sha256": "aa0ffcfb6cdb66ae38dd117ec3b54304733c8486e7a363857b68c88ca36e0cd8",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "wear your winter coat when it is cold",
+      "text": "Wear your winter coat when it is cold.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/wear-your-winter-coat-when-it-is-cold.mp3",
+      "intonation": "fall",
+      "sha256": "de4a9e013f748bd6df62598eb8771807b0fdf16fc77f34460912f0371046ba9e",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "snowman",
+      "text": "snowman",
+      "style": "word",
+      "path": "audio/en-us/nature/word/snowman.mp3",
+      "intonation": "neutral",
+      "sha256": "015ef33c270865614d777f49c5182828e118b16bd76be2c25fdc0a3e377fe360",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the children make a snowman in winter",
+      "text": "The children make a snowman in winter.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/the-children-make-a-snowman-in-winter.mp3",
+      "intonation": "fall",
+      "sha256": "e4037c00924ecc1b12bc3bc6233d7cdef99fbfe48b95b40ae184a3803da4a5cf",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "snowball",
+      "text": "snowball",
+      "style": "word",
+      "path": "audio/en-us/nature/word/snowball.mp3",
+      "intonation": "neutral",
+      "sha256": "6598e39faf3377e68d1b8d0935ac27e0d3be23c4ad93f06df84e5b00043e03fd",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "he throws a snowball",
+      "text": "He throws a snowball.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/he-throws-a-snowball.mp3",
+      "intonation": "fall",
+      "sha256": "11f0543cc77903350cb00cb1357601646db6ee4c96618d5f5ce73fb326114336",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "hibernate",
+      "text": "hibernate",
+      "style": "word",
+      "path": "audio/en-us/nature/word/hibernate.mp3",
+      "intonation": "neutral",
+      "sha256": "1a23c2e45d05b64142091241e413f00a866d313ad3b35e134ac0baa2bf383d94",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "some animals hibernate in winter",
+      "text": "Some animals hibernate in winter.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/some-animals-hibernate-in-winter.mp3",
+      "intonation": "fall",
+      "sha256": "c42b1f330fc827c6d36d60a56f34575f486807784eae150737ae724e8a72b656",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "grow",
+      "text": "grow",
+      "style": "word",
+      "path": "audio/en-us/nature/word/grow.mp3",
+      "intonation": "neutral",
+      "sha256": "930af861d1febdc61a3b4a55f56d463eff7aaafc9018a6ad4c5ecd71760f2795",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "plants grow quickly in spring",
+      "text": "Plants grow quickly in spring.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/plants-grow-quickly-in-spring.mp3",
+      "intonation": "fall",
+      "sha256": "7757c4c9b15dc00c7b20439b1b5a0de216247208f906fd607baab127d21008f9",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "days get longer",
+      "text": "days get longer",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/days-get-longer.mp3",
+      "intonation": "fall",
+      "sha256": "b5ece99d816cf962e7ba08bbc8bf3f377c0432b3709a6d9e524549f2e812b489",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "days get longer in spring",
+      "text": "Days get longer in spring.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/days-get-longer-in-spring.mp3",
+      "intonation": "fall",
+      "sha256": "47e30e1a1d647979db2631007c457ebdb01c0186e122ed24b671afd75e44d97d",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "days get shorter",
+      "text": "days get shorter",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/days-get-shorter.mp3",
+      "intonation": "fall",
+      "sha256": "1b48e1fae24daf7f76456df044e9c248768a968196447678fe4093306d27d89d",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "days get shorter in autumn",
+      "text": "Days get shorter in autumn.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/days-get-shorter-in-autumn.mp3",
+      "intonation": "fall",
+      "sha256": "e4bf49d0e969956512ba38ea13eb13fb471ae91ddd32da9d6c5ba772b3a06a79",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "leaves change colour",
+      "text": "leaves change colour",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/leaves-change-colour.mp3",
+      "intonation": "fall",
+      "sha256": "536457675612bd46abc6a77dfd020b61d8aa97d959830fe9667ce56b5a8fb29f",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "leaves change colour in autumn",
+      "text": "Leaves change colour in autumn.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/leaves-change-colour-in-autumn.mp3",
+      "intonation": "fall",
+      "sha256": "51d4a927dc99b46ebae419abffb98804d6e032af347c30fc500d225df3f965db",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "which season do you like",
+      "text": "Which season do you like?",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/which-season-do-you-like.mp3",
+      "intonation": "fall",
+      "sha256": "846e47fb387cd09ae981cdc58c76777a8baa10f62d5bdb9d4cfa51b85a9882e7",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "which season do you like best",
+      "text": "Which season do you like best?",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/which-season-do-you-like-best.mp3",
+      "intonation": "fall",
+      "sha256": "4ce31d578d7e24a1ac0b53524d350cfa49768a814b1c395bfe3995c0e859605a",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "my favourite season is spring",
+      "text": "My favourite season is spring.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/my-favourite-season-is-spring.mp3",
+      "intonation": "fall",
+      "sha256": "fe239bda677e73e9a72de9669b40f1108be97194e13920416e397da56d224e14",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "weather",
+      "text": "weather",
+      "style": "word",
+      "path": "audio/en-us/nature/word/weather.mp3",
+      "intonation": "neutral",
+      "sha256": "7986d01169224a5aa8eff15edc974f67b0d4becdab65bc84ecf5a537ce6db1c5",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "what is the weather like today",
+      "text": "What is the weather like today?",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/what-is-the-weather-like-today.mp3",
+      "intonation": "fall",
+      "sha256": "f4f9070d786321d2d587486975c9073cee9fc9355a95c0e38e4ed2b2bf76919a",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "climate",
+      "text": "climate",
+      "style": "word",
+      "path": "audio/en-us/nature/word/climate.mp3",
+      "intonation": "neutral",
+      "sha256": "e2e52b79c04a9aa745a0d8b11c6a731cf4d2f91cbebbd6d453d1878719a9f0fe",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the climate here is warm",
+      "text": "The climate here is warm.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/the-climate-here-is-warm.mp3",
+      "intonation": "fall",
+      "sha256": "88373e1c0d1a64384e35c2cc047877668b6949ab7633e49920dd6c8c2e5d635b",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "forecast",
+      "text": "forecast",
+      "style": "word",
+      "path": "audio/en-us/nature/word/forecast.mp3",
+      "intonation": "neutral",
+      "sha256": "f2fabffbb6ebb705f2c792cb38cd9371578db65679863a43b3a796dcb20adf41",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "listen to the weather forecast",
+      "text": "Listen to the weather forecast.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/listen-to-the-weather-forecast.mp3",
+      "intonation": "fall",
+      "sha256": "4334c25c1d500593ffe5c0ba53c744ed90190e3cbe6b2f8f3a94affba8584b48",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "weather forecast",
+      "text": "weather forecast",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/weather-forecast.mp3",
+      "intonation": "fall",
+      "sha256": "cb3ec190a816781441f6e0a51a4d4243758530714c97d698df2d9082f6aa80a7",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the weather forecast says it will rain",
+      "text": "The weather forecast says it will rain.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/the-weather-forecast-says-it-will-rain.mp3",
+      "intonation": "fall",
+      "sha256": "49112fd46aa381500b624d9326a2fabd4c9ed6b40df758e504cc2e31e4fb915d",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "sunny",
+      "text": "sunny",
+      "style": "word",
+      "path": "audio/en-us/nature/word/sunny.mp3",
+      "intonation": "neutral",
+      "sha256": "fbc934fbc14633a5f5b7310c516a464ae4faae7fc1f0d94692ca35a54cafb6d8",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "it is sunny today",
+      "text": "It is sunny today.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/it-is-sunny-today.mp3",
+      "intonation": "fall",
+      "sha256": "1c9c532b90165ba66c12b3f5c938b1f7de06d92382a6975aca5018141591b6b8",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "cloudy",
+      "text": "cloudy",
+      "style": "word",
+      "path": "audio/en-us/nature/word/cloudy.mp3",
+      "intonation": "neutral",
+      "sha256": "dd72f54726ae7d656d228e1f9b384730f17b361ba6b9eb634015b797ca684e2b",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the sky is cloudy",
+      "text": "The sky is cloudy.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/the-sky-is-cloudy.mp3",
+      "intonation": "fall",
+      "sha256": "ea68a10b17b7b44472f643bb41b6b4cf8d80a0748b31f9bfd322b6177dcbff8f",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "rainy",
+      "text": "rainy",
+      "style": "word",
+      "path": "audio/en-us/nature/word/rainy.mp3",
+      "intonation": "neutral",
+      "sha256": "2d372f3c003a18a8e82467af76d7f0079f3a7430e8544cde2f7522479c50f856",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "it is a rainy day",
+      "text": "It is a rainy day.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/it-is-a-rainy-day.mp3",
+      "intonation": "fall",
+      "sha256": "c55c29136f3c17db2b9f7fb185648b744c785bb39690c23cb78d764bcafcb1c0",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "windy",
+      "text": "windy",
+      "style": "word",
+      "path": "audio/en-us/nature/word/windy.mp3",
+      "intonation": "neutral",
+      "sha256": "8d4624538c1c770fe33ec60d2b04e6e409b5b2370cc6abf32ba6cb75dce23bd7",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "it is windy outside",
+      "text": "It is windy outside.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/it-is-windy-outside.mp3",
+      "intonation": "fall",
+      "sha256": "46bcbc0d328e16669c254f34fc8b2e62b1aad0b176a8a3c4945e3fb8fa917ec5",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "snowy",
+      "text": "snowy",
+      "style": "word",
+      "path": "audio/en-us/nature/word/snowy.mp3",
+      "intonation": "neutral",
+      "sha256": "93847fcdd54f091cf474d5d1401bd1e344fb5f36138cdd1c54430024cabae929",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "it is snowy in the mountains",
+      "text": "It is snowy in the mountains.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/it-is-snowy-in-the-mountains.mp3",
+      "intonation": "fall",
+      "sha256": "291d3754c93b602934ded6dc25839eec384f49e305ac663f55a23a86254b20cc",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "foggy",
+      "text": "foggy",
+      "style": "word",
+      "path": "audio/en-us/nature/word/foggy.mp3",
+      "intonation": "neutral",
+      "sha256": "94adb38c3def51d524d8839c440b048c7d92eaf2783e1fa9283d5e87ae007128",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "it is foggy this morning",
+      "text": "It is foggy this morning.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/it-is-foggy-this-morning.mp3",
+      "intonation": "fall",
+      "sha256": "56ff717be16f82413e668ce1f54f0c22e1bd840d1de06a116686ff70dc28c703",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "stormy",
+      "text": "stormy",
+      "style": "word",
+      "path": "audio/en-us/nature/word/stormy.mp3",
+      "intonation": "neutral",
+      "sha256": "eaa0aeb8349cb594cdcf95d69715806dba22942020d796df07d61b85945649f4",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the sea is stormy",
+      "text": "The sea is stormy.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/the-sea-is-stormy.mp3",
+      "intonation": "fall",
+      "sha256": "d707bf52a1bcacd3be12c16d53d4c7f5d3c1ff9aa77cb13000840f5068694f9c",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "icy",
+      "text": "icy",
+      "style": "word",
+      "path": "audio/en-us/nature/word/icy.mp3",
+      "intonation": "neutral",
+      "sha256": "0bcab8a3e80d207b27710b21fe3107b438ff0c72e6d58f785ee30febc739c4fd",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the road is icy",
+      "text": "The road is icy.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/the-road-is-icy.mp3",
+      "intonation": "fall",
+      "sha256": "f0c3a6a632517d3cbfdd00b51ce0d45b44947a97721faf806974c2641eb859db",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "wet",
+      "text": "wet",
+      "style": "word",
+      "path": "audio/en-us/nature/word/wet.mp3",
+      "intonation": "neutral",
+      "sha256": "ef48d99628d74b201aea8743d39193e39276628fbc46e0f82c5e6907b0346fd0",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "my shoes are wet",
+      "text": "My shoes are wet.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/my-shoes-are-wet.mp3",
+      "intonation": "fall",
+      "sha256": "12c3dc13383a1c8045ae754dc52a2727d4560fde4f963393175c2a8467c89bf7",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "dry",
+      "text": "dry",
+      "style": "word",
+      "path": "audio/en-us/nature/word/dry.mp3",
+      "intonation": "neutral",
+      "sha256": "12a1424b1f7360ac38520c8812a325f90d62c3270009f3c51feb950ebec123f1",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the ground is dry",
+      "text": "The ground is dry.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/the-ground-is-dry.mp3",
+      "intonation": "fall",
+      "sha256": "14d37df1d5ee04e2bbe0563d456b96feeaca02d2060556e2695b5b65927a8d70",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "it is hot in july",
+      "text": "It is hot in July.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/it-is-hot-in-july.mp3",
+      "intonation": "fall",
+      "sha256": "d35e3589db366f5e367e10e3181ab6f97076661305b8c3782178012c01edfb3c",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "warm",
+      "text": "warm",
+      "style": "word",
+      "path": "audio/en-us/nature/word/warm.mp3",
+      "intonation": "neutral",
+      "sha256": "5eb8ebe4408d50cc7b66f41202b58026829f4e9b5f5e77fae7c2c2ecf6f3506d",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the weather is warm today",
+      "text": "The weather is warm today.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/the-weather-is-warm-today.mp3",
+      "intonation": "fall",
+      "sha256": "8f727d0efd953ca4db37d17ccbc332dcce87aa4bca16a445c44bd74745daf8a5",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "cool",
+      "text": "cool",
+      "style": "word",
+      "path": "audio/en-us/nature/word/cool.mp3",
+      "intonation": "neutral",
+      "sha256": "b6c8d785e37c4a304e677437cd844b6e615d6cea9135cd9a1eb11a0475c0d714",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "it is cool in the evening",
+      "text": "It is cool in the evening.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/it-is-cool-in-the-evening.mp3",
+      "intonation": "fall",
+      "sha256": "ccd89de24ea4b9e5a67bb9a673696bfac2c832fb41c7699eadb3ac285ab4f070",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "cold",
+      "text": "cold",
+      "style": "word",
+      "path": "audio/en-us/nature/word/cold.mp3",
+      "intonation": "neutral",
+      "sha256": "f9589820e2a14463c9cdc84a88602a73ba8229b285da5c0a6db9d51881246083",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "it is cold in winter",
+      "text": "It is cold in winter.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/it-is-cold-in-winter.mp3",
+      "intonation": "fall",
+      "sha256": "9a37cfb945154a9b3930340844d229e45c5a8c658602306d2e4ad7561a5d1d94",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "freezing",
+      "text": "freezing",
+      "style": "word",
+      "path": "audio/en-us/nature/word/freezing.mp3",
+      "intonation": "neutral",
+      "sha256": "f8df5bad97ff758e6f35e129371271bed92848d1ea83a0dffce4147ab25118df",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "it is freezing outside",
+      "text": "It is freezing outside.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/it-is-freezing-outside.mp3",
+      "intonation": "fall",
+      "sha256": "2726df5f7fdb91f4144e83d870e31f81bb3bff3662a64eb21a23f366f4e8f7a5",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "mild",
+      "text": "mild",
+      "style": "word",
+      "path": "audio/en-us/nature/word/mild.mp3",
+      "intonation": "neutral",
+      "sha256": "1abefbdadf92b10d2c9823108e9314bd7ca8488f23e7d76dca639117bb95b1dd",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "we have a mild winter",
+      "text": "We have a mild winter.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/we-have-a-mild-winter.mp3",
+      "intonation": "fall",
+      "sha256": "d615e707e1ff42bed27672a2907fad02d1aa6baca97bbc2486a0b3747d492fb8",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "humid",
+      "text": "humid",
+      "style": "word",
+      "path": "audio/en-us/nature/word/humid.mp3",
+      "intonation": "neutral",
+      "sha256": "30d8871bd34a364823f5821dac339170f5c4939ef510a138d1822d1964ed38c7",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the air is humid today",
+      "text": "The air is humid today.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/the-air-is-humid-today.mp3",
+      "intonation": "fall",
+      "sha256": "297a8290c9e8dfc232cdd769b0ee2a371c862f0eb0cc3abfadf2fc40ddb43465",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "temperature",
+      "text": "temperature",
+      "style": "word",
+      "path": "audio/en-us/nature/word/temperature.mp3",
+      "intonation": "neutral",
+      "sha256": "3aecca08a6537bfd74b32e50c5c58891cf760205e53afe10685e2bcf6e24fa63",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the temperature is ten degrees",
+      "text": "The temperature is ten degrees.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/the-temperature-is-ten-degrees.mp3",
+      "intonation": "fall",
+      "sha256": "5fd1d429f039a0cb5334d534b88cb6d26804b415634016ae8e7f02b0de41d27b",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "degree",
+      "text": "degree",
+      "style": "word",
+      "path": "audio/en-us/nature/word/degree.mp3",
+      "intonation": "neutral",
+      "sha256": "eeb35b8b60a3b46592ea835a8c7c9d508c5be0519da70fb185c15efc24199046",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "it is twenty degrees today",
+      "text": "It is twenty degrees today.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/it-is-twenty-degrees-today.mp3",
+      "intonation": "fall",
+      "sha256": "69bb792b7cdeaabe2c11ca60230e748241ca8cc7965bb53d7a43ba2232d27fb3",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "rain",
+      "text": "rain",
+      "style": "word",
+      "path": "audio/en-us/nature/word/rain.mp3",
+      "intonation": "neutral",
+      "sha256": "20de765c3caeeb9badfc815497d583b731d77250eb8571d1190306561ba6c3f2",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the rain is heavy",
+      "text": "The rain is heavy.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/the-rain-is-heavy.mp3",
+      "intonation": "fall",
+      "sha256": "5e9a0270e7ad031eb5556f2d7e348c97dd2db7b0a2c3838686d5d6554b3b0f79",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "drizzle",
+      "text": "drizzle",
+      "style": "word",
+      "path": "audio/en-us/nature/word/drizzle.mp3",
+      "intonation": "neutral",
+      "sha256": "b0ebc711e1597b4a7b8a15cd6d85949c3203399a1b95e748a8a1e016895b516b",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "there is a little drizzle",
+      "text": "There is a little drizzle.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/there-is-a-little-drizzle.mp3",
+      "intonation": "fall",
+      "sha256": "f2323cddbfb8837fba6bfd3f273ed174d7ea1d2d07d74abf9ada26070d181d7a",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "shower",
+      "text": "shower",
+      "style": "word",
+      "path": "audio/en-us/nature/word/shower.mp3",
+      "intonation": "neutral",
+      "sha256": "bbc093da7d23bd3d6477d5df8ec64116b19134458afac20986b7d114c73e021e",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "a shower may come this afternoon",
+      "text": "A shower may come this afternoon.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/a-shower-may-come-this-afternoon.mp3",
+      "intonation": "fall",
+      "sha256": "c34b45461a380dbb0ffc2df4858d92d1dbc4694f902e81bbf760765033c2d8e0",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "downpour",
+      "text": "downpour",
+      "style": "word",
+      "path": "audio/en-us/nature/word/downpour.mp3",
+      "intonation": "neutral",
+      "sha256": "69638b975f32cf482f8db0eb1584afec8b9d48fa7f6499957d8d61f35c11f358",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "we waited inside during the downpour",
+      "text": "We waited inside during the downpour.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/we-waited-inside-during-the-downpour.mp3",
+      "intonation": "fall",
+      "sha256": "6976516218c6812b01424836d897ffff534c99149f634f9876c17c129284b53a",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "snow",
+      "text": "snow",
+      "style": "word",
+      "path": "audio/en-us/nature/word/snow.mp3",
+      "intonation": "neutral",
+      "sha256": "f59e741b502c1cceeb8b787b999149da9821c84fbb7224f02924e5b551b44314",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "snow covers the roof",
+      "text": "Snow covers the roof.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/snow-covers-the-roof.mp3",
+      "intonation": "fall",
+      "sha256": "f12c9159f99bb2cbabf123485e808c2b37da90890c6f4d61473736018048920c",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "sleet",
+      "text": "sleet",
+      "style": "word",
+      "path": "audio/en-us/nature/word/sleet.mp3",
+      "intonation": "neutral",
+      "sha256": "0a438b56702ae65cecdbf7bdb30e96f0fb3f9f70afd65393de81b21fe6619064",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "sleet fell overnight",
+      "text": "Sleet fell overnight.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/sleet-fell-overnight.mp3",
+      "intonation": "fall",
+      "sha256": "e10db9f61edc10e406aca81fe79700f386d40d43efe36322f7ae0f9e8b4ba242",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "hail",
+      "text": "hail",
+      "style": "word",
+      "path": "audio/en-us/nature/word/hail.mp3",
+      "intonation": "neutral",
+      "sha256": "35bec4acf34bf5062f7d1f582b9714fc2f6d015f7a618ba3315c5e38848c2089",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "hail hit the window",
+      "text": "Hail hit the window.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/hail-hit-the-window.mp3",
+      "intonation": "fall",
+      "sha256": "074c0b9b2d8595e17b924a80440c31a6663b026fe9a03778831ab3ad239bd77d",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "wind",
+      "text": "wind",
+      "style": "word",
+      "path": "audio/en-us/nature/word/wind.mp3",
+      "intonation": "neutral",
+      "sha256": "5387375b68a07e6f84f1d170627f762d10adba739b3ada765622929e2f6dfd7f",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the wind is strong",
+      "text": "The wind is strong.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/the-wind-is-strong.mp3",
+      "intonation": "fall",
+      "sha256": "eeb783f85e268ad578e2335c0ad64393e3d78330a62083a4035850004d619e73",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "breeze",
+      "text": "breeze",
+      "style": "word",
+      "path": "audio/en-us/nature/word/breeze.mp3",
+      "intonation": "neutral",
+      "sha256": "102c55b14c8ed7a1facb1295cd34dd639a7f7f1d5447b730e890c7f7e02a7f42",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "a cool breeze is blowing",
+      "text": "A cool breeze is blowing.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/a-cool-breeze-is-blowing.mp3",
+      "intonation": "fall",
+      "sha256": "da8440808d898366c5260f467e0e73d32d5c4d37acc7521a09fc45a3524424ae",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "cloud",
+      "text": "cloud",
+      "style": "word",
+      "path": "audio/en-us/nature/word/cloud.mp3",
+      "intonation": "neutral",
+      "sha256": "ba735b9a0214af50188745e97fec1e65a74eac2d6c3ede6ef7561a29d4e025d7",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "a white cloud is in the sky",
+      "text": "A white cloud is in the sky.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/a-white-cloud-is-in-the-sky.mp3",
+      "intonation": "fall",
+      "sha256": "27c2011bdf1fbdd3a1ba7878cd599a1b86fa9527f91c4609a9687f81c4bdfb4e",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "fog",
+      "text": "fog",
+      "style": "word",
+      "path": "audio/en-us/nature/word/fog.mp3",
+      "intonation": "neutral",
+      "sha256": "9b9f041d025356680b049a954b7352a3ec1f6af3fd5e6f6875f85fe34093798b",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the fog is thick",
+      "text": "The fog is thick.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/the-fog-is-thick.mp3",
+      "intonation": "fall",
+      "sha256": "cde6fab40266aae8274fdd5dec70bc1c84d9582bde315ea78ef9ce22249d4e01",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "mist",
+      "text": "mist",
+      "style": "word",
+      "path": "audio/en-us/nature/word/mist.mp3",
+      "intonation": "neutral",
+      "sha256": "739df31b49dee344060351dd3ff1729a6872e994fcdfd0180c77608c1358787c",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "a light mist covers the hills",
+      "text": "A light mist covers the hills.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/a-light-mist-covers-the-hills.mp3",
+      "intonation": "fall",
+      "sha256": "366640226ce4dc1ead8dde4fdb279c3decea408802241dfcba34dc571ce69995",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "storm",
+      "text": "storm",
+      "style": "word",
+      "path": "audio/en-us/nature/word/storm.mp3",
+      "intonation": "neutral",
+      "sha256": "5b718a28cb17dc7f7a96fbb47f003e981953ce3c62aa2753801d684abc3f6e3a",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the storm is getting closer",
+      "text": "The storm is getting closer.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/the-storm-is-getting-closer.mp3",
+      "intonation": "fall",
+      "sha256": "a3aff33fcd2de4777cfad7046c3e1ef3bc14d1235f0c07aeab47b42d6cc95b50",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "thunder",
+      "text": "thunder",
+      "style": "word",
+      "path": "audio/en-us/nature/word/thunder.mp3",
+      "intonation": "neutral",
+      "sha256": "76c2807df37af15d4690ba0c65c2971f0130b2bb0341c644cbb51747ed40de57",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "i heard thunder",
+      "text": "I heard thunder.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/i-heard-thunder.mp3",
+      "intonation": "fall",
+      "sha256": "25babcefb351677191d06e85c191c92e687e9057df6d43aa647596c4b46d7d69",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "lightning",
+      "text": "lightning",
+      "style": "word",
+      "path": "audio/en-us/nature/word/lightning.mp3",
+      "intonation": "neutral",
+      "sha256": "a628123838fb1a910d64de9258e20093080c7fd4776861c8e72b01c6328bfb54",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "lightning lit up the sky",
+      "text": "Lightning lit up the sky.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/lightning-lit-up-the-sky.mp3",
+      "intonation": "fall",
+      "sha256": "b5537da10bfd2226776e6549d76e7f80857d57db2b3d6efd09e03cba07508537",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "rainbow",
+      "text": "rainbow",
+      "style": "word",
+      "path": "audio/en-us/nature/word/rainbow.mp3",
+      "intonation": "neutral",
+      "sha256": "f884444663770cc4e84a46a11c4ed5f6ad070ac8ea92df74a9be867ab3b649d8",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "a rainbow appeared after the rain",
+      "text": "A rainbow appeared after the rain.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/a-rainbow-appeared-after-the-rain.mp3",
+      "intonation": "fall",
+      "sha256": "5bb0f57b7bab5c6dc87725a6c0463012bc6fd980ef5fe4d2f86f1eb05aa5864d",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "sunshine",
+      "text": "sunshine",
+      "style": "word",
+      "path": "audio/en-us/nature/word/sunshine.mp3",
+      "intonation": "neutral",
+      "sha256": "6831c50866ccb1e796c051b252438298aab52d6a89cf70751d6d759cd02b93c0",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "the plants need sunshine",
+      "text": "The plants need sunshine.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/the-plants-need-sunshine.mp3",
+      "intonation": "fall",
+      "sha256": "f38896ed7e590fb2652d26a7964b2d4297137ccdc39832995e6f8c76d34a0a12",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "umbrella",
+      "text": "umbrella",
+      "style": "word",
+      "path": "audio/en-us/nature/word/umbrella.mp3",
+      "intonation": "neutral",
+      "sha256": "5777e4fa0a17f822093b4c8eacfa7075425d806d53db186efb37188629bb01a3",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "take an umbrella with you",
+      "text": "Take an umbrella with you.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/take-an-umbrella-with-you.mp3",
+      "intonation": "fall",
+      "sha256": "7bc85abc5365445a7305dbe610b6ed7611934fc67a237657d4ac2b9454b18af3",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "raincoat",
+      "text": "raincoat",
+      "style": "word",
+      "path": "audio/en-us/nature/word/raincoat.mp3",
+      "intonation": "neutral",
+      "sha256": "b06cff59577198c458fdcd66a9ad6b88d4f5fc916c126dc2cbc84f814e43c4ca",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "wear your raincoat in the rain",
+      "text": "Wear your raincoat in the rain.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/wear-your-raincoat-in-the-rain.mp3",
+      "intonation": "fall",
+      "sha256": "4651304cc1e5edffdad33ffc543e2d8fc0033a47ce9b278fe480e417bf15abce",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "rain boots",
+      "text": "rain boots",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/rain-boots.mp3",
+      "intonation": "fall",
+      "sha256": "cae86e3aea942ba0741bf946b2ed2215874d1c1051a6199c726c8924a99de75c",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "my rain boots keep my feet dry",
+      "text": "My rain boots keep my feet dry.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/my-rain-boots-keep-my-feet-dry.mp3",
+      "intonation": "fall",
+      "sha256": "71c879688a2d13bc0a9782644272afe1b2bf937f02e29e21b31b0627325afcda",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "heavy rain",
+      "text": "heavy rain",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/heavy-rain.mp3",
+      "intonation": "fall",
+      "sha256": "ef88b79347431bec7684b1d630d1e25a3cf6fefbc3e409d926861a0e39a261fe",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "heavy rain is expected tonight",
+      "text": "Heavy rain is expected tonight.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/heavy-rain-is-expected-tonight.mp3",
+      "intonation": "fall",
+      "sha256": "b96df68e7f06a21f28a94bbbdc7409047f0cb03bbf90a148726f4a4feade99b0",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "light rain",
+      "text": "light rain",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/light-rain.mp3",
+      "intonation": "fall",
+      "sha256": "2db219e5275689d907047503fd72dd94daa0119a31b7deffdbcbf16a78fabea6",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "there will be light rain this morning",
+      "text": "There will be light rain this morning.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/there-will-be-light-rain-this-morning.mp3",
+      "intonation": "fall",
+      "sha256": "a1206c1e3b246607557d1f99b9c56ca06361539f259285e919e7c88696dd44fb",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "strong wind",
+      "text": "strong wind",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/strong-wind.mp3",
+      "intonation": "fall",
+      "sha256": "a40b288558086e4b9996dcce4e96337bc97dd8c2a9c5e7701b9cd026bf8092e5",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "strong wind moved the branches",
+      "text": "Strong wind moved the branches.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/strong-wind-moved-the-branches.mp3",
+      "intonation": "fall",
+      "sha256": "c14f2bac818bab31148f51b13ea4ea6ae4af868c54e9db02a9b37774a1a84619",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "it's raining",
+      "text": "It's raining.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/it-s-raining.mp3",
+      "intonation": "fall",
+      "sha256": "ca0d503975bb0f54fb4158bd4170e8a0f09394dd205b6c9988fd136f5b16c103",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "it's raining so take an umbrella",
+      "text": "It's raining, so take an umbrella.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/it-s-raining-so-take-an-umbrella.mp3",
+      "intonation": "fall",
+      "sha256": "dd1f48bc6124cfcea3eb331305513d61b520227f884dbf066cf26887b01160c6",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "it's snowing",
+      "text": "It's snowing.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/it-s-snowing.mp3",
+      "intonation": "fall",
+      "sha256": "4dee59cbf4b2de8b9d95501a6c4eb091d628f636344c0155b2a8ac92229ba40d",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "it's snowing outside",
+      "text": "It's snowing outside.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/it-s-snowing-outside.mp3",
+      "intonation": "fall",
+      "sha256": "d7a3f13a882455b542da6350b0a6eb0a8ef4e742782d96bda9d8064d70843855",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "what's the weather like",
+      "text": "What's the weather like?",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/what-s-the-weather-like.mp3",
+      "intonation": "fall",
+      "sha256": "ad6152c31e028f21270efb0dfc95c0d2b61dbcc09bf31fda2f442cca34e06748",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "what's the weather like today",
+      "text": "What's the weather like today?",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/what-s-the-weather-like-today.mp3",
+      "intonation": "fall",
+      "sha256": "5b81b9f9459e9f77dd56b849e7fdac777b4bc9c8490d4fbbfb268ae280d5e421",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "it's sunny today",
+      "text": "It's sunny today.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/it-s-sunny-today.mp3",
+      "intonation": "fall",
+      "sha256": "fa9295e3befcd82903facf1302467629d5af6eef507b99094832fd3816c7f584",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "it's sunny today let's go outside",
+      "text": "It's sunny today. Let's go outside.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/it-s-sunny-today-let-s-go-outside.mp3",
+      "intonation": "fall",
+      "sha256": "141c2e5edf2a3d7278e1e97f0b01112c37d68439a8e97fbd133db42691bfaa70",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "it might rain",
+      "text": "It might rain.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/word/it-might-rain.mp3",
+      "intonation": "fall",
+      "sha256": "f8d7037caa3a390bec59daa6cb60a27046eec1f81ed9d066b681bdb710e407fd",
+      "source": "time-nature-v1"
+    },
+    {
+      "audio_key": "take your umbrella it might rain",
+      "text": "Take your umbrella. It might rain.",
+      "style": "sentence",
+      "path": "audio/en-us/nature/sentence/take-your-umbrella-it-might-rain.mp3",
+      "intonation": "fall",
+      "sha256": "0f8e542b5bd5b68ac8ab5d9e05855d40fedbdff2711618c89238d1593e7ac61d",
+      "source": "time-nature-v1"
     }
   ],
   "clip_count": 610,
@@ -4904,5 +8666,14 @@
     "existing_clips": "609 clips extracted from the user-provided project and normalized for loudness.",
     "new_clips": "One standalone apple.mp3 generated offline using local eSpeak because the source project had no independent apple audio.",
     "important": "apple.mp3 is a different speech engine/voice and may sound less natural than the existing audio. It is included as a real test asset, not misrepresented as the original voice."
-  }
+  },
+  "additions": [
+    {
+      "pack": "time-nature-v1",
+      "clips": 418,
+      "voice": "af_bella",
+      "locale": "en-US",
+      "source": "data/time-nature-audio-generation.json"
+    }
+  ]
 }

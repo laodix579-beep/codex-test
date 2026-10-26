@@ -8,15 +8,15 @@ from playwright.sync_api import sync_playwright, expect
 ROOT=Path(__file__).resolve().parents[1]
 catalog=json.loads((ROOT/'data/scene-catalog.json').read_text())
 groups=json.loads((ROOT/'data/basic-vocabulary.json').read_text())['subcategories']
-scenes={scene['id']:scene for scene in catalog['scenes']}
+scenes={scene['id']:scene for scene in catalog['scenes'] if scene['id'].startswith('C01-')}
 assert len(scenes)==136
 assert len({(s['sheet'],s['column'],s['row']) for s in scenes.values()})==136
-assert len(catalog['sheets'])==18
+assert len(catalog['sheets'])==32
 for sheet in catalog['sheets']:
     path=ROOT/sheet['path']
     with Image.open(path) as im:assert im.size==(sheet['width'],sheet['height'])
     assert hashlib.sha256(path.read_bytes()).hexdigest()==sheet['sha256']
-print('PASS: 136 distinct scene regions and all 18 image dimensions/hashes',flush=True)
+print('PASS: 136 distinct scene regions and all 32 image dimensions/hashes',flush=True)
 
 with sync_playwright() as p:
     browser=p.chromium.launch(executable_path='/usr/bin/chromium',headless=True,args=['--no-sandbox'])

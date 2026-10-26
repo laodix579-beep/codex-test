@@ -1,0 +1,221 @@
+﻿id,english,ipa_dj_british,word_audio_key,word_audio_path,example_audio_key,example_audio_path,audio_locale
+C02-S01-001,time,/taɪm/,time,audio/en-us/word/time.mp3,what time is it,audio/en-us/nature/sentence/what-time-is-it.mp3,en-US
+C02-S01-002,clock,/klɒk/,clock,audio/en-us/nature/word/clock.mp3,the clock is on the wall,audio/en-us/nature/sentence/the-clock-is-on-the-wall.mp3,en-US
+C02-S01-003,watch,/wɒtʃ/,watch,audio/en-us/nature/word/watch.mp3,my watch is new,audio/en-us/nature/sentence/my-watch-is-new.mp3,en-US
+C02-S01-004,hour,/ˈaʊə/,hour,audio/en-us/nature/word/hour.mp3,an hour has sixty minutes,audio/en-us/nature/sentence/an-hour-has-sixty-minutes.mp3,en-US
+C02-S01-005,minute,/ˈmɪnɪt/,minute,audio/en-us/nature/word/minute.mp3,wait one minute please,audio/en-us/nature/sentence/wait-one-minute-please.mp3,en-US
+C02-S01-006,second,/ˈsekənd/,second,audio/en-us/word/second.mp3,one minute has sixty seconds,audio/en-us/nature/sentence/one-minute-has-sixty-seconds.mp3,en-US
+C02-S01-007,o'clock,/əˈklɒk/,o'clock,audio/en-us/nature/word/o-clock.mp3,it is six o'clock,audio/en-us/nature/sentence/it-is-six-o-clock.mp3,en-US
+C02-S01-008,past,/pɑːst/,past,audio/en-us/nature/word/past.mp3,it is ten past three,audio/en-us/nature/sentence/it-is-ten-past-three.mp3,en-US
+C02-S01-009,to,/tuː/,to,audio/en-us/word/to.mp3,it is ten to four,audio/en-us/nature/sentence/it-is-ten-to-four.mp3,en-US
+C02-S01-010,half past,/ˌhɑːf ˈpɑːst/,half past,audio/en-us/nature/word/half-past.mp3,it is half past seven,audio/en-us/nature/sentence/it-is-half-past-seven.mp3,en-US
+C02-S01-011,quarter past,/ˌkwɔːtə ˈpɑːst/,quarter past,audio/en-us/nature/word/quarter-past.mp3,it is quarter past eight,audio/en-us/nature/sentence/it-is-quarter-past-eight.mp3,en-US
+C02-S01-012,quarter to,/ˌkwɔːtə ˈtuː/,quarter to,audio/en-us/nature/word/quarter-to.mp3,it is quarter to nine,audio/en-us/nature/sentence/it-is-quarter-to-nine.mp3,en-US
+C02-S01-013,noon,/nuːn/,noon,audio/en-us/nature/word/noon.mp3,we eat lunch at noon,audio/en-us/nature/sentence/we-eat-lunch-at-noon.mp3,en-US
+C02-S01-014,midday,/ˌmɪdˈdeɪ/,midday,audio/en-us/nature/word/midday.mp3,the sun is high at midday,audio/en-us/nature/sentence/the-sun-is-high-at-midday.mp3,en-US
+C02-S01-015,midnight,/ˈmɪdnaɪt/,midnight,audio/en-us/nature/word/midnight.mp3,the film ends at midnight,audio/en-us/nature/sentence/the-film-ends-at-midnight.mp3,en-US
+C02-S01-016,morning,/ˈmɔːnɪŋ/,morning,audio/en-us/word/morning.mp3,i read in the morning,audio/en-us/nature/sentence/i-read-in-the-morning.mp3,en-US
+C02-S01-017,afternoon,/ˌɑːftəˈnuːn/,afternoon,audio/en-us/word/afternoon.mp3,we play in the afternoon,audio/en-us/nature/sentence/we-play-in-the-afternoon.mp3,en-US
+C02-S01-018,evening,/ˈiːvnɪŋ/,evening,audio/en-us/nature/word/evening.mp3,i do homework in the evening,audio/en-us/nature/sentence/i-do-homework-in-the-evening.mp3,en-US
+C02-S01-019,night,/naɪt/,night,audio/en-us/nature/word/night.mp3,the stars shine at night,audio/en-us/nature/sentence/the-stars-shine-at-night.mp3,en-US
+C02-S01-020,dawn,/dɔːn/,dawn,audio/en-us/nature/word/dawn.mp3,birds sing at dawn,audio/en-us/nature/sentence/birds-sing-at-dawn.mp3,en-US
+C02-S01-021,sunrise,/ˈsʌnraɪz/,sunrise,audio/en-us/nature/word/sunrise.mp3,we watched the sunrise,audio/en-us/nature/sentence/we-watched-the-sunrise.mp3,en-US
+C02-S01-022,sunset,/ˈsʌnset/,sunset,audio/en-us/nature/word/sunset.mp3,the sky is orange at sunset,audio/en-us/nature/sentence/the-sky-is-orange-at-sunset.mp3,en-US
+C02-S01-023,today,/təˈdeɪ/,today,audio/en-us/nature/word/today.mp3,today is a school day,audio/en-us/nature/sentence/today-is-a-school-day.mp3,en-US
+C02-S01-024,tomorrow,/təˈmɒrəʊ/,tomorrow,audio/en-us/word/tomorrow.mp3,see you tomorrow,audio/en-us/sentence/see-you-tomorrow.mp3,en-US
+C02-S01-025,yesterday,/ˈjestədeɪ/,yesterday,audio/en-us/nature/word/yesterday.mp3,it was sunny yesterday,audio/en-us/nature/sentence/it-was-sunny-yesterday.mp3,en-US
+C02-S01-026,tonight,/təˈnaɪt/,tonight,audio/en-us/nature/word/tonight.mp3,we will read tonight,audio/en-us/nature/sentence/we-will-read-tonight.mp3,en-US
+C02-S01-027,now,/naʊ/,now,audio/en-us/word/now.mp3,i am busy now,audio/en-us/nature/sentence/i-am-busy-now.mp3,en-US
+C02-S01-028,later,/ˈleɪtə/,later,audio/en-us/nature/word/later.mp3,i will call you later,audio/en-us/nature/sentence/i-will-call-you-later.mp3,en-US
+C02-S01-029,soon,/suːn/,soon,audio/en-us/nature/word/soon.mp3,the bus will come soon,audio/en-us/nature/sentence/the-bus-will-come-soon.mp3,en-US
+C02-S01-030,early,/ˈɜːli/,early,audio/en-us/nature/word/early.mp3,i get up early,audio/en-us/nature/sentence/i-get-up-early.mp3,en-US
+C02-S01-031,late,/leɪt/,late,audio/en-us/nature/word/late.mp3,do not be late for school,audio/en-us/nature/sentence/do-not-be-late-for-school.mp3,en-US
+C02-S01-032,before,/bɪˈfɔː/,before,audio/en-us/nature/word/before.mp3,wash your hands before lunch,audio/en-us/nature/sentence/wash-your-hands-before-lunch.mp3,en-US
+C02-S01-033,after,/ˈɑːftə/,after,audio/en-us/word/after.mp3,i play after school,audio/en-us/nature/sentence/i-play-after-school.mp3,en-US
+C02-S01-034,daily,/ˈdeɪli/,daily,audio/en-us/nature/word/daily.mp3,this is my daily routine,audio/en-us/nature/sentence/this-is-my-daily-routine.mp3,en-US
+C02-S01-035,every day,/ˈevri deɪ/,every day,audio/en-us/nature/word/every-day.mp3,i read every day,audio/en-us/sentence/i-read-every-day.mp3,en-US
+C02-S01-036,once,/wʌns/,once,audio/en-us/nature/word/once.mp3,i visit grandma once a week,audio/en-us/nature/sentence/i-visit-grandma-once-a-week.mp3,en-US
+C02-S01-037,twice,/twaɪs/,twice,audio/en-us/nature/word/twice.mp3,i brush my teeth twice a day,audio/en-us/nature/sentence/i-brush-my-teeth-twice-a-day.mp3,en-US
+C02-S01-038,always,/ˈɔːlweɪz/,always,audio/en-us/nature/word/always.mp3,i always pack my bag at night,audio/en-us/nature/sentence/i-always-pack-my-bag-at-night.mp3,en-US
+C02-S01-039,sometimes,/ˈsʌmtaɪmz/,sometimes,audio/en-us/nature/word/sometimes.mp3,sometimes i walk to school,audio/en-us/nature/sentence/sometimes-i-walk-to-school.mp3,en-US
+C02-S01-040,never,/ˈnevə/,never,audio/en-us/nature/word/never.mp3,i never go to bed with my shoes on,audio/en-us/nature/sentence/i-never-go-to-bed-with-my-shoes-on.mp3,en-US
+C02-S01-041,bedtime,/ˈbedtaɪm/,bedtime,audio/en-us/nature/word/bedtime.mp3,my bedtime is nine o'clock,audio/en-us/nature/sentence/my-bedtime-is-nine-o-clock.mp3,en-US
+C02-S01-042,wake-up time,/ˈweɪk ʌp taɪm/,wakeup time,audio/en-us/nature/word/wakeup-time.mp3,my wakeup time is seven,audio/en-us/nature/sentence/my-wakeup-time-is-seven.mp3,en-US
+C02-S01-043,What time is it?,/wɒt taɪm ɪz ɪt/,what time is it,audio/en-us/nature/sentence/what-time-is-it.mp3,what time is it now,audio/en-us/nature/sentence/what-time-is-it-now.mp3,en-US
+C02-S01-044,It's seven o'clock.,/ɪts ˈsevən əˈklɒk/,it's seven o'clock,audio/en-us/nature/word/it-s-seven-o-clock.mp3,it's seven o'clock let's go,audio/en-us/nature/sentence/it-s-seven-o-clock-let-s-go.mp3,en-US
+C02-S01-045,It's half past eight.,/ɪts ˌhɑːf pɑːst eɪt/,it's half past eight,audio/en-us/nature/word/it-s-half-past-eight.mp3,it's half past eight time for school,audio/en-us/nature/sentence/it-s-half-past-eight-time-for-school.mp3,en-US
+C02-S01-046,in the morning,/ɪn ðə ˈmɔːnɪŋ/,in the morning,audio/en-us/nature/word/in-the-morning.mp3,i eat breakfast in the morning,audio/en-us/nature/sentence/i-eat-breakfast-in-the-morning.mp3,en-US
+C02-S01-047,in the afternoon,/ɪn ði ˌɑːftəˈnuːn/,in the afternoon,audio/en-us/nature/word/in-the-afternoon.mp3,we have a lesson in the afternoon,audio/en-us/nature/sentence/we-have-a-lesson-in-the-afternoon.mp3,en-US
+C02-S01-048,at night,/ət naɪt/,at night,audio/en-us/nature/word/at-night.mp3,it is quiet at night,audio/en-us/nature/sentence/it-is-quiet-at-night.mp3,en-US
+C02-S01-049,on time,/ɒn taɪm/,on time,audio/en-us/nature/word/on-time.mp3,the train arrived on time,audio/en-us/nature/sentence/the-train-arrived-on-time.mp3,en-US
+C02-S01-050,in time,/ɪn taɪm/,in time,audio/en-us/nature/word/in-time.mp3,we got there in time,audio/en-us/nature/sentence/we-got-there-in-time.mp3,en-US
+C02-S01-051,What time do you get up?,/wɒt taɪm də juː ɡet ʌp/,what time do you get up,audio/en-us/nature/word/what-time-do-you-get-up.mp3,what time do you get up on school days,audio/en-us/nature/sentence/what-time-do-you-get-up-on-school-days.mp3,en-US
+C02-S01-052,I get up at seven.,/aɪ ɡet ʌp ət ˈsevən/,i get up at seven,audio/en-us/nature/word/i-get-up-at-seven.mp3,i get up at seven every morning,audio/en-us/nature/sentence/i-get-up-at-seven-every-morning.mp3,en-US
+C02-S02-001,day,/deɪ/,day,audio/en-us/word/day.mp3,there are seven days in a week,audio/en-us/nature/sentence/there-are-seven-days-in-a-week.mp3,en-US
+C02-S02-002,weekday,/ˈwiːkdeɪ/,weekday,audio/en-us/nature/word/weekday.mp3,monday is a weekday,audio/en-us/nature/sentence/monday-is-a-weekday.mp3,en-US
+C02-S02-003,weekend,/ˌwiːkˈend/,weekend,audio/en-us/nature/word/weekend.mp3,i play football at the weekend,audio/en-us/nature/sentence/i-play-football-at-the-weekend.mp3,en-US
+C02-S02-004,calendar,/ˈkælɪndə/,calendar,audio/en-us/nature/word/calendar.mp3,the calendar is on the desk,audio/en-us/nature/sentence/the-calendar-is-on-the-desk.mp3,en-US
+C02-S02-005,date,/deɪt/,date,audio/en-us/nature/word/date.mp3,what is the date today,audio/en-us/nature/sentence/what-is-the-date-today.mp3,en-US
+C02-S02-006,school day,/ˈskuːl deɪ/,school day,audio/en-us/nature/word/school-day.mp3,tuesday is a school day,audio/en-us/nature/sentence/tuesday-is-a-school-day.mp3,en-US
+C02-S02-007,day off,/ˌdeɪ ˈɒf/,day off,audio/en-us/nature/word/day-off.mp3,sunday is my day off,audio/en-us/nature/sentence/sunday-is-my-day-off.mp3,en-US
+C02-S02-008,birthday,/ˈbɜːθdeɪ/,birthday,audio/en-us/nature/word/birthday.mp3,my birthday is in june,audio/en-us/nature/sentence/my-birthday-is-in-june.mp3,en-US
+C02-S02-009,holiday,/ˈhɒlədeɪ/,holiday,audio/en-us/nature/word/holiday.mp3,we visit grandma during the holiday,audio/en-us/nature/sentence/we-visit-grandma-during-the-holiday.mp3,en-US
+C02-S02-010,public holiday,/ˌpʌblɪk ˈhɒlədeɪ/,public holiday,audio/en-us/nature/word/public-holiday.mp3,the bank is closed on the public holiday,audio/en-us/nature/sentence/the-bank-is-closed-on-the-public-holiday.mp3,en-US
+C02-S02-011,school holiday,/ˈskuːl ˌhɒlədeɪ/,school holiday,audio/en-us/nature/word/school-holiday.mp3,we travel during the school holiday,audio/en-us/nature/sentence/we-travel-during-the-school-holiday.mp3,en-US
+C02-S02-012,anniversary,/ˌænɪˈvɜːsəri/,anniversary,audio/en-us/nature/word/anniversary.mp3,today is their wedding anniversary,audio/en-us/nature/sentence/today-is-their-wedding-anniversary.mp3,en-US
+C02-S02-013,appointment,/əˈpɔɪntmənt/,appointment,audio/en-us/nature/word/appointment.mp3,i have a doctor's appointment on friday,audio/en-us/nature/sentence/i-have-a-doctor-s-appointment-on-friday.mp3,en-US
+C02-S02-014,schedule,/ˈʃedjuːl/,schedule,audio/en-us/word/schedule.mp3,check the school schedule,audio/en-us/nature/sentence/check-the-school-schedule.mp3,en-US
+C02-S02-015,Monday,/ˈmʌndeɪ/,monday,audio/en-us/nature/word/monday.mp3,i have english on monday,audio/en-us/nature/sentence/i-have-english-on-monday.mp3,en-US
+C02-S02-016,Tuesday,/ˈtjuːzdeɪ/,tuesday,audio/en-us/nature/word/tuesday.mp3,we swim on tuesday,audio/en-us/nature/sentence/we-swim-on-tuesday.mp3,en-US
+C02-S02-017,Wednesday,/ˈwenzdeɪ/,wednesday,audio/en-us/nature/word/wednesday.mp3,i read on wednesday,audio/en-us/nature/sentence/i-read-on-wednesday.mp3,en-US
+C02-S02-018,Thursday,/ˈθɜːzdeɪ/,thursday,audio/en-us/nature/word/thursday.mp3,i visit the library on thursday,audio/en-us/nature/sentence/i-visit-the-library-on-thursday.mp3,en-US
+C02-S02-019,Friday,/ˈfraɪdeɪ/,friday,audio/en-us/word/friday.mp3,friday is my last school day this week,audio/en-us/nature/sentence/friday-is-my-last-school-day-this-week.mp3,en-US
+C02-S02-020,Saturday,/ˈsætədeɪ/,saturday,audio/en-us/nature/word/saturday.mp3,we play in the park on saturday,audio/en-us/nature/sentence/we-play-in-the-park-on-saturday.mp3,en-US
+C02-S02-021,Sunday,/ˈsʌndeɪ/,sunday,audio/en-us/nature/word/sunday.mp3,i help my family on sunday,audio/en-us/nature/sentence/i-help-my-family-on-sunday.mp3,en-US
+C02-S02-022,every Monday,/ˈevri ˈmʌndeɪ/,every monday,audio/en-us/nature/word/every-monday.mp3,we have a test every monday,audio/en-us/nature/sentence/we-have-a-test-every-monday.mp3,en-US
+C02-S02-023,from Monday to Friday,/frəm ˈmʌndeɪ tə ˈfraɪdeɪ/,from monday to friday,audio/en-us/nature/word/from-monday-to-friday.mp3,i go to school from monday to friday,audio/en-us/nature/sentence/i-go-to-school-from-monday-to-friday.mp3,en-US
+C02-S02-024,at the weekend,/ət ðə ˌwiːkˈend/,at the weekend,audio/en-us/nature/word/at-the-weekend.mp3,i ride my bike at the weekend,audio/en-us/nature/sentence/i-ride-my-bike-at-the-weekend.mp3,en-US
+C02-S02-025,this week,/ðɪs wiːk/,this week,audio/en-us/nature/word/this-week.mp3,we have three tests this week,audio/en-us/nature/sentence/we-have-three-tests-this-week.mp3,en-US
+C02-S02-026,next week,/nekst wiːk/,next week,audio/en-us/nature/word/next-week.mp3,we will visit the museum next week,audio/en-us/nature/sentence/we-will-visit-the-museum-next-week.mp3,en-US
+C02-S02-027,last week,/lɑːst wiːk/,last week,audio/en-us/nature/word/last-week.mp3,i saw my cousin last week,audio/en-us/nature/sentence/i-saw-my-cousin-last-week.mp3,en-US
+C02-S02-028,What day is it today?,/wɒt deɪ ɪz ɪt təˈdeɪ/,what day is it today,audio/en-us/nature/word/what-day-is-it-today.mp3,what day is it today,audio/en-us/nature/word/what-day-is-it-today.mp3,en-US
+C02-S02-029,What is the date today?,/wɒt ɪz ðə deɪt təˈdeɪ/,what is the date today,audio/en-us/nature/sentence/what-is-the-date-today.mp3,what is the date today,audio/en-us/nature/sentence/what-is-the-date-today.mp3,en-US
+C02-S02-030,Today is Monday.,/təˈdeɪ ɪz ˈmʌndeɪ/,today is monday,audio/en-us/nature/word/today-is-monday.mp3,today is monday so school starts again,audio/en-us/nature/sentence/today-is-monday-so-school-starts-again.mp3,en-US
+C02-S02-031,the first,/ðə fɜːst/,the first,audio/en-us/nature/word/the-first.mp3,the first is a monday this month,audio/en-us/nature/sentence/the-first-is-a-monday-this-month.mp3,en-US
+C02-S02-032,the second,/ðə ˈsekənd/,the second,audio/en-us/nature/word/the-second.mp3,the second of may is a school day,audio/en-us/nature/sentence/the-second-of-may-is-a-school-day.mp3,en-US
+C02-S02-033,the third,/ðə θɜːd/,the third,audio/en-us/nature/word/the-third.mp3,her birthday is on the third of july,audio/en-us/nature/sentence/her-birthday-is-on-the-third-of-july.mp3,en-US
+C02-S02-034,the fourth,/ðə fɔːθ/,the fourth,audio/en-us/nature/word/the-fourth.mp3,the fourth of april is on friday,audio/en-us/nature/sentence/the-fourth-of-april-is-on-friday.mp3,en-US
+C02-S02-035,the fifth,/ðə fɪfθ/,the fifth,audio/en-us/nature/word/the-fifth.mp3,my birthday is on the fifth of june,audio/en-us/nature/sentence/my-birthday-is-on-the-fifth-of-june.mp3,en-US
+C02-S02-036,the sixth,/ðə sɪksθ/,the sixth,audio/en-us/nature/word/the-sixth.mp3,the sixth of march is a thursday,audio/en-us/nature/sentence/the-sixth-of-march-is-a-thursday.mp3,en-US
+C02-S02-037,the seventh,/ðə ˈsevənθ/,the seventh,audio/en-us/nature/word/the-seventh.mp3,the seventh day is sunday,audio/en-us/nature/sentence/the-seventh-day-is-sunday.mp3,en-US
+C02-S02-038,the eighth,/ði eɪtθ/,the eighth,audio/en-us/nature/word/the-eighth.mp3,the eighth of august is my holiday,audio/en-us/nature/sentence/the-eighth-of-august-is-my-holiday.mp3,en-US
+C02-S02-039,the ninth,/ðə naɪnθ/,the ninth,audio/en-us/nature/word/the-ninth.mp3,the ninth page is missing,audio/en-us/nature/sentence/the-ninth-page-is-missing.mp3,en-US
+C02-S02-040,the tenth,/ðə tenθ/,the tenth,audio/en-us/nature/word/the-tenth.mp3,the tenth of october is a friday,audio/en-us/nature/sentence/the-tenth-of-october-is-a-friday.mp3,en-US
+C02-S02-041,the eleventh,/ði ɪˈlevənθ/,the eleventh,audio/en-us/nature/word/the-eleventh.mp3,the eleventh is her birthday,audio/en-us/nature/sentence/the-eleventh-is-her-birthday.mp3,en-US
+C02-S02-042,the twelfth,/ðə twelfθ/,the twelfth,audio/en-us/nature/word/the-twelfth.mp3,the twelfth of december is a school day,audio/en-us/nature/sentence/the-twelfth-of-december-is-a-school-day.mp3,en-US
+C02-S02-043,the thirteenth,/ðə ˌθɜːˈtiːnθ/,the thirteenth,audio/en-us/nature/word/the-thirteenth.mp3,the thirteenth is on saturday,audio/en-us/nature/sentence/the-thirteenth-is-on-saturday.mp3,en-US
+C02-S02-044,the fourteenth,/ðə ˌfɔːˈtiːnθ/,the fourteenth,audio/en-us/nature/word/the-fourteenth.mp3,the fourteenth of february is valentine's day,audio/en-us/nature/sentence/the-fourteenth-of-february-is-valentine-s-day.mp3,en-US
+C02-S02-045,the fifteenth,/ðə ˌfɪfˈtiːnθ/,the fifteenth,audio/en-us/nature/word/the-fifteenth.mp3,the fifteenth is halfway through the month,audio/en-us/nature/sentence/the-fifteenth-is-halfway-through-the-month.mp3,en-US
+C02-S02-046,the sixteenth,/ðə ˌsɪksˈtiːnθ/,the sixteenth,audio/en-us/nature/word/the-sixteenth.mp3,the sixteenth of may is our school trip,audio/en-us/nature/sentence/the-sixteenth-of-may-is-our-school-trip.mp3,en-US
+C02-S02-047,the seventeenth,/ðə ˌsevənˈtiːnθ/,the seventeenth,audio/en-us/nature/word/the-seventeenth.mp3,the seventeenth is on tuesday,audio/en-us/nature/sentence/the-seventeenth-is-on-tuesday.mp3,en-US
+C02-S02-048,the eighteenth,/ði ˌeɪˈtiːnθ/,the eighteenth,audio/en-us/nature/word/the-eighteenth.mp3,the eighteenth of july is a holiday,audio/en-us/nature/sentence/the-eighteenth-of-july-is-a-holiday.mp3,en-US
+C02-S02-049,the nineteenth,/ðə ˌnaɪnˈtiːnθ/,the nineteenth,audio/en-us/nature/word/the-nineteenth.mp3,the nineteenth is my last day here,audio/en-us/nature/sentence/the-nineteenth-is-my-last-day-here.mp3,en-US
+C02-S02-050,the twentieth,/ðə ˈtwentiəθ/,the twentieth,audio/en-us/nature/word/the-twentieth.mp3,the twentieth is a monday,audio/en-us/nature/sentence/the-twentieth-is-a-monday.mp3,en-US
+C02-S02-051,the twenty-first,/ðə ˌtwenti ˈfɜːst/,the twentyfirst,audio/en-us/nature/word/the-twentyfirst.mp3,the twentyfirst is a sunday,audio/en-us/nature/sentence/the-twentyfirst-is-a-sunday.mp3,en-US
+C02-S02-052,the twenty-second,/ðə ˌtwenti ˈsekənd/,the twentysecond,audio/en-us/nature/word/the-twentysecond.mp3,the twentysecond is my appointment,audio/en-us/nature/sentence/the-twentysecond-is-my-appointment.mp3,en-US
+C02-S02-053,the twenty-third,/ðə ˌtwenti ˈθɜːd/,the twentythird,audio/en-us/nature/word/the-twentythird.mp3,the twentythird is the school concert,audio/en-us/nature/sentence/the-twentythird-is-the-school-concert.mp3,en-US
+C02-S02-054,the twenty-fourth,/ðə ˌtwenti ˈfɔːθ/,the twentyfourth,audio/en-us/nature/word/the-twentyfourth.mp3,the twentyfourth of december is christmas eve,audio/en-us/nature/sentence/the-twentyfourth-of-december-is-christmas-eve.mp3,en-US
+C02-S02-055,the twenty-fifth,/ðə ˌtwenti ˈfɪfθ/,the twentyfifth,audio/en-us/nature/word/the-twentyfifth.mp3,the twentyfifth of december is christmas day,audio/en-us/nature/sentence/the-twentyfifth-of-december-is-christmas-day.mp3,en-US
+C02-S02-056,the twenty-sixth,/ðə ˌtwenti ˈsɪksθ/,the twentysixth,audio/en-us/nature/word/the-twentysixth.mp3,the twentysixth is a public holiday in some countries,audio/en-us/nature/sentence/the-twentysixth-is-a-public-holiday-in-some-countries.mp3,en-US
+C02-S02-057,the twenty-seventh,/ðə ˌtwenti ˈsevənθ/,the twentyseventh,audio/en-us/nature/word/the-twentyseventh.mp3,the twentyseventh is a friday,audio/en-us/nature/sentence/the-twentyseventh-is-a-friday.mp3,en-US
+C02-S02-058,the twenty-eighth,/ðə ˌtwenti ˈeɪtθ/,the twentyeighth,audio/en-us/nature/word/the-twentyeighth.mp3,february has twentyeight days in a common year,audio/en-us/nature/sentence/february-has-twentyeight-days-in-a-common-year.mp3,en-US
+C02-S02-059,the twenty-ninth,/ðə ˌtwenti ˈnaɪnθ/,the twentyninth,audio/en-us/nature/word/the-twentyninth.mp3,february has a twentyninth day in a leap year,audio/en-us/nature/sentence/february-has-a-twentyninth-day-in-a-leap-year.mp3,en-US
+C02-S02-060,the thirtieth,/ðə ˈθɜːtiəθ/,the thirtieth,audio/en-us/nature/word/the-thirtieth.mp3,the thirtieth is near the end of the month,audio/en-us/nature/sentence/the-thirtieth-is-near-the-end-of-the-month.mp3,en-US
+C02-S02-061,the thirty-first,/ðə ˌθɜːti ˈfɜːst/,the thirtyfirst,audio/en-us/nature/word/the-thirtyfirst.mp3,some months have a thirtyfirst day,audio/en-us/nature/sentence/some-months-have-a-thirtyfirst-day.mp3,en-US
+C02-S03-001,month,/mʌnθ/,month,audio/en-us/nature/word/month.mp3,there are twelve months in a year,audio/en-us/nature/sentence/there-are-twelve-months-in-a-year.mp3,en-US
+C02-S03-002,year,/jɪə/,year,audio/en-us/nature/word/year.mp3,a year has twelve months,audio/en-us/nature/sentence/a-year-has-twelve-months.mp3,en-US
+C02-S03-003,January,/ˈdʒænjuəri/,january,audio/en-us/nature/word/january.mp3,january is the first month of the year,audio/en-us/nature/sentence/january-is-the-first-month-of-the-year.mp3,en-US
+C02-S03-004,February,/ˈfebruəri/,february,audio/en-us/nature/word/february.mp3,february is the shortest month in a common year,audio/en-us/nature/sentence/february-is-the-shortest-month-in-a-common-year.mp3,en-US
+C02-S03-005,March,/mɑːtʃ/,march,audio/en-us/nature/word/march.mp3,spring begins in march in many places,audio/en-us/nature/sentence/spring-begins-in-march-in-many-places.mp3,en-US
+C02-S03-006,April,/ˈeɪprəl/,april,audio/en-us/nature/word/april.mp3,april can be rainy,audio/en-us/nature/sentence/april-can-be-rainy.mp3,en-US
+C02-S03-007,May,/meɪ/,may,audio/en-us/word/may.mp3,flowers grow in may,audio/en-us/nature/sentence/flowers-grow-in-may.mp3,en-US
+C02-S03-008,June,/dʒuːn/,june,audio/en-us/nature/word/june.mp3,june is often warm,audio/en-us/nature/sentence/june-is-often-warm.mp3,en-US
+C02-S03-009,July,/dʒuˈlaɪ/,july,audio/en-us/nature/word/july.mp3,we have a holiday in july,audio/en-us/nature/sentence/we-have-a-holiday-in-july.mp3,en-US
+C02-S03-010,August,/ˈɔːɡəst/,august,audio/en-us/nature/word/august.mp3,august can be hot,audio/en-us/nature/sentence/august-can-be-hot.mp3,en-US
+C02-S03-011,September,/sepˈtembə/,september,audio/en-us/nature/word/september.mp3,school often starts in september,audio/en-us/nature/sentence/school-often-starts-in-september.mp3,en-US
+C02-S03-012,October,/ɒkˈtəʊbə/,october,audio/en-us/nature/word/october.mp3,the leaves turn yellow in october,audio/en-us/nature/sentence/the-leaves-turn-yellow-in-october.mp3,en-US
+C02-S03-013,November,/nəʊˈvembə/,november,audio/en-us/nature/word/november.mp3,november can be cold,audio/en-us/nature/sentence/november-can-be-cold.mp3,en-US
+C02-S03-014,December,/dɪˈsembə/,december,audio/en-us/nature/word/december.mp3,december is the last month of the year,audio/en-us/nature/sentence/december-is-the-last-month-of-the-year.mp3,en-US
+C02-S03-015,this month,/ðɪs mʌnθ/,this month,audio/en-us/nature/word/this-month.mp3,we have a school trip this month,audio/en-us/nature/sentence/we-have-a-school-trip-this-month.mp3,en-US
+C02-S03-016,next month,/nekst mʌnθ/,next month,audio/en-us/nature/word/next-month.mp3,my birthday is next month,audio/en-us/nature/sentence/my-birthday-is-next-month.mp3,en-US
+C02-S03-017,last month,/lɑːst mʌnθ/,last month,audio/en-us/nature/word/last-month.mp3,i started this book last month,audio/en-us/nature/sentence/i-started-this-book-last-month.mp3,en-US
+C02-S03-018,every month,/ˈevri mʌnθ/,every month,audio/en-us/nature/word/every-month.mp3,we visit the library every month,audio/en-us/nature/sentence/we-visit-the-library-every-month.mp3,en-US
+C02-S03-019,monthly,/ˈmʌnθli/,monthly,audio/en-us/nature/word/monthly.mp3,we have a monthly meeting,audio/en-us/nature/sentence/we-have-a-monthly-meeting.mp3,en-US
+C02-S03-020,leap year,/ˈliːp jɪə/,leap year,audio/en-us/nature/word/leap-year.mp3,a leap year has 366 days,audio/en-us/nature/sentence/a-leap-year-has-366-days.mp3,en-US
+C02-S03-021,common year,/ˈkɒmən jɪə/,common year,audio/en-us/nature/word/common-year.mp3,a common year has 365 days,audio/en-us/nature/sentence/a-common-year-has-365-days.mp3,en-US
+C02-S03-022,calendar year,/ˈkælɪndə jɪə/,calendar year,audio/en-us/nature/word/calendar-year.mp3,a calendar year starts in january,audio/en-us/nature/sentence/a-calendar-year-starts-in-january.mp3,en-US
+C02-S03-023,New Year's Day,/ˌnjuː jɪəz ˈdeɪ/,new year's day,audio/en-us/nature/word/new-year-s-day.mp3,new year's day is on the first of january,audio/en-us/nature/sentence/new-year-s-day-is-on-the-first-of-january.mp3,en-US
+C02-S03-024,New Year's Eve,/ˌnjuː jɪəz ˈiːv/,new year's eve,audio/en-us/nature/word/new-year-s-eve.mp3,we stay up late on new year's eve,audio/en-us/nature/sentence/we-stay-up-late-on-new-year-s-eve.mp3,en-US
+C02-S03-025,at the beginning of the month,/ət ðə bɪˈɡɪnɪŋ əv ðə mʌnθ/,at the beginning of the month,audio/en-us/nature/word/at-the-beginning-of-the-month.mp3,i get my timetable at the beginning of the month,audio/en-us/nature/sentence/i-get-my-timetable-at-the-beginning-of-the-month.mp3,en-US
+C02-S03-026,at the end of the month,/ət ði end əv ðə mʌnθ/,at the end of the month,audio/en-us/nature/word/at-the-end-of-the-month.mp3,we pay the bill at the end of the month,audio/en-us/nature/sentence/we-pay-the-bill-at-the-end-of-the-month.mp3,en-US
+C02-S03-027,Which month comes after May?,/wɪtʃ mʌnθ kʌmz ˈɑːftə meɪ/,which month comes after may,audio/en-us/nature/word/which-month-comes-after-may.mp3,which month comes after may june,audio/en-us/nature/sentence/which-month-comes-after-may-june.mp3,en-US
+C02-S03-028,My birthday is in June.,/maɪ ˈbɜːθdeɪ ɪz ɪn dʒuːn/,my birthday is in june,audio/en-us/nature/sentence/my-birthday-is-in-june.mp3,my birthday is in june,audio/en-us/nature/sentence/my-birthday-is-in-june.mp3,en-US
+C02-S03-029,season,/ˈsiːzən/,season,audio/en-us/nature/word/season.mp3,what is your favourite season,audio/en-us/nature/sentence/what-is-your-favourite-season.mp3,en-US
+C02-S03-030,spring,/sprɪŋ/,spring,audio/en-us/nature/word/spring.mp3,flowers grow in spring,audio/en-us/nature/sentence/flowers-grow-in-spring.mp3,en-US
+C02-S03-031,summer,/ˈsʌmə/,summer,audio/en-us/nature/word/summer.mp3,we swim in summer,audio/en-us/nature/sentence/we-swim-in-summer.mp3,en-US
+C02-S03-032,autumn,/ˈɔːtəm/,autumn,audio/en-us/nature/word/autumn.mp3,leaves turn brown in autumn,audio/en-us/nature/sentence/leaves-turn-brown-in-autumn.mp3,en-US
+C02-S03-033,winter,/ˈwɪntə/,winter,audio/en-us/nature/word/winter.mp3,it can snow in winter,audio/en-us/nature/sentence/it-can-snow-in-winter.mp3,en-US
+C02-S03-034,springtime,/ˈsprɪŋtaɪm/,springtime,audio/en-us/nature/word/springtime.mp3,the garden is beautiful in springtime,audio/en-us/nature/sentence/the-garden-is-beautiful-in-springtime.mp3,en-US
+C02-S03-035,summertime,/ˈsʌmətaɪm/,summertime,audio/en-us/nature/word/summertime.mp3,we spend more time outside in summertime,audio/en-us/nature/sentence/we-spend-more-time-outside-in-summertime.mp3,en-US
+C02-S03-036,seasonal,/ˈsiːzənəl/,seasonal,audio/en-us/nature/word/seasonal.mp3,these are seasonal flowers,audio/en-us/nature/sentence/these-are-seasonal-flowers.mp3,en-US
+C02-S03-037,spring flowers,/sprɪŋ ˈflaʊəz/,spring flowers,audio/en-us/nature/word/spring-flowers.mp3,spring flowers grow in the garden,audio/en-us/nature/sentence/spring-flowers-grow-in-the-garden.mp3,en-US
+C02-S03-038,blossom,/ˈblɒsəm/,blossom,audio/en-us/nature/word/blossom.mp3,the trees blossom in spring,audio/en-us/nature/sentence/the-trees-blossom-in-spring.mp3,en-US
+C02-S03-039,bloom,/bluːm/,bloom,audio/en-us/nature/word/bloom.mp3,the roses bloom in may,audio/en-us/nature/sentence/the-roses-bloom-in-may.mp3,en-US
+C02-S03-040,new leaves,/njuː liːvz/,new leaves,audio/en-us/nature/word/new-leaves.mp3,new leaves appear in spring,audio/en-us/nature/sentence/new-leaves-appear-in-spring.mp3,en-US
+C02-S03-041,summer holiday,/ˈsʌmə ˌhɒlədeɪ/,summer holiday,audio/en-us/nature/word/summer-holiday.mp3,we visit the seaside in the summer holiday,audio/en-us/nature/sentence/we-visit-the-seaside-in-the-summer-holiday.mp3,en-US
+C02-S03-042,go swimming,/ɡəʊ ˈswɪmɪŋ/,go swimming,audio/en-us/nature/word/go-swimming.mp3,we go swimming in summer,audio/en-us/nature/sentence/we-go-swimming-in-summer.mp3,en-US
+C02-S03-043,have a picnic,/hæv ə ˈpɪknɪk/,have a picnic,audio/en-us/nature/word/have-a-picnic.mp3,we have a picnic in spring,audio/en-us/nature/sentence/we-have-a-picnic-in-spring.mp3,en-US
+C02-S03-044,autumn leaves,/ˈɔːtəm liːvz/,autumn leaves,audio/en-us/nature/word/autumn-leaves.mp3,autumn leaves are red and gold,audio/en-us/nature/sentence/autumn-leaves-are-red-and-gold.mp3,en-US
+C02-S03-045,fall,/fɔːl/,fall,audio/en-us/nature/word/fall.mp3,leaves fall from the trees in autumn,audio/en-us/nature/sentence/leaves-fall-from-the-trees-in-autumn.mp3,en-US
+C02-S03-046,harvest,/ˈhɑːvɪst/,harvest,audio/en-us/nature/word/harvest.mp3,farmers harvest apples in autumn,audio/en-us/nature/sentence/farmers-harvest-apples-in-autumn.mp3,en-US
+C02-S03-047,winter coat,/ˈwɪntə kəʊt/,winter coat,audio/en-us/nature/word/winter-coat.mp3,wear your winter coat when it is cold,audio/en-us/nature/sentence/wear-your-winter-coat-when-it-is-cold.mp3,en-US
+C02-S03-048,snowman,/ˈsnəʊmæn/,snowman,audio/en-us/nature/word/snowman.mp3,the children make a snowman in winter,audio/en-us/nature/sentence/the-children-make-a-snowman-in-winter.mp3,en-US
+C02-S03-049,snowball,/ˈsnəʊbɔːl/,snowball,audio/en-us/nature/word/snowball.mp3,he throws a snowball,audio/en-us/nature/sentence/he-throws-a-snowball.mp3,en-US
+C02-S03-050,hibernate,/ˈhaɪbəneɪt/,hibernate,audio/en-us/nature/word/hibernate.mp3,some animals hibernate in winter,audio/en-us/nature/sentence/some-animals-hibernate-in-winter.mp3,en-US
+C02-S03-051,grow,/ɡrəʊ/,grow,audio/en-us/nature/word/grow.mp3,plants grow quickly in spring,audio/en-us/nature/sentence/plants-grow-quickly-in-spring.mp3,en-US
+C02-S03-052,days get longer,/deɪz ɡet ˈlɒŋɡə/,days get longer,audio/en-us/nature/word/days-get-longer.mp3,days get longer in spring,audio/en-us/nature/sentence/days-get-longer-in-spring.mp3,en-US
+C02-S03-053,days get shorter,/deɪz ɡet ˈʃɔːtə/,days get shorter,audio/en-us/nature/word/days-get-shorter.mp3,days get shorter in autumn,audio/en-us/nature/sentence/days-get-shorter-in-autumn.mp3,en-US
+C02-S03-054,leaves change colour,/liːvz tʃeɪndʒ ˈkʌlə/,leaves change colour,audio/en-us/nature/word/leaves-change-colour.mp3,leaves change colour in autumn,audio/en-us/nature/sentence/leaves-change-colour-in-autumn.mp3,en-US
+C02-S03-055,Which season do you like?,/wɪtʃ ˈsiːzən də juː laɪk/,which season do you like,audio/en-us/nature/word/which-season-do-you-like.mp3,which season do you like best,audio/en-us/nature/sentence/which-season-do-you-like-best.mp3,en-US
+C02-S03-056,My favourite season is spring.,/maɪ ˈfeɪvərɪt ˈsiːzən ɪz sprɪŋ/,my favourite season is spring,audio/en-us/nature/word/my-favourite-season-is-spring.mp3,my favourite season is spring,audio/en-us/nature/word/my-favourite-season-is-spring.mp3,en-US
+C02-S04-001,weather,/ˈweðə/,weather,audio/en-us/nature/word/weather.mp3,what is the weather like today,audio/en-us/nature/sentence/what-is-the-weather-like-today.mp3,en-US
+C02-S04-002,climate,/ˈklaɪmət/,climate,audio/en-us/nature/word/climate.mp3,the climate here is warm,audio/en-us/nature/sentence/the-climate-here-is-warm.mp3,en-US
+C02-S04-003,forecast,/ˈfɔːkɑːst/,forecast,audio/en-us/nature/word/forecast.mp3,listen to the weather forecast,audio/en-us/nature/sentence/listen-to-the-weather-forecast.mp3,en-US
+C02-S04-004,weather forecast,/ˈweðə ˌfɔːkɑːst/,weather forecast,audio/en-us/nature/word/weather-forecast.mp3,the weather forecast says it will rain,audio/en-us/nature/sentence/the-weather-forecast-says-it-will-rain.mp3,en-US
+C02-S04-005,sunny,/ˈsʌni/,sunny,audio/en-us/nature/word/sunny.mp3,it is sunny today,audio/en-us/nature/sentence/it-is-sunny-today.mp3,en-US
+C02-S04-006,cloudy,/ˈklaʊdi/,cloudy,audio/en-us/nature/word/cloudy.mp3,the sky is cloudy,audio/en-us/nature/sentence/the-sky-is-cloudy.mp3,en-US
+C02-S04-007,rainy,/ˈreɪni/,rainy,audio/en-us/nature/word/rainy.mp3,it is a rainy day,audio/en-us/nature/sentence/it-is-a-rainy-day.mp3,en-US
+C02-S04-008,windy,/ˈwɪndi/,windy,audio/en-us/nature/word/windy.mp3,it is windy outside,audio/en-us/nature/sentence/it-is-windy-outside.mp3,en-US
+C02-S04-009,snowy,/ˈsnəʊi/,snowy,audio/en-us/nature/word/snowy.mp3,it is snowy in the mountains,audio/en-us/nature/sentence/it-is-snowy-in-the-mountains.mp3,en-US
+C02-S04-010,foggy,/ˈfɒɡi/,foggy,audio/en-us/nature/word/foggy.mp3,it is foggy this morning,audio/en-us/nature/sentence/it-is-foggy-this-morning.mp3,en-US
+C02-S04-011,stormy,/ˈstɔːmi/,stormy,audio/en-us/nature/word/stormy.mp3,the sea is stormy,audio/en-us/nature/sentence/the-sea-is-stormy.mp3,en-US
+C02-S04-012,icy,/ˈaɪsi/,icy,audio/en-us/nature/word/icy.mp3,the road is icy,audio/en-us/nature/sentence/the-road-is-icy.mp3,en-US
+C02-S04-013,wet,/wet/,wet,audio/en-us/nature/word/wet.mp3,my shoes are wet,audio/en-us/nature/sentence/my-shoes-are-wet.mp3,en-US
+C02-S04-014,dry,/draɪ/,dry,audio/en-us/nature/word/dry.mp3,the ground is dry,audio/en-us/nature/sentence/the-ground-is-dry.mp3,en-US
+C02-S04-015,hot,/hɒt/,hot,audio/en-us/word/hot.mp3,it is hot in july,audio/en-us/nature/sentence/it-is-hot-in-july.mp3,en-US
+C02-S04-016,warm,/wɔːm/,warm,audio/en-us/nature/word/warm.mp3,the weather is warm today,audio/en-us/nature/sentence/the-weather-is-warm-today.mp3,en-US
+C02-S04-017,cool,/kuːl/,cool,audio/en-us/nature/word/cool.mp3,it is cool in the evening,audio/en-us/nature/sentence/it-is-cool-in-the-evening.mp3,en-US
+C02-S04-018,cold,/kəʊld/,cold,audio/en-us/nature/word/cold.mp3,it is cold in winter,audio/en-us/nature/sentence/it-is-cold-in-winter.mp3,en-US
+C02-S04-019,freezing,/ˈfriːzɪŋ/,freezing,audio/en-us/nature/word/freezing.mp3,it is freezing outside,audio/en-us/nature/sentence/it-is-freezing-outside.mp3,en-US
+C02-S04-020,mild,/maɪld/,mild,audio/en-us/nature/word/mild.mp3,we have a mild winter,audio/en-us/nature/sentence/we-have-a-mild-winter.mp3,en-US
+C02-S04-021,humid,/ˈhjuːmɪd/,humid,audio/en-us/nature/word/humid.mp3,the air is humid today,audio/en-us/nature/sentence/the-air-is-humid-today.mp3,en-US
+C02-S04-022,temperature,/ˈtemprətʃə/,temperature,audio/en-us/nature/word/temperature.mp3,the temperature is ten degrees,audio/en-us/nature/sentence/the-temperature-is-ten-degrees.mp3,en-US
+C02-S04-023,degree,/dɪˈɡriː/,degree,audio/en-us/nature/word/degree.mp3,it is twenty degrees today,audio/en-us/nature/sentence/it-is-twenty-degrees-today.mp3,en-US
+C02-S04-024,rain,/reɪn/,rain,audio/en-us/nature/word/rain.mp3,the rain is heavy,audio/en-us/nature/sentence/the-rain-is-heavy.mp3,en-US
+C02-S04-025,drizzle,/ˈdrɪzəl/,drizzle,audio/en-us/nature/word/drizzle.mp3,there is a little drizzle,audio/en-us/nature/sentence/there-is-a-little-drizzle.mp3,en-US
+C02-S04-026,shower,/ˈʃaʊə/,shower,audio/en-us/nature/word/shower.mp3,a shower may come this afternoon,audio/en-us/nature/sentence/a-shower-may-come-this-afternoon.mp3,en-US
+C02-S04-027,downpour,/ˈdaʊnpɔː/,downpour,audio/en-us/nature/word/downpour.mp3,we waited inside during the downpour,audio/en-us/nature/sentence/we-waited-inside-during-the-downpour.mp3,en-US
+C02-S04-028,snow,/snəʊ/,snow,audio/en-us/nature/word/snow.mp3,snow covers the roof,audio/en-us/nature/sentence/snow-covers-the-roof.mp3,en-US
+C02-S04-029,sleet,/sliːt/,sleet,audio/en-us/nature/word/sleet.mp3,sleet fell overnight,audio/en-us/nature/sentence/sleet-fell-overnight.mp3,en-US
+C02-S04-030,hail,/heɪl/,hail,audio/en-us/nature/word/hail.mp3,hail hit the window,audio/en-us/nature/sentence/hail-hit-the-window.mp3,en-US
+C02-S04-031,wind,/wɪnd/,wind,audio/en-us/nature/word/wind.mp3,the wind is strong,audio/en-us/nature/sentence/the-wind-is-strong.mp3,en-US
+C02-S04-032,breeze,/briːz/,breeze,audio/en-us/nature/word/breeze.mp3,a cool breeze is blowing,audio/en-us/nature/sentence/a-cool-breeze-is-blowing.mp3,en-US
+C02-S04-033,cloud,/klaʊd/,cloud,audio/en-us/nature/word/cloud.mp3,a white cloud is in the sky,audio/en-us/nature/sentence/a-white-cloud-is-in-the-sky.mp3,en-US
+C02-S04-034,fog,/fɒɡ/,fog,audio/en-us/nature/word/fog.mp3,the fog is thick,audio/en-us/nature/sentence/the-fog-is-thick.mp3,en-US
+C02-S04-035,mist,/mɪst/,mist,audio/en-us/nature/word/mist.mp3,a light mist covers the hills,audio/en-us/nature/sentence/a-light-mist-covers-the-hills.mp3,en-US
+C02-S04-036,storm,/stɔːm/,storm,audio/en-us/nature/word/storm.mp3,the storm is getting closer,audio/en-us/nature/sentence/the-storm-is-getting-closer.mp3,en-US
+C02-S04-037,thunder,/ˈθʌndə/,thunder,audio/en-us/nature/word/thunder.mp3,i heard thunder,audio/en-us/nature/sentence/i-heard-thunder.mp3,en-US
+C02-S04-038,lightning,/ˈlaɪtnɪŋ/,lightning,audio/en-us/nature/word/lightning.mp3,lightning lit up the sky,audio/en-us/nature/sentence/lightning-lit-up-the-sky.mp3,en-US
+C02-S04-039,rainbow,/ˈreɪnbəʊ/,rainbow,audio/en-us/nature/word/rainbow.mp3,a rainbow appeared after the rain,audio/en-us/nature/sentence/a-rainbow-appeared-after-the-rain.mp3,en-US
+C02-S04-040,sunshine,/ˈsʌnʃaɪn/,sunshine,audio/en-us/nature/word/sunshine.mp3,the plants need sunshine,audio/en-us/nature/sentence/the-plants-need-sunshine.mp3,en-US
+C02-S04-041,umbrella,/ʌmˈbrelə/,umbrella,audio/en-us/nature/word/umbrella.mp3,take an umbrella with you,audio/en-us/nature/sentence/take-an-umbrella-with-you.mp3,en-US
+C02-S04-042,raincoat,/ˈreɪnkəʊt/,raincoat,audio/en-us/nature/word/raincoat.mp3,wear your raincoat in the rain,audio/en-us/nature/sentence/wear-your-raincoat-in-the-rain.mp3,en-US
+C02-S04-043,rain boots,/ˈreɪn buːts/,rain boots,audio/en-us/nature/word/rain-boots.mp3,my rain boots keep my feet dry,audio/en-us/nature/sentence/my-rain-boots-keep-my-feet-dry.mp3,en-US
+C02-S04-044,heavy rain,/ˌhevi ˈreɪn/,heavy rain,audio/en-us/nature/word/heavy-rain.mp3,heavy rain is expected tonight,audio/en-us/nature/sentence/heavy-rain-is-expected-tonight.mp3,en-US
+C02-S04-045,light rain,/ˌlaɪt ˈreɪn/,light rain,audio/en-us/nature/word/light-rain.mp3,there will be light rain this morning,audio/en-us/nature/sentence/there-will-be-light-rain-this-morning.mp3,en-US
+C02-S04-046,strong wind,/ˌstrɒŋ ˈwɪnd/,strong wind,audio/en-us/nature/word/strong-wind.mp3,strong wind moved the branches,audio/en-us/nature/sentence/strong-wind-moved-the-branches.mp3,en-US
+C02-S04-047,It's raining.,/ɪts ˈreɪnɪŋ/,it's raining,audio/en-us/nature/word/it-s-raining.mp3,it's raining so take an umbrella,audio/en-us/nature/sentence/it-s-raining-so-take-an-umbrella.mp3,en-US
+C02-S04-048,It's snowing.,/ɪts ˈsnəʊɪŋ/,it's snowing,audio/en-us/nature/word/it-s-snowing.mp3,it's snowing outside,audio/en-us/nature/sentence/it-s-snowing-outside.mp3,en-US
+C02-S04-049,What's the weather like?,/wɒts ðə ˈweðə laɪk/,what's the weather like,audio/en-us/nature/word/what-s-the-weather-like.mp3,what's the weather like today,audio/en-us/nature/sentence/what-s-the-weather-like-today.mp3,en-US
+C02-S04-050,It's sunny today.,/ɪts ˈsʌni təˈdeɪ/,it's sunny today,audio/en-us/nature/word/it-s-sunny-today.mp3,it's sunny today let's go outside,audio/en-us/nature/sentence/it-s-sunny-today-let-s-go-outside.mp3,en-US
+C02-S04-051,It might rain.,/ɪt maɪt reɪn/,it might rain,audio/en-us/nature/word/it-might-rain.mp3,take your umbrella it might rain,audio/en-us/nature/sentence/take-your-umbrella-it-might-rain.mp3,en-US

@@ -41,7 +41,7 @@ with sync_playwright() as p:
    assert stored['wordStatus']['C01-S01-001']=='mastered' and stored['notes'][0]['body']=='需要保留的记录'
    assert stored['practiceResume']['answered'] is True
    assert stored['settings']['grade']=='四年级'
-   assert exported.evaluate('Object.keys(FROG_SCENE_IMAGES).length')==18
+   assert exported.evaluate('Object.keys(FROG_SCENE_IMAGES).length')==32
    assert exported.locator('.startup-screen').is_hidden()
    isolated.set_offline(True)
    exported.goto(f'http://127.0.0.1:{server.server_port}/#records')
@@ -66,7 +66,7 @@ with sync_playwright() as p:
    art=exported.locator('.translation-picture img').get_attribute('src')
    assert art.startswith('data:image/png;base64,')
    assert hashlib.sha256(base64.b64decode(art.split(',',1)[1])).digest()==hashlib.sha256((Path(__file__).resolve().parents[1]/'assets/scenes/see-you-tomorrow.png').read_bytes()).digest()
-   assert exported.evaluate('FROG_MEANING_LIBRARY.entries.length')==136
+   assert exported.evaluate('FROG_MEANING_LIBRARY.entries.length')==356
    exported.evaluate("window.meaningClosed=false;document.querySelector('#lesson-dialog').addEventListener('close',()=>window.meaningClosed=true,{once:true})")
    exported.locator('.practice-back').click();exported.wait_for_function('meaningClosed')
    exported.goto(f'http://127.0.0.1:{server.server_port}/#words/C01/C01-S02')
@@ -80,6 +80,14 @@ with sync_playwright() as p:
    assert '中文通常不单独翻译' in exported.locator('.word-context-meaning').inner_text()
    assert exported.locator('.word-context-meaning .meaning-dictionary').inner_text()=='词义：一些；任何（依语境）'
    assert exported.locator('.word-example-prompt [data-meaning-target]').count()==0
+   exported.evaluate("window.packClosed=false;document.querySelector('#lesson-dialog').addEventListener('close',()=>packClosed=true,{once:true})")
+   exported.locator('.practice-back').click();exported.wait_for_function('packClosed')
+   exported.goto(f'http://127.0.0.1:{server.server_port}/#words/C02/C02-S01')
+   exported.locator('.translation-blank').first.wait_for()
+   exported.wait_for_function('document.querySelector(".translation-picture img")?.naturalWidth>0')
+   assert exported.locator('.translation-picture img').get_attribute('src').startswith('data:image/webp;base64,')
+   exported.locator('.translation-blank').fill('time');exported.locator('#translation-submit').click()
+   exported.wait_for_function('document.querySelector("#question-audio").dataset.audioKey==="time"&&document.querySelector("#question-audio").currentTime>0')
    assert not errors,errors
    print('PASS: home menu exports one HTML with the new hero, saved name/notes/progress and MP3 playback without original assets',flush=True)
   finally:

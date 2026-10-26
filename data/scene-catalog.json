@@ -1,5 +1,5 @@
 {
-  "version": "scenes-v26",
+  "version": "scenes-v30",
   "characterReference": "assets/home-hero.png",
   "sheets": [
     {
@@ -163,6 +163,188 @@
       "width": 1254,
       "height": 1254,
       "sha256": "2687c0b8ad243269a8ebe3382296378d14673ded5a1d8654a1025e336980bb50"
+    },
+    {
+      "path": "assets/scenes/nature-time-01.webp",
+      "columns": 4,
+      "rows": 2,
+      "width": 1774,
+      "height": 887,
+      "sha256": "d7d1544b4f6e5c66b351eafbed44ac9e04df595eb1453567c7909d9c5d2b1d3c",
+      "sourcePng": "exec-4704ccc1-ac9a-4dc0-a2cd-012be9c9b0b0.png",
+      "sourceSha256": "0265a56fa4a132f2bf3ea0d4aec0243271b4d086e566c8ec6c4de082c44fc1fa",
+      "rgbaSha256": "741c70b451d580b25e5b89470b29b8d112c1cb9875ada8b13fb95adb996bde00",
+      "encoding": "lossless WebP; decoded RGBA identical to generated PNG",
+      "prompt": "Create a NEW educational illustration atlas for an existing English learning website, matching the attached homepage characters and the second attached illustration atlas. Keep the same cute polished 3D cartoon boy (brown wavy hair, large warm eyes, BLUE hoodie) and girl (long wavy brown hair, large warm eyes, PINK hoodie), with anatomically natural bodies and hands. Use only one child unless the scene logically requires companions, teacher or parent. No graduation hats. The result must be ONE landscape image, exactly a uniform 4 columns x 2 rows grid of EIGHT distinct square illustrations, no margins, no gutters, no frames; each scene fully contained in its own equal cell with no crossing the boundaries. Soft clean pastel surroundings, warm gentle lighting, smooth low-texture surfaces, simple uncluttered backgrounds; prioritize faces, central actions and educational objects rather than dense scenery. No written English, no Chinese, no captions, no watermarks, no panel labels. Any requested blank board must remain blank with no marks because the website adds exact teaching diagrams. Read cells strictly in row-major order left to right, top row then bottom row. Keep image composition consistent with existing examples. Scene list:\nCell 1: Boy on the LEFT of a large completely blank cream teaching board on the RIGHT, learning to read an analog clock in a bright classroom. Leave right 70% of the panel clear board space for a precise clock overlay.\nCell 2: Girl noticing a round wall clock above a cozy living-room shelf; show the clock clearly, with naturally connected shoulders and hands.\nCell 3: Boy looking closely at a new wristwatch on his own wrist; a clear warm close-up with his full happy face.\nCell 4: Girl and teacher learning hours and minutes with a large blank teaching board and small hourglass; board occupies right 70%.\nCell 5: Girl politely waiting beside a small kitchen timer, quiet patient posture and her parent preparing something in the background.\nCell 6: Boy holding a stopwatch during a simple classroom timing activity, clear stopwatch body but no letters or labels.\nCell 7: Girl eating lunch at a sunny table around midday; overhead sunlight and a plate of healthy lunch.\nCell 8: Boy in a park looking up at a high midday sun, safe eyes not staring directly at sun, very short shadow."
+    },
+    {
+      "path": "assets/scenes/nature-time-02.webp",
+      "columns": 4,
+      "rows": 2,
+      "width": 1774,
+      "height": 887,
+      "sha256": "75bc41c6e1feb61e12236808fb1c0c33f261a92ef74722655a642e999bbf0259",
+      "sourcePng": "exec-83428794-97e0-4dc0-b10b-46b6f1c0cbd6.png",
+      "sourceSha256": "343c6555c57a3555cdcae48eac1f5db317c8284c0a8d2c17e60aee946b0b228e",
+      "rgbaSha256": "5062674ef246f9faa2251de5250b29c6ac484eba268e9fe28d88823bebba7e9f",
+      "encoding": "lossless WebP; decoded RGBA identical to generated PNG",
+      "prompt": "Create a NEW educational illustration atlas for an existing English learning website, matching the attached homepage characters and the second attached illustration atlas. Keep the same cute polished 3D cartoon boy (brown wavy hair, large warm eyes, BLUE hoodie) and girl (long wavy brown hair, large warm eyes, PINK hoodie), with anatomically natural bodies and hands. Use only one child unless the scene logically requires companions, teacher or parent. No graduation hats. The result must be ONE landscape image, exactly a uniform 4 columns x 2 rows grid of EIGHT distinct square illustrations, no margins, no gutters, no frames; each scene fully contained in its own equal cell with no crossing the boundaries. Soft clean pastel surroundings, warm gentle lighting, smooth low-texture surfaces, simple uncluttered backgrounds; prioritize faces, central actions and educational objects rather than dense scenery. No written English, no Chinese, no captions, no watermarks, no panel labels. Any requested blank board must remain blank with no marks because the website adds exact teaching diagrams. Read cells strictly in row-major order left to right, top row then bottom row. Keep image composition consistent with existing examples. Scene list:\nCell 1: Mother and child leaving a cinema late at night, moon above, gentle exterior lights, no visible signage or words.\nCell 2: Girl reading a book in soft morning sunlight by a bedroom window, early light, relaxed posture.\nCell 3: Boy playing with a ball outside with a friend in warm afternoon sunlight, natural limbs.\nCell 4: Girl doing homework at a desk in the evening, warm lamp and dusky window, no legible book text.\nCell 5: Boy looking at sparkling night stars through a telescope with a parent, warm friendly night scene.\nCell 6: Small colorful birds singing on branches at dawn, pink first light on horizon, peaceful garden.\nCell 7: Boy watching the sunrise with his parent on a grassy hill, sun just above horizon, natural silhouettes.\nCell 8: Girl enjoying an orange sunset sky in a quiet park, warm clouds, sun low on horizon."
+    },
+    {
+      "path": "assets/scenes/nature-time-03.webp",
+      "columns": 4,
+      "rows": 2,
+      "width": 1774,
+      "height": 887,
+      "sha256": "d1d7fbf4237e7421abd766c5b5e4fb27a3680f0337c76922dbd420cb2ae255ed",
+      "sourcePng": "exec-87e5ffb7-1e3e-484f-ab75-517e510e9be4.png",
+      "sourceSha256": "aa5c257591c6b727a1c3c94d0723e197f99c1ad7e4ca82df56b49e72682ff56d",
+      "rgbaSha256": "6ff37c30a4d3e1f902b5325b93e0f9dd3034c41a03a166ef78e8a5626c84e471",
+      "encoding": "lossless WebP; decoded RGBA identical to generated PNG",
+      "prompt": "Create a NEW educational illustration atlas for an existing English learning website, matching the attached homepage characters and the second attached illustration atlas. Keep the same cute polished 3D cartoon boy (brown wavy hair, large warm eyes, BLUE hoodie) and girl (long wavy brown hair, large warm eyes, PINK hoodie), with anatomically natural bodies and hands. Use only one child unless the scene logically requires companions, teacher or parent. No graduation hats. The result must be ONE landscape image, exactly a uniform 4 columns x 2 rows grid of EIGHT distinct square illustrations, no margins, no gutters, no frames; each scene fully contained in its own equal cell with no crossing the boundaries. Soft clean pastel surroundings, warm gentle lighting, smooth low-texture surfaces, simple uncluttered backgrounds; prioritize faces, central actions and educational objects rather than dense scenery. No written English, no Chinese, no captions, no watermarks, no panel labels. Any requested blank board must remain blank with no marks because the website adds exact teaching diagrams. Read cells strictly in row-major order left to right, top row then bottom row. Keep image composition consistent with existing examples. Scene list:\nCell 1: Girl on the LEFT beside a large completely blank cream calendar teaching board on the RIGHT in a bright classroom; board occupies right 70%, no numbers or letters.\nCell 2: Boy busily writing at his desk right now, books and pencil with no legible words, focused but friendly.\nCell 3: Girl at home with a telephone in hand, preparing to call a friend later, cozy room, natural hands.\nCell 4: Boy waiting safely at a bus stop as a friendly bus approaches in the distance, no writing on bus or signs.\nCell 5: Boy getting up early from bed with morning light and small alarm clock, slippers on floor, natural body.\nCell 6: Boy arriving late at a school gate with a backpack while a kind teacher waits, concerned expression and visible wall clock.\nCell 7: Boy washing his hands at a sink before lunch, lunch table visible nearby, clean and safe.\nCell 8: Girl in a pink hoodie playing outside just after school, school building in background and bag set safely nearby."
+    },
+    {
+      "path": "assets/scenes/nature-time-04.webp",
+      "columns": 4,
+      "rows": 2,
+      "width": 1774,
+      "height": 887,
+      "sha256": "8f096b90b2d2d86cfe8452c621cb0e9bbaa2b45640c39e0842a0a86efc4f2f1c",
+      "sourcePng": "exec-d1de49fb-fc96-4349-8311-8bdd4c3f6249.png",
+      "sourceSha256": "c741600ea1a1ab8894cbef65057c287cba8eeb6b02a555c9d09d8024e7dc51ac",
+      "rgbaSha256": "ba54131245563467d399802a1f00a87e99d9a3a759a673514d9a1f616e1b3ee0",
+      "encoding": "lossless WebP; decoded RGBA identical to generated PNG",
+      "prompt": "Create a NEW educational illustration atlas for an existing English learning website, matching the attached homepage characters and the second attached illustration atlas. Keep the same cute polished 3D cartoon boy (brown wavy hair, large warm eyes, BLUE hoodie) and girl (long wavy brown hair, large warm eyes, PINK hoodie), with anatomically natural bodies and hands. Use only one child unless the scene logically requires companions, teacher or parent. No graduation hats. The result must be ONE landscape image, exactly a uniform 4 columns x 2 rows grid of EIGHT distinct square illustrations, no margins, no gutters, no frames; each scene fully contained in its own equal cell with no crossing the boundaries. Soft clean pastel surroundings, warm gentle lighting, smooth low-texture surfaces, simple uncluttered backgrounds; prioritize faces, central actions and educational objects rather than dense scenery. No written English, no Chinese, no captions, no watermarks, no panel labels. Any requested blank board must remain blank with no marks because the website adds exact teaching diagrams. Read cells strictly in row-major order left to right, top row then bottom row. Keep image composition consistent with existing examples. Scene list:\nCell 1: Girl organizing a daily routine with picture cards on a large blank board, no letters; board occupies right 70%.\nCell 2: Boy visiting his smiling grandmother at her cozy front door, warm loving greeting, one adult and one child.\nCell 3: Boy brushing his teeth at a bathroom sink, toothpaste foam modest, neat toothbrush and mirror, correct hand anatomy.\nCell 4: Boy packing his backpack at home at night, moon at window, tidy school supplies.\nCell 5: Girl walking to school on a calm sunny morning, safe sidewalk and school in distance, natural stride.\nCell 6: Boy sleeping in bed with shoes placed neatly off the bed, peaceful night, no shoes on his feet.\nCell 7: Girl in pajamas getting ready for bedtime with book and warm bedside lamp, moon outside and small clock.\nCell 8: Boy waking to a small alarm clock at morning bedside, sitting naturally at the edge of bed, safe warm bedroom."
+    },
+    {
+      "path": "assets/scenes/nature-dates-01.webp",
+      "columns": 4,
+      "rows": 2,
+      "width": 1774,
+      "height": 887,
+      "sha256": "a89c4d37bf127293fbcff750a8bf98b8fb5fda0c3b847a6253963dd17bf074a1",
+      "sourcePng": "exec-946938aa-8e3d-4c2b-87c8-71aa5ef065d3.png",
+      "sourceSha256": "7391ffe417dbf08a7e366382add0b25b1f8c7bebd0e992e8c5fdfee6b67e7367",
+      "rgbaSha256": "30ff2ebf65dba411de1fade9509a1f42a38fde8b41e8fcc4228ffc0529ac71bc",
+      "encoding": "lossless WebP; decoded RGBA identical to generated PNG",
+      "prompt": "Create a NEW educational illustration atlas for an existing English learning website, matching the attached homepage characters and the second attached illustration atlas. Keep the same cute polished 3D cartoon boy (brown wavy hair, large warm eyes, BLUE hoodie) and girl (long wavy brown hair, large warm eyes, PINK hoodie), with anatomically natural bodies and hands. Use only one child unless the scene logically requires companions, teacher or parent. No graduation hats. The result must be ONE landscape image, exactly a uniform 4 columns x 2 rows grid of EIGHT distinct square illustrations, no margins, no gutters, no frames; each scene fully contained in its own equal cell with no crossing the boundaries. Soft clean pastel surroundings, warm gentle lighting, smooth low-texture surfaces, simple uncluttered backgrounds; prioritize faces, central actions and educational objects rather than dense scenery. No written English, no Chinese, no captions, no watermarks, no panel labels. Any requested blank board must remain blank with no marks because the website adds exact teaching diagrams. Read cells strictly in row-major order left to right, top row then bottom row. Keep image composition consistent with existing examples. Scene list:\nCell 1: Boy on the LEFT of a large completely blank cream calendar teaching board on the RIGHT, classroom; board occupies right 70% for exact dates to be overlaid, NO numbers or letters.\nCell 2: School children walking to school on a weekday, boy in blue hoodie leading, cheerful school exterior.\nCell 3: Boy playing football in a green park on a relaxed weekend, ball at his feet, normal leg positions.\nCell 4: Girl looking at a blank desktop calendar at a study desk, open space on the calendar, NO text or numbers.\nCell 5: Girl learning in a classroom on a school day, raised right hand, classmates only if needed, normal shoulder connection.\nCell 6: Girl relaxing at home on a day off, reading in an armchair near a small sleeping cat.\nCell 7: Girl celebrating her birthday with a small cake and family, warm festive setting, NO age number or written message.\nCell 8: Boy and parent visiting Grandma during a holiday, welcoming cozy house and flowers."
+    },
+    {
+      "path": "assets/scenes/nature-dates-02.webp",
+      "columns": 4,
+      "rows": 2,
+      "width": 1774,
+      "height": 887,
+      "sha256": "f9844ca8314c54b872a01c6fded84f94082ffa6d42cc9c0af58ae857f7aee8da",
+      "sourcePng": "exec-10133b70-c921-4745-8812-2d6aa03811ac.png",
+      "sourceSha256": "ea3030902c492ef06f50d97f5279408b9a818eb52b677e5b5706706c37139fdb",
+      "rgbaSha256": "aac04628dcafea42e7c02596049c975710f8d995fbd336e88e3e0fab3a05b9e6",
+      "encoding": "lossless WebP; decoded RGBA identical to generated PNG",
+      "prompt": "Create a NEW educational illustration atlas for an existing English learning website, matching the attached homepage characters and the second attached illustration atlas. Keep the same cute polished 3D cartoon boy (brown wavy hair, large warm eyes, BLUE hoodie) and girl (long wavy brown hair, large warm eyes, PINK hoodie), with anatomically natural bodies and hands. Use only one child unless the scene logically requires companions, teacher or parent. No graduation hats. The result must be ONE landscape image, exactly a uniform 4 columns x 2 rows grid of EIGHT distinct square illustrations, no margins, no gutters, no frames; each scene fully contained in its own equal cell with no crossing the boundaries. Soft clean pastel surroundings, warm gentle lighting, smooth low-texture surfaces, simple uncluttered backgrounds; prioritize faces, central actions and educational objects rather than dense scenery. No written English, no Chinese, no captions, no watermarks, no panel labels. Any requested blank board must remain blank with no marks because the website adds exact teaching diagrams. Read cells strictly in row-major order left to right, top row then bottom row. Keep image composition consistent with existing examples. Scene list:\nCell 1: Mother and child outside a closed bank on a public holiday, door visibly shut and a simple lock icon, NO writing.\nCell 2: Boy and his family traveling during a school holiday at a train station, neat bags and relaxed mood, NO text.\nCell 3: Child giving flowers to parents celebrating a wedding anniversary at home, a small heart decoration, warm family scene.\nCell 4: Boy and mother attending a friendly doctor appointment, caring doctor with stethoscope, no readable text.\nCell 5: Girl checking a large blank school timetable board, neat row of picture icons only and NO letters; board on RIGHT 70%.\nCell 6: Girl riding a bicycle safely in a park on a weekend, helmet on, natural connected limbs.\nCell 7: Boy taking a classroom test with a pencil and blank paper, teacher nearby, NO readable writing.\nCell 8: Boy and girl visiting a museum, looking at a dinosaur skeleton exhibit, no written labels."
+    },
+    {
+      "path": "assets/scenes/nature-seasons-01.webp",
+      "columns": 4,
+      "rows": 2,
+      "width": 1774,
+      "height": 887,
+      "sha256": "9c0a48601a39681a713343e79f812b838058ad17d1b9ed89d72c881f2fdaac32",
+      "sourcePng": "exec-9125a7fb-6957-4889-b8be-e64800be44fe.png",
+      "sourceSha256": "812fb5d5bcd862aa08c7c96289c4a1a1b28b2f228e806c81dd5d23189fc07086",
+      "rgbaSha256": "b7e51dd08ec6efe6f2ff61ee1fe4a5728547e3689b3c13978140781a93d75557",
+      "encoding": "lossless WebP; decoded RGBA identical to generated PNG",
+      "prompt": "Create a NEW educational illustration atlas for an existing English learning website, matching the attached homepage characters and the second attached illustration atlas. Keep the same cute polished 3D cartoon boy (brown wavy hair, large warm eyes, BLUE hoodie) and girl (long wavy brown hair, large warm eyes, PINK hoodie), with anatomically natural bodies and hands. Use only one child unless the scene logically requires companions, teacher or parent. No graduation hats. The result must be ONE landscape image, exactly a uniform 4 columns x 2 rows grid of EIGHT distinct square illustrations, no margins, no gutters, no frames; each scene fully contained in its own equal cell with no crossing the boundaries. Soft clean pastel surroundings, warm gentle lighting, smooth low-texture surfaces, simple uncluttered backgrounds; prioritize faces, central actions and educational objects rather than dense scenery. No written English, no Chinese, no captions, no watermarks, no panel labels. Any requested blank board must remain blank with no marks because the website adds exact teaching diagrams. Read cells strictly in row-major order left to right, top row then bottom row. Keep image composition consistent with existing examples. Scene list:\nCell 1: Girl on the LEFT beside a large completely blank cream calendar and seasons teaching board on the RIGHT; bright classroom; board fills right 70% for accurate calendar overlays, NO letters or numerals.\nCell 2: Family having a monthly meeting around a table with a blank calendar, boy showing planning cards, no writing.\nCell 3: Boy on a school trip with classmates and a teacher, looking at nature in a pleasant park.\nCell 4: Girl visiting a library and choosing books with a librarian, cozy shelves, no visible titles.\nCell 5: Father paying household bills at a table near month-end, child watching a plain calendar, no financial numbers or writing.\nCell 6: Boy and girl enjoying New Year fireworks from a safe home window, warm celebration and confetti, no written greeting.\nCell 7: Girl in a pink hoodie in a colorful spring flower garden, blooming small flowers and fresh green grass.\nCell 8: Boy swimming safely in a shallow supervised pool in summer, lifeguard or parent nearby, no hazard."
+    },
+    {
+      "path": "assets/scenes/nature-seasons-02.webp",
+      "columns": 4,
+      "rows": 2,
+      "width": 1774,
+      "height": 887,
+      "sha256": "7703ad22f7676c4bc2be2d71c63c02262b881198322cc364f8ee4b462ace3215",
+      "sourcePng": "exec-4f1f3290-5cc3-405c-8e8d-5398ada7cc93.png",
+      "sourceSha256": "8cda5d427b5f29e69e4d10d45793920c4b3dd15650a6ccccd4a3bc3a342f0ae0",
+      "rgbaSha256": "5841b5df90a4fdca9d7992637333b65636dbf7c45d5d44716a85df2776aa6399",
+      "encoding": "lossless WebP; decoded RGBA identical to generated PNG",
+      "prompt": "Create a NEW educational illustration atlas for an existing English learning website, matching the attached homepage characters and the second attached illustration atlas. Keep the same cute polished 3D cartoon boy (brown wavy hair, large warm eyes, BLUE hoodie) and girl (long wavy brown hair, large warm eyes, PINK hoodie), with anatomically natural bodies and hands. Use only one child unless the scene logically requires companions, teacher or parent. No graduation hats. The result must be ONE landscape image, exactly a uniform 4 columns x 2 rows grid of EIGHT distinct square illustrations, no margins, no gutters, no frames; each scene fully contained in its own equal cell with no crossing the boundaries. Soft clean pastel surroundings, warm gentle lighting, smooth low-texture surfaces, simple uncluttered backgrounds; prioritize faces, central actions and educational objects rather than dense scenery. No written English, no Chinese, no captions, no watermarks, no panel labels. Any requested blank board must remain blank with no marks because the website adds exact teaching diagrams. Read cells strictly in row-major order left to right, top row then bottom row. Keep image composition consistent with existing examples. Scene list:\nCell 1: Girl holding a red and golden autumn leaf under trees with brown and gold foliage, crisp gentle air.\nCell 2: Girl dressed warmly in a winter coat and hat in a snowy garden, friendly winter atmosphere.\nCell 3: Boy admiring a beautiful garden in spring, many fresh blossoms and soft sunlight.\nCell 4: Boy spending summer time playing outdoors in a green park, cheerful sunny weather and ball.\nCell 5: Girl observing blossoming fruit trees in spring, branches full of pale blossoms, no fruit mislabeled.\nCell 6: Girl smelling blooming roses in a May garden, gentle reds and pinks, natural hands.\nCell 7: Boy noticing tiny new green leaves on a young tree in spring, thoughtful close-up.\nCell 8: Family with a girl enjoying the seaside in summer holiday, sandcastle, gentle sea and safe beach."
+    },
+    {
+      "path": "assets/scenes/nature-seasons-03.webp",
+      "columns": 4,
+      "rows": 2,
+      "width": 1774,
+      "height": 887,
+      "sha256": "faa25bd18b9e6470a8b8d7467e7e48c16f9792230f93d852f66344ad85836985",
+      "sourcePng": "exec-f22a614f-a27c-44fd-a4a7-945bbada1d42.png",
+      "sourceSha256": "702960b971c459f53b856ea7bb20161275a6ab949a408911cfcb5a55784a8b7b",
+      "rgbaSha256": "e014899bc62fbe352dc68476274438bb822cc36606be583b5497e2a6358efcfd",
+      "encoding": "lossless WebP; decoded RGBA identical to generated PNG",
+      "prompt": "Create a NEW educational illustration atlas for an existing English learning website, matching the attached homepage characters and the second attached illustration atlas. Keep the same cute polished 3D cartoon boy (brown wavy hair, large warm eyes, BLUE hoodie) and girl (long wavy brown hair, large warm eyes, PINK hoodie), with anatomically natural bodies and hands. Use only one child unless the scene logically requires companions, teacher or parent. No graduation hats. The result must be ONE landscape image, exactly a uniform 4 columns x 2 rows grid of EIGHT distinct square illustrations, no margins, no gutters, no frames; each scene fully contained in its own equal cell with no crossing the boundaries. Soft clean pastel surroundings, warm gentle lighting, smooth low-texture surfaces, simple uncluttered backgrounds; prioritize faces, central actions and educational objects rather than dense scenery. No written English, no Chinese, no captions, no watermarks, no panel labels. Any requested blank board must remain blank with no marks because the website adds exact teaching diagrams. Read cells strictly in row-major order left to right, top row then bottom row. Keep image composition consistent with existing examples. Scene list:\nCell 1: Boy and girl having a picnic with a parent on spring grass, picnic blanket and healthy food.\nCell 2: Boy watching leaves fall naturally from autumn trees, a few leaves visibly drifting downward.\nCell 3: Farmer harvesting ripe apples with a boy helping carry a small basket in an autumn orchard.\nCell 4: Girl putting on a warm winter coat before going outside in cold weather, cozy doorway.\nCell 5: Boy and girl building a friendly snowman in winter with a parent nearby, natural limbs.\nCell 6: Boy throwing a small snowball toward an empty patch of snow, playful safe scene, nobody being hit.\nCell 7: Friendly hedgehog sleeping curled inside a cozy underground nest while snow lies above, clear hibernation cutaway.\nCell 8: Girl watching a small plant grow in spring, several seedlings and a pot, gentle educational garden scene."
+    },
+    {
+      "path": "assets/scenes/nature-weather-01.webp",
+      "columns": 4,
+      "rows": 2,
+      "width": 1774,
+      "height": 887,
+      "sha256": "3449288c2e05f2ac626d3173091febf338b8747af5de888782a80dd0c11933f8",
+      "sourcePng": "exec-46f133f8-05dd-47db-a57d-0b5ea4779af0.png",
+      "sourceSha256": "a9cae515e04606bf6bd6652ad260113f5f8f6b7a5a796898b091ccb33cf4b5de",
+      "rgbaSha256": "20727ac2cc0eecef1cfaf240fa897219d1b8335a8296d1bc12d6668e5952b278",
+      "encoding": "lossless WebP; decoded RGBA identical to generated PNG",
+      "prompt": "Create a NEW educational illustration atlas for an existing English learning website, matching the attached homepage characters and the second attached illustration atlas. Keep the same cute polished 3D cartoon boy (brown wavy hair, large warm eyes, BLUE hoodie) and girl (long wavy brown hair, large warm eyes, PINK hoodie), with anatomically natural bodies and hands. Use only one child unless the scene logically requires companions, teacher or parent. No graduation hats. The result must be ONE landscape image, exactly a uniform 4 columns x 2 rows grid of EIGHT distinct square illustrations, no margins, no gutters, no frames; each scene fully contained in its own equal cell with no crossing the boundaries. Soft clean pastel surroundings, warm gentle lighting, smooth low-texture surfaces, simple uncluttered backgrounds; prioritize faces, central actions and educational objects rather than dense scenery. No written English, no Chinese, no captions, no watermarks, no panel labels. Any requested blank board must remain blank with no marks because the website adds exact teaching diagrams. Read cells strictly in row-major order left to right, top row then bottom row. Keep image composition consistent with existing examples. Scene list:\nCell 1: Girl on the LEFT beside a large completely blank cream weather teaching board on RIGHT 70%, bright classroom, no words or numbers.\nCell 2: Boy enjoying a generally warm-climate landscape with palms and lush plants, sunny town, light comfortable clothing.\nCell 3: Boy listening carefully to a small radio weather forecast at home, tiny symbolic clouds on radio display but NO text.\nCell 4: Girl and parent looking at a television weather forecast with simple sun/cloud/rain icons, NO written words or digits.\nCell 5: Boy enjoying bright sunny weather in a green park, strong warm daylight and blue sky.\nCell 6: Girl outside under a mostly cloudy sky, soft gray cloud cover, no rain.\nCell 7: Boy wearing a raincoat and holding an umbrella in rain, clear protective coat and puddles, safe path.\nCell 8: Girl in strong wind with scarf and tree branches blowing sideways, no dangerous debris, natural hands."
+    },
+    {
+      "path": "assets/scenes/nature-weather-02.webp",
+      "columns": 4,
+      "rows": 2,
+      "width": 1774,
+      "height": 887,
+      "sha256": "4cc63184e76a12fae594aedf3da1e375198fc297e4feea7d97bd31fd9b4013df",
+      "sourcePng": "exec-fd19a794-ace9-4be6-be13-f5fd2271a9a8.png",
+      "sourceSha256": "f51bccc89692b30436852ab7bdace02f248e80f4e562d2d0d3821937e6beaea5",
+      "rgbaSha256": "4bd6fd2c3c746c703a539a00e7a4d8a77ca42588242b3a771cceb3e8e6b3da86",
+      "encoding": "lossless WebP; decoded RGBA identical to generated PNG",
+      "prompt": "Create a NEW educational illustration atlas for an existing English learning website, matching the attached homepage characters and the second attached illustration atlas. Keep the same cute polished 3D cartoon boy (brown wavy hair, large warm eyes, BLUE hoodie) and girl (long wavy brown hair, large warm eyes, PINK hoodie), with anatomically natural bodies and hands. Use only one child unless the scene logically requires companions, teacher or parent. No graduation hats. The result must be ONE landscape image, exactly a uniform 4 columns x 2 rows grid of EIGHT distinct square illustrations, no margins, no gutters, no frames; each scene fully contained in its own equal cell with no crossing the boundaries. Soft clean pastel surroundings, warm gentle lighting, smooth low-texture surfaces, simple uncluttered backgrounds; prioritize faces, central actions and educational objects rather than dense scenery. No written English, no Chinese, no captions, no watermarks, no panel labels. Any requested blank board must remain blank with no marks because the website adds exact teaching diagrams. Read cells strictly in row-major order left to right, top row then bottom row. Keep image composition consistent with existing examples. Scene list:\nCell 1: Boy warmly dressed in snowy mountains with falling snow, safe viewing path and parent nearby.\nCell 2: Girl walking safely with parent on a foggy morning path, visible light fog and muted background.\nCell 3: Boy safely indoors watching a stormy sea through a large window, rough waves outside and cozy interior.\nCell 4: Girl and parent on a safe footpath looking at an icy road, clear glistening ice patch, no traffic danger.\nCell 5: Girl noticing wet shoes on a doormat after rain, droplets and a small puddle, cozy doorway.\nCell 6: Boy looking at dry cracked garden soil with a watering can, dry ground clearly visible.\nCell 7: Girl resting in shade on a hot summer day, small handheld fan, water bottle and flushed warm cheeks.\nCell 8: Boy comfortable outdoors in pleasantly warm weather, light jacket and gentle sunshine."
+    },
+    {
+      "path": "assets/scenes/nature-weather-03.webp",
+      "columns": 4,
+      "rows": 2,
+      "width": 1774,
+      "height": 887,
+      "sha256": "e4560e2a7be7f32af4ca2ec22af1b7f97d48ec05fb011e56d12130f3d936174b",
+      "sourcePng": "exec-0c3c5241-1e06-46ac-bef6-733053a6e8c2.png",
+      "sourceSha256": "232b6826e30a8736cd0a5d755b6defacf120a7afe7a71419cbd29e184c726498",
+      "rgbaSha256": "f98135c2e42338cdc7d74bc3607fcdb639a8bcafe40e0cca46249553dceb1834",
+      "encoding": "lossless WebP; decoded RGBA identical to generated PNG",
+      "prompt": "Create a NEW educational illustration atlas for an existing English learning website, matching the attached homepage characters and the second attached illustration atlas. Keep the same cute polished 3D cartoon boy (brown wavy hair, large warm eyes, BLUE hoodie) and girl (long wavy brown hair, large warm eyes, PINK hoodie), with anatomically natural bodies and hands. Use only one child unless the scene logically requires companions, teacher or parent. No graduation hats. The result must be ONE landscape image, exactly a uniform 4 columns x 2 rows grid of EIGHT distinct square illustrations, no margins, no gutters, no frames; each scene fully contained in its own equal cell with no crossing the boundaries. Soft clean pastel surroundings, warm gentle lighting, smooth low-texture surfaces, simple uncluttered backgrounds; prioritize faces, central actions and educational objects rather than dense scenery. No written English, no Chinese, no captions, no watermarks, no panel labels. Any requested blank board must remain blank with no marks because the website adds exact teaching diagrams. Read cells strictly in row-major order left to right, top row then bottom row. Keep image composition consistent with existing examples. Scene list:\nCell 1: Girl in a cardigan on a cool evening with sunset colors, comfortable mild shiver, no extreme cold.\nCell 2: Boy wrapped in coat and scarf on a cold winter day, visible breath and snow around.\nCell 3: Boy looking safely through a window at freezing weather and long icicles, warm room inside.\nCell 4: Girl outside in a mild winter day, light coat, green grass and little snow, no tropical scenery.\nCell 5: Girl experiencing humid warm air in a lush garden, damp leaves and small condensation drops, gentle sweating.\nCell 6: Boy on the LEFT by a large completely blank cream thermometer teaching board on RIGHT 70%, no numbers, no letters.\nCell 7: Girl indoors looking at heavy rain falling outside a window, big drops and broad puddles.\nCell 8: Boy under an umbrella in a very light drizzle, tiny sparse rain droplets and slightly wet path."
+    },
+    {
+      "path": "assets/scenes/nature-weather-04.webp",
+      "columns": 4,
+      "rows": 2,
+      "width": 1774,
+      "height": 887,
+      "sha256": "53eb6d5641dcb6147fae9f100f56fe9d216274cd4928cf3effaeb7f795ec5515",
+      "sourcePng": "exec-1cc8cd49-f865-40d8-b13e-4681fffa1643.png",
+      "sourceSha256": "afb49ec9b95bffbaaaef1e2a9a5822d38666a1a14e0d447b71cef47cecca1455",
+      "rgbaSha256": "f620737667df2437d2cf067bf15daf229d8b6fd280a4db2a8f76e01ae45141a6",
+      "encoding": "lossless WebP; decoded RGBA identical to generated PNG",
+      "prompt": "Create a NEW educational illustration atlas for an existing English learning website, matching the attached homepage characters and the second attached illustration atlas. Keep the same cute polished 3D cartoon boy (brown wavy hair, large warm eyes, BLUE hoodie) and girl (long wavy brown hair, large warm eyes, PINK hoodie), with anatomically natural bodies and hands. Use only one child unless the scene logically requires companions, teacher or parent. No graduation hats. The result must be ONE landscape image, exactly a uniform 4 columns x 2 rows grid of EIGHT distinct square illustrations, no margins, no gutters, no frames; each scene fully contained in its own equal cell with no crossing the boundaries. Soft clean pastel surroundings, warm gentle lighting, smooth low-texture surfaces, simple uncluttered backgrounds; prioritize faces, central actions and educational objects rather than dense scenery. No written English, no Chinese, no captions, no watermarks, no panel labels. Any requested blank board must remain blank with no marks because the website adds exact teaching diagrams. Read cells strictly in row-major order left to right, top row then bottom row. Keep image composition consistent with existing examples. Scene list:\nCell 1: Girl watching a brief afternoon rain shower from a covered porch, one rain cloud and clearing blue sky beyond.\nCell 2: Family waiting safely inside during a downpour, dense sheets of rain beyond a big window.\nCell 3: Boy warmly dressed outside a house with a snow-covered roof while soft snow falls, peaceful winter day.\nCell 4: Girl indoors watching sleet, a visible mixture of raindrops and small snow pellets against a dark window view.\nCell 5: Boy safely inside watching small round hailstones bounce on an outdoor windowsill, clearly ice balls and NO damage.\nCell 6: Girl enjoying a cool breeze with gently moving hair and a few leaves, peaceful green park.\nCell 7: Boy pointing to one large fluffy white cloud in a blue sky, clear cloud silhouette.\nCell 8: Girl safely indoors viewing thick fog outside, nearby trees barely visible in dense fog."
+    },
+    {
+      "path": "assets/scenes/nature-weather-05.webp",
+      "columns": 4,
+      "rows": 2,
+      "width": 1774,
+      "height": 887,
+      "sha256": "b63d78e93571b3805539f580adbcee5c73ce4eafc55a9794ba79ededb7db8adb",
+      "sourcePng": "exec-93a7cca3-9d21-499e-a2a6-e4e2e38c4120.png",
+      "sourceSha256": "dd085b1fd1585f318354f8cbba37e7baaee3bf69a56d30360ccc256d853e776b",
+      "rgbaSha256": "a1311e7a53cfadbf2a8abb5d92f05f7c535deea40678655ef2a89dba9f3c2fe6",
+      "encoding": "lossless WebP; decoded RGBA identical to generated PNG",
+      "prompt": "Create a NEW educational illustration atlas for an existing English learning website, matching the attached homepage characters and the second attached illustration atlas. Keep the same cute polished 3D cartoon boy (brown wavy hair, large warm eyes, BLUE hoodie) and girl (long wavy brown hair, large warm eyes, PINK hoodie), with anatomically natural bodies and hands. Use only one child unless the scene logically requires companions, teacher or parent. No graduation hats. The result must be ONE landscape image, exactly a uniform 4 columns x 2 rows grid of EIGHT distinct square illustrations, no margins, no gutters, no frames; each scene fully contained in its own equal cell with no crossing the boundaries. Soft clean pastel surroundings, warm gentle lighting, smooth low-texture surfaces, simple uncluttered backgrounds; prioritize faces, central actions and educational objects rather than dense scenery. No written English, no Chinese, no captions, no watermarks, no panel labels. Any requested blank board must remain blank with no marks because the website adds exact teaching diagrams. Read cells strictly in row-major order left to right, top row then bottom row. Keep image composition consistent with existing examples. Scene list:\nCell 1: Girl looking at distant hills covered in thin light mist, hills remain partly visible, serene landscape.\nCell 2: Boy watching a dark storm cloud approach from the safety of his home, distant weather, no panic.\nCell 3: Boy indoors reacting to thunder with a parent nearby, distant storm cloud and subtle graphic sound wave arcs, no written sound words.\nCell 4: Boy safely indoors watching a bright zigzag lightning bolt illuminate the night sky through a window.\nCell 5: Girl looking at a rainbow appearing after rain, clear multi-color rainbow, wet grass and sunny opening in clouds.\nCell 6: Girl tending plants receiving warm sunshine through a window, bright healthy leaves.\nCell 7: Girl taking a folded umbrella near a front door before going outside, cloudy sky visible through window.\nCell 8: Boy wearing waterproof rain boots while walking carefully through a shallow puddle, feet inside dry boots, clear boots."
     }
   ],
   "scenes": [
@@ -1923,6 +2105,3041 @@
       "visual": {
         "type": "total"
       }
+    },
+    {
+      "id": "C02-S01-001",
+      "word": "time",
+      "example": "What time is it?",
+      "chinese": "现在几点了？",
+      "sheet": "assets/scenes/nature-time-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "现在几点了？ 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-clock",
+        "hour": 3,
+        "minute": 10
+      }
+    },
+    {
+      "id": "C02-S01-002",
+      "word": "clock",
+      "example": "The clock is on the wall.",
+      "chinese": "钟挂在墙上。",
+      "sheet": "assets/scenes/nature-time-01.webp",
+      "column": 1,
+      "row": 0,
+      "kind": "nature",
+      "description": "钟挂在墙上。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S01-003",
+      "word": "watch",
+      "example": "My watch is new.",
+      "chinese": "我的手表是新的。",
+      "sheet": "assets/scenes/nature-time-01.webp",
+      "column": 2,
+      "row": 0,
+      "kind": "nature",
+      "description": "我的手表是新的。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S01-004",
+      "word": "hour",
+      "example": "An hour has sixty minutes.",
+      "chinese": "一小时有六十分钟。",
+      "sheet": "assets/scenes/nature-time-01.webp",
+      "column": 3,
+      "row": 0,
+      "kind": "nature",
+      "description": "一小时有六十分钟。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-units",
+        "value": "1 h = 60 min"
+      }
+    },
+    {
+      "id": "C02-S01-005",
+      "word": "minute",
+      "example": "Wait one minute, please.",
+      "chinese": "请等一分钟。",
+      "sheet": "assets/scenes/nature-time-01.webp",
+      "column": 0,
+      "row": 1,
+      "kind": "nature",
+      "description": "请等一分钟。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-units",
+        "value": "1 min = 60 s"
+      }
+    },
+    {
+      "id": "C02-S01-006",
+      "word": "second",
+      "example": "One minute has sixty seconds.",
+      "chinese": "一分钟有六十秒。",
+      "sheet": "assets/scenes/nature-time-01.webp",
+      "column": 1,
+      "row": 1,
+      "kind": "nature",
+      "description": "一分钟有六十秒。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-units",
+        "value": "60 s = 1 min"
+      }
+    },
+    {
+      "id": "C02-S01-007",
+      "word": "o'clock",
+      "example": "It is six o'clock.",
+      "chinese": "现在六点整。",
+      "sheet": "assets/scenes/nature-time-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "现在六点整。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-clock",
+        "hour": 6,
+        "minute": 0
+      }
+    },
+    {
+      "id": "C02-S01-008",
+      "word": "past",
+      "example": "It is ten past three.",
+      "chinese": "现在三点十分。",
+      "sheet": "assets/scenes/nature-time-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "现在三点十分。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-clock",
+        "hour": 3,
+        "minute": 10
+      }
+    },
+    {
+      "id": "C02-S01-009",
+      "word": "to",
+      "example": "It is ten to four.",
+      "chinese": "现在差十分四点。",
+      "sheet": "assets/scenes/nature-time-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "现在差十分四点。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-clock",
+        "hour": 3,
+        "minute": 50
+      }
+    },
+    {
+      "id": "C02-S01-010",
+      "word": "half past",
+      "example": "It is half past seven.",
+      "chinese": "现在七点半。",
+      "sheet": "assets/scenes/nature-time-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "现在七点半。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-clock",
+        "hour": 7,
+        "minute": 30
+      }
+    },
+    {
+      "id": "C02-S01-011",
+      "word": "quarter past",
+      "example": "It is quarter past eight.",
+      "chinese": "现在八点十五分。",
+      "sheet": "assets/scenes/nature-time-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "现在八点十五分。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-clock",
+        "hour": 8,
+        "minute": 15
+      }
+    },
+    {
+      "id": "C02-S01-012",
+      "word": "quarter to",
+      "example": "It is quarter to nine.",
+      "chinese": "现在差一刻九点。",
+      "sheet": "assets/scenes/nature-time-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "现在差一刻九点。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-clock",
+        "hour": 8,
+        "minute": 45
+      }
+    },
+    {
+      "id": "C02-S01-013",
+      "word": "noon",
+      "example": "We eat lunch at noon.",
+      "chinese": "我们中午十二点吃午饭。",
+      "sheet": "assets/scenes/nature-time-01.webp",
+      "column": 2,
+      "row": 1,
+      "kind": "nature",
+      "description": "我们中午十二点吃午饭。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S01-014",
+      "word": "midday",
+      "example": "The sun is high at midday.",
+      "chinese": "正午时太阳很高。",
+      "sheet": "assets/scenes/nature-time-01.webp",
+      "column": 3,
+      "row": 1,
+      "kind": "nature",
+      "description": "正午时太阳很高。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S01-015",
+      "word": "midnight",
+      "example": "The film ends at midnight.",
+      "chinese": "电影在午夜结束。",
+      "sheet": "assets/scenes/nature-time-02.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "电影在午夜结束。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S01-016",
+      "word": "morning",
+      "example": "I read in the morning.",
+      "chinese": "我早上阅读。",
+      "sheet": "assets/scenes/nature-time-02.webp",
+      "column": 1,
+      "row": 0,
+      "kind": "nature",
+      "description": "我早上阅读。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S01-017",
+      "word": "afternoon",
+      "example": "We play in the afternoon.",
+      "chinese": "我们下午玩耍。",
+      "sheet": "assets/scenes/nature-time-02.webp",
+      "column": 2,
+      "row": 0,
+      "kind": "nature",
+      "description": "我们下午玩耍。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S01-018",
+      "word": "evening",
+      "example": "I do homework in the evening.",
+      "chinese": "我晚上做作业。",
+      "sheet": "assets/scenes/nature-time-02.webp",
+      "column": 3,
+      "row": 0,
+      "kind": "nature",
+      "description": "我晚上做作业。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S01-019",
+      "word": "night",
+      "example": "The stars shine at night.",
+      "chinese": "星星在夜晚闪耀。",
+      "sheet": "assets/scenes/nature-time-02.webp",
+      "column": 0,
+      "row": 1,
+      "kind": "nature",
+      "description": "星星在夜晚闪耀。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S01-020",
+      "word": "dawn",
+      "example": "Birds sing at dawn.",
+      "chinese": "鸟儿在黎明时歌唱。",
+      "sheet": "assets/scenes/nature-time-02.webp",
+      "column": 1,
+      "row": 1,
+      "kind": "nature",
+      "description": "鸟儿在黎明时歌唱。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S01-021",
+      "word": "sunrise",
+      "example": "We watched the sunrise.",
+      "chinese": "我们看了日出。",
+      "sheet": "assets/scenes/nature-time-02.webp",
+      "column": 2,
+      "row": 1,
+      "kind": "nature",
+      "description": "我们看了日出。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S01-022",
+      "word": "sunset",
+      "example": "The sky is orange at sunset.",
+      "chinese": "日落时天空是橙色的。",
+      "sheet": "assets/scenes/nature-time-02.webp",
+      "column": 3,
+      "row": 1,
+      "kind": "nature",
+      "description": "日落时天空是橙色的。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S01-023",
+      "word": "today",
+      "example": "Today is a school day.",
+      "chinese": "今天是上学日。",
+      "sheet": "assets/scenes/nature-time-03.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "今天是上学日。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-relative",
+        "unit": "day",
+        "offset": 0
+      }
+    },
+    {
+      "id": "C02-S01-024",
+      "word": "tomorrow",
+      "example": "See you tomorrow.",
+      "chinese": "明天见。",
+      "sheet": "assets/scenes/see-you-tomorrow.png",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "明天见。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S01-025",
+      "word": "yesterday",
+      "example": "It was sunny yesterday.",
+      "chinese": "昨天是晴天。",
+      "sheet": "assets/scenes/nature-time-03.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "昨天是晴天。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-relative",
+        "unit": "day",
+        "offset": -1
+      }
+    },
+    {
+      "id": "C02-S01-026",
+      "word": "tonight",
+      "example": "We will read tonight.",
+      "chinese": "我们今晚会阅读。",
+      "sheet": "assets/scenes/nature-time-02.webp",
+      "column": 1,
+      "row": 0,
+      "kind": "nature",
+      "description": "我们今晚会阅读。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S01-027",
+      "word": "now",
+      "example": "I am busy now.",
+      "chinese": "我现在很忙。",
+      "sheet": "assets/scenes/nature-time-03.webp",
+      "column": 1,
+      "row": 0,
+      "kind": "nature",
+      "description": "我现在很忙。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S01-028",
+      "word": "later",
+      "example": "I will call you later.",
+      "chinese": "我稍后给你打电话。",
+      "sheet": "assets/scenes/nature-time-03.webp",
+      "column": 2,
+      "row": 0,
+      "kind": "nature",
+      "description": "我稍后给你打电话。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S01-029",
+      "word": "soon",
+      "example": "The bus will come soon.",
+      "chinese": "公交车很快就会来。",
+      "sheet": "assets/scenes/nature-time-03.webp",
+      "column": 3,
+      "row": 0,
+      "kind": "nature",
+      "description": "公交车很快就会来。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S01-030",
+      "word": "early",
+      "example": "I get up early.",
+      "chinese": "我起得早。",
+      "sheet": "assets/scenes/nature-time-03.webp",
+      "column": 0,
+      "row": 1,
+      "kind": "nature",
+      "description": "我起得早。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S01-031",
+      "word": "late",
+      "example": "Do not be late for school.",
+      "chinese": "上学不要迟到。",
+      "sheet": "assets/scenes/nature-time-03.webp",
+      "column": 1,
+      "row": 1,
+      "kind": "nature",
+      "description": "上学不要迟到。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S01-032",
+      "word": "before",
+      "example": "Wash your hands before lunch.",
+      "chinese": "午饭前洗手。",
+      "sheet": "assets/scenes/nature-time-03.webp",
+      "column": 2,
+      "row": 1,
+      "kind": "nature",
+      "description": "午饭前洗手。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S01-033",
+      "word": "after",
+      "example": "I play after school.",
+      "chinese": "我放学后玩耍。",
+      "sheet": "assets/scenes/nature-time-03.webp",
+      "column": 3,
+      "row": 1,
+      "kind": "nature",
+      "description": "我放学后玩耍。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S01-034",
+      "word": "daily",
+      "example": "This is my daily routine.",
+      "chinese": "这是我的日常安排。",
+      "sheet": "assets/scenes/nature-time-04.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "这是我的日常安排。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-week",
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "id": "C02-S01-035",
+      "word": "every day",
+      "example": "I read every day.",
+      "chinese": "我每天阅读。",
+      "sheet": "assets/scenes/nature-time-02.webp",
+      "column": 1,
+      "row": 0,
+      "kind": "nature",
+      "description": "我每天阅读。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-week",
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "id": "C02-S01-036",
+      "word": "once",
+      "example": "I visit Grandma once a week.",
+      "chinese": "我每周看望奶奶一次。",
+      "sheet": "assets/scenes/nature-time-04.webp",
+      "column": 1,
+      "row": 0,
+      "kind": "nature",
+      "description": "我每周看望奶奶一次。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-week",
+        "day": 6
+      }
+    },
+    {
+      "id": "C02-S01-037",
+      "word": "twice",
+      "example": "I brush my teeth twice a day.",
+      "chinese": "我每天刷两次牙。",
+      "sheet": "assets/scenes/nature-time-04.webp",
+      "column": 2,
+      "row": 0,
+      "kind": "nature",
+      "description": "我每天刷两次牙。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-units",
+        "value": "2 ×"
+      }
+    },
+    {
+      "id": "C02-S01-038",
+      "word": "always",
+      "example": "I always pack my bag at night.",
+      "chinese": "我总是在晚上整理书包。",
+      "sheet": "assets/scenes/nature-time-04.webp",
+      "column": 3,
+      "row": 0,
+      "kind": "nature",
+      "description": "我总是在晚上整理书包。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S01-039",
+      "word": "sometimes",
+      "example": "Sometimes I walk to school.",
+      "chinese": "有时我步行去学校。",
+      "sheet": "assets/scenes/nature-time-04.webp",
+      "column": 0,
+      "row": 1,
+      "kind": "nature",
+      "description": "有时我步行去学校。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S01-040",
+      "word": "never",
+      "example": "I never go to bed with my shoes on.",
+      "chinese": "我从不穿着鞋睡觉。",
+      "sheet": "assets/scenes/nature-time-04.webp",
+      "column": 1,
+      "row": 1,
+      "kind": "nature",
+      "description": "我从不穿着鞋睡觉。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S01-041",
+      "word": "bedtime",
+      "example": "My bedtime is nine o’clock.",
+      "chinese": "我的就寝时间是九点。",
+      "sheet": "assets/scenes/nature-time-04.webp",
+      "column": 2,
+      "row": 1,
+      "kind": "nature",
+      "description": "我的就寝时间是九点。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-photo-clock",
+        "hour": 21,
+        "minute": 0,
+        "x": 850,
+        "y": 805
+      }
+    },
+    {
+      "id": "C02-S01-042",
+      "word": "wake-up time",
+      "example": "My wake-up time is seven.",
+      "chinese": "我的起床时间是七点。",
+      "sheet": "assets/scenes/nature-time-04.webp",
+      "column": 3,
+      "row": 1,
+      "kind": "nature",
+      "description": "我的起床时间是七点。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-photo-clock",
+        "hour": 7,
+        "minute": 0,
+        "x": 875,
+        "y": 770
+      }
+    },
+    {
+      "id": "C02-S01-043",
+      "word": "What time is it?",
+      "example": "What time is it now?",
+      "chinese": "现在几点了？",
+      "sheet": "assets/scenes/nature-time-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "现在几点了？ 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-clock",
+        "hour": 3,
+        "minute": 10
+      }
+    },
+    {
+      "id": "C02-S01-044",
+      "word": "It's seven o'clock.",
+      "example": "It's seven o'clock. Let's go.",
+      "chinese": "现在七点整。我们走吧。",
+      "sheet": "assets/scenes/nature-time-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "现在七点整。我们走吧。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-clock",
+        "hour": 7,
+        "minute": 0
+      }
+    },
+    {
+      "id": "C02-S01-045",
+      "word": "It's half past eight.",
+      "example": "It's half past eight. Time for school.",
+      "chinese": "现在八点半了，该上学了。",
+      "sheet": "assets/scenes/nature-time-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "现在八点半了，该上学了。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-clock",
+        "hour": 8,
+        "minute": 30
+      }
+    },
+    {
+      "id": "C02-S01-046",
+      "word": "in the morning",
+      "example": "I eat breakfast in the morning.",
+      "chinese": "我早上吃早餐。",
+      "sheet": "assets/scenes/nature-time-02.webp",
+      "column": 1,
+      "row": 0,
+      "kind": "nature",
+      "description": "我早上吃早餐。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S01-047",
+      "word": "in the afternoon",
+      "example": "We have a lesson in the afternoon.",
+      "chinese": "我们下午有一节课。",
+      "sheet": "assets/scenes/nature-time-02.webp",
+      "column": 2,
+      "row": 0,
+      "kind": "nature",
+      "description": "我们下午有一节课。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S01-048",
+      "word": "at night",
+      "example": "It is quiet at night.",
+      "chinese": "夜晚很安静。",
+      "sheet": "assets/scenes/nature-time-02.webp",
+      "column": 0,
+      "row": 1,
+      "kind": "nature",
+      "description": "夜晚很安静。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S01-049",
+      "word": "on time",
+      "example": "The train arrived on time.",
+      "chinese": "火车准时到达。",
+      "sheet": "assets/scenes/nature-time-03.webp",
+      "column": 3,
+      "row": 0,
+      "kind": "nature",
+      "description": "火车准时到达。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S01-050",
+      "word": "in time",
+      "example": "We got there in time.",
+      "chinese": "我们及时赶到了。",
+      "sheet": "assets/scenes/nature-time-03.webp",
+      "column": 3,
+      "row": 0,
+      "kind": "nature",
+      "description": "我们及时赶到了。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S01-051",
+      "word": "What time do you get up?",
+      "example": "What time do you get up on school days?",
+      "chinese": "上学日你几点起床？",
+      "sheet": "assets/scenes/nature-time-04.webp",
+      "column": 3,
+      "row": 1,
+      "kind": "nature",
+      "description": "上学日你几点起床？ 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-units",
+        "value": "?"
+      }
+    },
+    {
+      "id": "C02-S01-052",
+      "word": "I get up at seven.",
+      "example": "I get up at seven every morning.",
+      "chinese": "我每天早上七点起床。",
+      "sheet": "assets/scenes/nature-time-04.webp",
+      "column": 3,
+      "row": 1,
+      "kind": "nature",
+      "description": "我每天早上七点起床。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-photo-clock",
+        "hour": 7,
+        "minute": 0,
+        "x": 875,
+        "y": 770
+      }
+    },
+    {
+      "id": "C02-S02-001",
+      "word": "day",
+      "example": "There are seven days in a week.",
+      "chinese": "一周有七天。",
+      "sheet": "assets/scenes/nature-dates-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "一周有七天。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-week",
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "id": "C02-S02-002",
+      "word": "weekday",
+      "example": "Monday is a weekday.",
+      "chinese": "星期一是工作日。",
+      "sheet": "assets/scenes/nature-dates-01.webp",
+      "column": 1,
+      "row": 0,
+      "kind": "nature",
+      "description": "星期一是工作日。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-week",
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "id": "C02-S02-003",
+      "word": "weekend",
+      "example": "I play football at the weekend.",
+      "chinese": "我周末踢足球。",
+      "sheet": "assets/scenes/nature-dates-01.webp",
+      "column": 2,
+      "row": 0,
+      "kind": "nature",
+      "description": "我周末踢足球。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-week",
+        "days": [
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "id": "C02-S02-004",
+      "word": "calendar",
+      "example": "The calendar is on the desk.",
+      "chinese": "日历在书桌上。",
+      "sheet": "assets/scenes/nature-dates-01.webp",
+      "column": 3,
+      "row": 0,
+      "kind": "nature",
+      "description": "日历在书桌上。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S02-005",
+      "word": "date",
+      "example": "What is the date today?",
+      "chinese": "今天是几号？",
+      "sheet": "assets/scenes/nature-dates-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "今天是几号？ 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-calendar",
+        "year": 2025,
+        "month": 10,
+        "day": 0
+      }
+    },
+    {
+      "id": "C02-S02-006",
+      "word": "school day",
+      "example": "Tuesday is a school day.",
+      "chinese": "星期二是上学日。",
+      "sheet": "assets/scenes/nature-dates-01.webp",
+      "column": 0,
+      "row": 1,
+      "kind": "nature",
+      "description": "星期二是上学日。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-week",
+        "day": 2
+      }
+    },
+    {
+      "id": "C02-S02-007",
+      "word": "day off",
+      "example": "Sunday is my day off.",
+      "chinese": "星期日是我的休息日。",
+      "sheet": "assets/scenes/nature-dates-01.webp",
+      "column": 1,
+      "row": 1,
+      "kind": "nature",
+      "description": "星期日是我的休息日。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-week",
+        "day": 7
+      }
+    },
+    {
+      "id": "C02-S02-008",
+      "word": "birthday",
+      "example": "My birthday is in June.",
+      "chinese": "我的生日在六月。",
+      "sheet": "assets/scenes/nature-dates-01.webp",
+      "column": 2,
+      "row": 1,
+      "kind": "nature",
+      "description": "我的生日在六月。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S02-009",
+      "word": "holiday",
+      "example": "We visit Grandma during the holiday.",
+      "chinese": "假期里我们去看奶奶。",
+      "sheet": "assets/scenes/nature-dates-01.webp",
+      "column": 3,
+      "row": 1,
+      "kind": "nature",
+      "description": "假期里我们去看奶奶。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S02-010",
+      "word": "public holiday",
+      "example": "The bank is closed on the public holiday.",
+      "chinese": "银行在公共假日休息。",
+      "sheet": "assets/scenes/nature-dates-02.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "银行在公共假日休息。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S02-011",
+      "word": "school holiday",
+      "example": "We travel during the school holiday.",
+      "chinese": "学校放假时我们去旅行。",
+      "sheet": "assets/scenes/nature-dates-02.webp",
+      "column": 1,
+      "row": 0,
+      "kind": "nature",
+      "description": "学校放假时我们去旅行。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S02-012",
+      "word": "anniversary",
+      "example": "Today is their wedding anniversary.",
+      "chinese": "今天是他们的结婚纪念日。",
+      "sheet": "assets/scenes/nature-dates-02.webp",
+      "column": 2,
+      "row": 0,
+      "kind": "nature",
+      "description": "今天是他们的结婚纪念日。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S02-013",
+      "word": "appointment",
+      "example": "I have a doctor's appointment on Friday.",
+      "chinese": "我星期五有医生预约。",
+      "sheet": "assets/scenes/nature-dates-02.webp",
+      "column": 3,
+      "row": 0,
+      "kind": "nature",
+      "description": "我星期五有医生预约。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S02-014",
+      "word": "schedule",
+      "example": "Check the school schedule.",
+      "chinese": "查看学校日程表。",
+      "sheet": "assets/scenes/nature-dates-02.webp",
+      "column": 0,
+      "row": 1,
+      "kind": "nature",
+      "description": "查看学校日程表。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S02-015",
+      "word": "Monday",
+      "example": "I have English on Monday.",
+      "chinese": "我星期一有英语课。",
+      "sheet": "assets/scenes/nature-dates-01.webp",
+      "column": 0,
+      "row": 1,
+      "kind": "nature",
+      "description": "我星期一有英语课。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-week",
+        "day": 1
+      }
+    },
+    {
+      "id": "C02-S02-016",
+      "word": "Tuesday",
+      "example": "We swim on Tuesday.",
+      "chinese": "我们星期二游泳。",
+      "sheet": "assets/scenes/nature-seasons-01.webp",
+      "column": 3,
+      "row": 1,
+      "kind": "nature",
+      "description": "我们星期二游泳。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-week",
+        "day": 2
+      }
+    },
+    {
+      "id": "C02-S02-017",
+      "word": "Wednesday",
+      "example": "I read on Wednesday.",
+      "chinese": "我星期三阅读。",
+      "sheet": "assets/scenes/nature-time-02.webp",
+      "column": 1,
+      "row": 0,
+      "kind": "nature",
+      "description": "我星期三阅读。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-week",
+        "day": 3
+      }
+    },
+    {
+      "id": "C02-S02-018",
+      "word": "Thursday",
+      "example": "I visit the library on Thursday.",
+      "chinese": "我星期四去图书馆。",
+      "sheet": "assets/scenes/nature-seasons-01.webp",
+      "column": 3,
+      "row": 0,
+      "kind": "nature",
+      "description": "我星期四去图书馆。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-week",
+        "day": 4
+      }
+    },
+    {
+      "id": "C02-S02-019",
+      "word": "Friday",
+      "example": "Friday is my last school day this week.",
+      "chinese": "星期五是我这周最后一个上学日。",
+      "sheet": "assets/scenes/nature-dates-01.webp",
+      "column": 1,
+      "row": 0,
+      "kind": "nature",
+      "description": "星期五是我这周最后一个上学日。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-week",
+        "day": 5
+      }
+    },
+    {
+      "id": "C02-S02-020",
+      "word": "Saturday",
+      "example": "We play in the park on Saturday.",
+      "chinese": "我们星期六在公园玩。",
+      "sheet": "assets/scenes/nature-weather-01.webp",
+      "column": 0,
+      "row": 1,
+      "kind": "nature",
+      "description": "我们星期六在公园玩。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-week",
+        "day": 6
+      }
+    },
+    {
+      "id": "C02-S02-021",
+      "word": "Sunday",
+      "example": "I help my family on Sunday.",
+      "chinese": "我星期日帮家里做事。",
+      "sheet": "assets/scenes/nature-dates-01.webp",
+      "column": 1,
+      "row": 1,
+      "kind": "nature",
+      "description": "我星期日帮家里做事。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-week",
+        "day": 7
+      }
+    },
+    {
+      "id": "C02-S02-022",
+      "word": "every Monday",
+      "example": "We have a test every Monday.",
+      "chinese": "我们每个星期一都有测验。",
+      "sheet": "assets/scenes/nature-dates-02.webp",
+      "column": 2,
+      "row": 1,
+      "kind": "nature",
+      "description": "我们每个星期一都有测验。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-week",
+        "day": 1
+      }
+    },
+    {
+      "id": "C02-S02-023",
+      "word": "from Monday to Friday",
+      "example": "I go to school from Monday to Friday.",
+      "chinese": "我星期一到星期五上学。",
+      "sheet": "assets/scenes/nature-dates-01.webp",
+      "column": 1,
+      "row": 0,
+      "kind": "nature",
+      "description": "我星期一到星期五上学。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-week",
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "id": "C02-S02-024",
+      "word": "at the weekend",
+      "example": "I ride my bike at the weekend.",
+      "chinese": "我周末骑自行车。",
+      "sheet": "assets/scenes/nature-dates-02.webp",
+      "column": 1,
+      "row": 1,
+      "kind": "nature",
+      "description": "我周末骑自行车。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-week",
+        "days": [
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "id": "C02-S02-025",
+      "word": "this week",
+      "example": "We have three tests this week.",
+      "chinese": "我们这周有三次测验。",
+      "sheet": "assets/scenes/nature-dates-02.webp",
+      "column": 2,
+      "row": 1,
+      "kind": "nature",
+      "description": "我们这周有三次测验。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-week",
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "id": "C02-S02-026",
+      "word": "next week",
+      "example": "We will visit the museum next week.",
+      "chinese": "我们下周会去博物馆。",
+      "sheet": "assets/scenes/nature-dates-02.webp",
+      "column": 3,
+      "row": 1,
+      "kind": "nature",
+      "description": "我们下周会去博物馆。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-week",
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "id": "C02-S02-027",
+      "word": "last week",
+      "example": "I saw my cousin last week.",
+      "chinese": "我上周见了我的表亲。",
+      "sheet": "assets/scenes/nature-dates-01.webp",
+      "column": 3,
+      "row": 1,
+      "kind": "nature",
+      "description": "我上周见了我的表亲。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S02-028",
+      "word": "What day is it today?",
+      "example": "What day is it today?",
+      "chinese": "今天星期几？",
+      "sheet": "assets/scenes/nature-dates-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "今天星期几？ 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-calendar",
+        "year": 2025,
+        "month": 9,
+        "day": 0
+      }
+    },
+    {
+      "id": "C02-S02-029",
+      "word": "What is the date today?",
+      "example": "What is the date today?",
+      "chinese": "今天是几号？",
+      "sheet": "assets/scenes/nature-dates-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "今天是几号？ 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-calendar",
+        "year": 2025,
+        "month": 9,
+        "day": 0
+      }
+    },
+    {
+      "id": "C02-S02-030",
+      "word": "Today is Monday.",
+      "example": "Today is Monday, so school starts again.",
+      "chinese": "今天是星期一，所以又要上学了。",
+      "sheet": "assets/scenes/nature-dates-01.webp",
+      "column": 1,
+      "row": 0,
+      "kind": "nature",
+      "description": "今天是星期一，所以又要上学了。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-week",
+        "day": 1
+      }
+    },
+    {
+      "id": "C02-S02-031",
+      "word": "the first",
+      "example": "The first is a Monday this month.",
+      "chinese": "这个月的一号是星期一。",
+      "sheet": "assets/scenes/nature-dates-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "这个月的一号是星期一。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-calendar",
+        "year": 2025,
+        "month": 9,
+        "day": 1
+      }
+    },
+    {
+      "id": "C02-S02-032",
+      "word": "the second",
+      "example": "The second of May is a school day.",
+      "chinese": "五月二日是上学日。",
+      "sheet": "assets/scenes/nature-dates-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "五月二日是上学日。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-calendar",
+        "year": 2025,
+        "month": 5,
+        "day": 2
+      }
+    },
+    {
+      "id": "C02-S02-033",
+      "word": "the third",
+      "example": "Her birthday is on the third of July.",
+      "chinese": "她的生日是七月三日。",
+      "sheet": "assets/scenes/nature-dates-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "她的生日是七月三日。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-calendar",
+        "year": 2025,
+        "month": 7,
+        "day": 3
+      }
+    },
+    {
+      "id": "C02-S02-034",
+      "word": "the fourth",
+      "example": "The fourth of April is on Friday.",
+      "chinese": "四月四日是星期五。",
+      "sheet": "assets/scenes/nature-dates-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "四月四日是星期五。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-calendar",
+        "year": 2025,
+        "month": 4,
+        "day": 4
+      }
+    },
+    {
+      "id": "C02-S02-035",
+      "word": "the fifth",
+      "example": "My birthday is on the fifth of June.",
+      "chinese": "我的生日是六月五日。",
+      "sheet": "assets/scenes/nature-dates-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "我的生日是六月五日。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-calendar",
+        "year": 2025,
+        "month": 6,
+        "day": 5
+      }
+    },
+    {
+      "id": "C02-S02-036",
+      "word": "the sixth",
+      "example": "The sixth of March is a Thursday.",
+      "chinese": "三月六日是星期四。",
+      "sheet": "assets/scenes/nature-dates-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "三月六日是星期四。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-calendar",
+        "year": 2025,
+        "month": 3,
+        "day": 6
+      }
+    },
+    {
+      "id": "C02-S02-037",
+      "word": "the seventh",
+      "example": "The seventh day is Sunday.",
+      "chinese": "第七天是星期日。",
+      "sheet": "assets/scenes/nature-dates-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "第七天是星期日。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-calendar",
+        "year": 2025,
+        "month": 9,
+        "day": 7
+      }
+    },
+    {
+      "id": "C02-S02-038",
+      "word": "the eighth",
+      "example": "The eighth of August is my holiday.",
+      "chinese": "八月八日是我的假期。",
+      "sheet": "assets/scenes/nature-dates-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "八月八日是我的假期。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-calendar",
+        "year": 2025,
+        "month": 8,
+        "day": 8
+      }
+    },
+    {
+      "id": "C02-S02-039",
+      "word": "the ninth",
+      "example": "The ninth page is missing.",
+      "chinese": "第九页不见了。",
+      "sheet": "assets/scenes/nature-dates-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "第九页不见了。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-page",
+        "value": 9
+      }
+    },
+    {
+      "id": "C02-S02-040",
+      "word": "the tenth",
+      "example": "The tenth of October is a Friday.",
+      "chinese": "十月十日是星期五。",
+      "sheet": "assets/scenes/nature-dates-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "十月十日是星期五。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-calendar",
+        "year": 2025,
+        "month": 10,
+        "day": 10
+      }
+    },
+    {
+      "id": "C02-S02-041",
+      "word": "the eleventh",
+      "example": "The eleventh is her birthday.",
+      "chinese": "十一日是她的生日。",
+      "sheet": "assets/scenes/nature-dates-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "十一日是她的生日。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-calendar",
+        "year": 2025,
+        "month": 9,
+        "day": 11
+      }
+    },
+    {
+      "id": "C02-S02-042",
+      "word": "the twelfth",
+      "example": "The twelfth of December is a school day.",
+      "chinese": "十二月十二日是上学日。",
+      "sheet": "assets/scenes/nature-dates-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "十二月十二日是上学日。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-calendar",
+        "year": 2025,
+        "month": 12,
+        "day": 12
+      }
+    },
+    {
+      "id": "C02-S02-043",
+      "word": "the thirteenth",
+      "example": "The thirteenth is on Saturday.",
+      "chinese": "十三日是星期六。",
+      "sheet": "assets/scenes/nature-dates-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "十三日是星期六。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-calendar",
+        "year": 2025,
+        "month": 9,
+        "day": 13
+      }
+    },
+    {
+      "id": "C02-S02-044",
+      "word": "the fourteenth",
+      "example": "The fourteenth of February is Valentine’s Day.",
+      "chinese": "二月十四日是情人节。",
+      "sheet": "assets/scenes/nature-dates-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "二月十四日是情人节。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-calendar",
+        "year": 2025,
+        "month": 2,
+        "day": 14
+      }
+    },
+    {
+      "id": "C02-S02-045",
+      "word": "the fifteenth",
+      "example": "The fifteenth is halfway through the month.",
+      "chinese": "十五日是这个月的中间。",
+      "sheet": "assets/scenes/nature-dates-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "十五日是这个月的中间。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-calendar",
+        "year": 2025,
+        "month": 9,
+        "day": 15
+      }
+    },
+    {
+      "id": "C02-S02-046",
+      "word": "the sixteenth",
+      "example": "The sixteenth of May is our school trip.",
+      "chinese": "五月十六日是我们的学校旅行日。",
+      "sheet": "assets/scenes/nature-dates-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "五月十六日是我们的学校旅行日。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-calendar",
+        "year": 2025,
+        "month": 5,
+        "day": 16
+      }
+    },
+    {
+      "id": "C02-S02-047",
+      "word": "the seventeenth",
+      "example": "The seventeenth is on Tuesday.",
+      "chinese": "十七日是星期二。",
+      "sheet": "assets/scenes/nature-dates-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "十七日是星期二。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-calendar",
+        "year": 2025,
+        "month": 6,
+        "day": 17
+      }
+    },
+    {
+      "id": "C02-S02-048",
+      "word": "the eighteenth",
+      "example": "The eighteenth of July is a holiday.",
+      "chinese": "七月十八日是假日。",
+      "sheet": "assets/scenes/nature-dates-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "七月十八日是假日。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-calendar",
+        "year": 2025,
+        "month": 7,
+        "day": 18
+      }
+    },
+    {
+      "id": "C02-S02-049",
+      "word": "the nineteenth",
+      "example": "The nineteenth is my last day here.",
+      "chinese": "十九日是我在这里的最后一天。",
+      "sheet": "assets/scenes/nature-dates-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "十九日是我在这里的最后一天。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-calendar",
+        "year": 2025,
+        "month": 9,
+        "day": 19
+      }
+    },
+    {
+      "id": "C02-S02-050",
+      "word": "the twentieth",
+      "example": "The twentieth is a Monday.",
+      "chinese": "二十日是星期一。",
+      "sheet": "assets/scenes/nature-dates-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "二十日是星期一。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-calendar",
+        "year": 2025,
+        "month": 10,
+        "day": 20
+      }
+    },
+    {
+      "id": "C02-S02-051",
+      "word": "the twenty-first",
+      "example": "The twenty-first is a Sunday.",
+      "chinese": "二十一日是星期日。",
+      "sheet": "assets/scenes/nature-dates-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "二十一日是星期日。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-calendar",
+        "year": 2025,
+        "month": 9,
+        "day": 21
+      }
+    },
+    {
+      "id": "C02-S02-052",
+      "word": "the twenty-second",
+      "example": "The twenty-second is my appointment.",
+      "chinese": "二十二日是我的预约日期。",
+      "sheet": "assets/scenes/nature-dates-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "二十二日是我的预约日期。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-calendar",
+        "year": 2025,
+        "month": 9,
+        "day": 22
+      }
+    },
+    {
+      "id": "C02-S02-053",
+      "word": "the twenty-third",
+      "example": "The twenty-third is the school concert.",
+      "chinese": "二十三日是学校音乐会。",
+      "sheet": "assets/scenes/nature-dates-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "二十三日是学校音乐会。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-calendar",
+        "year": 2025,
+        "month": 9,
+        "day": 23
+      }
+    },
+    {
+      "id": "C02-S02-054",
+      "word": "the twenty-fourth",
+      "example": "The twenty-fourth of December is Christmas Eve.",
+      "chinese": "十二月二十四日是平安夜。",
+      "sheet": "assets/scenes/nature-dates-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "十二月二十四日是平安夜。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-calendar",
+        "year": 2025,
+        "month": 12,
+        "day": 24
+      }
+    },
+    {
+      "id": "C02-S02-055",
+      "word": "the twenty-fifth",
+      "example": "The twenty-fifth of December is Christmas Day.",
+      "chinese": "十二月二十五日是圣诞节。",
+      "sheet": "assets/scenes/nature-dates-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "十二月二十五日是圣诞节。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-calendar",
+        "year": 2025,
+        "month": 12,
+        "day": 25
+      }
+    },
+    {
+      "id": "C02-S02-056",
+      "word": "the twenty-sixth",
+      "example": "The twenty-sixth is a public holiday in some countries.",
+      "chinese": "在一些国家，二十六日是公共假日。",
+      "sheet": "assets/scenes/nature-dates-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "在一些国家，二十六日是公共假日。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-calendar",
+        "year": 2025,
+        "month": 12,
+        "day": 26
+      }
+    },
+    {
+      "id": "C02-S02-057",
+      "word": "the twenty-seventh",
+      "example": "The twenty-seventh is a Friday.",
+      "chinese": "二十七日是星期五。",
+      "sheet": "assets/scenes/nature-dates-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "二十七日是星期五。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-calendar",
+        "year": 2025,
+        "month": 6,
+        "day": 27
+      }
+    },
+    {
+      "id": "C02-S02-058",
+      "word": "the twenty-eighth",
+      "example": "February has twenty-eight days in a common year.",
+      "chinese": "平年二月有二十八天。",
+      "sheet": "assets/scenes/nature-dates-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "平年二月有二十八天。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-calendar",
+        "year": 2025,
+        "month": 2,
+        "day": 28
+      }
+    },
+    {
+      "id": "C02-S02-059",
+      "word": "the twenty-ninth",
+      "example": "February has a twenty-ninth day in a leap year.",
+      "chinese": "闰年的二月有二十九日。",
+      "sheet": "assets/scenes/nature-dates-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "闰年的二月有二十九日。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-calendar",
+        "year": 2024,
+        "month": 2,
+        "day": 29
+      }
+    },
+    {
+      "id": "C02-S02-060",
+      "word": "the thirtieth",
+      "example": "The thirtieth is near the end of the month.",
+      "chinese": "三十日接近月底。",
+      "sheet": "assets/scenes/nature-dates-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "三十日接近月底。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-calendar",
+        "year": 2025,
+        "month": 9,
+        "day": 30
+      }
+    },
+    {
+      "id": "C02-S02-061",
+      "word": "the thirty-first",
+      "example": "Some months have a thirty-first day.",
+      "chinese": "有些月份有三十一日。",
+      "sheet": "assets/scenes/nature-dates-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "有些月份有三十一日。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-calendar",
+        "year": 2025,
+        "month": 10,
+        "day": 31
+      }
+    },
+    {
+      "id": "C02-S03-001",
+      "word": "month",
+      "example": "There are twelve months in a year.",
+      "chinese": "一年有十二个月。",
+      "sheet": "assets/scenes/nature-seasons-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "一年有十二个月。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-year",
+        "year": 2025,
+        "month": 0,
+        "days": 0
+      }
+    },
+    {
+      "id": "C02-S03-002",
+      "word": "year",
+      "example": "A year has twelve months.",
+      "chinese": "一年有十二个月。",
+      "sheet": "assets/scenes/nature-seasons-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "一年有十二个月。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-year",
+        "year": 2025,
+        "month": 0,
+        "days": 0
+      }
+    },
+    {
+      "id": "C02-S03-003",
+      "word": "January",
+      "example": "January is the first month of the year.",
+      "chinese": "一月是一年中的第一个月。",
+      "sheet": "assets/scenes/nature-seasons-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "一月是一年中的第一个月。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-year",
+        "year": 2025,
+        "month": 1,
+        "days": 0
+      }
+    },
+    {
+      "id": "C02-S03-004",
+      "word": "February",
+      "example": "February is the shortest month in a common year.",
+      "chinese": "平年二月是天数最少的月份。",
+      "sheet": "assets/scenes/nature-seasons-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "平年二月是天数最少的月份。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-year",
+        "year": 2025,
+        "month": 2,
+        "days": 0
+      }
+    },
+    {
+      "id": "C02-S03-005",
+      "word": "March",
+      "example": "Spring begins in March in many places.",
+      "chinese": "在许多地方，春季从三月开始。",
+      "sheet": "assets/scenes/nature-seasons-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "在许多地方，春季从三月开始。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-year",
+        "year": 2025,
+        "month": 3,
+        "days": 0
+      }
+    },
+    {
+      "id": "C02-S03-006",
+      "word": "April",
+      "example": "April can be rainy.",
+      "chinese": "四月可能多雨。",
+      "sheet": "assets/scenes/nature-seasons-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "四月可能多雨。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-year",
+        "year": 2025,
+        "month": 4,
+        "days": 0
+      }
+    },
+    {
+      "id": "C02-S03-007",
+      "word": "May",
+      "example": "Flowers grow in May.",
+      "chinese": "花儿在五月生长。",
+      "sheet": "assets/scenes/nature-seasons-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "花儿在五月生长。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-year",
+        "year": 2025,
+        "month": 5,
+        "days": 0
+      }
+    },
+    {
+      "id": "C02-S03-008",
+      "word": "June",
+      "example": "June is often warm.",
+      "chinese": "六月通常比较暖和。",
+      "sheet": "assets/scenes/nature-seasons-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "六月通常比较暖和。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-year",
+        "year": 2025,
+        "month": 6,
+        "days": 0
+      }
+    },
+    {
+      "id": "C02-S03-009",
+      "word": "July",
+      "example": "We have a holiday in July.",
+      "chinese": "我们七月有假期。",
+      "sheet": "assets/scenes/nature-seasons-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "我们七月有假期。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-year",
+        "year": 2025,
+        "month": 7,
+        "days": 0
+      }
+    },
+    {
+      "id": "C02-S03-010",
+      "word": "August",
+      "example": "August can be hot.",
+      "chinese": "八月可能很热。",
+      "sheet": "assets/scenes/nature-seasons-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "八月可能很热。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-year",
+        "year": 2025,
+        "month": 8,
+        "days": 0
+      }
+    },
+    {
+      "id": "C02-S03-011",
+      "word": "September",
+      "example": "School often starts in September.",
+      "chinese": "学校通常在九月开学。",
+      "sheet": "assets/scenes/nature-seasons-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "学校通常在九月开学。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-year",
+        "year": 2025,
+        "month": 9,
+        "days": 0
+      }
+    },
+    {
+      "id": "C02-S03-012",
+      "word": "October",
+      "example": "The leaves turn yellow in October.",
+      "chinese": "树叶在十月变黄。",
+      "sheet": "assets/scenes/nature-seasons-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "树叶在十月变黄。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-year",
+        "year": 2025,
+        "month": 10,
+        "days": 0
+      }
+    },
+    {
+      "id": "C02-S03-013",
+      "word": "November",
+      "example": "November can be cold.",
+      "chinese": "十一月可能很冷。",
+      "sheet": "assets/scenes/nature-seasons-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "十一月可能很冷。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-year",
+        "year": 2025,
+        "month": 11,
+        "days": 0
+      }
+    },
+    {
+      "id": "C02-S03-014",
+      "word": "December",
+      "example": "December is the last month of the year.",
+      "chinese": "十二月是一年中的最后一个月。",
+      "sheet": "assets/scenes/nature-seasons-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "十二月是一年中的最后一个月。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-year",
+        "year": 2025,
+        "month": 12,
+        "days": 0
+      }
+    },
+    {
+      "id": "C02-S03-015",
+      "word": "this month",
+      "example": "We have a school trip this month.",
+      "chinese": "我们这个月有学校旅行。",
+      "sheet": "assets/scenes/nature-seasons-01.webp",
+      "column": 2,
+      "row": 0,
+      "kind": "nature",
+      "description": "我们这个月有学校旅行。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S03-016",
+      "word": "next month",
+      "example": "My birthday is next month.",
+      "chinese": "我的生日在下个月。",
+      "sheet": "assets/scenes/nature-seasons-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "我的生日在下个月。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-relative",
+        "unit": "month",
+        "offset": 1
+      }
+    },
+    {
+      "id": "C02-S03-017",
+      "word": "last month",
+      "example": "I started this book last month.",
+      "chinese": "我上个月开始读这本书。",
+      "sheet": "assets/scenes/nature-seasons-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "我上个月开始读这本书。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-relative",
+        "unit": "month",
+        "offset": -1
+      }
+    },
+    {
+      "id": "C02-S03-018",
+      "word": "every month",
+      "example": "We visit the library every month.",
+      "chinese": "我们每个月都去图书馆。",
+      "sheet": "assets/scenes/nature-seasons-01.webp",
+      "column": 3,
+      "row": 0,
+      "kind": "nature",
+      "description": "我们每个月都去图书馆。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S03-019",
+      "word": "monthly",
+      "example": "We have a monthly meeting.",
+      "chinese": "我们每个月开一次会。",
+      "sheet": "assets/scenes/nature-seasons-01.webp",
+      "column": 1,
+      "row": 0,
+      "kind": "nature",
+      "description": "我们每个月开一次会。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-year",
+        "year": 2025,
+        "month": 0,
+        "days": 0
+      }
+    },
+    {
+      "id": "C02-S03-020",
+      "word": "leap year",
+      "example": "A leap year has 366 days.",
+      "chinese": "闰年有三百六十六天。",
+      "sheet": "assets/scenes/nature-seasons-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "闰年有三百六十六天。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-year",
+        "year": 2024,
+        "month": 2,
+        "days": 366
+      }
+    },
+    {
+      "id": "C02-S03-021",
+      "word": "common year",
+      "example": "A common year has 365 days.",
+      "chinese": "平年有三百六十五天。",
+      "sheet": "assets/scenes/nature-seasons-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "平年有三百六十五天。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-year",
+        "year": 2025,
+        "month": 2,
+        "days": 365
+      }
+    },
+    {
+      "id": "C02-S03-022",
+      "word": "calendar year",
+      "example": "A calendar year starts in January.",
+      "chinese": "公历年从一月开始。",
+      "sheet": "assets/scenes/nature-seasons-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "公历年从一月开始。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-year",
+        "year": 2025,
+        "month": 1,
+        "days": 0
+      }
+    },
+    {
+      "id": "C02-S03-023",
+      "word": "New Year's Day",
+      "example": "New Year's Day is on the first of January.",
+      "chinese": "元旦是一月一日。",
+      "sheet": "assets/scenes/nature-seasons-01.webp",
+      "column": 1,
+      "row": 1,
+      "kind": "nature",
+      "description": "元旦是一月一日。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S03-024",
+      "word": "New Year's Eve",
+      "example": "We stay up late on New Year's Eve.",
+      "chinese": "除夕夜我们会晚睡。",
+      "sheet": "assets/scenes/nature-seasons-01.webp",
+      "column": 1,
+      "row": 1,
+      "kind": "nature",
+      "description": "除夕夜我们会晚睡。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S03-025",
+      "word": "at the beginning of the month",
+      "example": "I get my timetable at the beginning of the month.",
+      "chinese": "我在月初拿到时间表。",
+      "sheet": "assets/scenes/nature-seasons-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "我在月初拿到时间表。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-calendar",
+        "year": 2025,
+        "month": 9,
+        "day": 1
+      }
+    },
+    {
+      "id": "C02-S03-026",
+      "word": "at the end of the month",
+      "example": "We pay the bill at the end of the month.",
+      "chinese": "我们在月底付账。",
+      "sheet": "assets/scenes/nature-seasons-01.webp",
+      "column": 0,
+      "row": 1,
+      "kind": "nature",
+      "description": "我们在月底付账。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-calendar",
+        "year": 2025,
+        "month": 9,
+        "day": 30
+      }
+    },
+    {
+      "id": "C02-S03-027",
+      "word": "Which month comes after May?",
+      "example": "Which month comes after May? June.",
+      "chinese": "五月之后是哪个月？六月。",
+      "sheet": "assets/scenes/nature-seasons-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "五月之后是哪个月？六月。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-year",
+        "year": 2025,
+        "month": 6,
+        "days": 0
+      }
+    },
+    {
+      "id": "C02-S03-028",
+      "word": "My birthday is in June.",
+      "example": "My birthday is in June.",
+      "chinese": "我的生日在六月。",
+      "sheet": "assets/scenes/nature-dates-01.webp",
+      "column": 2,
+      "row": 1,
+      "kind": "nature",
+      "description": "我的生日在六月。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-units",
+        "value": "6月"
+      }
+    },
+    {
+      "id": "C02-S03-029",
+      "word": "season",
+      "example": "What is your favourite season?",
+      "chinese": "你最喜欢哪个季节？",
+      "sheet": "assets/scenes/nature-seasons-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "你最喜欢哪个季节？ 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-season",
+        "selected": -1
+      }
+    },
+    {
+      "id": "C02-S03-030",
+      "word": "spring",
+      "example": "Flowers grow in spring.",
+      "chinese": "春天花儿生长。",
+      "sheet": "assets/scenes/nature-seasons-01.webp",
+      "column": 2,
+      "row": 1,
+      "kind": "nature",
+      "description": "春天花儿生长。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S03-031",
+      "word": "summer",
+      "example": "We swim in summer.",
+      "chinese": "我们夏天游泳。",
+      "sheet": "assets/scenes/nature-seasons-01.webp",
+      "column": 3,
+      "row": 1,
+      "kind": "nature",
+      "description": "我们夏天游泳。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S03-032",
+      "word": "autumn",
+      "example": "Leaves turn brown in autumn.",
+      "chinese": "秋天树叶会变成棕色。",
+      "sheet": "assets/scenes/nature-seasons-02.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "秋天树叶会变成棕色。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S03-033",
+      "word": "winter",
+      "example": "It can snow in winter.",
+      "chinese": "冬天可能下雪。",
+      "sheet": "assets/scenes/nature-seasons-02.webp",
+      "column": 1,
+      "row": 0,
+      "kind": "nature",
+      "description": "冬天可能下雪。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S03-034",
+      "word": "springtime",
+      "example": "The garden is beautiful in springtime.",
+      "chinese": "春天时花园很美。",
+      "sheet": "assets/scenes/nature-seasons-02.webp",
+      "column": 2,
+      "row": 0,
+      "kind": "nature",
+      "description": "春天时花园很美。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S03-035",
+      "word": "summertime",
+      "example": "We spend more time outside in summertime.",
+      "chinese": "夏天我们会花更多时间在户外。",
+      "sheet": "assets/scenes/nature-seasons-02.webp",
+      "column": 3,
+      "row": 0,
+      "kind": "nature",
+      "description": "夏天我们会花更多时间在户外。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S03-036",
+      "word": "seasonal",
+      "example": "These are seasonal flowers.",
+      "chinese": "这些是应季花卉。",
+      "sheet": "assets/scenes/nature-seasons-01.webp",
+      "column": 2,
+      "row": 1,
+      "kind": "nature",
+      "description": "这些是应季花卉。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S03-037",
+      "word": "spring flowers",
+      "example": "Spring flowers grow in the garden.",
+      "chinese": "春天的花在花园里生长。",
+      "sheet": "assets/scenes/nature-seasons-01.webp",
+      "column": 2,
+      "row": 1,
+      "kind": "nature",
+      "description": "春天的花在花园里生长。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S03-038",
+      "word": "blossom",
+      "example": "The trees blossom in spring.",
+      "chinese": "树木在春天开花。",
+      "sheet": "assets/scenes/nature-seasons-02.webp",
+      "column": 0,
+      "row": 1,
+      "kind": "nature",
+      "description": "树木在春天开花。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S03-039",
+      "word": "bloom",
+      "example": "The roses bloom in May.",
+      "chinese": "玫瑰在五月盛开。",
+      "sheet": "assets/scenes/nature-seasons-02.webp",
+      "column": 1,
+      "row": 1,
+      "kind": "nature",
+      "description": "玫瑰在五月盛开。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S03-040",
+      "word": "new leaves",
+      "example": "New leaves appear in spring.",
+      "chinese": "春天会长出新叶。",
+      "sheet": "assets/scenes/nature-seasons-02.webp",
+      "column": 2,
+      "row": 1,
+      "kind": "nature",
+      "description": "春天会长出新叶。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S03-041",
+      "word": "summer holiday",
+      "example": "We visit the seaside in the summer holiday.",
+      "chinese": "暑假我们去海边。",
+      "sheet": "assets/scenes/nature-seasons-02.webp",
+      "column": 3,
+      "row": 1,
+      "kind": "nature",
+      "description": "暑假我们去海边。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S03-042",
+      "word": "go swimming",
+      "example": "We go swimming in summer.",
+      "chinese": "我们夏天去游泳。",
+      "sheet": "assets/scenes/nature-seasons-01.webp",
+      "column": 3,
+      "row": 1,
+      "kind": "nature",
+      "description": "我们夏天去游泳。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S03-043",
+      "word": "have a picnic",
+      "example": "We have a picnic in spring.",
+      "chinese": "我们春天去野餐。",
+      "sheet": "assets/scenes/nature-seasons-03.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "我们春天去野餐。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S03-044",
+      "word": "autumn leaves",
+      "example": "Autumn leaves are red and gold.",
+      "chinese": "秋叶是红色和金色的。",
+      "sheet": "assets/scenes/nature-seasons-02.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "秋叶是红色和金色的。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S03-045",
+      "word": "fall",
+      "example": "Leaves fall from the trees in autumn.",
+      "chinese": "秋天树叶从树上落下。",
+      "sheet": "assets/scenes/nature-seasons-03.webp",
+      "column": 1,
+      "row": 0,
+      "kind": "nature",
+      "description": "秋天树叶从树上落下。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S03-046",
+      "word": "harvest",
+      "example": "Farmers harvest apples in autumn.",
+      "chinese": "农民在秋天收获苹果。",
+      "sheet": "assets/scenes/nature-seasons-03.webp",
+      "column": 2,
+      "row": 0,
+      "kind": "nature",
+      "description": "农民在秋天收获苹果。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S03-047",
+      "word": "winter coat",
+      "example": "Wear your winter coat when it is cold.",
+      "chinese": "天气冷时穿上冬季外套。",
+      "sheet": "assets/scenes/nature-seasons-03.webp",
+      "column": 3,
+      "row": 0,
+      "kind": "nature",
+      "description": "天气冷时穿上冬季外套。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S03-048",
+      "word": "snowman",
+      "example": "The children make a snowman in winter.",
+      "chinese": "孩子们冬天堆雪人。",
+      "sheet": "assets/scenes/nature-seasons-03.webp",
+      "column": 0,
+      "row": 1,
+      "kind": "nature",
+      "description": "孩子们冬天堆雪人。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S03-049",
+      "word": "snowball",
+      "example": "He throws a snowball.",
+      "chinese": "他扔了一个雪球。",
+      "sheet": "assets/scenes/nature-seasons-03.webp",
+      "column": 1,
+      "row": 1,
+      "kind": "nature",
+      "description": "他扔了一个雪球。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S03-050",
+      "word": "hibernate",
+      "example": "Some animals hibernate in winter.",
+      "chinese": "一些动物在冬天冬眠。",
+      "sheet": "assets/scenes/nature-seasons-03.webp",
+      "column": 2,
+      "row": 1,
+      "kind": "nature",
+      "description": "一些动物在冬天冬眠。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S03-051",
+      "word": "grow",
+      "example": "Plants grow quickly in spring.",
+      "chinese": "植物在春天长得很快。",
+      "sheet": "assets/scenes/nature-seasons-03.webp",
+      "column": 3,
+      "row": 1,
+      "kind": "nature",
+      "description": "植物在春天长得很快。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S03-052",
+      "word": "days get longer",
+      "example": "Days get longer in spring.",
+      "chinese": "春天白天会变长。",
+      "sheet": "assets/scenes/nature-seasons-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "春天白天会变长。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-daylight",
+        "direction": "longer"
+      }
+    },
+    {
+      "id": "C02-S03-053",
+      "word": "days get shorter",
+      "example": "Days get shorter in autumn.",
+      "chinese": "秋天白天会变短。",
+      "sheet": "assets/scenes/nature-seasons-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "秋天白天会变短。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-daylight",
+        "direction": "shorter"
+      }
+    },
+    {
+      "id": "C02-S03-054",
+      "word": "leaves change colour",
+      "example": "Leaves change colour in autumn.",
+      "chinese": "秋天树叶会变色。",
+      "sheet": "assets/scenes/nature-seasons-02.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "秋天树叶会变色。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S03-055",
+      "word": "Which season do you like?",
+      "example": "Which season do you like best?",
+      "chinese": "你最喜欢哪个季节？",
+      "sheet": "assets/scenes/nature-seasons-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "你最喜欢哪个季节？ 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-season",
+        "selected": -1
+      }
+    },
+    {
+      "id": "C02-S03-056",
+      "word": "My favourite season is spring.",
+      "example": "My favourite season is spring.",
+      "chinese": "我最喜欢的季节是春天。",
+      "sheet": "assets/scenes/nature-seasons-01.webp",
+      "column": 2,
+      "row": 1,
+      "kind": "nature",
+      "description": "我最喜欢的季节是春天。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S04-001",
+      "word": "weather",
+      "example": "What is the weather like today?",
+      "chinese": "今天天气怎么样？",
+      "sheet": "assets/scenes/nature-weather-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "今天天气怎么样？ 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-weather",
+        "selected": -1
+      }
+    },
+    {
+      "id": "C02-S04-002",
+      "word": "climate",
+      "example": "The climate here is warm.",
+      "chinese": "这里的气候温暖。",
+      "sheet": "assets/scenes/nature-weather-01.webp",
+      "column": 1,
+      "row": 0,
+      "kind": "nature",
+      "description": "这里的气候温暖。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S04-003",
+      "word": "forecast",
+      "example": "Listen to the weather forecast.",
+      "chinese": "听天气预报。",
+      "sheet": "assets/scenes/nature-weather-01.webp",
+      "column": 2,
+      "row": 0,
+      "kind": "nature",
+      "description": "听天气预报。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S04-004",
+      "word": "weather forecast",
+      "example": "The weather forecast says it will rain.",
+      "chinese": "天气预报说会下雨。",
+      "sheet": "assets/scenes/nature-weather-01.webp",
+      "column": 3,
+      "row": 0,
+      "kind": "nature",
+      "description": "天气预报说会下雨。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S04-005",
+      "word": "sunny",
+      "example": "It is sunny today.",
+      "chinese": "今天天气晴朗。",
+      "sheet": "assets/scenes/nature-weather-01.webp",
+      "column": 0,
+      "row": 1,
+      "kind": "nature",
+      "description": "今天天气晴朗。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S04-006",
+      "word": "cloudy",
+      "example": "The sky is cloudy.",
+      "chinese": "天空多云。",
+      "sheet": "assets/scenes/nature-weather-01.webp",
+      "column": 1,
+      "row": 1,
+      "kind": "nature",
+      "description": "天空多云。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S04-007",
+      "word": "rainy",
+      "example": "It is a rainy day.",
+      "chinese": "今天是雨天。",
+      "sheet": "assets/scenes/nature-weather-01.webp",
+      "column": 2,
+      "row": 1,
+      "kind": "nature",
+      "description": "今天是雨天。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S04-008",
+      "word": "windy",
+      "example": "It is windy outside.",
+      "chinese": "外面风很大。",
+      "sheet": "assets/scenes/nature-weather-01.webp",
+      "column": 3,
+      "row": 1,
+      "kind": "nature",
+      "description": "外面风很大。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S04-009",
+      "word": "snowy",
+      "example": "It is snowy in the mountains.",
+      "chinese": "山上多雪。",
+      "sheet": "assets/scenes/nature-weather-02.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "山上多雪。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S04-010",
+      "word": "foggy",
+      "example": "It is foggy this morning.",
+      "chinese": "今天早上有雾。",
+      "sheet": "assets/scenes/nature-weather-02.webp",
+      "column": 1,
+      "row": 0,
+      "kind": "nature",
+      "description": "今天早上有雾。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S04-011",
+      "word": "stormy",
+      "example": "The sea is stormy.",
+      "chinese": "海上风暴很大。",
+      "sheet": "assets/scenes/nature-weather-02.webp",
+      "column": 2,
+      "row": 0,
+      "kind": "nature",
+      "description": "海上风暴很大。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S04-012",
+      "word": "icy",
+      "example": "The road is icy.",
+      "chinese": "路面结冰了。",
+      "sheet": "assets/scenes/nature-weather-02.webp",
+      "column": 3,
+      "row": 0,
+      "kind": "nature",
+      "description": "路面结冰了。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S04-013",
+      "word": "wet",
+      "example": "My shoes are wet.",
+      "chinese": "我的鞋湿了。",
+      "sheet": "assets/scenes/nature-weather-02.webp",
+      "column": 0,
+      "row": 1,
+      "kind": "nature",
+      "description": "我的鞋湿了。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S04-014",
+      "word": "dry",
+      "example": "The ground is dry.",
+      "chinese": "地面是干的。",
+      "sheet": "assets/scenes/nature-weather-02.webp",
+      "column": 1,
+      "row": 1,
+      "kind": "nature",
+      "description": "地面是干的。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S04-015",
+      "word": "hot",
+      "example": "It is hot in July.",
+      "chinese": "七月天气很热。",
+      "sheet": "assets/scenes/nature-weather-02.webp",
+      "column": 2,
+      "row": 1,
+      "kind": "nature",
+      "description": "七月天气很热。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S04-016",
+      "word": "warm",
+      "example": "The weather is warm today.",
+      "chinese": "今天天气暖和。",
+      "sheet": "assets/scenes/nature-weather-02.webp",
+      "column": 3,
+      "row": 1,
+      "kind": "nature",
+      "description": "今天天气暖和。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S04-017",
+      "word": "cool",
+      "example": "It is cool in the evening.",
+      "chinese": "晚上天气凉爽。",
+      "sheet": "assets/scenes/nature-weather-03.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "晚上天气凉爽。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S04-018",
+      "word": "cold",
+      "example": "It is cold in winter.",
+      "chinese": "冬天很冷。",
+      "sheet": "assets/scenes/nature-weather-03.webp",
+      "column": 1,
+      "row": 0,
+      "kind": "nature",
+      "description": "冬天很冷。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S04-019",
+      "word": "freezing",
+      "example": "It is freezing outside.",
+      "chinese": "外面冷极了。",
+      "sheet": "assets/scenes/nature-weather-03.webp",
+      "column": 2,
+      "row": 0,
+      "kind": "nature",
+      "description": "外面冷极了。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S04-020",
+      "word": "mild",
+      "example": "We have a mild winter.",
+      "chinese": "我们的冬天比较温和。",
+      "sheet": "assets/scenes/nature-weather-03.webp",
+      "column": 3,
+      "row": 0,
+      "kind": "nature",
+      "description": "我们的冬天比较温和。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S04-021",
+      "word": "humid",
+      "example": "The air is humid today.",
+      "chinese": "今天空气很潮湿。",
+      "sheet": "assets/scenes/nature-weather-03.webp",
+      "column": 0,
+      "row": 1,
+      "kind": "nature",
+      "description": "今天空气很潮湿。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S04-022",
+      "word": "temperature",
+      "example": "The temperature is ten degrees.",
+      "chinese": "气温是十度。",
+      "sheet": "assets/scenes/nature-weather-03.webp",
+      "column": 1,
+      "row": 1,
+      "kind": "nature",
+      "description": "气温是十度。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-temperature",
+        "value": 10
+      }
+    },
+    {
+      "id": "C02-S04-023",
+      "word": "degree",
+      "example": "It is twenty degrees today.",
+      "chinese": "今天二十度。",
+      "sheet": "assets/scenes/nature-weather-03.webp",
+      "column": 1,
+      "row": 1,
+      "kind": "nature",
+      "description": "今天二十度。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-temperature",
+        "value": 20
+      }
+    },
+    {
+      "id": "C02-S04-024",
+      "word": "rain",
+      "example": "The rain is heavy.",
+      "chinese": "雨下得很大。",
+      "sheet": "assets/scenes/nature-weather-03.webp",
+      "column": 2,
+      "row": 1,
+      "kind": "nature",
+      "description": "雨下得很大。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S04-025",
+      "word": "drizzle",
+      "example": "There is a little drizzle.",
+      "chinese": "下着一点毛毛雨。",
+      "sheet": "assets/scenes/nature-weather-03.webp",
+      "column": 3,
+      "row": 1,
+      "kind": "nature",
+      "description": "下着一点毛毛雨。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S04-026",
+      "word": "shower",
+      "example": "A shower may come this afternoon.",
+      "chinese": "今天下午可能有阵雨。",
+      "sheet": "assets/scenes/nature-weather-04.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "今天下午可能有阵雨。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S04-027",
+      "word": "downpour",
+      "example": "We waited inside during the downpour.",
+      "chinese": "倾盆大雨时我们在室内等候。",
+      "sheet": "assets/scenes/nature-weather-04.webp",
+      "column": 1,
+      "row": 0,
+      "kind": "nature",
+      "description": "倾盆大雨时我们在室内等候。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S04-028",
+      "word": "snow",
+      "example": "Snow covers the roof.",
+      "chinese": "雪覆盖了屋顶。",
+      "sheet": "assets/scenes/nature-weather-04.webp",
+      "column": 2,
+      "row": 0,
+      "kind": "nature",
+      "description": "雪覆盖了屋顶。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S04-029",
+      "word": "sleet",
+      "example": "Sleet fell overnight.",
+      "chinese": "夜里下了雨夹雪。",
+      "sheet": "assets/scenes/nature-weather-04.webp",
+      "column": 3,
+      "row": 0,
+      "kind": "nature",
+      "description": "夜里下了雨夹雪。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S04-030",
+      "word": "hail",
+      "example": "Hail hit the window.",
+      "chinese": "冰雹打在窗户上。",
+      "sheet": "assets/scenes/nature-weather-04.webp",
+      "column": 0,
+      "row": 1,
+      "kind": "nature",
+      "description": "冰雹打在窗户上。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S04-031",
+      "word": "wind",
+      "example": "The wind is strong.",
+      "chinese": "风很大。",
+      "sheet": "assets/scenes/nature-weather-01.webp",
+      "column": 3,
+      "row": 1,
+      "kind": "nature",
+      "description": "风很大。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S04-032",
+      "word": "breeze",
+      "example": "A cool breeze is blowing.",
+      "chinese": "凉爽的微风正在吹。",
+      "sheet": "assets/scenes/nature-weather-04.webp",
+      "column": 1,
+      "row": 1,
+      "kind": "nature",
+      "description": "凉爽的微风正在吹。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S04-033",
+      "word": "cloud",
+      "example": "A white cloud is in the sky.",
+      "chinese": "天空中有一朵白云。",
+      "sheet": "assets/scenes/nature-weather-04.webp",
+      "column": 2,
+      "row": 1,
+      "kind": "nature",
+      "description": "天空中有一朵白云。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S04-034",
+      "word": "fog",
+      "example": "The fog is thick.",
+      "chinese": "雾很浓。",
+      "sheet": "assets/scenes/nature-weather-04.webp",
+      "column": 3,
+      "row": 1,
+      "kind": "nature",
+      "description": "雾很浓。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S04-035",
+      "word": "mist",
+      "example": "A light mist covers the hills.",
+      "chinese": "薄雾笼罩着山丘。",
+      "sheet": "assets/scenes/nature-weather-05.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "薄雾笼罩着山丘。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S04-036",
+      "word": "storm",
+      "example": "The storm is getting closer.",
+      "chinese": "风暴越来越近了。",
+      "sheet": "assets/scenes/nature-weather-05.webp",
+      "column": 1,
+      "row": 0,
+      "kind": "nature",
+      "description": "风暴越来越近了。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S04-037",
+      "word": "thunder",
+      "example": "I heard thunder.",
+      "chinese": "我听到了雷声。",
+      "sheet": "assets/scenes/nature-weather-05.webp",
+      "column": 2,
+      "row": 0,
+      "kind": "nature",
+      "description": "我听到了雷声。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S04-038",
+      "word": "lightning",
+      "example": "Lightning lit up the sky.",
+      "chinese": "闪电照亮了天空。",
+      "sheet": "assets/scenes/nature-weather-05.webp",
+      "column": 3,
+      "row": 0,
+      "kind": "nature",
+      "description": "闪电照亮了天空。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S04-039",
+      "word": "rainbow",
+      "example": "A rainbow appeared after the rain.",
+      "chinese": "雨后出现了一道彩虹。",
+      "sheet": "assets/scenes/nature-weather-05.webp",
+      "column": 0,
+      "row": 1,
+      "kind": "nature",
+      "description": "雨后出现了一道彩虹。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S04-040",
+      "word": "sunshine",
+      "example": "The plants need sunshine.",
+      "chinese": "植物需要阳光。",
+      "sheet": "assets/scenes/nature-weather-05.webp",
+      "column": 1,
+      "row": 1,
+      "kind": "nature",
+      "description": "植物需要阳光。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S04-041",
+      "word": "umbrella",
+      "example": "Take an umbrella with you.",
+      "chinese": "带把雨伞。",
+      "sheet": "assets/scenes/nature-weather-05.webp",
+      "column": 2,
+      "row": 1,
+      "kind": "nature",
+      "description": "带把雨伞。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S04-042",
+      "word": "raincoat",
+      "example": "Wear your raincoat in the rain.",
+      "chinese": "下雨时穿上雨衣。",
+      "sheet": "assets/scenes/nature-weather-01.webp",
+      "column": 2,
+      "row": 1,
+      "kind": "nature",
+      "description": "下雨时穿上雨衣。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S04-043",
+      "word": "rain boots",
+      "example": "My rain boots keep my feet dry.",
+      "chinese": "我的雨靴能让脚保持干燥。",
+      "sheet": "assets/scenes/nature-weather-05.webp",
+      "column": 3,
+      "row": 1,
+      "kind": "nature",
+      "description": "我的雨靴能让脚保持干燥。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S04-044",
+      "word": "heavy rain",
+      "example": "Heavy rain is expected tonight.",
+      "chinese": "预计今晚有大雨。",
+      "sheet": "assets/scenes/nature-weather-03.webp",
+      "column": 2,
+      "row": 1,
+      "kind": "nature",
+      "description": "预计今晚有大雨。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S04-045",
+      "word": "light rain",
+      "example": "There will be light rain this morning.",
+      "chinese": "今天上午会有小雨。",
+      "sheet": "assets/scenes/nature-weather-03.webp",
+      "column": 3,
+      "row": 1,
+      "kind": "nature",
+      "description": "今天上午会有小雨。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S04-046",
+      "word": "strong wind",
+      "example": "Strong wind moved the branches.",
+      "chinese": "强风吹动了树枝。",
+      "sheet": "assets/scenes/nature-weather-01.webp",
+      "column": 3,
+      "row": 1,
+      "kind": "nature",
+      "description": "强风吹动了树枝。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S04-047",
+      "word": "It's raining.",
+      "example": "It's raining, so take an umbrella.",
+      "chinese": "正在下雨，所以带上雨伞。",
+      "sheet": "assets/scenes/nature-weather-01.webp",
+      "column": 2,
+      "row": 1,
+      "kind": "nature",
+      "description": "正在下雨，所以带上雨伞。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S04-048",
+      "word": "It's snowing.",
+      "example": "It's snowing outside.",
+      "chinese": "外面正在下雪。",
+      "sheet": "assets/scenes/nature-weather-04.webp",
+      "column": 2,
+      "row": 0,
+      "kind": "nature",
+      "description": "外面正在下雪。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S04-049",
+      "word": "What's the weather like?",
+      "example": "What's the weather like today?",
+      "chinese": "今天天气怎么样？",
+      "sheet": "assets/scenes/nature-weather-01.webp",
+      "column": 0,
+      "row": 0,
+      "kind": "nature",
+      "description": "今天天气怎么样？ 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。",
+      "visual": {
+        "type": "nature-weather",
+        "selected": -1
+      }
+    },
+    {
+      "id": "C02-S04-050",
+      "word": "It's sunny today.",
+      "example": "It's sunny today. Let's go outside.",
+      "chinese": "今天天气晴朗。我们出去吧。",
+      "sheet": "assets/scenes/nature-weather-01.webp",
+      "column": 0,
+      "row": 1,
+      "kind": "nature",
+      "description": "今天天气晴朗。我们出去吧。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
+    },
+    {
+      "id": "C02-S04-051",
+      "word": "It might rain.",
+      "example": "Take your umbrella. It might rain.",
+      "chinese": "带上雨伞，可能会下雨。",
+      "sheet": "assets/scenes/nature-weather-05.webp",
+      "column": 2,
+      "row": 1,
+      "kind": "nature",
+      "description": "带上雨伞，可能会下雨。 对应现有首页人物与场景；钟表、日历和温度按题意精确标示。"
     }
   ]
 }

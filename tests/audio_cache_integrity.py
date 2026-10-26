@@ -52,7 +52,7 @@ try:
         page.wait_for_function('document.querySelector("[data-mobile-status]").textContent.startsWith("已保存离线内容")', timeout=90000)
         assert sorted(requests) == ['audio/en-us/word/hello.mp3', 'audio/en-us/word/hi.mp3'], requests
         assert page.evaluate('!!navigator.serviceWorker.controller')
-        print('PASS: cache update reuses 608 complete original MP3s and refetches two corrupt/truncated files', flush=True)
+        print('PASS: cache update reuses 1026 complete MP3s and refetches two corrupt/truncated files', flush=True)
         requests.clear()
         page.evaluate('''async()=>{const c=await caches.open(FROG_OFFLINE_CACHE);await c.put('audio/en-us/word/hello.mp3',new Response('bad cached bytes',{headers:{'Content-Type':'audio/mpeg'}}));}''')
         page.locator('#global-search').fill('hello')

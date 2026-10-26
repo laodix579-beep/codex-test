@@ -1,0 +1,4532 @@
+{
+  "audio/en-us/sentence/hello-nice-to-meet-you.mp3": {
+    "sha256": "a6581adeb17d05e64f694852dff18e462199823acae9940c4c7e63ab8c5ae6f2",
+    "bytes": 48044
+  },
+  "audio/en-us/sentence/my-name-is-alex.mp3": {
+    "sha256": "966f5edac8a09654509f7470adaebe294d247892fbe29094cba4af3dd093649e",
+    "bytes": 41132
+  },
+  "audio/en-us/sentence/how-is-your-day-going.mp3": {
+    "sha256": "80f484aaf1add1b53b1f52ae715a993901b5c20ffabdbae30e339a7d2cd34dff",
+    "bytes": 42668
+  },
+  "audio/en-us/sentence/could-you-say-that-again.mp3": {
+    "sha256": "dd7e1f88350e0aaab996a63e05c78ebe89321839bd32b736b8d7d56e1da02828",
+    "bytes": 42284
+  },
+  "audio/en-us/sentence/i-am-learning-english-every-day.mp3": {
+    "sha256": "27b6703a3ab25655a6df3e974b3b748eb9dbb1ba6a1b23cf899fb4bfe559c042",
+    "bytes": 51884
+  },
+  "audio/en-us/sentence/thank-you-for-your-help.mp3": {
+    "sha256": "165e600d50180d50945140a54075ffafe897c34fbbf0197a707936b768f8fa99",
+    "bytes": 41516
+  },
+  "audio/en-us/sentence/see-you-tomorrow.mp3": {
+    "sha256": "97b7f82658fd157a3d974dbb08eb1250ee7966f64cfb3dc2fcab32676b00617d",
+    "bytes": 38828
+  },
+  "audio/en-us/sentence/practice-makes-progress.mp3": {
+    "sha256": "e046ec6fe25490b9fa23981587ef8c71eb099f26b9063b71446b717e99137fff",
+    "bytes": 45356
+  },
+  "audio/en-us/sentence/where-is-the-nearest-station.mp3": {
+    "sha256": "988c3ad64da94ebb41d873caf8b87edd5d1dac688df2e9dc22d5e2bf3f76ae1a",
+    "bytes": 46124
+  },
+  "audio/en-us/sentence/i-would-like-a-cup-of-coffee.mp3": {
+    "sha256": "83b9e598e34e52fb061b69d5e731f00857303b198da491cdb703d33c25a7785c",
+    "bytes": 48428
+  },
+  "audio/en-us/sentence/how-much-does-this-cost.mp3": {
+    "sha256": "2fed513c13111c76d688995902018f62b4145f775635c3d0d880216a2a398ab3",
+    "bytes": 44204
+  },
+  "audio/en-us/sentence/can-i-pay-by-card.mp3": {
+    "sha256": "b6bd77ec490c2ba131284a59711c528df55386d1544345930150f50c9fb19c39",
+    "bytes": 42668
+  },
+  "audio/en-us/sentence/i-have-a-reservation.mp3": {
+    "sha256": "0f52aedf6fa0a5f927099b97a99a1c47dfcd2d559d8feafa306d5bea6a0361b6",
+    "bytes": 44204
+  },
+  "audio/en-us/sentence/could-you-recommend-a-local-dish.mp3": {
+    "sha256": "c0e7664c827290c9969e8ebd75a39379d66865c3bbdc00c3a8a8f11e8b837d58",
+    "bytes": 51116
+  },
+  "audio/en-us/sentence/which-platform-should-i-go-to.mp3": {
+    "sha256": "295a9865bae14c6f5db7e9aa35a163095ccc51fa23138d3dd379bdd6cdc1d3a8",
+    "bytes": 49580
+  },
+  "audio/en-us/sentence/is-breakfast-included.mp3": {
+    "sha256": "b5dedc9be17ead9b02a2191eaabee5b065fe8d7fe874d752aa474e90d924d03b",
+    "bytes": 44972
+  },
+  "audio/en-us/sentence/could-we-schedule-a-meeting.mp3": {
+    "sha256": "6f3ae7c967911f0fe29d9912d5284a6dd7b13de4480d4e929c354dbe39629d10",
+    "bytes": 43820
+  },
+  "audio/en-us/sentence/let-me-share-my-screen.mp3": {
+    "sha256": "41f2bddf0db3f09a529760932ef04ba75f974e3545ebb85b43c72d2fbc79b6d3",
+    "bytes": 43436
+  },
+  "audio/en-us/sentence/i-will-send-you-the-details.mp3": {
+    "sha256": "68045d971d35c7ae6c868bb030429ad0c6afc77ec952d2378fb3c72f3beb81d0",
+    "bytes": 47660
+  },
+  "audio/en-us/sentence/what-is-the-deadline-for-this-task.mp3": {
+    "sha256": "555e6e2f171e74b2b308009ba7b7d690125e02ac1f06f03fe63b32ac546e1a31",
+    "bytes": 53420
+  },
+  "audio/en-us/sentence/thank-you-for-your-feedback.mp3": {
+    "sha256": "3091854ac84b6ed4422906e7d55682dbeb276e6b6f9ae2e63e554f34a3e52f88",
+    "bytes": 45356
+  },
+  "audio/en-us/sentence/let-us-review-the-next-steps.mp3": {
+    "sha256": "b2168a206ddf129f01a4ad2110eae294ed62830ed2e8f4b55677e1823aa645d5",
+    "bytes": 48812
+  },
+  "audio/en-us/sentence/hello-i-am-sam.mp3": {
+    "sha256": "2431980c6ac46aee22aa0d8cdd7fb58a61c59eeee12679f80082b1f1331b42af",
+    "bytes": 43052
+  },
+  "audio/en-us/sentence/hi-my-name-is-lily.mp3": {
+    "sha256": "e5e54a5612087de0a5701c45ea8ca751f5455c7997eb7db8ee1bc8dabb44f932",
+    "bytes": 43052
+  },
+  "audio/en-us/sentence/nice-to-meet-you-sam.mp3": {
+    "sha256": "a664135861100d67634fa4e479b0db1511be9087da50f10022ac66c760021730",
+    "bytes": 44204
+  },
+  "audio/en-us/sentence/good-morning-lily.mp3": {
+    "sha256": "2c95bf3aea0209cdc6a8e9799c0778afb76e895a132351e5464ea3a5d0c1f4c2",
+    "bytes": 41516
+  },
+  "audio/en-us/sentence/good-afternoon-sam.mp3": {
+    "sha256": "9fdea7b2c5b5cbf16e51339528679ac5c247b0e99550e86e24827135f4133a24",
+    "bytes": 44972
+  },
+  "audio/en-us/sentence/goodbye-my-friends.mp3": {
+    "sha256": "5edead94d2b355830cae5e3582b59321a027dfc9e0786052babc7b8c8705e0aa",
+    "bytes": 42668
+  },
+  "audio/en-us/sentence/hello-i-m-li-dong.mp3": {
+    "sha256": "b78e749f1c89745569711912be7d27a1a31ebbe02fe76888d920e98558d9b2f3",
+    "bytes": 43820
+  },
+  "audio/en-us/sentence/hi-i-m-binbin.mp3": {
+    "sha256": "359b70da5bb5f28ac8b466bb262ac6fa533653004200b435763e8940146fc005",
+    "bytes": 39596
+  },
+  "audio/en-us/sentence/hello-i-m-chen-jie.mp3": {
+    "sha256": "f96e7326b743eac27e1e45af326eb39a1859c69138ab885b16083399dcf2c3a3",
+    "bytes": 45356
+  },
+  "audio/en-us/sentence/hi-i-m-sarah.mp3": {
+    "sha256": "2ea152bd4414fb5e7ce9b951632e70620c2415f54a36f0758adee8c0c6d3bfbb",
+    "bytes": 40364
+  },
+  "audio/en-us/sentence/hello-little-frog.mp3": {
+    "sha256": "9fd8378a497807658cd86c0cc0d4c8b57f2e7ce81d0ef5562f3cc4dc2072caac",
+    "bytes": 42284
+  },
+  "audio/en-us/sentence/wave-your-hand.mp3": {
+    "sha256": "818dc6826ff77dfabe9fc8639817b5220b8cb5f48a002667eaa55442ec66f9b8",
+    "bytes": 38060
+  },
+  "audio/en-us/sentence/say-hello-to-a-friend.mp3": {
+    "sha256": "60f4e7ee309e80da3df0f251b3719aec13c6d8a8bc5a8a44e683319b3070b5a2",
+    "bytes": 42668
+  },
+  "audio/en-us/sentence/i-am-in-my-classroom.mp3": {
+    "sha256": "bb1279271dbe964d134057afefdea254144591b54622575392c303a6adee185e",
+    "bytes": 43820
+  },
+  "audio/en-us/sentence/this-is-our-teacher.mp3": {
+    "sha256": "541079304269ced96e01b9584dfaf42d8aa61f57ade87f25deeb562947fb1eaa",
+    "bytes": 41132
+  },
+  "audio/en-us/sentence/we-are-ready-to-learn.mp3": {
+    "sha256": "06a25392306f1d68d2ae7fd48788873c86f62e1413f2df50563fb3b99e180d0b",
+    "bytes": 41132
+  },
+  "audio/en-us/sentence/please-sit-down.mp3": {
+    "sha256": "fd40c9773960cbd4fdeef9334a2397b12a14cc4a2697b5bf22b0750552d43fe5",
+    "bytes": 40748
+  },
+  "audio/en-us/sentence/please-stand-up.mp3": {
+    "sha256": "571c05df830c912dae2df1d368af354b48eca74868f7ae000316561792872f29",
+    "bytes": 38828
+  },
+  "audio/en-us/sentence/look-at-the-board.mp3": {
+    "sha256": "284646795cd0200105ab5b4fbef27d1b657382fb01e1ace7c18b097faacabcb0",
+    "bytes": 36908
+  },
+  "audio/en-us/sentence/good-morning-teacher.mp3": {
+    "sha256": "927bf17aaa8ce247eebc834f8f14550214f33816f44d07a083c1307ade383d10",
+    "bytes": 43436
+  },
+  "audio/en-us/sentence/may-i-come-in.mp3": {
+    "sha256": "ab7bc143b36a0016ac0970bc68fc2424dd5a7e9b9ca4459e440baf963a41445f",
+    "bytes": 36524
+  },
+  "audio/en-us/sentence/yes-please-come-in.mp3": {
+    "sha256": "d57f8628fac0e1686ee465d7cc6ce15113acdf1e06625ffb21c6c1360039ce0f",
+    "bytes": 44588
+  },
+  "audio/en-us/sentence/raise-your-hand-please.mp3": {
+    "sha256": "e7421f0ebaa46d1ceeb638be727b98bd4519ec484c0b1eb247ebe0fe86438ca1",
+    "bytes": 44972
+  },
+  "audio/en-us/sentence/open-your-book.mp3": {
+    "sha256": "43e379ea41ad940c4c2fd17e4f318d0bfa8d1b7a778d4d915a2e83e6872dfec1",
+    "bytes": 37676
+  },
+  "audio/en-us/sentence/close-your-book.mp3": {
+    "sha256": "fe737d20897c80cf2dd9e44df85fa3c64dec140e1317ec5244326113a30fa709",
+    "bytes": 36908
+  },
+  "audio/en-us/sentence/one-two-three-look-at-me.mp3": {
+    "sha256": "78d82426e55cd9af14ef06bdd21d9f9a86fa052e8162998ca8b13463a3a97a20",
+    "bytes": 49580
+  },
+  "audio/en-us/sentence/let-us-play-together.mp3": {
+    "sha256": "5078143a97e6ed8d84cc06a3ef8adf6f3ce0298afa2fbd796205622ba4f79d6a",
+    "bytes": 42284
+  },
+  "audio/en-us/sentence/thank-you-teacher.mp3": {
+    "sha256": "0cf2c7f122e0a373566080eb9678b196702c94809b04348ef4f4010adf3850b5",
+    "bytes": 41132
+  },
+  "audio/en-us/sentence/listen-with-your-ears.mp3": {
+    "sha256": "4a24bf18de63ddcee255be7dffa31616abd82d57d9ece7f01fdaae9b3f88f18e",
+    "bytes": 43052
+  },
+  "audio/en-us/sentence/look-with-your-eyes.mp3": {
+    "sha256": "ea179b054465a72ef740284412a2081f996bd49c7cd57e751df6147d284b9fd3",
+    "bytes": 39980
+  },
+  "audio/en-us/sentence/speak-in-a-clear-voice.mp3": {
+    "sha256": "b8166a7a9410fdfc0a08a5e455bf4490f367fc718401f76f9207956c543b8f2a",
+    "bytes": 43052
+  },
+  "audio/en-us/sentence/point-to-the-picture.mp3": {
+    "sha256": "c0a8e91cba5e5a47bdc4bf03198580e658b2e0c83ef34c44d0021a3ed5916a33",
+    "bytes": 39980
+  },
+  "audio/en-us/sentence/read-after-me.mp3": {
+    "sha256": "13734ea6b3f363d672a1785e7bfd4fe9f1ff34afba3a04d93da21cbcebb64549",
+    "bytes": 39980
+  },
+  "audio/en-us/sentence/clap-your-hands.mp3": {
+    "sha256": "dc74f6e5df1dca7ef3a953addb35f6b19ddf241c99e610b44433336cc5df6acc",
+    "bytes": 38828
+  },
+  "audio/en-us/sentence/let-us-work-together.mp3": {
+    "sha256": "9b0134a4c1a34c763f9d04ba91ad79781d7e1968095519be3c014a4f92571716",
+    "bytes": 43052
+  },
+  "audio/en-us/sentence/give-me-a-high-five.mp3": {
+    "sha256": "7b6b45557592dc2606b4d26405269238bcd9f49a7585bf7ad9bf4cffcc2de679",
+    "bytes": 42284
+  },
+  "audio/en-us/sentence/well-done-my-friend.mp3": {
+    "sha256": "866665a1a0255ec1fa24bf6d1be814590d2bda703d9976b82573f9520b9bda7e",
+    "bytes": 42668
+  },
+  "audio/en-us/sentence/can-you-draw-a-star.mp3": {
+    "sha256": "09fe77ab812a10a92fdffe84664fe24b3fbdc504316862608ec433befd3d87a6",
+    "bytes": 42668
+  },
+  "audio/en-us/sentence/i-can-sing-a-song.mp3": {
+    "sha256": "6e8c0520c65f5660ff9e9e590e942b1585faf959d6ff348bfa17400230129693",
+    "bytes": 41516
+  },
+  "audio/en-us/sentence/let-us-try-again.mp3": {
+    "sha256": "f25f00dc146dd6c06a8c932b66dd8495916c253495cd7f26c00a207061bbad04",
+    "bytes": 40748
+  },
+  "audio/en-us/sentence/my-bag-is-ready.mp3": {
+    "sha256": "382d0fff5726cb10ef5364f61a68c5cd41040af5253d1cfbb5d9e9a66e798cac",
+    "bytes": 42284
+  },
+  "audio/en-us/sentence/my-books-are-in-my-bag.mp3": {
+    "sha256": "18e94a7d7c5d27ee56406a14be42ac79e71ce0ef04738ea393c226697e2f625c",
+    "bytes": 44588
+  },
+  "audio/en-us/sentence/let-us-go-to-school.mp3": {
+    "sha256": "1affbc10d1c91b7017610af7c708e72e77dbd997cb79ae9bf668528d6f1f40bd",
+    "bytes": 42668
+  },
+  "audio/en-us/sentence/take-out-your-pencil.mp3": {
+    "sha256": "7663a7e339a8c7be873fde7df28f5bc1297d756ee7589e7de9a4c6e942128f4a",
+    "bytes": 40748
+  },
+  "audio/en-us/sentence/put-away-your-ruler.mp3": {
+    "sha256": "0fad9f23b15367f15b128da88aa94d13817e61ff25411b8e7fe57860c7242c46",
+    "bytes": 40364
+  },
+  "audio/en-us/sentence/show-me-your-book.mp3": {
+    "sha256": "89fddd143fc2870e7dbcd280c7b7799395262fda7a718c1cd173d8b7c9255c87",
+    "bytes": 37676
+  },
+  "audio/en-us/sentence/is-this-your-pencil.mp3": {
+    "sha256": "bf8bd3d68d575d73509d6f722b37fc67afbd0fc7dd084abd7406b0359df5ffbf",
+    "bytes": 41516
+  },
+  "audio/en-us/sentence/yes-it-is-my-pencil.mp3": {
+    "sha256": "c36c9ff14a3c49f63073f0143f8bad99739c2cae5aca34de1046a17280c34365",
+    "bytes": 49580
+  },
+  "audio/en-us/sentence/here-is-your-eraser.mp3": {
+    "sha256": "0cfed4b6a41fb41d4123922f3ccf33cdb1a189f0722b7b773d9dd82e88481bae",
+    "bytes": 42284
+  },
+  "audio/en-us/sentence/i-have-a-blue-bag.mp3": {
+    "sha256": "bd7d966314d1cfbc774fd3e47126c9bc00796394271cf5aa70fca730a1da9ccd",
+    "bytes": 41516
+  },
+  "audio/en-us/sentence/i-have-two-pencils.mp3": {
+    "sha256": "2668182f9128526e6dc8fe9119155af06fe05f87305d1a25e4a1ea1af30a12a8",
+    "bytes": 43820
+  },
+  "audio/en-us/sentence/this-is-my-new-ruler.mp3": {
+    "sha256": "b702f13fb1c0048d4a0c2dae7cbdbc1b77e34d4051fbbe33e0a2de3361695b21",
+    "bytes": 43436
+  },
+  "audio/en-us/sentence/find-a-red-pencil.mp3": {
+    "sha256": "592cde7362d62f19cb476da9cc31a1718171a2990f4fbd6b728a5595231ea5be",
+    "bytes": 42284
+  },
+  "audio/en-us/sentence/put-the-book-on-the-desk.mp3": {
+    "sha256": "402625438598041742dfbbc8387ca3cdc8624c6119107f71f9d127fc08083394",
+    "bytes": 41900
+  },
+  "audio/en-us/sentence/my-school-things-are-ready.mp3": {
+    "sha256": "0d9a8f9d82d5cfe3c34a24b9b3b66041fdff8d195f446c94b96e439aa7cc91b5",
+    "bytes": 45740
+  },
+  "audio/en-us/sentence/this-is-my-family.mp3": {
+    "sha256": "cd855c438c220bae18dc40af385a1751390bd2d59648cd05dbf5a4e39f6db1c6",
+    "bytes": 42668
+  },
+  "audio/en-us/sentence/i-love-my-mother.mp3": {
+    "sha256": "84fe80453b5c35fa32b5414194d48f1394ab326864b2795121f5f6bc5e6be54c",
+    "bytes": 40748
+  },
+  "audio/en-us/sentence/i-love-my-father.mp3": {
+    "sha256": "b3cbec59d9e9f3ecb856539efdb65cb7f6c6a8b6f641446c7204bf83b8b57059",
+    "bytes": 41516
+  },
+  "audio/en-us/sentence/this-is-my-grandma.mp3": {
+    "sha256": "a6d1083e014c23c64527efa3b7d87f457121a4e746e3aaf666709ee7e304a78c",
+    "bytes": 43820
+  },
+  "audio/en-us/sentence/this-is-my-grandpa.mp3": {
+    "sha256": "8407893a9f1d00ab8f6288ced251dd60b76c521787f4f1111158c1bc82ff42a2",
+    "bytes": 44972
+  },
+  "audio/en-us/sentence/we-are-a-happy-family.mp3": {
+    "sha256": "1973f1ffaa91c0ce263ecd22638b1a19690a1b95b5aff8ca83fe31f1890e3ef2",
+    "bytes": 45356
+  },
+  "audio/en-us/sentence/who-is-in-the-photo.mp3": {
+    "sha256": "b465b65e2ed6a9045d9f4093ab5009a3e5ac1200b8ce3377524daa03c415ae89",
+    "bytes": 41900
+  },
+  "audio/en-us/sentence/this-is-my-sister.mp3": {
+    "sha256": "2d9f2adced62c3322675f8d0f53da449f1008d3ae5eabc7485f47a2ad578ab5e",
+    "bytes": 41900
+  },
+  "audio/en-us/sentence/this-is-my-little-brother.mp3": {
+    "sha256": "69fc2b680e194ddce801cebc0062e07c5c1a2e715b3994f716fe163fb25382f4",
+    "bytes": 49580
+  },
+  "audio/en-us/sentence/this-is-my-good-friend.mp3": {
+    "sha256": "7bd4a70dd3af107de0f041e12f32a19f2c1d322d1940b612c77abcdfe8bc300d",
+    "bytes": 44972
+  },
+  "audio/en-us/sentence/she-is-my-teacher.mp3": {
+    "sha256": "96dbc7c1405a0e207ba4e5c14a58de5c7bf73d9e93e6c57abfc95bf0fb3404ed",
+    "bytes": 41132
+  },
+  "audio/en-us/sentence/he-is-my-neighbour.mp3": {
+    "sha256": "ec9e983f36898671b2f1211fbed84bba28af12da6912a421b4e27b11222a0ae9",
+    "bytes": 41132
+  },
+  "audio/en-us/sentence/let-us-say-thank-you.mp3": {
+    "sha256": "5416d24f5c895f97e54d4122ade1a98a2e9974afa1d4319b048878d7343ea671",
+    "bytes": 40748
+  },
+  "audio/en-us/sentence/you-help-me-every-day.mp3": {
+    "sha256": "356326b4d4ef635adff559d772bc6a2469753e2f91506878ffe02081c7a3a549",
+    "bytes": 43820
+  },
+  "audio/en-us/sentence/i-am-happy-with-you.mp3": {
+    "sha256": "56e7e76bccc8f0e0169d186acb68f78edafa22c887eb3693331fcf6362041d48",
+    "bytes": 40748
+  },
+  "audio/en-us/sentence/hello-i-am-a-robot.mp3": {
+    "sha256": "b7c621609626740ddf90721f7bdbf461e145bf6bdfc08ad1365e3817382fef75",
+    "bytes": 45740
+  },
+  "audio/en-us/sentence/i-can-wave-my-hand.mp3": {
+    "sha256": "6f707a15ba901b14a45b8e97335d7ded2c9d13212f5e658204dd03286a81f7f6",
+    "bytes": 43820
+  },
+  "audio/en-us/sentence/i-can-say-my-name.mp3": {
+    "sha256": "73ded70fd2de001882f4f10d32c4878c953844a96b1a8d14e684de96ae9b4649",
+    "bytes": 42668
+  },
+  "audio/en-us/sentence/robot-please-stand-up.mp3": {
+    "sha256": "36aaa62367ef43ed0feb80c7218e698370abceca142d00792fca1901aa134335",
+    "bytes": 48812
+  },
+  "audio/en-us/sentence/robot-open-your-bag.mp3": {
+    "sha256": "4f8fa14c17b287d5004878e9646919d8444734e63ce3542dbf18357d6faf845a",
+    "bytes": 49196
+  },
+  "audio/en-us/sentence/please-show-me-your-pencil.mp3": {
+    "sha256": "38a2396a4ff3641a4ac9d258b6223290d73776f7353c8c6ddbfe0b67a728feab",
+    "bytes": 45356
+  },
+  "audio/en-us/sentence/look-at-my-robot.mp3": {
+    "sha256": "4ef6f42ae6f07530a8736b45e9258691fd47763d4c895ca8c587995e299922f0",
+    "bytes": 38828
+  },
+  "audio/en-us/sentence/it-has-two-big-eyes.mp3": {
+    "sha256": "0d04031803a4cfd19b587496ecfa7a8965e47ec8dd4bf5d76f5d11880235b0cf",
+    "bytes": 43052
+  },
+  "audio/en-us/sentence/it-is-my-little-friend.mp3": {
+    "sha256": "95b24f190256d09745a2ae0b5e1147ac0820327f2cb98fddd8fb49600782c6c4",
+    "bytes": 43820
+  },
+  "audio/en-us/sentence/i-spy-a-yellow-book.mp3": {
+    "sha256": "a0d5caeff31f633e77602e98fb2f844e5afd0d7d7a1d7c6064a5251adb6e2f4c",
+    "bytes": 43436
+  },
+  "audio/en-us/sentence/i-spy-a-little-star.mp3": {
+    "sha256": "f3e8d415564b1684844ededac0b209de0126d631b3540b14af2d30b38037b28a",
+    "bytes": 43436
+  },
+  "audio/en-us/sentence/can-you-find-the-robot.mp3": {
+    "sha256": "d0731d2a667b7b2c861f678a4778aeacdfcc1ecb04aba7c8f42ddabb666f3d70",
+    "bytes": 44588
+  },
+  "audio/en-us/sentence/i-am-making-progress.mp3": {
+    "sha256": "fbf9458a08dd9cf3f47830697239b760d113ee25a364a4856f293f6647c59850",
+    "bytes": 44588
+  },
+  "audio/en-us/sentence/i-learn-something-new-every-day.mp3": {
+    "sha256": "a880dd3e65567923084bc4cbc84b9e9d16efb932689eb69403d750d68e83bc28",
+    "bytes": 53804
+  },
+  "audio/en-us/sentence/i-would-like-some-coffee.mp3": {
+    "sha256": "c5731c6dbef288e44dbd77758a6af1c64f0ba0271ba53835ea610623b8d58cd6",
+    "bytes": 43436
+  },
+  "audio/en-us/sentence/can-you-recommend-a-good-book.mp3": {
+    "sha256": "b86d6b207b9deee11731bf1db259717bdd523cab687586e2e179c04186de6d49",
+    "bytes": 46124
+  },
+  "audio/en-us/sentence/enjoy-your-journey.mp3": {
+    "sha256": "36952db77f3eba68125ffb07bcc3b69db398aba19d12a165fddc27616482fe72",
+    "bytes": 40748
+  },
+  "audio/en-us/sentence/the-meeting-starts-at-nine.mp3": {
+    "sha256": "6de9de041bcb056d0e942eab61d4f131948c03196d7a31b3c27147361832668d",
+    "bytes": 44972
+  },
+  "audio/en-us/sentence/let-us-check-the-schedule.mp3": {
+    "sha256": "885645470f79e2f044c36dd85d0fadb7ca6ea6a363584bdee1b80367ee26eba8",
+    "bytes": 43052
+  },
+  "audio/en-us/sentence/the-deadline-is-friday.mp3": {
+    "sha256": "2bacc7208b64fb23de4fb6404df3e6b645ec9dbbfedadcc642aaa50cd74e972b",
+    "bytes": 44972
+  },
+  "audio/en-us/sentence/let-us-review-the-lesson.mp3": {
+    "sha256": "22297cb261de3b7eab1b9011366a01ad8a04becc2d18543686d268e3878af038",
+    "bytes": 43820
+  },
+  "audio/en-us/sentence/please-check-the-details.mp3": {
+    "sha256": "d242068fe579c902aea9682ed6da586ce57325043fb1e74582e6a3c7a74ce464",
+    "bytes": 45740
+  },
+  "audio/en-us/sentence/this-is-my-name-card.mp3": {
+    "sha256": "a5add021a03c53b368e36d3dcc7d6c724f2a6dab6e2a20fac48971adcc613f4f",
+    "bytes": 43436
+  },
+  "audio/en-us/sentence/my-name-is-ben.mp3": {
+    "sha256": "69be66f541e81c0162bf3641b5e9fa3334209fb05d12209d0ff4a1114e547a16",
+    "bytes": 41132
+  },
+  "audio/en-us/sentence/what-is-your-name.mp3": {
+    "sha256": "0a8cb226d89236593269e2df403cde95998f2903bf83905844bf20af3af10cc4",
+    "bytes": 36140
+  },
+  "audio/en-us/sentence/hello-let-us-practice-english-together.mp3": {
+    "sha256": "7bc46a7c0c0b3773e8087566ad2e339086245e1debd5f0934b48a68da27584da",
+    "bytes": 56108
+  },
+  "audio/en-us/word/hello.mp3": {
+    "sha256": "b870023d56171d6481882c35374641dd0ce0a922a2d0a23ed33db4fea72f4bdb",
+    "bytes": 31916
+  },
+  "audio/en-us/sentence/i-m-li-dong.mp3": {
+    "sha256": "d19ea48d9dc478fbff9ad6dae6c6d43c36e313cbf791a0da36f75fd498f9f68a",
+    "bytes": 36908
+  },
+  "audio/en-us/word/hi.mp3": {
+    "sha256": "4d3821740ac84780573be7aadeed13f23609095a73d665297612bffc8105e766",
+    "bytes": 28460
+  },
+  "audio/en-us/sentence/i-m-binbin.mp3": {
+    "sha256": "1674aac029308bb550e140803b6c68c3a24f087b9763c2a11c9afeebc91daca1",
+    "bytes": 36140
+  },
+  "audio/en-us/sentence/i-m-chen-jie.mp3": {
+    "sha256": "dda2edef8fc3b3b25a36a51f987aeb8c841ed99a47b8f20d3868c03fd6af3fa5",
+    "bytes": 38444
+  },
+  "audio/en-us/sentence/i-m-sarah.mp3": {
+    "sha256": "38d3e5d4020815783a4bcad500476ade3698e75c5b91ac0fd3096f714d444b91",
+    "bytes": 35372
+  },
+  "audio/en-us/word/practice.mp3": {
+    "sha256": "dd8fe0091fe75e38489bc417e55210ad29c63a9e55e7bfe50fda01effc02dc63",
+    "bytes": 33452
+  },
+  "audio/en-us/word/progress.mp3": {
+    "sha256": "8471f54d448331899d6956d2a48fdef12119ee3dea41a1a87d1480c17b2cdcc2",
+    "bytes": 31916
+  },
+  "audio/en-us/word/learn.mp3": {
+    "sha256": "fb2f491f8e73184cc60589883d9f9a3c1623a3d3a2d4d4a0db3a676014c5eebb",
+    "bytes": 30380
+  },
+  "audio/en-us/word/tomorrow.mp3": {
+    "sha256": "694f4274c9cf1a6ce7f29ae2e3145c2aba2e49242daa021e45d25cd0de067732",
+    "bytes": 31148
+  },
+  "audio/en-us/word/help.mp3": {
+    "sha256": "11d515a60e49acc00a1f600c97ee13e5abfdfe3904102a0810e1bb8a69e91984",
+    "bytes": 27308
+  },
+  "audio/en-us/word/station.mp3": {
+    "sha256": "a9b30c4bfe8f1724efaef962be2bfced92646a8592b25e934df1d130c0afa3eb",
+    "bytes": 33452
+  },
+  "audio/en-us/word/coffee.mp3": {
+    "sha256": "1cc70d02443bb1674621e66510cd25711c77d04bc3a73d8ba1e85edf3ed37d74",
+    "bytes": 33452
+  },
+  "audio/en-us/word/reservation.mp3": {
+    "sha256": "43b1ff0d0d2a4569cdf1ef358788e47ae41ee36af38986e282f32768c1f25836",
+    "bytes": 38060
+  },
+  "audio/en-us/word/recommend.mp3": {
+    "sha256": "4d3f730c4778ce322e765b5772e5a5dafcd9c488e9a77858b8d2e80d1911a058",
+    "bytes": 33452
+  },
+  "audio/en-us/word/journey.mp3": {
+    "sha256": "d3b8cf1127e1824b1f111a9c6752f10634aaf42d03b53db8bd211171724781bc",
+    "bytes": 30764
+  },
+  "audio/en-us/word/breakfast.mp3": {
+    "sha256": "b13b39fe9e11e699792be5744f05c6424038dfe69ee69f1c8865d58e22f403f0",
+    "bytes": 32684
+  },
+  "audio/en-us/word/meeting.mp3": {
+    "sha256": "54d97b1fef9152ff7d4f3a73aa5ac825f7eae92f6d29e21926ec99af8c45e065",
+    "bytes": 31148
+  },
+  "audio/en-us/word/schedule.mp3": {
+    "sha256": "51cc508b457cb67944b41cd4009e48bcdc193b861ce4fc0761e088359962b741",
+    "bytes": 31532
+  },
+  "audio/en-us/word/deadline.mp3": {
+    "sha256": "7fbb8dce41464afd5881de06be8f5dfe9fc8ec2b66d7e8841bb4616375813483",
+    "bytes": 32300
+  },
+  "audio/en-us/word/feedback.mp3": {
+    "sha256": "7dd88d26149156d4b423a39cf4a307ce39ee6f36db6707e260b9faebb2ee6ddb",
+    "bytes": 33068
+  },
+  "audio/en-us/word/review.mp3": {
+    "sha256": "8119b863e416d2afd306221cbe7f78b14419b9c45aaff59e1e1bd3b933aff486",
+    "bytes": 31916
+  },
+  "audio/en-us/word/detail.mp3": {
+    "sha256": "4648a8e630e29fae31817d749d64ccda3ece96434b47b5a7e665b5fed41c17b6",
+    "bytes": 32300
+  },
+  "audio/en-us/word/see.mp3": {
+    "sha256": "2e768deab673d6f26b7b7a3501bab0674f6c4a0d3ce1d953414f69fa0c6136af",
+    "bytes": 29612
+  },
+  "audio/en-us/word/sit.mp3": {
+    "sha256": "5dc7bc8b2ca00900fe1ebdb3b8cd1eeb4087f4b27103a1c5b8e0055a15f5d1d8",
+    "bytes": 28460
+  },
+  "audio/en-us/word/bed.mp3": {
+    "sha256": "fc314cc79aea0dfe05c44dc22b0f5462a23dfcb933528e115ad7b1598f6d5d9e",
+    "bytes": 21932
+  },
+  "audio/en-us/word/cat.mp3": {
+    "sha256": "10c942e817804bca14564f56db9fcc96cf77cc01fde9d494449592a893faf906",
+    "bytes": 28076
+  },
+  "audio/en-us/word/car.mp3": {
+    "sha256": "e960eb3e07d3b6912f06dddff81b8cbedea344f20bf87087f71b2e8440810f78",
+    "bytes": 28844
+  },
+  "audio/en-us/word/hot.mp3": {
+    "sha256": "dd14e46dcb36661d333294a735085540379b264b811d6353788c7d2b5ef92a9a",
+    "bytes": 28460
+  },
+  "audio/en-us/word/law.mp3": {
+    "sha256": "95ca8fe3567fa8c891a120714bbbd4498870a9dcfb44835ecc26c046f4c218b4",
+    "bytes": 30380
+  },
+  "audio/en-us/word/book.mp3": {
+    "sha256": "b576e951ede16db839c4da7cde008e2e333de7729a2992b03187f74e4a97a70e",
+    "bytes": 28076
+  },
+  "audio/en-us/word/food.mp3": {
+    "sha256": "75e388e48f00cd9180ec77447fee2991cb77cd189e657a8c70788493fdefbbda",
+    "bytes": 30764
+  },
+  "audio/en-us/word/cup.mp3": {
+    "sha256": "11da4731964783b88d52afd4d2ae132e2b73ebcf5f37f1f476652832454af312",
+    "bytes": 28460
+  },
+  "audio/en-us/word/bird.mp3": {
+    "sha256": "687c8168c7da246aecdbf6860560091ac5dceb41386766f27f2be69eb60f50b8",
+    "bytes": 29612
+  },
+  "audio/en-us/word/about.mp3": {
+    "sha256": "c3e505b7c8763f3938abbd0307b3a0b165ca532f55fb9a5581843c87cf0333c2",
+    "bytes": 30764
+  },
+  "audio/en-us/word/day.mp3": {
+    "sha256": "53a069792617163ebc3f8787508162b1d33212d47dd239c01e195b55d0a5c95e",
+    "bytes": 29996
+  },
+  "audio/en-us/word/time.mp3": {
+    "sha256": "3de5ba1fe0e12689cd5be09f0f1883f465c9fb668ee33e59666a8d05e453ceb5",
+    "bytes": 31148
+  },
+  "audio/en-us/word/boy.mp3": {
+    "sha256": "6aace979cec0b59fb5d3177c84aecccbca5d1678769f4b235c058eb37c48185a",
+    "bytes": 29612
+  },
+  "audio/en-us/word/go.mp3": {
+    "sha256": "0b8f4e45be1ed8f69b6fc310bb712f01b6d2019bd41ff5ee7201ce312ca99422",
+    "bytes": 28460
+  },
+  "audio/en-us/word/now.mp3": {
+    "sha256": "c356b8c6d784230d25fff62c5557411e6e706c05a93f36e2913003f97e295952",
+    "bytes": 28460
+  },
+  "audio/en-us/word/near.mp3": {
+    "sha256": "652577b3c0220a0240cb3896a76f84d4457f292c3b6c135dd19355a2bf920ee8",
+    "bytes": 28460
+  },
+  "audio/en-us/word/hair.mp3": {
+    "sha256": "0c4074c8d643c0ade9d4ac9aa6ec04bf1903fcaf406782a9a08e040afd149d00",
+    "bytes": 29612
+  },
+  "audio/en-us/word/tour.mp3": {
+    "sha256": "6a9fd99fd8f8b35c3d066edb03e97012031ed6fcc66cb2e5332c362354eec82d",
+    "bytes": 29996
+  },
+  "audio/en-us/word/pen.mp3": {
+    "sha256": "bc69720ca3167480a21d1f19360d7f1f936606a700b69292103390e640cfffef",
+    "bytes": 30380
+  },
+  "audio/en-us/word/bag.mp3": {
+    "sha256": "dafb0a695907de7672c410b914315ff814e36f8772800418adb9d395533a92c4",
+    "bytes": 29996
+  },
+  "audio/en-us/word/tea.mp3": {
+    "sha256": "00bd50152352962f505772e8e4d2d5fcb696367550f1c0d88fe11143e089e98b",
+    "bytes": 29996
+  },
+  "audio/en-us/word/dog.mp3": {
+    "sha256": "04ede3ef7f6e3737478b46caef7637bc2cd1f7ffd2852d1186654aa61bcce07a",
+    "bytes": 31148
+  },
+  "audio/en-us/word/key.mp3": {
+    "sha256": "bc9f4352e2136f646ad5d8adb375912923ac4a0ea0fa20ba19b1d32af0b24c7e",
+    "bytes": 29228
+  },
+  "audio/en-us/word/game.mp3": {
+    "sha256": "c120f2b646dd79169acd9055f994070a170f074f2d2abbd9ee4e61de7395fa12",
+    "bytes": 31148
+  },
+  "audio/en-us/word/fish.mp3": {
+    "sha256": "ab5662b086f9bd887a500bed3ec199f84cb85724244932d4edb3a21b26c2e2c1",
+    "bytes": 30764
+  },
+  "audio/en-us/word/very.mp3": {
+    "sha256": "ef3b752330a50198af7cc08a86c9e72e55bfd7d55ea17223f9d6e105903f920c",
+    "bytes": 31532
+  },
+  "audio/en-us/word/think.mp3": {
+    "sha256": "85e293bd46b23cc1902f25a1c4ea85fac544b32d86fe8ae182a181660253b153",
+    "bytes": 29612
+  },
+  "audio/en-us/word/this.mp3": {
+    "sha256": "1d8aa5e6d06fa8b010a545ec10bfa1d46668a1e72fbed401f268c1c1ef79e70c",
+    "bytes": 28460
+  },
+  "audio/en-us/word/sun.mp3": {
+    "sha256": "d1311b37fcf7ac0a7ad49be850f6f4cdfa37a788e867df06b960593f5c254e94",
+    "bytes": 31148
+  },
+  "audio/en-us/word/zoo.mp3": {
+    "sha256": "1336fafdddaa62b264e4a1925c0fa4fbf43fda50db07ca4718a54586ed449344",
+    "bytes": 29996
+  },
+  "audio/en-us/word/she.mp3": {
+    "sha256": "5db24ac4942ea6267ac614ffd6b39316392dc47c33aa96814b368b8e7da4f6fc",
+    "bytes": 28076
+  },
+  "audio/en-us/word/vision.mp3": {
+    "sha256": "f085e4af7bcc91e2d36e58971e5d1fd4a15e934a6d1dcf84f9ce3c9b80c15563",
+    "bytes": 31916
+  },
+  "audio/en-us/word/hat.mp3": {
+    "sha256": "1f8a7338c493f76fb3f2a89febeb4c1270872a88f4da72fd54df56231eb5112d",
+    "bytes": 27692
+  },
+  "audio/en-us/word/chair.mp3": {
+    "sha256": "83ac99f413c77c06500ba94e76f2e2aaa77d9276d9cb208e4663040acfb47984",
+    "bytes": 28844
+  },
+  "audio/en-us/word/job.mp3": {
+    "sha256": "12de1d080e47b948d74b0313b85986919b86e2de9063d7c6a3d3a0487fe83b20",
+    "bytes": 28844
+  },
+  "audio/en-us/word/moon.mp3": {
+    "sha256": "9923717d7e4abfd78e74b39a805eb2e1751e6a333406b50c732641a81e68e7a4",
+    "bytes": 30764
+  },
+  "audio/en-us/word/name.mp3": {
+    "sha256": "59b1adc0836a97f94a50ba685d4bc237a18c7333abab6a9cb43ee8987d3c2631",
+    "bytes": 31148
+  },
+  "audio/en-us/word/sing.mp3": {
+    "sha256": "a047c98fe0be4c3adcfa10cae0eb0a3857b24433faa6a4244b5515c989efde0f",
+    "bytes": 31148
+  },
+  "audio/en-us/word/light.mp3": {
+    "sha256": "d2c90d740085b944ec8de168a8affffdd824eb21d1f05b40fb801622a6abee39",
+    "bytes": 29228
+  },
+  "audio/en-us/word/red.mp3": {
+    "sha256": "c8a6ea430b9e01c748eac4cb1a9e864e0ebafa2aef7c87b2c7c348ff8b18d745",
+    "bytes": 28076
+  },
+  "audio/en-us/word/yes.mp3": {
+    "sha256": "3ae12978f5d45d96685cf6c72ee0dd5fc846f2df8934fcec67efa52b2ca34026",
+    "bytes": 30380
+  },
+  "audio/en-us/word/we.mp3": {
+    "sha256": "85d0728033c41c23198c433192488f138dd5545be718145844f8f0c897147bae",
+    "bytes": 28076
+  },
+  "audio/en-us/word/nice.mp3": {
+    "sha256": "06051bbd189df5db70765710c91ef3529079fbc1fe074f8a26ddfc2ef960ff43",
+    "bytes": 30380
+  },
+  "audio/en-us/word/to.mp3": {
+    "sha256": "aed3385e167c299eb65d6df1569bd5e725f17a46213d88b66dc220a1877ee547",
+    "bytes": 28844
+  },
+  "audio/en-us/word/meet.mp3": {
+    "sha256": "05bdc9db607c6e64c37cccf59087c251daa8ea4312edbc3bef04f6a775b7ddd6",
+    "bytes": 28460
+  },
+  "audio/en-us/word/you.mp3": {
+    "sha256": "eb81c483c06e201bf821a851eaa09013ebeb07fe92d9037957811be07271494b",
+    "bytes": 28460
+  },
+  "audio/en-us/word/my.mp3": {
+    "sha256": "187d3467b303a31e265987fd315a87142395b7a76f72165dd10dab416fa529d6",
+    "bytes": 29612
+  },
+  "audio/en-us/word/is.mp3": {
+    "sha256": "fda75465286788925aa54b864c09e012e578b225f0bd895d72cfa86829f557ad",
+    "bytes": 27692
+  },
+  "audio/en-us/word/alex.mp3": {
+    "sha256": "d33f22c6a87c43f0e4a46b2d5d49bf65c1c93de77710aa35ab040488fb03f87d",
+    "bytes": 29996
+  },
+  "audio/en-us/word/how.mp3": {
+    "sha256": "956d2e18052b460054a1cf5aa38d5aa6c5d7911ee5470aec4d38f8eb0a045417",
+    "bytes": 27692
+  },
+  "audio/en-us/word/your.mp3": {
+    "sha256": "ca2d22a906f00dadbd397a6ad352c59a2b20400514f07528da1da14e0b4dc212",
+    "bytes": 28460
+  },
+  "audio/en-us/word/going.mp3": {
+    "sha256": "4837990041d604c69a6105233bdc79cea203b29a944c5c3bf4f9d405aae42ee8",
+    "bytes": 31916
+  },
+  "audio/en-us/word/could.mp3": {
+    "sha256": "7e4cdd6200bcbf99f29aa5e930775e772b63eed45761f0cac49610f6e71f4909",
+    "bytes": 29996
+  },
+  "audio/en-us/word/say.mp3": {
+    "sha256": "e04544fd34250d74aeb6ebdaedfe192607856bb2e138533f79154a826a84e4c4",
+    "bytes": 29996
+  },
+  "audio/en-us/word/that.mp3": {
+    "sha256": "fa22fc7c828d4ef33ce8a52d6b6a3ad61bbecd9297b94562072d4a630c4281fa",
+    "bytes": 27692
+  },
+  "audio/en-us/word/again.mp3": {
+    "sha256": "42f00c5530163a46184c87f62db6936c746a43d7b11b26cba0376b4081a52690",
+    "bytes": 31916
+  },
+  "audio/en-us/word/i.mp3": {
+    "sha256": "ad9dd8e572d9197ea82ea33b36e184ee14bd6cb728b485464b58a8cb1f1d9f6e",
+    "bytes": 20780
+  },
+  "audio/en-us/word/am.mp3": {
+    "sha256": "cfaa0b9c362aa4cf68fe062b6f0b3abf174af6b1fdf91984a5c0c34b8d843781",
+    "bytes": 26156
+  },
+  "audio/en-us/word/learning.mp3": {
+    "sha256": "38bdaf63ceed7327ba9ce14beb70c599595e9863a71f6bfaba78a40b0b210362",
+    "bytes": 31916
+  },
+  "audio/en-us/word/english.mp3": {
+    "sha256": "601b8fa1d05fbb73a2c0a1703aee89dfc375072e21bc96d95a06df25168585c3",
+    "bytes": 31916
+  },
+  "audio/en-us/word/every.mp3": {
+    "sha256": "2c23d7850064dfa5c972ec3ec7dd562060a14a474d5843ef459716548f104871",
+    "bytes": 31148
+  },
+  "audio/en-us/word/thank.mp3": {
+    "sha256": "be159827f08e83c90f3f3d1087d5c934e867a4a0798f7e95d32c08e25284ba0e",
+    "bytes": 29612
+  },
+  "audio/en-us/word/for.mp3": {
+    "sha256": "0a6789895959de0bf40eeefad4d7be17427bd6643f1722b6edd9d6082e2634ae",
+    "bytes": 28076
+  },
+  "audio/en-us/word/makes.mp3": {
+    "sha256": "651ac8a20180fe3549343e7bff57a8878efb02e61e062c7ba9ca2cd61efddfcc",
+    "bytes": 29228
+  },
+  "audio/en-us/word/where.mp3": {
+    "sha256": "8a5f799613c92f5edb6d00ec3825ef15185fbb7b6c35029ac1bc22a5027d6142",
+    "bytes": 27692
+  },
+  "audio/en-us/word/the.mp3": {
+    "sha256": "1d84590d0610c9ca8849e3e2fea2417edd992555a6b32a8a9d5731e07363b5ab",
+    "bytes": 25004
+  },
+  "audio/en-us/word/nearest.mp3": {
+    "sha256": "3bf1019397742c4c580b255b1aa524a5e8ee05b3adfe9dbc78cfe2eb92b28d0a",
+    "bytes": 31532
+  },
+  "audio/en-us/word/would.mp3": {
+    "sha256": "4b675b63cc5678dbdcd3688741f10cb96f38dd05d86a027d3f28b99aa56202c6",
+    "bytes": 29612
+  },
+  "audio/en-us/word/like.mp3": {
+    "sha256": "d36346f13aa8c46d421c8565cd6bfa244fe97663a934b3bcb76d85d86392fce3",
+    "bytes": 28844
+  },
+  "audio/en-us/word/a.mp3": {
+    "sha256": "a01f2839da2bc7c4bc0924c870d5547c73b58f2b3fe134d5f9af2074ae49d70f",
+    "bytes": 20012
+  },
+  "audio/en-us/word/of.mp3": {
+    "sha256": "e4cd5472ab5ff42520cfc6fa02aedf4150b048d3585aa15f2d05eb3be14e4a11",
+    "bytes": 26924
+  },
+  "audio/en-us/word/much.mp3": {
+    "sha256": "c3a35794d24576dbc67d099be37180f77ae17d1f006d4b0816597ddedbe43f5d",
+    "bytes": 29228
+  },
+  "audio/en-us/word/does.mp3": {
+    "sha256": "b53510468b4698322c4e6ed51ca7587ba9f0b4390eb527a2857e899789aa8a75",
+    "bytes": 31148
+  },
+  "audio/en-us/word/cost.mp3": {
+    "sha256": "cab4e784472902248f86369f936aa86b3d1f8fbe01a34349a7b8f77316e3da6d",
+    "bytes": 31148
+  },
+  "audio/en-us/word/can.mp3": {
+    "sha256": "832b7c77ae30165ae8e5d724eb271d61cdc88423a30dc0d96be8cd75a28a7675",
+    "bytes": 30764
+  },
+  "audio/en-us/word/pay.mp3": {
+    "sha256": "e46c793c17dd09811b4fc291d535a082e282688ba7a47d0fc2911a5acfe551ce",
+    "bytes": 29612
+  },
+  "audio/en-us/word/by.mp3": {
+    "sha256": "db639c75e32d52a8b441c6d6d8a7db7dffc6460f67f0a2039b5dc6bdeb12d5ea",
+    "bytes": 29612
+  },
+  "audio/en-us/word/card.mp3": {
+    "sha256": "099abb3003aaf155f3db434a74743c05ebb9b1bd6a966b0c60cebfd485728409",
+    "bytes": 28844
+  },
+  "audio/en-us/word/have.mp3": {
+    "sha256": "41f6094ce57864c830f87ec22b5227f91d066fe161e5ad99cc7be5ceb5fe3348",
+    "bytes": 30380
+  },
+  "audio/en-us/word/local.mp3": {
+    "sha256": "5888b0bbba9679556e9ce032263461a52c92c1c8131221f781caddcf7078106e",
+    "bytes": 31532
+  },
+  "audio/en-us/word/dish.mp3": {
+    "sha256": "23d50b833a4d36aa3bd8d3467157c44de079625f8d676c52abb70adbd8c96893",
+    "bytes": 29612
+  },
+  "audio/en-us/word/which.mp3": {
+    "sha256": "bdbe5250994855bff12e63105b92a126014d3009943983f44a95dd3cd48d6338",
+    "bytes": 28076
+  },
+  "audio/en-us/word/platform.mp3": {
+    "sha256": "ae14bfd1d9c47c7d57abb78de37069e8f56d322388e58ebbdaa551bed83f49c4",
+    "bytes": 32684
+  },
+  "audio/en-us/word/should.mp3": {
+    "sha256": "1e6fba0c570f25f6aab225b18c27beec6e223e6242630b97ffa72118c555efd1",
+    "bytes": 28460
+  },
+  "audio/en-us/word/included.mp3": {
+    "sha256": "bf996b86c9ef0a7d1528e9a6b57058cb4197aecc9eeb38c288fc80a8d5632190",
+    "bytes": 33452
+  },
+  "audio/en-us/word/let.mp3": {
+    "sha256": "b02b114423718c62d22269a7c403ef94faa1348e00c6f64d566271d2656a7cd7",
+    "bytes": 28844
+  },
+  "audio/en-us/word/me.mp3": {
+    "sha256": "2be7daed57a424306237a8554c4a37493922dced93111184f0082bfe353a9f7d",
+    "bytes": 28844
+  },
+  "audio/en-us/word/share.mp3": {
+    "sha256": "8715de9ae1540eb3d8c479910d42124f11953f37b49e88392e8db0cf5a5e2276",
+    "bytes": 29612
+  },
+  "audio/en-us/word/screen.mp3": {
+    "sha256": "3c5fec7818a6412ebe8a59d2422ef10218979e713ec952ad3d1f1c108464024d",
+    "bytes": 32684
+  },
+  "audio/en-us/word/will.mp3": {
+    "sha256": "221dd6c9aec7dd7679d18189369d73ba5e438a8847c68a0ffc7b9f69ca28a307",
+    "bytes": 30380
+  },
+  "audio/en-us/word/send.mp3": {
+    "sha256": "e6fc1edc6f5ec6905f6db4305c87dd131f55dc96daf1db97e1f6cb1fc8be6fdb",
+    "bytes": 29996
+  },
+  "audio/en-us/word/details.mp3": {
+    "sha256": "3f6668988ce4646ae223497489a0f9b6657cd5bef7d4176ab7943da91562f3e4",
+    "bytes": 33068
+  },
+  "audio/en-us/word/what.mp3": {
+    "sha256": "602e83beda73e79689ec9aea845fe7b23c7f351b397bb706900b12efb8f9cdd4",
+    "bytes": 26924
+  },
+  "audio/en-us/word/task.mp3": {
+    "sha256": "e3008b07b248ab915f17b3e0bc635fd093b47b8482f64c5c1d86c6249bd346f5",
+    "bytes": 30380
+  },
+  "audio/en-us/word/us.mp3": {
+    "sha256": "a4dd1b8d49b9c54cf7bcb569a4eb6add2358081c8ed8a21575f23f54fcb56407",
+    "bytes": 28844
+  },
+  "audio/en-us/word/next.mp3": {
+    "sha256": "eafd75c5d8df9458775a468a6e31d7b19dffe3a78cc0b7bcb542994853c5c6b6",
+    "bytes": 29996
+  },
+  "audio/en-us/word/steps.mp3": {
+    "sha256": "aa26c0cea097513c6fd16b26d7c53b4d3c5da2a037c75c23ceeb724796fdf243",
+    "bytes": 29996
+  },
+  "audio/en-us/word/sam.mp3": {
+    "sha256": "a2d5f2f83b9a03e4e78b3ccb99f05b851cd35b48ac508d1f683d559e869cc65a",
+    "bytes": 31148
+  },
+  "audio/en-us/word/lily.mp3": {
+    "sha256": "672f61f2288eb84b8b0735724b338757f366c967c415b0df966d5bce3f3942ef",
+    "bytes": 31148
+  },
+  "audio/en-us/word/good.mp3": {
+    "sha256": "0e0038a60135da4980b676a9bc28500debe333ba07e0c53e5af4804d0aa54647",
+    "bytes": 28844
+  },
+  "audio/en-us/word/morning.mp3": {
+    "sha256": "4ae72e461844b653bcaec46db7e1fd4d7b44737d3b787173fdfe3c4f6e9c89b0",
+    "bytes": 31532
+  },
+  "audio/en-us/word/afternoon.mp3": {
+    "sha256": "519ecba256546ef1862bff0cbb2e6f78a45917824a55dafb3e6d857568e30424",
+    "bytes": 35372
+  },
+  "audio/en-us/word/goodbye.mp3": {
+    "sha256": "000a236ff6270b62cb436eaf2d6b8c560c4bfa94b52b491e4381e7c94901851b",
+    "bytes": 33836
+  },
+  "audio/en-us/word/friends.mp3": {
+    "sha256": "e71164ee8a892de3296b82e5e126f5fa521bc96129424052d9532e4746ff85d1",
+    "bytes": 32300
+  },
+  "audio/en-us/word/i-m.mp3": {
+    "sha256": "3f8de6830da1a9f2df8d31848fc8dc17b170f4808202f4135ece22804b6e98ca",
+    "bytes": 29612
+  },
+  "audio/en-us/word/li.mp3": {
+    "sha256": "8210bfc35b64e392403744232da9fa7445606048e6db3d3ff77e219e3c0b0481",
+    "bytes": 29228
+  },
+  "audio/en-us/word/dong.mp3": {
+    "sha256": "baccab76807530a3696ee6db87b3e21b355991b05baf5a9f4524817d678b5ca3",
+    "bytes": 30764
+  },
+  "audio/en-us/word/binbin.mp3": {
+    "sha256": "ed4571a439efb2743541e148668c2e649ace42ce3b24257743caca4c333a23f7",
+    "bytes": 32300
+  },
+  "audio/en-us/word/chen.mp3": {
+    "sha256": "fc0c08595f2ff42b46f24c9df290693ffef391980a8b79a40d6aef336f48d7c8",
+    "bytes": 29612
+  },
+  "audio/en-us/word/jie.mp3": {
+    "sha256": "0094fc40b3b5fbc059d6d241e822df732932c81ba9e2b7f2050f6df2557ef7c6",
+    "bytes": 28844
+  },
+  "audio/en-us/word/sarah.mp3": {
+    "sha256": "f0bd856457fe09551501bceb5d50d2ce1536ce36b37b174e198e1bc469e72eb3",
+    "bytes": 30764
+  },
+  "audio/en-us/word/little.mp3": {
+    "sha256": "e49d34997f2886be4c4b66d5702f95553d869e16b454d7545b48ccd9c5460c68",
+    "bytes": 30764
+  },
+  "audio/en-us/word/frog.mp3": {
+    "sha256": "3249b26840341ba7a1663b1bbfdfacad431016746c89ce9820f430e219f6dd3c",
+    "bytes": 25388
+  },
+  "audio/en-us/word/wave.mp3": {
+    "sha256": "5ba76750a03fbed57a20ddcc93ddfaa09f2bd5c6b7f20c10f662307731fef5ac",
+    "bytes": 29996
+  },
+  "audio/en-us/word/hand.mp3": {
+    "sha256": "dba514ad1a0c92ade079c6b61b98fa2527f897ce79d835ec9b7515eb184847c6",
+    "bytes": 30764
+  },
+  "audio/en-us/word/friend.mp3": {
+    "sha256": "4e6a5f074e75c34beb0b6b04d9bc0bfe2d0b831639ed70a643903ab601b34ad0",
+    "bytes": 31532
+  },
+  "audio/en-us/word/in.mp3": {
+    "sha256": "8f9eee42da1e0a31743189c8824b8d302a9cd5bcf07d6dd9f805504e645fafbd",
+    "bytes": 29228
+  },
+  "audio/en-us/word/classroom.mp3": {
+    "sha256": "985b2d7b0527a1fcb611e1ee300cb3356855589360203da2c4891eb993fb0ffb",
+    "bytes": 33452
+  },
+  "audio/en-us/word/our.mp3": {
+    "sha256": "61ff0dbc90c3ca4fa137c6894d372ed6ae69a0be42179f486e85de21276fbc2a",
+    "bytes": 28844
+  },
+  "audio/en-us/word/teacher.mp3": {
+    "sha256": "32c73f16d446af3c099a825c2c8fe0f1df246db8976e34d97317d1c9211b934c",
+    "bytes": 31916
+  },
+  "audio/en-us/word/are.mp3": {
+    "sha256": "ea653c12053aeccbf93cafbbade7c514c91b8cc782c244f2deae31e7ce039b19",
+    "bytes": 27308
+  },
+  "audio/en-us/word/ready.mp3": {
+    "sha256": "5b480ab3549b99632187234a222d7227fa7c447adaf4a40449d15dd34d7e838d",
+    "bytes": 30764
+  },
+  "audio/en-us/word/please.mp3": {
+    "sha256": "61cef4dcbaf507fbeb3423c531703932a1b2e24d2d318a4e4409918f83c1d2ca",
+    "bytes": 32300
+  },
+  "audio/en-us/word/down.mp3": {
+    "sha256": "6ecabe928ad2b78a61125957ff049d0a2056e24f513705766b250d6ead9b41b0",
+    "bytes": 30764
+  },
+  "audio/en-us/word/stand.mp3": {
+    "sha256": "82544bac02113c08ef2da47ad66a40f5641a7da5352411a115e1a963a07d5af9",
+    "bytes": 31916
+  },
+  "audio/en-us/word/up.mp3": {
+    "sha256": "da1f0b6828e0b2e66f6c904d7c222c1bc6207a9a42a6de9561987a8ecbf253e1",
+    "bytes": 27308
+  },
+  "audio/en-us/word/look.mp3": {
+    "sha256": "dbcdcf840c4fa900ae30bd49a8049f673039a992b4df8bf7851cda8a9026ddb5",
+    "bytes": 28076
+  },
+  "audio/en-us/word/at.mp3": {
+    "sha256": "3a840bfb74fea3a312280126f235b7254c3b565550662dd91105a82be3f661cf",
+    "bytes": 23852
+  },
+  "audio/en-us/word/board.mp3": {
+    "sha256": "b8ad5f0ae446dd1918a1c91306d250d60fb069172a0c782824916124258ece26",
+    "bytes": 25772
+  },
+  "audio/en-us/word/may.mp3": {
+    "sha256": "6f8933424c7e16a0d86ffe65fba3e7a113b64996384c3bba69434293b8bd9a6d",
+    "bytes": 29612
+  },
+  "audio/en-us/word/come.mp3": {
+    "sha256": "f349f9c50d2b0b3e587032b1ef2786079838eac38a8f2cec8d47bbe68ed09efc",
+    "bytes": 30380
+  },
+  "audio/en-us/word/raise.mp3": {
+    "sha256": "95c390d24764b590b90b543b4f8b6a89f24feac0e54fe099c43fc9533791b046",
+    "bytes": 31916
+  },
+  "audio/en-us/word/open.mp3": {
+    "sha256": "98c165561b917907b34a32d4552f0f867b78495e5b1e24dd0e1bcf4e2800aa72",
+    "bytes": 31532
+  },
+  "audio/en-us/word/close.mp3": {
+    "sha256": "76e134b8e02068cf53e9be600fc4a628af9de30e2e2f751037fee6b9f4fa7eb5",
+    "bytes": 30380
+  },
+  "audio/en-us/word/one.mp3": {
+    "sha256": "e5aaffd4fcc7ba718b26472dcfdfc17f13dd45d5cce262e4d07b2b5a594033c2",
+    "bytes": 29996
+  },
+  "audio/en-us/word/two.mp3": {
+    "sha256": "5a63025b29a6fe574611c594f61825987e805e5136e1d18d0d610634e3f87728",
+    "bytes": 30380
+  },
+  "audio/en-us/word/three.mp3": {
+    "sha256": "4d68e6fc533f4e9e094fe3a957282725800adc0df898cf4d75e314d7c023ee63",
+    "bytes": 30380
+  },
+  "audio/en-us/word/play.mp3": {
+    "sha256": "d49348e1bb3714719910215b5dba3828e4f8280edfded6df7525020fc231ebd7",
+    "bytes": 31532
+  },
+  "audio/en-us/word/together.mp3": {
+    "sha256": "8890b21fa916fdbaea411c14e28cae5539736307617bb4d0f6ec53da015ed4f5",
+    "bytes": 31148
+  },
+  "audio/en-us/word/listen.mp3": {
+    "sha256": "3e2ca1a3f9b9c529ded992ec97ccd3db04d6b69f6db98b2dc1dd65ef30dbf406",
+    "bytes": 31916
+  },
+  "audio/en-us/word/with.mp3": {
+    "sha256": "c285213cf1eae2ecbc0378bf25421e61fa514e48ed27d6a6585402aa0f8c2856",
+    "bytes": 29612
+  },
+  "audio/en-us/word/ears.mp3": {
+    "sha256": "d4660484c072b88815456cb8ac5df55b8f035671f10d8f5f6a3a51c1fce22033",
+    "bytes": 31532
+  },
+  "audio/en-us/word/eyes.mp3": {
+    "sha256": "f9831e44b71f3bfd1a54b4cf06666893355d880410ee53cfc7877847e6f75f60",
+    "bytes": 30764
+  },
+  "audio/en-us/word/speak.mp3": {
+    "sha256": "cce4814ea4a4d7dfe06a6ca56802bfcbae48feb1d7cbde5a1cba77b0b338dad3",
+    "bytes": 30764
+  },
+  "audio/en-us/word/clear.mp3": {
+    "sha256": "ff14b8449c272ec37b979e666174efb1a606b3ab9a22961835df04e4d18c5a7a",
+    "bytes": 30764
+  },
+  "audio/en-us/word/voice.mp3": {
+    "sha256": "aa7c124d8cd5c704d78a3b31120a4fe62dcf33948946dc2b76f6b414bf5f6165",
+    "bytes": 30380
+  },
+  "audio/en-us/word/point.mp3": {
+    "sha256": "d8cca801a41e25a94228d6fa4d58275cb8aa35894a15aa7c81d34368daf09e80",
+    "bytes": 30380
+  },
+  "audio/en-us/word/picture.mp3": {
+    "sha256": "29f1e6e58da8af3000b4efc3210fa488aa7a323670d8c62f41d6de1d2117c90c",
+    "bytes": 31532
+  },
+  "audio/en-us/word/read.mp3": {
+    "sha256": "f1e2b1667471a8ece37eb40f490e79f20131404ac3ac92946ea089be211805b6",
+    "bytes": 30380
+  },
+  "audio/en-us/word/after.mp3": {
+    "sha256": "27e690103718cd6eb43d19a66c34a22eb44955bf96d0c7c104db2bab68241f6e",
+    "bytes": 32684
+  },
+  "audio/en-us/word/clap.mp3": {
+    "sha256": "971f2514b0501cd109e02bb23570aabb5ed89c29f9b981082bf5f92b797dd318",
+    "bytes": 29228
+  },
+  "audio/en-us/word/hands.mp3": {
+    "sha256": "fde3bfccecd041e5d5d8fe7154349b022633ef21b4e046cd124b6f94a23c28ac",
+    "bytes": 31148
+  },
+  "audio/en-us/word/work.mp3": {
+    "sha256": "9b393b87e10d1595ce7b3fd820f46527a784f442a4b1455385379b192f7ae6a0",
+    "bytes": 29612
+  },
+  "audio/en-us/word/give.mp3": {
+    "sha256": "a1d0a8d0086508a041e8feaf3732a07628c010b2321522c127230c9cc22dcc7e",
+    "bytes": 21164
+  },
+  "audio/en-us/word/high.mp3": {
+    "sha256": "463f59cad80a94017b618a0095ef6f15fabebe17364a572fc2d48a4b4d5d4478",
+    "bytes": 28460
+  },
+  "audio/en-us/word/five.mp3": {
+    "sha256": "724a7243d75176c146508917f1aa17eb29fb7a68426183be5008d10ca22a03d4",
+    "bytes": 31148
+  },
+  "audio/en-us/word/well.mp3": {
+    "sha256": "21df5c98c1af003ab2b339811cd532c4b8eb4e88dbce0455c645a43fd003f6b8",
+    "bytes": 29228
+  },
+  "audio/en-us/word/done.mp3": {
+    "sha256": "93835521b7cd3854f2f7e2dbffff7c748da765113ca10b57321b6032b3c8950f",
+    "bytes": 29996
+  },
+  "audio/en-us/word/draw.mp3": {
+    "sha256": "f1180a9fe9b60a9d9c6d2186ed92885ce88b19b21d56f4fd20965eb9ec0cb98c",
+    "bytes": 30380
+  },
+  "audio/en-us/word/star.mp3": {
+    "sha256": "19af8d130a1ab5928640168d7190b32212bda9396b210e230ef05dc7724d25a6",
+    "bytes": 30764
+  },
+  "audio/en-us/word/song.mp3": {
+    "sha256": "1af1ddd65d335894e2d4175cb5b2792af639f46a98cb04085163d6bb931225a0",
+    "bytes": 31532
+  },
+  "audio/en-us/word/try.mp3": {
+    "sha256": "4499594763ca2bd581c7ff4be7e4ffdbd2ffedbd33af0b7bbd46136675dce442",
+    "bytes": 31148
+  },
+  "audio/en-us/word/books.mp3": {
+    "sha256": "b893879527b5cc2604a829d6c9ac6916bbf821f408742c2a60bf736ecc0d3769",
+    "bytes": 28076
+  },
+  "audio/en-us/word/school.mp3": {
+    "sha256": "ca267bb8c056758dcff71cd35d1043650667896e5596f20a4b774dd711e2e91a",
+    "bytes": 31148
+  },
+  "audio/en-us/word/take.mp3": {
+    "sha256": "6fa8963df3c0eb41653cc1ee34bd73c487d9cedfb415c70e41f357734c98d130",
+    "bytes": 29228
+  },
+  "audio/en-us/word/out.mp3": {
+    "sha256": "e967715c1bd0c16b641225d56ae0f3bb6d89abaf1571632d861369cb7897cb21",
+    "bytes": 28460
+  },
+  "audio/en-us/word/pencil.mp3": {
+    "sha256": "78120280cf28036dc510bfedab348d02be981bdcd7fd2406e39577c594fcd781",
+    "bytes": 31532
+  },
+  "audio/en-us/word/put.mp3": {
+    "sha256": "e3f670ebb74ecc0e485936df6467bd9e431c42644d03bcb58de66228e4082846",
+    "bytes": 28460
+  },
+  "audio/en-us/word/away.mp3": {
+    "sha256": "0edf7a46496ab7669039666273c7beb557bd65b831377a41659f26d7606c6a02",
+    "bytes": 31148
+  },
+  "audio/en-us/word/ruler.mp3": {
+    "sha256": "f51f4716c22dda5636262e6db7c21cd82a7e6986d7fcfc9b9b9e986bb298fe4e",
+    "bytes": 31148
+  },
+  "audio/en-us/word/show.mp3": {
+    "sha256": "20740befcee52b44271ca74ad1c113d4579fab01f1feeea55a461d19fec77971",
+    "bytes": 30380
+  },
+  "audio/en-us/word/it.mp3": {
+    "sha256": "e966297fd2289f2b4adfc937559fd35768974de2b3e938122f019e26d1f1e7eb",
+    "bytes": 23852
+  },
+  "audio/en-us/word/here.mp3": {
+    "sha256": "3c978eee5f77ffdd73491ed115cf447562f543eaf72a21f4e443a1a790bf428a",
+    "bytes": 29228
+  },
+  "audio/en-us/word/eraser.mp3": {
+    "sha256": "5d676b12de3d5e0a95df558f4405ddfe32d3f25acb03cecce150f1e287ffbc2f",
+    "bytes": 34220
+  },
+  "audio/en-us/word/blue.mp3": {
+    "sha256": "131a5c8dc6024c5d51ea84ec79ed3ec0196735facb729a4ac0ff6f6ecd4dc0a6",
+    "bytes": 30380
+  },
+  "audio/en-us/word/pencils.mp3": {
+    "sha256": "b3892001f698b8fb06e837b174496e95b2b8908261e8d5cbb30faedb50aaae2f",
+    "bytes": 33452
+  },
+  "audio/en-us/word/new.mp3": {
+    "sha256": "b056e10fb716a5d6ac30a99cf39bb4b320216049c099d86caf240ec00a40cc56",
+    "bytes": 29612
+  },
+  "audio/en-us/word/find.mp3": {
+    "sha256": "565d167b1f6be1b879ed5b1f6586d78661ecbfa7060e9a7d17bf5bef3ba4c630",
+    "bytes": 30764
+  },
+  "audio/en-us/word/on.mp3": {
+    "sha256": "b47c5212a2b096d9a373f07d3f57f684abf550eb97fe98c258ad949913c73681",
+    "bytes": 29996
+  },
+  "audio/en-us/word/desk.mp3": {
+    "sha256": "73ce07ae83254793df4a224956d9c4315b68622f189d03fa2baf807672bb8367",
+    "bytes": 30380
+  },
+  "audio/en-us/word/things.mp3": {
+    "sha256": "e031fa609c36a3728f5efe796a056313a13c98be5abf319416a381b60c30790d",
+    "bytes": 31532
+  },
+  "audio/en-us/word/family.mp3": {
+    "sha256": "1183614ed73059667a7e89637d9a1e8d96a2b8d552e1e7bfd96242ab6a964f0d",
+    "bytes": 31916
+  },
+  "audio/en-us/word/love.mp3": {
+    "sha256": "a2aea7a86be9c7218637d8c2c1f9b65c310d27a1029232bbce63d1025a0930a5",
+    "bytes": 29996
+  },
+  "audio/en-us/word/mother.mp3": {
+    "sha256": "3fd8469e33d8fedeafec9f1d8b2a6850ba7e481395bda9f580215baa8326f9f1",
+    "bytes": 29612
+  },
+  "audio/en-us/word/father.mp3": {
+    "sha256": "5bf37be56c54383ff6d4f52b7c3edd0e1d0d25724c0b08d32831fd6f5ba7e676",
+    "bytes": 30764
+  },
+  "audio/en-us/word/grandma.mp3": {
+    "sha256": "afa2653ce3f8f376482e4682b26cabc7078ede43ad6038d3e01febc8038b9de9",
+    "bytes": 33068
+  },
+  "audio/en-us/word/grandpa.mp3": {
+    "sha256": "0dd92c4509dbab3d216fdae528cd53c27c006bf4335b8adbff73683bf71bd0cd",
+    "bytes": 34604
+  },
+  "audio/en-us/word/happy.mp3": {
+    "sha256": "d07b62b1b22e94ae80c7d8fd7dbbb68c05a0001665b2e70576cf4821057f0f33",
+    "bytes": 31532
+  },
+  "audio/en-us/word/who.mp3": {
+    "sha256": "20885bc1b7eea99dcbdbf5cbd8dca14664531dd4d6e7882783eb889f8b3766db",
+    "bytes": 29228
+  },
+  "audio/en-us/word/photo.mp3": {
+    "sha256": "6d1e964da3c58dc21dbc26e1f9f42050e79bf9f4a154efb36784d380e7f6c556",
+    "bytes": 31148
+  },
+  "audio/en-us/word/sister.mp3": {
+    "sha256": "3134ea6387ebad74ef2f3ba7f2f106c89c414e968144b023fd70893c5d784ac5",
+    "bytes": 32300
+  },
+  "audio/en-us/word/brother.mp3": {
+    "sha256": "c104540ccae6e98806026e4f95d042ab010a1edd14e8a285d8f644e19dc5dcc0",
+    "bytes": 25772
+  },
+  "audio/en-us/word/he.mp3": {
+    "sha256": "53c092557a20a1786c5609dc75b258f2fee08f48e575431ab5d69d84df1bd870",
+    "bytes": 28844
+  },
+  "audio/en-us/word/neighbour.mp3": {
+    "sha256": "a4cfccf35eedeee4a1450de130079f1ed7f0d8763a145a5e1233d1eef408433f",
+    "bytes": 31532
+  },
+  "audio/en-us/word/robot.mp3": {
+    "sha256": "f1fcff6fc444940108cac90c7d3b0cb56fbe6f689110d9d88dd890919faf3e4f",
+    "bytes": 31532
+  },
+  "audio/en-us/word/has.mp3": {
+    "sha256": "829868028b95fa13e689997e78e53a3521e1580897d7d7a02d0e4fcef8a50763",
+    "bytes": 31148
+  },
+  "audio/en-us/word/big.mp3": {
+    "sha256": "68915423f40e552e964e69004e37b9dc2d7364c2d4d89fe613b6126d1c6ab546",
+    "bytes": 29228
+  },
+  "audio/en-us/word/spy.mp3": {
+    "sha256": "ed761cd28345c2cade1948c699dde5e828bed7be1d2b25382213881623f1cce1",
+    "bytes": 31532
+  },
+  "audio/en-us/word/yellow.mp3": {
+    "sha256": "fd53a7b88aa3d22fac2e434b623a1153d2fa3e136f5c37493b206ce816ce6caf",
+    "bytes": 31916
+  },
+  "audio/en-us/word/making.mp3": {
+    "sha256": "218ca513b5d35ebf43e2327cbfe52aac18da81474dccd0d2174769790ec7e6fc",
+    "bytes": 32684
+  },
+  "audio/en-us/word/something.mp3": {
+    "sha256": "664bfaff94850d86ee3fdc8f88fda0842f7217fd5ab68d348a71455e020a44c3",
+    "bytes": 32300
+  },
+  "audio/en-us/word/some.mp3": {
+    "sha256": "4f9ef23ea5218af424936d8c72ec66d9cd2f5000db2a027540b943ec8d15bcd1",
+    "bytes": 29228
+  },
+  "audio/en-us/word/enjoy.mp3": {
+    "sha256": "bda7b7876edf7d7040bd6bef71c5b23cd196778e91f41208320b96236865e09a",
+    "bytes": 33452
+  },
+  "audio/en-us/word/starts.mp3": {
+    "sha256": "ac5bd1dc5bce9d56357640d7a0892562a039f4e664a5a3cf5b7a551a540dabcd",
+    "bytes": 31916
+  },
+  "audio/en-us/word/nine.mp3": {
+    "sha256": "6feabc0a0d33ac4d5177df6cd1989ba34db9aa3e26bc2cd05b196ab36aba1b4c",
+    "bytes": 33452
+  },
+  "audio/en-us/word/check.mp3": {
+    "sha256": "80902ddfb57f4a9f1c22b4cce055db9d3d578c026283a5ba92e91388430508c1",
+    "bytes": 27308
+  },
+  "audio/en-us/word/friday.mp3": {
+    "sha256": "596f9672e25351472ecf7ebae42b682afdf297abd9ff017c6648a93078fc953f",
+    "bytes": 31532
+  },
+  "audio/en-us/word/lesson.mp3": {
+    "sha256": "e4fb97e1f4a57564eccb6dd3321eea60d14c20b4c541ef6ac93a11fc4fa6746d",
+    "bytes": 31916
+  },
+  "audio/en-us/word/ben.mp3": {
+    "sha256": "5065d06e502bbc5279af8ed7f92bc3709685d85dfad80b4e9148cdd735c3bdec",
+    "bytes": 29996
+  },
+  "audio/en-us/sentence/hello-anna.mp3": {
+    "sha256": "2fbda50d0a5c7f060c6bb80848383a13852b452332b14c7ac38802cbfe0468aa",
+    "bytes": 37676
+  },
+  "audio/en-us/sentence/hi-tom.mp3": {
+    "sha256": "04d55a609f19fa336eb27bf1b9fbf4a76ac9a614b20e47f2b8bffd3c87ac1a68",
+    "bytes": 36140
+  },
+  "audio/en-us/sentence/good-morning.mp3": {
+    "sha256": "2095036e9f3bdd03919ea8ea50310dfa881da652112cf02609f83692d2c59cfc",
+    "bytes": 36140
+  },
+  "audio/en-us/sentence/good-morning-mom.mp3": {
+    "sha256": "ab45c6152a23b892679a56e2c744a7a6658db4dacfa43f61c97b99d175dd75bb",
+    "bytes": 42668
+  },
+  "audio/en-us/sentence/good-afternoon.mp3": {
+    "sha256": "3b72bd22db153ad0084635985b83076d0cf0bb94cf17f370d2b80f5124bbc430",
+    "bytes": 39596
+  },
+  "audio/en-us/sentence/good-afternoon-mr-lee.mp3": {
+    "sha256": "000b967d572c9a1723b2d45e65c3c05348998c66964d878f38fb467a542c23af",
+    "bytes": 49964
+  },
+  "audio/en-us/sentence/good-evening.mp3": {
+    "sha256": "0ade069ba09d111a34705c0bb6c336694864582d29af42ae7d18f8ed99ef93c8",
+    "bytes": 35756
+  },
+  "audio/en-us/sentence/good-evening-dad.mp3": {
+    "sha256": "90e95c35bda06b5b784c5186308498fa9a0d773d47f2b28feabc10fac2d47178",
+    "bytes": 41900
+  },
+  "audio/en-us/sentence/good-night.mp3": {
+    "sha256": "7c20cf0544f972fa80ce7017bbb7da4b46cc1e0d9bed5545eadb95afca240e51",
+    "bytes": 34604
+  },
+  "audio/en-us/sentence/good-night-mom.mp3": {
+    "sha256": "74eff6117b0dfa48b3574d663eaba8927c651efa6be4d678c66b1e64e7092585",
+    "bytes": 39980
+  },
+  "audio/en-us/sentence/goodbye-everyone.mp3": {
+    "sha256": "e95a0d1c012d08c4de38b444cdf957082aa8e7b760eeff587f40946ec1fae89b",
+    "bytes": 43052
+  },
+  "audio/en-us/word/bye.mp3": {
+    "sha256": "35d4f790a21418d4932a66d5d89819f4479a06dc4e11cbd5f8657d0bcaf3a8a3",
+    "bytes": 29612
+  },
+  "audio/en-us/sentence/bye-see-you-tomorrow.mp3": {
+    "sha256": "c255e287954b252d8cbe3a0091f3334567b7219ef244336098d5ca84e1a01293",
+    "bytes": 46124
+  },
+  "audio/en-us/sentence/see-you.mp3": {
+    "sha256": "9a59070ecb0349487b4a18c8c3bfdaf70f6b5ab101e6f4ae0bd305807b9bb718",
+    "bytes": 33452
+  },
+  "audio/en-us/sentence/see-you-later.mp3": {
+    "sha256": "99c38abf47f9b4420f4ccb0d9627fcf3fcb1828067e607e6d3f0b865bcad9d15",
+    "bytes": 36908
+  },
+  "audio/en-us/sentence/thank-you.mp3": {
+    "sha256": "91e1b37d3c6dd67130fbbdfbac15fc043bba97fbedb30acf1a6fa3de988aff14",
+    "bytes": 34988
+  },
+  "audio/en-us/word/thanks.mp3": {
+    "sha256": "403b9ee430f75991cf556ffd7a8eee86c91059e4c174f9758dad1b0aa31fd336",
+    "bytes": 29996
+  },
+  "audio/en-us/sentence/thanks-dad.mp3": {
+    "sha256": "bec64071ff6594effe345291e6ce5f577d577d362f7aa83e3b742830483db497",
+    "bytes": 38060
+  },
+  "audio/en-us/sentence/you-re-welcome.mp3": {
+    "sha256": "57d04e0bac6257c4b208b6febf9ff3b1fd2c21d96700d83a47954e2563b9ff85",
+    "bytes": 36140
+  },
+  "audio/en-us/word/sorry.mp3": {
+    "sha256": "99143edd55ee277a092f7e8fe6c8251cee9a9f4b7324fd63f02570d75caf7143",
+    "bytes": 30764
+  },
+  "audio/en-us/sentence/sorry-i-m-late.mp3": {
+    "sha256": "e728d2389db38e3a428eb6ad6775f03708d060a432e0d6c0e7896192f95c65c0",
+    "bytes": 38444
+  },
+  "audio/en-us/sentence/excuse-me.mp3": {
+    "sha256": "4d7fa91dee686e618684e5a0c99d875163efe2fb803946f9c62d6a6573bff367",
+    "bytes": 36908
+  },
+  "audio/en-us/sentence/excuse-me-where-is-the-library.mp3": {
+    "sha256": "fb2e71fa000b25eb55270a0322a5f65aa9ef695010605cf946325f27022448d2",
+    "bytes": 59180
+  },
+  "audio/en-us/sentence/yes-i-can.mp3": {
+    "sha256": "d72985e5770c341d20a1b819db35a855447182564a19ce7522e3f3581a09b402",
+    "bytes": 38828
+  },
+  "audio/en-us/word/no.mp3": {
+    "sha256": "a67e819c1d089ebc19eb5395e680cd47bfd40df31173c81eca11a4ba71dc4300",
+    "bytes": 28460
+  },
+  "audio/en-us/sentence/no-thank-you.mp3": {
+    "sha256": "273e6210c0464bde8ace441fafdcc3ad315b51f71b33c80f7830c50810adf916",
+    "bytes": 38828
+  },
+  "audio/en-us/sentence/how-are-you.mp3": {
+    "sha256": "0ff02a283edaa652b3d84695207b2805dcca237852ed21f8571afcafa97ec544",
+    "bytes": 34604
+  },
+  "audio/en-us/sentence/how-are-you-today.mp3": {
+    "sha256": "737c5c01515ffe4eeb6ebee4ec514d6f43020693126afc14d606716d401bfc63",
+    "bytes": 39596
+  },
+  "audio/en-us/sentence/i-m-fine.mp3": {
+    "sha256": "c83e814633300e7e8f3a5ddf19e9b87de5bac33a3b8b05f2f60e7e08073f4540",
+    "bytes": 36140
+  },
+  "audio/en-us/sentence/i-m-fine-thank-you.mp3": {
+    "sha256": "c652f3dc2406385d5f820dd3252a50087228bfd33bc59bed8be6835677b87401",
+    "bytes": 43820
+  },
+  "audio/en-us/sentence/nice-to-meet-you.mp3": {
+    "sha256": "9b97925a1f02124b4bb3dd5ea11cef37bcf82f45dbdbf6358a73f4e16c2468f1",
+    "bytes": 40364
+  },
+  "audio/en-us/sentence/nice-to-meet-you-lily.mp3": {
+    "sha256": "e0bf6406c8f3302a2009e867f200c66b19eee204d8c60b590285f1742508b517",
+    "bytes": 43436
+  },
+  "audio/en-us/word/welcome.mp3": {
+    "sha256": "f5bc8734815a07c4bbccfe556fdfec6fa99814d0567234fc6eae570008bc0bb8",
+    "bytes": 32684
+  },
+  "audio/en-us/sentence/welcome-to-our-school.mp3": {
+    "sha256": "4f26f1d61abd4b70deabfd42a81c32474cd416cfe7ddaa8a5650e7b4d1c5ead4",
+    "bytes": 43436
+  },
+  "audio/en-us/word/zero.mp3": {
+    "sha256": "4f400faba9f99f55fe7a3fda1e3e5ee68378ef00e36d9464d5d80e8b77b3dc3f",
+    "bytes": 32300
+  },
+  "audio/en-us/sentence/i-have-zero-cookies.mp3": {
+    "sha256": "f70fde9cfce1794a8ad8d8e620aab03653baea001be083a307bc19eca65af925",
+    "bytes": 44204
+  },
+  "audio/en-us/sentence/i-have-one-pen.mp3": {
+    "sha256": "34ad3ddb3cb8d8f0851d3380f8e4f8e6a56717b09a5a64d57b0fcec8c98928c4",
+    "bytes": 40748
+  },
+  "audio/en-us/sentence/i-see-two-birds.mp3": {
+    "sha256": "7d1f69a25c184416c72078c89cc229172766140bbef35f0175c1fd347cc3bced",
+    "bytes": 41132
+  },
+  "audio/en-us/sentence/i-have-three-books.mp3": {
+    "sha256": "b8602723c2166fca15e0f910be1f58ea2f4872622e5c83db973fcd34bc55f07f",
+    "bytes": 40364
+  },
+  "audio/en-us/word/four.mp3": {
+    "sha256": "10a9bf626ae743cff3491981c78dea193ab4a4e65631aa12b3b0f4d8cdbb4c5b",
+    "bytes": 30380
+  },
+  "audio/en-us/sentence/four-cats-are-here.mp3": {
+    "sha256": "5489880ebb1c33c4dc9f559d537541e1af2924251d02aa65f4cbe84a98055e0b",
+    "bytes": 40748
+  },
+  "audio/en-us/sentence/i-have-five-apples.mp3": {
+    "sha256": "9fc857c7ab01b21731605d65fbdc6ceea0ff308a5d400a08fb2bbb5d3a8b1be2",
+    "bytes": 43052
+  },
+  "audio/en-us/word/six.mp3": {
+    "sha256": "0debcd6ae55ce789b48857fdf20ecefd711073636e6df36403557d8e756a42b0",
+    "bytes": 28844
+  },
+  "audio/en-us/sentence/six-ducks-can-swim.mp3": {
+    "sha256": "6817536094fb6e94487dc93e402f14da54e1995b6938a64ed1d22ec30ed22e82",
+    "bytes": 45356
+  },
+  "audio/en-us/word/seven.mp3": {
+    "sha256": "f6ded427eedaafb00dff39553e5c1112ecc69376c8d829a74bbba5c77c1c3c41",
+    "bytes": 31532
+  },
+  "audio/en-us/sentence/i-see-seven-stars.mp3": {
+    "sha256": "c657228a965907086a3bc770c954edf367708fae2023ff92d39752631d995f89",
+    "bytes": 45356
+  },
+  "audio/en-us/word/eight.mp3": {
+    "sha256": "62643d8407448379ccda3a536b01fbc410a35846a27803ef49db5b1835c7d262",
+    "bytes": 28460
+  },
+  "audio/en-us/sentence/i-have-eight-crayons.mp3": {
+    "sha256": "91c62010ae949243b1ad67e465411397840a733b0be98140bf4b72269797e2ee",
+    "bytes": 43436
+  },
+  "audio/en-us/sentence/i-see-nine-flowers.mp3": {
+    "sha256": "e7c6b8f4ccb6aa46ad33208f251eaf4c4021a5d17140f04519a98e506fbfe540",
+    "bytes": 42284
+  },
+  "audio/en-us/word/ten.mp3": {
+    "sha256": "3e033b8dfa385126366893389e9c9d5692f0fc6f69a0e96e8388ee4f7d83b74f",
+    "bytes": 30380
+  },
+  "audio/en-us/sentence/i-have-ten-fingers.mp3": {
+    "sha256": "dae0e7a32a87b58c1c84c39419b48d31d805d7c59b810603e03b0c34e8c6e9ef",
+    "bytes": 43436
+  },
+  "audio/en-us/word/eleven.mp3": {
+    "sha256": "5685e7b373d093d2bcdfd864ef70cc56d5c635a6dcc65e214abfcc86eec9d7d1",
+    "bytes": 31916
+  },
+  "audio/en-us/sentence/i-have-eleven-cards.mp3": {
+    "sha256": "30465f217df4a69266d9bf1eb16225e7cec777dec4668b11bd97e7c9cbf4b1e3",
+    "bytes": 44204
+  },
+  "audio/en-us/word/twelve.mp3": {
+    "sha256": "9540518716a9b4be05a2319e844a87dd39aaf70b3bce780585f065619bcfdf84",
+    "bytes": 30764
+  },
+  "audio/en-us/sentence/there-are-twelve-eggs.mp3": {
+    "sha256": "f613c33256cb6dc0f8c5e20078c15aa738790c6990ab22c79432421700bc5d67",
+    "bytes": 40364
+  },
+  "audio/en-us/word/thirteen.mp3": {
+    "sha256": "981cd53f1b47bec1acdaaf974b2b3104f1aa1ec0b01f290b0655a548422e18b2",
+    "bytes": 34220
+  },
+  "audio/en-us/sentence/i-can-count-to-thirteen.mp3": {
+    "sha256": "7203db85dd00c109f18191cb5b5402cff7b661240b7bff6d6c944b7b45144500",
+    "bytes": 45356
+  },
+  "audio/en-us/word/fourteen.mp3": {
+    "sha256": "a2f667708fcd97c54a06ac42adf7d7f8ba01442e6db95f8c124f3e3ed7059343",
+    "bytes": 34604
+  },
+  "audio/en-us/sentence/fourteen-birds-are-outside.mp3": {
+    "sha256": "8aa5ecf9c27b34df31bf4d1fcd7554dfdcaf94562241c8ec998405921099a575",
+    "bytes": 49964
+  },
+  "audio/en-us/word/fifteen.mp3": {
+    "sha256": "2e94f2561ab7731d76283d5446060d7372b7d8048133a8f28d1147b800275b63",
+    "bytes": 33836
+  },
+  "audio/en-us/sentence/fifteen-students-are-here.mp3": {
+    "sha256": "bc6ed68e34901761b64cff54cbf83eecba1228c491de00e2f019442aa4080473",
+    "bytes": 48044
+  },
+  "audio/en-us/word/sixteen.mp3": {
+    "sha256": "b09015b41a0390f6cb1f580d11ca1fd736d91362b6f385d2e3b63b93f5894c32",
+    "bytes": 34604
+  },
+  "audio/en-us/sentence/i-have-sixteen-stickers.mp3": {
+    "sha256": "bbf1c56b53f291989e96139afeb802dd7201540b26a93f3b8720a22ab6615f59",
+    "bytes": 46124
+  },
+  "audio/en-us/word/seventeen.mp3": {
+    "sha256": "f0e14264e726e18f077c2cb87fa24f25401bb01789fd510147e5c803c7c4458e",
+    "bytes": 35372
+  },
+  "audio/en-us/sentence/i-see-seventeen-stars.mp3": {
+    "sha256": "f473a5483d5c55b91709684d823f26ff197fbb54fc98d845f3d654ad1624a012",
+    "bytes": 47660
+  },
+  "audio/en-us/word/eighteen.mp3": {
+    "sha256": "10e442a3a768b894b85cdd8ebd17e1349eb79a742a0890327535142da44ba676",
+    "bytes": 34220
+  },
+  "audio/en-us/sentence/there-are-eighteen-pencils.mp3": {
+    "sha256": "406e569e0b2fb64796eedc85bdcc27e32f6603a43e7d8420527a699155c8dd05",
+    "bytes": 45740
+  },
+  "audio/en-us/word/nineteen.mp3": {
+    "sha256": "95659c50b0305f674efa7f8259311097a1846899c4bcfb036a4c3e331d3931ae",
+    "bytes": 34988
+  },
+  "audio/en-us/sentence/i-have-nineteen-blocks.mp3": {
+    "sha256": "6c8215e6c67931a8a765ac544af49afda9a2f13a4eb1445e1165773ae5a61712",
+    "bytes": 44972
+  },
+  "audio/en-us/word/twenty.mp3": {
+    "sha256": "5389fff29a70ee146fbe8e47ddab26c5ba9a374b6f6b3c726b4f26882f03654d",
+    "bytes": 33452
+  },
+  "audio/en-us/sentence/i-have-twenty-blocks.mp3": {
+    "sha256": "ca1ba89b3191b1b22b4f970b04bd6d822487fd83b555c351d2deca4a79fd339b",
+    "bytes": 42668
+  },
+  "audio/en-us/word/twentyone.mp3": {
+    "sha256": "724eea57b10ab2dde3d61dc46c239e1db7207f41b0f444f7ed9a88a981207240",
+    "bytes": 33836
+  },
+  "audio/en-us/sentence/i-have-twentyone-stickers.mp3": {
+    "sha256": "7c70351a95b836bd97591f68f6f2bb5d9ac9af6073270bb58aa134294be9702c",
+    "bytes": 47276
+  },
+  "audio/en-us/word/twentytwo.mp3": {
+    "sha256": "406833307a131f80af78be5f808a53ff9445f5838aeb6ffdcfef7c357c2709de",
+    "bytes": 34220
+  },
+  "audio/en-us/sentence/i-see-twentytwo-birds.mp3": {
+    "sha256": "5d1c7b486dc39f6f9ac5ea39914b11c3583df4c3710c2036c5db52726ef63e14",
+    "bytes": 46124
+  },
+  "audio/en-us/word/twentythree.mp3": {
+    "sha256": "61c641fd5f15ca9440316f3d7b79d24b7825160475507214100c44546e8d0c95",
+    "bytes": 33452
+  },
+  "audio/en-us/sentence/there-are-twentythree-books.mp3": {
+    "sha256": "90e3187ff45b8a7173068293a412afa1af84cc1d70255653880d7d66846e0a9f",
+    "bytes": 43820
+  },
+  "audio/en-us/word/twentyfour.mp3": {
+    "sha256": "b07513376919bff722916356ec006d37c843a471709b3ebab3c6b4679260f336",
+    "bytes": 33452
+  },
+  "audio/en-us/sentence/i-have-twentyfour-cards.mp3": {
+    "sha256": "21420f905d7c83ffcac774825e401fccdae167b8f1d980267cd9fe4807c2ad6e",
+    "bytes": 46508
+  },
+  "audio/en-us/word/twentyfive.mp3": {
+    "sha256": "fda6540973762eed477856a22d727c6a85d7ebb4f01e51de19cd8227210ce1a1",
+    "bytes": 34604
+  },
+  "audio/en-us/sentence/there-are-twentyfive-students.mp3": {
+    "sha256": "731f6c759ba80ae5d5b57bda08915b0bc671cd09393339079fc611e75df7bf7a",
+    "bytes": 45356
+  },
+  "audio/en-us/word/twentysix.mp3": {
+    "sha256": "3fa1038cf7b3edb8cf9176c399b722c590ab0f5b729c54b5c0f8e42e6d7471b3",
+    "bytes": 34604
+  },
+  "audio/en-us/sentence/i-have-twentysix-crayons.mp3": {
+    "sha256": "d9a55f6976b83871587eff38372544ba1702a789ff9beca6fda3cc387cf66802",
+    "bytes": 49196
+  },
+  "audio/en-us/word/twentyseven.mp3": {
+    "sha256": "13a59eec82391cfb0066a3c962aff85ae61b06fbe1458c8b82e3b67b72d4400a",
+    "bytes": 34604
+  },
+  "audio/en-us/sentence/i-see-twentyseven-stars.mp3": {
+    "sha256": "8f42c15d6eacfdf4c63e8d1378cea904debc0036c0484afb2d22183242cecbd7",
+    "bytes": 48428
+  },
+  "audio/en-us/word/twentyeight.mp3": {
+    "sha256": "62c95262e00ee2fc160e4b4e0c32ed6e2d30eeff70a84ba23ad787c19f8d587e",
+    "bytes": 31916
+  },
+  "audio/en-us/sentence/there-are-twentyeight-days-in-february-in-a-common-year.mp3": {
+    "sha256": "52302ee265afbb7ee810523ce6d2364627f1305d461a5eff10ffc249e21c3ccc",
+    "bytes": 71852
+  },
+  "audio/en-us/word/twentynine.mp3": {
+    "sha256": "3410ff3dc5fb9e30cdba22bc9ddd56a9222154d3398cf81bb18e3ba06e003568",
+    "bytes": 33452
+  },
+  "audio/en-us/sentence/i-have-twentynine-marbles.mp3": {
+    "sha256": "055d41436fbcdf8750d60a7a4bf1f97b013697c4af08bf264094592c7dd61327",
+    "bytes": 46124
+  },
+  "audio/en-us/word/thirty.mp3": {
+    "sha256": "0562ec4750e0dc7149d8e2ff931b70587da5904c6573f1a7c1e88d1cecc1ca0c",
+    "bytes": 31532
+  },
+  "audio/en-us/sentence/i-have-thirty-stickers.mp3": {
+    "sha256": "7561b7b15340318f6fc4d84bede94ea86beffda6dcfb000bacbb554c25abd523",
+    "bytes": 44204
+  },
+  "audio/en-us/word/forty.mp3": {
+    "sha256": "09363bfa3be808ad42c5419720751f735cdd56919cab996804ba9145c9f9a335",
+    "bytes": 31916
+  },
+  "audio/en-us/sentence/forty-books-are-on-the-shelf.mp3": {
+    "sha256": "905a00915e4020f17849a00134cbea59a2ca28f06e18afe138bda023840a8080",
+    "bytes": 45740
+  },
+  "audio/en-us/word/fifty.mp3": {
+    "sha256": "ea5a644da3531a7ae5a348fc0e08ee7b680d296c73fa7a2913ac61f76d08a77d",
+    "bytes": 32684
+  },
+  "audio/en-us/sentence/the-chart-has-fifty-stars.mp3": {
+    "sha256": "a48530f6a74e3a76aff2236992a8370de7ea7c93359c1277fed7b5b44e1d4ec3",
+    "bytes": 48044
+  },
+  "audio/en-us/word/sixty.mp3": {
+    "sha256": "e9d56882003f7c34c1a2cdf3fd5b40f140b8361e4d250140590d59401773a4fe",
+    "bytes": 33452
+  },
+  "audio/en-us/sentence/sixty-seconds-make-a-minute.mp3": {
+    "sha256": "fdfdfde24f194d527645d3da55b30daf082c07e318a5845d0808fb34fa2d5a50",
+    "bytes": 49580
+  },
+  "audio/en-us/word/seventy.mp3": {
+    "sha256": "72fbdeb51b933be3dd51b6a96a3181bfe8f92ea9f8048f463bb54b233cf3bbe9",
+    "bytes": 34220
+  },
+  "audio/en-us/sentence/seventy-is-more-than-sixty.mp3": {
+    "sha256": "5bab3492d45f5ea1da8aad57838b4783ce926bc7d3566a6ef7125f29f4b2a271",
+    "bytes": 53036
+  },
+  "audio/en-us/word/eighty.mp3": {
+    "sha256": "6e150f5215ed33fc0d184a31eb36feb89a111aaa4e03dcb87a093dc41bd0394c",
+    "bytes": 31916
+  },
+  "audio/en-us/sentence/eighty-is-a-number.mp3": {
+    "sha256": "39e7efc90490a39d78bb7e3018484665628eef0c66ebe7a004879954f6125c93",
+    "bytes": 41132
+  },
+  "audio/en-us/word/ninety.mp3": {
+    "sha256": "787160355bb5862fada3f39fa7d7bd3d3582a2d07a8e3175f12dd4695a649baa",
+    "bytes": 32300
+  },
+  "audio/en-us/sentence/ninety-is-ten-less-than-one-hundred.mp3": {
+    "sha256": "6a66984f730b651c0f4b61e9a5fb6c40804b5656bc0ac7e53a37a48305c3bbcc",
+    "bytes": 59564
+  },
+  "audio/en-us/sentence/one-hundred.mp3": {
+    "sha256": "ba93b55ef0779ff354437e10241ace254625dcc327535c71080321bf38ddb978",
+    "bytes": 36524
+  },
+  "audio/en-us/sentence/i-can-count-to-one-hundred.mp3": {
+    "sha256": "9cc713bb8304ece85a8f84128c6978d0afed6b4fa3b51a9d1ce4d1c4d02b9b1a",
+    "bytes": 47276
+  },
+  "audio/en-us/word/number.mp3": {
+    "sha256": "4e5469d8cb56cc4c81b9d452d069c27ea1ddab0cb8b12f74fdef3825ef733bf9",
+    "bytes": 30380
+  },
+  "audio/en-us/sentence/what-is-your-number.mp3": {
+    "sha256": "536804f67e828f72eca2255f38bdabdbe272ef9f1dfdec3fbe46e6b7f1502b2d",
+    "bytes": 39212
+  },
+  "audio/en-us/word/count.mp3": {
+    "sha256": "2e41ee9cdb4b756195c99eb23b6a4fe130ea935251b1c8cae76bd7865a53af48",
+    "bytes": 29228
+  },
+  "audio/en-us/sentence/count-from-one-to-ten.mp3": {
+    "sha256": "59311640f11bd20619817e72790332a8f8ee5a8e116d7cd2941230a26a8585d3",
+    "bytes": 43436
+  },
+  "audio/en-us/sentence/how-many.mp3": {
+    "sha256": "1071484717f6afb14e008a33231cf08a7ae671ebad7c7d9a24a1636f26323eb0",
+    "bytes": 34604
+  },
+  "audio/en-us/sentence/how-many-books-do-you-have.mp3": {
+    "sha256": "07f4b8f56081e18783c90c563a97fece035bb1d23963a58fba5e71554019946d",
+    "bytes": 44204
+  },
+  "audio/en-us/sentence/how-much.mp3": {
+    "sha256": "b8aa9e4535bb93f287dfc5677e3f17a548301b5e29ee8c9d9e2550809addfd5e",
+    "bytes": 33068
+  },
+  "audio/en-us/sentence/how-much-water-do-you-want.mp3": {
+    "sha256": "79118774eb285a85f843765ce8a2a9d39f0e19f12c044d6b4fae727e2e3c0536",
+    "bytes": 44204
+  },
+  "audio/en-us/word/many.mp3": {
+    "sha256": "997234e74925a1360a8b5552493540f1fdca0df431b5538a1d3e99f83dc1823c",
+    "bytes": 31916
+  },
+  "audio/en-us/sentence/i-have-many-toys.mp3": {
+    "sha256": "bcd256a54c037d6cb553f3fc8aca6ce618ea5e8d60d9403f4a5ce1bb72d9195c",
+    "bytes": 41900
+  },
+  "audio/en-us/sentence/we-don-t-have-much-time.mp3": {
+    "sha256": "3b30cbc951ef3011b7a92f38162a6205c1fe77322f0ea6592290f62bcda59643",
+    "bytes": 42668
+  },
+  "audio/en-us/word/more.mp3": {
+    "sha256": "873b168ece9dc19b9ee705f4f73659dda03fa852fee2710474ef6123e947a73d",
+    "bytes": 28844
+  },
+  "audio/en-us/sentence/i-want-more-milk.mp3": {
+    "sha256": "79bbe42e84a3f8fab539c0faf79d5606a7261bd8a17af0b116cd146b31f1e829",
+    "bytes": 38828
+  },
+  "audio/en-us/word/less.mp3": {
+    "sha256": "450e654890dac788cd023d64942b10276525a372451b3479e5f637baa71d0fcb",
+    "bytes": 29612
+  },
+  "audio/en-us/sentence/this-box-has-less-water.mp3": {
+    "sha256": "877528ed2bde613fbc67654da73cc9e5318c4a2ad102660687126d7c88929197",
+    "bytes": 47660
+  },
+  "audio/en-us/sentence/i-have-some-pencils.mp3": {
+    "sha256": "da1d49a1a37b167862d8cac27d1e80ec1ef730a4cb71a486e7b04e7e23897c50",
+    "bytes": 43052
+  },
+  "audio/en-us/word/any.mp3": {
+    "sha256": "234117579c7894d823a50c2dff4f64c888aa4e707f906522c81f562de7afddcb",
+    "bytes": 30764
+  },
+  "audio/en-us/sentence/do-you-have-any-questions.mp3": {
+    "sha256": "5434b91512e686c3f16a3896a9eb3f09c7688fc2a1b8648f908da1b162500bd1",
+    "bytes": 44204
+  },
+  "audio/en-us/word/all.mp3": {
+    "sha256": "53568bb37e92e51c4cf39882836b272309e43af60d169fee22ee71f8d683b364",
+    "bytes": 29612
+  },
+  "audio/en-us/sentence/all-the-children-are-here.mp3": {
+    "sha256": "7c63c035264cdd59d0201c52365c7254d5fc75b21a5a32b088c62fd26f9297b2",
+    "bytes": 44972
+  },
+  "audio/en-us/word/half.mp3": {
+    "sha256": "e2ac7414b3bbcd9ddb99acc785a13fe9d55b2b1554555d3d7f2ead2cd2740185",
+    "bytes": 28076
+  },
+  "audio/en-us/sentence/i-ate-half-an-apple.mp3": {
+    "sha256": "b3ee2724538e98a9d863e3a03dcdb979164f47a6521b1cb7dde588b2459bcbf7",
+    "bytes": 42284
+  },
+  "audio/en-us/word/first.mp3": {
+    "sha256": "1bc6bbda3ac5ce325b534a67cac33291399275dd710e1a456c3c12ba6af35282",
+    "bytes": 30380
+  },
+  "audio/en-us/sentence/this-is-my-first-book.mp3": {
+    "sha256": "e5e778120ac7664de2b3eac938237d36d7648d07ed3bfd6b61e482b09d55a972",
+    "bytes": 44204
+  },
+  "audio/en-us/word/second.mp3": {
+    "sha256": "b60799b91abd7d4d4965bdb3c7c938413720829f3e00f486e8119eec2a1f4088",
+    "bytes": 31532
+  },
+  "audio/en-us/sentence/the-second-answer-is-right.mp3": {
+    "sha256": "243a014f4dccba84870af69a791e5c9e7b7703599d0867b42c0a65b6eefba484",
+    "bytes": 47276
+  },
+  "audio/en-us/word/third.mp3": {
+    "sha256": "8f4e8c08d261b4e6f834ca9014e5258121a41e4e4edeb69d06614907440be321",
+    "bytes": 30764
+  },
+  "audio/en-us/sentence/the-third-box-is-blue.mp3": {
+    "sha256": "686cf56d05f20303d54e3bf5850fa7a3d34a4e66ce31c6565f7d687ff51111e9",
+    "bytes": 45740
+  },
+  "audio/en-us/word/each.mp3": {
+    "sha256": "8bfa2336028def6e63a967110a4006aee4271d5aefa8268880bb66d86dcbbadb",
+    "bytes": 28844
+  },
+  "audio/en-us/sentence/each-child-has-a-book.mp3": {
+    "sha256": "4561a925c4c119ee4b18f55eaafdffea3b3999c33bdef0e18e60777c27078e7a",
+    "bytes": 43436
+  },
+  "audio/en-us/sentence/i-read-every-day.mp3": {
+    "sha256": "e775fb09bc22f2839bd40c825d78f3d996278a93c4f9ac0df3c406ad85719e88",
+    "bytes": 42284
+  },
+  "audio/en-us/sentence/a-lot-of.mp3": {
+    "sha256": "99a7e6c8a1c5f6e7fdc2ab9dcc1c3c2dc7b7d4ff485a2de03b6c16683b4cf1e7",
+    "bytes": 33452
+  },
+  "audio/en-us/sentence/i-have-a-lot-of-books.mp3": {
+    "sha256": "84f19d307d0686e8460d184dbcc1014cb500763d4fff90339358cb045580bfd8",
+    "bytes": 41516
+  },
+  "audio/en-us/word/few.mp3": {
+    "sha256": "ac6cf5f520a7286d82cc89671c0e265b4b1053857e19d0252ccdff336b1dbcc0",
+    "bytes": 30764
+  },
+  "audio/en-us/sentence/few-people-are-here.mp3": {
+    "sha256": "55a095332d6c9092e14300050bcc2b3970eeb04f8abb664b340b5ebbc16ffc58",
+    "bytes": 41516
+  },
+  "audio/en-us/sentence/a-few.mp3": {
+    "sha256": "58d6036daeb27f1ce01cf627fe86e076eb0669c5d154a3e2d06000469f7a242a",
+    "bytes": 35756
+  },
+  "audio/en-us/sentence/i-have-a-few-toys.mp3": {
+    "sha256": "7542140260081024e9c82b1b3aa8f14a6a4ac5a1263ada124a7f5b7fe2477d96",
+    "bytes": 41900
+  },
+  "audio/en-us/sentence/there-is-little-milk-left.mp3": {
+    "sha256": "16ddb239efa44b2e841b8db3a6aeabb70f9a18f939bca10259577f37f3a48e5f",
+    "bytes": 43436
+  },
+  "audio/en-us/sentence/a-little.mp3": {
+    "sha256": "fb00830a550001d50c684480b5f6fa09548dd75229908f62640c066cdef2cd69",
+    "bytes": 33836
+  },
+  "audio/en-us/sentence/i-want-a-little-water.mp3": {
+    "sha256": "df177b836a8114399866fc1331faae1f36b78629ee46b647caa300f2d3460914",
+    "bytes": 41516
+  },
+  "audio/en-us/word/enough.mp3": {
+    "sha256": "bb3bab9c8a17d32e024617f188eccd7f3413f524cc456d069f8ad7f0a6715a8b",
+    "bytes": 29228
+  },
+  "audio/en-us/sentence/we-have-enough-chairs.mp3": {
+    "sha256": "1f44a50c1b157354d6e4fac3fa95ce977e57c5b2d790179681cf1445a3fd8b1b",
+    "bytes": 42284
+  },
+  "audio/en-us/word/total.mp3": {
+    "sha256": "e631e3bd52c782a6927d8a519ae0da91955637e5618b2c5a6871e0c79faf786d",
+    "bytes": 30764
+  },
+  "audio/en-us/sentence/the-total-is-ten.mp3": {
+    "sha256": "560317cd01d99b8430d71e9ad3ff1996a7735b2c2e77de473b83639fa1fdf71b",
+    "bytes": 41132
+  },
+  "audio/en-us/sentence/the-apple-is-red.mp3": {
+    "sha256": "f3c15ba89088e69331035652b73ec071d2efcdb5ea7ed1e0da1d66d3e6ccfbb5",
+    "bytes": 41516
+  },
+  "audio/en-us/sentence/the-sky-is-blue.mp3": {
+    "sha256": "02e1fb0c494abb8374ed5ced5a6e3f01a91309a46824337a5f8778946a638850",
+    "bytes": 40364
+  },
+  "audio/en-us/sentence/the-sun-is-yellow.mp3": {
+    "sha256": "14b565e3c06819736b85634f729235de3881e694d5052c89f17bbd4e1f08cd1a",
+    "bytes": 40364
+  },
+  "audio/en-us/word/green.mp3": {
+    "sha256": "bdb862434b35260bc18cd2f87fefd94f38db5e94894202c0d90de21145020c4f",
+    "bytes": 31532
+  },
+  "audio/en-us/sentence/the-leaf-is-green.mp3": {
+    "sha256": "929435dc988525504ba65b23d17167044a87bf9501ec4ad63b3e39bc495f6c76",
+    "bytes": 40748
+  },
+  "audio/en-us/word/orange.mp3": {
+    "sha256": "5efe9534a30bf6d45fc0831eccb28c85f1941c5b316702c29e0d2180cef841ea",
+    "bytes": 31532
+  },
+  "audio/en-us/sentence/my-bag-is-orange.mp3": {
+    "sha256": "4a23df0b6dd6fe0ca2ab4cf3cd93fb2fff492e4370b698cfdfa7edcf289078c5",
+    "bytes": 44204
+  },
+  "audio/en-us/word/purple.mp3": {
+    "sha256": "c0336f3f03bd560db4b56bcc3e1deea442a079ff0f0eaadb4c8a74ca75599864",
+    "bytes": 31532
+  },
+  "audio/en-us/sentence/the-flower-is-purple.mp3": {
+    "sha256": "cc953c468cb78dd84ce4f42d8c5ae2f7a222a9befe5dc884013f226ca7a38865",
+    "bytes": 43436
+  },
+  "audio/en-us/word/pink.mp3": {
+    "sha256": "6378d7549b4f1022664b492c5ba23609c40d6a484071f75ab8e33bccccfc5350",
+    "bytes": 29612
+  },
+  "audio/en-us/sentence/the-cup-is-pink.mp3": {
+    "sha256": "dfba479a9734a4015497d1f1714df02db618617e80380c7ca22981bb3834fd66",
+    "bytes": 39212
+  },
+  "audio/en-us/word/black.mp3": {
+    "sha256": "62211839e8e396f8fe3030dffe9871362df2a5e05555da59003bc309dad4e1e1",
+    "bytes": 28460
+  },
+  "audio/en-us/sentence/the-cat-is-black.mp3": {
+    "sha256": "8211d5b6189b5aca3368bc1447ffa58ee2a776a1d0901c99911f787d62a19450",
+    "bytes": 39596
+  },
+  "audio/en-us/word/white.mp3": {
+    "sha256": "4cb326774d683b08b53dce5862264d4c1c389667353d60ec0d8d7eea96a5ee69",
+    "bytes": 29612
+  },
+  "audio/en-us/sentence/the-snow-is-white.mp3": {
+    "sha256": "4212c48c7d9e2863518d790bf5bae2d7d39cbadc91fe6cddebdd85443f9dbbed",
+    "bytes": 40748
+  },
+  "audio/en-us/word/brown.mp3": {
+    "sha256": "102cae9ab59d328104c0697bac4c055c0b0c2b6b30588a5635d347f0c2d2c9d3",
+    "bytes": 31532
+  },
+  "audio/en-us/sentence/the-bear-is-brown.mp3": {
+    "sha256": "d7e1cf78de132b3f8b93cd3ea84ce66f03079891a21fc30f1b90b10744a789e2",
+    "bytes": 39980
+  },
+  "audio/en-us/word/gray.mp3": {
+    "sha256": "5df3d95709034a2d339f66ed0ab5214b2ba3abadf879858298b9864959e2d0aa",
+    "bytes": 30764
+  },
+  "audio/en-us/sentence/the-mouse-is-gray.mp3": {
+    "sha256": "8cf408d8f660ec40ea478ef75977ea4a34213f1a8551cdf57e9b7691f7b85f44",
+    "bytes": 40748
+  },
+  "audio/en-us/word/gold.mp3": {
+    "sha256": "98910f1dedad2929e671d94ba209f3c69c764d37845535995b4b3d019f9499b3",
+    "bytes": 30764
+  },
+  "audio/en-us/sentence/the-star-is-gold.mp3": {
+    "sha256": "b91dff12206e103dcd6ad9ed241beb24141f2972c7cdc6d5ff5aa5f833b926a5",
+    "bytes": 41132
+  },
+  "audio/en-us/word/silver.mp3": {
+    "sha256": "0ad6db9160beb384b9c1fef48aee259c005e02995ec9eb5c578266d82a959d5f",
+    "bytes": 31916
+  },
+  "audio/en-us/sentence/the-spoon-is-silver.mp3": {
+    "sha256": "46974987d992453a3c034384f1eab45292c582c5dc795ae2d81cae09e1535326",
+    "bytes": 42668
+  },
+  "audio/en-us/sentence/light-blue.mp3": {
+    "sha256": "0975e6d6ca77fe806db43501bd9399b10f86f9068edcb71ae0a245ebd14d467f",
+    "bytes": 35372
+  },
+  "audio/en-us/sentence/my-shirt-is-light-blue.mp3": {
+    "sha256": "a2deac664b52c43a25029f7fe650412725476f4b9bf5dd664c2e7b01943a04ca",
+    "bytes": 45356
+  },
+  "audio/en-us/sentence/dark-blue.mp3": {
+    "sha256": "f7fb48b92289ab7a914167045ee35fcd41ead130652452074e56c735de493941",
+    "bytes": 35372
+  },
+  "audio/en-us/sentence/the-bag-is-dark-blue.mp3": {
+    "sha256": "5028e2ed6ac7b5e247ee93a80bde04c39da41293f402f5cf3e24f93253fd86f6",
+    "bytes": 43436
+  },
+  "audio/en-us/sentence/light-green.mp3": {
+    "sha256": "868addd9ad9312132196f50d7976f2c79c3add4a079bb8456a9ddb01c9c68f13",
+    "bytes": 36524
+  },
+  "audio/en-us/sentence/the-wall-is-light-green.mp3": {
+    "sha256": "269452ddf83d3ffc6c69fb83a2a8e98fb45a782450abb82725a48d97ebab2a28",
+    "bytes": 43820
+  },
+  "audio/en-us/sentence/dark-green.mp3": {
+    "sha256": "31010f261a94e35c61fddd696bbaeb14611aa62d5a57417326d870775cdec763",
+    "bytes": 36524
+  },
+  "audio/en-us/sentence/the-tree-is-dark-green.mp3": {
+    "sha256": "b83e498114a2fa448d56eb9f33106302ea88a1a78446105547ff21e960a5a8f8",
+    "bytes": 45740
+  },
+  "audio/en-us/word/beige.mp3": {
+    "sha256": "ffb8832b804629fc2b417afef0f170c3662da14e6f1256997e0d34df8046c654",
+    "bytes": 31916
+  },
+  "audio/en-us/sentence/the-hat-is-beige.mp3": {
+    "sha256": "25758eae20cfd46686f3c07b527845d6dae6f3a25df8ab47a6665bd810fb2942",
+    "bytes": 40364
+  },
+  "audio/en-us/word/violet.mp3": {
+    "sha256": "22fceeb70ca1570788c70b83fbef09ccebb7216443c973235010215fac976a81",
+    "bytes": 31148
+  },
+  "audio/en-us/sentence/the-ribbon-is-violet.mp3": {
+    "sha256": "9187b530209f254cbc53ff5c3184f275f44b8f8fa3e751616faa585722eb5e28",
+    "bytes": 42668
+  },
+  "audio/en-us/word/shape.mp3": {
+    "sha256": "df91df6005690b094429e268f726aff53627d5d160d34a1a35c945df8c5aff35",
+    "bytes": 29612
+  },
+  "audio/en-us/sentence/what-shape-is-it.mp3": {
+    "sha256": "3d7ca5d25f1b170cba0fe0443f5effb3e6b2cc06233e4008d1a6f50b691d6d7a",
+    "bytes": 39596
+  },
+  "audio/en-us/word/circle.mp3": {
+    "sha256": "9e94a4177817555f1fa092e4507b370940a371ada86ebb33238f996c307068a4",
+    "bytes": 31532
+  },
+  "audio/en-us/sentence/it-is-a-circle.mp3": {
+    "sha256": "8096c1ce60114a7631c5c38cd87f35df181b62ac28c433342974f18599b7dd0c",
+    "bytes": 38828
+  },
+  "audio/en-us/word/square.mp3": {
+    "sha256": "3ec02331d5fa29affff07daf1fb0caaf29a8b05ecff1b183fa3540f3a1a841a8",
+    "bytes": 30764
+  },
+  "audio/en-us/sentence/draw-a-square.mp3": {
+    "sha256": "5091b6b717117698ecef316d94d41523a8d9d032f81f041e390d5aaa783f7aca",
+    "bytes": 38060
+  },
+  "audio/en-us/word/triangle.mp3": {
+    "sha256": "0d0d0ef32d7927cdd02f7832fcd3b3cce42509663339819999c8d6a11a0fd341",
+    "bytes": 32684
+  },
+  "audio/en-us/sentence/the-sign-is-a-triangle.mp3": {
+    "sha256": "f64473666c1b23b9ccc01e5193cc0cdd3ae014288c5c7976db16fb2660fe363b",
+    "bytes": 46508
+  },
+  "audio/en-us/word/rectangle.mp3": {
+    "sha256": "49ac67c187d31dbaeab4b954ed311e1647dfdf291939c47297335842400ae18a",
+    "bytes": 34604
+  },
+  "audio/en-us/sentence/the-book-is-a-rectangle.mp3": {
+    "sha256": "4ae365fa81427114119bff8c31f3102c25aae4642debfdae99ad8457ad73ad89",
+    "bytes": 47660
+  },
+  "audio/en-us/sentence/draw-a-star.mp3": {
+    "sha256": "0d0647a76a0a24ebea1b6392b4d0af25646e24be028976c8573284375b87c50b",
+    "bytes": 38444
+  },
+  "audio/en-us/word/heart.mp3": {
+    "sha256": "7e8dead483bbbb423f00c5a4aaa4877132dd638bc629b79b63d24fb294acedf2",
+    "bytes": 28844
+  },
+  "audio/en-us/sentence/the-card-has-a-heart.mp3": {
+    "sha256": "64759edf8333b2717c41d9b621800667d82e1ba762d5f561613dcbb7f4b7e64f",
+    "bytes": 40748
+  },
+  "audio/en-us/word/oval.mp3": {
+    "sha256": "adc2bb251459db8ba2668b8e8900c99c2547b0b3f80ed7bac3ee70fbffce5a54",
+    "bytes": 29228
+  },
+  "audio/en-us/sentence/the-egg-is-an-oval-shape.mp3": {
+    "sha256": "7b12841ed7a84326a4e22e406c70073361389992b3f118f30d2cf7753c140ea4",
+    "bytes": 48812
+  },
+  "audio/en-us/word/diamond.mp3": {
+    "sha256": "216c933fadddf1347af6b079b0e506c203b2e6ee4e9466edc44979f560f8cd30",
+    "bytes": 31916
+  },
+  "audio/en-us/sentence/the-tile-is-a-diamond.mp3": {
+    "sha256": "bcfa5872bf5e7fbec7244a0636c42551d01d696d34873667ba535d7fc07a5892",
+    "bytes": 45356
+  },
+  "audio/en-us/word/line.mp3": {
+    "sha256": "9febcaf36894ae203be1bca849ad63efdc97dfba8bf5cc97f10548a0b82b0af7",
+    "bytes": 30764
+  },
+  "audio/en-us/sentence/draw-a-straight-line.mp3": {
+    "sha256": "fceda1b2cb65a3fec6b0439f1a48f8d59989d88b84808056ec8fe3dcb80b5166",
+    "bytes": 41516
+  },
+  "audio/en-us/word/dot.mp3": {
+    "sha256": "481158de521a1ceef0afc518f147660f1b92ffe99d0598b3e0601826b7214537",
+    "bytes": 28460
+  },
+  "audio/en-us/sentence/put-a-dot-here.mp3": {
+    "sha256": "bff8dfdf4a6a1e61ae0366a82533d0c5dd3683093d7691d85575bc3410e8791e",
+    "bytes": 36524
+  },
+  "audio/en-us/word/corner.mp3": {
+    "sha256": "42d28da38919eff06fe45c6336d8332f8175841b39e6f775f42a0ebbf4b13777",
+    "bytes": 30380
+  },
+  "audio/en-us/sentence/the-paper-has-four-corners.mp3": {
+    "sha256": "fc35eebf8d5cd6d4a04aa4fc93c402566b1ed6e77b879e1b214a91c59567008c",
+    "bytes": 48044
+  },
+  "audio/en-us/word/side.mp3": {
+    "sha256": "39f32d5bc0c90364994fc259c48074583b11a4ca7e02fd67dceeba0dbcba9251",
+    "bytes": 29996
+  },
+  "audio/en-us/sentence/a-square-has-four-sides.mp3": {
+    "sha256": "52388a9b7aa932b6e1fdbb5c2d1bd265ce05f0f4d54cf69476ad003aa0a76af3",
+    "bytes": 46508
+  },
+  "audio/en-us/word/round.mp3": {
+    "sha256": "77103605898032fd93a85b4130f9e8473e6dfa8b0c65d0549ec96775b48a7725",
+    "bytes": 31148
+  },
+  "audio/en-us/sentence/the-ball-is-round.mp3": {
+    "sha256": "3dc2818d2be80801a83c84e26a23776feccb9c3f3fdd0b96ded783c634b63fa7",
+    "bytes": 40748
+  },
+  "audio/en-us/word/straight.mp3": {
+    "sha256": "48b672aef98a56e52beb4e2f7891a51a506ffd3d8b2777c863500579c58348e1",
+    "bytes": 30764
+  },
+  "audio/en-us/sentence/the-line-is-straight.mp3": {
+    "sha256": "8542b045b712d83874516d9076a3f16f364bee98f892fb3320554a0223e8eca9",
+    "bytes": 41132
+  },
+  "audio/en-us/word/curved.mp3": {
+    "sha256": "f0cba8e69e5753a382935dc9616a4e4f2f902387a5705ccdb0ccef934434ce64",
+    "bytes": 30380
+  },
+  "audio/en-us/sentence/the-road-is-curved.mp3": {
+    "sha256": "b76b6a880e4224c38ae55955561e66c232cacf940d38a37f71675a564dfd1ef3",
+    "bytes": 39596
+  },
+  "audio/en-us/sentence/the-box-is-big.mp3": {
+    "sha256": "601a1c9fc4646af565bd16f358b031dd6848636e2b1bf573adcc262c1f4ac6c5",
+    "bytes": 40748
+  },
+  "audio/en-us/word/small.mp3": {
+    "sha256": "13097025dcf7bd9f1b1e89a69610b1d524a72d516795907a76252e113c81c3e2",
+    "bytes": 31148
+  },
+  "audio/en-us/sentence/the-mouse-is-small.mp3": {
+    "sha256": "feb7280c0af1c8d85d34df269121f57e4da9194fd185c811512710c4f61675c5",
+    "bytes": 40748
+  },
+  "audio/en-us/word/large.mp3": {
+    "sha256": "fef84017d926ecac87ce11644bbef6f805c10af3642646bc0aed3f538e95a7d5",
+    "bytes": 30764
+  },
+  "audio/en-us/sentence/this-is-a-large-ball.mp3": {
+    "sha256": "e87ce986beff2151502f1825fcd7b2b2a14617ed133b8107bc83a643298bbfa0",
+    "bytes": 44204
+  },
+  "audio/en-us/word/long.mp3": {
+    "sha256": "c7be91138367bb8ade96216d19c3908c07d0c0b72d98acb06b8f22f1ab795dab",
+    "bytes": 30764
+  },
+  "audio/en-us/sentence/the-ruler-is-long.mp3": {
+    "sha256": "32b8c257402ff596445a3334e507da77c42bcb632e766e595868fa65e54ee792",
+    "bytes": 41132
+  },
+  "audio/en-us/word/short.mp3": {
+    "sha256": "9f41b40f5a7c5b08ce16d2a49a41d4a1c414558cdb8556398e767502297d4979",
+    "bytes": 28844
+  },
+  "audio/en-us/sentence/the-pencil-is-short.mp3": {
+    "sha256": "f9b75d57207001bfa8395f398bad3487649284a38c0a8769c0962d5f0ee1640e",
+    "bytes": 42284
+  },
+  "audio/en-us/word/tall.mp3": {
+    "sha256": "1494d30a5dad7cae7f4713500fcc0c04c093bec8a62ae00f698667a7a2ba05b4",
+    "bytes": 29228
+  },
+  "audio/en-us/sentence/the-tree-is-tall.mp3": {
+    "sha256": "d42c24386ac2d3d7f41e2f9da107986f67258e25d84e495d39a6aed424a84dc2",
+    "bytes": 39212
+  },
+  "audio/en-us/sentence/the-kite-is-high-in-the-sky.mp3": {
+    "sha256": "b6f910ed5f9087906a79d310982b6e5b332c656259bbf2a40c94c770a0c61c88",
+    "bytes": 46508
+  },
+  "audio/en-us/word/low.mp3": {
+    "sha256": "5262af7c32b3797b9832739f8363f2371d7dc3298913512af7d7c8b3f9fed702",
+    "bytes": 29996
+  },
+  "audio/en-us/sentence/the-table-is-low.mp3": {
+    "sha256": "fedf6c7a84f0cf35be3497f3dec37681fe42410ba1f19cae6bebda563872f97f",
+    "bytes": 40748
+  },
+  "audio/en-us/word/wide.mp3": {
+    "sha256": "6595dd986094abad47fb1ca8c8ced3ef59870b32980a4df2c42c3e3b6d19f0ce",
+    "bytes": 29612
+  },
+  "audio/en-us/sentence/the-river-is-wide.mp3": {
+    "sha256": "6a638959491a7ec9628123960f35ad2017dcc0e0d5659b779c3730d5392ae53a",
+    "bytes": 41516
+  },
+  "audio/en-us/word/narrow.mp3": {
+    "sha256": "b89214460dd182772053f1d70e3c0c997e2dafb76314f397af984ad72ef26c4d",
+    "bytes": 30380
+  },
+  "audio/en-us/sentence/this-street-is-narrow.mp3": {
+    "sha256": "3d3e9b063dea4e273796ef5ddd4b421bd75c1539dc01d96cc93d4d5aecf4f75c",
+    "bytes": 42284
+  },
+  "audio/en-us/word/thick.mp3": {
+    "sha256": "515ab630b7df0a3044109b3ef702125632ebd70747c64e69f369a46f2a9eb815",
+    "bytes": 28844
+  },
+  "audio/en-us/sentence/this-book-is-thick.mp3": {
+    "sha256": "e1a7435c7c3afc542cc3b3010195d9bce01563fb0fb2e79ae4a0a3b1583bc80c",
+    "bytes": 39596
+  },
+  "audio/en-us/word/thin.mp3": {
+    "sha256": "a6dfebf1ea2350d5b5e68987a7f20ab6dbe61bb58284a2119a34b16e46a6e384",
+    "bytes": 30764
+  },
+  "audio/en-us/sentence/the-paper-is-thin.mp3": {
+    "sha256": "b0a9114c2dddad89918f87c56720803409aac048966ddc6ae378be0dfd7ce5b6",
+    "bytes": 41900
+  },
+  "audio/en-us/word/heavy.mp3": {
+    "sha256": "e61098e2732ba72da3551aa17c3beea899680731b28e2c52840c957badfab1cc",
+    "bytes": 29228
+  },
+  "audio/en-us/sentence/the-bag-is-heavy.mp3": {
+    "sha256": "1be8117e2cfa8986afc76b2a451f51b871f1695faf48a53a9fbee1c609bf0337",
+    "bytes": 39980
+  },
+  "audio/en-us/sentence/the-box-is-light.mp3": {
+    "sha256": "01d83063c6207f3a90b13afe74427b2b2378f1234655a1f4718a0e6b1a0262e8",
+    "bytes": 40364
+  },
+  "audio/en-us/word/deep.mp3": {
+    "sha256": "1c00039cc64249986cf6b6506df3dd36413a0961318796a29dcc132e3b2ba53a",
+    "bytes": 29228
+  },
+  "audio/en-us/sentence/the-pool-is-deep.mp3": {
+    "sha256": "f4f9c401445d3bb22104cac670dc0a7afb7a523a4e3cb548d4c66972689fd53d",
+    "bytes": 39212
+  },
+  "audio/en-us/word/shallow.mp3": {
+    "sha256": "d2858076b0aae743b4f98926ac72cd58310a88666651a2d78c0ac659fe10c7e5",
+    "bytes": 32684
+  },
+  "audio/en-us/sentence/the-water-is-shallow.mp3": {
+    "sha256": "cc3bf9470f8be0164acd4a0f4a8a27a070d6aa17aa2d6b9d67cbe9c48ba49057",
+    "bytes": 41516
+  },
+  "audio/en-us/word/size.mp3": {
+    "sha256": "fa373501db107e19b648b3ea87105371b6170e71b17186b557e515f78266b3e3",
+    "bytes": 31916
+  },
+  "audio/en-us/sentence/what-size-is-the-box.mp3": {
+    "sha256": "2f190e7187b068c10599ed4db61f269ecf11cd944c3917e4a292b40457274966",
+    "bytes": 43436
+  },
+  "audio/en-us/word/pleased.mp3": {
+    "sha256": "314d1583404977abc185218f934b738bb93b83904e0e878498b58dcdfa5a56ac",
+    "bytes": 32300
+  },
+  "audio/en-us/word/these.mp3": {
+    "sha256": "f51e83a61f57e44cf60cf423d701ca19622be9cf9495b16f8bceb353a39298bf",
+    "bytes": 31916
+  },
+  "audio/en-us/word/class.mp3": {
+    "sha256": "beaca50a95379212aa70fe22635577909d9ed9b35270ad3284e4b092c96a77bd",
+    "bytes": 31148
+  },
+  "audio/en-us/word/close-verb.mp3": {
+    "sha256": "6a0d81e7e23c44b6210d5e48287032f0d5433ba45fe35ad77deb9fe90b536ba5",
+    "bytes": 31532
+  },
+  "audio/en-us/word/close-adjective.mp3": {
+    "sha256": "a7f14fa26d3bd002422e0b065edc8987ba2c84fd9b5a3a7204cc21142d84c985",
+    "bytes": 30380
+  },
+  "audio/en-us/sentence/we-are-close-friends.mp3": {
+    "sha256": "bb5b3469642885a2369a34a38f530329a7fc0661164d6e184dc06489add32e6d",
+    "bytes": 41516
+  },
+  "audio/en-us/sentence/can-you-help-me-please.mp3": {
+    "sha256": "65e42df4f1f1baefdb35fc3e8207c6ffdbb2bfaff72ea387e292a74a809a51dd",
+    "bytes": 41900
+  },
+  "audio/en-us/sentence/i-am-very-pleased.mp3": {
+    "sha256": "3b0ce804ada2b6efdcbf1ac0aa105af8ca44aea38e80e63ed854c083bd72a9fd",
+    "bytes": 41132
+  },
+  "audio/en-us/sentence/are-these-your-books.mp3": {
+    "sha256": "3daf85deb85b3b529a98e05522f35603f4407edb53c43577886c238c6a113bf1",
+    "bytes": 39212
+  },
+  "audio/en-us/sentence/this-is-a-hot-dog.mp3": {
+    "sha256": "8d5fea6b3f375982449c445fd88823851ae1596d43ab9534b3b825bc4f36410d",
+    "bytes": 42284
+  },
+  "audio/en-us/sentence/is-this-a-robot.mp3": {
+    "sha256": "1d38603220c31a0e0f17f5f83e3fa3b16453c67230772ca91a16dd74a6893591",
+    "bytes": 40748
+  },
+  "audio/en-us/word/apple.mp3": {
+    "sha256": "6271bd79bd45d016f9442cf5cb6efc60535b6ff4e63984eb5cc03e33afa1e5f2",
+    "bytes": 15788
+  },
+  "audio/en-us/nature/sentence/what-time-is-it.mp3": {
+    "sha256": "a88db302e9cdd4443f61b8de3a1c0ee8e78c766e486c8a37a2728167f824cbbc",
+    "bytes": 37292,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/clock.mp3": {
+    "sha256": "6dc28ad4d390361ab83ea3ccee67354a7e0d9ee869c47fbd39cf9f983824abc7",
+    "bytes": 22220,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/the-clock-is-on-the-wall.mp3": {
+    "sha256": "e4e7abf03e2f2cbd9f14edcd206b20bd20864d967e5e0282fedaa70e44184758",
+    "bytes": 41900,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/watch.mp3": {
+    "sha256": "63c0de85b7bbd5a1e9cc324e7e47b486b870d6050866582567ee33f2c9a0bbb3",
+    "bytes": 23084,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/my-watch-is-new.mp3": {
+    "sha256": "2dbd5d6763ce41e42d42ba4947504a92851efe9ebfdfc618204bc23f2ade4bdc",
+    "bytes": 39596,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/hour.mp3": {
+    "sha256": "f8ee164a7b46d3eb9d699d7a9b55623f3ffa604d4593e909200ea3410627bd54",
+    "bytes": 22796,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/an-hour-has-sixty-minutes.mp3": {
+    "sha256": "6b0b4ee9c3f331308c2b966b0d750bd7158b9b4353c1c264670374b1885d2d20",
+    "bytes": 47276,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/minute.mp3": {
+    "sha256": "8a4a5f0acc4fdfbe95512e1bc488da148919bf2e91539ed0dd98e7c44e5226eb",
+    "bytes": 23084,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/wait-one-minute-please.mp3": {
+    "sha256": "e69169448b26e3d40e19acb03ba6d0a68474d481a5748201fb5c3a000b730315",
+    "bytes": 43052,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/one-minute-has-sixty-seconds.mp3": {
+    "sha256": "5b0475487cc133e1c6be243b391a46b2168cd090dd88588059706f3b8ee83f3e",
+    "bytes": 50348,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/o-clock.mp3": {
+    "sha256": "fc67fa4906ae86a94b6508e4e5484aba2af5145d3c952f82e4ad24b3694b748b",
+    "bytes": 23372,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/it-is-six-o-clock.mp3": {
+    "sha256": "4de8925df56506d67087d9856d15cd71d7937cc10b77e6ad8ac74ee21ec484f4",
+    "bytes": 39980,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/past.mp3": {
+    "sha256": "e9ff332e303473041806b14f2236d19fe352576448121caf39eb4cd75ebe8211",
+    "bytes": 23372,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/it-is-ten-past-three.mp3": {
+    "sha256": "e8f92cd30d3a0ea274e74a1f008397ffcfe34fd19d7624bb094ee684892df862",
+    "bytes": 43820,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/it-is-ten-to-four.mp3": {
+    "sha256": "e35f27f38fc923eb4c2201af9cab52dc5da1a4b9399dba7e949833d537347cd0",
+    "bytes": 40748,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/half-past.mp3": {
+    "sha256": "c73b332c433327b13fe7e419f8e7d16f88e174cc2956790e47553c5ef18fcdd2",
+    "bytes": 34988,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/it-is-half-past-seven.mp3": {
+    "sha256": "c2a341adc91ec11f968bebeb32dbd2a4a8cdeb1aa1b0c64257bcaf190be38703",
+    "bytes": 44588,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/quarter-past.mp3": {
+    "sha256": "2e215a9969ceb38c3be515e0fac8ae1dc779a6b8a1e0334918ea6392bdd9efab",
+    "bytes": 35756,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/it-is-quarter-past-eight.mp3": {
+    "sha256": "feecf1b759d08fc7bbc9328068f960c5ec1eb86a9c62452f095eab782b495a4d",
+    "bytes": 43052,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/quarter-to.mp3": {
+    "sha256": "d350257aaaa68e2adc564fa838f6aa45a68ea0397141ab7b2a029a52c45f2b0f",
+    "bytes": 35756,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/it-is-quarter-to-nine.mp3": {
+    "sha256": "8ff2e795e230dd04a5fd202bc5d1ef00a9607ee7bbebc79c8cd5eab23f79e23d",
+    "bytes": 41900,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/noon.mp3": {
+    "sha256": "9793e8bc45e4f333abd1fe6348512501db515c8ebd887055d8ebf48434b17c39",
+    "bytes": 23372,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/we-eat-lunch-at-noon.mp3": {
+    "sha256": "b0785c60b12efa87c5ae53e8edf4b3764cf33055e669aac98932e892d63d7623",
+    "bytes": 42668,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/midday.mp3": {
+    "sha256": "beb9d1d6fd6ce94f89a88daf907973f46297a1bb019b1879a15d80a0ee267fea",
+    "bytes": 25388,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/the-sun-is-high-at-midday.mp3": {
+    "sha256": "e28e4fd04db328f5612f240f877b37cb54d258b41296cd2d018b336e745c3415",
+    "bytes": 45356,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/midnight.mp3": {
+    "sha256": "a01ead5cdda2bfa7b87d1fccbbfbc5816b01358fa8dd77d190c4075e28d18abd",
+    "bytes": 23660,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/the-film-ends-at-midnight.mp3": {
+    "sha256": "55b2f4d7afae72b86c07a0807a597456f5bd7c90ac3261edbbe49635fd295fbb",
+    "bytes": 46508,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/i-read-in-the-morning.mp3": {
+    "sha256": "096ba79bc3ae83a2d5ad6499d1ea673c382707e83ae2f40dd61093ec12c932b2",
+    "bytes": 39980,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/we-play-in-the-afternoon.mp3": {
+    "sha256": "6966315e4dbb59fb5b2517b89c4ff7127fcbb8885e9c1f75dcd1828f23d7fb09",
+    "bytes": 44972,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/evening.mp3": {
+    "sha256": "8af47f1d90128007c2f351158db0fa53a8eb0024efd901e2f3d6d89d6ba93f08",
+    "bytes": 24524,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/i-do-homework-in-the-evening.mp3": {
+    "sha256": "47ebc9616439d48b58f11729405ea48f8affb55f15d8bfe4563842a81dedc77c",
+    "bytes": 47660,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/night.mp3": {
+    "sha256": "98ba6f97228d7ee971bfa3316e4863a635301e96d346198e04ed15c7ef889aa7",
+    "bytes": 21644,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/the-stars-shine-at-night.mp3": {
+    "sha256": "24d8fadb8ebcc51fc5395b985c3e49fb3d8b23cd525f6b87507829090f781fc2",
+    "bytes": 44204,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/dawn.mp3": {
+    "sha256": "3c2a41f7a7f4bda518f9883fbb8bf7e75e747aa7b59f96bc10aff074736156b7",
+    "bytes": 23372,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/birds-sing-at-dawn.mp3": {
+    "sha256": "2644b92c3cbeb4878c3893c3651cf47645396708a1965df4c8ee905b67fa359c",
+    "bytes": 41516,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/sunrise.mp3": {
+    "sha256": "a4927880a213102b025160c5df921bdd4613fe3f9ddcd5d98f87f6e4c73f1a1b",
+    "bytes": 25676,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/we-watched-the-sunrise.mp3": {
+    "sha256": "0de7179ed2d95f6859854fc1add02530feb7610747cfe97d59a5e3a61f27827e",
+    "bytes": 42284,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/sunset.mp3": {
+    "sha256": "aec1c2c14db8643adcb443085c2566637bdb9ae51c6bb26553768c1f4c6009ac",
+    "bytes": 24236,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/the-sky-is-orange-at-sunset.mp3": {
+    "sha256": "79c1e08341df4a7ea917594e3a735ec9cf01b13e383a9e7e559c94bf4f406371",
+    "bytes": 51500,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/today.mp3": {
+    "sha256": "fdd55a20050978b4b93180a42d95f54b628802fc85ad272ceeadb475ebfdcc84",
+    "bytes": 23660,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/today-is-a-school-day.mp3": {
+    "sha256": "e982a32ac422cecf4bb05bc54565f4a9012f1bad535869f314513794d240535e",
+    "bytes": 43052,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/yesterday.mp3": {
+    "sha256": "62556d966a91f4d91e0e85c115436e9c96a783c23ef7de13d8132e8534f7a9e3",
+    "bytes": 25964,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/it-was-sunny-yesterday.mp3": {
+    "sha256": "c1ea6a441cbf16cb72bd5b41dd7cb0655288e2a4d7fac825f50a5cded550a52f",
+    "bytes": 44204,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/tonight.mp3": {
+    "sha256": "4a5094e43c817cb0513605735fb6e84a91c36f699ef9e2ed2db9667a61a61ab6",
+    "bytes": 23084,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/we-will-read-tonight.mp3": {
+    "sha256": "f00f1fa714749e9014518fa7fe52e2b59a1a3d84b957653e7e17f3b1bbbda65e",
+    "bytes": 38828,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/i-am-busy-now.mp3": {
+    "sha256": "99752f92351167f930c72794ab03bf77b2aa2383468336ff945f3e38581a902b",
+    "bytes": 39596,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/later.mp3": {
+    "sha256": "4dfb74ab5b09c801dffbf6bd95ccb09adce6c882e78014a7913b50d2a109deec",
+    "bytes": 22508,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/i-will-call-you-later.mp3": {
+    "sha256": "5d4a21acd7580af9150d3e2754c124ca7d336d64cfb7f9c6b98c5f19c8b3e68d",
+    "bytes": 40748,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/soon.mp3": {
+    "sha256": "13cbb7afd1ab3ba4ed1c9c01ae201e68473a19ded723362f751b252a58620754",
+    "bytes": 23084,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/the-bus-will-come-soon.mp3": {
+    "sha256": "43610f736cb3c80b49ecc419039ff4e4f5d8972862a59b55918899399f5c0cde",
+    "bytes": 41900,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/early.mp3": {
+    "sha256": "dfc5f61dded291cab9b3cdeed1e1e25c4d3cc54123545b6c1376536b4f512a7b",
+    "bytes": 23660,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/i-get-up-early.mp3": {
+    "sha256": "b58225b3ef70e28f3239435262b43d3215fc07a3139dcdb1160e2f516c450f3b",
+    "bytes": 38444,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/late.mp3": {
+    "sha256": "091c2b36dccaeef1675de8076074e086cd1765ad472a5d5be56dd6bb66a1e801",
+    "bytes": 21932,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/do-not-be-late-for-school.mp3": {
+    "sha256": "eb74ebadbea8ec64d04bc85093247b632061e2f8c5821c4f5039da820736652e",
+    "bytes": 43436,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/before.mp3": {
+    "sha256": "c53c2bd90bdd43d83b816e08656b268c3e7f7ec97e7fba80c0f24fadd83037a8",
+    "bytes": 23948,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/wash-your-hands-before-lunch.mp3": {
+    "sha256": "f10aed05737202a48c78f6ff2bd531c9ab9b98350bd87d72f0348fbb1aae9440",
+    "bytes": 49196,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/i-play-after-school.mp3": {
+    "sha256": "a5517a4eda567ac5f31dde02cd62fc91bc0f148a5f59432ae8f9abf00c5f938a",
+    "bytes": 41132,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/daily.mp3": {
+    "sha256": "6169bdd007b3d79a14fac3669bdde43c249e8e7a597a6f92ce1987b14a4fd7ab",
+    "bytes": 23660,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/this-is-my-daily-routine.mp3": {
+    "sha256": "260cf4a7d71ff86814fa89760e65a4a722b926611dca12dcc77194ec43ab2c62",
+    "bytes": 46892,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/every-day.mp3": {
+    "sha256": "49b06cd16004b0f8a92e7ce30091ecf996cadb89a6d042658b9710f0eec1738c",
+    "bytes": 34604,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/once.mp3": {
+    "sha256": "f1eff4bb77859f79be07532fadf8c630fdedf49628b565382d4efae7e92895ba",
+    "bytes": 23084,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/i-visit-grandma-once-a-week.mp3": {
+    "sha256": "30e1d7d37a99205b4751d8562d7e3afefc820cdbf0f87856d17f629ea51a64b3",
+    "bytes": 50348,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/twice.mp3": {
+    "sha256": "2bbf7272f58f93bf278dd27ef736115fa35cf69f28f0ccd102edb5952f9e4fcc",
+    "bytes": 22796,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/i-brush-my-teeth-twice-a-day.mp3": {
+    "sha256": "1709e1b439a0339359fff32f6972873003ce140ed3b8b7d880d46eb061061c0e",
+    "bytes": 49196,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/always.mp3": {
+    "sha256": "4c31f33fd3a7dce641e8602ef94236b8a458ad92d48e3d26615605daa2a1252f",
+    "bytes": 24524,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/i-always-pack-my-bag-at-night.mp3": {
+    "sha256": "c71e18d0d81978907b4144df8b28d53d1f2adc4c3f832637671c55352960d985",
+    "bytes": 50732,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/sometimes.mp3": {
+    "sha256": "442c34b0c27d7307236a363ff3759bbcfc9ae6db21185b832a815dfdc2aef74d",
+    "bytes": 26252,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/sometimes-i-walk-to-school.mp3": {
+    "sha256": "c9bd4caf8c9d95ffdfce7e3408b6bae8ba915d1d9125224c64b0aad90e6b1554",
+    "bytes": 47276,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/never.mp3": {
+    "sha256": "29c3931a608344efb6f8649d6ea549268137e14a89387ed6e1e558ff514d4b02",
+    "bytes": 22508,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/i-never-go-to-bed-with-my-shoes-on.mp3": {
+    "sha256": "50a37afe1b1d072ffdf72474ae2956e3466fe0ad42bab33605c5709d73e9b812",
+    "bytes": 53420,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/bedtime.mp3": {
+    "sha256": "b313f378b3bc1b1af28efd6137045037d6f00bfc476274795e7ba32ded10f3bd",
+    "bytes": 25676,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/my-bedtime-is-nine-o-clock.mp3": {
+    "sha256": "c7792f66e0851de665093567d983c2163f7c4f0b201a354db48562526c669b7e",
+    "bytes": 47660,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/wakeup-time.mp3": {
+    "sha256": "d5d025b2c19a66eb08bcb9018f7c7c86fcc5b5b6c6de5768f37a09ea24b3bbc1",
+    "bytes": 37676,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/my-wakeup-time-is-seven.mp3": {
+    "sha256": "57fd4772f2aa93cc579531dd4b2ea74a9abb5f66e529fa07c27073719a3a4ad6",
+    "bytes": 46508,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/what-time-is-it-now.mp3": {
+    "sha256": "827e5a924d71aaca5aa0c4531b08d31a971063f3fa7460f9f4cf2f88f4e81378",
+    "bytes": 39596,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/it-s-seven-o-clock.mp3": {
+    "sha256": "36bc0ceecfae77a27f164c0c78e04d434e71424dacc81acef26621a0288e1de1",
+    "bytes": 40748,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/it-s-seven-o-clock-let-s-go.mp3": {
+    "sha256": "81fdffe987ee414873aa5b85a18f0573890e33339187eb86fef91285f4cc1c4e",
+    "bytes": 53036,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/it-s-half-past-eight.mp3": {
+    "sha256": "fb181fe749c03bacc0f8f0c6541b8b7711042f0443991e39d2c8ce7311c0a4e1",
+    "bytes": 42284,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/it-s-half-past-eight-time-for-school.mp3": {
+    "sha256": "b79dbd8d79a468556f59543f1b8d18ea76ec8befec57a57b6f16c20caeb6585f",
+    "bytes": 59564,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/in-the-morning.mp3": {
+    "sha256": "7bddfaa8d8c14b26b2637336df8b67246e553e3a8e18a9c4ada3598c32324a6a",
+    "bytes": 34604,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/i-eat-breakfast-in-the-morning.mp3": {
+    "sha256": "eae205de9380e8e6f32eab0bd291d73db6b21b72d6b0c51df36b65958cae0bf0",
+    "bytes": 48044,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/in-the-afternoon.mp3": {
+    "sha256": "45ff9c0fe1677588edcbe8d3df6036b605c98a693f8d423fc90e841e633ddaf3",
+    "bytes": 39980,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/we-have-a-lesson-in-the-afternoon.mp3": {
+    "sha256": "2799f86fb7940e756ccad7fad83ab4b22e41774027707d9376b34a6b0f4366c7",
+    "bytes": 51116,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/at-night.mp3": {
+    "sha256": "f4854a2b6a1f6539e4981c23b6e33b505fa45f3bbd6febadcfcf46ba66aa2735",
+    "bytes": 32684,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/it-is-quiet-at-night.mp3": {
+    "sha256": "77cf27963b3457e10b034f48f8a01566f7004aa4afa2dc8cd87eee5955dfcd94",
+    "bytes": 40748,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/on-time.mp3": {
+    "sha256": "b93c0ff30ab082f5bf910d39753ca571b2adf02e8b8f1b78bc6bafb16ec3f657",
+    "bytes": 34604,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/the-train-arrived-on-time.mp3": {
+    "sha256": "690e72c273bc3dff0e660917d27d526099cb75bd405ff5f8d576d0d9d0077b19",
+    "bytes": 46508,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/in-time.mp3": {
+    "sha256": "50f1398da77746a6056185f1108fbaf7d1b07c30832f032a2290eab8d6cf6ba3",
+    "bytes": 34220,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/we-got-there-in-time.mp3": {
+    "sha256": "5a7782e942d93afcc97d4e5813380d0e2a4c85c94039841dcb39714236a1a934",
+    "bytes": 41516,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/what-time-do-you-get-up.mp3": {
+    "sha256": "e023358d13712724423418a4c76b50b008f9546e2365b7c2c0395feb447f1e5a",
+    "bytes": 41132,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/what-time-do-you-get-up-on-school-days.mp3": {
+    "sha256": "4b214d97f8bd2d28a56030ba9955d603fc2ce05717ba8aedb8c156e8d7981482",
+    "bytes": 53036,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/i-get-up-at-seven.mp3": {
+    "sha256": "ba2ba09071087633e0770904d01c64741c84bb16a3b55f0b179531fc391f0a45",
+    "bytes": 39596,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/i-get-up-at-seven-every-morning.mp3": {
+    "sha256": "d3ac5f4efdf42602c677bc2711aaa3cc5afdaebb1268558db8246ef31f03d85a",
+    "bytes": 51884,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/there-are-seven-days-in-a-week.mp3": {
+    "sha256": "a4897fad88e0ce2c7b1827e475f7a3821764202b3ee014438415730a76aafb38",
+    "bytes": 48044,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/weekday.mp3": {
+    "sha256": "86550eb415e54cf1e0af779d02717c303e892791d23ce144eeb7f7cf6ba29d62",
+    "bytes": 24812,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/monday-is-a-weekday.mp3": {
+    "sha256": "3bf740e824a466e60d0a41f804ce3466ec767cb290cbb94b1ba4eeba400dc2d3",
+    "bytes": 43052,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/weekend.mp3": {
+    "sha256": "1df6cd894819e1977d1841ab7266ad2037be49f31d02abbdc56cf8c14eb92a0b",
+    "bytes": 24812,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/i-play-football-at-the-weekend.mp3": {
+    "sha256": "f804449d0b537e85b2abd4e54866749b59eb1db2f3416fdcaa9f9cecdb8253f1",
+    "bytes": 48044,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/calendar.mp3": {
+    "sha256": "c93c722e59aed0259727f30826ec0417c7534def22bf60525d96fd9a89c16d6a",
+    "bytes": 23948,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/the-calendar-is-on-the-desk.mp3": {
+    "sha256": "9df88c7c96a50eef5320d553a96d26352c3e29e2781944855b3bebe1792ee99b",
+    "bytes": 46124,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/date.mp3": {
+    "sha256": "0c50f8d99ec9dc36af8deb425e020da988f6beb4c6e9b0a64c92f6bb2637f47a",
+    "bytes": 21356,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/what-is-the-date-today.mp3": {
+    "sha256": "8073ed23571fd491fcf71dcfda60b1b8303ffa54057b0b7648e5ff81238bf70a",
+    "bytes": 41516,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/school-day.mp3": {
+    "sha256": "0c4a30442a38a9a95e6fbcec7389cdccbf44d3e1aabaf07ed16e2a271f729e9e",
+    "bytes": 34988,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/tuesday-is-a-school-day.mp3": {
+    "sha256": "e419c904d3c573e021988babd463a1794385e02b96f704cd705182cf13e503e9",
+    "bytes": 44588,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/day-off.mp3": {
+    "sha256": "ea179d1a875c3c67a28bc27fa9c9941febfa73664dd6be5a29dc5ab699aa9e7d",
+    "bytes": 32684,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/sunday-is-my-day-off.mp3": {
+    "sha256": "2b6d6f18b4591939bfac83d2bc472def1e2bf29e526fb64835fd8a339714b63a",
+    "bytes": 43436,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/birthday.mp3": {
+    "sha256": "10220d89591af0cdab2b99c41a4079e789af4307dfb1de1af3d409d12e0878ba",
+    "bytes": 24524,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/my-birthday-is-in-june.mp3": {
+    "sha256": "bda35bd5e026438f4657d5dbe4f4de603713bfa41670ad57e024b3a98cbac4e1",
+    "bytes": 46892,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/holiday.mp3": {
+    "sha256": "3300fe6f2bf9a6cd0e4f2d502b330a3192fcf9e21409678b7d2bfcc12cb5a08c",
+    "bytes": 24236,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/we-visit-grandma-during-the-holiday.mp3": {
+    "sha256": "935dab2b34c23d54a0cc02ed33c86dec13d0c55ee915610ed809ffda47c79e84",
+    "bytes": 57644,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/public-holiday.mp3": {
+    "sha256": "9cdada9fda2e5cce0e8fe926add42a615b7f9ca78321a1a54fa495930de37ae2",
+    "bytes": 38444,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/the-bank-is-closed-on-the-public-holiday.mp3": {
+    "sha256": "d5e19deef7b581a2d770d60a5fdec8b76ae129a542bd7f17ee7b7cd64ab88acb",
+    "bytes": 58412,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/school-holiday.mp3": {
+    "sha256": "29d62741232360cbf1028bb437068442d58437a5686b2caac118ecb0f331c27a",
+    "bytes": 38444,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/we-travel-during-the-school-holiday.mp3": {
+    "sha256": "34ad7e53ca09150449c9541253e5becbe96f9e380d9c5864fe325f51faeb7bb2",
+    "bytes": 53036,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/anniversary.mp3": {
+    "sha256": "9c3b670964e9fbf435aa25d2e8035395de396d746a5ba5a404c1ae708cb1f786",
+    "bytes": 27404,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/today-is-their-wedding-anniversary.mp3": {
+    "sha256": "3d13e43522dad00b8b04a92954a212d9982ca7a0b7183ba7bed11f6f71ef24e9",
+    "bytes": 55724,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/appointment.mp3": {
+    "sha256": "6340dc2908e341383697f0d1868c7a02735ddbb933197178e46ba4f95a8b6281",
+    "bytes": 25100,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/i-have-a-doctor-s-appointment-on-friday.mp3": {
+    "sha256": "f2dcb7f3ac27c8d0461b9578e2c96fbe78ed7236d2a5e6a526f6c74cba3d4054",
+    "bytes": 59948,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/check-the-school-schedule.mp3": {
+    "sha256": "b813a234c06e69af5f1585f085cd1d9236220e9105afc3bf062634a91066b2fa",
+    "bytes": 41900,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/monday.mp3": {
+    "sha256": "93e56d7caf29e1beda46f0cbbbfaddcc14eb38becdbe555d92e6a898b8a02a61",
+    "bytes": 25100,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/i-have-english-on-monday.mp3": {
+    "sha256": "f4f08f5833136a2cd1da5d30dc4a1bb4f32e2394f657eb7c3a03bad64a83d4a8",
+    "bytes": 46508,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/tuesday.mp3": {
+    "sha256": "38887892d1a4cb3bd745897cb60c0098414a0306a5091567f968f4278a501238",
+    "bytes": 24812,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/we-swim-on-tuesday.mp3": {
+    "sha256": "045ffa353448ea29635b64211d67eb6d5bfaecde1c809bbe10f038e195b1c0f1",
+    "bytes": 44204,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/wednesday.mp3": {
+    "sha256": "fc0254fe5b05adaf5a9aaeb7a8d9a5ab5dbd92950fd83af8cfd396d2ae0f04a5",
+    "bytes": 25388,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/i-read-on-wednesday.mp3": {
+    "sha256": "76a0adb33763250b5c5a15ec71d07e63107d472463f1fd23065caddf70bdf719",
+    "bytes": 43052,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/thursday.mp3": {
+    "sha256": "8af99a2c40a3e25da0ee58f8eebd5cd09423ef2ba29cc6b9842a70ff385b9ec7",
+    "bytes": 24812,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/i-visit-the-library-on-thursday.mp3": {
+    "sha256": "15a8ba87943eea91afd08940afc4bc452d23b44e5462a64d1ef3c666bb689c43",
+    "bytes": 54188,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/friday-is-my-last-school-day-this-week.mp3": {
+    "sha256": "78a6f5ca7e78dbf77ccfcdbb4653ee9c92d04d31bcecc1945c2284caaf446878",
+    "bytes": 58028,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/saturday.mp3": {
+    "sha256": "0b268f7f5c4320daa8fec028988449a239fe771290b7ccb8585df830e07de16d",
+    "bytes": 25388,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/we-play-in-the-park-on-saturday.mp3": {
+    "sha256": "c9597264219ee7940cd6f48159c69b4715329349d32ed79a36e1e6544ff265af",
+    "bytes": 50348,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/sunday.mp3": {
+    "sha256": "d47a9d3bc43ab64c55fb3e8758936ff24dbfabedfb561b1dd8fd3b681ab5eef2",
+    "bytes": 25100,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/i-help-my-family-on-sunday.mp3": {
+    "sha256": "e95c63467bee1a611f7c85516b147d9ebc24a7ce504187d97a79de54d8713fa4",
+    "bytes": 49580,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/every-monday.mp3": {
+    "sha256": "6307eaa245c21d1d894f06c1e0dc8451e8e857f7a5582092c91f956fd62d8faa",
+    "bytes": 38060,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/we-have-a-test-every-monday.mp3": {
+    "sha256": "c525e4c9631b9747ced322a4fc56bd8c78da29708219083f7619a346113af405",
+    "bytes": 50732,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/from-monday-to-friday.mp3": {
+    "sha256": "d22e7bb84ea2534385717663cd943d910e08c5c4d6b0b3c215d77466923b535a",
+    "bytes": 44588,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/i-go-to-school-from-monday-to-friday.mp3": {
+    "sha256": "6996623a485175def8db9801404b56fea660cbe5cfdbc2f3e0096dc70534e9fe",
+    "bytes": 56876,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/at-the-weekend.mp3": {
+    "sha256": "aca12674ff8c379b551ccfdc418eec8d77dd855b20c8dbce4021659b22de8e74",
+    "bytes": 37292,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/i-ride-my-bike-at-the-weekend.mp3": {
+    "sha256": "1fefa082f1b7a0cf8f20cb1f74e706cb125fa0720501c3d96513df1fed1135ba",
+    "bytes": 48812,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/this-week.mp3": {
+    "sha256": "af74279788b279b8a6394c6c57a50a4cc601c96e456e9be62320673e611063ca",
+    "bytes": 33068,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/we-have-three-tests-this-week.mp3": {
+    "sha256": "1858dce7f31186976dd4f569834eccb77093baf76c5909b416a0407ba5fc6922",
+    "bytes": 46892,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/next-week.mp3": {
+    "sha256": "0e11e016e98774077bcf39bb45ffb93eefef8c95888b400240f4b661f88aa4a5",
+    "bytes": 34988,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/we-will-visit-the-museum-next-week.mp3": {
+    "sha256": "a09375696947da5d0840d4e65f79a8309dfe9ffd0682c6b063b39fa31cea4acc",
+    "bytes": 53804,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/last-week.mp3": {
+    "sha256": "54999023b58dff27ec813bde9ec1c32a6f00663c64a398368b14eb401e6a021c",
+    "bytes": 35372,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/i-saw-my-cousin-last-week.mp3": {
+    "sha256": "61ec97c4d9ef6b572910e1e8d92a1d67da3b8989acb1a8f3e2f4eb097e85b3fb",
+    "bytes": 49196,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/what-day-is-it-today.mp3": {
+    "sha256": "bffcbb6d42682516ff02f996bc8176b51f2bd86d828267f890ac2eb4a70b4ada",
+    "bytes": 40748,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/today-is-monday.mp3": {
+    "sha256": "dcecb99d326004a9b6fc86c807c29058d5baf59cdb56f73c2e2fcc7bd1969668",
+    "bytes": 39980,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/today-is-monday-so-school-starts-again.mp3": {
+    "sha256": "86469b2ef3a7040530f4c59dd48bb86a98e5387289edee10c77bfa53b6f8b893",
+    "bytes": 63788,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/the-first.mp3": {
+    "sha256": "32199df9263b38efe43c03a12d0e2b558757d8ab6b38dadbe5278459e9beba10",
+    "bytes": 33068,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/the-first-is-a-monday-this-month.mp3": {
+    "sha256": "b2c5886c0ede314ffac3aa35d62ea88726a462c9c908ff1c1b02fb52bf6e2aae",
+    "bytes": 54572,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/the-second.mp3": {
+    "sha256": "65c7267f08b40bac95813ef2d1dae1a8c9e4b2ec6e6e13be68c3189961bcb24a",
+    "bytes": 33452,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/the-second-of-may-is-a-school-day.mp3": {
+    "sha256": "3ec561d7b5adbf17c8e8dec9b3879f1e5852052100b58b029e4970c7975b2f8c",
+    "bytes": 55724,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/the-third.mp3": {
+    "sha256": "a85ed037df915e5a57e86dc0c08666958462e382e9aafca7b4ffaeea7f15ec7e",
+    "bytes": 33068,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/her-birthday-is-on-the-third-of-july.mp3": {
+    "sha256": "79c9ee9e1fa3bffa278559dfaef9f57055473470ca88a1e95a67fe6b8af506d7",
+    "bytes": 56876,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/the-fourth.mp3": {
+    "sha256": "9ea372a94702ea4198b58efb8c22b33ff5e668c4c11479602edcfc56f02af09e",
+    "bytes": 32684,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/the-fourth-of-april-is-on-friday.mp3": {
+    "sha256": "e15e863d8b0333274f4e3c2905d606f46813b5cb67d9ff3c0721dd144b224393",
+    "bytes": 53420,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/the-fifth.mp3": {
+    "sha256": "8750476dea445dc83cdd0bd86b36d030236ccd3f40d5ad1fa0b1ccce843b3e6d",
+    "bytes": 32300,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/my-birthday-is-on-the-fifth-of-june.mp3": {
+    "sha256": "42c29b470e19f22d00c462d5e2158dd680c940605e5d91ea049a3dd923cdbda9",
+    "bytes": 56876,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/the-sixth.mp3": {
+    "sha256": "45dde16b3ae0624a147c769a7df98bcde8dc5d5fe53435243512b3c687864ec2",
+    "bytes": 31916,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/the-sixth-of-march-is-a-thursday.mp3": {
+    "sha256": "7f273f7cee775eb9762a9cf7b6d124c00aa252c699ce5bbe369c28590b106a6c",
+    "bytes": 55724,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/the-seventh.mp3": {
+    "sha256": "d985d8d06b335e5af10c620fdd7113caf5dcae30ab28684129d2e934e7d6f034",
+    "bytes": 34220,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/the-seventh-day-is-sunday.mp3": {
+    "sha256": "7292062ad53f4c1fde0ce7b8eed750425639f847056901d2dabbfb6fd9e91c47",
+    "bytes": 47276,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/the-eighth.mp3": {
+    "sha256": "929f57c9431ebb62e3a9ac69f6ca0478ce8ba0f001911de2a6b81a6e93f1a214",
+    "bytes": 32684,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/the-eighth-of-august-is-my-holiday.mp3": {
+    "sha256": "07909ad2cb8438f03b8c402b1343c8be8f18ba024d97ccad99945327df7a2ed5",
+    "bytes": 54572,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/the-ninth.mp3": {
+    "sha256": "958cced974a09de0fdaa8ef6e5ab4d7128b29e6f6cbc456796db88bb6bd6e467",
+    "bytes": 33068,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/the-ninth-page-is-missing.mp3": {
+    "sha256": "1e2c091c49affe3a7b8148746196260d4825b3a4086c6ab5567bf17f871c08a5",
+    "bytes": 46124,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/the-tenth.mp3": {
+    "sha256": "1f22f47c6ea6eb7b426513d856cde2dcccdf6b6b1b5fe03a3681400df84498a6",
+    "bytes": 33836,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/the-tenth-of-october-is-a-friday.mp3": {
+    "sha256": "58c8a3d68e7816bafa96d64f0349065d153d07c0e11d635a78e90b60c1b30f06",
+    "bytes": 54572,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/the-eleventh.mp3": {
+    "sha256": "ba27fe688a59d80fe067b9db5fd267c59518ca928200e3acc2023c1100f2442e",
+    "bytes": 34988,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/the-eleventh-is-her-birthday.mp3": {
+    "sha256": "be74ada450335efc1cb201c581a87db096374db03d59da548006e73fd422447d",
+    "bytes": 49964,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/the-twelfth.mp3": {
+    "sha256": "62b643b4d28ca02e1c412bbf8fd50c52d05c6d04e063dc23a35ce6a3ff654dbc",
+    "bytes": 33452,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/the-twelfth-of-december-is-a-school-day.mp3": {
+    "sha256": "b4c7e24045f0bfc871177e8dee020400a4061ea1c2acf3fa55e7b164c2d25df0",
+    "bytes": 58796,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/the-thirteenth.mp3": {
+    "sha256": "be6c7627bbe68bc6bc73760518ebdcb7645dbca44d5f91fdc8a697f06e22a177",
+    "bytes": 34988,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/the-thirteenth-is-on-saturday.mp3": {
+    "sha256": "f7e302679d46e45a7c1d5f75b634a73fa8a3bb7cfa6463cba1efce2a320a063a",
+    "bytes": 49580,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/the-fourteenth.mp3": {
+    "sha256": "de0c60f67353e614ba4b1204d339d17e5aa74e220ad910c01f1d0e3a6480dcab",
+    "bytes": 35756,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/the-fourteenth-of-february-is-valentine-s-day.mp3": {
+    "sha256": "4b1440badb13e2a44f5f83731d059fba0defc631f0761ba422ea218b12a2381f",
+    "bytes": 70700,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/the-fifteenth.mp3": {
+    "sha256": "b1658029fe5b7fb4b5de3a3ff4d26a6d441c0d48654806c704396788ac54da9f",
+    "bytes": 35756,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/the-fifteenth-is-halfway-through-the-month.mp3": {
+    "sha256": "9f6d02fbeef15b2a87940b1439d45a7d8cfb2bc0d24b46fc13a981d467e40026",
+    "bytes": 52652,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/the-sixteenth.mp3": {
+    "sha256": "d4abe9af9d7ae9ede6eb4ad536fdbb02372fbfbc7cb2fcd6c8246a4689033274",
+    "bytes": 37292,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/the-sixteenth-of-may-is-our-school-trip.mp3": {
+    "sha256": "794df6c93c95dd956047e7366d52ba80ab22459bc72564db4513192369618014",
+    "bytes": 59564,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/the-seventeenth.mp3": {
+    "sha256": "908bf57ff49a62cd8b9e8e1a7cdb5a09295805e4e2cddcdea02598b8bbb65e32",
+    "bytes": 38060,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/the-seventeenth-is-on-tuesday.mp3": {
+    "sha256": "43330c16e09bd5288e44910f237819a1d096df93a4ac1afe21fe701d36b0c974",
+    "bytes": 51884,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/the-eighteenth.mp3": {
+    "sha256": "f998803135fb715073ef38e358e3505d10ee69181e65db4dc7141b506fc98dd7",
+    "bytes": 35756,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/the-eighteenth-of-july-is-a-holiday.mp3": {
+    "sha256": "85e81ad6bc99f464f857dc423200fc3c3f4b3c0d42234f003e87cfb372646403",
+    "bytes": 58412,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/the-nineteenth.mp3": {
+    "sha256": "4fa7e5a9e5d209d13927cb6b46f856f07cf4e35f5bcb6041f3d55216ce5cb215",
+    "bytes": 35756,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/the-nineteenth-is-my-last-day-here.mp3": {
+    "sha256": "a3501f927bbed5c8912f88394a46d61d8d9410a0629404dd6836522f6533ebd5",
+    "bytes": 51884,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/the-twentieth.mp3": {
+    "sha256": "e0237cd9ecb7bbecec8ad91579cf029e2ac0303c160e28a5a820ed572de03bcf",
+    "bytes": 34220,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/the-twentieth-is-a-monday.mp3": {
+    "sha256": "f5b189b0cb0981726c9f28f4521c66ccef2a3e50cc65f9a37e07b1175eefff49",
+    "bytes": 49196,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/the-twentyfirst.mp3": {
+    "sha256": "362b16c064d155eafbe43d73e0e259aa748c1759c306545502438e8d94cd26d9",
+    "bytes": 37292,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/the-twentyfirst-is-a-sunday.mp3": {
+    "sha256": "1761782dada39b6b108e7cb7047b14c7b15468afc8a6568c230cf27592d100b2",
+    "bytes": 49964,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/the-twentysecond.mp3": {
+    "sha256": "04612fffe134f50ff61bed55fe3a62d5e778043be207ac741f657b6663690252",
+    "bytes": 37676,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/the-twentysecond-is-my-appointment.mp3": {
+    "sha256": "74bcb6695b971ed3bf72df2cb70efbe0bebef21e4f6a4b4ca47977725d86be1e",
+    "bytes": 56876,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/the-twentythird.mp3": {
+    "sha256": "e1f196e56cc558db4be3f1e367677681f95c571750caa67b1abd53c1624bbcc1",
+    "bytes": 36524,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/the-twentythird-is-the-school-concert.mp3": {
+    "sha256": "f03f3a4ba7dd041dfb7071794d39f89020835297bf4eb8c5d49375b4a7fa3e78",
+    "bytes": 57644,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/the-twentyfourth.mp3": {
+    "sha256": "7b25cf757a9d1f9c78c7485fe43182e119e87948e2f874582efd4746fac7ffa8",
+    "bytes": 36524,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/the-twentyfourth-of-december-is-christmas-eve.mp3": {
+    "sha256": "13bc945311dbadffa61d69433258a373868768c6d89fd7ef3133590d15827215",
+    "bytes": 65324,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/the-twentyfifth.mp3": {
+    "sha256": "fbe2ce1cfa66a33d6061fd34eac020c503e2d0f24a854fdb79628d314f12d99c",
+    "bytes": 36908,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/the-twentyfifth-of-december-is-christmas-day.mp3": {
+    "sha256": "2f13791ef601ba6fe873c13ae736bdfaccf65248292ee772a47daa7ab37bf282",
+    "bytes": 64172,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/the-twentysixth.mp3": {
+    "sha256": "a223ce168ccbf3e5fff98ae63e5023f09e17a2750140cc1e2ec20f744a5efd84",
+    "bytes": 38444,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/the-twentysixth-is-a-public-holiday-in-some-countries.mp3": {
+    "sha256": "a4fab02537f8e343ec56008b2e1507aec4cf485a746a684550e0785e841d3b75",
+    "bytes": 74924,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/the-twentyseventh.mp3": {
+    "sha256": "02103a7aa1d1a607889f275024bf3f4922cffda6dbfd4d017f29ff1d66ad88cd",
+    "bytes": 38060,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/the-twentyseventh-is-a-friday.mp3": {
+    "sha256": "9264505eda38f7b3610b26e18d13b080d7f87b5a870adc8594b5cc4f8cf228b5",
+    "bytes": 53036,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/the-twentyeighth.mp3": {
+    "sha256": "b01246798099bf796725407141dc1f4d7e2c214e1d918fa42445211d4a7ec7d2",
+    "bytes": 34604,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/february-has-twentyeight-days-in-a-common-year.mp3": {
+    "sha256": "45f3833460178553efd958a4fcc0decfc88614dabb3c927d08bce0ad5e409c65",
+    "bytes": 66860,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/the-twentyninth.mp3": {
+    "sha256": "08f85a07f57b9225923b223980fd4a3a5af6981394210e0f6809bc4ca6314376",
+    "bytes": 36524,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/february-has-a-twentyninth-day-in-a-leap-year.mp3": {
+    "sha256": "813a92eec4ee95fbecaac0527c20819dbf7c255589087b50bbe9a434fe832fdf",
+    "bytes": 68780,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/the-thirtieth.mp3": {
+    "sha256": "1fdcfd912252ae35c900b4e91274c4d6637cb3400faa54eec42f115f2c536593",
+    "bytes": 35372,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/the-thirtieth-is-near-the-end-of-the-month.mp3": {
+    "sha256": "e0ef1edb155bd6d360e1621ad5ca51842d24de2c3b65136cf6318db5ed36c5ba",
+    "bytes": 60716,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/the-thirtyfirst.mp3": {
+    "sha256": "e01688528e06a2b388a21dd6c5c3ceac2dad0d6e2fff73c6e78484f3a389ff62",
+    "bytes": 37292,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/some-months-have-a-thirtyfirst-day.mp3": {
+    "sha256": "09ed2a33a9dbc554e7b11b5c431dc248ffe3915fcf3229c1cc35f9541034dd89",
+    "bytes": 53420,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/month.mp3": {
+    "sha256": "ef461b1399ba052efca817f6ac4893685526ac72187727bc3411ed7283ac38c2",
+    "bytes": 22508,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/there-are-twelve-months-in-a-year.mp3": {
+    "sha256": "92e52d7a98cae1b0e201763f9324716af64d2dd4186e1316486cb42dfb1193a4",
+    "bytes": 46508,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/year.mp3": {
+    "sha256": "d933b028044d0a6b17e16d2e3401fd2564ee8ad4a752c164a109890ed63f376a",
+    "bytes": 22508,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/a-year-has-twelve-months.mp3": {
+    "sha256": "da35d8602afc2d79cb18e549a6710c9cd511a7a6ec2c210d0aadf37fb842e388",
+    "bytes": 45356,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/january.mp3": {
+    "sha256": "ac6710c22fdbc80747a64e506e0943c7388eddea7e2586c1ef165b340c8f0007",
+    "bytes": 24812,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/january-is-the-first-month-of-the-year.mp3": {
+    "sha256": "235a1a4b2fd8efadf594bcca506461c38b532245b5be5e174b309c28e05c5634",
+    "bytes": 63404,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/february.mp3": {
+    "sha256": "943303a1d39cc39d67713eab1ab48f0d047b7eeff68d89b05a80fe4f0daade65",
+    "bytes": 25676,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/february-is-the-shortest-month-in-a-common-year.mp3": {
+    "sha256": "3c5c3710d48df51a55979dcd3cbb16d21c71f18c218936b951e76b25863bd0fd",
+    "bytes": 71468,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/march.mp3": {
+    "sha256": "5e90f187e6cc782762394eef216fbbd68f2edd74a967e6ef11b9479dcd189cd3",
+    "bytes": 23084,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/spring-begins-in-march-in-many-places.mp3": {
+    "sha256": "c3b9724d6503ddc46b37951f0af151ffc5d2471473fc5fd22938bd1caef4ce36",
+    "bytes": 59948,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/april.mp3": {
+    "sha256": "ba99e715836d4d90d5e1bfa3c034ad68a247fb9c62835455c74b8f20b1d4534e",
+    "bytes": 23948,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/april-can-be-rainy.mp3": {
+    "sha256": "6b2b3e526d6101d146357b5930c68c19c243e8cb9fd85be80891b830dc744918",
+    "bytes": 42668,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/flowers-grow-in-may.mp3": {
+    "sha256": "0773bf9f5ab922eec41925ffab3814c830b33d710d0bf7682742db729631a14b",
+    "bytes": 43052,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/june.mp3": {
+    "sha256": "6ebfbf52d3e25b6621cbdfc81a48963eda3a425c2bd911428442d9cfd807956f",
+    "bytes": 22796,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/june-is-often-warm.mp3": {
+    "sha256": "7ef57a4099f88bc31b6d55acf7e2db7a3dffb30172c7ac8de00a876f9c3d704c",
+    "bytes": 42284,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/july.mp3": {
+    "sha256": "cea437b18e641aeb598ee28eb31435fedb90f8ef07789ad7ed9837facc25719f",
+    "bytes": 23660,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/we-have-a-holiday-in-july.mp3": {
+    "sha256": "f207b60c8ce4074ed565bde5c0a7b4003ef85bbe4624139cc9641b59fc52747c",
+    "bytes": 47276,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/august.mp3": {
+    "sha256": "288df646211324332520f7bc9a8ddf96f9cbb6ab457b9d73572719675519f3ad",
+    "bytes": 22796,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/august-can-be-hot.mp3": {
+    "sha256": "08bf2d36adbf81f0305dd531ad30346d178e5b62c856b03d91022923d0edf5a6",
+    "bytes": 40748,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/september.mp3": {
+    "sha256": "4ae76ea3e3188e47e5bddbe9ca906b160aa2c355b25e0c361475c76bff88ffde",
+    "bytes": 24524,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/school-often-starts-in-september.mp3": {
+    "sha256": "df906a763439e7f14383a03810de019dd0139b68d1a4e645b0fcc461b94dd636",
+    "bytes": 53036,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/october.mp3": {
+    "sha256": "8f5377a9ce2edc8de2b39bf7564645701c9602ac5e4928c4864e0dbe23b4775b",
+    "bytes": 25964,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/the-leaves-turn-yellow-in-october.mp3": {
+    "sha256": "faf91477950eaa6cd246d9f2502e5a85f9e4e1dd50e7e34f2547961b0de1709b",
+    "bytes": 52652,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/november.mp3": {
+    "sha256": "d1786c7f7b44d0e60097f5a6c96cbb18361683174a7b08c9459365599f24991d",
+    "bytes": 24524,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/november-can-be-cold.mp3": {
+    "sha256": "7e6088e3f70a27502785fc331d772011f99f2a61d7866a2ae60d136f2f8d32f6",
+    "bytes": 44972,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/december.mp3": {
+    "sha256": "9a1c89556e3a480af90e0d43bed5d3e2fd0603dc40c0793700ec43967625c1f1",
+    "bytes": 24524,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/december-is-the-last-month-of-the-year.mp3": {
+    "sha256": "f8070d3275bf0628d613a7e2997a605aa9a19ed4844b8dc8beadbf047deb60f1",
+    "bytes": 59564,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/this-month.mp3": {
+    "sha256": "2c8d3235fc8043c4cce765bb282a4ae3c776e6b3254b469f986ec1d692f6fd29",
+    "bytes": 33452,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/we-have-a-school-trip-this-month.mp3": {
+    "sha256": "155435eaad14fa2f05199ea5054bf929a1ca003cd0287847fb447a2dc1541457",
+    "bytes": 48428,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/next-month.mp3": {
+    "sha256": "4aef7fde4fb9cb48712063935c034fdf45ec7a27877a096ac830c8d05b8deea6",
+    "bytes": 36524,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/my-birthday-is-next-month.mp3": {
+    "sha256": "008e4d53d0541b381eaca150a29e8d3c60d7aba958fc3ab14d42b447429a768c",
+    "bytes": 48044,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/last-month.mp3": {
+    "sha256": "269ad34c100b66b662af3038f62be726536384c7ac259517c93ac72797131c59",
+    "bytes": 35756,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/i-started-this-book-last-month.mp3": {
+    "sha256": "0585c334c9cbebd707854527275cff648b43008bb1abbea7610f23f285bdd4be",
+    "bytes": 51500,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/every-month.mp3": {
+    "sha256": "0b9b959fe5366a270a271bc45f08e3430219efdcc8d6b0a988ebd92d65a23508",
+    "bytes": 35372,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/we-visit-the-library-every-month.mp3": {
+    "sha256": "a6a53e19728c0e563c232d748510130d375a6c05df6bc067e7e561cf25c5f3b6",
+    "bytes": 52652,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/monthly.mp3": {
+    "sha256": "34c6c53fb35399577fbf519ead99e7fc8e4244aa58914d0199d175aa173fdefa",
+    "bytes": 25100,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/we-have-a-monthly-meeting.mp3": {
+    "sha256": "19c069c9263e0ac86377804141a10f6958f7cd9170188909c6e4423f9915a606",
+    "bytes": 43820,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/leap-year.mp3": {
+    "sha256": "5264d494ca297643d2ea9cea0ab4417b4fb326aad36f84bddea3527f4bb28729",
+    "bytes": 33452,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/a-leap-year-has-366-days.mp3": {
+    "sha256": "caa9ff30b7f0f96955a76f4d6da4b8d1e7751c24ba325f645e8739e3b0c1e886",
+    "bytes": 66476,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/common-year.mp3": {
+    "sha256": "42f9449690989d3ec1639058c351512be12c1de5685a0bd8f86ffc6468baa325",
+    "bytes": 34604,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/a-common-year-has-365-days.mp3": {
+    "sha256": "f9d8ea92b1763020c2f2906db4753092e941d53b80591454a9b0f78ff0950114",
+    "bytes": 69932,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/calendar-year.mp3": {
+    "sha256": "792ffe1a0ac15599c9f24a02dded21029b2a88e31682340ae048635af62acba5",
+    "bytes": 30764,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/a-calendar-year-starts-in-january.mp3": {
+    "sha256": "7564f0aaaddac5bcb0bf81916141fa05e5ffc62156f73e63100531778614d7ea",
+    "bytes": 59180,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/new-year-s-day.mp3": {
+    "sha256": "cf06724f74a9e8a38d41c508f100fce48ec752276135f4a9ab8e2089c41a3c8d",
+    "bytes": 36908,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/new-year-s-day-is-on-the-first-of-january.mp3": {
+    "sha256": "7f1ef6bd448e076f9a1f521519aac7c44097875c7a7beff9e5ac817dba4025f0",
+    "bytes": 65708,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/new-year-s-eve.mp3": {
+    "sha256": "a75c063b401b9dac6a35ae605d1ccd14d7f12f3f92f8e9b397c263bdd0fe3843",
+    "bytes": 38444,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/we-stay-up-late-on-new-year-s-eve.mp3": {
+    "sha256": "05f1f497b5b9a6e8241f189e732972554a3eaf3f6a7c931f2fcd813b8d806ead",
+    "bytes": 51500,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/at-the-beginning-of-the-month.mp3": {
+    "sha256": "8325c00619a8a7c69b6f17ce378cd86c3a430b2cda1c3a03feace5ac4bebc865",
+    "bytes": 43052,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/i-get-my-timetable-at-the-beginning-of-the-month.mp3": {
+    "sha256": "dc3b661b9882fe4143e233c41e2a064aeda119cdcb5a23851e5c51374ca8accb",
+    "bytes": 63404,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/at-the-end-of-the-month.mp3": {
+    "sha256": "bf4567ade21c3261a1782047ab49c911bd6e4149a0f641f4b24c3c4ebd8e531a",
+    "bytes": 40364,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/we-pay-the-bill-at-the-end-of-the-month.mp3": {
+    "sha256": "27c38edc60653794342b9a8f589c0c7457a57e413ab70e2491182415124eaea9",
+    "bytes": 52268,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/which-month-comes-after-may.mp3": {
+    "sha256": "0c623784f2de42a1a667af440d58eafcebcc9dccfab1c1befe58173041dbf966",
+    "bytes": 48044,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/which-month-comes-after-may-june.mp3": {
+    "sha256": "adea21249c20cf5fef550fbea33ca35679b71d9fe5a0f272a071cd78c49e3da6",
+    "bytes": 61868,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/season.mp3": {
+    "sha256": "c959856b2f5a49f5842e7116ca0c8004346518eff51006c59824d8bdc98768d2",
+    "bytes": 24236,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/what-is-your-favourite-season.mp3": {
+    "sha256": "61db9eb5f17ab95f9fcc6018d28b15041d2ea9dd074a1de9cce24b8f44823c98",
+    "bytes": 44972,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/spring.mp3": {
+    "sha256": "64b753c2edc4b2973d8f725e10364cd67accd42ced2db4302457d813ab5b0e42",
+    "bytes": 24236,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/flowers-grow-in-spring.mp3": {
+    "sha256": "e0ef8fc301a48a650c1fde9de80f830a8de76e86bd4cd83fc918aaf41fda47be",
+    "bytes": 45356,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/summer.mp3": {
+    "sha256": "9e6fdf7637572db77901de3e56ca3b0c2b40859b1ac6592016fc76ea6ca24be9",
+    "bytes": 22796,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/we-swim-in-summer.mp3": {
+    "sha256": "8e7d0f9ab93b5b0d110bd3c0265f5fd4f4568a07e6e7714919cff8bb4d707b3c",
+    "bytes": 41132,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/autumn.mp3": {
+    "sha256": "6f71453626b07d8a0886aefa18b4062640f3d461a26626e3293d029be2f704b5",
+    "bytes": 23372,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/leaves-turn-brown-in-autumn.mp3": {
+    "sha256": "bb26cd8a6d6bf4870880227e78faa13b4571d7d12fbb7ef75f5fb956feefbafb",
+    "bytes": 47276,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/winter.mp3": {
+    "sha256": "d91955a45450f6f954bd924e42bc695410c0f6448acea1f884f099604dfa7316",
+    "bytes": 23948,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/it-can-snow-in-winter.mp3": {
+    "sha256": "78fea13b11367313e15d45b195093ceef7c93ea22c6b7395c3edd2504d5ecfd8",
+    "bytes": 44588,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/springtime.mp3": {
+    "sha256": "b9b92cbafb992da82ffb8421b0a79e06390e8287c7748c351894e3873b4579e8",
+    "bytes": 25964,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/the-garden-is-beautiful-in-springtime.mp3": {
+    "sha256": "28c1cbf825bed5f135adb10edb43723267ded916ab476996d3920bb60b581248",
+    "bytes": 56492,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/summertime.mp3": {
+    "sha256": "f39577aa08e04cc4b3b751f2ee9cc9c8e15b97eaa1ce40c8f659a4aede631169",
+    "bytes": 25388,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/we-spend-more-time-outside-in-summertime.mp3": {
+    "sha256": "e24bc874c94dbd282f998eef3223873599751d7718754e8396652fa04f68b289",
+    "bytes": 60716,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/seasonal.mp3": {
+    "sha256": "28a3b27872a2c16d1bf73d886885a486d6f6981809d938af96243e354dd73e92",
+    "bytes": 26540,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/these-are-seasonal-flowers.mp3": {
+    "sha256": "50c54032da8046278c5e0603a762cd7b0488b77235fd2aed880b11a7d4d3ec0d",
+    "bytes": 48044,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/spring-flowers.mp3": {
+    "sha256": "1917f3fa75803aa14bc7f5a3b8cd087946325d4affd145bf35e6e677aaf8a95d",
+    "bytes": 39212,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/spring-flowers-grow-in-the-garden.mp3": {
+    "sha256": "5c5411c5bf62162dce00d1c0eaed6cd627c2c666ea550efc03e51ab53e6715be",
+    "bytes": 51500,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/blossom.mp3": {
+    "sha256": "6e7cdf6907fecf74322fc9c37f035adac6aa0b8e756d0d37e2b5477b97f4287e",
+    "bytes": 25388,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/the-trees-blossom-in-spring.mp3": {
+    "sha256": "afd654846dd16e510e2c7249c4471e5e7a757564465b34c6eb3cdeb79714d3fd",
+    "bytes": 49964,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/bloom.mp3": {
+    "sha256": "89222969012158d2bf9e6dc393285ef128a0dc2f1d2a06a0850156d2e9cd37eb",
+    "bytes": 23372,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/the-roses-bloom-in-may.mp3": {
+    "sha256": "444dfa6b48094345b358996fcb8e819627c0190fd8dfa51b443c0ed36532aed4",
+    "bytes": 46124,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/new-leaves.mp3": {
+    "sha256": "4c79f94fd9cbef429256c3b7e2efbb9d2ce40372fe3bdfcf14d54be41e5eb1ef",
+    "bytes": 34604,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/new-leaves-appear-in-spring.mp3": {
+    "sha256": "67e927c368468f8cfd9f920ad6daf870d38f3d31a33bd92b709d77fb40b385a2",
+    "bytes": 47660,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/summer-holiday.mp3": {
+    "sha256": "993bc339f4130c86d292f2b5e79b20380781d3743de74fd97f9bea6fa095508a",
+    "bytes": 38060,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/we-visit-the-seaside-in-the-summer-holiday.mp3": {
+    "sha256": "bd8f516f704305c530954c3e89c7a038f81011b6d1752129891b787e18218d03",
+    "bytes": 63020,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/go-swimming.mp3": {
+    "sha256": "f34d915fa27b1d1a1279ff840abc03c1c92cd8cae6768dbb70efe0ff3a5e3e39",
+    "bytes": 34604,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/we-go-swimming-in-summer.mp3": {
+    "sha256": "f4951075a18d3ff047e822e28a9ca90550c962c7cbea13fa138492a5febd26a3",
+    "bytes": 43436,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/have-a-picnic.mp3": {
+    "sha256": "b1e71072a1f459d787bd76c4c348c61bf9bf8fd4ba23a09e5918a21d502bdae4",
+    "bytes": 34604,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/we-have-a-picnic-in-spring.mp3": {
+    "sha256": "b467a878caf8a4f0dd3b16f38197361d8bf187ccded2f0dd804a3e1b4f1cdade",
+    "bytes": 46508,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/autumn-leaves.mp3": {
+    "sha256": "b9687af54f299d2bae445727c8679cd16a0911171f984a9d672ce27d0c867890",
+    "bytes": 36524,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/autumn-leaves-are-red-and-gold.mp3": {
+    "sha256": "7e3be5388b3b5b4b6ce06d71dcddfcb99d328fb4571b06c4774614fc8ff7fd07",
+    "bytes": 51116,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/fall.mp3": {
+    "sha256": "e3702ea3df48e2ec4f1f21799188d963b897d0e83fcfdb6e5aa20d9beb8466dd",
+    "bytes": 22508,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/leaves-fall-from-the-trees-in-autumn.mp3": {
+    "sha256": "eb9fe8447ddcd39716143fd1c716389e7440ced7d228c75a492f0ba924619608",
+    "bytes": 53804,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/harvest.mp3": {
+    "sha256": "4667d19a769178948b59fa005765dd55026a1088fd46f987a362e53dca69bc25",
+    "bytes": 23084,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/farmers-harvest-apples-in-autumn.mp3": {
+    "sha256": "f10c61ecdd34e47db4b8011d6d978ac3f9d2a380c2e9a656e6fef77a7fffa8b8",
+    "bytes": 53420,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/winter-coat.mp3": {
+    "sha256": "aa0ffcfb6cdb66ae38dd117ec3b54304733c8486e7a363857b68c88ca36e0cd8",
+    "bytes": 35372,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/wear-your-winter-coat-when-it-is-cold.mp3": {
+    "sha256": "de4a9e013f748bd6df62598eb8771807b0fdf16fc77f34460912f0371046ba9e",
+    "bytes": 52652,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/snowman.mp3": {
+    "sha256": "015ef33c270865614d777f49c5182828e118b16bd76be2c25fdc0a3e377fe360",
+    "bytes": 25388,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/the-children-make-a-snowman-in-winter.mp3": {
+    "sha256": "e4037c00924ecc1b12bc3bc6233d7cdef99fbfe48b95b40ae184a3803da4a5cf",
+    "bytes": 56876,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/snowball.mp3": {
+    "sha256": "6598e39faf3377e68d1b8d0935ac27e0d3be23c4ad93f06df84e5b00043e03fd",
+    "bytes": 24524,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/he-throws-a-snowball.mp3": {
+    "sha256": "11f0543cc77903350cb00cb1357601646db6ee4c96618d5f5ce73fb326114336",
+    "bytes": 41900,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/hibernate.mp3": {
+    "sha256": "1a23c2e45d05b64142091241e413f00a866d313ad3b35e134ac0baa2bf383d94",
+    "bytes": 24524,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/some-animals-hibernate-in-winter.mp3": {
+    "sha256": "c42b1f330fc827c6d36d60a56f34575f486807784eae150737ae724e8a72b656",
+    "bytes": 54572,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/grow.mp3": {
+    "sha256": "930af861d1febdc61a3b4a55f56d463eff7aaafc9018a6ad4c5ecd71760f2795",
+    "bytes": 23084,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/plants-grow-quickly-in-spring.mp3": {
+    "sha256": "7757c4c9b15dc00c7b20439b1b5a0de216247208f906fd607baab127d21008f9",
+    "bytes": 49196,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/days-get-longer.mp3": {
+    "sha256": "b5ece99d816cf962e7ba08bbc8bf3f377c0432b3709a6d9e524549f2e812b489",
+    "bytes": 40364,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/days-get-longer-in-spring.mp3": {
+    "sha256": "47e30e1a1d647979db2631007c457ebdb01c0186e122ed24b671afd75e44d97d",
+    "bytes": 48044,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/days-get-shorter.mp3": {
+    "sha256": "1b48e1fae24daf7f76456df044e9c248768a968196447678fe4093306d27d89d",
+    "bytes": 39212,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/days-get-shorter-in-autumn.mp3": {
+    "sha256": "e4bf49d0e969956512ba38ea13eb13fb471ae91ddd32da9d6c5ba772b3a06a79",
+    "bytes": 46508,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/leaves-change-colour.mp3": {
+    "sha256": "536457675612bd46abc6a77dfd020b61d8aa97d959830fe9667ce56b5a8fb29f",
+    "bytes": 41900,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/leaves-change-colour-in-autumn.mp3": {
+    "sha256": "51d4a927dc99b46ebae419abffb98804d6e032af347c30fc500d225df3f965db",
+    "bytes": 48812,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/which-season-do-you-like.mp3": {
+    "sha256": "846e47fb387cd09ae981cdc58c76777a8baa10f62d5bdb9d4cfa51b85a9882e7",
+    "bytes": 41516,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/which-season-do-you-like-best.mp3": {
+    "sha256": "4ce31d578d7e24a1ac0b53524d350cfa49768a814b1c395bfe3995c0e859605a",
+    "bytes": 46124,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/my-favourite-season-is-spring.mp3": {
+    "sha256": "fe239bda677e73e9a72de9669b40f1108be97194e13920416e397da56d224e14",
+    "bytes": 48812,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/weather.mp3": {
+    "sha256": "7986d01169224a5aa8eff15edc974f67b0d4becdab65bc84ecf5a537ce6db1c5",
+    "bytes": 22508,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/what-is-the-weather-like-today.mp3": {
+    "sha256": "f4f9070d786321d2d587486975c9073cee9fc9355a95c0e38e4ed2b2bf76919a",
+    "bytes": 47276,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/climate.mp3": {
+    "sha256": "e2e52b79c04a9aa745a0d8b11c6a731cf4d2f91cbebbd6d453d1878719a9f0fe",
+    "bytes": 22220,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/the-climate-here-is-warm.mp3": {
+    "sha256": "88373e1c0d1a64384e35c2cc047877668b6949ab7633e49920dd6c8c2e5d635b",
+    "bytes": 44204,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/forecast.mp3": {
+    "sha256": "f2fabffbb6ebb705f2c792cb38cd9371578db65679863a43b3a796dcb20adf41",
+    "bytes": 25100,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/listen-to-the-weather-forecast.mp3": {
+    "sha256": "4334c25c1d500593ffe5c0ba53c744ed90190e3cbe6b2f8f3a94affba8584b48",
+    "bytes": 49580,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/weather-forecast.mp3": {
+    "sha256": "cb3ec190a816781441f6e0a51a4d4243758530714c97d698df2d9082f6aa80a7",
+    "bytes": 40364,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/the-weather-forecast-says-it-will-rain.mp3": {
+    "sha256": "49112fd46aa381500b624d9326a2fabd4c9ed6b40df758e504cc2e31e4fb915d",
+    "bytes": 56876,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/sunny.mp3": {
+    "sha256": "fbc934fbc14633a5f5b7310c516a464ae4faae7fc1f0d94692ca35a54cafb6d8",
+    "bytes": 23948,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/it-is-sunny-today.mp3": {
+    "sha256": "1c9c532b90165ba66c12b3f5c938b1f7de06d92382a6975aca5018141591b6b8",
+    "bytes": 40748,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/cloudy.mp3": {
+    "sha256": "dd72f54726ae7d656d228e1f9b384730f17b361ba6b9eb634015b797ca684e2b",
+    "bytes": 23660,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/the-sky-is-cloudy.mp3": {
+    "sha256": "ea68a10b17b7b44472f643bb41b6b4cf8d80a0748b31f9bfd322b6177dcbff8f",
+    "bytes": 40364,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/rainy.mp3": {
+    "sha256": "2d372f3c003a18a8e82467af76d7f0079f3a7430e8544cde2f7522479c50f856",
+    "bytes": 23660,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/it-is-a-rainy-day.mp3": {
+    "sha256": "c55c29136f3c17db2b9f7fb185648b744c785bb39690c23cb78d764bcafcb1c0",
+    "bytes": 39980,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/windy.mp3": {
+    "sha256": "8d4624538c1c770fe33ec60d2b04e6e409b5b2370cc6abf32ba6cb75dce23bd7",
+    "bytes": 23948,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/it-is-windy-outside.mp3": {
+    "sha256": "46bcbc0d328e16669c254f34fc8b2e62b1aad0b176a8a3c4945e3fb8fa917ec5",
+    "bytes": 42284,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/snowy.mp3": {
+    "sha256": "93847fcdd54f091cf474d5d1401bd1e344fb5f36138cdd1c54430024cabae929",
+    "bytes": 23948,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/it-is-snowy-in-the-mountains.mp3": {
+    "sha256": "291d3754c93b602934ded6dc25839eec384f49e305ac663f55a23a86254b20cc",
+    "bytes": 48044,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/foggy.mp3": {
+    "sha256": "94adb38c3def51d524d8839c440b048c7d92eaf2783e1fa9283d5e87ae007128",
+    "bytes": 23660,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/it-is-foggy-this-morning.mp3": {
+    "sha256": "56ff717be16f82413e668ce1f54f0c22e1bd840d1de06a116686ff70dc28c703",
+    "bytes": 44204,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/stormy.mp3": {
+    "sha256": "eaa0aeb8349cb594cdcf95d69715806dba22942020d796df07d61b85945649f4",
+    "bytes": 23948,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/the-sea-is-stormy.mp3": {
+    "sha256": "d707bf52a1bcacd3be12c16d53d4c7f5d3c1ff9aa77cb13000840f5068694f9c",
+    "bytes": 38444,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/icy.mp3": {
+    "sha256": "0bcab8a3e80d207b27710b21fe3107b438ff0c72e6d58f785ee30febc739c4fd",
+    "bytes": 24524,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/the-road-is-icy.mp3": {
+    "sha256": "f0c3a6a632517d3cbfdd00b51ce0d45b44947a97721faf806974c2641eb859db",
+    "bytes": 40364,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/wet.mp3": {
+    "sha256": "ef48d99628d74b201aea8743d39193e39276628fbc46e0f82c5e6907b0346fd0",
+    "bytes": 21068,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/my-shoes-are-wet.mp3": {
+    "sha256": "12c3dc13383a1c8045ae754dc52a2727d4560fde4f963393175c2a8467c89bf7",
+    "bytes": 39212,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/dry.mp3": {
+    "sha256": "12a1424b1f7360ac38520c8812a325f90d62c3270009f3c51feb950ebec123f1",
+    "bytes": 23084,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/the-ground-is-dry.mp3": {
+    "sha256": "14d37df1d5ee04e2bbe0563d456b96feeaca02d2060556e2695b5b65927a8d70",
+    "bytes": 40364,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/it-is-hot-in-july.mp3": {
+    "sha256": "d35e3589db366f5e367e10e3181ab6f97076661305b8c3782178012c01edfb3c",
+    "bytes": 42284,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/warm.mp3": {
+    "sha256": "5eb8ebe4408d50cc7b66f41202b58026829f4e9b5f5e77fae7c2c2ecf6f3506d",
+    "bytes": 23084,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/the-weather-is-warm-today.mp3": {
+    "sha256": "8f727d0efd953ca4db37d17ccbc332dcce87aa4bca16a445c44bd74745daf8a5",
+    "bytes": 44588,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/cool.mp3": {
+    "sha256": "b6c8d785e37c4a304e677437cd844b6e615d6cea9135cd9a1eb11a0475c0d714",
+    "bytes": 23084,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/it-is-cool-in-the-evening.mp3": {
+    "sha256": "ccd89de24ea4b9e5a67bb9a673696bfac2c832fb41c7699eadb3ac285ab4f070",
+    "bytes": 44204,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/cold.mp3": {
+    "sha256": "f9589820e2a14463c9cdc84a88602a73ba8229b285da5c0a6db9d51881246083",
+    "bytes": 23372,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/it-is-cold-in-winter.mp3": {
+    "sha256": "9a37cfb945154a9b3930340844d229e45c5a8c658602306d2e4ad7561a5d1d94",
+    "bytes": 43052,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/freezing.mp3": {
+    "sha256": "f8df5bad97ff758e6f35e129371271bed92848d1ea83a0dffce4147ab25118df",
+    "bytes": 24524,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/it-is-freezing-outside.mp3": {
+    "sha256": "2726df5f7fdb91f4144e83d870e31f81bb3bff3662a64eb21a23f366f4e8f7a5",
+    "bytes": 43820,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/mild.mp3": {
+    "sha256": "1abefbdadf92b10d2c9823108e9314bd7ca8488f23e7d76dca639117bb95b1dd",
+    "bytes": 23084,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/we-have-a-mild-winter.mp3": {
+    "sha256": "d615e707e1ff42bed27672a2907fad02d1aa6baca97bbc2486a0b3747d492fb8",
+    "bytes": 42668,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/humid.mp3": {
+    "sha256": "30d8871bd34a364823f5821dac339170f5c4939ef510a138d1822d1964ed38c7",
+    "bytes": 23084,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/the-air-is-humid-today.mp3": {
+    "sha256": "297a8290c9e8dfc232cdd769b0ee2a371c862f0eb0cc3abfadf2fc40ddb43465",
+    "bytes": 43820,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/temperature.mp3": {
+    "sha256": "3aecca08a6537bfd74b32e50c5c58891cf760205e53afe10685e2bcf6e24fa63",
+    "bytes": 25100,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/the-temperature-is-ten-degrees.mp3": {
+    "sha256": "5fd1d429f039a0cb5334d534b88cb6d26804b415634016ae8e7f02b0de41d27b",
+    "bytes": 48812,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/degree.mp3": {
+    "sha256": "eeb35b8b60a3b46592ea835a8c7c9d508c5be0519da70fb185c15efc24199046",
+    "bytes": 24236,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/it-is-twenty-degrees-today.mp3": {
+    "sha256": "69bb792b7cdeaabe2c11ca60230e748241ca8cc7965bb53d7a43ba2232d27fb3",
+    "bytes": 46124,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/rain.mp3": {
+    "sha256": "20de765c3caeeb9badfc815497d583b731d77250eb8571d1190306561ba6c3f2",
+    "bytes": 23372,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/the-rain-is-heavy.mp3": {
+    "sha256": "5e9a0270e7ad031eb5556f2d7e348c97dd2db7b0a2c3838686d5d6554b3b0f79",
+    "bytes": 39212,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/drizzle.mp3": {
+    "sha256": "b0ebc711e1597b4a7b8a15cd6d85949c3203399a1b95e748a8a1e016895b516b",
+    "bytes": 23372,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/there-is-a-little-drizzle.mp3": {
+    "sha256": "f2323cddbfb8837fba6bfd3f273ed174d7ea1d2d07d74abf9ada26070d181d7a",
+    "bytes": 41516,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/shower.mp3": {
+    "sha256": "bbc093da7d23bd3d6477d5df8ec64116b19134458afac20986b7d114c73e021e",
+    "bytes": 23372,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/a-shower-may-come-this-afternoon.mp3": {
+    "sha256": "c34b45461a380dbb0ffc2df4858d92d1dbc4694f902e81bbf760765033c2d8e0",
+    "bytes": 51116,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/downpour.mp3": {
+    "sha256": "69638b975f32cf482f8db0eb1584afec8b9d48fa7f6499957d8d61f35c11f358",
+    "bytes": 24524,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/we-waited-inside-during-the-downpour.mp3": {
+    "sha256": "6976516218c6812b01424836d897ffff534c99149f634f9876c17c129284b53a",
+    "bytes": 58028,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/snow.mp3": {
+    "sha256": "f59e741b502c1cceeb8b787b999149da9821c84fbb7224f02924e5b551b44314",
+    "bytes": 23948,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/snow-covers-the-roof.mp3": {
+    "sha256": "f12c9159f99bb2cbabf123485e808c2b37da90890c6f4d61473736018048920c",
+    "bytes": 42284,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/sleet.mp3": {
+    "sha256": "0a438b56702ae65cecdbf7bdb30e96f0fb3f9f70afd65393de81b21fe6619064",
+    "bytes": 22508,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/sleet-fell-overnight.mp3": {
+    "sha256": "e10db9f61edc10e406aca81fe79700f386d40d43efe36322f7ae0f9e8b4ba242",
+    "bytes": 41516,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/hail.mp3": {
+    "sha256": "35bec4acf34bf5062f7d1f582b9714fc2f6d015f7a618ba3315c5e38848c2089",
+    "bytes": 22508,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/hail-hit-the-window.mp3": {
+    "sha256": "074c0b9b2d8595e17b924a80440c31a6663b026fe9a03778831ab3ad239bd77d",
+    "bytes": 39212,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/wind.mp3": {
+    "sha256": "5387375b68a07e6f84f1d170627f762d10adba739b3ada765622929e2f6dfd7f",
+    "bytes": 23372,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/the-wind-is-strong.mp3": {
+    "sha256": "eeb783f85e268ad578e2335c0ad64393e3d78330a62083a4035850004d619e73",
+    "bytes": 39980,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/breeze.mp3": {
+    "sha256": "102c55b14c8ed7a1facb1295cd34dd639a7f7f1d5447b730e890c7f7e02a7f42",
+    "bytes": 23948,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/a-cool-breeze-is-blowing.mp3": {
+    "sha256": "da8440808d898366c5260f467e0e73d32d5c4d37acc7521a09fc45a3524424ae",
+    "bytes": 45356,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/cloud.mp3": {
+    "sha256": "ba735b9a0214af50188745e97fec1e65a74eac2d6c3ede6ef7561a29d4e025d7",
+    "bytes": 22796,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/a-white-cloud-is-in-the-sky.mp3": {
+    "sha256": "27c2011bdf1fbdd3a1ba7878cd599a1b86fa9527f91c4609a9687f81c4bdfb4e",
+    "bytes": 46892,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/fog.mp3": {
+    "sha256": "9b9f041d025356680b049a954b7352a3ec1f6af3fd5e6f6875f85fe34093798b",
+    "bytes": 22796,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/the-fog-is-thick.mp3": {
+    "sha256": "cde6fab40266aae8274fdd5dec70bc1c84d9582bde315ea78ef9ce22249d4e01",
+    "bytes": 39212,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/mist.mp3": {
+    "sha256": "739df31b49dee344060351dd3ff1729a6872e994fcdfd0180c77608c1358787c",
+    "bytes": 22220,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/a-light-mist-covers-the-hills.mp3": {
+    "sha256": "366640226ce4dc1ead8dde4fdb279c3decea408802241dfcba34dc571ce69995",
+    "bytes": 49580,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/storm.mp3": {
+    "sha256": "5b718a28cb17dc7f7a96fbb47f003e981953ce3c62aa2753801d684abc3f6e3a",
+    "bytes": 23948,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/the-storm-is-getting-closer.mp3": {
+    "sha256": "a3aff33fcd2de4777cfad7046c3e1ef3bc14d1235f0c07aeab47b42d6cc95b50",
+    "bytes": 49196,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/thunder.mp3": {
+    "sha256": "76c2807df37af15d4690ba0c65c2971f0130b2bb0341c644cbb51747ed40de57",
+    "bytes": 23084,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/i-heard-thunder.mp3": {
+    "sha256": "25babcefb351677191d06e85c191c92e687e9057df6d43aa647596c4b46d7d69",
+    "bytes": 38060,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/lightning.mp3": {
+    "sha256": "a628123838fb1a910d64de9258e20093080c7fd4776861c8e72b01c6328bfb54",
+    "bytes": 23948,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/lightning-lit-up-the-sky.mp3": {
+    "sha256": "b5537da10bfd2226776e6549d76e7f80857d57db2b3d6efd09e03cba07508537",
+    "bytes": 44204,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/rainbow.mp3": {
+    "sha256": "f884444663770cc4e84a46a11c4ed5f6ad070ac8ea92df74a9be867ab3b649d8",
+    "bytes": 25100,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/a-rainbow-appeared-after-the-rain.mp3": {
+    "sha256": "5bb0f57b7bab5c6dc87725a6c0463012bc6fd980ef5fe4d2f86f1eb05aa5864d",
+    "bytes": 51500,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/sunshine.mp3": {
+    "sha256": "6831c50866ccb1e796c051b252438298aab52d6a89cf70751d6d759cd02b93c0",
+    "bytes": 25676,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/the-plants-need-sunshine.mp3": {
+    "sha256": "f38896ed7e590fb2652d26a7964b2d4297137ccdc39832995e6f8c76d34a0a12",
+    "bytes": 45356,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/umbrella.mp3": {
+    "sha256": "5777e4fa0a17f822093b4c8eacfa7075425d806d53db186efb37188629bb01a3",
+    "bytes": 25100,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/take-an-umbrella-with-you.mp3": {
+    "sha256": "7bc85abc5365445a7305dbe610b6ed7611934fc67a237657d4ac2b9454b18af3",
+    "bytes": 43052,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/raincoat.mp3": {
+    "sha256": "b06cff59577198c458fdcd66a9ad6b88d4f5fc916c126dc2cbc84f814e43c4ca",
+    "bytes": 24812,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/wear-your-raincoat-in-the-rain.mp3": {
+    "sha256": "4651304cc1e5edffdad33ffc543e2d8fc0033a47ce9b278fe480e417bf15abce",
+    "bytes": 46124,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/rain-boots.mp3": {
+    "sha256": "cae86e3aea942ba0741bf946b2ed2215874d1c1051a6199c726c8924a99de75c",
+    "bytes": 35372,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/my-rain-boots-keep-my-feet-dry.mp3": {
+    "sha256": "71c879688a2d13bc0a9782644272afe1b2bf937f02e29e21b31b0627325afcda",
+    "bytes": 52652,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/heavy-rain.mp3": {
+    "sha256": "ef88b79347431bec7684b1d630d1e25a3cf6fefbc3e409d926861a0e39a261fe",
+    "bytes": 35756,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/heavy-rain-is-expected-tonight.mp3": {
+    "sha256": "b96df68e7f06a21f28a94bbbdc7409047f0cb03bbf90a148726f4a4feade99b0",
+    "bytes": 51500,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/light-rain.mp3": {
+    "sha256": "2db219e5275689d907047503fd72dd94daa0119a31b7deffdbcbf16a78fabea6",
+    "bytes": 34604,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/there-will-be-light-rain-this-morning.mp3": {
+    "sha256": "a1206c1e3b246607557d1f99b9c56ca06361539f259285e919e7c88696dd44fb",
+    "bytes": 49196,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/strong-wind.mp3": {
+    "sha256": "a40b288558086e4b9996dcce4e96337bc97dd8c2a9c5e7701b9cd026bf8092e5",
+    "bytes": 36908,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/strong-wind-moved-the-branches.mp3": {
+    "sha256": "c14f2bac818bab31148f51b13ea4ea6ae4af868c54e9db02a9b37774a1a84619",
+    "bytes": 51500,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/it-s-raining.mp3": {
+    "sha256": "ca0d503975bb0f54fb4158bd4170e8a0f09394dd205b6c9988fd136f5b16c103",
+    "bytes": 34220,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/it-s-raining-so-take-an-umbrella.mp3": {
+    "sha256": "dd1f48bc6124cfcea3eb331305513d61b520227f884dbf066cf26887b01160c6",
+    "bytes": 57260,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/it-s-snowing.mp3": {
+    "sha256": "4dee59cbf4b2de8b9d95501a6c4eb091d628f636344c0155b2a8ac92229ba40d",
+    "bytes": 35756,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/it-s-snowing-outside.mp3": {
+    "sha256": "d7a3f13a882455b542da6350b0a6eb0a8ef4e742782d96bda9d8064d70843855",
+    "bytes": 42668,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/what-s-the-weather-like.mp3": {
+    "sha256": "ad6152c31e028f21270efb0dfc95c0d2b61dbcc09bf31fda2f442cca34e06748",
+    "bytes": 39980,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/what-s-the-weather-like-today.mp3": {
+    "sha256": "5b81b9f9459e9f77dd56b849e7fdac777b4bc9c8490d4fbbfb268ae280d5e421",
+    "bytes": 44588,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/it-s-sunny-today.mp3": {
+    "sha256": "fa9295e3befcd82903facf1302467629d5af6eef507b99094832fd3816c7f584",
+    "bytes": 38828,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/it-s-sunny-today-let-s-go-outside.mp3": {
+    "sha256": "141c2e5edf2a3d7278e1e97f0b01112c37d68439a8e97fbd133db42691bfaa70",
+    "bytes": 58796,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/word/it-might-rain.mp3": {
+    "sha256": "f8d7037caa3a390bec59daa6cb60a27046eec1f81ed9d066b681bdb710e407fd",
+    "bytes": 35756,
+    "source": "generated-time-nature-v1"
+  },
+  "audio/en-us/nature/sentence/take-your-umbrella-it-might-rain.mp3": {
+    "sha256": "0f8e542b5bd5b68ac8ab5d9e05855d40fedbdff2711618c89238d1593e7ac61d",
+    "bytes": 53804,
+    "source": "generated-time-nature-v1"
+  }
+}

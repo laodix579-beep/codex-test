@@ -1,8 +1,9 @@
 // Public static resources only; personal study data stays in localStorage.
-importScripts('./audio-files.js');
-const CACHE="frog-meaning-definition-v29";
+importScripts('./audio-files.js','./scene-files.js');
+const CACHE="frog-time-nature-v30";
 const ROOT=new URL('./',self.location.href);
-const FILES=['index.html','assets/home-hero.png','assets/scenes/see-you-tomorrow.png','data/scene-catalog.json','data/meaning-catalog.json',...Array.from({length:17},(_,i)=>`assets/scenes/sheet-${String(i+1).padStart(2,'0')}.png`),'audio-files.js','audio-manifest.json','data/pronunciation-test-words.json','manifest.webmanifest','icon-192.png','icon-512.png','apple-touch-icon.png',...self.FROG_AUDIO_FILES];
+const FILES=['index.html','assets/home-hero.png',...self.FROG_SCENE_FILES,'data/scene-catalog.json','data/meaning-catalog.json','data/catalog-packs.json','data/time-nature/index.json',...['01_时间与钟表.json','02_星期与日期.json','03_月份与四季.json','04_天气与气候.json'].map(name=>'data/time-nature/'+name),'scene-files.js','audio-files.js','audio-manifest.json','data/pronunciation-test-words.json','manifest.webmanifest','icon-192.png','icon-512.png','apple-touch-icon.png',...self.FROG_AUDIO_FILES];
+const FILE_URLS=new Map(FILES.map(file=>[new URL(file,ROOT).href,file]));
 self.addEventListener('install',event=>event.waitUntil((async()=>{
   const cache=await caches.open(CACHE);let next=0;
   const previous=await Promise.all((await caches.keys()).filter(name=>name.startsWith('frog-')&&name!==CACHE).reverse().map(name=>caches.open(name)));
@@ -36,7 +37,7 @@ async function validRecording(response,file){
   return hash===self.FROG_AUDIO_HASHES[file];
 }
 async function fromCache(request){
-  const cache=await caches.open(CACHE),file=FILES.find(file=>new URL(file,ROOT).href===request.url);
+  const cache=await caches.open(CACHE),file=FILE_URLS.get(request.url);
   let cached=await cache.match(request.url);
   if(self.FROG_AUDIO_HASHES[file]){
     if(request.cache==='reload'||!await validRecording(cached,file)){
@@ -64,5 +65,5 @@ self.addEventListener('fetch',event=>{
       return await cache.match(new URL('index.html',ROOT).href)||Response.error();
     }));return;
   }
-  if(FILES.some(file=>new URL(file,ROOT).href===url.href))event.respondWith(fromCache(request));
+  if(FILE_URLS.has(url.href))event.respondWith(fromCache(request));
 });

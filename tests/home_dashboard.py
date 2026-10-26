@@ -21,16 +21,16 @@ with sync_playwright() as p:
   page.reload();page.locator('.home-dashboard').wait_for()
  home();page.wait_for_function('document.querySelector(".home-hero-illustration img").naturalWidth>0')
  assert page.locator('.home-category-tile').count()==8
- assert [s.inner_text() for s in page.locator('.home-category-tile>small').all()]==['136 个单词']+['0 个单词']*7
+ assert [s.inner_text() for s in page.locator('.home-category-tile>small').all()]==['136 个单词','220 个单词']+['0 个单词']*6
  assert page.locator('[data-daily-time]').inner_text()=='0 / 20 分钟'
  assert page.locator('[data-daily-words]').inner_text()=='0 / 10 个'
- assert len(saved()['words'])==136
+ assert len(saved()['words'])==356
  # Every category opens its actual subcategories, including empty categories.
  for i in range(1,9):
   home();page.locator(f'.home-category-tile[data-category-id="C{i:02}"]').click()
   page.locator('.mvp-subcategory').first.wait_for();assert page.locator('.mvp-subcategory').count()==4
   assert page.url.endswith(f'#words/C{i:02}')
-  if i==2:
+  if i==3:
    page.locator('.mvp-subcategory').first.click();page.get_by_role('heading',name='这个分类正在准备中').wait_for()
    assert page.locator('[data-action="add-word"]').first.is_enabled()
  home();page.locator('.home-section-heading [data-route="words"]').click();expect(page.locator('.mvp-category-card')).to_have_count(8)
