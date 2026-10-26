@@ -82,6 +82,7 @@ with sync_playwright() as p:
   assert [w['id'] for w in stored()['words'][:356]]==ids
   page.locator('.vocab-category-heading[data-category-id="C01"]' if mobile else '.mvp-category-card[data-category-id="C01"]').click()
   page.locator('#word-category-dialog [data-subcategory-id="C01-S01"]' if mobile else '.mvp-subcategory[data-subcategory-id="C01-S01"]').click()
+  if not mobile:page.locator('#practice-group-dialog [data-practice-group="all"]').click()
   page.locator('.translation-blank').first.fill('hello')
   page.locator('.mobile-controls [data-action="translation-submit"]' if mobile else '#translation-submit').click()
   page.wait_for_function('document.querySelector("#question-audio").dataset.sourceText==="hello"&&document.querySelector("#question-audio").currentTime>0')

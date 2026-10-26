@@ -1,4 +1,4 @@
-"""Desktop category pages and existing phone dialogs enter full practice groups."""
+"""Desktop category pages and existing phone dialogs offer practice sections while phone entries stay direct."""
 from playwright.sync_api import sync_playwright
 BASE='http://127.0.0.1:8000/'
 with sync_playwright() as p:
@@ -19,7 +19,9 @@ with sync_playwright() as p:
    assert page.locator('.mvp-subcategory').count()==4
    entry=page.locator('.mvp-subcategory[data-subcategory-id="C01-S01"]')
    assert '/ 22 个词条' in entry.inner_text()
-  entry.click();page.locator('.translation-blank').first.wait_for()
+  entry.click()
+  if not mobile:page.locator('#practice-group-dialog [data-practice-group="all"]').click()
+  page.locator('.translation-blank').first.wait_for()
   heading='.lesson-progress' if mobile else '.mvp-question-heading'
   assert '1 / 22' in page.locator(heading).inner_text()
   assert page.locator('#practice-jump option').count()==22
@@ -29,11 +31,12 @@ with sync_playwright() as p:
   page.locator('.practice-back').click()
   page.wait_for_function('!document.querySelector("#lesson-dialog").open')
   if mobile:
-   assert page.url.endswith('#words') and page.locator('.vocab-category').count()==1
+   assert page.url.endswith('#words') and page.locator('.vocab-category').count()==2
    page.locator('.vocab-subcategories [data-route="words/C01/C01-S01"]').click()
   else:
    assert page.url.endswith('#words/C01') and page.locator('.mvp-subcategory').count()==4
    page.locator('.mvp-subcategory[data-subcategory-id="C01-S01"]').click()
+   page.locator('#practice-group-dialog [data-practice-group="all"]').click()
   page.locator('.translation-blank').first.wait_for()
   assert '1 / 22' in page.locator(heading).inner_text()
   options=page.locator('#practice-jump option').all_text_contents()
@@ -46,12 +49,12 @@ with sync_playwright() as p:
   assert '1 / 22' in page.locator(heading).inner_text()
   assert page.locator('[data-session-setting="showPicture"]').first.is_checked()
   assert page.locator('.translation-picture').count()==1
-  page.locator('.practice-back').click();page.goto(BASE+'#words/C02/C02-S01')
-  if mobile:page.wait_for_url('**/#words');assert page.locator('.vocab-category').count()==1
+  page.locator('.practice-back').click();page.goto(BASE+'#words/C03/C03-S01')
+  if mobile:page.wait_for_url('**/#words');assert page.locator('.vocab-category').count()==2
   else:page.get_by_role('heading',name='这个分类正在准备中').wait_for()
   assert not page.locator('#lesson-dialog').evaluate('d=>d.open')
   page.goto(BASE+'#words/all');page.locator('.word-card').first.wait_for()
-  assert page.locator('.word-card').count()==136
+  assert page.locator('.word-card').count()==356
   assert not errors,errors
   print(f'PASS: {"phone" if mobile else "desktop"} category entry, greeting=22, return destination, picture default, empty category and management',flush=True)
   context.close()

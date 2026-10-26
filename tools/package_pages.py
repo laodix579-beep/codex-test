@@ -23,12 +23,15 @@ for sheet in scenes['sheets']:
 meanings=json.loads((ROOT/'data/meaning-catalog.json').read_text())
 embedded=re.search(r'window.FROG_MEANING_LIBRARY=(.*?);\s*</script>',(ROOT/'index.html').read_text(),re.S)
 assert len(meanings['entries'])==356 and embedded and json.loads(embedded[1])==meanings
+groups=json.loads((ROOT/'data/practice-groups.json').read_text())
+embedded_groups=re.search(r'window.FROG_PRACTICE_GROUPS=(.*?);\s*</script>',(ROOT/'index.html').read_text(),re.S)
+assert embedded_groups and json.loads(embedded_groups[1])==groups
 (ROOT/'小蛙自习室.html').write_bytes((ROOT/'index.html').read_bytes())
 names=['.nojekyll','index.html','小蛙自习室.html','sw.js','scene-files.js','audio-files.js','audio-manifest.json','vocabulary-audio-map.csv','pronunciation-test-words.csv','audio-source-report.csv','CODEX_只接入录音.md','README.md','DEPLOY_WINDOWS.md','AUDIO_CREDITS.md','manifest.webmanifest','supabase-config.js','icon-192.png','icon-512.png','apple-touch-icon.png']
 files=[ROOT/n for n in names]
 for directory in ['assets','audio','data','licenses','reports']:
  files.extend(p for p in (ROOT/directory).rglob('*') if p.is_file())
-files.extend((ROOT/'tests').glob('*.py'));files.extend([Path(__file__).resolve(),ROOT/'tools/build_scene_assets.py',ROOT/'tools/scene-runtime.js',ROOT/'tools/build_meaning_assets.py',ROOT/'tools/build_time_nature_assets.py',ROOT/'tools/generate_time_nature_audio.py',ROOT/'tools/build_audio_assets.py',ROOT/'tools/ga_intonation.py'])
+files.extend((ROOT/'tests').glob('*.py'));files.extend([Path(__file__).resolve(),ROOT/'tools/build_scene_assets.py',ROOT/'tools/scene-runtime.js',ROOT/'tools/build_meaning_assets.py',ROOT/'tools/build_practice_groups.py',ROOT/'tools/build_time_nature_assets.py',ROOT/'tools/generate_time_nature_audio.py',ROOT/'tools/build_audio_assets.py',ROOT/'tools/ga_intonation.py'])
 assert len(files)==len(set(files)) and all(f.is_file() for f in files)
 out.parent.mkdir(parents=True,exist_ok=True)
 with zipfile.ZipFile(out,'w',zipfile.ZIP_DEFLATED,compresslevel=9) as z:

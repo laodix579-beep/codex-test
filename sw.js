@@ -1,8 +1,8 @@
 // Public static resources only; personal study data stays in localStorage.
 importScripts('./audio-files.js','./scene-files.js');
-const CACHE="frog-practice-center-v31";
+const CACHE="frog-practice-groups-v32";
 const ROOT=new URL('./',self.location.href);
-const FILES=['index.html','assets/home-hero.png',...self.FROG_SCENE_FILES,'data/scene-catalog.json','data/meaning-catalog.json','data/catalog-packs.json','data/time-nature/index.json',...['01_时间与钟表.json','02_星期与日期.json','03_月份与四季.json','04_天气与气候.json'].map(name=>'data/time-nature/'+name),'scene-files.js','audio-files.js','audio-manifest.json','data/pronunciation-test-words.json','manifest.webmanifest','icon-192.png','icon-512.png','apple-touch-icon.png',...self.FROG_AUDIO_FILES];
+const FILES=['index.html','assets/home-hero.png',...self.FROG_SCENE_FILES,'data/scene-catalog.json','data/meaning-catalog.json','data/practice-groups.json','data/catalog-packs.json','data/time-nature/index.json',...['01_时间与钟表.json','02_星期与日期.json','03_月份与四季.json','04_天气与气候.json'].map(name=>'data/time-nature/'+name),'scene-files.js','audio-files.js','audio-manifest.json','data/pronunciation-test-words.json','manifest.webmanifest','icon-192.png','icon-512.png','apple-touch-icon.png',...self.FROG_AUDIO_FILES];
 const FILE_URLS=new Map(FILES.map(file=>[new URL(file,ROOT).href,file]));
 self.addEventListener('install',event=>event.waitUntil((async()=>{
   const cache=await caches.open(CACHE);let next=0;

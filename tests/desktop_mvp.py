@@ -45,7 +45,8 @@ with sync_playwright() as p:
  page.locator('.mvp-subcategory').first.wait_for();assert page.locator('.mvp-subcategory').count()==4
  assert [int(s.split('/')[1].split()[0]) for s in page.locator('.mvp-subcategory>small').all_text_contents()]==[22,62,19,33]
  page.screenshot(path='/tmp/mvp-subcategories-final.png')
- page.locator('.mvp-subcategory[data-subcategory-id="C01-S01"]').click();page.locator('.translation-blank').wait_for()
+ page.locator('.mvp-subcategory[data-subcategory-id="C01-S01"]').click()
+ page.locator('#practice-group-dialog [data-practice-group="all"]').click();page.locator('.translation-blank').wait_for()
  assert page.url.endswith('#words/C01')
  assert page.locator('[data-session-completed]').inner_text()=='0 / 22'
  assert page.locator('[data-session-accuracy]').inner_text()=='—'

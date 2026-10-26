@@ -55,6 +55,15 @@ with TemporaryDirectory(prefix='mvp-pages-') as directory:
      assert page.locator('#home-user-menu>summary').is_visible()
     page.goto(base+'#words');page.reload()
     assert page.locator('.vocab-category').count()==(2 if mobile else 8)
+    if not mobile:
+     page.goto(base+'#words/C01');page.locator('.mvp-subcategory[data-subcategory-id="C01-S01"]').click()
+     assert page.locator('#practice-group-dialog .practice-group-all b').inner_text()=='22'
+     assert page.locator('#practice-group-dialog [data-practice-group="politeness"] b').inner_text()=='8'
+     page.locator('#practice-group-dialog [data-practice-group="politeness"]').click()
+     page.locator('.translation-blank').first.wait_for();assert page.locator('#practice-jump option').count()==8
+     assert page.locator('.translation-picture').get_attribute('data-scene-id')=='C01-S01-011'
+     page.locator('.practice-back').click();page.wait_for_function('!document.querySelector("#lesson-dialog").open')
+     assert page.evaluate('async()=>{const r=await fetch("data/practice-groups.json");return (await r.json()).subcategories.length}')==7
     page.goto(base+'#words/C01/C01-S01');page.locator('.translation-blank').wait_for()
     page.wait_for_function('document.querySelector(".translation-picture img")?.naturalWidth>0')
     assert page.locator('.translation-picture').get_attribute('data-scene-id')=='C01-S01-001'
