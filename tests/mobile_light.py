@@ -8,17 +8,19 @@ from playwright.sync_api import sync_playwright
 
 ROOT=Path(__file__).resolve().parents[1]
 BASE='http://127.0.0.1:8000/'
-BASELINE='5066cacf2590455ef5695c80001895aca3354ed5'
+BASELINE='98be4c99abe18db3bfa53da2b4e8bb7c0d98e8b7'
 def before(path):return subprocess.check_output(['git','show',BASELINE+':'+path],cwd=ROOT)
 html=(ROOT/'index.html').read_text();old_html=before('index.html').decode()
-for marker in ['window.FROG_WORD_CATALOG = ','window.LOCAL_AUDIO_BANK=','window.FROG_SCENE_LIBRARY=','window.FROG_MEANING_LIBRARY=','window.FROG_PRACTICE_GROUPS=','window.FROG_CATEGORY_ART=']:
- assert json.JSONDecoder().raw_decode(html.split(marker,1)[1])[0]==json.JSONDecoder().raw_decode(old_html.split(marker,1)[1])[0],marker
-for path in ['data/catalog-packs.json','data/practice-groups.json','data/scene-catalog.json','data/meaning-catalog.json','data/category-art.json','audio-files.js','scene-files.js','category-files.js','audio-manifest.json','reports/all-audio-sha256.json']:
- assert (ROOT/path).read_bytes()==before(path),path
+# The shared mobile template stays intact while a new C07 data pack is added.
+old_catalog=json.JSONDecoder().raw_decode(old_html.split('window.FROG_WORD_CATALOG = ',1)[1])[0]
+catalog=json.JSONDecoder().raw_decode(html.split('window.FROG_WORD_CATALOG = ',1)[1])[0]
+assert [w for w in catalog['words'] if w['categoryId']!='C07']==old_catalog['words']
+assert len(catalog['words'])==1428
+assert (ROOT/'data/category-art.json').read_bytes()==before('data/category-art.json')
 for path,row in json.loads((ROOT/'reports/all-audio-sha256.json').read_text()).items():assert hashlib.sha256((ROOT/path).read_bytes()).hexdigest()==row['sha256']
 assert (ROOT/'小蛙自习室.html').read_bytes()==(ROOT/'index.html').read_bytes()
 assert json.loads((ROOT/'manifest.webmanifest').read_text())['theme_color']=='#f6f7ff'
-print('PASS: all 1210 words, 2616 MP3, DJ, meanings, images, groups and media maps unchanged',flush=True)
+print('PASS: all 1210 earlier words/media retained; additive C07 catalog, light theme and compatibility entry match',flush=True)
 
 with sync_playwright() as p:
  browser=p.chromium.launch(executable_path='/usr/bin/chromium',args=['--no-sandbox'])
@@ -69,7 +71,7 @@ with sync_playwright() as p:
   assert page.locator('.translation-slots').is_visible()
   context.close();print('PASS: light pages, drawer, categories, selection, GA player, touch controls, answers, grading, cursor and keyboard at '+str(width)+'px',flush=True)
  assert not errors,errors
- # Actual v42 mobile storage retains records during the template update.
+ # Actual v43 mobile storage retains records during the additive content update.
  context=browser.new_context(**p.devices['iPhone 13'],service_workers='block')
  context.add_init_script("{const pending=sessionStorage.getItem('mobile-v43-fixture');if(pending){const {k,s}=JSON.parse(pending);localStorage.setItem(k,JSON.stringify(s));sessionStorage.removeItem('mobile-v43-fixture');}}")
  page=context.new_page();page.route(BASE+'?previous-mobile',lambda r:r.fulfill(body=old_html,content_type='text/html; charset=utf-8'),times=1)
@@ -79,7 +81,9 @@ with sync_playwright() as p:
  const ids=s.words.filter(w=>w.subcategoryId==='C06-S01').map(w=>w.id);s.practiceResume={ids,wordId:ids[3],answered:false,finished:false};sessionStorage.setItem('mobile-v43-fixture',JSON.stringify({k,s}));return s;}''')
  page.goto(BASE+'#home');page.locator('.home-hero').wait_for()
  current=page.evaluate('JSON.parse(localStorage.getItem(document.body.dataset.storageKey))')
- for key in ['words','wordStatus','settings','favorites','notes','plan','practiceResume','contentPacks']:assert current[key]==fixture[key],key
+ for key in ['wordStatus','settings','favorites','notes','plan','practiceResume']:assert current[key]==fixture[key],key
+ assert [w for w in current['words'] if w['categoryId']!='C07']==fixture['words']
+ assert current['contentPacks']==fixture['contentPacks']+['travel-social-v1']
  assert current['days']['2020-01-01']==fixture['days']['2020-01-01']
  assert '手机原学习者' in page.locator('#home-user-menu>summary').inner_text()
  page.locator('#home-user-menu>summary').click()

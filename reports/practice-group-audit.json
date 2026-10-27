@@ -3,12 +3,12 @@
     "min": 10,
     "max": 25
   },
-  "totalWords": 1210,
-  "populatedEntrances": 24,
-  "practiceGroups": 76,
-  "chooserEntrances": 22,
+  "totalWords": 1428,
+  "populatedEntrances": 28,
+  "practiceGroups": 88,
+  "chooserEntrances": 26,
   "directEntrances": 2,
-  "emptyEntrances": 8,
+  "emptyEntrances": 4,
   "subcategories": [
     {
       "id": "C01-S01",
@@ -585,30 +585,94 @@
     {
       "id": "C07-S01",
       "name": "交通、方向与位置",
-      "words": 0,
-      "mode": "empty",
-      "groups": []
+      "words": 85,
+      "mode": "chooser",
+      "groups": [
+        {
+          "id": "vehicles",
+          "name": "陆海空交通工具",
+          "words": 24
+        },
+        {
+          "id": "journey-safety",
+          "name": "车站出行与交通安全",
+          "words": 22
+        },
+        {
+          "id": "directions-relations",
+          "name": "方向指引与相对位置",
+          "words": 19
+        },
+        {
+          "id": "spaces-routes",
+          "name": "空间位置与路线",
+          "words": 20
+        }
+      ]
     },
     {
       "id": "C07-S02",
       "name": "城市与公共场所",
-      "words": 0,
-      "mode": "empty",
-      "groups": []
+      "words": 39,
+      "mode": "chooser",
+      "groups": [
+        {
+          "id": "civic-services",
+          "name": "城市空间与公共服务",
+          "words": 20
+        },
+        {
+          "id": "leisure-transport",
+          "name": "购物休闲与交通场所",
+          "words": 19
+        }
+      ]
     },
     {
       "id": "C07-S03",
       "name": "职业与工作",
-      "words": 0,
-      "mode": "empty",
-      "groups": []
+      "words": 45,
+      "mode": "chooser",
+      "groups": [
+        {
+          "id": "public-service-jobs",
+          "name": "教育医疗与公共服务职业",
+          "words": 15
+        },
+        {
+          "id": "practical-jobs",
+          "name": "餐饮运输与建筑技能",
+          "words": 18
+        },
+        {
+          "id": "creative-technical-jobs",
+          "name": "文艺科技与办公室工作",
+          "words": 12
+        }
+      ]
     },
     {
       "id": "C07-S04",
       "name": "购物与金钱",
-      "words": 0,
-      "mode": "empty",
-      "groups": []
+      "words": 49,
+      "mode": "chooser",
+      "groups": [
+        {
+          "id": "goods-clothing",
+          "name": "购物用品与试穿选购",
+          "words": 15
+        },
+        {
+          "id": "money-payment",
+          "name": "货币票据与支付工具",
+          "words": 16
+        },
+        {
+          "id": "transactions-services",
+          "name": "买卖优惠与购物服务",
+          "words": 18
+        }
+      ]
     },
     {
       "id": "C08-S01",

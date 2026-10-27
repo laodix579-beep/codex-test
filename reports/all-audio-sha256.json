@@ -12468,5 +12468,2010 @@
     "sha256": "c1fdbbf9050bf1c33d7505a072f91f73dc38ebbd5ff594ed05ffa14169247736",
     "bytes": 66092,
     "source": "generated-animal-nature-v1"
+  },
+  "audio/en-us/travel/sentence/my-dad-drives-a-car.mp3": {
+    "sha256": "0fc74239631b2602fe992bd2796187cc1fb37b472157b1ed4f5c3f082b67fe6c",
+    "bytes": 44588,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/bus.mp3": {
+    "sha256": "2f7b9ec990e4ab040613ae8e23f9f919a6cbfcc1f212ff95cec5c3391bf3447c",
+    "bytes": 21932,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/i-take-the-bus-to-school.mp3": {
+    "sha256": "0a30344d3677d3fdb11e7cc9f7511cf5aff3022014fd710303256b3fffa6a9b8",
+    "bytes": 45356,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/coach.mp3": {
+    "sha256": "283bd985e92162e73ca1b0157f4533f83a2e20e2b84177138c09378261edb928",
+    "bytes": 21356,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/we-travelled-by-coach.mp3": {
+    "sha256": "4343f675d5513cafb96936697f0abbbf726c4c2cdae6bbb38e893fd94228578d",
+    "bytes": 43052,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/taxi.mp3": {
+    "sha256": "c79467149a349a93cf2a362844336ca8a48ffd3a36750031871e98665a038f31",
+    "bytes": 25100,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/we-called-a-taxi.mp3": {
+    "sha256": "75225b9abb8535ed696afa3f9c98b36fe245ab3804d62c703cd292d56b8ba188",
+    "bytes": 40748,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/train.mp3": {
+    "sha256": "fd97b0739947dc8312b644fe1207b54238a58c18a9f71609dd97c01974066cbf",
+    "bytes": 24236,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-train-arrives-at-nine.mp3": {
+    "sha256": "211035581671b02af2af0d1845f613056a12b460595327f7b8223901ec016427",
+    "bytes": 45356,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/underground.mp3": {
+    "sha256": "074aa677646ee99b115befa68139d9ef2b5a1a4da05dcad15e79380bc99ae360",
+    "bytes": 25676,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-underground-is-very-busy.mp3": {
+    "sha256": "77758db26023d01406df4093ddd759315589bbaaef5b8453ea89e590f7b1a8de",
+    "bytes": 49964,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/tram.mp3": {
+    "sha256": "ad32dcd5cfcc804b7884c045df31635a0f9d24a6e955d2477ec9c5cd5779c5e5",
+    "bytes": 23948,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-tram-stops-near-the-park.mp3": {
+    "sha256": "76f743212216dd500475429657b32b4ded418a981cba4a12752a43c4597dc6a8",
+    "bytes": 46892,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/bicycle.mp3": {
+    "sha256": "307b998075642c6a23f3fb5c6a6f9fd7517993160054fd4774d730b7e86591f7",
+    "bytes": 24812,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/she-rides-her-bicycle-every-day.mp3": {
+    "sha256": "7da4c119128c11264a0fcdbc172b963481594b9ab168479041f954ea4f95a07b",
+    "bytes": 54188,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/bike.mp3": {
+    "sha256": "6ad5e21485e18124c29320c816e17b224488df62ac61ecf4eb56576a27fedb4b",
+    "bytes": 21932,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/my-bike-is-blue.mp3": {
+    "sha256": "534b14c0a5cacf2eecd12b772a440a7f481a792d44210a2562baabfbe4280763",
+    "bytes": 39980,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/motorbike.mp3": {
+    "sha256": "221025469fc9b3289625940d742dcd4a39cc5dd8f5fe486525906f3cf4cbfaf9",
+    "bytes": 25100,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/he-wears-a-helmet-on-his-motorbike.mp3": {
+    "sha256": "ced3679a9222d97874a742339805c4221623c8fb7dad9395d97308a814b56575",
+    "bytes": 53420,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/scooter.mp3": {
+    "sha256": "dd64971862ce70ad81f9e54a2c507e2a3a3f91566c62364fa00262d2f7fdcc43",
+    "bytes": 23084,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-child-rides-a-scooter.mp3": {
+    "sha256": "ea002bbb01dcad0c6f1d9190a335475af93a969c0b26a9b5b4ec3abb5117dcea",
+    "bytes": 44588,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/lorry.mp3": {
+    "sha256": "5bbb299c1d7dfcb99c3c59ed716f77e8f6df68a5520cc6a8a7a0755e132772d6",
+    "bytes": 23372,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-lorry-carries-boxes.mp3": {
+    "sha256": "3d388a96cbc3ac5ede87091defaa7f1356800538800c25ab1afed96dd7e5dfb0",
+    "bytes": 47276,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/van.mp3": {
+    "sha256": "33754b2179aa08dc93d8a63701ac252f2c0f7ef7559852f742173bc409bd429a",
+    "bytes": 22508,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/a-white-van-is-outside.mp3": {
+    "sha256": "86d1e4e74b700e8a14ce3f7e493f98c737f37fc2946dd165b74884daa45c211d",
+    "bytes": 46124,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/ambulance.mp3": {
+    "sha256": "53d6b98a98b936064d0a983a5a1e3e6d115c53f1bf5fc3903a5b24717bd91970",
+    "bytes": 25964,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-ambulance-is-on-its-way.mp3": {
+    "sha256": "ff58e8f92bbb21a9b76a5728f78856ee738141b96187362cdfe40244a3177c66",
+    "bytes": 49580,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/fire-engine.mp3": {
+    "sha256": "89a0f7a7231841a47329ea27ca2270449c815279c52fb6a22407ef47fe1d3209",
+    "bytes": 36908,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-fire-engine-has-a-loud-siren.mp3": {
+    "sha256": "b11faf3661e162e5443f5a1cadb1298e98dba6ea2f5d31f81403615b0e88b001",
+    "bytes": 55724,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/police-car.mp3": {
+    "sha256": "5b1afaaaeae293428701549157ce7149e8415a2468ec41069d45b07a3b4149f4",
+    "bytes": 34988,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-police-car-stopped-nearby.mp3": {
+    "sha256": "636e6e79d036b188b55270d6a1d683d2fca801796cbda718874b8ae4af8303d2",
+    "bytes": 50348,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/aeroplane.mp3": {
+    "sha256": "9e28ade4b043d8e5e080b3975bff9f4cad218676f9b84e92943d68cafffb991c",
+    "bytes": 25388,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-aeroplane-flies-above-the-clouds.mp3": {
+    "sha256": "d014b66a413118cf25ca50540e51bba7276d11cc52d91ea05ea30a5cba1e52e4",
+    "bytes": 55724,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/helicopter.mp3": {
+    "sha256": "4bc180c35ed30ab51f6fedc0b3687b4ce37b164035cff3f7c91342c8c1d4e536",
+    "bytes": 26252,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/a-helicopter-landed-in-the-field.mp3": {
+    "sha256": "35b3a0bb5d274529674fc7002cc54e7289dbb830465583eeda76221d2f125221",
+    "bytes": 54956,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/boat.mp3": {
+    "sha256": "ccba00ef3238c4ca7d4769356a2eb46f0071c03527cca13e7e2b4a26e524bb2a",
+    "bytes": 21644,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-boat-is-on-the-lake.mp3": {
+    "sha256": "58678cb764e004d255876a021d2f1489a4f31a83ae800187a5403fef76513521",
+    "bytes": 40748,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/ship.mp3": {
+    "sha256": "69203ebb2225baa2617eb09aef6fd9843572cde16f5cb81e98f345ee59aaebec",
+    "bytes": 20780,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-ship-crosses-the-sea.mp3": {
+    "sha256": "f6a508deff66ff8f418b53aebef2488da311e50a0a3f53ff5bc599936c8753ce",
+    "bytes": 44972,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/ferry.mp3": {
+    "sha256": "93bc1c51e2776f7156b288a198765b976dc818f9f394e6f13d6e1ef0911338c8",
+    "bytes": 23660,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/we-took-a-ferry-to-the-island.mp3": {
+    "sha256": "4c32d2e362ccbaca9883b39ffb2a3ba33effefd95f55dd5a04721e94dac6440f",
+    "bytes": 46892,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/submarine.mp3": {
+    "sha256": "3b93e4fb49db0c089a0afe1aad2acf1ed76ef61b83f46ea867204378b7306f52",
+    "bytes": 25100,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/a-submarine-travels-underwater.mp3": {
+    "sha256": "abb560ad499dd9f9e86e2f86efee89a383fad6abb4daa543ebe6d088b0e7fcfd",
+    "bytes": 53420,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/rocket.mp3": {
+    "sha256": "bdbf3f38cb6d58b19e0f95df59aea305d4b64145cc6758718118a1a3e40ba039",
+    "bytes": 24236,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-rocket-goes-into-space.mp3": {
+    "sha256": "a735a4704634c49250243c0a480c48315c75390396ffa33688a882d08dca980b",
+    "bytes": 46892,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/spaceship.mp3": {
+    "sha256": "ee424db919d70b08e8bb4b9a33019749f8a3e8bf3aec9a322fa78a2319366fa4",
+    "bytes": 25100,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-spaceship-travels-through-space.mp3": {
+    "sha256": "1a5c85491a88684bb7cfae65a2b313d8e179782fb646b53ba5ce298327c23d9d",
+    "bytes": 52268,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/we-will-meet-at-the-station.mp3": {
+    "sha256": "79df3f783ea9de957ec89d40a299932d29671b56368a87ff1ab69fee9c4d7557",
+    "bytes": 42284,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/bus-stop.mp3": {
+    "sha256": "7c93ab4c731df05d016b3906631552faa9ed90740f9f162a48de00f156d8cd42",
+    "bytes": 33068,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/wait-for-me-at-the-bus-stop.mp3": {
+    "sha256": "1961d6ecb592d47a6196586731f67bedcecf93603b48c5635893737a369abdb5",
+    "bytes": 44972,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/railway-station.mp3": {
+    "sha256": "0369ece2d8407929e1a97c643655a040a03cb69cf291d63c7f5bf0ebe229e508",
+    "bytes": 39596,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-railway-station-is-very-old.mp3": {
+    "sha256": "036e5202eb5dc65ff49fc71f8b51f3f8a33622589dfc8171a8528abb49794803",
+    "bytes": 53804,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/airport.mp3": {
+    "sha256": "a0f5845d947e85759a14e4bd84d5648b3c05794b08a0ea720ba217b8a652bbf6",
+    "bytes": 18476,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/we-arrived-at-the-airport-early.mp3": {
+    "sha256": "fbfeb9cbd8f59ea8411e88fc8bb94d11f2f5f5e6b3b9be54572e79dc688ebbac",
+    "bytes": 51884,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/ticket.mp3": {
+    "sha256": "a37ca10fca23a48e503dae29efb2dc93129ed291d52330dab91187bb1210d2b2",
+    "bytes": 23372,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/keep-your-ticket-safe.mp3": {
+    "sha256": "5b84dd5ab8bc10b259d7700c5467ee79da2ebcb9e7690be9c83f5849b89b3882",
+    "bytes": 40748,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/ticket-office.mp3": {
+    "sha256": "a5648fdd5f6b2e4983c0d71a552ec433a3c4064915bcc338988bcd77f572395a",
+    "bytes": 36524,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/buy-a-ticket-at-the-ticket-office.mp3": {
+    "sha256": "790e69d74e0c61697be3949edd172a65590c7a79b61e51b5a08cf3ac246c3489",
+    "bytes": 50348,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-train-is-at-platform-two.mp3": {
+    "sha256": "a199fd23d5e8fd62e07bcffd4b6c8b895c4215705408f4894482c52ff0cf9252",
+    "bytes": 46892,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/passenger.mp3": {
+    "sha256": "cc9afde75be0df394a6686c33feb58c4cbc2615293515a409deb9acb532988a6",
+    "bytes": 25100,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/every-passenger-needs-a-ticket.mp3": {
+    "sha256": "db2a27d08e27261828ade6dbd677e8bd23ebcc3ff42de96b0ab827a916cbab71",
+    "bytes": 51500,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/driver.mp3": {
+    "sha256": "9adca70c7fb03e9297ac2b195fe6d789d190145fbbdacd2cf4289fe17cdb3976",
+    "bytes": 23372,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-driver-stopped-the-bus.mp3": {
+    "sha256": "fecb9712b9b29c322767fdae3f010703d80ac3144e89619eae1a85a4c8fb313c",
+    "bytes": 44204,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/pilot.mp3": {
+    "sha256": "321196ee14878b1e55af0dc0cc7dd19e76c01b0071c272a2ace1d3cf7a4812d3",
+    "bytes": 22796,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-pilot-flies-the-plane.mp3": {
+    "sha256": "950031363a861d31a7645e7f3db9cfc36584cc484a8c83b033d03015f30bcd48",
+    "bytes": 46124,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/sailor.mp3": {
+    "sha256": "82605b00d99ab9f7c60281bc2c6a905a4c2d257bcf34d87d2d6319ceec2b79f1",
+    "bytes": 23948,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-sailor-works-on-a-ship.mp3": {
+    "sha256": "774a9a22e93555ff6c713ec5e108b794b7dd982be52b5aa051d4c5d984a00bf3",
+    "bytes": 44972,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/traffic.mp3": {
+    "sha256": "542d3a92f6fb33b90aa99159b061a45c2a2a93e38894e868f20a589cfbdd550e",
+    "bytes": 24236,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/there-is-a-lot-of-traffic-today.mp3": {
+    "sha256": "fbbcef67507a4ed8d860dec80e2e95c65bb30c93e20e7f14981589c8f07983c5",
+    "bytes": 46124,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/traffic-lights.mp3": {
+    "sha256": "1d688a24e517ce5ca04bcb4853a6d15af0174cc9a365f90df437432c4a97c354",
+    "bytes": 36524,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/stop-when-the-traffic-lights-are-red.mp3": {
+    "sha256": "35500c519dd1da10b18da9aa2428a534b3a88cead667cdda579b7d42391d1e86",
+    "bytes": 53036,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/road.mp3": {
+    "sha256": "88f41dfb9598d95933c86ce7301551afbdf80d788e9a4bdaaee9432c79dcdae3",
+    "bytes": 22796,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/be-careful-when-you-cross-the-road.mp3": {
+    "sha256": "bd3929b5ca27f5d0affd0132e9cab54c3929be81f6b1cd9ae93ef4e10d783bad",
+    "bytes": 50348,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/street.mp3": {
+    "sha256": "37f0273cb98c1ff1f3162594344b34e4102912fa5e1af5487f36a50b2a4ef238",
+    "bytes": 23084,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/our-school-is-on-this-street.mp3": {
+    "sha256": "86e900ceaa89b315ddee12aa6cbf15f254300f5beca7aea2dbf37f1bfd26153d",
+    "bytes": 43436,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/bridge.mp3": {
+    "sha256": "cdcf297ee6ec2918d3fabaa51859f1ffcc47dc833e64e16de8c33d26e0ffcb7f",
+    "bytes": 23372,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-bus-goes-over-the-bridge.mp3": {
+    "sha256": "7347ccdca692719c41e765cfda4dc47e97edd356b0082d96e31a5b9f2cb1f2ba",
+    "bytes": 47276,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/tunnel.mp3": {
+    "sha256": "672079e3704130f896cea5e53e4a9062332770d8a0a1372072ed606606817177",
+    "bytes": 23084,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-train-went-through-a-tunnel.mp3": {
+    "sha256": "a08a01cdac891839a059e1d13dbd8b5b4b0bd506e72cf29a2da358fc7c8c2c59",
+    "bytes": 44972,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/crossing.mp3": {
+    "sha256": "061a5b3a13fbfdee1b51e069cce0fbd2900806b0f0b61f370422acfc39e05bf7",
+    "bytes": 24812,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/use-the-crossing-to-cross-the-road.mp3": {
+    "sha256": "8f8a9e70a181f5e5ddc99aafb5ad8a03aeea1c6c5dc903a5b5cb28db8e560a2b",
+    "bytes": 52268,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/zebra-crossing.mp3": {
+    "sha256": "c5714d0f0cc44e5fd5ee9d862cb932ed98a7546bd79c2dc79f05fe8752d63e48",
+    "bytes": 39596,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/wait-at-the-zebra-crossing.mp3": {
+    "sha256": "4ba314219876eb84d99ebbb07c3c362928d8ea0d1d65cb7d134e7b0d9fb20232",
+    "bytes": 46124,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/helmet.mp3": {
+    "sha256": "af2ed328b3a8e290e507930c2204c8dde85f0a990abf64a0319e3876bc9f82d2",
+    "bytes": 23084,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/wear-a-helmet-when-you-ride-a-bike.mp3": {
+    "sha256": "f806acee5a9c9744b3c4f0c7475442543af8ddaa371eaed1e61c7ccd9425bcbb",
+    "bytes": 53036,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/seat-belt.mp3": {
+    "sha256": "5a6e1296a0096b18cd888b243331bd994cdabef78e13bd5febcd4243c8e3fab4",
+    "bytes": 33452,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/please-fasten-your-seat-belt.mp3": {
+    "sha256": "7ab3fb21ef7791fb1ff7a81afb6797a95eada2af6037e63130ba2958ad2278f7",
+    "bytes": 46892,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/traffic-jam.mp3": {
+    "sha256": "6711f8e0b058d279f1bf8b0ae9fa7ee9f5f351c7223c19256d0f23a43928b584",
+    "bytes": 36524,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/we-were-late-because-of-a-traffic-jam.mp3": {
+    "sha256": "811a426e8cf4f0855d4f0f3fde7f3d82edd9c127e72fae337c480e50010be393",
+    "bytes": 56108,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/direction.mp3": {
+    "sha256": "e13e7ed620b2e8c571505f7e7793c229801330b0096b7db3b0bd68a3f6971862",
+    "bytes": 24812,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/can-you-tell-me-the-direction.mp3": {
+    "sha256": "48ea762b7f58d4a5acf33af39cfa8f20d80a7408b307d21385297e81f261605d",
+    "bytes": 45356,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/left.mp3": {
+    "sha256": "73cfeef249a1ffd63fa19f3aecbc5b937a2921fdcbb9f045ac65208cc43dbb81",
+    "bytes": 22508,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/turn-left-at-the-next-street.mp3": {
+    "sha256": "70d37f498a745d6b564088284ccf055156e4861c3a0ae74a2504040829efa1f5",
+    "bytes": 46124,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/right.mp3": {
+    "sha256": "c6209fdb94e593820416341b32baa9aa13e6740086452380c739e8971cc2a3b8",
+    "bytes": 21644,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-library-is-on-the-right.mp3": {
+    "sha256": "67a6a227f0f7c5365acdd1a3bfdc692f0a63b16f8f0e692dea1bb6425cb75875",
+    "bytes": 44588,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/go-straight-for-two-minutes.mp3": {
+    "sha256": "e7021eba80342f7ef46b95d3fa027c7376af3ec08cdb77f78abfcace021fb500",
+    "bytes": 43436,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/turn-left.mp3": {
+    "sha256": "246b1b888affcd9089194678a5852ac64f335215d09812e85bbc1863d4d5a1de",
+    "bytes": 34220,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/turn-left-after-the-bridge.mp3": {
+    "sha256": "1fa67062009927698cfcb429ee3d70c072e04b9d2c86ec3d4604db622b5e6e86",
+    "bytes": 46124,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/turn-right.mp3": {
+    "sha256": "f62d59955904a02aaf9db6c744f5c13a95e88e163a3cb9b72acc8845e0edc5eb",
+    "bytes": 33452,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/turn-right-at-the-traffic-lights.mp3": {
+    "sha256": "3b5a9e8c26a61f5de2243966d260a406025de241e4ff2148256abe872ad4137d",
+    "bytes": 47660,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/go-straight.mp3": {
+    "sha256": "bc81e048bac5455c0d2406931435f2c2326efecfb1bcf3abac36146873300546",
+    "bytes": 33836,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/go-straight-and-you-will-see-the-school.mp3": {
+    "sha256": "c1230b0df1e28dfc7c4f0a07e8739d0c5a3f2cab6d5b4ae3b698a49116762f9a",
+    "bytes": 54188,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/north.mp3": {
+    "sha256": "4d62d18e5aeab7064ce7b754a6f6efb73b68a7d87d088a8cfca4790b5c94e569",
+    "bytes": 22220,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-sea-is-to-the-north.mp3": {
+    "sha256": "4dc3f837f8c148cc4ab56abce3ac8b450f0af673d13df05a596f26eacf3435a8",
+    "bytes": 41516,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/south.mp3": {
+    "sha256": "4c43f1cd61496d33770637c11edeb533fb6ebe5e086027318748a181063ab407",
+    "bytes": 22508,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-town-is-south-of-the-river.mp3": {
+    "sha256": "f5477bcab1f1702e6a11ca6102fce60b538f344b6f16bbf4dd20e0b63510fb11",
+    "bytes": 49580,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/east.mp3": {
+    "sha256": "1f35abeb0b5fda03f683cc1b835cd1e6f0f162f19a3ab1188e535b202efe6cef",
+    "bytes": 22220,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-sun-rises-in-the-east.mp3": {
+    "sha256": "42288cd02b58ce89ad9e01081f5a9fb95b82f009f15f77184af493fd1736acc6",
+    "bytes": 46508,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/west.mp3": {
+    "sha256": "ba843aa9f079bd1d85101961936c3a4909da939577bcfa0f5601bd439d114815",
+    "bytes": 21932,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-sun-sets-in-the-west.mp3": {
+    "sha256": "df7b34df38f0e427b0692b4154ac672d12125d7d57288494923b3fb92377e9c4",
+    "bytes": 45356,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-bus-stop-is-near-my-house.mp3": {
+    "sha256": "a59f108312f5e7d4c4f892f10ab369e8d3c44a264e7ffa6b2345558d3aa4d134",
+    "bytes": 48428,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/far.mp3": {
+    "sha256": "d3aef5a22d49bfb7215b5a3c255e129375e4d8e1c8391ac57667556b60bda86e",
+    "bytes": 22508,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-station-is-not-far-away.mp3": {
+    "sha256": "d4522df7da78b70103afc6bb7933e457fce290da82e3a9043c8e2f7cc485c0c3",
+    "bytes": 49580,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/next-to.mp3": {
+    "sha256": "78a942e3e5e179ba9bc8b4dd29c3b2af5ce62cb7fbac831d5183af8d7806a54d",
+    "bytes": 34988,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-bank-is-next-to-the-caf.mp3": {
+    "sha256": "f1645691255547dce21771ab32149e8e419f693404f5a5b0eedf591adb0d2837",
+    "bytes": 48812,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/beside.mp3": {
+    "sha256": "bc8a0953d8326a5b9e3b677d3a3f00ac2c4a446b0db3b0736518d6be3dc44c4d",
+    "bytes": 24236,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/sit-beside-your-sister.mp3": {
+    "sha256": "8c6d1cb9e8996b85a89e0f9eb8acabbc9cb543315b17c445283816a3574cca92",
+    "bytes": 43820,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/between.mp3": {
+    "sha256": "44bbaea37e5ca108e0f8a09d546f04d80581a9bd564b74553dc60ebde930863c",
+    "bytes": 25100,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-shop-is-between-the-bank-and-the-caf.mp3": {
+    "sha256": "a539da599cfa93457933d6eaa567430f56f5b765035644ffd2b3e0f554468954",
+    "bytes": 57644,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/opposite.mp3": {
+    "sha256": "d2d9044e18867f758a44813aaa7270e66b116f028e0591d15b0f259fa131f5d7",
+    "bytes": 24524,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-school-is-opposite-the-park.mp3": {
+    "sha256": "a34921bc9567f7c606c8faebb672a031acaab94fd35afb07cdd634a671387969",
+    "bytes": 49580,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/in-front-of.mp3": {
+    "sha256": "8428d4b314dfbae89323a905c913e11bf54f4210064140132e2e95f057ef176a",
+    "bytes": 32684,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-bus-is-in-front-of-the-station.mp3": {
+    "sha256": "37d71706bf2b67ee7e954a8d8eb7307328e7dab5713cefa4aafd2432df49d5f5",
+    "bytes": 54572,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/behind.mp3": {
+    "sha256": "c2c30e018557df3877e6bafe700bf10135420f799e94cbb5ca672de4c5771b20",
+    "bytes": 24812,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-garden-is-behind-the-house.mp3": {
+    "sha256": "85f0a796cfdcd067f749afc4ad02dc28fea22ba1ab57ec8391e5d33835dd8ab6",
+    "bytes": 49580,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/above.mp3": {
+    "sha256": "fb9097c330780720b86f1fc4fa65c6f27eacfaf00966e398a8b90fce09dc0f96",
+    "bytes": 23084,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/below.mp3": {
+    "sha256": "c42936e741955a42b242ab08755f41efb6f23c519dd6c1db7c68f9de99210670",
+    "bytes": 24236,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-picture-is-below-the-shelf.mp3": {
+    "sha256": "b8f2106c37c72a72ec4aa45e5312422b0035383aa98373ff9ef9f35c89637a75",
+    "bytes": 48428,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/under.mp3": {
+    "sha256": "66257c3d5d2bc13336b74b4a2d0195ba6581f82d5e457da02e940ce376adf6ca",
+    "bytes": 23084,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-cat-is-under-the-table.mp3": {
+    "sha256": "42351c27ea202a200fae71565b0b8cf58e89895b593d8896fc8831fc4c0387ec",
+    "bytes": 46124,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/over.mp3": {
+    "sha256": "cfa4babdf7ee3971313e718745701576e996ef2eee1498b8d549109144c27ad0",
+    "bytes": 22796,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-plane-flew-over-the-city.mp3": {
+    "sha256": "c1c508a6099581d2adf9abb78988c8d60b23ab0ed7b86c1dff8ace533bd3cb53",
+    "bytes": 47660,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/inside.mp3": {
+    "sha256": "2d418eae16eb29f7a341104b10fb9cf031fcf9af7dfd22900397cf69cac8684c",
+    "bytes": 25100,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/please-wait-inside-the-building.mp3": {
+    "sha256": "eed8a78949954ca68321c5d162fc3844ec679a847027252ad5e74f4b36344e6d",
+    "bytes": 50348,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/outside.mp3": {
+    "sha256": "a2e973a77c4e9c8dfa65ad08a7c40013792aeccbe7df2f9a22f28d2341371506",
+    "bytes": 24812,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-children-are-playing-outside.mp3": {
+    "sha256": "62b399da612dbed316e17d382d810ba1eb8d5829c3a6f88554b49966cdde2a76",
+    "bytes": 48428,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/on-the-left.mp3": {
+    "sha256": "04703a5f04ebbbd4cfdf17619153593d8444a5085df8a7c3b11e03f81db11ed8",
+    "bytes": 34220,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-shop-is-on-the-left.mp3": {
+    "sha256": "3358dc6f7131c65f5a01ad7bbeda279deeecf8a3e633613f336524afd6ea93c4",
+    "bytes": 41132,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/on-the-right.mp3": {
+    "sha256": "696f3cc7ecf5e725b2bd0a89ea64af7c8892ea872770e1efcb72cf788b34ab5f",
+    "bytes": 33836,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-door-is-on-the-right.mp3": {
+    "sha256": "0304e39de85c4ecb3f3f4624b317b848e1afc9f2edaec09481e7a1f5924ea075",
+    "bytes": 39980,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/across-from.mp3": {
+    "sha256": "cccfd41365de51ca2a6db06a756f3d3444c408564b099e10bb2c8b34913020ad",
+    "bytes": 36524,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-caf-is-across-from-the-library.mp3": {
+    "sha256": "ba7bfffeaa5d47f880bfbfa1d52295d8665907ee229c3017435a2d221d681f20",
+    "bytes": 59948,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/around-the-corner.mp3": {
+    "sha256": "8ea60bb50ea9dec6162629360ec92aee3d5d0a16fed5ff4e58709a329612d7c8",
+    "bytes": 38060,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-pharmacy-is-around-the-corner.mp3": {
+    "sha256": "870fde5c5d053d3b1ab5732900b8c88473e76f9d1a201bd02c578154de8862b8",
+    "bytes": 54956,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/at-the-end-of.mp3": {
+    "sha256": "a826cd25a2f48fe9bf7579c877244b45584125fad0d754cd5ecbce3f81358576",
+    "bytes": 34220,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-park-is-at-the-end-of-this-road.mp3": {
+    "sha256": "96f6c81caee2ca54eafd288bd569d5bb1a5760ff8822f902ca02a31ee6d5fdfb",
+    "bytes": 52268,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/through.mp3": {
+    "sha256": "0124284ee6d3fcabb8ee9a26725647449399f8f387759f2948c89c16798cc3a2",
+    "bytes": 23372,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/walk-through-the-park.mp3": {
+    "sha256": "7989b7108c049d50134fd46b045d7cea4bcb621a1c7fec23164297f76589827e",
+    "bytes": 39212,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/along.mp3": {
+    "sha256": "ec4e31cfd53eb3f0065f33e1887df17b3c1b3e2e7d709943acb4fd58f8abc7d1",
+    "bytes": 23948,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/walk-along-this-street.mp3": {
+    "sha256": "1dcba63f5633de76d34f22d13c1c1007ba56e021e64f58e9e8e48418acb200d3",
+    "bytes": 42284,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/go-past-the-bank-and-turn-left.mp3": {
+    "sha256": "fb01340c51d50beee15295bfe6cb9032b80f47dca13ec98e33d00b99d6655e45",
+    "bytes": 51500,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-entrance-is-on-the-right.mp3": {
+    "sha256": "ed26e1663d0156f31b3ccf9fb597ba182d446eff1e83a7d2105f9731f9625475",
+    "bytes": 45356,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/please-use-the-main-exit.mp3": {
+    "sha256": "9154341f4aa7b296d7aac7c78ffc448faee4870872d5e3da5755df1b1b2b56a6",
+    "bytes": 46124,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/upstairs.mp3": {
+    "sha256": "42a37f1407316e41ae143b9d78528aa4b7ed76ede07db4dfe3dd14375da32c6b",
+    "bytes": 26252,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-classroom-is-upstairs.mp3": {
+    "sha256": "5157020c17e96ba137a3392923d8079c4ab4d38cbb06b2c0ff945bcaeaa311a9",
+    "bytes": 46124,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/downstairs.mp3": {
+    "sha256": "6d5a894f14a1a0fa76349855557f5dec5fd38fadb15d76bcbf491239b9960734",
+    "bytes": 26252,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-kitchen-is-downstairs.mp3": {
+    "sha256": "599fb5af3b314a12f1057d7c980f217911df4afa1a4703a40e7b761756b7f89c",
+    "bytes": 46892,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/address.mp3": {
+    "sha256": "44c4ed253adc092e31d2b8c100c3be92ee236798559d9608ea90cc21a7932028",
+    "bytes": 24524,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/please-write-your-address-here.mp3": {
+    "sha256": "1d5d24efa457bbcb1dfeb45e080267ed733906c403c799dac857566209636d02",
+    "bytes": 44588,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/map.mp3": {
+    "sha256": "7975faff53aeee116532fc9557776a07d88f3f9e3f0d5494e9a5c83231afeda8",
+    "bytes": 21644,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/let-s-look-at-the-map.mp3": {
+    "sha256": "eede3bfad5b741b63b500006abd7b5f6026527bb80b9820d56742305ea1ad30f",
+    "bytes": 39980,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/city.mp3": {
+    "sha256": "a6bdf77036b62e11fae97b5e47dd9f13086147ff6247f17fd68b19a26f8873c6",
+    "bytes": 23372,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/this-city-is-very-busy.mp3": {
+    "sha256": "4a736cea6fd3a43896b7362346267628f62ccd21ddad472f3408e88b5d9190f1",
+    "bytes": 44972,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/town.mp3": {
+    "sha256": "14d06968afac8d4f5185c1cd7789df49621e3bc9416da159aa69c32f05298081",
+    "bytes": 23660,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/my-grandparents-live-in-a-small-town.mp3": {
+    "sha256": "8b9df6246fc846c63629fa92ac2766f64dcbd36549392a02a3517f76fa88367a",
+    "bytes": 59948,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/village.mp3": {
+    "sha256": "762c979db81513817b14eafd79fb073a737e2dc7780cba9fe69923d27bbaa91c",
+    "bytes": 24236,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-village-is-near-a-river.mp3": {
+    "sha256": "256ad3b9b8e969fb6fbd709983601f2e292c40c8e1979f2d97b00b004efc112b",
+    "bytes": 47660,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/capital.mp3": {
+    "sha256": "4873921317039c53a59a33014e58a647ece6b58a98065b9cc8a3f9562b321299",
+    "bytes": 24524,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/london-is-the-capital-of-the-uk.mp3": {
+    "sha256": "19386561c1351dca861b1f0e6e3e8604949ecf63a7f0fa755293096772455344",
+    "bytes": 59948,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/city-centre.mp3": {
+    "sha256": "77636fa5fa4242dc1f15009fdf0ce2e6585aa7d9e45ca5683ec84cf48572defb",
+    "bytes": 35756,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-shop-is-in-the-city-centre.mp3": {
+    "sha256": "5646bc783e3a1b0e9dea1d85b5fa1707dc56e360fb2155b18aff7a64e7b16afb",
+    "bytes": 49580,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/people-are-walking-across-the-square.mp3": {
+    "sha256": "e9e73694b7c08cf0d702a1d13d14ecddd160a73b2063f3769f292ed893dd7ecf",
+    "bytes": 50348,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/park.mp3": {
+    "sha256": "68b3e82081852ffa4331304a11b65686a4a74076f4a6814f4007edaccd8a23da",
+    "bytes": 21644,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/we-play-football-in-the-park.mp3": {
+    "sha256": "0dba68cfafb53d8716a6b06c27c093bf6665510c359e7dd21bcd15e00986a8e8",
+    "bytes": 44588,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-children-are-in-the-playground.mp3": {
+    "sha256": "0e3527469d7a98a4c8a40e7edcde72e0408022a9f1e69eff8be0462056930fd5",
+    "bytes": 51884,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-school-is-next-to-the-park.mp3": {
+    "sha256": "2f57d17aaf3a5ec76a151351b24cffff42c3302f5c7b7b9c75764bafc00dbe49",
+    "bytes": 46508,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/university.mp3": {
+    "sha256": "bb240997ba99de077ec5f33e1276b7de1f703d01cb9f6d8b97410486a9d1f14d",
+    "bytes": 27692,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/her-brother-studies-at-university.mp3": {
+    "sha256": "2c94fa317f12e32605fe3506c6291a0d87fc38df164b84441ef227dcc91544e5",
+    "bytes": 54572,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-hospital-is-open-all-day.mp3": {
+    "sha256": "558ca7a4511b5c88a1883358655d5b93a194f5fe7eaf2bc169dc4c4a6f333e9d",
+    "bytes": 52652,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-doctor-works-at-a-local-clinic.mp3": {
+    "sha256": "bda97c3720c5b65b2fa8bd5ff1cc2513029876523c13251794d2c1469c5642b3",
+    "bytes": 53036,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/police-station.mp3": {
+    "sha256": "034a77d64ee5fa4934e42da39a9a5ae43e82207725fb32b9a620121f765e5e56",
+    "bytes": 36908,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-police-station-is-near-the-bank.mp3": {
+    "sha256": "c2602aad908211b14ed4ebcb7675f9d882b83e2e6da9a671c417e2d74ebed438",
+    "bytes": 54956,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/fire-station.mp3": {
+    "sha256": "5600a801af7c897d08021496b4604f1f529fd232f8dee69f05e5089dc5ce2ac9",
+    "bytes": 38060,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-fire-station-has-several-fire-engines.mp3": {
+    "sha256": "08774346891f2a51fed79f109a08efc9d7a67ee36ef1f3d367e202c001e6f6f8",
+    "bytes": 66092,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/post-office.mp3": {
+    "sha256": "b2a243468911a3fee075156ce3ff9e6d019eeb5d7d24510a7b63b8c8007f21ae",
+    "bytes": 36524,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/i-sent-a-letter-at-the-post-office.mp3": {
+    "sha256": "2519261e12d3551e01fe6bfd4f05428f8b20ea2db6fa7f5963e489333189798c",
+    "bytes": 54572,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/bank.mp3": {
+    "sha256": "d9953f3b75d853eeedc4a2feb92f108c63ab4617bff4d351b9ca138aaed14d41",
+    "bytes": 21644,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/my-mum-went-to-the-bank.mp3": {
+    "sha256": "c00b3b617f4e2662506f40ef1e969594a9990894348ee20d3376c02ab756f41a",
+    "bytes": 43436,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/supermarket.mp3": {
+    "sha256": "1310fe457b7cf2e946036f00c5fad66de0a749f92ca060b17407d189eb365bf1",
+    "bytes": 26828,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/we-buy-food-at-the-supermarket.mp3": {
+    "sha256": "766ae8f2f265a9fa4fb8c2ee624d070e7ca634ebddac7da29d654033a80f7b8c",
+    "bytes": 51116,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/market.mp3": {
+    "sha256": "5131d22d488db301d89bbe3c034f5e40946688232373c0ae0bd5f9012af9deab",
+    "bytes": 23948,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/fresh-fruit-is-sold-at-the-market.mp3": {
+    "sha256": "2b19ba5d77642f1399edba229484d421f2227c080cecdf94670fa6bf8c32c5fe",
+    "bytes": 51884,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/restaurant.mp3": {
+    "sha256": "efb06012dd15d3814d16590de7f8821f13d3d1ff4e71c7faaae4f968bc4ecfee",
+    "bytes": 25100,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-restaurant-serves-lunch.mp3": {
+    "sha256": "2c30757de8147d3173cfc0f8c83c2bf2f7caeb308881d82626402e3a0eda0c66",
+    "bytes": 46508,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/caf.mp3": {
+    "sha256": "a58b8e185e49e84a68ad29f54c1a89070ec8667e79e92645062ea446f0a0eba4",
+    "bytes": 24524,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/we-had-a-snack-at-the-caf.mp3": {
+    "sha256": "4c994daf71d48823895e4e44569136b058e324550ccda63cfe1da09229a3a35b",
+    "bytes": 46892,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/hotel.mp3": {
+    "sha256": "7804666ea682cab0f637d0a1f26f388045b55a1d9be1e7bf2f6a65c1850833a0",
+    "bytes": 22220,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/we-stayed-at-a-small-hotel.mp3": {
+    "sha256": "db06d9fde08e39f98b8e2cd65c163b2cf8857ace8911e4706b191153250a71b1",
+    "bytes": 48044,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/cinema.mp3": {
+    "sha256": "8379b87013fa28fc0672e9b7fadffd9818c3f331e900ccd9cf33aadd1afc1f73",
+    "bytes": 23948,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-film-starts-at-the-cinema-at-six.mp3": {
+    "sha256": "7a804d8a5e9d54a6ab8a148c8a2eaf107793b707ede7013cec1317d9a203158f",
+    "bytes": 54956,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/theatre.mp3": {
+    "sha256": "edf995a4c621b88f345f0fa8a60e4017534ae762b535357afd9cc035e0c868c8",
+    "bytes": 23660,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/we-watched-a-play-at-the-theatre.mp3": {
+    "sha256": "27bd2a36ac04fedbac2356c24ac4199f15be800b2e214477e2c5b481c9a42083",
+    "bytes": 48428,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/museum.mp3": {
+    "sha256": "10f24012308f0a3ceac1033e52a49c42a689c6db76703c04aa1afd04b075759f",
+    "bytes": 25676,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-museum-has-old-toys.mp3": {
+    "sha256": "9805165e7ed1a96fd7a7005bebabc202d8b18fed66eb403491beaa01ad31a454",
+    "bytes": 48428,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/we-saw-elephants-at-the-zoo.mp3": {
+    "sha256": "8c1eb4a833a7304501e1efc05f661b1e5bedd9deed537460096881b589770457",
+    "bytes": 46892,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-aquarium-has-many-colourful-fish.mp3": {
+    "sha256": "c8d22f19754d70e85b3dd0c1c8cd9b1d977763929516b155cc0a70d8b83e4174",
+    "bytes": 59180,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/swimming-pool.mp3": {
+    "sha256": "471ee51ec146f8fa8fef7d1587232ec65f14681078ec94dc519746d52609f945",
+    "bytes": 37292,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/we-learn-to-swim-at-the-swimming-pool.mp3": {
+    "sha256": "433884b9e7058ab77fcb78672a4634794837c82c35cbb1e81c14ffecf3fa662d",
+    "bytes": 52652,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/sports-centre.mp3": {
+    "sha256": "58ccb39e1293ce017ac63fd45885485e4f6f6f5b656ded5f61c71032164feb0c",
+    "bytes": 37676,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-sports-centre-has-a-big-gym.mp3": {
+    "sha256": "179176a598fd16a3cf72d942f778113023980fbcf0f953fdc4b48c1d9512433d",
+    "bytes": 55724,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/stadium.mp3": {
+    "sha256": "e89f79a222d02fc27699630f2ed93cdcfa97932ce20ee84d4cd174448f979b11",
+    "bytes": 25100,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-match-is-at-the-stadium.mp3": {
+    "sha256": "b9278c0db1f4a36fa9f9765c8bb6d3424354e1c335d7f5b9bc32bfa3f40c8997",
+    "bytes": 44204,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/town-hall.mp3": {
+    "sha256": "b0720942fc80abaad671fdd9b96b608dfdb9240ce7dcd2da6702485d7d71ee0a",
+    "bytes": 34988,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-meeting-is-in-the-town-hall.mp3": {
+    "sha256": "11a9d453a2f3be9e87ed5581d581ea2ef310cadf76b03ee5d00064adf5133e19",
+    "bytes": 46892,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/bakery.mp3": {
+    "sha256": "5c3255e293b45e57efb0c43c293a037a9bed0a6f249a7161de8ccbe90dfc49d3",
+    "bytes": 23948,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-bakery-smells-wonderful.mp3": {
+    "sha256": "afe89769508c375c438020a51ff7b40717f5f5bdfe7b4dc9fe69f5d63ca4e406",
+    "bytes": 49964,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/pharmacy.mp3": {
+    "sha256": "0b14e3401ef6d2ba787751be1a5ae9842b73aec91a2754467d2121f3767b00d5",
+    "bytes": 25676,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/we-bought-medicine-at-the-pharmacy.mp3": {
+    "sha256": "24aa17de573f255b7d74d976f57c09da1c3fc21f0685d571eca2dc9f9d3a079e",
+    "bytes": 51500,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/petrol-station.mp3": {
+    "sha256": "9acabbeb3acb8714dc5c010ffb0c89926956ac5f6e34c28b15746d779dcfe1d6",
+    "bytes": 39212,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-car-stopped-at-a-petrol-station.mp3": {
+    "sha256": "6ff83bda5c2e5277a76dc8896cc58d9525ac297cb6150d2712f47fd936ac846b",
+    "bytes": 52652,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/car-park.mp3": {
+    "sha256": "a3d5538f85887c53d2bac20e5866404b77bb2994d36efc7cde815a5d9e4367f6",
+    "bytes": 33068,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-car-is-in-the-car-park.mp3": {
+    "sha256": "adcaca3956fcbc42b2aa6397d32c5874d0858b4e38dbbbd99f1674defb58d0d9",
+    "bytes": 44972,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/public-toilet.mp3": {
+    "sha256": "61971731fe226f570cdb60fbd68a991d926590d62e7ea2f76dd4c5f7f81d4eb4",
+    "bytes": 36524,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/there-is-a-public-toilet-near-the-park.mp3": {
+    "sha256": "fcb240868dbf314f7a7cace746107c912240ff64ead37d23cf567c79acaf514c",
+    "bytes": 52268,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/bus-station.mp3": {
+    "sha256": "cc9ad640005d108cdaf4f8d9af55213206fb85c9c6260e6c8108956cc9734b19",
+    "bytes": 36524,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-bus-station-is-beside-the-market.mp3": {
+    "sha256": "02412dd02c1d6b8a506b2a4e9d1604ae59f73b8822073cac29d122ac20c37ca4",
+    "bytes": 59948,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/community-centre.mp3": {
+    "sha256": "9803729035e123f8c76da47482abb4a4d75015e10c9e62081923b57f5e192717",
+    "bytes": 39212,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/we-have-a-class-at-the-community-centre.mp3": {
+    "sha256": "98f100d06d11e742ba39c423577d117d0a7016e984ba2d52cebeb334daa527ab",
+    "bytes": 58028,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-old-bridge-crosses-the-river.mp3": {
+    "sha256": "587ffc5deba923efb270a04e7afa3882a49d5c15f0c68b0649f80740ac22b5e5",
+    "bytes": 52652,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/what-is-your-mum-s-job.mp3": {
+    "sha256": "52e44046760565cf96a0a952d7bab093ca8daf03c2de6bffd189211665e0ba4f",
+    "bytes": 42284,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/my-dad-goes-to-work-early.mp3": {
+    "sha256": "b77a7116bba7a2926adc21d9cbe27f9b21dd77b1ad4589007ab215f3f0296606",
+    "bytes": 49196,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/our-teacher-reads-us-a-story.mp3": {
+    "sha256": "83bf02c5dbe968795b26a455a6480c303c64a7036af452698e825a7d2a920437",
+    "bytes": 49580,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-doctor-helps-sick-people.mp3": {
+    "sha256": "cd3a388e43d0d712c8fbb613757725455ef8eb040787f6d5f237a59ec2c130e5",
+    "bytes": 46892,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-nurse-is-kind-to-the-children.mp3": {
+    "sha256": "ea9177389de1b3a36d373a72fab763c76cd4433bcbfd6259c123e6265f216948",
+    "bytes": 53036,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/i-visit-the-dentist-twice-a-year.mp3": {
+    "sha256": "15a47a086eb9944d6b56f5ed9a75a6ff3e7df844ee71b5b739cd8381288d5acf",
+    "bytes": 54956,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-vet-looks-after-animals.mp3": {
+    "sha256": "f5af9c7c16eb7a3a5c99cc29e40c555088f06e3ff94a8bb806089653b0ea939c",
+    "bytes": 48044,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/police-officer.mp3": {
+    "sha256": "5a0e5f62839c720f29786d0766bfd2e76971104d7ab653b71bb9b0ffaf767a5d",
+    "bytes": 37292,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-police-officer-helps-people-cross-the-road.mp3": {
+    "sha256": "e5973dc5ba06bbf8238092245474c8e1eab417a4861272d6af75ed3d1575d37d",
+    "bytes": 68780,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/firefighter.mp3": {
+    "sha256": "3c0b7c63b1d1983c84d6b63841618190e6cd94ff3e37027ec38c371f21239e30",
+    "bytes": 25388,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-firefighter-puts-out-fires.mp3": {
+    "sha256": "fa590274cb9bd4ae95900b55bc462d591d4729081cf65e725db9986ae1c90208",
+    "bytes": 50348,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-farmer-grows-vegetables.mp3": {
+    "sha256": "de64b77ed39426d7906afae0c38430d16759ad64ef3106324a75549e9d2aa719",
+    "bytes": 48812,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/cook.mp3": {
+    "sha256": "13a2868b737df8fa0519bd87a7b8c3591e9efb7fab35463e080e8fadeb417307",
+    "bytes": 21068,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-cook-makes-soup.mp3": {
+    "sha256": "3f24146d6bf7646e5acd42d986509f06fcec5fe4d80ad95f95c74c51c87897de",
+    "bytes": 38060,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/chef.mp3": {
+    "sha256": "39fac2f752cbb1ca1701857d7fa650e7491e1fa6584fda624d61fdba83ccfa35",
+    "bytes": 21644,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-chef-prepares-dinner.mp3": {
+    "sha256": "327d5ed18f750a557b15df5873f5dfe045f167c47b3e987c88e4f6f15a9b67b9",
+    "bytes": 42668,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/baker.mp3": {
+    "sha256": "c5da6f1e447a86e17441f065e2ea0da94be309d142b0caea017a3ea9cd2ab693",
+    "bytes": 23372,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-baker-makes-fresh-bread.mp3": {
+    "sha256": "6b5f67ffdd37297e66db0f44c3dd4d569d185fd387ccc2ab32e3a07a91c5e954",
+    "bytes": 44972,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/waiter.mp3": {
+    "sha256": "17e1340f5feb070f3cc4cb15885f1152b349840ec85033b76f83fca4f68488eb",
+    "bytes": 22796,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-waiter-brings-our-food.mp3": {
+    "sha256": "bdb37ffbf484964f9ca8b1e2eacb0463b0b854635cc393ec5ec7759bd00cb7a5",
+    "bytes": 44588,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/waitress.mp3": {
+    "sha256": "c4b5247d9ad2bdb00dee89a60ffe4ea1a32e5542fd21fb2af618f05c724bb761",
+    "bytes": 24236,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-waitress-gives-us-the-menu.mp3": {
+    "sha256": "96be042837b158cd3fb663263f98a0a8cafa8cc9be8247d73481eb4eea53fc73",
+    "bytes": 51500,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/shop-assistant.mp3": {
+    "sha256": "51e1a695a70ecee247d0d847583be6570275fb43d748afca7948ed2c93758107",
+    "bytes": 37676,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-shop-assistant-helps-me-find-a-coat.mp3": {
+    "sha256": "13b91be43b986d4c29f78b8dd1f15f9d1e21a3f121771ac5e75ba0a29f4a4d43",
+    "bytes": 61100,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/cashier.mp3": {
+    "sha256": "428d755edfd5b7e7e657713fa6074fa3a92729c3122e46e4e4cf23e746ed7513",
+    "bytes": 23948,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-cashier-takes-the-payment.mp3": {
+    "sha256": "584c667480afca4a95bd644b90d50fd1da892bac55a35cd1036fdfdfcda1ab1b",
+    "bytes": 45356,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-driver-checks-the-bus-before-work.mp3": {
+    "sha256": "b592eddc7989a40c53c8e67e781c72b2fae9bcbd16c97fba12051002d0b812d0",
+    "bytes": 59180,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/bus-driver.mp3": {
+    "sha256": "5fccf169a4149e8587ed7d2cadb1744492497922899c3e22098b01ada605369e",
+    "bytes": 35372,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-bus-driver-stops-at-every-bus-stop.mp3": {
+    "sha256": "3542cd99b9abb03195c12f6ecc761e96cd0e37f5facee2f573d0a7cb9665d5fe",
+    "bytes": 58028,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/taxi-driver.mp3": {
+    "sha256": "b212adb295b185f094e1ec110ce981d35927b469f1b0ba89377bc5b125c1bc64",
+    "bytes": 38060,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-taxi-driver-knows-the-city-well.mp3": {
+    "sha256": "9b8c29e5644102ef935f0a7a7e2c76d9228886af8f775570c1b8ec5e0c3e784d",
+    "bytes": 60332,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/train-driver.mp3": {
+    "sha256": "97945b5b889b0259030dd4565f151e70c28d2bd13071d4134f40e11adafe1422",
+    "bytes": 27404,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-train-driver-checks-the-signals.mp3": {
+    "sha256": "e987f58409a57ddb1b2953512cb20042b1668c76d55124ea21bca446c267090d",
+    "bytes": 57260,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-pilot-welcomes-the-passengers.mp3": {
+    "sha256": "5aaea8f37e8c1f1f8c21ab71f63a7f374bdefcabf5046def68f0aa115208c8ed",
+    "bytes": 56108,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/flight-attendant.mp3": {
+    "sha256": "55203dac25e0b1768937c825faeaeb154bc680cbfcdcca582e188434fc0cefe4",
+    "bytes": 35756,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-flight-attendant-helps-the-passengers.mp3": {
+    "sha256": "1ba674ceb5cdea8ec1e3d09f586a27a0186fb09deb5851f5e1a6fd00765a7dbe",
+    "bytes": 60332,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/mechanic.mp3": {
+    "sha256": "0cd4b7b0b6f80a54b29af009ac403148615dcad5496402dc8915b712dbc289e4",
+    "bytes": 24524,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-mechanic-repairs-the-car.mp3": {
+    "sha256": "4af597617f4dc98d2d0ebc7cf3b40a49e4a2bc1f3d60a65d8c013cfd89436db7",
+    "bytes": 48428,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/builder.mp3": {
+    "sha256": "ab8c93980bfa29a546cf5add4f7b99ff359f4a39decbc14cfa207f5feef8b335",
+    "bytes": 23660,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-builder-is-building-a-house.mp3": {
+    "sha256": "54a59ed94ea5882a208e6b66e1fb1b6575548ca47c450b95e67de98ebee9e01d",
+    "bytes": 49580,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/plumber.mp3": {
+    "sha256": "bd41f4061bf10c9d4831ceb906cdd5f6b727edd37fcc8d9c0886b761ae46ef92",
+    "bytes": 23084,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-plumber-fixes-the-tap.mp3": {
+    "sha256": "3fc91cf412123956a45d1447b239400b5a3442535ed2d9cfb35af6a5e86d6eab",
+    "bytes": 44204,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/electrician.mp3": {
+    "sha256": "ee148c933f38de96b5ab7e56909342571158619a2b95b929a99c99a3a1d9a212",
+    "bytes": 26540,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-electrician-checks-the-lights.mp3": {
+    "sha256": "f1a7a75e4fe706ef7bfa6b05e574243f04997263cdd57ca88b0168c274cfbd6e",
+    "bytes": 49964,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/carpenter.mp3": {
+    "sha256": "37cfe684c434d9a1b6e27b1426d9d78f7086929c67bd16f4872f3e3e3208efe8",
+    "bytes": 24812,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-carpenter-makes-a-wooden-chair.mp3": {
+    "sha256": "7b0ab422c4fab66b7dee976ae52abf1af651ea6406e5133a1e612f7f2fd35b22",
+    "bytes": 51884,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/cleaner.mp3": {
+    "sha256": "77fa7e2c09de86f96d01a9de67b4f34e74ce186005c74ae96f1049daefa39031",
+    "bytes": 23372,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-cleaner-cleans-the-office.mp3": {
+    "sha256": "a29fba9dff5129dabfd1589ae7f4fd5a6181857cdd9c77243ad8164320102fbe",
+    "bytes": 46892,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/gardener.mp3": {
+    "sha256": "aece672b35d285f97b5feb6e427cc1a5ab4821c43a0c2915633e37ad07a1e1c9",
+    "bytes": 23948,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-gardener-waters-the-flowers.mp3": {
+    "sha256": "92fb6c1834e8716705cf796bab6f0ea31d821a8d5e612822bbcc588db98df8db",
+    "bytes": 51116,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/postman.mp3": {
+    "sha256": "d6ed2593d6e3c32eacb343c31cb221508b5f1f23df1399d836fec95b1800441d",
+    "bytes": 25100,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-postman-delivers-our-letters.mp3": {
+    "sha256": "b8eede6cb18b4f7fa3458e4d42d61df9bd3946532008d808ac02bad110870676",
+    "bytes": 53804,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/delivery-driver.mp3": {
+    "sha256": "e628935f5dd1ebce40efe34409a9c2cea67cd79ac1ad817cef3a8a86d151f160",
+    "bytes": 39596,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-delivery-driver-brings-our-parcel.mp3": {
+    "sha256": "9698e4541afd4370a43bf874dc9c97ef75c84e7622d9e9c462741cf01185c5fd",
+    "bytes": 58412,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/hairdresser.mp3": {
+    "sha256": "9e6bf1d3fd1043b8c72687850ace0c0c74912559efcea0d9680856818163e5f1",
+    "bytes": 26540,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-hairdresser-cuts-my-hair.mp3": {
+    "sha256": "1b944ee2d8675db54f23d59318f98f24e0f64baf12ab258061d61a1ca4d49009",
+    "bytes": 48428,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/barber.mp3": {
+    "sha256": "12a6aab40251b9f697b131642ff2958c7c3199bf1f67c26315a7e8c6ba03064b",
+    "bytes": 23084,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-barber-trims-his-hair.mp3": {
+    "sha256": "4295188aa22bb38a9c5691e14c00e879b9c3e2c8210e18b94ebe33a3b75e76b9",
+    "bytes": 44588,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/artist.mp3": {
+    "sha256": "30509314454acdb893ff87822d83840c5db8c518dc532e83e3e21cc334f3b2b4",
+    "bytes": 23948,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-artist-paints-a-picture.mp3": {
+    "sha256": "36a08a35cccf6927f41d5e8dd6c8b7ecf5e1e9805d4a6c19fdc85aff139a6b1d",
+    "bytes": 46892,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/musician.mp3": {
+    "sha256": "e4ffa37eac73e8bc692e10dfad9efad283f55616e1b0e4800ae9ebf96f094032",
+    "bytes": 25964,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-musician-plays-the-piano.mp3": {
+    "sha256": "cb01a5da5beb0b55f818018aee800cfc2519af39640896573c761805d78909d4",
+    "bytes": 49964,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/singer.mp3": {
+    "sha256": "58eed342b5e28808eb3bfbb1a1d29da7ea4665528463baac57461d03bb5d7c1d",
+    "bytes": 22796,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-singer-has-a-beautiful-voice.mp3": {
+    "sha256": "23d25b7c6453539c70dca7a54d13d91a7daf1b56e172c41f1c1ee0b46a2d1efe",
+    "bytes": 53420,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/actor.mp3": {
+    "sha256": "de831cc2de25c277869095da8963ebf84e5a12d0c58e9468a3ea1b70ede347ff",
+    "bytes": 23948,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-actor-is-in-a-new-film.mp3": {
+    "sha256": "d2f4ca2b234dfff381faa2abc53cab430cfd7c671f96bc8b84a488619bfdc7f2",
+    "bytes": 48812,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/photographer.mp3": {
+    "sha256": "3d6b2dc04ca589b222d9a1b91d48243891e3e1484d880dfa08f50f504080beb3",
+    "bytes": 25964,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-photographer-takes-pictures-outside.mp3": {
+    "sha256": "85c3cb020e32120dd211280c0a333dcd2503d39630622588e076e9faf80eedd5",
+    "bytes": 56876,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/scientist.mp3": {
+    "sha256": "d5fcd8e5ef41b82794b82e62617f6f365fe8dbfe8647237993faa9ed97665526",
+    "bytes": 24812,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-scientist-studies-plants.mp3": {
+    "sha256": "04f6215df956ee0f6b99c88960b4bbbe7e472afb36f099e5b5348a1d061b85ac",
+    "bytes": 50348,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/engineer.mp3": {
+    "sha256": "4316351844254d90ca00223aaecf6fdbfc0ed5138f2c8867c8ca8a6cdba16ee7",
+    "bytes": 24524,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-engineer-designs-bridges.mp3": {
+    "sha256": "ac1d4679d5334971fd33ddeea49c4c5944b0f6b25efa917a948a8b9eb5229a67",
+    "bytes": 50348,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/programmer.mp3": {
+    "sha256": "c081a8005dae1f8e57158b499deaebde33ebbe68c744f015ef9f9fb5653d4b19",
+    "bytes": 24236,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-programmer-writes-computer-code.mp3": {
+    "sha256": "cc3d12c60ee730b585df8a6dc8a9bdb1abc9091466b1b19c2551e906713efb67",
+    "bytes": 56876,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/office-worker.mp3": {
+    "sha256": "07dd2696356622ce7456a052ff115323072154b6b0916a2e423907e53ae285d7",
+    "bytes": 38444,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-office-worker-answers-emails.mp3": {
+    "sha256": "9384016aa70e9440482225f95384f6e6d964fdc706f4c37fce55bf59d6cb5dfc",
+    "bytes": 54572,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/manager.mp3": {
+    "sha256": "06a02eabd4bfb13964edd43ff47cffbf7b4f50c138514ed5dd111ad8289ce0bc",
+    "bytes": 24236,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-manager-leads-the-team.mp3": {
+    "sha256": "e3ce20ebdaf8eef51d0d066eb8a490016b3ba9b9cbdf82c3970e3174af1c2a81",
+    "bytes": 46892,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/librarian.mp3": {
+    "sha256": "1db158838bcce06f89831937862f9d4557a862395f99903a160162abf33b51f8",
+    "bytes": 25964,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-librarian-helps-us-find-books.mp3": {
+    "sha256": "a8020da204b19e896f2456cbee961598ea73c43e32191a196cc3c95b99bf5265",
+    "bytes": 52652,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/shopping.mp3": {
+    "sha256": "4b4409df6040e05071898d5db612e998ef07d5166559fbb43a86e5e63feb223f",
+    "bytes": 24812,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/shop.mp3": {
+    "sha256": "8756857b3c9ab7e1d33c9b1db2ee88d2e037a4315bbc57a20ca87413ce952ced",
+    "bytes": 22220,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/that-shop-sells-toys.mp3": {
+    "sha256": "5baf889986c23f7d77c80bc40814fbc6490488dcdb9dc9853a408c147ce08ab9",
+    "bytes": 44588,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/shopping-centre.mp3": {
+    "sha256": "c542644c36e0e1947f16d2743aab9cdba66084d118de02c47fae75a0989c1268",
+    "bytes": 37676,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-shopping-centre-is-very-large.mp3": {
+    "sha256": "0a1badb90281a3f22dd90ac7f5f3b29149c2a2fc94608e500984167ae15bb22a",
+    "bytes": 52652,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/shopping-basket.mp3": {
+    "sha256": "e339318e0a65ca72d0b6e1e5f59449d63347771f56b148b214062ddcb10be6e5",
+    "bytes": 39596,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/put-the-apples-in-the-shopping-basket.mp3": {
+    "sha256": "a09d372fa0cc4ff21941e49f7d2eb33871fc2960f89154fbbd8d15a256835bb4",
+    "bytes": 53420,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/shopping-trolley.mp3": {
+    "sha256": "3a5ce2b276f16801fe441de54a9226b35b07106ec317c4f7ba81b9654cb355c9",
+    "bytes": 38828,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-shopping-trolley-is-full.mp3": {
+    "sha256": "2e3422cc1998f16ddeef3a379b468900728679c822d2e18534c730dd8e8f9741",
+    "bytes": 46508,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/i-need-a-bag-for-these-things.mp3": {
+    "sha256": "ea4e825600425334784d6c7c2bbe021e5c7cc5a09ae225ca3ce9d160ad69497e",
+    "bytes": 48428,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/product.mp3": {
+    "sha256": "f7815b9653480d1af73e27b6e22c54f98f45b226a77820ec164f98d609c85291",
+    "bytes": 23372,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/this-product-is-made-in-the-uk.mp3": {
+    "sha256": "9fd54ecc43199750c15c0dde8ce07544f6689286488538ffc780f0f45695f905",
+    "bytes": 53804,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/item.mp3": {
+    "sha256": "0e914bbbd21e51396e5ff7d6f4370f75faedc061f848107fd68c20e26fb85e93",
+    "bytes": 23372,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/each-item-has-a-price.mp3": {
+    "sha256": "cdcf679a6878663f753f0b999c44812559585014a1f171a77cfde3ea75f789ab",
+    "bytes": 43052,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/price.mp3": {
+    "sha256": "14b1d19fbb130c30274a4f2238a350c96e6a68f794a9d3fd44dcb660de2c7c59",
+    "bytes": 23084,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/what-is-the-price-of-this-book.mp3": {
+    "sha256": "0d07cf30685d4d4e4065fb8a69a44f42c005cea9cbbe567017ef167b06ea97e4",
+    "bytes": 45356,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/how-much-does-it-cost.mp3": {
+    "sha256": "2390b70efd695f4d1ec6703f3383cee23dd3dd8a12555aaaf3f1b79f92ad0d71",
+    "bytes": 41132,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/money.mp3": {
+    "sha256": "87038ac1261c79c1db0c364a02c90fac6dcbc69c6c06d47f98d9b724f4f625f8",
+    "bytes": 23660,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/i-am-saving-my-money.mp3": {
+    "sha256": "b98d7246d993622f2e3099dc824a320b92470db1abbb4f916fb99f3d135930aa",
+    "bytes": 42668,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/coin.mp3": {
+    "sha256": "2d41545ec4964bae725f68a22d0912f9aab9682d298b5d750e83f2d37a96f476",
+    "bytes": 23372,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/i-found-a-coin-on-the-floor.mp3": {
+    "sha256": "d9662b6c0fe6b0dbd0d7adf9498924304ee425875fad933419d31c9069408344",
+    "bytes": 45356,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/note.mp3": {
+    "sha256": "b4173579cf5a3fe1a86ff7ef67aab01144a7dafae4c1a2de17ac482522a828d1",
+    "bytes": 21932,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/he-paid-with-a-tenpound-note.mp3": {
+    "sha256": "a839080df21fa66129ba49f18dfc6f2a03bdca8e1bea1fa29d1f9310514bb708",
+    "bytes": 49964,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/cash.mp3": {
+    "sha256": "128be7199a20dac6c03fbfed3f7f1eccc2ddd0de4eeabc4cceb0ea496970ee6f",
+    "bytes": 22796,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/do-you-want-to-pay-by-cash.mp3": {
+    "sha256": "8732558a9967b350ad943ac7052cbb74351cd53185e1eeaca7d56553072e327b",
+    "bytes": 44204,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/bank-card.mp3": {
+    "sha256": "15677c1c9d9d1a94b68d54223f171e34c5c5ae869532778eb3cd1c640f4fd969",
+    "bytes": 34988,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/i-paid-with-my-bank-card.mp3": {
+    "sha256": "defd77eafa86efa29bd8469c0db1a412c21c3f7350f4d61cecac57d3294a93de",
+    "bytes": 45356,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/credit-card.mp3": {
+    "sha256": "b3f7bf86d8ab35ea3c194f5b7067f7405dcc7e9f70e3fc79ddb70a0281c52ed4",
+    "bytes": 35756,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/my-mum-used-a-credit-card.mp3": {
+    "sha256": "92f9ef9da8a8fff4185293f97ff8f15dcba974b964e22a3e489dc19010f02928",
+    "bytes": 48044,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/debit-card.mp3": {
+    "sha256": "62ae31a937147a6bbb8d3aa5670f099a6b8ed2f90493c430f060670c553718cd",
+    "bytes": 35756,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/he-paid-by-debit-card.mp3": {
+    "sha256": "685eec8a15c2ac56540df199d3a9dbff2d1620805b6a1aac96a4861872d09b39",
+    "bytes": 44204,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/wallet.mp3": {
+    "sha256": "81a23a7e7810954d2f3d9e87147cd2462ca3290af6d0dfd8cdb9e4b8f181d8bd",
+    "bytes": 22796,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/his-wallet-is-in-his-bag.mp3": {
+    "sha256": "f84a522bb23e1927db82f5eb147fcc25bb1c4f476c1079e1696a425082197bbb",
+    "bytes": 45356,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/purse.mp3": {
+    "sha256": "462bdbcb2b30b3c7af13846cabbc8f79e97df6d447d6f04628bd183088d14b9a",
+    "bytes": 22796,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/she-keeps-coins-in-her-purse.mp3": {
+    "sha256": "345dd56c4bffcff6d5e23e2e4788aac31bff4b2761c8b9f0a169bb470d9d7bec",
+    "bytes": 46508,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/change.mp3": {
+    "sha256": "f16cf7f9e34667637e56ea29b85c4ada86358921fb6b5425714bd7eee7c9b32e",
+    "bytes": 23084,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/here-is-your-change.mp3": {
+    "sha256": "e09a34313dee2b37a2441e3645b20af7532b76b013b2f1aab090bf63cbee1785",
+    "bytes": 39596,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/receipt.mp3": {
+    "sha256": "164575a6843e9eceaa84ce73db467c9ae784c5d8a866aff10ed20385ec051462",
+    "bytes": 23948,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/keep-the-receipt-after-you-pay.mp3": {
+    "sha256": "a733620e52e7d587798cc2ffc90fae9cee431e35f025e61ab61199ea4cfeea46",
+    "bytes": 49196,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/bill.mp3": {
+    "sha256": "485cac51b67888cb3537b4138c0cc8e8d43609458b4fae0982789a2f28552da6",
+    "bytes": 22508,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/could-we-have-the-bill-please.mp3": {
+    "sha256": "588ab235f16aebf097ebbcfea6150f0be194e269893b6f5d533e4b17c6f1ca66",
+    "bytes": 46124,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/sale.mp3": {
+    "sha256": "5e95c74177f5629e6bd4e5578e9676e3fc0e69a9e5c0cbdbe5503cac8911611a",
+    "bytes": 22796,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/these-shoes-are-in-the-sale.mp3": {
+    "sha256": "9bf1f4a1e5d6b707935ef06c498e94e6316b3de5da292a7e3dc116be23c479c9",
+    "bytes": 43820,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/discount.mp3": {
+    "sha256": "5f528d4b781c524f46853b2d9064fb1c59aa41ac3498ce2ce40b51a9b3acddb9",
+    "bytes": 23372,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-shop-gives-a-ten-per-cent-discount.mp3": {
+    "sha256": "e083a36634ed1cba6f17804c4a3e0517d8f6152826e14171e4db9189770f477a",
+    "bytes": 54188,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/cheap.mp3": {
+    "sha256": "5c873d00182a04504fa313104f3bc84d6af11d6315758a255583a72a4f00803e",
+    "bytes": 22220,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/this-pen-is-cheap.mp3": {
+    "sha256": "51ee10e6d81cab6ddd534558ffc0d94c95144f1a179f01db32015b5b9f243e15",
+    "bytes": 39212,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/expensive.mp3": {
+    "sha256": "d6fb87104f9726e347f7eb4acb044a68d8b59642fe2fe421e658097d7dc1c4e3",
+    "bytes": 26828,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/that-watch-is-too-expensive.mp3": {
+    "sha256": "d0d231b5e13a66df6bb48c9a60d0094f6c7d0d0c4ba38407f9d6fe9fbd6bea50",
+    "bytes": 49580,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/buy.mp3": {
+    "sha256": "e78b596dcb9aa77f7cdad59ee70db557ee5ff6b23718be9c7ab1a2ded0bc05b2",
+    "bytes": 22220,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/i-want-to-buy-a-new-bag.mp3": {
+    "sha256": "81c8c62bc1e81d50eb865b964e96453ec0c5cddead5ca07577fbb39ceb45013e",
+    "bytes": 42668,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/sell.mp3": {
+    "sha256": "3b265195a7b3c92c950ddaf22ad714a18ecd4e2c3c10ca00dbab0f85b9697847",
+    "bytes": 22508,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/they-sell-fresh-bread-here.mp3": {
+    "sha256": "1f0c5adcff5d96e85660d4d168006fa4b2bbb4c0597ce860b02327162f8a0244",
+    "bytes": 44972,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/spend.mp3": {
+    "sha256": "dd76b8c47645c8925030e2f809487751c02c831e7440b35ea303864701195511",
+    "bytes": 24236,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/i-do-not-spend-much-money-on-toys.mp3": {
+    "sha256": "7a1dc90135a466e292fc1d2a52b2adad27337e9c9f7803a1a43c670b844f8753",
+    "bytes": 52268,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/save.mp3": {
+    "sha256": "afb6f3fe4e3a8d5b3b2a1282b502a008781480c3e4bf89d795581798c12b283e",
+    "bytes": 23084,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/i-save-a-little-money-every-week.mp3": {
+    "sha256": "24c14889cad76e064ce7e813382a835d1675f640ea5bd3ec4e3bf968fdff98d4",
+    "bytes": 52268,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/borrow.mp3": {
+    "sha256": "2512683868536ed819317dd4a0d7a5dd381fa6c28f48aabc21990536579c4846",
+    "bytes": 21932,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/can-i-borrow-one-pound.mp3": {
+    "sha256": "2fc11bc807db44f9f42d89b30bf03c80490c2870c51ae5583f7d57e98dc527e4",
+    "bytes": 43820,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/lend.mp3": {
+    "sha256": "40e281811e342da755e1b3cb86feee5152bf230dbeeb96b923f311b5919691c4",
+    "bytes": 23660,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/i-can-lend-you-a-pen.mp3": {
+    "sha256": "dd8dc4b88dac777af0520f291f9c4b6059ca90074d8cee1c22fbc22cbcce278a",
+    "bytes": 40748,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/customer.mp3": {
+    "sha256": "13312204c9a8607fa4f3f835e59dc7e8264c753ab45298adee4c17eb04f76eb4",
+    "bytes": 23948,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-customer-asks-a-question.mp3": {
+    "sha256": "26d0e7d1bd7b23f51b91a66ff7626c4a9c581a62524dc7cae75cb63d0c96f643",
+    "bytes": 49580,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/queue.mp3": {
+    "sha256": "c48cee8c268361e0076a667b75791d970657b62ee1903546660b400d0afcd762",
+    "bytes": 23372,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/please-wait-in-the-queue.mp3": {
+    "sha256": "409e8b654ad10702790c15ab23f2cc252d9ae4dec8c6654825164ce57157a4a2",
+    "bytes": 41516,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/checkout.mp3": {
+    "sha256": "7d7517e0e6bd8a2e17bc2b7ce5168c5a34d94f241b6c79bf1cf1ebd05a3ab2ea",
+    "bytes": 23660,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/we-paid-at-the-checkout.mp3": {
+    "sha256": "f5c6021c635286c215f0e596392fbe80f3112bd509f3c8dde181be8cb4df06df",
+    "bytes": 41516,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/counter.mp3": {
+    "sha256": "8647d78a881e2371cebdc37c4356f9247d4c042b9bb1c550f49a2587645853c1",
+    "bytes": 23660,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/put-the-parcel-on-the-counter.mp3": {
+    "sha256": "86bc618bcec159ec321f27e3bd7bd76884824065026a80104b1cf0a29a1cb163",
+    "bytes": 45356,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/do-you-have-this-in-a-bigger-size.mp3": {
+    "sha256": "73334c255245ab5200c852b3d2c3a8a8ec7bce39910ceafd839cfc90f5a057da",
+    "bytes": 50348,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/try-on.mp3": {
+    "sha256": "f8f0112ba8937b46b212c85c04653e82ef20419af13a2245b857d97894344d7f",
+    "bytes": 33068,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/can-i-try-on-this-coat.mp3": {
+    "sha256": "e4c105046f457bf2da79d440b30b93a12c6776538ce6243fb01a804d3cb9e482",
+    "bytes": 42284,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/fitting-room.mp3": {
+    "sha256": "1924185ba7eb0e6a5cfc995e8c343aa24151a38f303efe31f46030d561e1f39f",
+    "bytes": 35372,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-fitting-room-is-over-there.mp3": {
+    "sha256": "d732aee309b0071c328a784b12eeb84d8cc956d482de0e03c8187b66275f72b8",
+    "bytes": 46892,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/clothes.mp3": {
+    "sha256": "c747b254124399c4ac006bedce54ba4352fe0732dcf70cac0ea48ce49cff945e",
+    "bytes": 24524,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/these-clothes-are-clean.mp3": {
+    "sha256": "4a3b1c4548790dd8757363b7006e9b5eb6dd245c02752a4d2f0788fce8705382",
+    "bytes": 42284,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/shoes.mp3": {
+    "sha256": "be867af004e6082939429eb0a5759a3290a68a40ecfb7d5b88fac53413c2edb2",
+    "bytes": 24236,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/my-new-shoes-are-comfortable.mp3": {
+    "sha256": "021a1df5f3400f761b651b60aa25461faad6e81cb27aea2203a5e7f9cac2b1fd",
+    "bytes": 48812,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/toy.mp3": {
+    "sha256": "6ab137a71de3322c37490a4a75413cb0878cd48db451ba549a0b7014fde861e8",
+    "bytes": 20204,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-child-chose-a-toy-car.mp3": {
+    "sha256": "71694d1efe83e5247689bc6860f9dfe5015faa914f30969e2d6cfce60b4ce706",
+    "bytes": 45356,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/gift.mp3": {
+    "sha256": "cece988bbf122d03ee549be1502db7a376c92875e47c905f079257b240679fb8",
+    "bytes": 22508,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/i-bought-a-gift-for-my-friend.mp3": {
+    "sha256": "53aef4376d85c3fac5c7c5f8ce6f869c5366aa93bdb7463413ca57ba445bbf0f",
+    "bytes": 46508,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/delivery.mp3": {
+    "sha256": "3a8cee8bae32c0eae4a5216ba00fda10f03ad052cb152d9b9e22d29fe578d7a0",
+    "bytes": 25100,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-delivery-will-arrive-tomorrow.mp3": {
+    "sha256": "3d41f610f9fc5bf6984ca2168cdde84043adb49fc65fae331a008e94048527a2",
+    "bytes": 51500,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/refund.mp3": {
+    "sha256": "293f7498e58d41fd330cc0d975f7908b71d534c7922896578d7db61e41959eaf",
+    "bytes": 24524,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/the-shop-gave-me-a-refund.mp3": {
+    "sha256": "02020039088114154da0ab4a5a8aa7286f9074e1c008b80711846d61d385ae93",
+    "bytes": 45356,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/pound.mp3": {
+    "sha256": "30bc1bb829ea7613a1e8e5a1a0bacf31848d68eac54b1458b6819f2e669bc0fc",
+    "bytes": 23084,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/this-book-costs-five-pounds.mp3": {
+    "sha256": "00459d109f4c4771cf1991151402a8c01679880e2f7b9154aba060d27eea10ca",
+    "bytes": 49964,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/penny.mp3": {
+    "sha256": "88dd30a2580e315bd3bad79a13ff1a765abb70075ad6f2ee5847fdc2f5642833",
+    "bytes": 23660,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/one-hundred-pence-make-one-pound.mp3": {
+    "sha256": "955000c2f2485d7c3514a0b64a70be8b5edb5fe4e272abe1ca0cfbd3e249d997",
+    "bytes": 53804,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/word/budget.mp3": {
+    "sha256": "192847654d5e5cd1fdf6c2d38e847c820c836745930cb4eeadb56a55b301020e",
+    "bytes": 22220,
+    "source": "generated-travel-social-v1"
+  },
+  "audio/en-us/travel/sentence/we-have-a-small-budget-for-the-trip.mp3": {
+    "sha256": "eb3ecc23b1f60c643848c33a3665e0f0f8bb3233bd99c8eb2258d10b27158115",
+    "bytes": 51884,
+    "source": "generated-travel-social-v1"
   }
 }

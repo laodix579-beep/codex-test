@@ -1,0 +1,4030 @@
+{
+  "pack": "travel-social-v1",
+  "voice": "af_bella",
+  "locale": "en-US",
+  "engine": "Kokoro-82M v1.0 FP32",
+  "phonemizer": "Misaki-fork en-US 0.9.6",
+  "sampleRate": 24000,
+  "prosody": {
+    "method": "Praat PSOLA terminal contour v1",
+    "windowSeconds": 0.5,
+    "riseRatio": 1.22,
+    "fallRatio": 0.82
+  },
+  "models": {
+    "kokoro-v1.0.onnx": "beb0d1848dee9a49da392cc3df26958d46cfa35d321edf434f52949153f0df3a",
+    "voices-v1.0.bin": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d"
+  },
+  "clips": [
+    {
+      "key": "my dad drives a car",
+      "text": "My dad drives a car.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "mˌI dˈæd dɹˈIvz ɐ kˈɑɹ.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/my-dad-drives-a-car.mp3",
+      "sha256": "0fc74239631b2602fe992bd2796187cc1fb37b472157b1ed4f5c3f082b67fe6c"
+    },
+    {
+      "key": "bus",
+      "text": "bus",
+      "role": "word",
+      "style": "word",
+      "phonemes": "bˈʌs",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/bus.mp3",
+      "sha256": "2f7b9ec990e4ab040613ae8e23f9f919a6cbfcc1f212ff95cec5c3391bf3447c"
+    },
+    {
+      "key": "i take the bus to school",
+      "text": "I take the bus to school.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ˌI tˈAk ðə bˈʌs tə skˈul.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/i-take-the-bus-to-school.mp3",
+      "sha256": "0a30344d3677d3fdb11e7cc9f7511cf5aff3022014fd710303256b3fffa6a9b8"
+    },
+    {
+      "key": "coach",
+      "text": "coach",
+      "role": "word",
+      "style": "word",
+      "phonemes": "kˈOʧ",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/coach.mp3",
+      "sha256": "283bd985e92162e73ca1b0157f4533f83a2e20e2b84177138c09378261edb928"
+    },
+    {
+      "key": "we travelled by coach",
+      "text": "We travelled by coach.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "wˌi tɹˈævəld bI kˈOʧ.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/we-travelled-by-coach.mp3",
+      "sha256": "4343f675d5513cafb96936697f0abbbf726c4c2cdae6bbb38e893fd94228578d"
+    },
+    {
+      "key": "taxi",
+      "text": "taxi",
+      "role": "word",
+      "style": "word",
+      "phonemes": "tˈæksi",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/taxi.mp3",
+      "sha256": "c79467149a349a93cf2a362844336ca8a48ffd3a36750031871e98665a038f31"
+    },
+    {
+      "key": "we called a taxi",
+      "text": "We called a taxi.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "wˌi kˈɔld ɐ tˈæksi.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/we-called-a-taxi.mp3",
+      "sha256": "75225b9abb8535ed696afa3f9c98b36fe245ab3804d62c703cd292d56b8ba188"
+    },
+    {
+      "key": "train",
+      "text": "train",
+      "role": "word",
+      "style": "word",
+      "phonemes": "tɹˈAn",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/train.mp3",
+      "sha256": "fd97b0739947dc8312b644fe1207b54238a58c18a9f71609dd97c01974066cbf"
+    },
+    {
+      "key": "the train arrives at nine",
+      "text": "The train arrives at nine.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə tɹˈAn əɹˈIvz æt nˈIn.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-train-arrives-at-nine.mp3",
+      "sha256": "211035581671b02af2af0d1845f613056a12b460595327f7b8223901ec016427"
+    },
+    {
+      "key": "underground",
+      "text": "underground",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ˈʌndəɹɡɹˌWnd",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/underground.mp3",
+      "sha256": "074aa677646ee99b115befa68139d9ef2b5a1a4da05dcad15e79380bc99ae360"
+    },
+    {
+      "key": "the underground is very busy",
+      "text": "The underground is very busy.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ði ˈʌndəɹɡɹˌWnd ɪz vˈɛɹi bˈɪzi.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-underground-is-very-busy.mp3",
+      "sha256": "77758db26023d01406df4093ddd759315589bbaaef5b8453ea89e590f7b1a8de"
+    },
+    {
+      "key": "tram",
+      "text": "tram",
+      "role": "word",
+      "style": "word",
+      "phonemes": "tɹˈæm",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/tram.mp3",
+      "sha256": "ad32dcd5cfcc804b7884c045df31635a0f9d24a6e955d2477ec9c5cd5779c5e5"
+    },
+    {
+      "key": "the tram stops near the park",
+      "text": "The tram stops near the park.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə tɹˈæm stˈɑps nˌɪɹ ðə pˈɑɹk.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-tram-stops-near-the-park.mp3",
+      "sha256": "76f743212216dd500475429657b32b4ded418a981cba4a12752a43c4597dc6a8"
+    },
+    {
+      "key": "bicycle",
+      "text": "bicycle",
+      "role": "word",
+      "style": "word",
+      "phonemes": "bˈIsəkəl",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/bicycle.mp3",
+      "sha256": "307b998075642c6a23f3fb5c6a6f9fd7517993160054fd4774d730b7e86591f7"
+    },
+    {
+      "key": "she rides her bicycle every day",
+      "text": "She rides her bicycle every day.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ʃˌi ɹˈIdz hɜɹ bˈIsəkəl ˈɛvəɹi dˈA.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/she-rides-her-bicycle-every-day.mp3",
+      "sha256": "7da4c119128c11264a0fcdbc172b963481594b9ab168479041f954ea4f95a07b"
+    },
+    {
+      "key": "bike",
+      "text": "bike",
+      "role": "word",
+      "style": "word",
+      "phonemes": "bˈIk",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/bike.mp3",
+      "sha256": "6ad5e21485e18124c29320c816e17b224488df62ac61ecf4eb56576a27fedb4b"
+    },
+    {
+      "key": "my bike is blue",
+      "text": "My bike is blue.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "mˌI bˈIk ɪz blˈu.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/my-bike-is-blue.mp3",
+      "sha256": "534b14c0a5cacf2eecd12b772a440a7f481a792d44210a2562baabfbe4280763"
+    },
+    {
+      "key": "motorbike",
+      "text": "motorbike",
+      "role": "word",
+      "style": "word",
+      "phonemes": "mˈOTəɹbˌIk",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/motorbike.mp3",
+      "sha256": "221025469fc9b3289625940d742dcd4a39cc5dd8f5fe486525906f3cf4cbfaf9"
+    },
+    {
+      "key": "he wears a helmet on his motorbike",
+      "text": "He wears a helmet on his motorbike.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "hˌi wˈɛɹz ɐ hˈɛlmət ˌɔn hɪz mˈOTəɹbˌIk.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/he-wears-a-helmet-on-his-motorbike.mp3",
+      "sha256": "ced3679a9222d97874a742339805c4221623c8fb7dad9395d97308a814b56575"
+    },
+    {
+      "key": "scooter",
+      "text": "scooter",
+      "role": "word",
+      "style": "word",
+      "phonemes": "skˈuTəɹ",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/scooter.mp3",
+      "sha256": "dd64971862ce70ad81f9e54a2c507e2a3a3f91566c62364fa00262d2f7fdcc43"
+    },
+    {
+      "key": "the child rides a scooter",
+      "text": "The child rides a scooter.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə ʧˈIld ɹˈIdz ɐ skˈuTəɹ.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-child-rides-a-scooter.mp3",
+      "sha256": "ea002bbb01dcad0c6f1d9190a335475af93a969c0b26a9b5b4ec3abb5117dcea"
+    },
+    {
+      "key": "lorry",
+      "text": "lorry",
+      "role": "word",
+      "style": "word",
+      "phonemes": "lˈɔɹi",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/lorry.mp3",
+      "sha256": "5bbb299c1d7dfcb99c3c59ed716f77e8f6df68a5520cc6a8a7a0755e132772d6"
+    },
+    {
+      "key": "the lorry carries boxes",
+      "text": "The lorry carries boxes.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə lˈɔɹi kˈɛɹiz bˈɑksᵻz.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-lorry-carries-boxes.mp3",
+      "sha256": "3d388a96cbc3ac5ede87091defaa7f1356800538800c25ab1afed96dd7e5dfb0"
+    },
+    {
+      "key": "van",
+      "text": "van",
+      "role": "word",
+      "style": "word",
+      "phonemes": "vˈæn",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/van.mp3",
+      "sha256": "33754b2179aa08dc93d8a63701ac252f2c0f7ef7559852f742173bc409bd429a"
+    },
+    {
+      "key": "a white van is outside",
+      "text": "A white van is outside.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ɐ wˈIt vˈæn ɪz ˌWtsˈId.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/a-white-van-is-outside.mp3",
+      "sha256": "86d1e4e74b700e8a14ce3f7e493f98c737f37fc2946dd165b74884daa45c211d"
+    },
+    {
+      "key": "ambulance",
+      "text": "ambulance",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ˈæmbjələns",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/ambulance.mp3",
+      "sha256": "53d6b98a98b936064d0a983a5a1e3e6d115c53f1bf5fc3903a5b24717bd91970"
+    },
+    {
+      "key": "the ambulance is on its way",
+      "text": "The ambulance is on its way.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ði ˈæmbjələns ɪz ˌɔn ɪts wˈA.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-ambulance-is-on-its-way.mp3",
+      "sha256": "ff58e8f92bbb21a9b76a5728f78856ee738141b96187362cdfe40244a3177c66"
+    },
+    {
+      "key": "fire engine",
+      "text": "fire engine",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "fˈIəɹ ˈɛnʤən",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/word/fire-engine.mp3",
+      "sha256": "89a0f7a7231841a47329ea27ca2270449c815279c52fb6a22407ef47fe1d3209"
+    },
+    {
+      "key": "the fire engine has a loud siren",
+      "text": "The fire engine has a loud siren.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə fˈIəɹ ˈɛnʤən hæz ɐ lˈWd sˈIɹən.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-fire-engine-has-a-loud-siren.mp3",
+      "sha256": "b11faf3661e162e5443f5a1cadb1298e98dba6ea2f5d31f81403615b0e88b001"
+    },
+    {
+      "key": "police car",
+      "text": "police car",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "pəlˈis kˈɑɹ",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/word/police-car.mp3",
+      "sha256": "5b1afaaaeae293428701549157ce7149e8415a2468ec41069d45b07a3b4149f4"
+    },
+    {
+      "key": "the police car stopped nearby",
+      "text": "The police car stopped nearby.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə pəlˈis kˈɑɹ stˈɑpt nˌɪɹbˈI.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-police-car-stopped-nearby.mp3",
+      "sha256": "636e6e79d036b188b55270d6a1d683d2fca801796cbda718874b8ae4af8303d2"
+    },
+    {
+      "key": "aeroplane",
+      "text": "aeroplane",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ˈɛɹəplˌAn",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/aeroplane.mp3",
+      "sha256": "9e28ade4b043d8e5e080b3975bff9f4cad218676f9b84e92943d68cafffb991c"
+    },
+    {
+      "key": "the aeroplane flies above the clouds",
+      "text": "The aeroplane flies above the clouds.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ði ˈɛɹəplˌAn flˈIz əbˈʌv ðə klˈWdz.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-aeroplane-flies-above-the-clouds.mp3",
+      "sha256": "d014b66a413118cf25ca50540e51bba7276d11cc52d91ea05ea30a5cba1e52e4"
+    },
+    {
+      "key": "helicopter",
+      "text": "helicopter",
+      "role": "word",
+      "style": "word",
+      "phonemes": "hˈɛləkˌɑptəɹ",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/helicopter.mp3",
+      "sha256": "4bc180c35ed30ab51f6fedc0b3687b4ce37b164035cff3f7c91342c8c1d4e536"
+    },
+    {
+      "key": "a helicopter landed in the field",
+      "text": "A helicopter landed in the field.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ɐ hˈɛləkˌɑptəɹ lˈændᵻd ɪn ðə fˈild.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/a-helicopter-landed-in-the-field.mp3",
+      "sha256": "35b3a0bb5d274529674fc7002cc54e7289dbb830465583eeda76221d2f125221"
+    },
+    {
+      "key": "boat",
+      "text": "boat",
+      "role": "word",
+      "style": "word",
+      "phonemes": "bˈOt",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/boat.mp3",
+      "sha256": "ccba00ef3238c4ca7d4769356a2eb46f0071c03527cca13e7e2b4a26e524bb2a"
+    },
+    {
+      "key": "the boat is on the lake",
+      "text": "The boat is on the lake.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə bˈOt ɪz ˌɔn ðə lˈAk.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-boat-is-on-the-lake.mp3",
+      "sha256": "58678cb764e004d255876a021d2f1489a4f31a83ae800187a5403fef76513521"
+    },
+    {
+      "key": "ship",
+      "text": "ship",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ʃˈɪp",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/ship.mp3",
+      "sha256": "69203ebb2225baa2617eb09aef6fd9843572cde16f5cb81e98f345ee59aaebec"
+    },
+    {
+      "key": "the ship crosses the sea",
+      "text": "The ship crosses the sea.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə ʃˈɪp kɹˈɔsᵻz ðə sˈi.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-ship-crosses-the-sea.mp3",
+      "sha256": "f6a508deff66ff8f418b53aebef2488da311e50a0a3f53ff5bc599936c8753ce"
+    },
+    {
+      "key": "ferry",
+      "text": "ferry",
+      "role": "word",
+      "style": "word",
+      "phonemes": "fˈɛɹi",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/ferry.mp3",
+      "sha256": "93bc1c51e2776f7156b288a198765b976dc818f9f394e6f13d6e1ef0911338c8"
+    },
+    {
+      "key": "we took a ferry to the island",
+      "text": "We took a ferry to the island.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "wˌi tˈʊk ɐ fˈɛɹi tə ði ˈIlənd.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/we-took-a-ferry-to-the-island.mp3",
+      "sha256": "4c32d2e362ccbaca9883b39ffb2a3ba33effefd95f55dd5a04721e94dac6440f"
+    },
+    {
+      "key": "submarine",
+      "text": "submarine",
+      "role": "word",
+      "style": "word",
+      "phonemes": "sˈʌbməɹˌin",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/submarine.mp3",
+      "sha256": "3b93e4fb49db0c089a0afe1aad2acf1ed76ef61b83f46ea867204378b7306f52"
+    },
+    {
+      "key": "a submarine travels underwater",
+      "text": "A submarine travels underwater.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ɐ sˈʌbməɹˌin tɹˈævᵊlz ˌʌndəɹwˈɔTəɹ.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/a-submarine-travels-underwater.mp3",
+      "sha256": "abb560ad499dd9f9e86e2f86efee89a383fad6abb4daa543ebe6d088b0e7fcfd"
+    },
+    {
+      "key": "rocket",
+      "text": "rocket",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ɹˈɑkət",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/rocket.mp3",
+      "sha256": "bdbf3f38cb6d58b19e0f95df59aea305d4b64145cc6758718118a1a3e40ba039"
+    },
+    {
+      "key": "the rocket goes into space",
+      "text": "The rocket goes into space.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə ɹˈɑkət ɡˈOz ˈɪntu spˈAs.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-rocket-goes-into-space.mp3",
+      "sha256": "a735a4704634c49250243c0a480c48315c75390396ffa33688a882d08dca980b"
+    },
+    {
+      "key": "spaceship",
+      "text": "spaceship",
+      "role": "word",
+      "style": "word",
+      "phonemes": "spˈAsʃˌɪp",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/spaceship.mp3",
+      "sha256": "ee424db919d70b08e8bb4b9a33019749f8a3e8bf3aec9a322fa78a2319366fa4"
+    },
+    {
+      "key": "the spaceship travels through space",
+      "text": "The spaceship travels through space.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə spˈAsʃˌɪp tɹˈævᵊlz θɹu spˈAs.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-spaceship-travels-through-space.mp3",
+      "sha256": "1a5c85491a88684bb7cfae65a2b313d8e179782fb646b53ba5ce298327c23d9d"
+    },
+    {
+      "key": "we will meet at the station",
+      "text": "We will meet at the station.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "wˌi wɪl mˈit æt ðə stˈAʃən.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/we-will-meet-at-the-station.mp3",
+      "sha256": "79df3f783ea9de957ec89d40a299932d29671b56368a87ff1ab69fee9c4d7557"
+    },
+    {
+      "key": "bus stop",
+      "text": "bus stop",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "bˈʌs stˈɑp",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/word/bus-stop.mp3",
+      "sha256": "7c93ab4c731df05d016b3906631552faa9ed90740f9f162a48de00f156d8cd42"
+    },
+    {
+      "key": "wait for me at the bus stop",
+      "text": "Wait for me at the bus stop.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "wˈAt fɔɹ mˌi æt ðə bˈʌs stˈɑp.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/wait-for-me-at-the-bus-stop.mp3",
+      "sha256": "1961d6ecb592d47a6196586731f67bedcecf93603b48c5635893737a369abdb5"
+    },
+    {
+      "key": "railway station",
+      "text": "railway station",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "ɹˈAlwˌA stˈAʃən",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/word/railway-station.mp3",
+      "sha256": "0369ece2d8407929e1a97c643655a040a03cb69cf291d63c7f5bf0ebe229e508"
+    },
+    {
+      "key": "the railway station is very old",
+      "text": "The railway station is very old.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə ɹˈAlwˌA stˈAʃən ɪz vˈɛɹi ˈOld.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-railway-station-is-very-old.mp3",
+      "sha256": "036e5202eb5dc65ff49fc71f8b51f3f8a33622589dfc8171a8528abb49794803"
+    },
+    {
+      "key": "airport",
+      "text": "airport",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ˈɛɹpˌɔɹt",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/airport.mp3",
+      "sha256": "a0f5845d947e85759a14e4bd84d5648b3c05794b08a0ea720ba217b8a652bbf6"
+    },
+    {
+      "key": "we arrived at the airport early",
+      "text": "We arrived at the airport early.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "wˌi əɹˈIvd æt ði ˈɛɹpˌɔɹt ˈɜɹli.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/we-arrived-at-the-airport-early.mp3",
+      "sha256": "fbfeb9cbd8f59ea8411e88fc8bb94d11f2f5f5e6b3b9be54572e79dc688ebbac"
+    },
+    {
+      "key": "ticket",
+      "text": "ticket",
+      "role": "word",
+      "style": "word",
+      "phonemes": "tˈɪkət",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/ticket.mp3",
+      "sha256": "a37ca10fca23a48e503dae29efb2dc93129ed291d52330dab91187bb1210d2b2"
+    },
+    {
+      "key": "keep your ticket safe",
+      "text": "Keep your ticket safe.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "kˈip jʊɹ tˈɪkət sˈAf.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/keep-your-ticket-safe.mp3",
+      "sha256": "5b84dd5ab8bc10b259d7700c5467ee79da2ebcb9e7690be9c83f5849b89b3882"
+    },
+    {
+      "key": "ticket office",
+      "text": "ticket office",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "tˈɪkət ˈɔfəs",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/word/ticket-office.mp3",
+      "sha256": "a5648fdd5f6b2e4983c0d71a552ec433a3c4064915bcc338988bcd77f572395a"
+    },
+    {
+      "key": "buy a ticket at the ticket office",
+      "text": "Buy a ticket at the ticket office.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "bˈI ɐ tˈɪkət æt ðə tˈɪkət ˈɔfəs.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/buy-a-ticket-at-the-ticket-office.mp3",
+      "sha256": "790e69d74e0c61697be3949edd172a65590c7a79b61e51b5a08cf3ac246c3489"
+    },
+    {
+      "key": "the train is at platform two",
+      "text": "The train is at platform two.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə tɹˈAn ɪz æt plˈætfˌɔɹm tˈu.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-train-is-at-platform-two.mp3",
+      "sha256": "a199fd23d5e8fd62e07bcffd4b6c8b895c4215705408f4894482c52ff0cf9252"
+    },
+    {
+      "key": "passenger",
+      "text": "passenger",
+      "role": "word",
+      "style": "word",
+      "phonemes": "pˈæsᵊnʤəɹ",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/passenger.mp3",
+      "sha256": "cc9afde75be0df394a6686c33feb58c4cbc2615293515a409deb9acb532988a6"
+    },
+    {
+      "key": "every passenger needs a ticket",
+      "text": "Every passenger needs a ticket.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ˈɛvəɹi pˈæsᵊnʤəɹ nˈidz ɐ tˈɪkət.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/every-passenger-needs-a-ticket.mp3",
+      "sha256": "db2a27d08e27261828ade6dbd677e8bd23ebcc3ff42de96b0ab827a916cbab71"
+    },
+    {
+      "key": "driver",
+      "text": "driver",
+      "role": "word",
+      "style": "word",
+      "phonemes": "dɹˈIvəɹ",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/driver.mp3",
+      "sha256": "9adca70c7fb03e9297ac2b195fe6d789d190145fbbdacd2cf4289fe17cdb3976"
+    },
+    {
+      "key": "the driver stopped the bus",
+      "text": "The driver stopped the bus.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə dɹˈIvəɹ stˈɑpt ðə bˈʌs.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-driver-stopped-the-bus.mp3",
+      "sha256": "fecb9712b9b29c322767fdae3f010703d80ac3144e89619eae1a85a4c8fb313c"
+    },
+    {
+      "key": "pilot",
+      "text": "pilot",
+      "role": "word",
+      "style": "word",
+      "phonemes": "pˈIlət",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/pilot.mp3",
+      "sha256": "321196ee14878b1e55af0dc0cc7dd19e76c01b0071c272a2ace1d3cf7a4812d3"
+    },
+    {
+      "key": "the pilot flies the plane",
+      "text": "The pilot flies the plane.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə pˈIlət flˈIz ðə plˈAn.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-pilot-flies-the-plane.mp3",
+      "sha256": "950031363a861d31a7645e7f3db9cfc36584cc484a8c83b033d03015f30bcd48"
+    },
+    {
+      "key": "sailor",
+      "text": "sailor",
+      "role": "word",
+      "style": "word",
+      "phonemes": "sˈAləɹ",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/sailor.mp3",
+      "sha256": "82605b00d99ab9f7c60281bc2c6a905a4c2d257bcf34d87d2d6319ceec2b79f1"
+    },
+    {
+      "key": "the sailor works on a ship",
+      "text": "The sailor works on a ship.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə sˈAləɹ wˈɜɹks ˌɔn ɐ ʃˈɪp.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-sailor-works-on-a-ship.mp3",
+      "sha256": "774a9a22e93555ff6c713ec5e108b794b7dd982be52b5aa051d4c5d984a00bf3"
+    },
+    {
+      "key": "traffic",
+      "text": "traffic",
+      "role": "word",
+      "style": "word",
+      "phonemes": "tɹˈæfɪk",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/traffic.mp3",
+      "sha256": "542d3a92f6fb33b90aa99159b061a45c2a2a93e38894e868f20a589cfbdd550e"
+    },
+    {
+      "key": "there is a lot of traffic today",
+      "text": "There is a lot of traffic today.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðˌɛɹ ɪz ɐ lˈɑt ʌv tɹˈæfɪk tədˈA.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/there-is-a-lot-of-traffic-today.mp3",
+      "sha256": "fbbcef67507a4ed8d860dec80e2e95c65bb30c93e20e7f14981589c8f07983c5"
+    },
+    {
+      "key": "traffic lights",
+      "text": "traffic lights",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "tɹˈæfɪk lˈIts",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/word/traffic-lights.mp3",
+      "sha256": "1d688a24e517ce5ca04bcb4853a6d15af0174cc9a365f90df437432c4a97c354"
+    },
+    {
+      "key": "stop when the traffic lights are red",
+      "text": "Stop when the traffic lights are red.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "stˈɑp wˌɛn ðə tɹˈæfɪk lˈIts ɑɹ ɹˈɛd.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/stop-when-the-traffic-lights-are-red.mp3",
+      "sha256": "35500c519dd1da10b18da9aa2428a534b3a88cead667cdda579b7d42391d1e86"
+    },
+    {
+      "key": "road",
+      "text": "road",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ɹˈOd",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/road.mp3",
+      "sha256": "88f41dfb9598d95933c86ce7301551afbdf80d788e9a4bdaaee9432c79dcdae3"
+    },
+    {
+      "key": "be careful when you cross the road",
+      "text": "Be careful when you cross the road.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "bˌi kˈɛɹfᵊl wˌɛn ju kɹˈɔs ðə ɹˈOd.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/be-careful-when-you-cross-the-road.mp3",
+      "sha256": "bd3929b5ca27f5d0affd0132e9cab54c3929be81f6b1cd9ae93ef4e10d783bad"
+    },
+    {
+      "key": "street",
+      "text": "street",
+      "role": "word",
+      "style": "word",
+      "phonemes": "stɹˈit",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/street.mp3",
+      "sha256": "37f0273cb98c1ff1f3162594344b34e4102912fa5e1af5487f36a50b2a4ef238"
+    },
+    {
+      "key": "our school is on this street",
+      "text": "Our school is on this street.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ˌWəɹ skˈul ɪz ˌɔn ðɪs stɹˈit.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/our-school-is-on-this-street.mp3",
+      "sha256": "86e900ceaa89b315ddee12aa6cbf15f254300f5beca7aea2dbf37f1bfd26153d"
+    },
+    {
+      "key": "bridge",
+      "text": "bridge",
+      "role": "word",
+      "style": "word",
+      "phonemes": "bɹˈɪʤ",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/bridge.mp3",
+      "sha256": "cdcf297ee6ec2918d3fabaa51859f1ffcc47dc833e64e16de8c33d26e0ffcb7f"
+    },
+    {
+      "key": "the bus goes over the bridge",
+      "text": "The bus goes over the bridge.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə bˈʌs ɡˈOz ˈOvəɹ ðə bɹˈɪʤ.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-bus-goes-over-the-bridge.mp3",
+      "sha256": "7347ccdca692719c41e765cfda4dc47e97edd356b0082d96e31a5b9f2cb1f2ba"
+    },
+    {
+      "key": "tunnel",
+      "text": "tunnel",
+      "role": "word",
+      "style": "word",
+      "phonemes": "tˈʌnᵊl",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/tunnel.mp3",
+      "sha256": "672079e3704130f896cea5e53e4a9062332770d8a0a1372072ed606606817177"
+    },
+    {
+      "key": "the train went through a tunnel",
+      "text": "The train went through a tunnel.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə tɹˈAn wˈɛnt θɹu ɐ tˈʌnᵊl.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-train-went-through-a-tunnel.mp3",
+      "sha256": "a08a01cdac891839a059e1d13dbd8b5b4b0bd506e72cf29a2da358fc7c8c2c59"
+    },
+    {
+      "key": "crossing",
+      "text": "crossing",
+      "role": "word",
+      "style": "word",
+      "phonemes": "kɹˈɔsɪŋ",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/crossing.mp3",
+      "sha256": "061a5b3a13fbfdee1b51e069cce0fbd2900806b0f0b61f370422acfc39e05bf7"
+    },
+    {
+      "key": "use the crossing to cross the road",
+      "text": "Use the crossing to cross the road.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "jˈuz ðə kɹˈɔsɪŋ tə kɹˈɔs ðə ɹˈOd.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/use-the-crossing-to-cross-the-road.mp3",
+      "sha256": "8f8a9e70a181f5e5ddc99aafb5ad8a03aeea1c6c5dc903a5b5cb28db8e560a2b"
+    },
+    {
+      "key": "zebra crossing",
+      "text": "zebra crossing",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "zˈibɹə kɹˈɔsɪŋ",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/word/zebra-crossing.mp3",
+      "sha256": "c5714d0f0cc44e5fd5ee9d862cb932ed98a7546bd79c2dc79f05fe8752d63e48"
+    },
+    {
+      "key": "wait at the zebra crossing",
+      "text": "Wait at the zebra crossing.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "wˈAt æt ðə zˈibɹə kɹˈɔsɪŋ.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/wait-at-the-zebra-crossing.mp3",
+      "sha256": "4ba314219876eb84d99ebbb07c3c362928d8ea0d1d65cb7d134e7b0d9fb20232"
+    },
+    {
+      "key": "helmet",
+      "text": "helmet",
+      "role": "word",
+      "style": "word",
+      "phonemes": "hˈɛlmət",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/helmet.mp3",
+      "sha256": "af2ed328b3a8e290e507930c2204c8dde85f0a990abf64a0319e3876bc9f82d2"
+    },
+    {
+      "key": "wear a helmet when you ride a bike",
+      "text": "Wear a helmet when you ride a bike.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "wˈɛɹ ɐ hˈɛlmət wˌɛn ju ɹˈId ɐ bˈIk.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/wear-a-helmet-when-you-ride-a-bike.mp3",
+      "sha256": "f806acee5a9c9744b3c4f0c7475442543af8ddaa371eaed1e61c7ccd9425bcbb"
+    },
+    {
+      "key": "seat belt",
+      "text": "seat belt",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "sˈit bˈɛlt",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/word/seat-belt.mp3",
+      "sha256": "5a6e1296a0096b18cd888b243331bd994cdabef78e13bd5febcd4243c8e3fab4"
+    },
+    {
+      "key": "please fasten your seat belt",
+      "text": "Please fasten your seat belt.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "plˈiz fˈæsᵊn jʊɹ sˈit bˈɛlt.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/please-fasten-your-seat-belt.mp3",
+      "sha256": "7ab3fb21ef7791fb1ff7a81afb6797a95eada2af6037e63130ba2958ad2278f7"
+    },
+    {
+      "key": "traffic jam",
+      "text": "traffic jam",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "tɹˈæfɪk ʤˈæm",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/word/traffic-jam.mp3",
+      "sha256": "6711f8e0b058d279f1bf8b0ae9fa7ee9f5f351c7223c19256d0f23a43928b584"
+    },
+    {
+      "key": "we were late because of a traffic jam",
+      "text": "We were late because of a traffic jam.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "wˌi wɜɹ lˈAt bəkˈʌz ʌv ɐ tɹˈæfɪk ʤˈæm.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/we-were-late-because-of-a-traffic-jam.mp3",
+      "sha256": "811a426e8cf4f0855d4f0f3fde7f3d82edd9c127e72fae337c480e50010be393"
+    },
+    {
+      "key": "direction",
+      "text": "direction",
+      "role": "word",
+      "style": "word",
+      "phonemes": "dəɹˈɛkʃən",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/direction.mp3",
+      "sha256": "e13e7ed620b2e8c571505f7e7793c229801330b0096b7db3b0bd68a3f6971862"
+    },
+    {
+      "key": "can you tell me the direction",
+      "text": "Can you tell me the direction?",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "kˌæn ju tˈɛl mˌi ðə dəɹˈɛkʃən?",
+      "intonation": "rise",
+      "path": "audio/en-us/travel/sentence/can-you-tell-me-the-direction.mp3",
+      "sha256": "48ea762b7f58d4a5acf33af39cfa8f20d80a7408b307d21385297e81f261605d"
+    },
+    {
+      "key": "left",
+      "text": "left",
+      "role": "word",
+      "style": "word",
+      "phonemes": "lˈɛft",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/left.mp3",
+      "sha256": "73cfeef249a1ffd63fa19f3aecbc5b937a2921fdcbb9f045ac65208cc43dbb81"
+    },
+    {
+      "key": "turn left at the next street",
+      "text": "Turn left at the next street.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "tˈɜɹn lˈɛft æt ðə nˈɛkst stɹˈit.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/turn-left-at-the-next-street.mp3",
+      "sha256": "70d37f498a745d6b564088284ccf055156e4861c3a0ae74a2504040829efa1f5"
+    },
+    {
+      "key": "right",
+      "text": "right",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ɹˈIt",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/right.mp3",
+      "sha256": "c6209fdb94e593820416341b32baa9aa13e6740086452380c739e8971cc2a3b8"
+    },
+    {
+      "key": "the library is on the right",
+      "text": "The library is on the right.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə lˈIbɹˌɛɹi ɪz ˌɔn ðə ɹˈIt.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-library-is-on-the-right.mp3",
+      "sha256": "67a6a227f0f7c5365acdd1a3bfdc692f0a63b16f8f0e692dea1bb6425cb75875"
+    },
+    {
+      "key": "go straight for two minutes",
+      "text": "Go straight for two minutes.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ɡˌO stɹˈAt fɔɹ tˈu mˈɪnəts.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/go-straight-for-two-minutes.mp3",
+      "sha256": "e7021eba80342f7ef46b95d3fa027c7376af3ec08cdb77f78abfcace021fb500"
+    },
+    {
+      "key": "turn left",
+      "text": "turn left",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "tˈɜɹn lˈɛft",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/word/turn-left.mp3",
+      "sha256": "246b1b888affcd9089194678a5852ac64f335215d09812e85bbc1863d4d5a1de"
+    },
+    {
+      "key": "turn left after the bridge",
+      "text": "Turn left after the bridge.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "tˈɜɹn lˈɛft ˈæftəɹ ðə bɹˈɪʤ.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/turn-left-after-the-bridge.mp3",
+      "sha256": "1fa67062009927698cfcb429ee3d70c072e04b9d2c86ec3d4604db622b5e6e86"
+    },
+    {
+      "key": "turn right",
+      "text": "turn right",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "tˈɜɹn ɹˈIt",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/word/turn-right.mp3",
+      "sha256": "f62d59955904a02aaf9db6c744f5c13a95e88e163a3cb9b72acc8845e0edc5eb"
+    },
+    {
+      "key": "turn right at the traffic lights",
+      "text": "Turn right at the traffic lights.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "tˈɜɹn ɹˈIt æt ðə tɹˈæfɪk lˈIts.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/turn-right-at-the-traffic-lights.mp3",
+      "sha256": "3b5a9e8c26a61f5de2243966d260a406025de241e4ff2148256abe872ad4137d"
+    },
+    {
+      "key": "go straight",
+      "text": "go straight",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "ɡˌO stɹˈAt",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/word/go-straight.mp3",
+      "sha256": "bc81e048bac5455c0d2406931435f2c2326efecfb1bcf3abac36146873300546"
+    },
+    {
+      "key": "go straight and you will see the school",
+      "text": "Go straight and you will see the school.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ɡˌO stɹˈAt ænd ju wɪl sˈi ðə skˈul.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/go-straight-and-you-will-see-the-school.mp3",
+      "sha256": "c1230b0df1e28dfc7c4f0a07e8739d0c5a3f2cab6d5b4ae3b698a49116762f9a"
+    },
+    {
+      "key": "north",
+      "text": "north",
+      "role": "word",
+      "style": "word",
+      "phonemes": "nˈɔɹθ",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/north.mp3",
+      "sha256": "4d62d18e5aeab7064ce7b754a6f6efb73b68a7d87d088a8cfca4790b5c94e569"
+    },
+    {
+      "key": "the sea is to the north",
+      "text": "The sea is to the north.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə sˈi ɪz tə ðə nˈɔɹθ.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-sea-is-to-the-north.mp3",
+      "sha256": "4dc3f837f8c148cc4ab56abce3ac8b450f0af673d13df05a596f26eacf3435a8"
+    },
+    {
+      "key": "south",
+      "text": "south",
+      "role": "word",
+      "style": "word",
+      "phonemes": "sˈWθ",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/south.mp3",
+      "sha256": "4c43f1cd61496d33770637c11edeb533fb6ebe5e086027318748a181063ab407"
+    },
+    {
+      "key": "the town is south of the river",
+      "text": "The town is south of the river.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə tˈWn ɪz sˈWθ ʌv ðə ɹˈɪvəɹ.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-town-is-south-of-the-river.mp3",
+      "sha256": "f5477bcab1f1702e6a11ca6102fce60b538f344b6f16bbf4dd20e0b63510fb11"
+    },
+    {
+      "key": "east",
+      "text": "east",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ˈist",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/east.mp3",
+      "sha256": "1f35abeb0b5fda03f683cc1b835cd1e6f0f162f19a3ab1188e535b202efe6cef"
+    },
+    {
+      "key": "the sun rises in the east",
+      "text": "The sun rises in the east.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə sˈʌn ɹˈIzᵻz ɪn ði ˈist.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-sun-rises-in-the-east.mp3",
+      "sha256": "42288cd02b58ce89ad9e01081f5a9fb95b82f009f15f77184af493fd1736acc6"
+    },
+    {
+      "key": "west",
+      "text": "west",
+      "role": "word",
+      "style": "word",
+      "phonemes": "wˈɛst",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/west.mp3",
+      "sha256": "ba843aa9f079bd1d85101961936c3a4909da939577bcfa0f5601bd439d114815"
+    },
+    {
+      "key": "the sun sets in the west",
+      "text": "The sun sets in the west.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə sˈʌn sˈɛts ɪn ðə wˈɛst.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-sun-sets-in-the-west.mp3",
+      "sha256": "df7b34df38f0e427b0692b4154ac672d12125d7d57288494923b3fb92377e9c4"
+    },
+    {
+      "key": "the bus stop is near my house",
+      "text": "The bus stop is near my house.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə bˈʌs stˈɑp ɪz nˌɪɹ mI hˈWs.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-bus-stop-is-near-my-house.mp3",
+      "sha256": "a59f108312f5e7d4c4f892f10ab369e8d3c44a264e7ffa6b2345558d3aa4d134"
+    },
+    {
+      "key": "far",
+      "text": "far",
+      "role": "word",
+      "style": "word",
+      "phonemes": "fˈɑɹ",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/far.mp3",
+      "sha256": "d3aef5a22d49bfb7215b5a3c255e129375e4d8e1c8391ac57667556b60bda86e"
+    },
+    {
+      "key": "the station is not far away",
+      "text": "The station is not far away.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə stˈAʃən ɪz nˌɑt fˈɑɹ əwˈA.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-station-is-not-far-away.mp3",
+      "sha256": "d4522df7da78b70103afc6bb7933e457fce290da82e3a9043c8e2f7cc485c0c3"
+    },
+    {
+      "key": "next to",
+      "text": "next to",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "nˈɛkst tu",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/word/next-to.mp3",
+      "sha256": "78a942e3e5e179ba9bc8b4dd29c3b2af5ce62cb7fbac831d5183af8d7806a54d"
+    },
+    {
+      "key": "the bank is next to the caf",
+      "text": "The bank is next to the café.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə bˈæŋk ɪz nˈɛkst tə ðə kæfˈA.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-bank-is-next-to-the-caf.mp3",
+      "sha256": "f1645691255547dce21771ab32149e8e419f693404f5a5b0eedf591adb0d2837"
+    },
+    {
+      "key": "beside",
+      "text": "beside",
+      "role": "word",
+      "style": "word",
+      "phonemes": "bəsˈId",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/beside.mp3",
+      "sha256": "bc8a0953d8326a5b9e3b677d3a3f00ac2c4a446b0db3b0736518d6be3dc44c4d"
+    },
+    {
+      "key": "sit beside your sister",
+      "text": "Sit beside your sister.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "sˈɪt bəsˈId jʊɹ sˈɪstəɹ.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/sit-beside-your-sister.mp3",
+      "sha256": "8c6d1cb9e8996b85a89e0f9eb8acabbc9cb543315b17c445283816a3574cca92"
+    },
+    {
+      "key": "between",
+      "text": "between",
+      "role": "word",
+      "style": "word",
+      "phonemes": "bətwˈin",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/between.mp3",
+      "sha256": "44bbaea37e5ca108e0f8a09d546f04d80581a9bd564b74553dc60ebde930863c"
+    },
+    {
+      "key": "the shop is between the bank and the caf",
+      "text": "The shop is between the bank and the café.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə ʃˈɑp ɪz bətwˈin ðə bˈæŋk ænd ðə kæfˈA.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-shop-is-between-the-bank-and-the-caf.mp3",
+      "sha256": "a539da599cfa93457933d6eaa567430f56f5b765035644ffd2b3e0f554468954"
+    },
+    {
+      "key": "opposite",
+      "text": "opposite",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ˈɑpəzət",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/opposite.mp3",
+      "sha256": "d2d9044e18867f758a44813aaa7270e66b116f028e0591d15b0f259fa131f5d7"
+    },
+    {
+      "key": "the school is opposite the park",
+      "text": "The school is opposite the park.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə skˈul ɪz ˈɑpəzət ðə pˈɑɹk.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-school-is-opposite-the-park.mp3",
+      "sha256": "a34921bc9567f7c606c8faebb672a031acaab94fd35afb07cdd634a671387969"
+    },
+    {
+      "key": "in front of",
+      "text": "in front of",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "ɪn fɹˈʌnt ʌv",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/word/in-front-of.mp3",
+      "sha256": "8428d4b314dfbae89323a905c913e11bf54f4210064140132e2e95f057ef176a"
+    },
+    {
+      "key": "the bus is in front of the station",
+      "text": "The bus is in front of the station.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə bˈʌs ɪz ɪn fɹˈʌnt ʌv ðə stˈAʃən.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-bus-is-in-front-of-the-station.mp3",
+      "sha256": "37d71706bf2b67ee7e954a8d8eb7307328e7dab5713cefa4aafd2432df49d5f5"
+    },
+    {
+      "key": "behind",
+      "text": "behind",
+      "role": "word",
+      "style": "word",
+      "phonemes": "bəhˈInd",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/behind.mp3",
+      "sha256": "c2c30e018557df3877e6bafe700bf10135420f799e94cbb5ca672de4c5771b20"
+    },
+    {
+      "key": "the garden is behind the house",
+      "text": "The garden is behind the house.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə ɡˈɑɹdən ɪz bəhˈInd ðə hˈWs.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-garden-is-behind-the-house.mp3",
+      "sha256": "85f0a796cfdcd067f749afc4ad02dc28fea22ba1ab57ec8391e5d33835dd8ab6"
+    },
+    {
+      "key": "above",
+      "text": "above",
+      "role": "word",
+      "style": "word",
+      "phonemes": "əbˈʌv",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/above.mp3",
+      "sha256": "fb9097c330780720b86f1fc4fa65c6f27eacfaf00966e398a8b90fce09dc0f96"
+    },
+    {
+      "key": "below",
+      "text": "below",
+      "role": "word",
+      "style": "word",
+      "phonemes": "bəlˈO",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/below.mp3",
+      "sha256": "c42936e741955a42b242ab08755f41efb6f23c519dd6c1db7c68f9de99210670"
+    },
+    {
+      "key": "the picture is below the shelf",
+      "text": "The picture is below the shelf.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə pˈɪkʧəɹ ɪz bəlˈO ðə ʃˈɛlf.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-picture-is-below-the-shelf.mp3",
+      "sha256": "b8f2106c37c72a72ec4aa45e5312422b0035383aa98373ff9ef9f35c89637a75"
+    },
+    {
+      "key": "under",
+      "text": "under",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ˈʌndəɹ",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/under.mp3",
+      "sha256": "66257c3d5d2bc13336b74b4a2d0195ba6581f82d5e457da02e940ce376adf6ca"
+    },
+    {
+      "key": "the cat is under the table",
+      "text": "The cat is under the table.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə kˈæt ɪz ˈʌndəɹ ðə tˈAbᵊl.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-cat-is-under-the-table.mp3",
+      "sha256": "42351c27ea202a200fae71565b0b8cf58e89895b593d8896fc8831fc4c0387ec"
+    },
+    {
+      "key": "over",
+      "text": "over",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ˈOvəɹ",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/over.mp3",
+      "sha256": "cfa4babdf7ee3971313e718745701576e996ef2eee1498b8d549109144c27ad0"
+    },
+    {
+      "key": "the plane flew over the city",
+      "text": "The plane flew over the city.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə plˈAn flˈu ˈOvəɹ ðə sˈɪTi.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-plane-flew-over-the-city.mp3",
+      "sha256": "c1c508a6099581d2adf9abb78988c8d60b23ab0ed7b86c1dff8ace533bd3cb53"
+    },
+    {
+      "key": "inside",
+      "text": "inside",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ɪnsˈId",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/inside.mp3",
+      "sha256": "2d418eae16eb29f7a341104b10fb9cf031fcf9af7dfd22900397cf69cac8684c"
+    },
+    {
+      "key": "please wait inside the building",
+      "text": "Please wait inside the building.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "plˈiz wˈAt ɪnsˈId ðə bˈɪldɪŋ.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/please-wait-inside-the-building.mp3",
+      "sha256": "eed8a78949954ca68321c5d162fc3844ec679a847027252ad5e74f4b36344e6d"
+    },
+    {
+      "key": "outside",
+      "text": "outside",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ˌWtsˈId",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/outside.mp3",
+      "sha256": "a2e973a77c4e9c8dfa65ad08a7c40013792aeccbe7df2f9a22f28d2341371506"
+    },
+    {
+      "key": "the children are playing outside",
+      "text": "The children are playing outside.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə ʧˈɪldɹᵊn ɑɹ plˈAɪŋ ˌWtsˈId.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-children-are-playing-outside.mp3",
+      "sha256": "62b399da612dbed316e17d382d810ba1eb8d5829c3a6f88554b49966cdde2a76"
+    },
+    {
+      "key": "on the left",
+      "text": "on the left",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "ˌɔn ðə lˈɛft",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/word/on-the-left.mp3",
+      "sha256": "04703a5f04ebbbd4cfdf17619153593d8444a5085df8a7c3b11e03f81db11ed8"
+    },
+    {
+      "key": "the shop is on the left",
+      "text": "The shop is on the left.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə ʃˈɑp ɪz ˌɔn ðə lˈɛft.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-shop-is-on-the-left.mp3",
+      "sha256": "3358dc6f7131c65f5a01ad7bbeda279deeecf8a3e633613f336524afd6ea93c4"
+    },
+    {
+      "key": "on the right",
+      "text": "on the right",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "ˌɔn ðə ɹˈIt",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/word/on-the-right.mp3",
+      "sha256": "696f3cc7ecf5e725b2bd0a89ea64af7c8892ea872770e1efcb72cf788b34ab5f"
+    },
+    {
+      "key": "the door is on the right",
+      "text": "The door is on the right.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə dˈɔɹ ɪz ˌɔn ðə ɹˈIt.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-door-is-on-the-right.mp3",
+      "sha256": "0304e39de85c4ecb3f3f4624b317b848e1afc9f2edaec09481e7a1f5924ea075"
+    },
+    {
+      "key": "across from",
+      "text": "across from",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "əkɹˈɔs fɹʌm",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/word/across-from.mp3",
+      "sha256": "cccfd41365de51ca2a6db06a756f3d3444c408564b099e10bb2c8b34913020ad"
+    },
+    {
+      "key": "the caf is across from the library",
+      "text": "The café is across from the library.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə kæfˈA ɪz əkɹˈɔs fɹʌm ðə lˈIbɹˌɛɹi.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-caf-is-across-from-the-library.mp3",
+      "sha256": "ba7bfffeaa5d47f880bfbfa1d52295d8665907ee229c3017435a2d221d681f20"
+    },
+    {
+      "key": "around the corner",
+      "text": "around the corner",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "əɹˈWnd ðə kˈɔɹnəɹ",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/word/around-the-corner.mp3",
+      "sha256": "8ea60bb50ea9dec6162629360ec92aee3d5d0a16fed5ff4e58709a329612d7c8"
+    },
+    {
+      "key": "the pharmacy is around the corner",
+      "text": "The pharmacy is around the corner.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə fˈɑɹməsi ɪz əɹˈWnd ðə kˈɔɹnəɹ.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-pharmacy-is-around-the-corner.mp3",
+      "sha256": "870fde5c5d053d3b1ab5732900b8c88473e76f9d1a201bd02c578154de8862b8"
+    },
+    {
+      "key": "at the end of",
+      "text": "at the end of",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "æt ði ˈɛnd ʌv",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/word/at-the-end-of.mp3",
+      "sha256": "a826cd25a2f48fe9bf7579c877244b45584125fad0d754cd5ecbce3f81358576"
+    },
+    {
+      "key": "the park is at the end of this road",
+      "text": "The park is at the end of this road.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə pˈɑɹk ɪz æt ði ˈɛnd ʌv ðɪs ɹˈOd.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-park-is-at-the-end-of-this-road.mp3",
+      "sha256": "96f6c81caee2ca54eafd288bd569d5bb1a5760ff8822f902ca02a31ee6d5fdfb"
+    },
+    {
+      "key": "through",
+      "text": "through",
+      "role": "word",
+      "style": "word",
+      "phonemes": "θɹˈu",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/through.mp3",
+      "sha256": "0124284ee6d3fcabb8ee9a26725647449399f8f387759f2948c89c16798cc3a2"
+    },
+    {
+      "key": "walk through the park",
+      "text": "Walk through the park.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "wˈɔk θɹu ðə pˈɑɹk.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/walk-through-the-park.mp3",
+      "sha256": "7989b7108c049d50134fd46b045d7cea4bcb621a1c7fec23164297f76589827e"
+    },
+    {
+      "key": "along",
+      "text": "along",
+      "role": "word",
+      "style": "word",
+      "phonemes": "əlˈɔŋ",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/along.mp3",
+      "sha256": "ec4e31cfd53eb3f0065f33e1887df17b3c1b3e2e7d709943acb4fd58f8abc7d1"
+    },
+    {
+      "key": "walk along this street",
+      "text": "Walk along this street.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "wˈɔk əlˈɔŋ ðɪs stɹˈit.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/walk-along-this-street.mp3",
+      "sha256": "1dcba63f5633de76d34f22d13c1c1007ba56e021e64f58e9e8e48418acb200d3"
+    },
+    {
+      "key": "go past the bank and turn left",
+      "text": "Go past the bank and turn left.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ɡˌO pˈæst ðə bˈæŋk ænd tˈɜɹn lˈɛft.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/go-past-the-bank-and-turn-left.mp3",
+      "sha256": "fb01340c51d50beee15295bfe6cb9032b80f47dca13ec98e33d00b99d6655e45"
+    },
+    {
+      "key": "the entrance is on the right",
+      "text": "The entrance is on the right.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ði ˈɛntɹəns ɪz ˌɔn ðə ɹˈIt.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-entrance-is-on-the-right.mp3",
+      "sha256": "ed26e1663d0156f31b3ccf9fb597ba182d446eff1e83a7d2105f9731f9625475"
+    },
+    {
+      "key": "please use the main exit",
+      "text": "Please use the main exit.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "plˈiz jˈuz ðə mˈAn ˈɛɡzət.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/please-use-the-main-exit.mp3",
+      "sha256": "9154341f4aa7b296d7aac7c78ffc448faee4870872d5e3da5755df1b1b2b56a6"
+    },
+    {
+      "key": "upstairs",
+      "text": "upstairs",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ˌʌpstˈɛɹz",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/upstairs.mp3",
+      "sha256": "42a37f1407316e41ae143b9d78528aa4b7ed76ede07db4dfe3dd14375da32c6b"
+    },
+    {
+      "key": "the classroom is upstairs",
+      "text": "The classroom is upstairs.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə klˈæsɹˌum ɪz ˌʌpstˈɛɹz.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-classroom-is-upstairs.mp3",
+      "sha256": "5157020c17e96ba137a3392923d8079c4ab4d38cbb06b2c0ff945bcaeaa311a9"
+    },
+    {
+      "key": "downstairs",
+      "text": "downstairs",
+      "role": "word",
+      "style": "word",
+      "phonemes": "dˌWnstˈɛɹz",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/downstairs.mp3",
+      "sha256": "6d5a894f14a1a0fa76349855557f5dec5fd38fadb15d76bcbf491239b9960734"
+    },
+    {
+      "key": "the kitchen is downstairs",
+      "text": "The kitchen is downstairs.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə kˈɪʧᵊn ɪz dˌWnstˈɛɹz.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-kitchen-is-downstairs.mp3",
+      "sha256": "599fb5af3b314a12f1057d7c980f217911df4afa1a4703a40e7b761756b7f89c"
+    },
+    {
+      "key": "address",
+      "text": "address",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ədɹˈɛs",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/address.mp3",
+      "sha256": "44c4ed253adc092e31d2b8c100c3be92ee236798559d9608ea90cc21a7932028"
+    },
+    {
+      "key": "please write your address here",
+      "text": "Please write your address here.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "plˈiz ɹˈIt jʊɹ ədɹˈɛs hˈɪɹ.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/please-write-your-address-here.mp3",
+      "sha256": "1d5d24efa457bbcb1dfeb45e080267ed733906c403c799dac857566209636d02"
+    },
+    {
+      "key": "map",
+      "text": "map",
+      "role": "word",
+      "style": "word",
+      "phonemes": "mˈæp",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/map.mp3",
+      "sha256": "7975faff53aeee116532fc9557776a07d88f3f9e3f0d5494e9a5c83231afeda8"
+    },
+    {
+      "key": "let's look at the map",
+      "text": "Let's look at the map.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "lˈɛts lˈʊk æt ðə mˈæp.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/let-s-look-at-the-map.mp3",
+      "sha256": "eede3bfad5b741b63b500006abd7b5f6026527bb80b9820d56742305ea1ad30f"
+    },
+    {
+      "key": "city",
+      "text": "city",
+      "role": "word",
+      "style": "word",
+      "phonemes": "sˈɪTi",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/city.mp3",
+      "sha256": "a6bdf77036b62e11fae97b5e47dd9f13086147ff6247f17fd68b19a26f8873c6"
+    },
+    {
+      "key": "this city is very busy",
+      "text": "This city is very busy.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðˌɪs sˈɪTi ɪz vˈɛɹi bˈɪzi.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/this-city-is-very-busy.mp3",
+      "sha256": "4a736cea6fd3a43896b7362346267628f62ccd21ddad472f3408e88b5d9190f1"
+    },
+    {
+      "key": "town",
+      "text": "town",
+      "role": "word",
+      "style": "word",
+      "phonemes": "tˈWn",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/town.mp3",
+      "sha256": "14d06968afac8d4f5185c1cd7789df49621e3bc9416da159aa69c32f05298081"
+    },
+    {
+      "key": "my grandparents live in a small town",
+      "text": "My grandparents live in a small town.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "mˌI ɡɹˈændpˌɛɹənts lˈɪv ɪn ɐ smˈɔl tˈWn.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/my-grandparents-live-in-a-small-town.mp3",
+      "sha256": "8b9df6246fc846c63629fa92ac2766f64dcbd36549392a02a3517f76fa88367a"
+    },
+    {
+      "key": "village",
+      "text": "village",
+      "role": "word",
+      "style": "word",
+      "phonemes": "vˈɪlɪʤ",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/village.mp3",
+      "sha256": "762c979db81513817b14eafd79fb073a737e2dc7780cba9fe69923d27bbaa91c"
+    },
+    {
+      "key": "the village is near a river",
+      "text": "The village is near a river.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə vˈɪlɪʤ ɪz nˌɪɹ ɐ ɹˈɪvəɹ.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-village-is-near-a-river.mp3",
+      "sha256": "256ad3b9b8e969fb6fbd709983601f2e292c40c8e1979f2d97b00b004efc112b"
+    },
+    {
+      "key": "capital",
+      "text": "capital",
+      "role": "word",
+      "style": "word",
+      "phonemes": "kˈæpəTᵊl",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/capital.mp3",
+      "sha256": "4873921317039c53a59a33014e58a647ece6b58a98065b9cc8a3f9562b321299"
+    },
+    {
+      "key": "london is the capital of the uk",
+      "text": "London is the capital of the UK.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "lˈʌndən ɪz ðə kˈæpəTᵊl ʌv ðə jˌukˈA.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/london-is-the-capital-of-the-uk.mp3",
+      "sha256": "19386561c1351dca861b1f0e6e3e8604949ecf63a7f0fa755293096772455344"
+    },
+    {
+      "key": "city centre",
+      "text": "city centre",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "sˈɪTi sˈɛntəɹ",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/word/city-centre.mp3",
+      "sha256": "77636fa5fa4242dc1f15009fdf0ce2e6585aa7d9e45ca5683ec84cf48572defb"
+    },
+    {
+      "key": "the shop is in the city centre",
+      "text": "The shop is in the city centre.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə ʃˈɑp ɪz ɪn ðə sˈɪTi sˈɛntəɹ.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-shop-is-in-the-city-centre.mp3",
+      "sha256": "5646bc783e3a1b0e9dea1d85b5fa1707dc56e360fb2155b18aff7a64e7b16afb"
+    },
+    {
+      "key": "people are walking across the square",
+      "text": "People are walking across the square.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "pˈipᵊl ɑɹ wˈɔkɪŋ əkɹˈɔs ðə skwˈɛɹ.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/people-are-walking-across-the-square.mp3",
+      "sha256": "e9e73694b7c08cf0d702a1d13d14ecddd160a73b2063f3769f292ed893dd7ecf"
+    },
+    {
+      "key": "park",
+      "text": "park",
+      "role": "word",
+      "style": "word",
+      "phonemes": "pˈɑɹk",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/park.mp3",
+      "sha256": "68b3e82081852ffa4331304a11b65686a4a74076f4a6814f4007edaccd8a23da"
+    },
+    {
+      "key": "we play football in the park",
+      "text": "We play football in the park.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "wˌi plˈA fˈʊtbˌɔl ɪn ðə pˈɑɹk.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/we-play-football-in-the-park.mp3",
+      "sha256": "0dba68cfafb53d8716a6b06c27c093bf6665510c359e7dd21bcd15e00986a8e8"
+    },
+    {
+      "key": "the children are in the playground",
+      "text": "The children are in the playground.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə ʧˈɪldɹᵊn ɑɹ ɪn ðə plˈAɡɹˌWnd.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-children-are-in-the-playground.mp3",
+      "sha256": "0e3527469d7a98a4c8a40e7edcde72e0408022a9f1e69eff8be0462056930fd5"
+    },
+    {
+      "key": "the school is next to the park",
+      "text": "The school is next to the park.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə skˈul ɪz nˈɛkst tə ðə pˈɑɹk.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-school-is-next-to-the-park.mp3",
+      "sha256": "2f57d17aaf3a5ec76a151351b24cffff42c3302f5c7b7b9c75764bafc00dbe49"
+    },
+    {
+      "key": "university",
+      "text": "university",
+      "role": "word",
+      "style": "word",
+      "phonemes": "jˌunəvˈɜɹsəTi",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/university.mp3",
+      "sha256": "bb240997ba99de077ec5f33e1276b7de1f703d01cb9f6d8b97410486a9d1f14d"
+    },
+    {
+      "key": "her brother studies at university",
+      "text": "Her brother studies at university.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "hˌɜɹ bɹˈʌðəɹ stˈʌdiz æt jˌunəvˈɜɹsəTi.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/her-brother-studies-at-university.mp3",
+      "sha256": "2c94fa317f12e32605fe3506c6291a0d87fc38df164b84441ef227dcc91544e5"
+    },
+    {
+      "key": "the hospital is open all day",
+      "text": "The hospital is open all day.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə hˈɑspˌɪTᵊl ɪz ˈOpᵊn ˈɔl dˈA.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-hospital-is-open-all-day.mp3",
+      "sha256": "558ca7a4511b5c88a1883358655d5b93a194f5fe7eaf2bc169dc4c4a6f333e9d"
+    },
+    {
+      "key": "the doctor works at a local clinic",
+      "text": "The doctor works at a local clinic.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə dˈɑktəɹ wˈɜɹks æt ɐ lˈOkəl klˈɪnɪk.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-doctor-works-at-a-local-clinic.mp3",
+      "sha256": "bda97c3720c5b65b2fa8bd5ff1cc2513029876523c13251794d2c1469c5642b3"
+    },
+    {
+      "key": "police station",
+      "text": "police station",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "pəlˈis stˈAʃən",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/word/police-station.mp3",
+      "sha256": "034a77d64ee5fa4934e42da39a9a5ae43e82207725fb32b9a620121f765e5e56"
+    },
+    {
+      "key": "the police station is near the bank",
+      "text": "The police station is near the bank.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə pəlˈis stˈAʃən ɪz nˌɪɹ ðə bˈæŋk.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-police-station-is-near-the-bank.mp3",
+      "sha256": "c2602aad908211b14ed4ebcb7675f9d882b83e2e6da9a671c417e2d74ebed438"
+    },
+    {
+      "key": "fire station",
+      "text": "fire station",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "fˈIəɹ stˈAʃən",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/word/fire-station.mp3",
+      "sha256": "5600a801af7c897d08021496b4604f1f529fd232f8dee69f05e5089dc5ce2ac9"
+    },
+    {
+      "key": "the fire station has several fire engines",
+      "text": "The fire station has several fire engines.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə fˈIəɹ stˈAʃən hæz sˈɛvəɹəl fˈIəɹ ˈɛnʤənz.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-fire-station-has-several-fire-engines.mp3",
+      "sha256": "08774346891f2a51fed79f109a08efc9d7a67ee36ef1f3d367e202c001e6f6f8"
+    },
+    {
+      "key": "post office",
+      "text": "post office",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "pˈOst ˈɔfəs",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/word/post-office.mp3",
+      "sha256": "b2a243468911a3fee075156ce3ff9e6d019eeb5d7d24510a7b63b8c8007f21ae"
+    },
+    {
+      "key": "i sent a letter at the post office",
+      "text": "I sent a letter at the post office.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ˌI sˈɛnt ɐ lˈɛTəɹ æt ðə pˈOst ˈɔfəs.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/i-sent-a-letter-at-the-post-office.mp3",
+      "sha256": "2519261e12d3551e01fe6bfd4f05428f8b20ea2db6fa7f5963e489333189798c"
+    },
+    {
+      "key": "bank",
+      "text": "bank",
+      "role": "word",
+      "style": "word",
+      "phonemes": "bˈæŋk",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/bank.mp3",
+      "sha256": "d9953f3b75d853eeedc4a2feb92f108c63ab4617bff4d351b9ca138aaed14d41"
+    },
+    {
+      "key": "my mum went to the bank",
+      "text": "My mum went to the bank.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "mˌI mˈʌm wˈɛnt tə ðə bˈæŋk.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/my-mum-went-to-the-bank.mp3",
+      "sha256": "c00b3b617f4e2662506f40ef1e969594a9990894348ee20d3376c02ab756f41a"
+    },
+    {
+      "key": "supermarket",
+      "text": "supermarket",
+      "role": "word",
+      "style": "word",
+      "phonemes": "sˈupəɹmˌɑɹkət",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/supermarket.mp3",
+      "sha256": "1310fe457b7cf2e946036f00c5fad66de0a749f92ca060b17407d189eb365bf1"
+    },
+    {
+      "key": "we buy food at the supermarket",
+      "text": "We buy food at the supermarket.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "wˌi bˈI fˈud æt ðə sˈupəɹmˌɑɹkət.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/we-buy-food-at-the-supermarket.mp3",
+      "sha256": "766ae8f2f265a9fa4fb8c2ee624d070e7ca634ebddac7da29d654033a80f7b8c"
+    },
+    {
+      "key": "market",
+      "text": "market",
+      "role": "word",
+      "style": "word",
+      "phonemes": "mˈɑɹkət",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/market.mp3",
+      "sha256": "5131d22d488db301d89bbe3c034f5e40946688232373c0ae0bd5f9012af9deab"
+    },
+    {
+      "key": "fresh fruit is sold at the market",
+      "text": "Fresh fruit is sold at the market.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "fɹˈɛʃ fɹˈut ɪz sˈOld æt ðə mˈɑɹkət.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/fresh-fruit-is-sold-at-the-market.mp3",
+      "sha256": "2b19ba5d77642f1399edba229484d421f2227c080cecdf94670fa6bf8c32c5fe"
+    },
+    {
+      "key": "restaurant",
+      "text": "restaurant",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ɹˈɛstəɹənt",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/restaurant.mp3",
+      "sha256": "efb06012dd15d3814d16590de7f8821f13d3d1ff4e71c7faaae4f968bc4ecfee"
+    },
+    {
+      "key": "the restaurant serves lunch",
+      "text": "The restaurant serves lunch.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə ɹˈɛstəɹənt sˈɜɹvz lˈʌnʧ.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-restaurant-serves-lunch.mp3",
+      "sha256": "2c30757de8147d3173cfc0f8c83c2bf2f7caeb308881d82626402e3a0eda0c66"
+    },
+    {
+      "key": "caf",
+      "text": "café",
+      "role": "word",
+      "style": "word",
+      "phonemes": "kæfˈA",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/caf.mp3",
+      "sha256": "a58b8e185e49e84a68ad29f54c1a89070ec8667e79e92645062ea446f0a0eba4"
+    },
+    {
+      "key": "we had a snack at the caf",
+      "text": "We had a snack at the café.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "wˌi hæd ɐ snˈæk æt ðə kæfˈA.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/we-had-a-snack-at-the-caf.mp3",
+      "sha256": "4c994daf71d48823895e4e44569136b058e324550ccda63cfe1da09229a3a35b"
+    },
+    {
+      "key": "hotel",
+      "text": "hotel",
+      "role": "word",
+      "style": "word",
+      "phonemes": "hOtˈɛl",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/hotel.mp3",
+      "sha256": "7804666ea682cab0f637d0a1f26f388045b55a1d9be1e7bf2f6a65c1850833a0"
+    },
+    {
+      "key": "we stayed at a small hotel",
+      "text": "We stayed at a small hotel.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "wˌi stˈAd æt ɐ smˈɔl hOtˈɛl.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/we-stayed-at-a-small-hotel.mp3",
+      "sha256": "db06d9fde08e39f98b8e2cd65c163b2cf8857ace8911e4706b191153250a71b1"
+    },
+    {
+      "key": "cinema",
+      "text": "cinema",
+      "role": "word",
+      "style": "word",
+      "phonemes": "sˈɪnəmə",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/cinema.mp3",
+      "sha256": "8379b87013fa28fc0672e9b7fadffd9818c3f331e900ccd9cf33aadd1afc1f73"
+    },
+    {
+      "key": "the film starts at the cinema at six",
+      "text": "The film starts at the cinema at six.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə fˈɪlm stˈɑɹts æt ðə sˈɪnəmə æt sˈɪks.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-film-starts-at-the-cinema-at-six.mp3",
+      "sha256": "7a804d8a5e9d54a6ab8a148c8a2eaf107793b707ede7013cec1317d9a203158f"
+    },
+    {
+      "key": "theatre",
+      "text": "theatre",
+      "role": "word",
+      "style": "word",
+      "phonemes": "θˈiəTəɹ",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/theatre.mp3",
+      "sha256": "edf995a4c621b88f345f0fa8a60e4017534ae762b535357afd9cc035e0c868c8"
+    },
+    {
+      "key": "we watched a play at the theatre",
+      "text": "We watched a play at the theatre.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "wˌi wˈɑʧt ɐ plˈA æt ðə θˈiəTəɹ.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/we-watched-a-play-at-the-theatre.mp3",
+      "sha256": "27bd2a36ac04fedbac2356c24ac4199f15be800b2e214477e2c5b481c9a42083"
+    },
+    {
+      "key": "museum",
+      "text": "museum",
+      "role": "word",
+      "style": "word",
+      "phonemes": "mjuzˈiəm",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/museum.mp3",
+      "sha256": "10f24012308f0a3ceac1033e52a49c42a689c6db76703c04aa1afd04b075759f"
+    },
+    {
+      "key": "the museum has old toys",
+      "text": "The museum has old toys.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə mjuzˈiəm hæz ˈOld tˈYz.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-museum-has-old-toys.mp3",
+      "sha256": "9805165e7ed1a96fd7a7005bebabc202d8b18fed66eb403491beaa01ad31a454"
+    },
+    {
+      "key": "we saw elephants at the zoo",
+      "text": "We saw elephants at the zoo.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "wˌi sˈɔ ˈɛləfənts æt ðə zˈu.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/we-saw-elephants-at-the-zoo.mp3",
+      "sha256": "8c1eb4a833a7304501e1efc05f661b1e5bedd9deed537460096881b589770457"
+    },
+    {
+      "key": "the aquarium has many colourful fish",
+      "text": "The aquarium has many colourful fish.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ði əkwˈɛɹiəm hæz mˈɛni kˈʌləɹfᵊl fˈɪʃ.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-aquarium-has-many-colourful-fish.mp3",
+      "sha256": "c8d22f19754d70e85b3dd0c1c8cd9b1d977763929516b155cc0a70d8b83e4174"
+    },
+    {
+      "key": "swimming pool",
+      "text": "swimming pool",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "swˈɪmɪŋ pˈul",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/word/swimming-pool.mp3",
+      "sha256": "471ee51ec146f8fa8fef7d1587232ec65f14681078ec94dc519746d52609f945"
+    },
+    {
+      "key": "we learn to swim at the swimming pool",
+      "text": "We learn to swim at the swimming pool.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "wˌi lˈɜɹn tə swˈɪm æt ðə swˈɪmɪŋ pˈul.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/we-learn-to-swim-at-the-swimming-pool.mp3",
+      "sha256": "433884b9e7058ab77fcb78672a4634794837c82c35cbb1e81c14ffecf3fa662d"
+    },
+    {
+      "key": "sports centre",
+      "text": "sports centre",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "spˈɔɹts sˈɛntəɹ",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/word/sports-centre.mp3",
+      "sha256": "58ccb39e1293ce017ac63fd45885485e4f6f6f5b656ded5f61c71032164feb0c"
+    },
+    {
+      "key": "the sports centre has a big gym",
+      "text": "The sports centre has a big gym.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə spˈɔɹts sˈɛntəɹ hæz ɐ bˈɪɡ ʤˈɪm.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-sports-centre-has-a-big-gym.mp3",
+      "sha256": "179176a598fd16a3cf72d942f778113023980fbcf0f953fdc4b48c1d9512433d"
+    },
+    {
+      "key": "stadium",
+      "text": "stadium",
+      "role": "word",
+      "style": "word",
+      "phonemes": "stˈAdiəm",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/stadium.mp3",
+      "sha256": "e89f79a222d02fc27699630f2ed93cdcfa97932ce20ee84d4cd174448f979b11"
+    },
+    {
+      "key": "the match is at the stadium",
+      "text": "The match is at the stadium.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə mˈæʧ ɪz æt ðə stˈAdiəm.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-match-is-at-the-stadium.mp3",
+      "sha256": "b9278c0db1f4a36fa9f9765c8bb6d3424354e1c335d7f5b9bc32bfa3f40c8997"
+    },
+    {
+      "key": "town hall",
+      "text": "town hall",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "tˈWn hˈɔl",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/word/town-hall.mp3",
+      "sha256": "b0720942fc80abaad671fdd9b96b608dfdb9240ce7dcd2da6702485d7d71ee0a"
+    },
+    {
+      "key": "the meeting is in the town hall",
+      "text": "The meeting is in the town hall.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə mˈiTɪŋ ɪz ɪn ðə tˈWn hˈɔl.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-meeting-is-in-the-town-hall.mp3",
+      "sha256": "11a9d453a2f3be9e87ed5581d581ea2ef310cadf76b03ee5d00064adf5133e19"
+    },
+    {
+      "key": "bakery",
+      "text": "bakery",
+      "role": "word",
+      "style": "word",
+      "phonemes": "bˈAkəɹi",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/bakery.mp3",
+      "sha256": "5c3255e293b45e57efb0c43c293a037a9bed0a6f249a7161de8ccbe90dfc49d3"
+    },
+    {
+      "key": "the bakery smells wonderful",
+      "text": "The bakery smells wonderful.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə bˈAkəɹi smˈɛlz wˈʌndəɹfᵊl.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-bakery-smells-wonderful.mp3",
+      "sha256": "afe89769508c375c438020a51ff7b40717f5f5bdfe7b4dc9fe69f5d63ca4e406"
+    },
+    {
+      "key": "pharmacy",
+      "text": "pharmacy",
+      "role": "word",
+      "style": "word",
+      "phonemes": "fˈɑɹməsi",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/pharmacy.mp3",
+      "sha256": "0b14e3401ef6d2ba787751be1a5ae9842b73aec91a2754467d2121f3767b00d5"
+    },
+    {
+      "key": "we bought medicine at the pharmacy",
+      "text": "We bought medicine at the pharmacy.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "wˌi bˈɔt mˈɛdəsᵊn æt ðə fˈɑɹməsi.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/we-bought-medicine-at-the-pharmacy.mp3",
+      "sha256": "24aa17de573f255b7d74d976f57c09da1c3fc21f0685d571eca2dc9f9d3a079e"
+    },
+    {
+      "key": "petrol station",
+      "text": "petrol station",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "pˈɛtɹəl stˈAʃən",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/word/petrol-station.mp3",
+      "sha256": "9acabbeb3acb8714dc5c010ffb0c89926956ac5f6e34c28b15746d779dcfe1d6"
+    },
+    {
+      "key": "the car stopped at a petrol station",
+      "text": "The car stopped at a petrol station.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə kˈɑɹ stˈɑpt æt ɐ pˈɛtɹəl stˈAʃən.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-car-stopped-at-a-petrol-station.mp3",
+      "sha256": "6ff83bda5c2e5277a76dc8896cc58d9525ac297cb6150d2712f47fd936ac846b"
+    },
+    {
+      "key": "car park",
+      "text": "car park",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "kˈɑɹ pˈɑɹk",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/word/car-park.mp3",
+      "sha256": "a3d5538f85887c53d2bac20e5866404b77bb2994d36efc7cde815a5d9e4367f6"
+    },
+    {
+      "key": "the car is in the car park",
+      "text": "The car is in the car park.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə kˈɑɹ ɪz ɪn ðə kˈɑɹ pˈɑɹk.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-car-is-in-the-car-park.mp3",
+      "sha256": "adcaca3956fcbc42b2aa6397d32c5874d0858b4e38dbbbd99f1674defb58d0d9"
+    },
+    {
+      "key": "public toilet",
+      "text": "public toilet",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "pˈʌblɪk tˈYlət",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/word/public-toilet.mp3",
+      "sha256": "61971731fe226f570cdb60fbd68a991d926590d62e7ea2f76dd4c5f7f81d4eb4"
+    },
+    {
+      "key": "there is a public toilet near the park",
+      "text": "There is a public toilet near the park.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðˌɛɹ ɪz ɐ pˈʌblɪk tˈYlət nˌɪɹ ðə pˈɑɹk.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/there-is-a-public-toilet-near-the-park.mp3",
+      "sha256": "fcb240868dbf314f7a7cace746107c912240ff64ead37d23cf567c79acaf514c"
+    },
+    {
+      "key": "bus station",
+      "text": "bus station",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "bˈʌs stˈAʃən",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/word/bus-station.mp3",
+      "sha256": "cc9ad640005d108cdaf4f8d9af55213206fb85c9c6260e6c8108956cc9734b19"
+    },
+    {
+      "key": "the bus station is beside the market",
+      "text": "The bus station is beside the market.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə bˈʌs stˈAʃən ɪz bəsˈId ðə mˈɑɹkət.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-bus-station-is-beside-the-market.mp3",
+      "sha256": "02412dd02c1d6b8a506b2a4e9d1604ae59f73b8822073cac29d122ac20c37ca4"
+    },
+    {
+      "key": "community centre",
+      "text": "community centre",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "kəmjˈunəTi sˈɛntəɹ",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/word/community-centre.mp3",
+      "sha256": "9803729035e123f8c76da47482abb4a4d75015e10c9e62081923b57f5e192717"
+    },
+    {
+      "key": "we have a class at the community centre",
+      "text": "We have a class at the community centre.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "wˌi hæv ɐ klˈæs æt ðə kəmjˈunəTi sˈɛntəɹ.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/we-have-a-class-at-the-community-centre.mp3",
+      "sha256": "98f100d06d11e742ba39c423577d117d0a7016e984ba2d52cebeb334daa527ab"
+    },
+    {
+      "key": "the old bridge crosses the river",
+      "text": "The old bridge crosses the river.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ði ˈOld bɹˈɪʤ kɹˈɔsᵻz ðə ɹˈɪvəɹ.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-old-bridge-crosses-the-river.mp3",
+      "sha256": "587ffc5deba923efb270a04e7afa3882a49d5c15f0c68b0649f80740ac22b5e5"
+    },
+    {
+      "key": "what is your mum's job",
+      "text": "What is your mum's job?",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "wˌʌt ɪz jʊɹ mˈʌmz ʤˈɑb?",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/what-is-your-mum-s-job.mp3",
+      "sha256": "52e44046760565cf96a0a952d7bab093ca8daf03c2de6bffd189211665e0ba4f"
+    },
+    {
+      "key": "my dad goes to work early",
+      "text": "My dad goes to work early.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "mˌI dˈæd ɡˈOz tə wˈɜɹk ˈɜɹli.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/my-dad-goes-to-work-early.mp3",
+      "sha256": "b77a7116bba7a2926adc21d9cbe27f9b21dd77b1ad4589007ab215f3f0296606"
+    },
+    {
+      "key": "our teacher reads us a story",
+      "text": "Our teacher reads us a story.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ˌWəɹ tˈiʧəɹ ɹˈidz ˌʌs ɐ stˈɔɹi.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/our-teacher-reads-us-a-story.mp3",
+      "sha256": "83bf02c5dbe968795b26a455a6480c303c64a7036af452698e825a7d2a920437"
+    },
+    {
+      "key": "the doctor helps sick people",
+      "text": "The doctor helps sick people.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə dˈɑktəɹ hˈɛlps sˈɪk pˈipᵊl.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-doctor-helps-sick-people.mp3",
+      "sha256": "cd3a388e43d0d712c8fbb613757725455ef8eb040787f6d5f237a59ec2c130e5"
+    },
+    {
+      "key": "the nurse is kind to the children",
+      "text": "The nurse is kind to the children.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə nˈɜɹs ɪz kˈInd tə ðə ʧˈɪldɹᵊn.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-nurse-is-kind-to-the-children.mp3",
+      "sha256": "ea9177389de1b3a36d373a72fab763c76cd4433bcbfd6259c123e6265f216948"
+    },
+    {
+      "key": "i visit the dentist twice a year",
+      "text": "I visit the dentist twice a year.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ˌI vˈɪzət ðə dˈɛntɪst twˈIs ɐ jˈɪɹ.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/i-visit-the-dentist-twice-a-year.mp3",
+      "sha256": "15a47a086eb9944d6b56f5ed9a75a6ff3e7df844ee71b5b739cd8381288d5acf"
+    },
+    {
+      "key": "the vet looks after animals",
+      "text": "The vet looks after animals.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə vˈɛt lˈʊks ˈæftəɹ ˈænəmᵊlz.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-vet-looks-after-animals.mp3",
+      "sha256": "f5af9c7c16eb7a3a5c99cc29e40c555088f06e3ff94a8bb806089653b0ea939c"
+    },
+    {
+      "key": "police officer",
+      "text": "police officer",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "pəlˈis ˈɔfəsəɹ",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/word/police-officer.mp3",
+      "sha256": "5a0e5f62839c720f29786d0766bfd2e76971104d7ab653b71bb9b0ffaf767a5d"
+    },
+    {
+      "key": "the police officer helps people cross the road",
+      "text": "The police officer helps people cross the road.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə pəlˈis ˈɔfəsəɹ hˈɛlps pˈipᵊl kɹˈɔs ðə ɹˈOd.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-police-officer-helps-people-cross-the-road.mp3",
+      "sha256": "e5973dc5ba06bbf8238092245474c8e1eab417a4861272d6af75ed3d1575d37d"
+    },
+    {
+      "key": "firefighter",
+      "text": "firefighter",
+      "role": "word",
+      "style": "word",
+      "phonemes": "fˈIəɹfˌITəɹ",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/firefighter.mp3",
+      "sha256": "3c0b7c63b1d1983c84d6b63841618190e6cd94ff3e37027ec38c371f21239e30"
+    },
+    {
+      "key": "the firefighter puts out fires",
+      "text": "The firefighter puts out fires.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə fˈIəɹfˌITəɹ pˌʊts ˈWt fˈIəɹz.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-firefighter-puts-out-fires.mp3",
+      "sha256": "fa590274cb9bd4ae95900b55bc462d591d4729081cf65e725db9986ae1c90208"
+    },
+    {
+      "key": "the farmer grows vegetables",
+      "text": "The farmer grows vegetables.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə fˈɑɹməɹ ɡɹˈOz vˈɛʤtəbəlz.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-farmer-grows-vegetables.mp3",
+      "sha256": "de64b77ed39426d7906afae0c38430d16759ad64ef3106324a75549e9d2aa719"
+    },
+    {
+      "key": "cook",
+      "text": "cook",
+      "role": "word",
+      "style": "word",
+      "phonemes": "kˈʊk",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/cook.mp3",
+      "sha256": "13a2868b737df8fa0519bd87a7b8c3591e9efb7fab35463e080e8fadeb417307"
+    },
+    {
+      "key": "the cook makes soup",
+      "text": "The cook makes soup.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə kˈʊk mˌAks sˈup.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-cook-makes-soup.mp3",
+      "sha256": "3f24146d6bf7646e5acd42d986509f06fcec5fe4d80ad95f95c74c51c87897de"
+    },
+    {
+      "key": "chef",
+      "text": "chef",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ʃˈɛf",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/chef.mp3",
+      "sha256": "39fac2f752cbb1ca1701857d7fa650e7491e1fa6584fda624d61fdba83ccfa35"
+    },
+    {
+      "key": "the chef prepares dinner",
+      "text": "The chef prepares dinner.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə ʃˈɛf pɹipˈɛɹz dˈɪnəɹ.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-chef-prepares-dinner.mp3",
+      "sha256": "327d5ed18f750a557b15df5873f5dfe045f167c47b3e987c88e4f6f15a9b67b9"
+    },
+    {
+      "key": "baker",
+      "text": "baker",
+      "role": "word",
+      "style": "word",
+      "phonemes": "bˈAkəɹ",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/baker.mp3",
+      "sha256": "c5da6f1e447a86e17441f065e2ea0da94be309d142b0caea017a3ea9cd2ab693"
+    },
+    {
+      "key": "the baker makes fresh bread",
+      "text": "The baker makes fresh bread.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə bˈAkəɹ mˌAks fɹˈɛʃ bɹˈɛd.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-baker-makes-fresh-bread.mp3",
+      "sha256": "6b5f67ffdd37297e66db0f44c3dd4d569d185fd387ccc2ab32e3a07a91c5e954"
+    },
+    {
+      "key": "waiter",
+      "text": "waiter",
+      "role": "word",
+      "style": "word",
+      "phonemes": "wˈATəɹ",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/waiter.mp3",
+      "sha256": "17e1340f5feb070f3cc4cb15885f1152b349840ec85033b76f83fca4f68488eb"
+    },
+    {
+      "key": "the waiter brings our food",
+      "text": "The waiter brings our food.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə wˈATəɹ bɹˈɪŋz ˌWəɹ fˈud.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-waiter-brings-our-food.mp3",
+      "sha256": "bdb37ffbf484964f9ca8b1e2eacb0463b0b854635cc393ec5ec7759bd00cb7a5"
+    },
+    {
+      "key": "waitress",
+      "text": "waitress",
+      "role": "word",
+      "style": "word",
+      "phonemes": "wˈAtɹəs",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/waitress.mp3",
+      "sha256": "c4b5247d9ad2bdb00dee89a60ffe4ea1a32e5542fd21fb2af618f05c724bb761"
+    },
+    {
+      "key": "the waitress gives us the menu",
+      "text": "The waitress gives us the menu.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə wˈAtɹəs ɡˈɪvz ˌʌs ðə mˈɛnju.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-waitress-gives-us-the-menu.mp3",
+      "sha256": "96be042837b158cd3fb663263f98a0a8cafa8cc9be8247d73481eb4eea53fc73"
+    },
+    {
+      "key": "shop assistant",
+      "text": "shop assistant",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "ʃˈɑp əsˈɪstᵊnt",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/word/shop-assistant.mp3",
+      "sha256": "51e1a695a70ecee247d0d847583be6570275fb43d748afca7948ed2c93758107"
+    },
+    {
+      "key": "the shop assistant helps me find a coat",
+      "text": "The shop assistant helps me find a coat.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə ʃˈɑp əsˈɪstᵊnt hˈɛlps mˌi fˈInd ɐ kˈOt.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-shop-assistant-helps-me-find-a-coat.mp3",
+      "sha256": "13b91be43b986d4c29f78b8dd1f15f9d1e21a3f121771ac5e75ba0a29f4a4d43"
+    },
+    {
+      "key": "cashier",
+      "text": "cashier",
+      "role": "word",
+      "style": "word",
+      "phonemes": "kæʃˈɪɹ",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/cashier.mp3",
+      "sha256": "428d755edfd5b7e7e657713fa6074fa3a92729c3122e46e4e4cf23e746ed7513"
+    },
+    {
+      "key": "the cashier takes the payment",
+      "text": "The cashier takes the payment.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə kæʃˈɪɹ tˈAks ðə pˈAmᵊnt.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-cashier-takes-the-payment.mp3",
+      "sha256": "584c667480afca4a95bd644b90d50fd1da892bac55a35cd1036fdfdfcda1ab1b"
+    },
+    {
+      "key": "the driver checks the bus before work",
+      "text": "The driver checks the bus before work.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə dɹˈIvəɹ ʧˈɛks ðə bˈʌs bəfˈɔɹ wˈɜɹk.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-driver-checks-the-bus-before-work.mp3",
+      "sha256": "b592eddc7989a40c53c8e67e781c72b2fae9bcbd16c97fba12051002d0b812d0"
+    },
+    {
+      "key": "bus driver",
+      "text": "bus driver",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "bˈʌs dɹˈIvəɹ",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/word/bus-driver.mp3",
+      "sha256": "5fccf169a4149e8587ed7d2cadb1744492497922899c3e22098b01ada605369e"
+    },
+    {
+      "key": "the bus driver stops at every bus stop",
+      "text": "The bus driver stops at every bus stop.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə bˈʌs dɹˈIvəɹ stˈɑps æt ˈɛvəɹi bˈʌs stˈɑp.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-bus-driver-stops-at-every-bus-stop.mp3",
+      "sha256": "3542cd99b9abb03195c12f6ecc761e96cd0e37f5facee2f573d0a7cb9665d5fe"
+    },
+    {
+      "key": "taxi driver",
+      "text": "taxi driver",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "tˈæksi dɹˈIvəɹ",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/word/taxi-driver.mp3",
+      "sha256": "b212adb295b185f094e1ec110ce981d35927b469f1b0ba89377bc5b125c1bc64"
+    },
+    {
+      "key": "the taxi driver knows the city well",
+      "text": "The taxi driver knows the city well.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə tˈæksi dɹˈIvəɹ nˈOz ðə sˈɪTi wˈɛl.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-taxi-driver-knows-the-city-well.mp3",
+      "sha256": "9b8c29e5644102ef935f0a7a7e2c76d9228886af8f775570c1b8ec5e0c3e784d"
+    },
+    {
+      "key": "train driver",
+      "text": "train driver",
+      "role": "word",
+      "style": "word",
+      "phonemes": "tɹˈAn dɹˈIvəɹ",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/train-driver.mp3",
+      "sha256": "97945b5b889b0259030dd4565f151e70c28d2bd13071d4134f40e11adafe1422"
+    },
+    {
+      "key": "the train driver checks the signals",
+      "text": "The train driver checks the signals.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə tɹˈAn dɹˈIvəɹ ʧˈɛks ðə sˈɪɡnᵊlz.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-train-driver-checks-the-signals.mp3",
+      "sha256": "e987f58409a57ddb1b2953512cb20042b1668c76d55124ea21bca446c267090d"
+    },
+    {
+      "key": "the pilot welcomes the passengers",
+      "text": "The pilot welcomes the passengers.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə pˈIlət wˈɛlkəmz ðə pˈæsᵊnʤəɹz.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-pilot-welcomes-the-passengers.mp3",
+      "sha256": "5aaea8f37e8c1f1f8c21ab71f63a7f374bdefcabf5046def68f0aa115208c8ed"
+    },
+    {
+      "key": "flight attendant",
+      "text": "flight attendant",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "flˈIt ətˈɛndᵊnt",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/word/flight-attendant.mp3",
+      "sha256": "55203dac25e0b1768937c825faeaeb154bc680cbfcdcca582e188434fc0cefe4"
+    },
+    {
+      "key": "the flight attendant helps the passengers",
+      "text": "The flight attendant helps the passengers.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə flˈIt ətˈɛndᵊnt hˈɛlps ðə pˈæsᵊnʤəɹz.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-flight-attendant-helps-the-passengers.mp3",
+      "sha256": "1ba674ceb5cdea8ec1e3d09f586a27a0186fb09deb5851f5e1a6fd00765a7dbe"
+    },
+    {
+      "key": "mechanic",
+      "text": "mechanic",
+      "role": "word",
+      "style": "word",
+      "phonemes": "məkˈænɪk",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/mechanic.mp3",
+      "sha256": "0cd4b7b0b6f80a54b29af009ac403148615dcad5496402dc8915b712dbc289e4"
+    },
+    {
+      "key": "the mechanic repairs the car",
+      "text": "The mechanic repairs the car.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə məkˈænɪk ɹəpˈɛɹz ðə kˈɑɹ.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-mechanic-repairs-the-car.mp3",
+      "sha256": "4af597617f4dc98d2d0ebc7cf3b40a49e4a2bc1f3d60a65d8c013cfd89436db7"
+    },
+    {
+      "key": "builder",
+      "text": "builder",
+      "role": "word",
+      "style": "word",
+      "phonemes": "bˈɪldəɹ",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/builder.mp3",
+      "sha256": "ab8c93980bfa29a546cf5add4f7b99ff359f4a39decbc14cfa207f5feef8b335"
+    },
+    {
+      "key": "the builder is building a house",
+      "text": "The builder is building a house.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə bˈɪldəɹ ɪz bˈɪldɪŋ ɐ hˈWs.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-builder-is-building-a-house.mp3",
+      "sha256": "54a59ed94ea5882a208e6b66e1fb1b6575548ca47c450b95e67de98ebee9e01d"
+    },
+    {
+      "key": "plumber",
+      "text": "plumber",
+      "role": "word",
+      "style": "word",
+      "phonemes": "plˈʌməɹ",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/plumber.mp3",
+      "sha256": "bd41f4061bf10c9d4831ceb906cdd5f6b727edd37fcc8d9c0886b761ae46ef92"
+    },
+    {
+      "key": "the plumber fixes the tap",
+      "text": "The plumber fixes the tap.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə plˈʌməɹ fˈɪksᵻz ðə tˈæp.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-plumber-fixes-the-tap.mp3",
+      "sha256": "3fc91cf412123956a45d1447b239400b5a3442535ed2d9cfb35af6a5e86d6eab"
+    },
+    {
+      "key": "electrician",
+      "text": "electrician",
+      "role": "word",
+      "style": "word",
+      "phonemes": "əlˌɛktɹˈɪʃən",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/electrician.mp3",
+      "sha256": "ee148c933f38de96b5ab7e56909342571158619a2b95b929a99c99a3a1d9a212"
+    },
+    {
+      "key": "the electrician checks the lights",
+      "text": "The electrician checks the lights.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ði əlˌɛktɹˈɪʃən ʧˈɛks ðə lˈIts.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-electrician-checks-the-lights.mp3",
+      "sha256": "f1a7a75e4fe706ef7bfa6b05e574243f04997263cdd57ca88b0168c274cfbd6e"
+    },
+    {
+      "key": "carpenter",
+      "text": "carpenter",
+      "role": "word",
+      "style": "word",
+      "phonemes": "kˈɑɹpəntəɹ",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/carpenter.mp3",
+      "sha256": "37cfe684c434d9a1b6e27b1426d9d78f7086929c67bd16f4872f3e3e3208efe8"
+    },
+    {
+      "key": "the carpenter makes a wooden chair",
+      "text": "The carpenter makes a wooden chair.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə kˈɑɹpəntəɹ mˌAks ɐ wˈʊdᵊn ʧˈɛɹ.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-carpenter-makes-a-wooden-chair.mp3",
+      "sha256": "7b0ab422c4fab66b7dee976ae52abf1af651ea6406e5133a1e612f7f2fd35b22"
+    },
+    {
+      "key": "cleaner",
+      "text": "cleaner",
+      "role": "word",
+      "style": "word",
+      "phonemes": "klˈinəɹ",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/cleaner.mp3",
+      "sha256": "77fa7e2c09de86f96d01a9de67b4f34e74ce186005c74ae96f1049daefa39031"
+    },
+    {
+      "key": "the cleaner cleans the office",
+      "text": "The cleaner cleans the office.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə klˈinəɹ klˈinz ði ˈɔfəs.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-cleaner-cleans-the-office.mp3",
+      "sha256": "a29fba9dff5129dabfd1589ae7f4fd5a6181857cdd9c77243ad8164320102fbe"
+    },
+    {
+      "key": "gardener",
+      "text": "gardener",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ɡˈɑɹdᵊnəɹ",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/gardener.mp3",
+      "sha256": "aece672b35d285f97b5feb6e427cc1a5ab4821c43a0c2915633e37ad07a1e1c9"
+    },
+    {
+      "key": "the gardener waters the flowers",
+      "text": "The gardener waters the flowers.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə ɡˈɑɹdᵊnəɹ wˈɔTəɹz ðə flˈWəɹz.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-gardener-waters-the-flowers.mp3",
+      "sha256": "92fb6c1834e8716705cf796bab6f0ea31d821a8d5e612822bbcc588db98df8db"
+    },
+    {
+      "key": "postman",
+      "text": "postman",
+      "role": "word",
+      "style": "word",
+      "phonemes": "pˈOstmᵊn",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/postman.mp3",
+      "sha256": "d6ed2593d6e3c32eacb343c31cb221508b5f1f23df1399d836fec95b1800441d"
+    },
+    {
+      "key": "the postman delivers our letters",
+      "text": "The postman delivers our letters.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə pˈOstmᵊn dəlˈɪvəɹz ˌWəɹ lˈɛTəɹz.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-postman-delivers-our-letters.mp3",
+      "sha256": "b8eede6cb18b4f7fa3458e4d42d61df9bd3946532008d808ac02bad110870676"
+    },
+    {
+      "key": "delivery driver",
+      "text": "delivery driver",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "dəlˈɪvəɹi dɹˈIvəɹ",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/word/delivery-driver.mp3",
+      "sha256": "e628935f5dd1ebce40efe34409a9c2cea67cd79ac1ad817cef3a8a86d151f160"
+    },
+    {
+      "key": "the delivery driver brings our parcel",
+      "text": "The delivery driver brings our parcel.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə dəlˈɪvəɹi dɹˈIvəɹ bɹˈɪŋz ˌWəɹ pˈɑɹsᵊl.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-delivery-driver-brings-our-parcel.mp3",
+      "sha256": "9698e4541afd4370a43bf874dc9c97ef75c84e7622d9e9c462741cf01185c5fd"
+    },
+    {
+      "key": "hairdresser",
+      "text": "hairdresser",
+      "role": "word",
+      "style": "word",
+      "phonemes": "hˈɛɹdɹˌɛsəɹ",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/hairdresser.mp3",
+      "sha256": "9e6bf1d3fd1043b8c72687850ace0c0c74912559efcea0d9680856818163e5f1"
+    },
+    {
+      "key": "the hairdresser cuts my hair",
+      "text": "The hairdresser cuts my hair.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə hˈɛɹdɹˌɛsəɹ kˈʌts mI hˈɛɹ.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-hairdresser-cuts-my-hair.mp3",
+      "sha256": "1b944ee2d8675db54f23d59318f98f24e0f64baf12ab258061d61a1ca4d49009"
+    },
+    {
+      "key": "barber",
+      "text": "barber",
+      "role": "word",
+      "style": "word",
+      "phonemes": "bˈɑɹbəɹ",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/barber.mp3",
+      "sha256": "12a6aab40251b9f697b131642ff2958c7c3199bf1f67c26315a7e8c6ba03064b"
+    },
+    {
+      "key": "the barber trims his hair",
+      "text": "The barber trims his hair.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə bˈɑɹbəɹ tɹˈɪmz hɪz hˈɛɹ.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-barber-trims-his-hair.mp3",
+      "sha256": "4295188aa22bb38a9c5691e14c00e879b9c3e2c8210e18b94ebe33a3b75e76b9"
+    },
+    {
+      "key": "artist",
+      "text": "artist",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ˈɑɹTɪst",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/artist.mp3",
+      "sha256": "30509314454acdb893ff87822d83840c5db8c518dc532e83e3e21cc334f3b2b4"
+    },
+    {
+      "key": "the artist paints a picture",
+      "text": "The artist paints a picture.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ði ˈɑɹTɪst pˈAnts ɐ pˈɪkʧəɹ.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-artist-paints-a-picture.mp3",
+      "sha256": "36a08a35cccf6927f41d5e8dd6c8b7ecf5e1e9805d4a6c19fdc85aff139a6b1d"
+    },
+    {
+      "key": "musician",
+      "text": "musician",
+      "role": "word",
+      "style": "word",
+      "phonemes": "mjuzˈɪʃən",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/musician.mp3",
+      "sha256": "e4ffa37eac73e8bc692e10dfad9efad283f55616e1b0e4800ae9ebf96f094032"
+    },
+    {
+      "key": "the musician plays the piano",
+      "text": "The musician plays the piano.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə mjuzˈɪʃən plˈAz ðə piˈænO.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-musician-plays-the-piano.mp3",
+      "sha256": "cb01a5da5beb0b55f818018aee800cfc2519af39640896573c761805d78909d4"
+    },
+    {
+      "key": "singer",
+      "text": "singer",
+      "role": "word",
+      "style": "word",
+      "phonemes": "sˈɪŋəɹ",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/singer.mp3",
+      "sha256": "58eed342b5e28808eb3bfbb1a1d29da7ea4665528463baac57461d03bb5d7c1d"
+    },
+    {
+      "key": "the singer has a beautiful voice",
+      "text": "The singer has a beautiful voice.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə sˈɪŋəɹ hæz ɐ bjˈuTəfəl vˈYs.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-singer-has-a-beautiful-voice.mp3",
+      "sha256": "23d25b7c6453539c70dca7a54d13d91a7daf1b56e172c41f1c1ee0b46a2d1efe"
+    },
+    {
+      "key": "actor",
+      "text": "actor",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ˈæktəɹ",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/actor.mp3",
+      "sha256": "de831cc2de25c277869095da8963ebf84e5a12d0c58e9468a3ea1b70ede347ff"
+    },
+    {
+      "key": "the actor is in a new film",
+      "text": "The actor is in a new film.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ði ˈæktəɹ ɪz ɪn ɐ nˈu fˈɪlm.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-actor-is-in-a-new-film.mp3",
+      "sha256": "d2f4ca2b234dfff381faa2abc53cab430cfd7c671f96bc8b84a488619bfdc7f2"
+    },
+    {
+      "key": "photographer",
+      "text": "photographer",
+      "role": "word",
+      "style": "word",
+      "phonemes": "fətˈɑɡɹəfəɹ",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/photographer.mp3",
+      "sha256": "3d6b2dc04ca589b222d9a1b91d48243891e3e1484d880dfa08f50f504080beb3"
+    },
+    {
+      "key": "the photographer takes pictures outside",
+      "text": "The photographer takes pictures outside.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə fətˈɑɡɹəfəɹ tˈAks pˈɪkʧəɹz ˌWtsˈId.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-photographer-takes-pictures-outside.mp3",
+      "sha256": "85c3cb020e32120dd211280c0a333dcd2503d39630622588e076e9faf80eedd5"
+    },
+    {
+      "key": "scientist",
+      "text": "scientist",
+      "role": "word",
+      "style": "word",
+      "phonemes": "sˈIəntɪst",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/scientist.mp3",
+      "sha256": "d5fcd8e5ef41b82794b82e62617f6f365fe8dbfe8647237993faa9ed97665526"
+    },
+    {
+      "key": "the scientist studies plants",
+      "text": "The scientist studies plants.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə sˈIəntɪst stˈʌdiz plˈænts.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-scientist-studies-plants.mp3",
+      "sha256": "04f6215df956ee0f6b99c88960b4bbbe7e472afb36f099e5b5348a1d061b85ac"
+    },
+    {
+      "key": "engineer",
+      "text": "engineer",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ˌɛnʤənˈɪɹ",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/engineer.mp3",
+      "sha256": "4316351844254d90ca00223aaecf6fdbfc0ed5138f2c8867c8ca8a6cdba16ee7"
+    },
+    {
+      "key": "the engineer designs bridges",
+      "text": "The engineer designs bridges.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ði ˌɛnʤənˈɪɹ dəzˈInz bɹˈɪʤɪz.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-engineer-designs-bridges.mp3",
+      "sha256": "ac1d4679d5334971fd33ddeea49c4c5944b0f6b25efa917a948a8b9eb5229a67"
+    },
+    {
+      "key": "programmer",
+      "text": "programmer",
+      "role": "word",
+      "style": "word",
+      "phonemes": "pɹˈOɡɹˌæməɹ",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/programmer.mp3",
+      "sha256": "c081a8005dae1f8e57158b499deaebde33ebbe68c744f015ef9f9fb5653d4b19"
+    },
+    {
+      "key": "the programmer writes computer code",
+      "text": "The programmer writes computer code.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə pɹˈOɡɹˌæməɹ ɹˈIts kəmpjˈuTəɹ kˈOd.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-programmer-writes-computer-code.mp3",
+      "sha256": "cc3d12c60ee730b585df8a6dc8a9bdb1abc9091466b1b19c2551e906713efb67"
+    },
+    {
+      "key": "office worker",
+      "text": "office worker",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "ˈɔfəs wˈɜɹkəɹ",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/word/office-worker.mp3",
+      "sha256": "07dd2696356622ce7456a052ff115323072154b6b0916a2e423907e53ae285d7"
+    },
+    {
+      "key": "the office worker answers emails",
+      "text": "The office worker answers emails.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ði ˈɔfəs wˈɜɹkəɹ ˈænsəɹz ˈimˌAlz.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-office-worker-answers-emails.mp3",
+      "sha256": "9384016aa70e9440482225f95384f6e6d964fdc706f4c37fce55bf59d6cb5dfc"
+    },
+    {
+      "key": "manager",
+      "text": "manager",
+      "role": "word",
+      "style": "word",
+      "phonemes": "mˈænɪʤəɹ",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/manager.mp3",
+      "sha256": "06a02eabd4bfb13964edd43ff47cffbf7b4f50c138514ed5dd111ad8289ce0bc"
+    },
+    {
+      "key": "the manager leads the team",
+      "text": "The manager leads the team.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə mˈænɪʤəɹ lˈidz ðə tˈim.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-manager-leads-the-team.mp3",
+      "sha256": "e3ce20ebdaf8eef51d0d066eb8a490016b3ba9b9cbdf82c3970e3174af1c2a81"
+    },
+    {
+      "key": "librarian",
+      "text": "librarian",
+      "role": "word",
+      "style": "word",
+      "phonemes": "lIbɹˈɛɹiən",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/librarian.mp3",
+      "sha256": "1db158838bcce06f89831937862f9d4557a862395f99903a160162abf33b51f8"
+    },
+    {
+      "key": "the librarian helps us find books",
+      "text": "The librarian helps us find books.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə lIbɹˈɛɹiən hˈɛlps ˌʌs fˈInd bˈʊks.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-librarian-helps-us-find-books.mp3",
+      "sha256": "a8020da204b19e896f2456cbee961598ea73c43e32191a196cc3c95b99bf5265"
+    },
+    {
+      "key": "shopping",
+      "text": "shopping",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ʃˈɑpɪŋ",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/shopping.mp3",
+      "sha256": "4b4409df6040e05071898d5db612e998ef07d5166559fbb43a86e5e63feb223f"
+    },
+    {
+      "key": "shop",
+      "text": "shop",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ʃˈɑp",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/shop.mp3",
+      "sha256": "8756857b3c9ab7e1d33c9b1db2ee88d2e037a4315bbc57a20ca87413ce952ced"
+    },
+    {
+      "key": "that shop sells toys",
+      "text": "That shop sells toys.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðˈæt ʃˈɑp sˈɛlz tˈYz.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/that-shop-sells-toys.mp3",
+      "sha256": "5baf889986c23f7d77c80bc40814fbc6490488dcdb9dc9853a408c147ce08ab9"
+    },
+    {
+      "key": "shopping centre",
+      "text": "shopping centre",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "ʃˈɑpɪŋ sˈɛntəɹ",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/word/shopping-centre.mp3",
+      "sha256": "c542644c36e0e1947f16d2743aab9cdba66084d118de02c47fae75a0989c1268"
+    },
+    {
+      "key": "the shopping centre is very large",
+      "text": "The shopping centre is very large.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə ʃˈɑpɪŋ sˈɛntəɹ ɪz vˈɛɹi lˈɑɹʤ.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-shopping-centre-is-very-large.mp3",
+      "sha256": "0a1badb90281a3f22dd90ac7f5f3b29149c2a2fc94608e500984167ae15bb22a"
+    },
+    {
+      "key": "shopping basket",
+      "text": "shopping basket",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "ʃˈɑpɪŋ bˈæskət",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/word/shopping-basket.mp3",
+      "sha256": "e339318e0a65ca72d0b6e1e5f59449d63347771f56b148b214062ddcb10be6e5"
+    },
+    {
+      "key": "put the apples in the shopping basket",
+      "text": "Put the apples in the shopping basket.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "pˌʊt ði ˈæpᵊlz ɪn ðə ʃˈɑpɪŋ bˈæskət.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/put-the-apples-in-the-shopping-basket.mp3",
+      "sha256": "a09d372fa0cc4ff21941e49f7d2eb33871fc2960f89154fbbd8d15a256835bb4"
+    },
+    {
+      "key": "shopping trolley",
+      "text": "shopping trolley",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "ʃˈɑpɪŋ tɹˈɑli",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/word/shopping-trolley.mp3",
+      "sha256": "3a5ce2b276f16801fe441de54a9226b35b07106ec317c4f7ba81b9654cb355c9"
+    },
+    {
+      "key": "the shopping trolley is full",
+      "text": "The shopping trolley is full.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə ʃˈɑpɪŋ tɹˈɑli ɪz fˈʊl.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-shopping-trolley-is-full.mp3",
+      "sha256": "2e3422cc1998f16ddeef3a379b468900728679c822d2e18534c730dd8e8f9741"
+    },
+    {
+      "key": "i need a bag for these things",
+      "text": "I need a bag for these things.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ˌI nˈid ɐ bˈæɡ fɔɹ ðiz θˈɪŋz.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/i-need-a-bag-for-these-things.mp3",
+      "sha256": "ea4e825600425334784d6c7c2bbe021e5c7cc5a09ae225ca3ce9d160ad69497e"
+    },
+    {
+      "key": "product",
+      "text": "product",
+      "role": "word",
+      "style": "word",
+      "phonemes": "pɹˈɑdˌʌkt",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/product.mp3",
+      "sha256": "f7815b9653480d1af73e27b6e22c54f98f45b226a77820ec164f98d609c85291"
+    },
+    {
+      "key": "this product is made in the uk",
+      "text": "This product is made in the UK.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðˌɪs pɹˈɑdˌʌkt ɪz mˌAd ɪn ðə jˌukˈA.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/this-product-is-made-in-the-uk.mp3",
+      "sha256": "9fd54ecc43199750c15c0dde8ce07544f6689286488538ffc780f0f45695f905"
+    },
+    {
+      "key": "item",
+      "text": "item",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ˈITəm",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/item.mp3",
+      "sha256": "0e914bbbd21e51396e5ff7d6f4370f75faedc061f848107fd68c20e26fb85e93"
+    },
+    {
+      "key": "each item has a price",
+      "text": "Each item has a price.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ˈiʧ ˈITəm hæz ɐ pɹˈIs.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/each-item-has-a-price.mp3",
+      "sha256": "cdcf679a6878663f753f0b999c44812559585014a1f171a77cfde3ea75f789ab"
+    },
+    {
+      "key": "price",
+      "text": "price",
+      "role": "word",
+      "style": "word",
+      "phonemes": "pɹˈIs",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/price.mp3",
+      "sha256": "14b1d19fbb130c30274a4f2238a350c96e6a68f794a9d3fd44dcb660de2c7c59"
+    },
+    {
+      "key": "what is the price of this book",
+      "text": "What is the price of this book?",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "wˌʌt ɪz ðə pɹˈIs ʌv ðɪs bˈʊk?",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/what-is-the-price-of-this-book.mp3",
+      "sha256": "0d07cf30685d4d4e4065fb8a69a44f42c005cea9cbbe567017ef167b06ea97e4"
+    },
+    {
+      "key": "how much does it cost",
+      "text": "How much does it cost?",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "hˌW mˈʌʧ dˈʌz ɪt kˈɔst?",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/how-much-does-it-cost.mp3",
+      "sha256": "2390b70efd695f4d1ec6703f3383cee23dd3dd8a12555aaaf3f1b79f92ad0d71"
+    },
+    {
+      "key": "money",
+      "text": "money",
+      "role": "word",
+      "style": "word",
+      "phonemes": "mˈʌni",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/money.mp3",
+      "sha256": "87038ac1261c79c1db0c364a02c90fac6dcbc69c6c06d47f98d9b724f4f625f8"
+    },
+    {
+      "key": "i am saving my money",
+      "text": "I am saving my money.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ˌI ɐm sˈAvɪŋ mI mˈʌni.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/i-am-saving-my-money.mp3",
+      "sha256": "b98d7246d993622f2e3099dc824a320b92470db1abbb4f916fb99f3d135930aa"
+    },
+    {
+      "key": "coin",
+      "text": "coin",
+      "role": "word",
+      "style": "word",
+      "phonemes": "kˈYn",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/coin.mp3",
+      "sha256": "2d41545ec4964bae725f68a22d0912f9aab9682d298b5d750e83f2d37a96f476"
+    },
+    {
+      "key": "i found a coin on the floor",
+      "text": "I found a coin on the floor.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ˌI fˈWnd ɐ kˈYn ˌɔn ðə flˈɔɹ.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/i-found-a-coin-on-the-floor.mp3",
+      "sha256": "d9662b6c0fe6b0dbd0d7adf9498924304ee425875fad933419d31c9069408344"
+    },
+    {
+      "key": "note",
+      "text": "note",
+      "role": "word",
+      "style": "word",
+      "phonemes": "nˈOt",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/note.mp3",
+      "sha256": "b4173579cf5a3fe1a86ff7ef67aab01144a7dafae4c1a2de17ac482522a828d1"
+    },
+    {
+      "key": "he paid with a tenpound note",
+      "text": "He paid with a ten-pound note.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "hˌi pˈAd wɪð ɐ tˌɛnpˈWnd nˈOt.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/he-paid-with-a-tenpound-note.mp3",
+      "sha256": "a839080df21fa66129ba49f18dfc6f2a03bdca8e1bea1fa29d1f9310514bb708"
+    },
+    {
+      "key": "cash",
+      "text": "cash",
+      "role": "word",
+      "style": "word",
+      "phonemes": "kˈæʃ",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/cash.mp3",
+      "sha256": "128be7199a20dac6c03fbfed3f7f1eccc2ddd0de4eeabc4cceb0ea496970ee6f"
+    },
+    {
+      "key": "do you want to pay by cash",
+      "text": "Do you want to pay by cash?",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "dˈu ju wˈɑnt tə pˈA bI kˈæʃ?",
+      "intonation": "rise",
+      "path": "audio/en-us/travel/sentence/do-you-want-to-pay-by-cash.mp3",
+      "sha256": "8732558a9967b350ad943ac7052cbb74351cd53185e1eeaca7d56553072e327b"
+    },
+    {
+      "key": "bank card",
+      "text": "bank card",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "bˈæŋk kˈɑɹd",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/word/bank-card.mp3",
+      "sha256": "15677c1c9d9d1a94b68d54223f171e34c5c5ae869532778eb3cd1c640f4fd969"
+    },
+    {
+      "key": "i paid with my bank card",
+      "text": "I paid with my bank card.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ˌI pˈAd wɪð mI bˈæŋk kˈɑɹd.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/i-paid-with-my-bank-card.mp3",
+      "sha256": "defd77eafa86efa29bd8469c0db1a412c21c3f7350f4d61cecac57d3294a93de"
+    },
+    {
+      "key": "credit card",
+      "text": "credit card",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "kɹˈɛdət kˈɑɹd",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/word/credit-card.mp3",
+      "sha256": "b3f7bf86d8ab35ea3c194f5b7067f7405dcc7e9f70e3fc79ddb70a0281c52ed4"
+    },
+    {
+      "key": "my mum used a credit card",
+      "text": "My mum used a credit card.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "mˌI mˈʌm jˈuzd ɐ kɹˈɛdət kˈɑɹd.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/my-mum-used-a-credit-card.mp3",
+      "sha256": "92f9ef9da8a8fff4185293f97ff8f15dcba974b964e22a3e489dc19010f02928"
+    },
+    {
+      "key": "debit card",
+      "text": "debit card",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "dˈɛbɪt kˈɑɹd",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/word/debit-card.mp3",
+      "sha256": "62ae31a937147a6bbb8d3aa5670f099a6b8ed2f90493c430f060670c553718cd"
+    },
+    {
+      "key": "he paid by debit card",
+      "text": "He paid by debit card.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "hˌi pˈAd bI dˈɛbɪt kˈɑɹd.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/he-paid-by-debit-card.mp3",
+      "sha256": "685eec8a15c2ac56540df199d3a9dbff2d1620805b6a1aac96a4861872d09b39"
+    },
+    {
+      "key": "wallet",
+      "text": "wallet",
+      "role": "word",
+      "style": "word",
+      "phonemes": "wˈɑlət",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/wallet.mp3",
+      "sha256": "81a23a7e7810954d2f3d9e87147cd2462ca3290af6d0dfd8cdb9e4b8f181d8bd"
+    },
+    {
+      "key": "his wallet is in his bag",
+      "text": "His wallet is in his bag.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "hˌɪz wˈɑlət ɪz ɪn hɪz bˈæɡ.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/his-wallet-is-in-his-bag.mp3",
+      "sha256": "f84a522bb23e1927db82f5eb147fcc25bb1c4f476c1079e1696a425082197bbb"
+    },
+    {
+      "key": "purse",
+      "text": "purse",
+      "role": "word",
+      "style": "word",
+      "phonemes": "pˈɜɹs",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/purse.mp3",
+      "sha256": "462bdbcb2b30b3c7af13846cabbc8f79e97df6d447d6f04628bd183088d14b9a"
+    },
+    {
+      "key": "she keeps coins in her purse",
+      "text": "She keeps coins in her purse.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ʃˌi kˈips kˈYnz ɪn hɜɹ pˈɜɹs.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/she-keeps-coins-in-her-purse.mp3",
+      "sha256": "345dd56c4bffcff6d5e23e2e4788aac31bff4b2761c8b9f0a169bb470d9d7bec"
+    },
+    {
+      "key": "change",
+      "text": "change",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ʧˈAnʤ",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/change.mp3",
+      "sha256": "f16cf7f9e34667637e56ea29b85c4ada86358921fb6b5425714bd7eee7c9b32e"
+    },
+    {
+      "key": "here is your change",
+      "text": "Here is your change.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "hˈɪɹ ɪz jʊɹ ʧˈAnʤ.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/here-is-your-change.mp3",
+      "sha256": "e09a34313dee2b37a2441e3645b20af7532b76b013b2f1aab090bf63cbee1785"
+    },
+    {
+      "key": "receipt",
+      "text": "receipt",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ɹəsˈit",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/receipt.mp3",
+      "sha256": "164575a6843e9eceaa84ce73db467c9ae784c5d8a866aff10ed20385ec051462"
+    },
+    {
+      "key": "keep the receipt after you pay",
+      "text": "Keep the receipt after you pay.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "kˈip ðə ɹəsˈit ˈæftəɹ ju pˈA.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/keep-the-receipt-after-you-pay.mp3",
+      "sha256": "a733620e52e7d587798cc2ffc90fae9cee431e35f025e61ab61199ea4cfeea46"
+    },
+    {
+      "key": "bill",
+      "text": "bill",
+      "role": "word",
+      "style": "word",
+      "phonemes": "bˈɪl",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/bill.mp3",
+      "sha256": "485cac51b67888cb3537b4138c0cc8e8d43609458b4fae0982789a2f28552da6"
+    },
+    {
+      "key": "could we have the bill please",
+      "text": "Could we have the bill, please?",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "kˌʊd wi hæv ðə bˈɪl, plˈiz?",
+      "intonation": "rise",
+      "path": "audio/en-us/travel/sentence/could-we-have-the-bill-please.mp3",
+      "sha256": "588ab235f16aebf097ebbcfea6150f0be194e269893b6f5d533e4b17c6f1ca66"
+    },
+    {
+      "key": "sale",
+      "text": "sale",
+      "role": "word",
+      "style": "word",
+      "phonemes": "sˈAl",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/sale.mp3",
+      "sha256": "5e95c74177f5629e6bd4e5578e9676e3fc0e69a9e5c0cbdbe5503cac8911611a"
+    },
+    {
+      "key": "these shoes are in the sale",
+      "text": "These shoes are in the sale.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðˌiz ʃˈuz ɑɹ ɪn ðə sˈAl.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/these-shoes-are-in-the-sale.mp3",
+      "sha256": "9bf1f4a1e5d6b707935ef06c498e94e6316b3de5da292a7e3dc116be23c479c9"
+    },
+    {
+      "key": "discount",
+      "text": "discount",
+      "role": "word",
+      "style": "word",
+      "phonemes": "dˈɪskWnt",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/discount.mp3",
+      "sha256": "5f528d4b781c524f46853b2d9064fb1c59aa41ac3498ce2ce40b51a9b3acddb9"
+    },
+    {
+      "key": "the shop gives a ten per cent discount",
+      "text": "The shop gives a ten per cent discount.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə ʃˈɑp ɡˈɪvz ɐ tˈɛn pɜɹ sˈɛnt dˈɪskˌWnt.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-shop-gives-a-ten-per-cent-discount.mp3",
+      "sha256": "e083a36634ed1cba6f17804c4a3e0517d8f6152826e14171e4db9189770f477a"
+    },
+    {
+      "key": "cheap",
+      "text": "cheap",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ʧˈip",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/cheap.mp3",
+      "sha256": "5c873d00182a04504fa313104f3bc84d6af11d6315758a255583a72a4f00803e"
+    },
+    {
+      "key": "this pen is cheap",
+      "text": "This pen is cheap.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðˌɪs pˈɛn ɪz ʧˈip.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/this-pen-is-cheap.mp3",
+      "sha256": "51ee10e6d81cab6ddd534558ffc0d94c95144f1a179f01db32015b5b9f243e15"
+    },
+    {
+      "key": "expensive",
+      "text": "expensive",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ɪkspˈɛnsɪv",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/expensive.mp3",
+      "sha256": "d6fb87104f9726e347f7eb4acb044a68d8b59642fe2fe421e658097d7dc1c4e3"
+    },
+    {
+      "key": "that watch is too expensive",
+      "text": "That watch is too expensive.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðˈæt wˈɑʧ ɪz tˈu ɪkspˈɛnsɪv.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/that-watch-is-too-expensive.mp3",
+      "sha256": "d0d231b5e13a66df6bb48c9a60d0094f6c7d0d0c4ba38407f9d6fe9fbd6bea50"
+    },
+    {
+      "key": "buy",
+      "text": "buy",
+      "role": "word",
+      "style": "word",
+      "phonemes": "bˈI",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/buy.mp3",
+      "sha256": "e78b596dcb9aa77f7cdad59ee70db557ee5ff6b23718be9c7ab1a2ded0bc05b2"
+    },
+    {
+      "key": "i want to buy a new bag",
+      "text": "I want to buy a new bag.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ˌI wˈɑnt tə bˈI ɐ nˈu bˈæɡ.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/i-want-to-buy-a-new-bag.mp3",
+      "sha256": "81c8c62bc1e81d50eb865b964e96453ec0c5cddead5ca07577fbb39ceb45013e"
+    },
+    {
+      "key": "sell",
+      "text": "sell",
+      "role": "word",
+      "style": "word",
+      "phonemes": "sˈɛl",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/sell.mp3",
+      "sha256": "3b265195a7b3c92c950ddaf22ad714a18ecd4e2c3c10ca00dbab0f85b9697847"
+    },
+    {
+      "key": "they sell fresh bread here",
+      "text": "They sell fresh bread here.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðˌA sˈɛl fɹˈɛʃ bɹˈɛd hˈɪɹ.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/they-sell-fresh-bread-here.mp3",
+      "sha256": "1f0c5adcff5d96e85660d4d168006fa4b2bbb4c0597ce860b02327162f8a0244"
+    },
+    {
+      "key": "spend",
+      "text": "spend",
+      "role": "word",
+      "style": "word",
+      "phonemes": "spˈɛnd",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/spend.mp3",
+      "sha256": "dd76b8c47645c8925030e2f809487751c02c831e7440b35ea303864701195511"
+    },
+    {
+      "key": "i do not spend much money on toys",
+      "text": "I do not spend much money on toys.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ˌI dˈu nˌɑt spˈɛnd mˈʌʧ mˈʌni ˌɔn tˈYz.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/i-do-not-spend-much-money-on-toys.mp3",
+      "sha256": "7a1dc90135a466e292fc1d2a52b2adad27337e9c9f7803a1a43c670b844f8753"
+    },
+    {
+      "key": "save",
+      "text": "save",
+      "role": "word",
+      "style": "word",
+      "phonemes": "sˈAv",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/save.mp3",
+      "sha256": "afb6f3fe4e3a8d5b3b2a1282b502a008781480c3e4bf89d795581798c12b283e"
+    },
+    {
+      "key": "i save a little money every week",
+      "text": "I save a little money every week.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ˌI sˈAv ɐ lˈɪTᵊl mˈʌni ˈɛvəɹi wˈik.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/i-save-a-little-money-every-week.mp3",
+      "sha256": "24c14889cad76e064ce7e813382a835d1675f640ea5bd3ec4e3bf968fdff98d4"
+    },
+    {
+      "key": "borrow",
+      "text": "borrow",
+      "role": "word",
+      "style": "word",
+      "phonemes": "bˈɑɹO",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/borrow.mp3",
+      "sha256": "2512683868536ed819317dd4a0d7a5dd381fa6c28f48aabc21990536579c4846"
+    },
+    {
+      "key": "can i borrow one pound",
+      "text": "Can I borrow one pound?",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "kˌæn ˌI bˈɑɹO wˈʌn pˈWnd?",
+      "intonation": "rise",
+      "path": "audio/en-us/travel/sentence/can-i-borrow-one-pound.mp3",
+      "sha256": "2fc11bc807db44f9f42d89b30bf03c80490c2870c51ae5583f7d57e98dc527e4"
+    },
+    {
+      "key": "lend",
+      "text": "lend",
+      "role": "word",
+      "style": "word",
+      "phonemes": "lˈɛnd",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/lend.mp3",
+      "sha256": "40e281811e342da755e1b3cb86feee5152bf230dbeeb96b923f311b5919691c4"
+    },
+    {
+      "key": "i can lend you a pen",
+      "text": "I can lend you a pen.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ˌI kæn lˈɛnd ju ɐ pˈɛn.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/i-can-lend-you-a-pen.mp3",
+      "sha256": "dd8dc4b88dac777af0520f291f9c4b6059ca90074d8cee1c22fbc22cbcce278a"
+    },
+    {
+      "key": "customer",
+      "text": "customer",
+      "role": "word",
+      "style": "word",
+      "phonemes": "kˈʌstəməɹ",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/customer.mp3",
+      "sha256": "13312204c9a8607fa4f3f835e59dc7e8264c753ab45298adee4c17eb04f76eb4"
+    },
+    {
+      "key": "the customer asks a question",
+      "text": "The customer asks a question.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə kˈʌstəməɹ ˈæsks ɐ kwˈɛsʧᵊn.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-customer-asks-a-question.mp3",
+      "sha256": "26d0e7d1bd7b23f51b91a66ff7626c4a9c581a62524dc7cae75cb63d0c96f643"
+    },
+    {
+      "key": "queue",
+      "text": "queue",
+      "role": "word",
+      "style": "word",
+      "phonemes": "kjˈu",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/queue.mp3",
+      "sha256": "c48cee8c268361e0076a667b75791d970657b62ee1903546660b400d0afcd762"
+    },
+    {
+      "key": "please wait in the queue",
+      "text": "Please wait in the queue.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "plˈiz wˈAt ɪn ðə kjˈu.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/please-wait-in-the-queue.mp3",
+      "sha256": "409e8b654ad10702790c15ab23f2cc252d9ae4dec8c6654825164ce57157a4a2"
+    },
+    {
+      "key": "checkout",
+      "text": "checkout",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ʧˈɛkˌWt",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/checkout.mp3",
+      "sha256": "7d7517e0e6bd8a2e17bc2b7ce5168c5a34d94f241b6c79bf1cf1ebd05a3ab2ea"
+    },
+    {
+      "key": "we paid at the checkout",
+      "text": "We paid at the checkout.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "wˌi pˈAd æt ðə ʧˈɛkˌWt.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/we-paid-at-the-checkout.mp3",
+      "sha256": "f5c6021c635286c215f0e596392fbe80f3112bd509f3c8dde181be8cb4df06df"
+    },
+    {
+      "key": "counter",
+      "text": "counter",
+      "role": "word",
+      "style": "word",
+      "phonemes": "kˈWntəɹ",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/counter.mp3",
+      "sha256": "8647d78a881e2371cebdc37c4356f9247d4c042b9bb1c550f49a2587645853c1"
+    },
+    {
+      "key": "put the parcel on the counter",
+      "text": "Put the parcel on the counter.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "pˌʊt ðə pˈɑɹsᵊl ˌɔn ðə kˈWntəɹ.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/put-the-parcel-on-the-counter.mp3",
+      "sha256": "86bc618bcec159ec321f27e3bd7bd76884824065026a80104b1cf0a29a1cb163"
+    },
+    {
+      "key": "do you have this in a bigger size",
+      "text": "Do you have this in a bigger size?",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "dˈu ju hæv ðɪs ɪn ɐ bˈɪɡəɹ sˈIz?",
+      "intonation": "rise",
+      "path": "audio/en-us/travel/sentence/do-you-have-this-in-a-bigger-size.mp3",
+      "sha256": "73334c255245ab5200c852b3d2c3a8a8ec7bce39910ceafd839cfc90f5a057da"
+    },
+    {
+      "key": "try on",
+      "text": "try on",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "tɹˈI ˌɔn",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/word/try-on.mp3",
+      "sha256": "f8f0112ba8937b46b212c85c04653e82ef20419af13a2245b857d97894344d7f"
+    },
+    {
+      "key": "can i try on this coat",
+      "text": "Can I try on this coat?",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "kˌæn ˌI tɹˈI ˌɔn ðɪs kˈOt?",
+      "intonation": "rise",
+      "path": "audio/en-us/travel/sentence/can-i-try-on-this-coat.mp3",
+      "sha256": "e4c105046f457bf2da79d440b30b93a12c6776538ce6243fb01a804d3cb9e482"
+    },
+    {
+      "key": "fitting room",
+      "text": "fitting room",
+      "role": "word",
+      "style": "sentence",
+      "phonemes": "fˈɪTɪŋ ɹˈum",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/word/fitting-room.mp3",
+      "sha256": "1924185ba7eb0e6a5cfc995e8c343aa24151a38f303efe31f46030d561e1f39f"
+    },
+    {
+      "key": "the fitting room is over there",
+      "text": "The fitting room is over there.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə fˈɪTɪŋ ɹˈum ɪz ˈOvəɹ ðˈɛɹ.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-fitting-room-is-over-there.mp3",
+      "sha256": "d732aee309b0071c328a784b12eeb84d8cc956d482de0e03c8187b66275f72b8"
+    },
+    {
+      "key": "clothes",
+      "text": "clothes",
+      "role": "word",
+      "style": "word",
+      "phonemes": "klˈOðz",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/clothes.mp3",
+      "sha256": "c747b254124399c4ac006bedce54ba4352fe0732dcf70cac0ea48ce49cff945e"
+    },
+    {
+      "key": "these clothes are clean",
+      "text": "These clothes are clean.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðˌiz klˈOðz ɑɹ klˈin.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/these-clothes-are-clean.mp3",
+      "sha256": "4a3b1c4548790dd8757363b7006e9b5eb6dd245c02752a4d2f0788fce8705382"
+    },
+    {
+      "key": "shoes",
+      "text": "shoes",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ʃˈuz",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/shoes.mp3",
+      "sha256": "be867af004e6082939429eb0a5759a3290a68a40ecfb7d5b88fac53413c2edb2"
+    },
+    {
+      "key": "my new shoes are comfortable",
+      "text": "My new shoes are comfortable.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "mˌI nˈu ʃˈuz ɑɹ kˈʌmfəɹTəbᵊl.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/my-new-shoes-are-comfortable.mp3",
+      "sha256": "021a1df5f3400f761b651b60aa25461faad6e81cb27aea2203a5e7f9cac2b1fd"
+    },
+    {
+      "key": "toy",
+      "text": "toy",
+      "role": "word",
+      "style": "word",
+      "phonemes": "tˈY",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/toy.mp3",
+      "sha256": "6ab137a71de3322c37490a4a75413cb0878cd48db451ba549a0b7014fde861e8"
+    },
+    {
+      "key": "the child chose a toy car",
+      "text": "The child chose a toy car.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə ʧˈIld ʧˈOz ɐ tˈY kˈɑɹ.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-child-chose-a-toy-car.mp3",
+      "sha256": "71694d1efe83e5247689bc6860f9dfe5015faa914f30969e2d6cfce60b4ce706"
+    },
+    {
+      "key": "gift",
+      "text": "gift",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ɡˈɪft",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/gift.mp3",
+      "sha256": "cece988bbf122d03ee549be1502db7a376c92875e47c905f079257b240679fb8"
+    },
+    {
+      "key": "i bought a gift for my friend",
+      "text": "I bought a gift for my friend.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ˌI bˈɔt ɐ ɡˈɪft fɔɹ mI fɹˈɛnd.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/i-bought-a-gift-for-my-friend.mp3",
+      "sha256": "53aef4376d85c3fac5c7c5f8ce6f869c5366aa93bdb7463413ca57ba445bbf0f"
+    },
+    {
+      "key": "delivery",
+      "text": "delivery",
+      "role": "word",
+      "style": "word",
+      "phonemes": "dəlˈɪvəɹi",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/delivery.mp3",
+      "sha256": "3a8cee8bae32c0eae4a5216ba00fda10f03ad052cb152d9b9e22d29fe578d7a0"
+    },
+    {
+      "key": "the delivery will arrive tomorrow",
+      "text": "The delivery will arrive tomorrow.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə dəlˈɪvəɹi wɪl əɹˈIv təmˈɑɹO.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-delivery-will-arrive-tomorrow.mp3",
+      "sha256": "3d41f610f9fc5bf6984ca2168cdde84043adb49fc65fae331a008e94048527a2"
+    },
+    {
+      "key": "refund",
+      "text": "refund",
+      "role": "word",
+      "style": "word",
+      "phonemes": "ɹˈifʌnd",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/refund.mp3",
+      "sha256": "293f7498e58d41fd330cc0d975f7908b71d534c7922896578d7db61e41959eaf"
+    },
+    {
+      "key": "the shop gave me a refund",
+      "text": "The shop gave me a refund.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðə ʃˈɑp ɡˈAv mˌi ɐ ɹˈifˌʌnd.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/the-shop-gave-me-a-refund.mp3",
+      "sha256": "02020039088114154da0ab4a5a8aa7286f9074e1c008b80711846d61d385ae93"
+    },
+    {
+      "key": "pound",
+      "text": "pound",
+      "role": "word",
+      "style": "word",
+      "phonemes": "pˈWnd",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/pound.mp3",
+      "sha256": "30bc1bb829ea7613a1e8e5a1a0bacf31848d68eac54b1458b6819f2e669bc0fc"
+    },
+    {
+      "key": "this book costs five pounds",
+      "text": "This book costs five pounds.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "ðˌɪs bˈʊk kˈɔsts fˈIv pˈWndz.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/this-book-costs-five-pounds.mp3",
+      "sha256": "00459d109f4c4771cf1991151402a8c01679880e2f7b9154aba060d27eea10ca"
+    },
+    {
+      "key": "penny",
+      "text": "penny",
+      "role": "word",
+      "style": "word",
+      "phonemes": "pˈɛni",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/penny.mp3",
+      "sha256": "88dd30a2580e315bd3bad79a13ff1a765abb70075ad6f2ee5847fdc2f5642833"
+    },
+    {
+      "key": "one hundred pence make one pound",
+      "text": "One hundred pence make one pound.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "wˈʌn hˈʌndɹəd pˈɛns mˌAk wˈʌn pˈWnd.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/one-hundred-pence-make-one-pound.mp3",
+      "sha256": "955000c2f2485d7c3514a0b64a70be8b5edb5fe4e272abe1ca0cfbd3e249d997"
+    },
+    {
+      "key": "budget",
+      "text": "budget",
+      "role": "word",
+      "style": "word",
+      "phonemes": "bˈʌʤət",
+      "intonation": "neutral",
+      "path": "audio/en-us/travel/word/budget.mp3",
+      "sha256": "192847654d5e5cd1fdf6c2d38e847c820c836745930cb4eeadb56a55b301020e"
+    },
+    {
+      "key": "we have a small budget for the trip",
+      "text": "We have a small budget for the trip.",
+      "role": "sentence",
+      "style": "sentence",
+      "phonemes": "wˌi hæv ɐ smˈɔl bˈʌʤət fɔɹ ðə tɹˈɪp.",
+      "intonation": "fall",
+      "path": "audio/en-us/travel/sentence/we-have-a-small-budget-for-the-trip.mp3",
+      "sha256": "eb3ecc23b1f60c643848c33a3665e0f0f8bb3233bd99c8eb2258d10b27158115"
+    }
+  ]
+}

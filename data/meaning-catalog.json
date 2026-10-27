@@ -20546,6 +20546,3711 @@
       ],
       "usage": "",
       "note": ""
+    },
+    {
+      "id": "C07-S01-001",
+      "word": "car",
+      "meaning": "汽车",
+      "english": "My dad drives a car.",
+      "chinese": "我爸爸开汽车。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "汽车"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S01-002",
+      "word": "bus",
+      "meaning": "公共汽车",
+      "english": "I take the bus to school.",
+      "chinese": "我乘公共汽车去学校。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 6,
+          "text": "公共汽车"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S01-003",
+      "word": "coach",
+      "meaning": "长途客车",
+      "english": "We travelled by coach.",
+      "chinese": "我们乘长途客车旅行。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 7,
+          "text": "长途客车"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S01-004",
+      "word": "taxi",
+      "meaning": "出租车",
+      "english": "We called a taxi.",
+      "chinese": "我们叫了一辆出租车。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 9,
+          "text": "出租车"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S01-005",
+      "word": "train",
+      "meaning": "火车",
+      "english": "The train arrives at nine.",
+      "chinese": "火车九点到达。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "火车"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S01-006",
+      "word": "underground",
+      "meaning": "地铁（英式常用）",
+      "english": "The underground is very busy.",
+      "chinese": "地铁里很拥挤。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "地铁"
+        }
+      ],
+      "usage": "",
+      "note": "保留源词及 DJ 英式音标；录音使用 GA 美式读音，不替换词条或英国文化中的货币单位。"
+    },
+    {
+      "id": "C07-S01-007",
+      "word": "tram",
+      "meaning": "有轨电车",
+      "english": "The tram stops near the park.",
+      "chinese": "有轨电车在公园附近停靠。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 4,
+          "text": "有轨电车"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S01-008",
+      "word": "bicycle",
+      "meaning": "自行车",
+      "english": "She rides her bicycle every day.",
+      "chinese": "她每天骑自行车。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 7,
+          "text": "自行车"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S01-009",
+      "word": "bike",
+      "meaning": "自行车；摩托车（口语）",
+      "english": "My bike is blue.",
+      "chinese": "我的自行车是蓝色的。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 5,
+          "text": "自行车"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S01-010",
+      "word": "motorbike",
+      "meaning": "摩托车",
+      "english": "He wears a helmet on his motorbike.",
+      "chinese": "他骑摩托车时戴头盔。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 5,
+          "text": "摩托车"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S01-011",
+      "word": "scooter",
+      "meaning": "滑板车；小型踏板车",
+      "english": "The child rides a scooter.",
+      "chinese": "这个孩子骑滑板车。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 8,
+          "text": "滑板车"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S01-012",
+      "word": "lorry",
+      "meaning": "卡车；货车（英式常用）",
+      "english": "The lorry carries boxes.",
+      "chinese": "这辆货车运送箱子。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "货车"
+        }
+      ],
+      "usage": "",
+      "note": "保留源词及 DJ 英式音标；录音使用 GA 美式读音，不替换词条或英国文化中的货币单位。"
+    },
+    {
+      "id": "C07-S01-013",
+      "word": "van",
+      "meaning": "厢式货车",
+      "english": "A white van is outside.",
+      "chinese": "外面停着一辆白色厢式货车。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 8,
+          "end": 12,
+          "text": "厢式货车"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S01-014",
+      "word": "ambulance",
+      "meaning": "救护车",
+      "english": "The ambulance is on its way.",
+      "chinese": "救护车正在赶来。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "救护车"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S01-015",
+      "word": "fire engine",
+      "meaning": "消防车",
+      "english": "The fire engine has a loud siren.",
+      "chinese": "消防车有响亮的警笛。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "消防车"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S01-016",
+      "word": "police car",
+      "meaning": "警车",
+      "english": "The police car stopped nearby.",
+      "chinese": "警车在附近停了下来。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "警车"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S01-017",
+      "word": "aeroplane",
+      "meaning": "飞机（英式拼法）",
+      "english": "The aeroplane flies above the clouds.",
+      "chinese": "飞机在云层上方飞行。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "飞机"
+        }
+      ],
+      "usage": "",
+      "note": "保留源词及 DJ 英式音标；录音使用 GA 美式读音，不替换词条或英国文化中的货币单位。"
+    },
+    {
+      "id": "C07-S01-018",
+      "word": "helicopter",
+      "meaning": "直升机",
+      "english": "A helicopter landed in the field.",
+      "chinese": "一架直升机降落在田野里。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 5,
+          "text": "直升机"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S01-019",
+      "word": "boat",
+      "meaning": "小船",
+      "english": "The boat is on the lake.",
+      "chinese": "小船在湖上。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "小船"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S01-020",
+      "word": "ship",
+      "meaning": "轮船",
+      "english": "The ship crosses the sea.",
+      "chinese": "轮船横渡大海。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "轮船"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S01-021",
+      "word": "ferry",
+      "meaning": "渡船",
+      "english": "We took a ferry to the island.",
+      "chinese": "我们乘渡船去岛上。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "渡船"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S01-022",
+      "word": "submarine",
+      "meaning": "潜水艇",
+      "english": "A submarine travels underwater.",
+      "chinese": "潜水艇在水下行驶。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "潜水艇"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S01-023",
+      "word": "rocket",
+      "meaning": "火箭",
+      "english": "The rocket goes into space.",
+      "chinese": "火箭飞向太空。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "火箭"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S01-024",
+      "word": "spaceship",
+      "meaning": "宇宙飞船",
+      "english": "The spaceship travels through space.",
+      "chinese": "宇宙飞船在太空中航行。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 4,
+          "text": "宇宙飞船"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S01-025",
+      "word": "station",
+      "meaning": "车站；站",
+      "english": "We will meet at the station.",
+      "chinese": "我们将在车站见面。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "车站"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S01-026",
+      "word": "bus stop",
+      "meaning": "公共汽车站",
+      "english": "Wait for me at the bus stop.",
+      "chinese": "在公交车站等我。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 5,
+          "text": "公交车站"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S01-027",
+      "word": "railway station",
+      "meaning": "火车站",
+      "english": "The railway station is very old.",
+      "chinese": "这座火车站很古老。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 5,
+          "text": "火车站"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S01-028",
+      "word": "airport",
+      "meaning": "机场",
+      "english": "We arrived at the airport early.",
+      "chinese": "我们很早就到了机场。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 9,
+          "text": "机场"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S01-029",
+      "word": "ticket",
+      "meaning": "票；车票",
+      "english": "Keep your ticket safe.",
+      "chinese": "把车票保管好。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "车票"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S01-030",
+      "word": "ticket office",
+      "meaning": "售票处",
+      "english": "Buy a ticket at the ticket office.",
+      "chinese": "在售票处买票。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 4,
+          "text": "售票处"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S01-031",
+      "word": "platform",
+      "meaning": "站台；月台",
+      "english": "The train is at platform two.",
+      "chinese": "火车停在二号站台。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 8,
+          "text": "站台"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S01-032",
+      "word": "passenger",
+      "meaning": "乘客",
+      "english": "Every passenger needs a ticket.",
+      "chinese": "每位乘客都需要一张票。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "乘客"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S01-033",
+      "word": "driver",
+      "meaning": "司机",
+      "english": "The driver stopped the bus.",
+      "chinese": "司机停下了公共汽车。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "司机"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S01-034",
+      "word": "pilot",
+      "meaning": "飞行员",
+      "english": "The pilot flies the plane.",
+      "chinese": "飞行员驾驶飞机。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "飞行员"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S01-035",
+      "word": "sailor",
+      "meaning": "水手",
+      "english": "The sailor works on a ship.",
+      "chinese": "水手在船上工作。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "水手"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S01-036",
+      "word": "traffic",
+      "meaning": "交通；车流",
+      "english": "There is a lot of traffic today.",
+      "chinese": "今天车流量很大。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "车流"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S01-037",
+      "word": "traffic lights",
+      "meaning": "交通信号灯",
+      "english": "Stop when the traffic lights are red.",
+      "chinese": "交通信号灯变红时停下。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 5,
+          "text": "交通信号灯"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S01-038",
+      "word": "road",
+      "meaning": "道路",
+      "english": "Be careful when you cross the road.",
+      "chinese": "过马路时要小心。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "马路"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S01-039",
+      "word": "street",
+      "meaning": "街道",
+      "english": "Our school is on this street.",
+      "chinese": "我们的学校在这条街上。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 8,
+          "end": 9,
+          "text": "街"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S01-040",
+      "word": "bridge",
+      "meaning": "桥",
+      "english": "The bus goes over the bridge.",
+      "chinese": "公共汽车驶过这座桥。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 8,
+          "end": 9,
+          "text": "桥"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S01-041",
+      "word": "tunnel",
+      "meaning": "隧道",
+      "english": "The train went through a tunnel.",
+      "chinese": "火车穿过了一条隧道。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 9,
+          "text": "隧道"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S01-042",
+      "word": "crossing",
+      "meaning": "人行横道；交叉口",
+      "english": "Use the crossing to cross the road.",
+      "chinese": "过马路时走人行横道。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 9,
+          "text": "人行横道"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S01-043",
+      "word": "zebra crossing",
+      "meaning": "斑马线",
+      "english": "Wait at the zebra crossing.",
+      "chinese": "在斑马线前等候。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 4,
+          "text": "斑马线"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S01-044",
+      "word": "helmet",
+      "meaning": "头盔",
+      "english": "Wear a helmet when you ride a bike.",
+      "chinese": "骑自行车时要戴头盔。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 9,
+          "text": "头盔"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S01-045",
+      "word": "seat belt",
+      "meaning": "安全带",
+      "english": "Please fasten your seat belt.",
+      "chinese": "请系好安全带。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 6,
+          "text": "安全带"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S01-046",
+      "word": "traffic jam",
+      "meaning": "交通堵塞",
+      "english": "We were late because of a traffic jam.",
+      "chinese": "我们因为堵车迟到了。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "堵车"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S03-001",
+      "word": "direction",
+      "meaning": "方向",
+      "english": "Can you tell me the direction?",
+      "chinese": "你能告诉我方向吗？",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "方向"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S03-002",
+      "word": "left",
+      "meaning": "左边；向左",
+      "english": "Turn left at the next street.",
+      "chinese": "在下一条街向左转。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "向左"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S03-003",
+      "word": "right",
+      "meaning": "右边；向右",
+      "english": "The library is on the right.",
+      "chinese": "图书馆在右边。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "右边"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S03-004",
+      "word": "straight",
+      "meaning": "直地；直行",
+      "english": "Go straight for two minutes.",
+      "chinese": "直走两分钟。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "直走"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S03-005",
+      "word": "turn left",
+      "meaning": "向左转",
+      "english": "Turn left after the bridge.",
+      "chinese": "过桥后向左转。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 6,
+          "text": "向左转"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S03-006",
+      "word": "turn right",
+      "meaning": "向右转",
+      "english": "Turn right at the traffic lights.",
+      "chinese": "在红绿灯处向右转。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 8,
+          "text": "向右转"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S03-007",
+      "word": "go straight",
+      "meaning": "直走",
+      "english": "Go straight and you will see the school.",
+      "chinese": "一直往前走，你就会看到学校。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 5,
+          "text": "一直往前走"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S03-008",
+      "word": "north",
+      "meaning": "北；北方",
+      "english": "The sea is to the north.",
+      "chinese": "海在北边。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 3,
+          "text": "北"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S03-009",
+      "word": "south",
+      "meaning": "南；南方",
+      "english": "The town is south of the river.",
+      "chinese": "城镇在河的南边。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 6,
+          "text": "南"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S03-010",
+      "word": "east",
+      "meaning": "东；东方",
+      "english": "The sun rises in the east.",
+      "chinese": "太阳从东方升起。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "东方"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S03-011",
+      "word": "west",
+      "meaning": "西；西方",
+      "english": "The sun sets in the west.",
+      "chinese": "太阳从西方落下。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "西方"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S03-012",
+      "word": "near",
+      "meaning": "在附近",
+      "english": "The bus stop is near my house.",
+      "chinese": "公交车站在我家附近。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 9,
+          "text": "附近"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S03-013",
+      "word": "far",
+      "meaning": "远的；远地",
+      "english": "The station is not far away.",
+      "chinese": "车站不远。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 4,
+          "text": "远"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S03-014",
+      "word": "next to",
+      "meaning": "紧挨着",
+      "english": "The bank is next to the café.",
+      "chinese": "银行紧挨着咖啡馆。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 5,
+          "text": "紧挨着"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S03-015",
+      "word": "beside",
+      "meaning": "在旁边",
+      "english": "Sit beside your sister.",
+      "chinese": "坐在你姐姐旁边。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "旁边"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S03-016",
+      "word": "between",
+      "meaning": "在两者之间",
+      "english": "The shop is between the bank and the café.",
+      "chinese": "商店在银行和咖啡馆之间。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 9,
+          "end": 11,
+          "text": "之间"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S03-017",
+      "word": "opposite",
+      "meaning": "在对面",
+      "english": "The school is opposite the park.",
+      "chinese": "学校在公园对面。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "对面"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S03-018",
+      "word": "in front of",
+      "meaning": "在……前面",
+      "english": "The bus is in front of the station.",
+      "chinese": "公共汽车在车站前面。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 9,
+          "text": "前面"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S03-019",
+      "word": "behind",
+      "meaning": "在……后面",
+      "english": "The garden is behind the house.",
+      "chinese": "花园在房子后面。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "后面"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S03-020",
+      "word": "above",
+      "meaning": "在……上方",
+      "english": "The clock is above the door.",
+      "chinese": "时钟在门上方。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "上方"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S03-021",
+      "word": "below",
+      "meaning": "在……下方",
+      "english": "The picture is below the shelf.",
+      "chinese": "图片在架子下方。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "下方"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S03-022",
+      "word": "under",
+      "meaning": "在……下面",
+      "english": "The cat is under the table.",
+      "chinese": "猫在桌子下面。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "下面"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S03-023",
+      "word": "over",
+      "meaning": "在……上方；越过",
+      "english": "The plane flew over the city.",
+      "chinese": "飞机飞过城市上空。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "飞过"
+        },
+        {
+          "start": 6,
+          "end": 8,
+          "text": "上空"
+        }
+      ],
+      "usage": "",
+      "note": "本句中 over 与 flew 一起表示“飞过……上空”；中文高亮两处共同表达空间关系。"
+    },
+    {
+      "id": "C07-S03-024",
+      "word": "inside",
+      "meaning": "在里面",
+      "english": "Please wait inside the building.",
+      "chinese": "请在建筑物里面等候。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "里面"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S03-025",
+      "word": "outside",
+      "meaning": "在外面",
+      "english": "The children are playing outside.",
+      "chinese": "孩子们正在外面玩。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 7,
+          "text": "在外面"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S03-026",
+      "word": "on the left",
+      "meaning": "在左边",
+      "english": "The shop is on the left.",
+      "chinese": "商店在左边。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 5,
+          "text": "在左边"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S03-027",
+      "word": "on the right",
+      "meaning": "在右边",
+      "english": "The door is on the right.",
+      "chinese": "门在右边。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 4,
+          "text": "在右边"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S03-028",
+      "word": "across from",
+      "meaning": "在……对面",
+      "english": "The café is across from the library.",
+      "chinese": "咖啡馆在图书馆对面。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 9,
+          "text": "对面"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S03-029",
+      "word": "around the corner",
+      "meaning": "就在拐角附近",
+      "english": "The pharmacy is around the corner.",
+      "chinese": "药房就在拐角附近。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 8,
+          "text": "就在拐角附近"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S03-030",
+      "word": "at the end of",
+      "meaning": "在……尽头",
+      "english": "The park is at the end of this road.",
+      "chinese": "公园在这条路的尽头。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 9,
+          "text": "尽头"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S03-031",
+      "word": "through",
+      "meaning": "穿过；通过",
+      "english": "Walk through the park.",
+      "chinese": "穿过公园。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "穿过"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S03-032",
+      "word": "along",
+      "meaning": "沿着",
+      "english": "Walk along this street.",
+      "chinese": "沿着这条街走。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "沿着"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S03-033",
+      "word": "past",
+      "meaning": "经过",
+      "english": "Go past the bank and turn left.",
+      "chinese": "经过银行后向左转。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "经过"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S03-034",
+      "word": "entrance",
+      "meaning": "入口",
+      "english": "The entrance is on the right.",
+      "chinese": "入口在右边。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "入口"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S03-035",
+      "word": "exit",
+      "meaning": "出口",
+      "english": "Please use the main exit.",
+      "chinese": "请使用主出口。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "出口"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S03-036",
+      "word": "upstairs",
+      "meaning": "在楼上；上楼",
+      "english": "The classroom is upstairs.",
+      "chinese": "教室在楼上。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 5,
+          "text": "在楼上"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S03-037",
+      "word": "downstairs",
+      "meaning": "在楼下；下楼",
+      "english": "The kitchen is downstairs.",
+      "chinese": "厨房在楼下。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 5,
+          "text": "在楼下"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S03-038",
+      "word": "address",
+      "meaning": "地址",
+      "english": "Please write your address here.",
+      "chinese": "请在这里写下你的地址。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 8,
+          "end": 10,
+          "text": "地址"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S03-039",
+      "word": "map",
+      "meaning": "地图",
+      "english": "Let's look at the map.",
+      "chinese": "我们看一下地图。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "地图"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S02-001",
+      "word": "city",
+      "meaning": "城市",
+      "english": "This city is very busy.",
+      "chinese": "这座城市很繁忙。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "城市"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S02-002",
+      "word": "town",
+      "meaning": "城镇",
+      "english": "My grandparents live in a small town.",
+      "chinese": "我的祖父母住在一个小城镇。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 10,
+          "end": 12,
+          "text": "城镇"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S02-003",
+      "word": "village",
+      "meaning": "村庄",
+      "english": "The village is near a river.",
+      "chinese": "村庄在河边。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "村庄"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S02-004",
+      "word": "capital",
+      "meaning": "首都",
+      "english": "London is the capital of the UK.",
+      "chinese": "伦敦是英国的首都。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 8,
+          "text": "首都"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S02-005",
+      "word": "city centre",
+      "meaning": "市中心",
+      "english": "The shop is in the city centre.",
+      "chinese": "商店在市中心。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 6,
+          "text": "市中心"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S02-006",
+      "word": "square",
+      "meaning": "广场",
+      "english": "People are walking across the square.",
+      "chinese": "人们正穿过广场。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "广场"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S02-007",
+      "word": "park",
+      "meaning": "公园",
+      "english": "We play football in the park.",
+      "chinese": "我们在公园里踢足球。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "公园"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S02-008",
+      "word": "playground",
+      "meaning": "游乐场；操场",
+      "english": "The children are in the playground.",
+      "chinese": "孩子们在游乐场里。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 7,
+          "text": "游乐场"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S02-009",
+      "word": "library",
+      "meaning": "图书馆",
+      "english": "I borrow books from the library.",
+      "chinese": "我从图书馆借书。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 5,
+          "text": "图书馆"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S02-010",
+      "word": "school",
+      "meaning": "学校",
+      "english": "The school is next to the park.",
+      "chinese": "学校在公园旁边。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "学校"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S02-011",
+      "word": "university",
+      "meaning": "大学",
+      "english": "Her brother studies at university.",
+      "chinese": "她哥哥在大学学习。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "大学"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S02-012",
+      "word": "hospital",
+      "meaning": "医院",
+      "english": "The hospital is open all day.",
+      "chinese": "这家医院全天开放。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "医院"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S02-013",
+      "word": "clinic",
+      "meaning": "诊所",
+      "english": "The doctor works at a local clinic.",
+      "chinese": "这位医生在当地诊所工作。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 9,
+          "text": "诊所"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S02-014",
+      "word": "police station",
+      "meaning": "警察局",
+      "english": "The police station is near the bank.",
+      "chinese": "警察局在银行附近。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "警察局"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S02-015",
+      "word": "fire station",
+      "meaning": "消防站",
+      "english": "The fire station has several fire engines.",
+      "chinese": "消防站有几辆消防车。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "消防站"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S02-016",
+      "word": "post office",
+      "meaning": "邮局",
+      "english": "I sent a letter at the post office.",
+      "chinese": "我在邮局寄了一封信。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "邮局"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S02-017",
+      "word": "bank",
+      "meaning": "银行",
+      "english": "My mum went to the bank.",
+      "chinese": "我妈妈去了银行。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "银行"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S02-018",
+      "word": "supermarket",
+      "meaning": "超市",
+      "english": "We buy food at the supermarket.",
+      "chinese": "我们在超市买食物。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "超市"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S02-019",
+      "word": "market",
+      "meaning": "市场",
+      "english": "Fresh fruit is sold at the market.",
+      "chinese": "市场里出售新鲜水果。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "市场"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S02-020",
+      "word": "restaurant",
+      "meaning": "餐馆",
+      "english": "The restaurant serves lunch.",
+      "chinese": "这家餐馆供应午餐。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "餐馆"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S02-021",
+      "word": "café",
+      "meaning": "咖啡馆",
+      "english": "We had a snack at the café.",
+      "chinese": "我们在咖啡馆吃了点心。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 6,
+          "text": "咖啡馆"
+        }
+      ],
+      "usage": "",
+      "note": "源词 café 带重音符号 é；练习时填写完整的 café，保留该词写法与例句。"
+    },
+    {
+      "id": "C07-S02-022",
+      "word": "hotel",
+      "meaning": "酒店",
+      "english": "We stayed at a small hotel.",
+      "chinese": "我们住在一家小酒店。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 9,
+          "text": "酒店"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S02-023",
+      "word": "cinema",
+      "meaning": "电影院",
+      "english": "The film starts at the cinema at six.",
+      "chinese": "电影院的电影六点开场。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "电影院"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S02-024",
+      "word": "theatre",
+      "meaning": "剧院",
+      "english": "We watched a play at the theatre.",
+      "chinese": "我们在剧院看了一场戏。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "剧院"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S02-025",
+      "word": "museum",
+      "meaning": "博物馆",
+      "english": "The museum has old toys.",
+      "chinese": "博物馆里有古老的玩具。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "博物馆"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S02-026",
+      "word": "zoo",
+      "meaning": "动物园",
+      "english": "We saw elephants at the zoo.",
+      "chinese": "我们在动物园看到了大象。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 6,
+          "text": "动物园"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S02-027",
+      "word": "aquarium",
+      "meaning": "水族馆",
+      "english": "The aquarium has many colourful fish.",
+      "chinese": "水族馆里有许多色彩鲜艳的鱼。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "水族馆"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S02-028",
+      "word": "swimming pool",
+      "meaning": "游泳池",
+      "english": "We learn to swim at the swimming pool.",
+      "chinese": "我们在游泳池学习游泳。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 6,
+          "text": "游泳池"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S02-029",
+      "word": "sports centre",
+      "meaning": "体育中心",
+      "english": "The sports centre has a big gym.",
+      "chinese": "体育中心有一个大健身房。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 4,
+          "text": "体育中心"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S02-030",
+      "word": "stadium",
+      "meaning": "体育场",
+      "english": "The match is at the stadium.",
+      "chinese": "比赛在体育场举行。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 6,
+          "text": "体育场"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S02-031",
+      "word": "town hall",
+      "meaning": "市政厅",
+      "english": "The meeting is in the town hall.",
+      "chinese": "会议在市政厅举行。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 6,
+          "text": "市政厅"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S02-032",
+      "word": "bakery",
+      "meaning": "面包店",
+      "english": "The bakery smells wonderful.",
+      "chinese": "面包店闻起来很香。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "面包店"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S02-033",
+      "word": "pharmacy",
+      "meaning": "药房",
+      "english": "We bought medicine at the pharmacy.",
+      "chinese": "我们在药房买了药。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "药房"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S02-034",
+      "word": "petrol station",
+      "meaning": "加油站",
+      "english": "The car stopped at a petrol station.",
+      "chinese": "汽车在加油站停了下来。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 6,
+          "text": "加油站"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S02-035",
+      "word": "car park",
+      "meaning": "停车场",
+      "english": "The car is in the car park.",
+      "chinese": "汽车停在停车场里。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 7,
+          "text": "停车场"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S02-036",
+      "word": "public toilet",
+      "meaning": "公共厕所",
+      "english": "There is a public toilet near the park.",
+      "chinese": "公园附近有公共厕所。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 9,
+          "text": "公共厕所"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S02-037",
+      "word": "bus station",
+      "meaning": "汽车总站",
+      "english": "The bus station is beside the market.",
+      "chinese": "汽车总站在市场旁边。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 4,
+          "text": "汽车总站"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S02-038",
+      "word": "community centre",
+      "meaning": "社区中心",
+      "english": "We have a class at the community centre.",
+      "chinese": "我们在社区中心上课。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 7,
+          "text": "社区中心"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S02-039",
+      "word": "bridge",
+      "meaning": "桥",
+      "english": "The old bridge crosses the river.",
+      "chinese": "这座老桥横跨河流。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 4,
+          "text": "桥"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S04-001",
+      "word": "job",
+      "meaning": "工作；职业",
+      "english": "What is your mum's job?",
+      "chinese": "你妈妈的工作是什么？",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "工作"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S04-002",
+      "word": "work",
+      "meaning": "工作",
+      "english": "My dad goes to work early.",
+      "chinese": "我爸爸很早就去上班。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 9,
+          "text": "上班"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S04-003",
+      "word": "teacher",
+      "meaning": "教师",
+      "english": "Our teacher reads us a story.",
+      "chinese": "我们的老师给我们读故事。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "老师"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S04-004",
+      "word": "doctor",
+      "meaning": "医生",
+      "english": "The doctor helps sick people.",
+      "chinese": "医生帮助生病的人。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "医生"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S04-005",
+      "word": "nurse",
+      "meaning": "护士",
+      "english": "The nurse is kind to the children.",
+      "chinese": "护士对孩子们很友善。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "护士"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S04-006",
+      "word": "dentist",
+      "meaning": "牙医",
+      "english": "I visit the dentist twice a year.",
+      "chinese": "我每年看两次牙医。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 8,
+          "text": "牙医"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S04-007",
+      "word": "vet",
+      "meaning": "兽医",
+      "english": "The vet looks after animals.",
+      "chinese": "兽医照顾动物。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "兽医"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S04-008",
+      "word": "police officer",
+      "meaning": "警察",
+      "english": "The police officer helps people cross the road.",
+      "chinese": "警察帮助人们过马路。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "警察"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S04-009",
+      "word": "firefighter",
+      "meaning": "消防员",
+      "english": "The firefighter puts out fires.",
+      "chinese": "消防员扑灭火灾。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "消防员"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S04-010",
+      "word": "farmer",
+      "meaning": "农民；农场主",
+      "english": "The farmer grows vegetables.",
+      "chinese": "农民种蔬菜。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "农民"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S04-011",
+      "word": "cook",
+      "meaning": "厨师；做饭的人",
+      "english": "The cook makes soup.",
+      "chinese": "厨师做汤。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "厨师"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S04-012",
+      "word": "chef",
+      "meaning": "厨师（专业）",
+      "english": "The chef prepares dinner.",
+      "chinese": "厨师准备晚餐。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "厨师"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S04-013",
+      "word": "baker",
+      "meaning": "面包师",
+      "english": "The baker makes fresh bread.",
+      "chinese": "面包师制作新鲜面包。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "面包师"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S04-014",
+      "word": "waiter",
+      "meaning": "男服务员",
+      "english": "The waiter brings our food.",
+      "chinese": "男服务员把食物端给我们。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 4,
+          "text": "男服务员"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S04-015",
+      "word": "waitress",
+      "meaning": "女服务员",
+      "english": "The waitress gives us the menu.",
+      "chinese": "女服务员把菜单给我们。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 4,
+          "text": "女服务员"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S04-016",
+      "word": "shop assistant",
+      "meaning": "店员",
+      "english": "The shop assistant helps me find a coat.",
+      "chinese": "店员帮我找一件外套。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "店员"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S04-017",
+      "word": "cashier",
+      "meaning": "收银员",
+      "english": "The cashier takes the payment.",
+      "chinese": "收银员收款。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "收银员"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S04-018",
+      "word": "driver",
+      "meaning": "司机",
+      "english": "The driver checks the bus before work.",
+      "chinese": "司机上班前检查公共汽车。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "司机"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S04-019",
+      "word": "bus driver",
+      "meaning": "公交车司机",
+      "english": "The bus driver stops at every bus stop.",
+      "chinese": "公交车司机在每个站点停车。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 5,
+          "text": "公交车司机"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S04-020",
+      "word": "taxi driver",
+      "meaning": "出租车司机",
+      "english": "The taxi driver knows the city well.",
+      "chinese": "出租车司机很熟悉这座城市。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 5,
+          "text": "出租车司机"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S04-021",
+      "word": "train driver",
+      "meaning": "火车司机",
+      "english": "The train driver checks the signals.",
+      "chinese": "火车司机查看信号。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 4,
+          "text": "火车司机"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S04-022",
+      "word": "pilot",
+      "meaning": "飞行员",
+      "english": "The pilot welcomes the passengers.",
+      "chinese": "飞行员欢迎乘客。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "飞行员"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S04-023",
+      "word": "flight attendant",
+      "meaning": "空乘人员",
+      "english": "The flight attendant helps the passengers.",
+      "chinese": "空乘人员帮助乘客。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 4,
+          "text": "空乘人员"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S04-024",
+      "word": "mechanic",
+      "meaning": "机械师；修理工",
+      "english": "The mechanic repairs the car.",
+      "chinese": "修理工修理汽车。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "修理工"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S04-025",
+      "word": "builder",
+      "meaning": "建筑工人",
+      "english": "The builder is building a house.",
+      "chinese": "建筑工人正在建房子。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 4,
+          "text": "建筑工人"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S04-026",
+      "word": "plumber",
+      "meaning": "水管工",
+      "english": "The plumber fixes the tap.",
+      "chinese": "水管工修理水龙头。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "水管工"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S04-027",
+      "word": "electrician",
+      "meaning": "电工",
+      "english": "The electrician checks the lights.",
+      "chinese": "电工检查灯具。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "电工"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S04-028",
+      "word": "carpenter",
+      "meaning": "木匠",
+      "english": "The carpenter makes a wooden chair.",
+      "chinese": "木匠制作一把木椅。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "木匠"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S04-029",
+      "word": "cleaner",
+      "meaning": "清洁工",
+      "english": "The cleaner cleans the office.",
+      "chinese": "清洁工打扫办公室。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "清洁工"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S04-030",
+      "word": "gardener",
+      "meaning": "园丁",
+      "english": "The gardener waters the flowers.",
+      "chinese": "园丁给花浇水。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "园丁"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S04-031",
+      "word": "postman",
+      "meaning": "邮递员（传统英式用法）",
+      "english": "The postman delivers our letters.",
+      "chinese": "邮递员投递我们的信件。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "邮递员"
+        }
+      ],
+      "usage": "",
+      "note": "保留源词及 DJ 英式音标；录音使用 GA 美式读音，不替换词条或英国文化中的货币单位。"
+    },
+    {
+      "id": "C07-S04-032",
+      "word": "delivery driver",
+      "meaning": "送货司机",
+      "english": "The delivery driver brings our parcel.",
+      "chinese": "送货司机送来我们的包裹。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 4,
+          "text": "送货司机"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S04-033",
+      "word": "hairdresser",
+      "meaning": "理发师；美发师",
+      "english": "The hairdresser cuts my hair.",
+      "chinese": "美发师给我剪头发。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "美发师"
+        }
+      ],
+      "usage": "",
+      "note": "本句中文“美发师”对应 hairdresser，区别于常指男士理发的 barber。"
+    },
+    {
+      "id": "C07-S04-034",
+      "word": "barber",
+      "meaning": "理发师（常指男士理发）",
+      "english": "The barber trims his hair.",
+      "chinese": "理发师修剪他的头发。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "理发师"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S04-035",
+      "word": "artist",
+      "meaning": "艺术家；画家",
+      "english": "The artist paints a picture.",
+      "chinese": "画家画了一幅画。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "画家"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S04-036",
+      "word": "musician",
+      "meaning": "音乐家",
+      "english": "The musician plays the piano.",
+      "chinese": "音乐家弹钢琴。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "音乐家"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S04-037",
+      "word": "singer",
+      "meaning": "歌手",
+      "english": "The singer has a beautiful voice.",
+      "chinese": "这位歌手的嗓音很美。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "歌手"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S04-038",
+      "word": "actor",
+      "meaning": "男演员；演员",
+      "english": "The actor is in a new film.",
+      "chinese": "这位演员出演了一部新电影。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "演员"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S04-039",
+      "word": "photographer",
+      "meaning": "摄影师",
+      "english": "The photographer takes pictures outside.",
+      "chinese": "摄影师在外面拍照。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "摄影师"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S04-040",
+      "word": "scientist",
+      "meaning": "科学家",
+      "english": "The scientist studies plants.",
+      "chinese": "科学家研究植物。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "科学家"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S04-041",
+      "word": "engineer",
+      "meaning": "工程师",
+      "english": "The engineer designs bridges.",
+      "chinese": "工程师设计桥梁。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "工程师"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S04-042",
+      "word": "programmer",
+      "meaning": "程序员",
+      "english": "The programmer writes computer code.",
+      "chinese": "程序员编写计算机代码。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "程序员"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S04-043",
+      "word": "office worker",
+      "meaning": "办公室职员",
+      "english": "The office worker answers emails.",
+      "chinese": "办公室职员回复电子邮件。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 5,
+          "text": "办公室职员"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S04-044",
+      "word": "manager",
+      "meaning": "经理",
+      "english": "The manager leads the team.",
+      "chinese": "经理带领团队。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "经理"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S04-045",
+      "word": "librarian",
+      "meaning": "图书管理员",
+      "english": "The librarian helps us find books.",
+      "chinese": "图书管理员帮助我们找书。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 5,
+          "text": "图书管理员"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S05-001",
+      "word": "shopping",
+      "meaning": "购物",
+      "english": "We go shopping on Saturday.",
+      "chinese": "我们星期六去购物。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 8,
+          "text": "购物"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S05-002",
+      "word": "shop",
+      "meaning": "商店",
+      "english": "That shop sells toys.",
+      "chinese": "那家商店卖玩具。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "商店"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S05-003",
+      "word": "shopping centre",
+      "meaning": "购物中心",
+      "english": "The shopping centre is very large.",
+      "chinese": "购物中心很大。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 4,
+          "text": "购物中心"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S05-004",
+      "word": "shopping basket",
+      "meaning": "购物篮",
+      "english": "Put the apples in the shopping basket.",
+      "chinese": "把苹果放进购物篮。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 8,
+          "text": "购物篮"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S05-005",
+      "word": "shopping trolley",
+      "meaning": "购物推车（英式常用）",
+      "english": "The shopping trolley is full.",
+      "chinese": "购物推车装满了。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 4,
+          "text": "购物推车"
+        }
+      ],
+      "usage": "",
+      "note": "保留源词及 DJ 英式音标；录音使用 GA 美式读音，不替换词条或英国文化中的货币单位。"
+    },
+    {
+      "id": "C07-S05-006",
+      "word": "bag",
+      "meaning": "袋子；包",
+      "english": "I need a bag for these things.",
+      "chinese": "这些东西需要一个袋子。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 8,
+          "end": 10,
+          "text": "袋子"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S05-007",
+      "word": "product",
+      "meaning": "产品；商品",
+      "english": "This product is made in the UK.",
+      "chinese": "这件商品是英国制造的。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "商品"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S05-008",
+      "word": "item",
+      "meaning": "物品；一件商品",
+      "english": "Each item has a price.",
+      "chinese": "每件商品都有价格。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 4,
+          "text": "件商品"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S05-009",
+      "word": "price",
+      "meaning": "价格",
+      "english": "What is the price of this book?",
+      "chinese": "这本书多少钱？",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 6,
+          "text": "多少钱"
+        }
+      ],
+      "usage": "",
+      "note": "price 在问价句中，中文自然表达为“多少钱”，不是把 price 的每个字直译。"
+    },
+    {
+      "id": "C07-S05-010",
+      "word": "cost",
+      "meaning": "花费；费用",
+      "english": "How much does it cost?",
+      "chinese": "这个要多少钱？",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 6,
+          "text": "要多少钱"
+        }
+      ],
+      "usage": "",
+      "note": "cost 在本句作动词，问句 how much does it cost 整体问“要多少钱”。"
+    },
+    {
+      "id": "C07-S05-011",
+      "word": "money",
+      "meaning": "钱",
+      "english": "I am saving my money.",
+      "chinese": "我正在攒钱。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 5,
+          "text": "钱"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S05-012",
+      "word": "coin",
+      "meaning": "硬币",
+      "english": "I found a coin on the floor.",
+      "chinese": "我在地板上发现一枚硬币。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 9,
+          "end": 11,
+          "text": "硬币"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S05-013",
+      "word": "note",
+      "meaning": "纸币；钞票",
+      "english": "He paid with a ten-pound note.",
+      "chinese": "他用一张十英镑纸币付款。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 9,
+          "text": "纸币"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S05-014",
+      "word": "cash",
+      "meaning": "现金",
+      "english": "Do you want to pay by cash?",
+      "chinese": "你想用现金付款吗？",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "现金"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S05-015",
+      "word": "bank card",
+      "meaning": "银行卡",
+      "english": "I paid with my bank card.",
+      "chinese": "我用银行卡付款。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 5,
+          "text": "银行卡"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S05-016",
+      "word": "credit card",
+      "meaning": "信用卡",
+      "english": "My mum used a credit card.",
+      "chinese": "我妈妈使用了信用卡。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 9,
+          "text": "信用卡"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S05-017",
+      "word": "debit card",
+      "meaning": "借记卡",
+      "english": "He paid by debit card.",
+      "chinese": "他用借记卡付款。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 5,
+          "text": "借记卡"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S05-018",
+      "word": "wallet",
+      "meaning": "钱包（常指男士钱包）",
+      "english": "His wallet is in his bag.",
+      "chinese": "他的钱包在包里。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "钱包"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S05-019",
+      "word": "purse",
+      "meaning": "钱包；小零钱包",
+      "english": "She keeps coins in her purse.",
+      "chinese": "她把硬币放在零钱包里。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 9,
+          "text": "钱包"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S05-020",
+      "word": "change",
+      "meaning": "零钱；找零",
+      "english": "Here is your change.",
+      "chinese": "这是找给你的零钱。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 8,
+          "text": "零钱"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S05-021",
+      "word": "receipt",
+      "meaning": "收据",
+      "english": "Keep the receipt after you pay.",
+      "chinese": "付款后保留收据。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "收据"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S05-022",
+      "word": "bill",
+      "meaning": "账单",
+      "english": "Could we have the bill, please?",
+      "chinese": "请给我们账单好吗？",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "账单"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S05-023",
+      "word": "sale",
+      "meaning": "促销；特价销售",
+      "english": "These shoes are in the sale.",
+      "chinese": "这些鞋正在打折。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "打折"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S05-024",
+      "word": "discount",
+      "meaning": "折扣",
+      "english": "The shop gives a ten per cent discount.",
+      "chinese": "这家商店打九折。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 7,
+          "text": "打九折"
+        }
+      ],
+      "usage": "",
+      "note": "a ten per cent discount 表示减价百分之十，即打九折。"
+    },
+    {
+      "id": "C07-S05-025",
+      "word": "cheap",
+      "meaning": "便宜的",
+      "english": "This pen is cheap.",
+      "chinese": "这支笔很便宜。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "便宜"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S05-026",
+      "word": "expensive",
+      "meaning": "昂贵的",
+      "english": "That watch is too expensive.",
+      "chinese": "那块手表太贵了。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "太贵"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S05-027",
+      "word": "buy",
+      "meaning": "买",
+      "english": "I want to buy a new bag.",
+      "chinese": "我想买一个新包。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 3,
+          "text": "买"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S05-028",
+      "word": "pay",
+      "meaning": "付款",
+      "english": "Can I pay by card?",
+      "chinese": "我可以刷卡付款吗？",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "付款"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S05-029",
+      "word": "sell",
+      "meaning": "卖；出售",
+      "english": "They sell fresh bread here.",
+      "chinese": "他们在这里卖新鲜面包。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 6,
+          "text": "卖"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S05-030",
+      "word": "spend",
+      "meaning": "花费（金钱或时间）",
+      "english": "I do not spend much money on toys.",
+      "chinese": "我不会在玩具上花很多钱。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 8,
+          "text": "花"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S05-031",
+      "word": "save",
+      "meaning": "储蓄；节省",
+      "english": "I save a little money every week.",
+      "chinese": "我每周存一点钱。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 4,
+          "text": "存"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S05-032",
+      "word": "borrow",
+      "meaning": "借入",
+      "english": "Can I borrow one pound?",
+      "chinese": "我可以借一英镑吗？",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 4,
+          "text": "借"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S05-033",
+      "word": "lend",
+      "meaning": "借出",
+      "english": "I can lend you a pen.",
+      "chinese": "我可以借给你一支笔。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "借给"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S05-034",
+      "word": "customer",
+      "meaning": "顾客",
+      "english": "The customer asks a question.",
+      "chinese": "顾客问了一个问题。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "顾客"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S05-035",
+      "word": "queue",
+      "meaning": "队伍；排队",
+      "english": "Please wait in the queue.",
+      "chinese": "请排队等候。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "排队"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S05-036",
+      "word": "checkout",
+      "meaning": "收银台；结账处",
+      "english": "We paid at the checkout.",
+      "chinese": "我们在收银台付款。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 6,
+          "text": "收银台"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S05-037",
+      "word": "counter",
+      "meaning": "柜台",
+      "english": "Put the parcel on the counter.",
+      "chinese": "把包裹放在柜台上。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "柜台"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S05-038",
+      "word": "size",
+      "meaning": "尺寸；尺码",
+      "english": "Do you have this in a bigger size?",
+      "chinese": "这个有更大尺码的吗？",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "尺码"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S05-039",
+      "word": "try on",
+      "meaning": "试穿",
+      "english": "Can I try on this coat?",
+      "chinese": "我可以试穿这件外套吗？",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "试穿"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S05-040",
+      "word": "fitting room",
+      "meaning": "试衣间",
+      "english": "The fitting room is over there.",
+      "chinese": "试衣间在那边。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "试衣间"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S05-041",
+      "word": "clothes",
+      "meaning": "衣服",
+      "english": "These clothes are clean.",
+      "chinese": "这些衣服是干净的。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "衣服"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S05-042",
+      "word": "shoes",
+      "meaning": "鞋子",
+      "english": "My new shoes are comfortable.",
+      "chinese": "我的新鞋很舒服。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 3,
+          "end": 4,
+          "text": "鞋"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S05-043",
+      "word": "toy",
+      "meaning": "玩具",
+      "english": "The child chose a toy car.",
+      "chinese": "孩子选了一辆玩具车。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 6,
+          "end": 8,
+          "text": "玩具"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S05-044",
+      "word": "gift",
+      "meaning": "礼物",
+      "english": "I bought a gift for my friend.",
+      "chinese": "我给朋友买了一份礼物。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 8,
+          "end": 10,
+          "text": "礼物"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S05-045",
+      "word": "delivery",
+      "meaning": "配送；送货",
+      "english": "The delivery will arrive tomorrow.",
+      "chinese": "货物明天送到。",
+      "mode": "usage",
+      "spans": [],
+      "usage": "delivery 在本句中指货物的配送；中文用“货物明天送到”表达配送到达，通常不再单独加上“配送”二字。请结合完整例句理解。",
+      "note": ""
+    },
+    {
+      "id": "C07-S05-046",
+      "word": "refund",
+      "meaning": "退款",
+      "english": "The shop gave me a refund.",
+      "chinese": "商店给我办理了退款。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 7,
+          "end": 9,
+          "text": "退款"
+        }
+      ],
+      "usage": "",
+      "note": ""
+    },
+    {
+      "id": "C07-S05-047",
+      "word": "pound",
+      "meaning": "英镑",
+      "english": "This book costs five pounds.",
+      "chinese": "这本书要五英镑。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "英镑"
+        }
+      ],
+      "usage": "",
+      "note": "保留源词及 DJ 英式音标；录音使用 GA 美式读音，不替换词条或英国文化中的货币单位。"
+    },
+    {
+      "id": "C07-S05-048",
+      "word": "penny",
+      "meaning": "便士",
+      "english": "One hundred pence make one pound.",
+      "chinese": "一百便士等于一英镑。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "便士"
+        }
+      ],
+      "usage": "",
+      "note": "penny 的复数可用 pence，源例句使用 pence。本题沿用原有词条拼写练习，填写 penny；例句中保留 pence。"
+    },
+    {
+      "id": "C07-S05-049",
+      "word": "budget",
+      "meaning": "预算",
+      "english": "We have a small budget for the trip.",
+      "chinese": "我们的旅行预算不多。",
+      "mode": "aligned",
+      "spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "预算"
+        }
+      ],
+      "usage": "",
+      "note": ""
     }
   ]
 }

@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.1",
+  "category_id": "C07",
+  "category_name": "出行与社会",
+  "pronunciation_system": "DJ 英式音标（British English IPA）",
+  "audio_pronunciation_note": "音标采用 DJ 英式标注；实际朗读继续遵循小蛙自习室既定的美式英语 GA 规范。本包不包含 MP3。",
+  "window_count": 4,
+  "subcategory_count": 5,
+  "item_count": 218,
+  "subcategories": [
+    {
+      "id": "C07-S01",
+      "name": "交通工具",
+      "filename": "01_交通工具.json",
+      "item_count": 46
+    },
+    {
+      "id": "C07-S02",
+      "name": "城市与公共场所",
+      "filename": "02_城市与公共场所.json",
+      "item_count": 39
+    },
+    {
+      "id": "C07-S03",
+      "name": "方向与位置",
+      "filename": "03_方向与位置.json",
+      "item_count": 39
+    },
+    {
+      "id": "C07-S04",
+      "name": "职业与工作",
+      "filename": "04_职业与工作.json",
+      "item_count": 45
+    },
+    {
+      "id": "C07-S05",
+      "name": "购物与金钱",
+      "filename": "05_购物与金钱.json",
+      "item_count": 49
+    }
+  ],
+  "windows": [
+    {
+      "window_id": "C07-W01",
+      "window_name": "交通、方向与位置",
+      "filename": "01_交通、方向与位置.json",
+      "item_count": 85,
+      "subcategory_count": 2,
+      "subcategories": [
+        {
+          "id": "C07-S01",
+          "name": "交通工具",
+          "source_filename": "01_交通工具.json",
+          "item_count": 46
+        },
+        {
+          "id": "C07-S03",
+          "name": "方向与位置",
+          "source_filename": "03_方向与位置.json",
+          "item_count": 39
+        }
+      ]
+    },
+    {
+      "window_id": "C07-W02",
+      "window_name": "城市与公共场所",
+      "filename": "02_城市与公共场所.json",
+      "item_count": 39,
+      "subcategory_count": 1,
+      "subcategories": [
+        {
+          "id": "C07-S02",
+          "name": "城市与公共场所",
+          "source_filename": "02_城市与公共场所.json",
+          "item_count": 39
+        }
+      ]
+    },
+    {
+      "window_id": "C07-W03",
+      "window_name": "职业与工作",
+      "filename": "03_职业与工作.json",
+      "item_count": 45,
+      "subcategory_count": 1,
+      "subcategories": [
+        {
+          "id": "C07-S04",
+          "name": "职业与工作",
+          "source_filename": "04_职业与工作.json",
+          "item_count": 45
+        }
+      ]
+    },
+    {
+      "window_id": "C07-W04",
+      "window_name": "购物与金钱",
+      "filename": "04_购物与金钱.json",
+      "item_count": 49,
+      "subcategory_count": 1,
+      "subcategories": [
+        {
+          "id": "C07-S05",
+          "name": "购物与金钱",
+          "source_filename": "05_购物与金钱.json",
+          "item_count": 49
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "01_交通、方向与位置.json": {
+    "sha256": "3a99292f6ad33f8eb15567f69ef16c202c16e43ce1762506f9d2f6c0d94a1e4d",
+    "bytes": 46010
+  },
+  "02_城市与公共场所.json": {
+    "sha256": "ac514f829b5c53d3c9b22cb6e9785f58152ee0d51d8223ff56d477963e9ea8ca",
+    "bytes": 21947
+  },
+  "出行与社会_审阅版.md": {
+    "sha256": "dde932ccb50fabe967e8c30841594b30c2498c2ef0433c27e3dfd689e7127c5c",
+    "bytes": 27757
+  },
+  "出行与社会_分类目录.json": {
+    "sha256": "edcdd2db4dd927092bef53244bf87b64ab67d2063e0588bf86a64d05699c5f5d",
+    "bytes": 2856
+  },
+  "04_购物与金钱.json": {
+    "sha256": "ba8c839cef776c61cc4cc584e69fa7d5cd2f5e8282d833700e545ac157c48f33",
+    "bytes": 26579
+  },
+  "03_职业与工作.json": {
+    "sha256": "16766754b3e90530bca1dc13431a0f2a87c21c7c16225b1ea8dc8e3463e129fc",
+    "bytes": 24973
+  }
+}

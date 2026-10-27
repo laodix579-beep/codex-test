@@ -12,7 +12,7 @@ BASELINE = 'c9487d016cfa526d242563d7f8dcf755ce96aa5e'
 old_html = subprocess.check_output(['git', 'show', BASELINE + ':index.html'], text=True)
 new_html = (ROOT / 'index.html').read_text()
 pattern = r'<script id="practice-group-library">.*?</script>\s*'
-# Application/source immutability is checked against v41 by animal_nature.py;
+# Application/source immutability is checked against v43 by travel_social.py;
 # this file also exercises every pre-merge v40 historical subset.
 old_groups = json.loads(subprocess.check_output(['git', 'show', BASELINE + ':data/practice-groups.json']))
 new_groups = json.loads((ROOT / 'data/practice-groups.json').read_text())
@@ -20,7 +20,7 @@ assert [s for s in old_groups['subcategories'] if s['subcategoryId'].startswith(
 small = [(s['subcategoryId'], g) for s in old_groups['subcategories'] for g in s['groups'] if len(g['wordIds']) < 10]
 assert len(small) == 25
 audit = json.loads((ROOT / 'reports/practice-group-audit.json').read_text())
-assert (audit['totalWords'], audit['populatedEntrances'], audit['practiceGroups'], audit['chooserEntrances'], audit['directEntrances'], audit['emptyEntrances']) == (1210, 24, 76, 22, 2, 8)
+assert (audit['totalWords'], audit['populatedEntrances'], audit['practiceGroups'], audit['chooserEntrances'], audit['directEntrances'], audit['emptyEntrances']) == (1428, 28, 88, 26, 2, 4)
 sizes = [g['words'] for s in audit['subcategories'] for g in s['groups']]
 assert min(sizes) == 10 and max(sizes) == 24
 for file in ['data/basic-vocabulary.json', 'data/category-art.json', 'data/food-health-practice-sections.json', 'category-files.js']:
@@ -29,13 +29,13 @@ for folder in ['time-nature', 'school-learning', 'family-daily', 'food-health']:
     for file in (ROOT / 'data' / folder).glob('*.json'):
         assert file.read_bytes() == subprocess.check_output(['git', 'show', BASELINE + ':' + file.relative_to(ROOT).as_posix()])
 recordings = json.loads((ROOT / 'reports/all-audio-sha256.json').read_text())
-assert len(recordings) == 2616
+assert len(recordings) == 3017
 for path, row in recordings.items():
     assert hashlib.sha256((ROOT / path).read_bytes()).hexdigest() == row['sha256']
 for catalog in ['data/scene-catalog.json', 'data/category-art.json']:
     for sheet in json.loads((ROOT / catalog).read_text())['sheets']:
         assert hashlib.sha256((ROOT / sheet['path']).read_bytes()).hexdigest() == sheet['sha256']
-print('PASS: 1210 words across 24 populated entrances, all 76 study groups are 10–24 words; every original recording/image/source and application function preserved', flush=True)
+print('PASS: 1428 words across 28 populated entrances, all 88 study groups are 10–24 words; every original recording/image/source and application function preserved', flush=True)
 
 with sync_playwright() as p:
     browser = p.chromium.launch(executable_path='/usr/bin/chromium', args=['--no-sandbox'])
@@ -62,8 +62,8 @@ with sync_playwright() as p:
         page = context.new_page();page.on('pageerror', lambda e: errors.append(str(e)))
         page.goto(BASE + '#home')
         current = page.evaluate('JSON.parse(localStorage.getItem(document.body.dataset.storageKey))')
-        assert [w for w in current['words'] if w['categoryId'] != 'C06'] == state['words']
-        assert current['contentPacks'] == state['contentPacks'] + ['animal-nature-v1']
+        assert [w for w in current['words'] if w['categoryId'] not in ['C06','C07']] == state['words']
+        assert current['contentPacks'] == state['contentPacks'] + ['animal-nature-v1','travel-social-v1']
         for key in ['wordStatus', 'settings', 'favorites', 'notes', 'plan', 'practiceResume']:
             assert current[key] == state[key], (sub, group['id'], key)
         assert current['days']['2020-01-01'] == state['days']['2020-01-01']
