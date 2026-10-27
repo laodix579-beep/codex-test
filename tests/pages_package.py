@@ -16,7 +16,7 @@ class Quiet(SimpleHTTPRequestHandler):
 
 with TemporaryDirectory(prefix='mvp-pages-') as directory:
  target=Path(directory)/'codex-test';target.mkdir()
- with zipfile.ZipFile(Path(sys.argv[1]) if len(sys.argv)>1 else Path('/workspace/output/laok-pages-v42.zip')) as archive:
+ with zipfile.ZipFile(Path(sys.argv[1]) if len(sys.argv)>1 else Path('/workspace/output/laok-pages-v43.zip')) as archive:
   assert archive.testzip() is None
   assert archive.read('index.html')==archive.read('小蛙自习室.html')==(ROOT/'index.html').read_bytes()
   assert archive.read('assets/home-hero.png')==(ROOT/'assets/home-hero.png').read_bytes()
@@ -47,7 +47,7 @@ with TemporaryDirectory(prefix='mvp-pages-') as directory:
     page=context.new_page();errors=[];page.on('pageerror',lambda e:errors.append(str(e)))
     base=f'http://127.0.0.1:{server.server_port}/codex-test/'
     page.goto(base+'#home')
-    assert page.locator('.mvp-resume').is_visible() if not mobile else page.locator('.dashboard-header').is_visible()
+    assert page.locator('.mvp-resume').is_visible()
     page.goto(base+'#settings')
     page.wait_for_function('document.querySelector("[data-mobile-status]").textContent.startsWith("已保存离线内容")',timeout=90000)
     context.set_offline(True)
@@ -62,7 +62,7 @@ with TemporaryDirectory(prefix='mvp-pages-') as directory:
      assert page.locator('.home-category-tile').count()==8
      assert page.locator('#home-user-menu>summary').is_visible()
     page.goto(base+'#words');page.reload()
-    assert page.locator('.vocab-category').count()==(6 if mobile else 8)
+    assert page.locator('.vocab-category').count()==8
     if not mobile:
      page.goto(base+'#words/C01')
      page.wait_for_function('document.querySelectorAll(".mvp-subcategory-art img").length===4&&[...document.querySelectorAll(".mvp-subcategory-art img")].every(img=>img.complete&&img.naturalWidth>0)')
@@ -175,7 +175,7 @@ with TemporaryDirectory(prefix='mvp-pages-') as directory:
      page.evaluate("window.packClosed=false;document.querySelector('#lesson-dialog').addEventListener('close',()=>packClosed=true,{once:true})")
      page.locator('.practice-back').click();page.wait_for_function('packClosed')
     page.goto(base+'小蛙自习室.html#words');page.wait_for_selector('.vocab-category')
-    assert page.locator('.vocab-category').count()==(6 if mobile else 8)
+    assert page.locator('.vocab-category').count()==8
     assert not errors,errors
     print(f'PASS: extracted ZIP {"phone" if mobile else "desktop"}, subdirectory routes, offline UI, original MP3, byte range, compatibility entry and key repeats',flush=True)
     context.close()

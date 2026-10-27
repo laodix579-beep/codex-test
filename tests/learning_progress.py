@@ -10,6 +10,7 @@ with sync_playwright() as p:
     browser = p.chromium.launch(executable_path='/usr/bin/chromium', headless=True, args=['--no-sandbox'])
     context = browser.new_context(viewport={'width': 1672, 'height': 945}, accept_downloads=True)
     context.add_init_script("Object.defineProperty(window,'speechSynthesis',{get(){throw new Error('TTS forbidden')}})")
+    context.add_init_script("{const pending=sessionStorage.getItem('progress-next-state');if(pending){const {key,state}=JSON.parse(pending);localStorage.setItem(key,JSON.stringify(state));sessionStorage.removeItem('progress-next-state');}}")
     page = context.new_page()
     errors = []
     page.on('pageerror', lambda e: errors.append(str(e)))
@@ -47,7 +48,7 @@ with sync_playwright() as p:
       s.wordStatus={};ids.slice(0,22).forEach(id=>s.wordStatus[id]='mastered');s.wordStatus[ids[3]]='unfamiliar';s.wordStatus[ids[135]]='mastered';s.plan.minutes=20;s.plan.words=50;
       s.practiceResume={ids:ids.slice(0,22),wordId:ids[3],answered:false,finished:false};
       s.notes=[{id:'progress-note',title:'原有手账',body:'保留学习记录',createdAt:'2026-10-01T00:00:00Z',updatedAt:'2026-10-01T00:00:00Z'}];
-      s.challenges=[{id:'old-challenge',createdAt:'2026-10-01T00:00:00Z',correct:8,answered:10,score:80}];localStorage.setItem(key,JSON.stringify(s));return dates;}''')
+      s.challenges=[{id:'old-challenge',createdAt:'2026-10-01T00:00:00Z',correct:8,answered:10,score:80}];sessionStorage.setItem('progress-next-state',JSON.stringify({key,state:s}));return dates;}''')
     page.reload()
     baseline = saved()
     expect(page.locator('[data-progress-today-time]')).to_have_text('9分钟')
@@ -126,7 +127,7 @@ with sync_playwright() as p:
     page.locator('.progress-goal-footer [data-action="progress-continue"]').click()
     expect(page.locator('#lesson-course')).to_contain_text('· 5/22')
     back()
-    page.evaluate('''()=>{const key=document.body.dataset.storageKey,s=JSON.parse(localStorage.getItem(key));const date=Object.keys(s.days).sort().pop();s.days[date].seconds=1200;s.days[date].words=s.words.slice(0,50).map(w=>w.id);localStorage.setItem(key,JSON.stringify(s));}''')
+    page.evaluate('''()=>{const key=document.body.dataset.storageKey,s=JSON.parse(localStorage.getItem(key));const date=Object.keys(s.days).sort().pop();s.days[date].seconds=1200;s.days[date].words=s.words.slice(0,50).map(w=>w.id);sessionStorage.setItem('progress-next-state',JSON.stringify({key,state:s}));}''')
     page.reload()
     page.locator('.progress-goal-footer [data-action="checkin"]').click()
     expect(page.locator('[data-progress-streak]')).to_have_text('4天')

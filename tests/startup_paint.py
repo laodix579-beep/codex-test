@@ -75,9 +75,9 @@ try:
     else:
      assert page.locator('.startup-screen').is_visible()
      assert page.locator('.app-main').is_hidden() and page.locator('#sidebar').is_hidden()
-     assert page.locator('html').evaluate('e=>e.classList.contains("desktop-mvp")')== (not mobile)
-     assert page.locator('body').evaluate('e=>e.classList.contains("desktop-mvp")')== (not mobile)
-     if not mobile:assert page.locator('body').evaluate('e=>getComputedStyle(e).backgroundColor')=='rgb(246, 247, 255)'
+     assert page.locator('html').evaluate('e=>e.classList.contains("desktop-mvp")')== True
+     assert page.locator('body').evaluate('e=>e.classList.contains("desktop-mvp")')== True
+     assert page.locator('body').evaluate('e=>getComputedStyle(e).backgroundColor')=='rgb(246, 247, 255)'
      page.screenshot(path=f'/tmp/startup-boot-{case}.png')
     run.first.set();page.wait_for_function('!!window.FrogMobile&&__startupFrames.length>=6')
     if not baseline:assert page.locator('.startup-screen').is_visible() and page.locator('.app-main').is_hidden()
@@ -88,7 +88,7 @@ try:
      assert page.locator('.app-main').is_visible()
      assert page.get_by_role('button',name='重新加载',exact=True).is_visible()
     else:
-     page.locator('.dashboard-header' if mobile else '.mvp-resume').wait_for(state='visible')
+     page.locator('.mvp-resume').wait_for(state='visible')
      if not baseline:
       assert page.locator('.startup-screen').is_hidden()
       assert page.locator('html').evaluate('e=>!e.classList.contains("app-booting")')
@@ -96,10 +96,10 @@ try:
     frames=page.evaluate('__startupFrames')
     if not baseline:
      assert not any(f['appVisible'] and not f['ready'] and not f['error'] for f in frames),frames
-     if not mobile:assert not any(f['frogVisible'] or f['bg']=='rgb(16, 17, 20)' for f in frames),frames
+     assert not any(f['frogVisible'] or f['bg']=='rgb(16, 17, 20)' for f in frames),frames
      if not failure:assert not errors,errors
      page.screenshot(path=f'/tmp/startup-ready-{case}.png')
-     results.append({'profile':case,'framesChecked':len(frames),'appHiddenUntilReady':True,'oldDesktopShellNeverPainted':None if mobile else True,'failureVisible':failure})
+     results.append({'profile':case,'framesChecked':len(frames),'appHiddenUntilReady':True,'oldDesktopShellNeverPainted':True,'failureVisible':failure})
      print('PASS:',case,'gated slow-load frames, early layout, ready/failure reveal and no old desktop paint',flush=True)
    context.close()
   browser.close()
