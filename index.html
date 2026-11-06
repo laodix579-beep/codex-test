@@ -1035,7 +1035,7 @@ body.mobile-mvp{font-size:14px;--ink:#1c2148;--muted:#737b9b;--purple:#7860ff;mi
   <noscript><p>请在浏览器中启用 JavaScript 后使用此本地学习站。</p></noscript>
 
 <script src="delivery-config.js"></script>
-<script defer src="delivery-client.js"></script>
+<script defer src="delivery-client.js?v=network-v2"></script>
 <script type="text/plain" data-online-runtime>
 /* Independent local practice audio and speech helpers. No site credentials. */
 (() => {
@@ -1378,7 +1378,7 @@ body.mobile-mvp{font-size:14px;--ink:#1c2148;--muted:#737b9b;--purple:#7860ff;mi
 <script type="text/plain" data-online-runtime>
 (() => {
   'use strict';
-  window.FROG_OFFLINE_CACHE="frog-online-v1";
+  window.FROG_OFFLINE_CACHE="frog-online-v2-network";
   let installPrompt=null;
   let offlineReady=false;
   let registrationFailed=false;
@@ -2491,7 +2491,7 @@ body.mobile-mvp{font-size:14px;--ink:#1c2148;--muted:#737b9b;--purple:#7860ff;mi
       for(let attempt=0;attempt<2;attempt++){
         const controller=new AbortController(),timeout=setTimeout(()=>controller.abort(),15000);
         try{
-          const response=await fetch(source,{signal:controller.signal,cache:attempt?'reload':'default'});
+          const response=await FrogDelivery.fetchMedia(source,{signal:controller.signal,cache:attempt?'reload':'default'});
           if(!response.ok||response.status===206)throw new Error('Incomplete recording');
           const bytes=await response.arrayBuffer();
           if(!bytes.byteLength)throw new Error('Empty recording');
@@ -2568,7 +2568,7 @@ body.mobile-mvp{font-size:14px;--ink:#1c2148;--muted:#737b9b;--purple:#7860ff;mi
     };
     speechMessage('正在缓冲完整录音，加载完成后自动播放…');
     if(bank.storage!=='files'||location.protocol==='file:')start(source);
-    else {const cached=recordingCache.get(source);if(cached)start(cached.url);else completeRecording(source,bank.sha256?.[key]).then(start,failed);}
+    else {const cached=recordingCache.get(source);if(cached)start(cached.url);else completeRecording(source,bank.sha256?.[key]).then(start,error=>{if(valid()&&source.startsWith(window.LAOK_DELIVERY.api+'/media/')&&['TypeError','AbortError','TimeoutError'].includes(error.name)){audio.dataset.transport='native';start(source);}else failed();});}
     return audio;
   }
   function speak(text,onEnd,onFailure,options={}) {

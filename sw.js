@@ -1,5 +1,5 @@
 // Cache only the Pages shell. Never bulk-fetch vocabulary, images, or audio.
-const CACHE='frog-online-v1';
+const CACHE='frog-online-v2-network';
 const ROOT=new URL('./',self.location.href);
 const FILES=['index.html','delivery-client.js','delivery-config.js','manifest.webmanifest','icon-192.png','icon-512.png','apple-touch-icon.png'];
 self.addEventListener('install',event=>event.waitUntil((async()=>{
