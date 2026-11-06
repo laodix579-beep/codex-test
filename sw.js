@@ -1,5 +1,5 @@
 // Immutable static assets + cached navigation first. No blocking audio manifest.
-const CACHE="frog-static-fast-v2-0c50ad316cfc",MEDIA='frog-static-media-v2',ROOT=new URL('./',self.location.href),SHELL=["index.html", "runtime/styles.0c032bb585e03d071a68f176.css", "runtime/app.e4819c5442b6ca68b041bc9e.js", "manifest.webmanifest", "icon-192.png", "icon-512.png", "apple-touch-icon.png"],APP="runtime/app.e4819c5442b6ca68b041bc9e.js";
+const CACHE="frog-static-fast-v3-c5000f0a42fb",MEDIA='frog-static-media-v2',ROOT=new URL('./',self.location.href),SHELL=["index.html", "runtime/styles.0c032bb585e03d071a68f176.css", "runtime/app.1bacd9f79efe112aa8155bce.js", "manifest.webmanifest", "icon-192.png", "icon-512.png", "apple-touch-icon.png"],APP="runtime/app.1bacd9f79efe112aa8155bce.js";
 self.addEventListener('install',event=>event.waitUntil((async()=>{
  const cache=await caches.open(CACHE);
  // Default HTTP caching reuses resources already fetched for the first page.
